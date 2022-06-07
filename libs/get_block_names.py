@@ -13,7 +13,6 @@ from loguru import logger
 import time
 import json
 import sys
-import pathlib
 
 from utils.helper import project_dir
 
@@ -86,4 +85,29 @@ logger.debug(f"got {len(data)} blocks")
 with open(project_dir / "data" / "enabled_blocks.json", 'w') as json_file:
     blocks['blocks'] = list(data.keys())
     json.dump(blocks, json_file)
+ver_file = project_dir / "data" / "rules_editor_version"
+ver_backup_file = project_dir / "data" / "rules_editor_version_history"
+ver_file.touch(exist_ok=True)
+
+with ver_file.open() as file:
+    data = file.read().strip().split('\n')[-1]
+    if len(data):
+        curr_ver = int(data)
+    else:
+        curr_ver = 0
+
+new_ver = 0
+for elm in driver.find_elements(By.TAG_NAME, 'script'):
+    src = elm.get_attribute('src')
+    if "main" in src:
+        new_ver = int(src.split("/")[-2])
+        break
+
+if new_ver > curr_ver:
+    with ver_backup_file.open('a') as file:
+        file.write(f'{curr_ver}\n')
+    with ver_file.open('w') as file:
+        file.write(f'{new_ver}')
+
+
 logger.debug("Saved info.. exiting")
