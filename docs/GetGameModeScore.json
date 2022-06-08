@@ -1,0 +1,1 @@
+{"block": "GetGameModeScore", "summary": "Returns the current gamemode score of the provided **Player** or **TeamId**.", "inputs": ["1. **Player** | **TeamId**"], "output": ["-   **Number**"]}

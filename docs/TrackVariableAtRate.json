@@ -1,0 +1,1 @@
+{"block": "TrackVariableAtRate", "summary": "Gradually modifies the value of a **Variable** at a specified rate (value/second) until it reaches the provided limit.", "inputs": ["1. **Variable**", "2. **Number**", "    **(Limit)**", "3. **Number**", "    **(Rate)**"]}

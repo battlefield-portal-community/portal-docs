@@ -1,0 +1,1 @@
+{"block": "DealDamage", "summary": "Sets an amount of damage to be applied to a target **Player** by a giver **Player**.", "inputs": ["1. **Player**", "    **(Target)**", "2. **Number**", "3. **Player**", "    **(Giver)**", "    **_Optional_**"]}

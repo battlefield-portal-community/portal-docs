@@ -1,0 +1,1 @@
+{"block": "SkipMandown", "summary": "Sets the target **Player** to skip the mandown state and go directly to the deploy screen when killed.", "inputs": ["1. **Player**", "2. **Bool**"]}

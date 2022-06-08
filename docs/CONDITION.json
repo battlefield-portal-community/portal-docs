@@ -1,0 +1,1 @@
+{"block": "CONDITION", "summary": "Evaluates the condition to run a **RULE** or **SUBROUTINE** block based on the **Bool** input.", "inputs": ["1. **Bool**"]}

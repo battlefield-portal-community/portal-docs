@@ -1,0 +1,1 @@
+{"block": "UndeployPlayer", "summary": "Undeploys a target **Player** that is alive on the battlefield back to the deploy screen.", "inputs": ["1. **Player**"]}

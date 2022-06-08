@@ -1,0 +1,1 @@
+{"block": "Skip", "summary": "Skips a provided number of **ACTIONS** in the **RULE** following this block.", "inputs": ["1. **Number**"]}

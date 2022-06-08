@@ -1,0 +1,1 @@
+{"block": "EnableDefaultGameModeScoring", "summary": "Enables or disables default gamemode scoring logic. The default scoring logic refers to the base gamemode scoring rules (such as getting kills in Team Deathmatch or Free-for-All). Disable this if you want to implement your own custom scoring logic.", "inputs": ["1. **Bool**"]}

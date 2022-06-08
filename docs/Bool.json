@@ -1,0 +1,1 @@
+{"block": "Bool", "summary": "A **Bool** is fancy game developer talk for a **_True_** or **_False_** value. This type is used to define or identify the state of a variety of things.  \n  \nIs a player currently prone?  \n  \nIs the player using a specific soldier?  \n  \nCan players not score points because of some custom condition?"}

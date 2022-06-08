@@ -1,0 +1,1 @@
+{"block": "EnablePlayerDeploy", "summary": "Enables or disables the ability for a target **Player** to deploy.", "inputs": ["1. **Player**", "2. **Bool**"]}

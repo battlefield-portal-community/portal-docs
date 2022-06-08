@@ -1,0 +1,1 @@
+{"block": "IsVehicleOccupied", "summary": "Returns a **Bool** indicating if the target **Vehicle** is a occupied by a player.", "inputs": ["1. **Vehicle**"], "output": ["1. **Bool**"]}

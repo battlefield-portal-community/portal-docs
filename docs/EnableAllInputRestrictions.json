@@ -1,0 +1,1 @@
+{"block": "EnableAllInputRestrictions", "summary": "Enables or disables all available input restrictions for a target **Player**.", "inputs": ["1. **Player**", "2. **Bool**"]}

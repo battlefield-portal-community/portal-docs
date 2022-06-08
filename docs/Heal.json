@@ -1,0 +1,1 @@
+{"block": "Heal", "summary": "Sets the amount of health gained in an instant for a target **Player** applied by a healer **Player**.", "inputs": ["1. **Player**", "    **(Target)**", "2. **Number**", "3. **Player**", "    **(Healer)**", "    **_Optional_**"]}

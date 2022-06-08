@@ -1,0 +1,1 @@
+{"block": "GetPlayerDeaths", "summary": "Returns the total amount of deaths for the target **Player**.", "inputs": ["1. **Player**"], "output": ["-   **Number**"]}
