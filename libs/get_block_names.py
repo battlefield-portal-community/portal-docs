@@ -1,3 +1,6 @@
+import os
+
+import requests
 from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
 from webdriver_manager.core.utils import ChromeType
@@ -13,13 +16,13 @@ from loguru import logger
 import time
 import json
 import sys
-
+from dotenv import load_dotenv
 from utils.helper import project_dir
+load_dotenv()
 
 chrome_service = Service(ChromeDriverManager(chrome_type=ChromeType.CHROMIUM).install())
-
-
 chrome_options = Options()
+
 options = [
     "--headless",
     "--disable-gpu",
@@ -33,7 +36,11 @@ options = [
 for option in options:
     chrome_options.add_argument(option)
 
+
+# chrome_options.add_argument("--detach")
+
 chrome_options.add_argument("user-data-dir=/tmp/selenium")
+
 driver = webdriver.Chrome(service=chrome_service, options=chrome_options)
 
 
@@ -58,8 +65,12 @@ except TimeoutException:
     try:
         logger.debug('Not logged in....')
         web_driver_wait(By.CLASS_NAME, 'login-button').click()
-        web_driver_wait(By.ID, 'email').send_keys('bfportal.community@gmail.com')
-        web_driver_wait(By.ID, 'password').send_keys('ix*ZaV95%yq55UL!')
+        email = os.getenv('BFPORTAL_EMAIL', None)
+        password = os.getenv('BFPORTAL_PASSWORD', None)
+        if email is None or password is None:
+            sys.exit("email and password to login not found")
+        web_driver_wait(By.ID, 'email').send_keys(email)
+        web_driver_wait(By.ID, 'password').send_keys(password)
         logger.debug('login info set....')
         web_driver_wait(By.ID, 'logInBtn').click()
         logger.debug("Trying to log in ....")
@@ -85,6 +96,9 @@ logger.debug(f"got {len(data)} blocks")
 with open(project_dir / "data" / "enabled_blocks.json", 'w') as json_file:
     blocks['blocks'] = list(data.keys())
     json.dump(blocks, json_file)
+
+logger.debug("Saving Version info")
+
 ver_file = project_dir / "data" / "rules_editor_version"
 ver_backup_file = project_dir / "data" / "rules_editor_version_history"
 ver_file.touch(exist_ok=True)
@@ -109,5 +123,8 @@ if new_ver > curr_ver:
     with ver_file.open('w') as file:
         file.write(f'{new_ver}')
 
+logger.debug("filter and save i18n json")
+with open(project_dir / "data" / "i18n.json", 'w') as file:
+    json.dump(requests.get(f"https://portal.battlefield.com/{new_ver}/assets/i18n/en-US.json").json(), file)
 
-logger.debug("Saved info.. exiting")
+logger.debug("All tasks complete ")
