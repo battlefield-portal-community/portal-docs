@@ -2,6 +2,8 @@ name: ScrapeBlockNames
 on:
   workflow_dispatch:
 jobs:
+  
+  
   get_enabled_blocks:
     runs-on: ubuntu-latest
     env:
@@ -25,7 +27,39 @@ jobs:
         run: pip install -r requirements.txt
       - name: Run the scraping script
         run: python libs/get_block_names.py
+  
+
+  generate_data:
+    needs: get_enabled_blocks
+    runs-on: ubuntu-latest
+    steps:
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.10'
+      - name: Install all necessary packages
+        run: pip install -r requirements.txt
+      - name: Generating Data
+        run: python libs/gen_data.py
+
+  
+  generate_docs:
+    needs: generate_data
+
+    runs-on: ubuntu-latest
+    steps:
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.10'
+      - name: Install all necessary packages
+        run: pip install -r requirements.txt
+      - name: Generating Data
+        run: python libs/gen_docs.py    
+
+  
   commit_changes:
+    needs: generate_docs
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
