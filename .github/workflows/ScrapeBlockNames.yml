@@ -19,6 +19,6 @@ jobs:
       # - name: Install software
       #   run: sudo apt install -y chromium-browser
       - name: Install all necessary packages
-        run: pip install requests webdriver-manager selenium
+        run: pip install -r requirements.txt
       - name: Run the scraping script
         run: python libs/get_block_names.py
