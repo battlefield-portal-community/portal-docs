@@ -30,7 +30,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-artifact@v3
         with:
-          name: my-artifact
+          name: data-artifact
           path: data/
   
 
@@ -44,7 +44,8 @@ jobs:
       - name: Download artifact
         uses: actions/download-artifact@v3
         with:
-          name: my-artifact
+          name: data-artifact
+          path: data/
           
       - name: Set up Python
         uses: actions/setup-python@v2
@@ -57,7 +58,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-artifact@v3
         with:
-          name: my-artifact
+          name: data-artifact
           path: data/
   
   
@@ -72,6 +73,7 @@ jobs:
         uses: actions/download-artifact@v3
         with:
           name: my-artifact
+          path: data/
     
       - name: Set up Python
         uses: actions/setup-python@v2
@@ -79,16 +81,21 @@ jobs:
           python-version: '3.10'
       - name: Install all necessary packages
         run: pip install -r requirements.txt
-      - name: Generating Data
+      - name: Generating Docs
         run: python libs/gen_docs.py    
 
-      - name: Upload artifact
+      - name: Upload data artifact
         uses: actions/upload-artifact@v3
         with:
-          name: my-artifact
-          path: |
-            docs/
-            data/
+          name: data-artifact
+          path: data/
+      - name: Upload docs artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: docs-artifact
+          path: docs/
+
+
 
   
   commit_changes:
@@ -96,10 +103,16 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: Download artifact
+      - name: Download data artifact
         uses: actions/download-artifact@v3
         with:
-          name: my-artifact
+          name: data-artifact
+          path: data/
+      - name: Download docs artifact
+        uses: actions/download-artifact@v3
+        with:
+          name: data-artifact
+          path: docs/
       
       - run: |
           git fetch --prune --unshallow
