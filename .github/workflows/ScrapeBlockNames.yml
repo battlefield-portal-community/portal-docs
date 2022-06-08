@@ -4,6 +4,9 @@ on:
 jobs:
   scrape:
     runs-on: ubuntu-latest
+    env:
+      BFPORTAL_EMAIL: ${{ env.BFPORTAL_EMAIL }}
+      BFPORTAL_PASSWORD: ${{ env.BFPORTAL_PASSWORD }}
     steps:
       - name: Check out this repo
         uses: actions/checkout@v2
