@@ -122,6 +122,6 @@ jobs:
           git diff
           git config --global user.email "github-action-bot@example.com"
           git config --global user.name "GitHub Action Bot"
-          git commit -m "Successfully generated docs 🎉🎉🎉" -a || echo "No changes to commit"
+          git commit -m "Successfully generated docs 🎉" -a || echo "No changes to commit"
           git push          
     
