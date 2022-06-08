@@ -69,10 +69,10 @@ jobs:
     steps:
       - name: Check out this repo
         uses: actions/checkout@v2
-      - name: Download artifact
+      - name: Download data artifact
         uses: actions/download-artifact@v3
         with:
-          name: my-artifact
+          name: data-artifact
           path: data/
     
       - name: Set up Python
