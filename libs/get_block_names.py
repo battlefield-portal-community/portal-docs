@@ -17,7 +17,7 @@ import time
 import json
 import sys
 from dotenv import load_dotenv
-from utils.helper import project_dir
+from helper import project_dir
 load_dotenv()
 
 chrome_service = Service(ChromeDriverManager(chrome_type=ChromeType.CHROMIUM).install())
