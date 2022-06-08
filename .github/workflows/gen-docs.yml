@@ -28,7 +28,7 @@ jobs:
       - name: Run the scraping script
         run: python libs/get_block_names.py
       - name: Upload artifact
-      - uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v3
         with:
           name: my-artifact
           path: data/
@@ -42,7 +42,7 @@ jobs:
       - name: Check out this repo
         uses: actions/checkout@v2
       - name: Download artifact
-      - uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v3
         with:
           name: my-artifact
           
@@ -55,7 +55,7 @@ jobs:
       - name: Generating Data
         run: python libs/gen_data.py
       - name: Upload artifact
-      - uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v3
         with:
           name: my-artifact
           path: data/
@@ -69,7 +69,7 @@ jobs:
       - name: Check out this repo
         uses: actions/checkout@v2
       - name: Download artifact
-      - uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v3
         with:
           name: my-artifact
     
@@ -83,7 +83,7 @@ jobs:
         run: python libs/gen_docs.py    
 
       - name: Upload artifact
-      - uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v3
         with:
           name: my-artifact
           path: |
@@ -97,7 +97,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Download artifact
-      - uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v3
         with:
           name: my-artifact
       
