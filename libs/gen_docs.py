@@ -4,7 +4,7 @@ import re
 from typing import TypedDict, Optional
 from loguru import logger
 
-from libs.helper import project_dir
+from helper import project_dir
 
 
 class CleanDoc(TypedDict):
