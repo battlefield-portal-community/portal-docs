@@ -94,7 +94,8 @@ blocks = {'blocks': ''}
 data = driver.execute_script("return _Blockly.Blocks")
 logger.debug(f"got {len(data)} blocks")
 with open(project_dir / "data" / "enabled_blocks.json", 'w') as json_file:
-    blocks['blocks'] = list(data.keys())
+    bad_blocks = ['Compare', 'IndexOfFirstTrue', 'actionComment', 'missingActionBlockType_v1', 'missingValueBlockType_v1']
+    blocks['blocks'] = [block for block in data.keys() if block not in bad_blocks]
     json.dump(blocks, json_file)
 
 logger.debug("Saving Version info")
