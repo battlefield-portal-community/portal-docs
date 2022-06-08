@@ -1,0 +1,1544 @@
+{
+    "text": [
+        {
+            "localizedText": "Returns the product of two **%{PYRITE_TYPE_NUMBER}** values or the product of a **%{PYRITE_TYPE_VECTOR}** and **%{PYRITE_TYPE_NUMBER}** value.",
+            "sid": "help.multiply.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Returns a **%{PYRITE_TYPE_BOOLEAN}** indicating if the target seat index **%{PYRITE_TYPE_NUMBER}** of target **%{PYRITE_TYPE_VEHICLE}** is a occupied by a player.",
+            "sid": "help.isvehicleseatoccupied.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Output",
+            "sid": "help.common.titles.output",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Undeploys all players that are alive on the battlefield back to the deploy screen.",
+            "sid": "help.unspawnallplayers.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Skips a provided number of **%{PYRITE_ACTIONS}** in the **%{PYRITE_RULE}** following this block.",
+            "sid": "help.skip.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Sets the gamemode score of the provided **%{PYRITE_TYPE_PLAYER}** or **%{PYRITE_TYPE_TEAMID}**.",
+            "sid": "help.setgamemodescore.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Enables or disables deploying on provided **%{PYRITE_TYPE_CAPTUREPOINT}** for the team that owns it.",
+            "sid": "help.enablecapturepointspawning.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Returns the **%{PYRITE_TYPE_NUMBER}** seat index payload of a **%{PYRITE_TYPE_VEHICLE}** from the **%{PYRITE_RULE}** **%{PYRITE_EVENT}** context.",
+            "sid": "help.eventseat.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "This will trigger when a **%{PYRITE_TYPE_VEHICLE}** is destroyed. _Payloads: %{ID_ARRIVAL_BLOCK_EVENTVEHICLE} (Destroyed Vehicle)_",
+            "sid": "help.rule.onvehicledestroyed",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Returns a **%{PYRITE_TYPE_BOOLEAN}** indicating if the 1st provided value is greater than the 2nd provided value.",
+            "sid": "help.greaterthan.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "A special block which evaluates conditions to control the flow of **%{PYRITE_ACTIONS}** in the If, Else If, and Else branches.",
+            "sid": "help.if.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Returns the sine value of a specified angle in radians.",
+            "sid": "help.sinefromradians.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "(Giver)",
+            "sid": "help.common.contexts.giver",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "(World Position)",
+            "sid": "help.common.contexts.worldpos",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Returns an initialized empty **%{PYRITE_TYPE_ARRAY}**.",
+            "sid": "help.emptyarray.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Sets a target **%{PYRITE_TYPE_PLAYER}** soldier using a provided **%{PYRITE_TYPE_ENUM_SOLDIERKITS}**. The soldier selected should be one that is available from that player team's faction, otherwise, the soldier will not be set. (_ex. if a team's faction is Bad Company 2 US, that player may only select Bad Company 2 US soldiers_).",
+            "sid": "help.setplayerkit.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Returns a **%{PYRITE_TYPE_BOOLEAN}** indicating if two values are not equal to each other.",
+            "sid": "help.notequalto.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Deploys a target **%{PYRITE_TYPE_PLAYER}** onto the battlefield from the deploy screen.",
+            "sid": "help.spawnplayer.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Overrides the time to redeploy for a target **%{PYRITE_TYPE_PLAYER}**.  \n  \n_Note: the redeploy time of a player cannot exceed 60 seconds._",
+            "sid": "help.setredeploytime.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Returns %{help.common.value-true} if the provided **%{PYRITE_TYPE_PLAYER}** is valid.",
+            "sid": "help.isplayervalid.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Returns the total amount of kills for the target **%{PYRITE_TYPE_PLAYER}**.",
+            "sid": "help.getplayerkills.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Multiplies the maximum health of target **%{PYRITE_TYPE_VEHICLE}** by the provided **%{PYRITE_TYPE_NUMBER}** \n  \n_Note: the number cannont be more than 10 or less than or equal to 0._",
+            "sid": "help.setvehiclemaxhealthmultiplier.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "This will trigger when a **%{PYRITE_TYPE_PLAYER}** earns a kill against another **%{PYRITE_TYPE_PLAYER}**. _Payloads: %{ID_ARRIVAL_BLOCK_EVENTPLAYER} (Killer), %{ID_ARRIVAL_BLOCK_EVENTOTHERPLAYER} (Victim), %{ID_ARRIVAL_BLOCK_EVENTDEATHTYPE} (Victim Death Type), %{ID_ARRIVAL_BLOCK_EVENTWEAPON} (Killing Weapon)_",
+            "sid": "help.rule.onplayerearnedkill",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Returns the tangent value of a specified angle in radians.",
+            "sid": "help.tangentfromradians.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "**%{PYRITE_RULE}** blocks are triggered from an in-game **%{PYRITE_EVENT}**. When an **%{PYRITE_EVENT}** triggers, this block will check if its **%{PYRITE_CONDITION}** has been met and then execute all of the **%{PYRITE_ACTIONS}**.  \n  \n_In the following example, the **%{PYRITE_CONDITION}** is checking when a Player earns a kill, whether their team has reached the target score, Then, the **%{PYRITE_ACTIONS}** execute, which in this case, is ending the gamemode for the **%{PYRITE_TYPE_PLAYER}** team's favor._",
+            "sid": "help.rule.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Ends the current gamemode and designates the provided **%{PYRITE_TYPE_PLAYER}** or **%{PYRITE_TYPE_TEAMID}**. The gamemode ends in draw if TeamId is set to 0.",
+            "sid": "help.endround.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Returns the index of an **%{PYRITE_TYPE_ARRAY}** value.",
+            "sid": "help.indexofarrayvalue.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "The start of a block of **%{PYRITE_ACTIONS}** that will execute if all previous %{ID_ARRIVAL_BLOCK_IF} and %{ID_ARRIVAL_BLOCK_ELSEIF} conditions are %{help.common.value-false}.",
+            "sid": "help.controlselse.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Returns the **%{PYRITE_TYPE_ENUM_SOLDIERSTATEVECTOR}** of the selected **%{PYRITE_TYPE_VECTOR}**-based player property.",
+            "sid": "help.soldierstatevectoritem.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Returns a **%{PYRITE_TYPE_ENUM_CUSTOMMESSAGES}** which can be used with %{ID_ARRIVAL_BLOCK_DISPLAYCUSTOMNOTIFICATIONMESSAGE} and %{ID_ARRIVAL_BLOCK_CLEARCUSTOMNOTIFICATIONMESSAGE} to display information on screen to players.",
+            "sid": "help.custommessageitem.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "This will trigger when any player leaves the game.",
+            "sid": "help.rule.onplayerleavegame",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Returns the 1st **%{PYRITE_TYPE_PLAYER}** payload from the **%{PYRITE_RULE}** **%{PYRITE_EVENT}** context.",
+            "sid": "help.eventplayer.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": null,
+            "sid": "help.setsquadid.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "This will trigger whenever a **%{PYRITE_TYPE_PLAYER}** dies. _Payloads: %{ID_ARRIVAL_BLOCK_EVENTPLAYER} (Victim), %{ID_ARRIVAL_BLOCK_EVENTOTHERPLAYER} (Killer), %{ID_ARRIVAL_BLOCK_EVENTDEATHTYPE} (Victim Death Type), %{ID_ARRIVAL_BLOCK_EVENTWEAPON} (Killing Weapon)_",
+            "sid": "help.rule.onplayerdied",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Enables or disables the gamemode VO messaging.",
+            "sid": "help.enablevomessaging.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Returns a **%{PYRITE_TYPE_ENUM_MEDGADGETTYPES}** from the collection of medical gadget types which can be used with the %{ID_ARRIVAL_BLOCK_APPLYMEDGADGET}.",
+            "sid": "help.medgadgettypesitem.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Returns a copy of the specified **%{PYRITE_TYPE_ARRAY}** containing only values from a specified index range.",
+            "sid": "help.arrayslice.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Returns a **%{PYRITE_TYPE_ENUM_MAPS}** from the collection of all maps.",
+            "sid": "help.mapsitem.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Sets the duration of the gamemode (in seconds).",
+            "sid": "help.setroundtimelimit.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Displays a **%{PYRITE_TYPE_MESSAGE}** on the world log for 6 seconds. If no target is provided, it will display the **%{PYRITE_TYPE_MESSAGE}** to everyone.  \n  \n_Note: This will only appear to players that are deployed on the map. It's your responsibility to ensure a safe and fair experience for others, violating the EA User Agreement by using offensive or inappropriate text may result in account bans._",
+            "sid": "help.showhighlightedmessage.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Enables or disables spawning from the deploy screen for all players.",
+            "sid": "help.enableplayerspawning.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Returns the sum of two **%{PYRITE_TYPE_NUMBER}** or two **%{PYRITE_TYPE_VECTOR}** values.",
+            "sid": "help.add.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Returns the time limit set for the gamemode (in seconds).",
+            "sid": "help.getroundtime.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Returns a filtered version of the specified **%{PYRITE_TYPE_ARRAY}** based on the condition provided. This block cycles through the entire array. You can utilize the %{ID_ARRIVAL_BLOCK_CURRENTARRAYELEMENT} block to represent the element in the **%{PYRITE_TYPE_ARRAY}** for each iteration. For an **%{PYRITE_TYPE_ARRAY}** like %{ID_ARRIVAL_BLOCK_ALLPLAYERS}, %{ID_ARRIVAL_BLOCK_CURRENTARRAYELEMENT} would represent each **%{PYRITE_TYPE_PLAYER}** in that **%{PYRITE_TYPE_ARRAY}**. You can then build your filter condition based on a property of that **%{PYRITE_TYPE_PLAYER}** (like score, or some custom player **%{PYRITE_TYPE_VARIABLE}** value).",
+            "sid": "help.filteredarray.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Returns a **%{PYRITE_TYPE_BOOLEAN}** indicating if the given **%{PYRITE_TYPE_HARDWAREID}** is equivalent to the provided ability.",
+            "sid": "help.eventweaponcompare.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Returns the **%{PYRITE_TYPE_TEAMID}** of the provided **%{PYRITE_TYPE_VEHICLE}**.  \n  \n_Note: A **%{PYRITE_TYPE_VEHICLE}** that is not occupied will have a neutral **%{PYRITE_TYPE_TEAMID}**._",
+            "sid": "help.getvehicleteamid.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Returns a **%{PYRITE_TYPE_BOOLEAN}** indicating if two values are equal to each other.",
+            "sid": "help.equals.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Returns a copy of the provided **%{PYRITE_TYPE_ARRAY}** with the values evaluated using the mapped expression provided. The following example utilizes the %{ID_ARRIVAL_BLOCK_ALLPLAYERS} **%{PYRITE_TYPE_ARRAY}** with %{ID_ARRIVAL_BLOCK_GETGAMEMODESCORE} and %{ID_ARRIVAL_BLOCK_CURRENTARRAYELEMENT} to return an **%{PYRITE_TYPE_ARRAY}** of **%{PYRITE_TYPE_PLAYER}** scores.",
+            "sid": "help.mappedarray.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Returns the 2nd **%{PYRITE_TYPE_PLAYER}** payload from the **%{PYRITE_RULE}** **%{PYRITE_EVENT}** context.",
+            "sid": "help.eventotherplayer.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Returns the square root of a provided **%{PYRITE_TYPE_NUMBER}** value.",
+            "sid": "help.squareroot.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Returns a **%{PYRITE_TYPE_ARRAY}** of all players inside a provided **%{PYRITE_TYPE_VEHICLE}**",
+            "sid": "help.getallplayersinvehicle.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Enables or disables the ability for a target **%{PYRITE_TYPE_PLAYER}** to deploy.",
+            "sid": "help.setspawnoverride.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Enables or disables a specified **%{PYRITE_TYPE_ENUM_RESTRICTEDINPUTS}** on a target **%{PYRITE_TYPE_PLAYER}**.",
+            "sid": "help.enableinputrestriction.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Kills a target **%{PYRITE_TYPE_PLAYER}** (skips the Mandown state).",
+            "sid": "help.kill.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "(Output Value if the Condition is %{help.common.value-true})",
+            "sid": "help.common.contexts.outputtrue",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Returns the value of the target **%{PYRITE_TYPE_VEHICLE}** state.",
+            "sid": "help.getvehiclestate.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Spots a target **%{PYRITE_TYPE_PLAYER}** for a specified duration of time (in seconds).",
+            "sid": "help.spottarget.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "2nd Angle",
+            "sid": "help.angledifference.context2",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "(Healer)",
+            "sid": "help.common.contexts.healer",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Pauses the execution of **%{PYRITE_ACTIONS}** in a **%{PYRITE_RULE}** for a provided **%{PYRITE_TYPE_NUMBER}** of seconds or if the provided condition evaluates to %{help.common.value-true} during that interval.",
+            "sid": "help.waituntil.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Returns the downward directional **%{PYRITE_TYPE_VECTOR}** of (0, -1, 0).",
+            "sid": "help.downvector.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Returns the **%{PYRITE_TYPE_TEAMID}** payload from the %{PYRITE_EVENT_ONGOING} Team **%{PYRITE_EVENT}** context.",
+            "sid": "help.eventteam.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Returns the current owner **%{PYRITE_TYPE_TEAMID}** corresponding to the provided **%{PYRITE_TYPE_CAPTUREPOINT}**.",
+            "sid": "help.getcurrentownerteamid.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Returns an **%{PYRITE_TYPE_ARRAY}** of all capture points within a game.",
+            "sid": "help.allcapturepoints.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Returns the value found at a provided index of an **%{PYRITE_TYPE_ARRAY}**.",
+            "sid": "help.valueinarray.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "This will trigger when a team loses control of a **%{PYRITE_TYPE_CAPTUREPOINT}**. _Payloads: %{ID_ARRIVAL_BLOCK_EVENTCAPTUREPOINT} (Lost Capture Point)_",
+            "sid": "help.rule.oncapturepointlost",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Returns the difference between two angles (in degrees).",
+            "sid": "help.angledifference.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "(Starting Position)",
+            "sid": "help.common.contexts.startpos",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Returns the **%{PYRITE_TYPE_ENUM_SOLDIERSTATEBOOL}** of the selected **%{PYRITE_TYPE_BOOLEAN}**-based player property.",
+            "sid": "help.soldierstateboolitem.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Start Infex",
+            "sid": "help.arrayslice.context.parameter1",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Forces the specified **%{PYRITE_TYPE_PLAYER}** to into the target **%{PYRITE_TYPE_VEHICLE}** at the provided seat index **%{PYRITE_TYPE_NUMBER}**.  \n  \n_Note: If the provided index is -1, that **%{PYRITE_TYPE_PLAYER}** will be forced into the first available seat._",
+            "sid": "help.forceplayertoseat.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Returns a **%{PYRITE_TYPE_BOOLEAN}** based on whether either of the two inputs are %{help.common.value-true}.",
+            "sid": "help.or.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Returns the tangent value of a specified angle in degrees.",
+            "sid": "help.tangentfromdegrees.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "(Local Vector)",
+            "sid": "help.common.contexts.localvec",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Gradually modifies the value of a **%{PYRITE_TYPE_VARIABLE}** over time (in seconds). The variable's value will reach the limit at the end of the interval.",
+            "sid": "help.chasevariableovertime.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "You can use this block to utilize text within your mod.  \n  \n> Team 2s Flag has been Captured!  \n>  \n> A player has become the Juggernaut. Beware!  \n>  \n> Phase 3 of your really cool custom mod has started!  \n  \n_Note: It's your responsibility to ensure a safe and fair experience for others, violating the EA User Agreement by using offensive or inappropriate text may result in account bans._",
+            "sid": "help.text.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Returns a **%{PYRITE_TYPE_BOOLEAN}** value based on whether both of the provided inputs return %{help.common.value-true}.",
+            "sid": "help.and.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "%{PYRITE_EVENT_ONGOING} **%{PYRITE_EVENT}** types continually check if its **%{PYRITE_CONDITION}** has become %{help.common.value-true}. If so, the **%{PYRITE_ACTIONS}** will be executed once. In order for the **%{PYRITE_EVENT}** to execute again, the **%{PYRITE_CONDITION}** must become %{help.common.value-false} before becoming %{help.common.value-true} again. %{PYRITE_EVENT_ONGOING} **%{PYRITE_EVENT}** types exist within the  %{PYRITE_OBJECT_GLOBAL}, %{ID_ARRIVAL_MODBUILDER_OBJECT_PLAYER}, and %{ID_ARRIVAL_MODBUILDER_OBJECT_TEAM} context. Within the %{ID_ARRIVAL_MODBUILDER_OBJECT_PLAYER} and %{ID_ARRIVAL_MODBUILDER_OBJECT_TEAM} contexts, payload value blocks, such as %{ID_ARRIVAL_BLOCK_EVENTPLAYER} and %{ID_ARRIVAL_BLOCK_EVENTTEAM}, can be used to refer to the specific %{ID_ARRIVAL_MODBUILDER_OBJECT_PLAYER} or %{ID_ARRIVAL_MODBUILDER_OBJECT_TEAM} within the **%{PYRITE_EVENT}**. _Note: In FFA, %{PYRITE_EVENT_ONGOING} %{ID_ARRIVAL_MODBUILDER_OBJECT_TEAM} will not execute at all._",
+            "sid": "help.rule.ongoing",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "(Z Value)",
+            "sid": "help.common.contexts.z",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Returns the unsigned value of the provided **%{PYRITE_TYPE_NUMBER}** input.",
+            "sid": "help.absolutevalue.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Spots a target **%{PYRITE_TYPE_PLAYER}** only for a specified **%{PYRITE_TYPE_PLAYER}** for a provided duration of time (in seconds).",
+            "sid": "help.spottargetforplayer.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Returns the 1st provided value if the condition is %{help.common.value-true}, otherwise, returns the 2nd provided value.",
+            "sid": "help.ifthenelse.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "(Horizontal)",
+            "sid": "help.common.contexts.horizontal",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Applies the effect of a medical gadget to a target **%{PYRITE_TYPE_PLAYER}**.",
+            "sid": "help.applymedgadget.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "(Rank)",
+            "sid": "help.common.contexts.rank",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "1st Value",
+            "sid": "help.angledifference.context.parameter1",
+            "categoryId": 200
+        },
+        {
+            "localizedText": null,
+            "sid": "help.getsquadid.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Returns the dot product between two **%{PYRITE_TYPE_VECTOR}** values. If the two values are orthogonal to each other, the result will be zero.",
+            "sid": "help.dotproduct.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Evaluates the condition to run a **%{PYRITE_RULE}** or **%{PYRITE_SUBROUTINE}** block based on the **%{PYRITE_TYPE_BOOLEAN}** input.",
+            "sid": "help.condition.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "(Y Value)",
+            "sid": "help.common.contexts.y",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Returns the amount of time left (seconds) in the current gamemode.",
+            "sid": "help.getmatchtimeelapsed.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Returns the sine value of a specified angle in degrees.",
+            "sid": "help.sinefromdegrees.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Returns the **%{PYRITE_TYPE_PLAYER}** currently occupying the provided seat index **%{PYRITE_TYPE_NUMBER}** of the provided **%{PYRITE_TYPE_VEHICLE}**.  \n  \n_Note: If no players are in the vehicle seat when this block is called, the returned **%{PYRITE_TYPE_PLAYER}** will be invalid._",
+            "sid": "help.getplayerfromvehicleseat.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Sets the value of a **%{PYRITE_TYPE_VARIABLE}**.",
+            "sid": "help.setvariable.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Returns a **%{PYRITE_TYPE_BOOLEAN}** indicating if the 1st provided value is less than the 2nd provided value.",
+            "sid": "help.lessthan.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "This will trigger when the gamemode time limit has been reached.",
+            "sid": "help.rule.ontimelimitreached",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "(Base)",
+            "sid": "help.common.contexts.base",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Returns the inverse tangent of a provided **%{PYRITE_TYPE_NUMBER}** value in radians.",
+            "sid": "help.arctangentinradians.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Returns a **%{PYRITE_TYPE_BOOLEAN}** indicating if the target **%{PYRITE_TYPE_PLAYER}** is a specified **%{PYRITE_TYPE_ENUM_SOLDIERKITS}**.",
+            "sid": "help.isusingkit.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "This will trigger when the gamemode ends.",
+            "sid": "help.rule.ongamemodeending",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Returns %{help.common.value-true} if the provided **%{PYRITE_TYPE_ENUM_MAPS}** is the name of the current map.",
+            "sid": "help.iscurrentmap.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Returns the inverse sine of a provided **%{PYRITE_TYPE_NUMBER}** value in radians.",
+            "sid": "help.arcsineinradians.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Sets the target **%{PYRITE_TYPE_PLAYER}** to skip the mandown state and go directly to the deploy screen when killed.",
+            "sid": "help.skipmandown.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "1st Angle",
+            "sid": "help.angledifference.context1",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "(Mapped Expression)",
+            "sid": "help.common.contexts.mapexpr",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Returns the remainder of the 1st provided value divided by the 2nd provided value.",
+            "sid": "help.modulo.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "(Vertical)",
+            "sid": "help.common.contexts.vertical",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Returns the 1st provided value raised to the power of the 2nd provided value.",
+            "sid": "help.raisetopower.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Returns a random **%{PYRITE_TYPE_NUMBER}** between a specified minimum and maximum value (inclusive).",
+            "sid": "help.randomreal.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Returns a sorted version of the specified **%{PYRITE_TYPE_ARRAY}** given a **%{PYRITE_TYPE_NUMBER}** value to sort by (ascending). %{ID_ARRIVAL_BLOCK_CURRENTARRAYELEMENT} can be utilized to represent each value in the **%{PYRITE_TYPE_ARRAY}**. In the following example, %{ID_ARRIVAL_BLOCK_CURRENTARRAYELEMENT} is used to represent each **%{PYRITE_TYPE_PLAYER}** in %{ID_ARRIVAL_BLOCK_ALLPLAYERS}. %{ID_ARRIVAL_BLOCK_GETGAMEMODESCORE} is used with %{ID_ARRIVAL_BLOCK_CURRENTARRAYELEMENT} to return the score, used as a rank, to sort the **%{PYRITE_TYPE_ARRAY}** in ascending order.",
+            "sid": "help.sortedarray.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Returns the total amount of deaths for the target **%{PYRITE_TYPE_PLAYER}**.",
+            "sid": "help.getplayerdeaths.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Pauses the execution of **%{PYRITE_ACTIONS}** in a **%{PYRITE_RULE}** for a provided **%{PYRITE_TYPE_NUMBER}** of seconds.",
+            "sid": "help.wait.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Returns the inverse cosine of a provided **%{PYRITE_TYPE_NUMBER}** value in degrees.",
+            "sid": "help.arccosineindegrees.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Sets the amount of health gained in an instant for a target **%{PYRITE_TYPE_PLAYER}** applied by a healer **%{PYRITE_TYPE_PLAYER}**.",
+            "sid": "help.setheal.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "(Start Index)",
+            "sid": "help.common.contexts.startindex",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Returns the **%{PYRITE_TYPE_HARDWAREID}** of the weapon used to kill the victim from the **%{ID_ARRIVAL_MODBUILDER_EVENT_ONPLAYERDIED}** or **%{ID_ARRIVAL_MODBUILDER_EVENT_ONPLAYEREARNEDKILL}** **%{PYRITE_EVENT}** context.",
+            "sid": "help.eventweapon.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Undeploys a target **%{PYRITE_TYPE_PLAYER}** that is alive on the battlefield back to the deploy screen.",
+            "sid": "help.unspawnplayer.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Returns the value at the end of the specified **%{PYRITE_TYPE_ARRAY}**.",
+            "sid": "help.lastof.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Returns the 'Z' component of a provided **%{PYRITE_TYPE_VECTOR}**.",
+            "sid": "help.zcomponentof.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Enables or disables all available input restrictions for a target **%{PYRITE_TYPE_PLAYER}**.",
+            "sid": "help.enableallinputrestrictions.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Clears all custom messages for a provided **%{PYRITE_TYPE_PLAYER}** or **%{PYRITE_TYPE_TEAMID}**. If no **%{PYRITE_TYPE_PLAYER}** or **%{PYRITE_TYPE_TEAMID}** is provided, it will clear all custom messages for everyone.",
+            "sid": "help.clearallcustommessages.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "(Rate)",
+            "sid": "help.common.contexts.rate",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Returns the current gamemode score of the provided **%{PYRITE_TYPE_PLAYER}** or **%{PYRITE_TYPE_TEAMID}**.",
+            "sid": "help.getgamemodescore.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Sets the target **%{PYRITE_TYPE_PLAYER}** magazine ammo for the provided **%{PYRITE_TYPE_ENUM_INVENTORYSLOTS}**.",
+            "sid": "help.setinventorymagazineammo.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Returns a **%{PYRITE_TYPE_ENUM_INVENTORYSLOTS}** from the collection of all available player inventory slots.",
+            "sid": "help.inventoryslotsitem.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "This will trigger when a **%{PYRITE_TYPE_PLAYER}** enters a **%{PYRITE_TYPE_VEHICLE}** seat. _Payloads: %{ID_ARRIVAL_BLOCK_EVENTPLAYER} (Player Who Enters Seat), %{ID_ARRIVAL_BLOCK_EVENTVEHICLE} (Vehicle), %{ID_ARRIVAL_BLOCK_EVENTSEAT} (Seat Index)_",
+            "sid": "help.rule.onplayerentervehicleseat",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "(Duration)",
+            "sid": "help.common.contexts.duration",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "(Minimum)",
+            "sid": "help.common.contexts.min",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "(Index)",
+            "sid": "help.common.contexts.index",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "**%{PYRITE_SUBROUTINE}** blocks are special blocks that are similar to **%{PYRITE_RULE}** blocks, but do not have a designated **%{PYRITE_EVENT}**. A **%{PYRITE_SUBROUTINE}** block's **%{PYRITE_ACTIONS}** will be executed when called from the **%{PYRITE_RULE}** block. Like **%{PYRITE_RULE}** blocks, **%{PYRITE_SUBROUTINE}** blocks can have a **%{PYRITE_CONDITION}** to determine whether or not the **%{PYRITE_ACTIONS}** inside should execute.\n  \n  An important note is payload values, including %{ID_ARRIVAL_BLOCK_EVENTPLAYER}, %{ID_ARRIVAL_BLOCK_EVENTOTHERPLAYER}, and %{ID_ARRIVAL_BLOCK_EVENTTEAM}, use the context of the **%{PYRITE_RULE}** block in which the **%{PYRITE_SUBROUTINE}** instance block is placed in. An example of this would be, if your **%{PYRITE_RULE}** block has an instance of %{ID_ARRIVAL_BLOCK_EVENTPLAYER}, and the **%{PYRITE_SUBROUTINE}** is called in %{ID_ARRIVAL_MODBUILDER_EVENT_ONPLAYERDEPLOYED}, it would use the %{ID_ARRIVAL_BLOCK_EVENTPLAYER} associated with %{ID_ARRIVAL_MODBUILDER_EVENT_ONPLAYERDEPLOYED}. Be careful with this, as you will run into errors if your **%{PYRITE_SUBROUTINE}** is placed inside a **%{PYRITE_RULE}** block with non-existant payloads for that **%{PYRITE_EVENT}**.",
+            "sid": "help.subroutine.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Returns the value of a **%{PYRITE_TYPE_VARIABLE}**.",
+            "sid": "help.getvariable.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "(Output Value if the Condition is %{help.common.value-false})",
+            "sid": "help.common.contexts.outputfalse",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Returns the inverse sine of a provided **%{PYRITE_TYPE_NUMBER}** value in degrees.",
+            "sid": "help.arcsineindegrees.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Returns the **%{PYRITE_TYPE_VEHICLE}** used by a **%{PYRITE_TYPE_PLAYER}**.",
+            "sid": "help.getvehiclefromplayer.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Sets an amount of damage to be applied to a target **%{PYRITE_TYPE_PLAYER}** by a giver **%{PYRITE_TYPE_PLAYER}**.",
+            "sid": "help.setplayerdamage.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Clears text from the provided **%{PYRITE_TYPE_ENUM_CUSTOMMESSAGES}** for the provided **%{PYRITE_TYPE_PLAYER}** or **%{PYRITE_TYPE_TEAMID}**. If no **%{PYRITE_TYPE_PLAYER}** or **%{PYRITE_TYPE_TEAMID}** is given, it clears all players text at that **%{PYRITE_TYPE_ENUM_CUSTOMMESSAGES}**.",
+            "sid": "help.clearcustommessage.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "(2nd Angle)",
+            "sid": "help.common.contexts.secondangle",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Displays a **%{PYRITE_TYPE_MESSAGE}** on the screen for 6 seconds. If no target is provided, the **%{PYRITE_TYPE_MESSAGE}** will display to everyone.  \n  \n_Note: This will only appear to players that are deployed on the map. It's your responsibility to ensure a safe and fair experience for others, violating the EA User Agreement by using offensive or inappropriate text may result in account bans._",
+            "sid": "help.showgamemodemessage.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Returns a copy of the specified **%{PYRITE_TYPE_ARRAY}** with the provided value removed.",
+            "sid": "help.removefromarray.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Returns the **%{PYRITE_TYPE_NUMBER}** of elements in the specified **%{PYRITE_TYPE_ARRAY}**.",
+            "sid": "help.countof.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Returns a copy of an **%{PYRITE_TYPE_ARRAY}** with the provided value appended to the end.  \n  \n_Note: It is not possible for an array to contain arrays. Attempting to append an array to an array will concatenate them instead._",
+            "sid": "help.appendtoarray.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "This will trigger when a **%{PYRITE_TYPE_VEHICLE}** is called into the map. _Payloads: %{ID_ARRIVAL_BLOCK_EVENTVEHICLE} (Spawned Vehicle)_",
+            "sid": "help.rule.onvehiclespawned",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "(X Value)",
+            "sid": "help.common.contexts.x",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Returns the 'Y' component of a provided **%{PYRITE_TYPE_VECTOR}**.",
+            "sid": "help.ycomponentof.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "(Ending Position)",
+            "sid": "help.common.contexts.endpos",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "You can enter any numerical value you want here.  \n1, 2, 3.14, -10.2  \n  \nUse this block in combination with math blocks to do all sorts of fun mathematical equations.",
+            "sid": "help.number.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Returns an **%{PYRITE_TYPE_ENUM_MELEEWEAPONS}** from the collection of all melee weapons.",
+            "sid": "help.meleeweaponsitem.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Returns the inverse cosine of a provided **%{PYRITE_TYPE_NUMBER}** value in radians.",
+            "sid": "help.arccosineinradians.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Converts the provided local **%{PYRITE_TYPE_PLAYER}** position to the corresponding position in the world space.",
+            "sid": "help.worldpositionof.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Returns a **%{PYRITE_TYPE_BOOLEAN}** value based on whether the provided **%{PYRITE_TYPE_ARRAY}** contains the provided value.",
+            "sid": "help.arraycontains.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Puts the target **%{PYRITE_TYPE_PLAYER}** into the mandown state (unless mandown is disabled).",
+            "sid": "help.forcemandown.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Unspots a target **%{PYRITE_TYPE_PLAYER}**.",
+            "sid": "help.unspottarget.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Returns a reference to the current **%{PYRITE_TYPE_ARRAY}** element being evaluated. Only used for %{ID_ARRIVAL_BLOCK_FILTEREDARRAY}, %{ID_ARRIVAL_BLOCK_MAPPEDARRAY}, %{ID_ARRIVAL_BLOCK_SORTEDARRAY}, %{ID_ARRIVAL_BLOCK_ISTRUEFORALL}, and %{ID_ARRIVAL_BLOCK_ISTRUEFORANY}.",
+            "sid": "help.currentarrayelement.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Anything you want to work within your custom gamemode must be placed inside this block. You can put blocks you're working on outside of this block but they will not be executed. You can utilize the space outside the **%{PYRITE_MOD}** block as a brainstorming area.",
+            "sid": "help.mod.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Returns the seat index **%{PYRITE_TYPE_NUMBER}** for the target **%{PYRITE_TYPE_PLAYER}** if they are in a vehicle, otherwise returns -1.",
+            "sid": "help.getplayervehicleseat.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Returns the target **%{PYRITE_TYPE_PLAYER}** magazine ammo of the provided **%{PYRITE_TYPE_ENUM_INVENTORYSLOTS}**.",
+            "sid": "help.getinventorymagazineammo.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Returns a **%{PYRITE_TYPE_BOOLEAN}** indicating if the 1st provided value is less than or equal to the 2nd provided value.",
+            "sid": "help.lessthanequalto.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Returns the **%{PYRITE_TYPE_CAPTUREPOINT}** payload from the **%{PYRITE_RULE}** **%{PYRITE_EVENT}** context.",
+            "sid": "help.eventcapturepoint.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "A **%{PYRITE_TYPE_BOOLEAN}** is fancy game developer talk for a %{help.common.value-true} or %{help.common.value-false} value. This type is used to define or identify the state of a variety of things.  \n  \nIs a player currently prone?  \n  \nIs the player using a specific soldier?  \n  \nCan players not score points because of some custom condition?",
+            "sid": "help.boolean.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Sets the target **%{PYRITE_TYPE_PLAYER}** loaded ammo for the provided **%{PYRITE_TYPE_ENUM_INVENTORYSLOTS}**.",
+            "sid": "help.setinventoryammo.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Returns the **%{PYRITE_TYPE_NUMBER}** of seats in a **%{PYRITE_TYPE_VEHICLE}**.",
+            "sid": "help.getvehicleseatcount.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "_Optional_",
+            "sid": "help.common.optional",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Resets the gamemode time.",
+            "sid": "help.resetroundtime.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "(Group)",
+            "sid": "help.common.contexts.group",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "(Value)",
+            "sid": "help.common.contexts.value",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Returns the previous owner **%{PYRITE_TYPE_TEAMID}** corresponding to the provided **%{PYRITE_TYPE_CAPTUREPOINT}**.",
+            "sid": "help.getpreviousownerteamid.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Returns the target **%{PYRITE_TYPE_PLAYER}** loaded ammo of the provided **%{PYRITE_TYPE_ENUM_INVENTORYSLOTS}**.",
+            "sid": "help.getinventoryammo.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Returns a copy of the specified **%{PYRITE_TYPE_ARRAY}** with the values in a random order.",
+            "sid": "help.randomizedarray.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Gives a target **%{PYRITE_TYPE_PLAYER}** a new inventory item.",
+            "sid": "help.addsoldierweapon.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Returns a **%{PYRITE_TYPE_BOOLEAN}** indicating if the target **%{PYRITE_TYPE_CAPTUREPOINT}** has the same designation as the provided **%{PYRITE_TYPE_ENUM_CAPTUREPOINTS}**.",
+            "sid": "help.comparecapturepoint.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Forces all players to exit the target **%{PYRITE_TYPE_VEHICLE}**.",
+            "sid": "help.forceallexitvehicle.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Returns a whole **%{PYRITE_TYPE_NUMBER}** rounded from the input value. The value rounds up if the decimal of the **%{PYRITE_TYPE_NUMBER}** is greater than or equal to 0.5, and rounds down if it is less than 0.5.",
+            "sid": "help.roundtointeger.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Sets the gamemode target score used to determine victory.",
+            "sid": "help.settargetscore.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Returns the 'X' component of a provided **%{PYRITE_TYPE_VECTOR}**.",
+            "sid": "help.xcomponentof.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "(Limit)",
+            "sid": "help.common.contexts.limit",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Returns the forward directional **%{PYRITE_TYPE_VECTOR}** of (0, 0, -1).",
+            "sid": "help.forwardvector.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Returns the farthest alive **%{PYRITE_TYPE_PLAYER}** from a provided position. Can be filtered using a **%{PYRITE_TYPE_TEAMID}**.  \n  \n_Note: If no players are alive when this block is called, the returned **%{PYRITE_TYPE_PLAYER}** will be invalid._",
+            "sid": "help.farthestplayerfrom.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "(Target)",
+            "sid": "help.common.contexts.target",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Returns an **%{PYRITE_TYPE_ARRAY}** of all vehicles within a game.",
+            "sid": "help.allvehicles.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Returns a directional **%{PYRITE_TYPE_VECTOR}** from the provided horizontal (yaw) and vertical (pitch) angles (in degrees).",
+            "sid": "help.directionfromangles.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Forces a target **%{PYRITE_TYPE_PLAYER}** to do the specified **%{PYRITE_TYPE_ENUM_INPUTTRIGGER}**.  \n  \n_Note: This will NOT work if the input has been restricted by the %{ID_ARRIVAL_BLOCK_ENABLEINPUTRESTRICTION} entity._",
+            "sid": "help.forceplayerinput.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Returns the displacement **%{PYRITE_TYPE_VECTOR}** from a starting position to an ending position.",
+            "sid": "help.vectortowards.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "(World Vector)",
+            "sid": "help.common.contexts.worldvec",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Teleports a target to a provided valid position facing a specified angle (in radians).",
+            "sid": "help.teleport.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Returns a **%{PYRITE_TYPE_ENUM_RESTRICTEDINPUTS}** from the collection of all inputs which can be restricted with %{ID_ARRIVAL_BLOCK_ENABLEINPUTRESTRICTION}.",
+            "sid": "help.restrictedinputsitem.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Returns a constructed **%{PYRITE_TYPE_MESSAGE}** object which can be used with %{ID_ARRIVAL_BLOCK_SHOWEVENTGAMEMODEMESSAGE}, %{ID_ARRIVAL_BLOCK_SHOWNOTIFICATIONMESSAGE}, %{ID_ARRIVAL_BLOCK_SHOWHIGHLIGHTEDGAMEMODEMESSAGE}, and %{ID_ARRIVAL_BLOCK_DISPLAYCUSTOMNOTIFICATIONMESSAGE}. The **%{PYRITE_TYPE_MESSAGE}** object is created by providing a **%{PYRITE_TYPE_NUMBER}**, **%{PYRITE_TYPE_PLAYER}**, or format **%{PYRITE_TYPE_STRING}** (which can take up to 3 format items).  \nA format **%{PYRITE_TYPE_STRING}** is a **%{PYRITE_TYPE_STRING}** that contains `{}` (called braces) within them, which can be substituted for parameters. For example, the **%{PYRITE_TYPE_STRING}** - `{} gained {} points!` - can be given a **%{PYRITE_TYPE_PLAYER}** and **%{PYRITE_TYPE_NUMBER}** parameter and could output as `John gained 2 points!`. See the example below for how this can be used with blocks.  \n  \n_Note: It's your responsibility to ensure a safe and fair experience for others, violating the EA User Agreement by using offensive or inappropriate text may result in account bans._",
+            "sid": "help.message.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Output",
+            "sid": "help.common.output",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Returns the **%{PYRITE_TYPE_TEAMID}** value of the specified **%{PYRITE_TYPE_PLAYER}** OR the corresponding **%{PYRITE_TYPE_TEAMID}** of the provided **%{PYRITE_TYPE_NUMBER}**.",
+            "sid": "help.getteamid.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Return a **%{PYRITE_TYPE_BOOLEAN}** of the opposite value of the **%{PYRITE_TYPE_BOOLEAN}** input.",
+            "sid": "help.not.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Returns an **%{PYRITE_TYPE_ENUM_INPUTTRIGGER}** from the collection of all player inputs which can be triggered with %{ID_ARRIVAL_BLOCK_FORCEPLAYERINPUT}.",
+            "sid": "help.inputtriggeritem.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Returns an **%{PYRITE_TYPE_ENUM_VEHICLETYPES}** from the collection of all %{PYRITE_TYPE_VEHICLE} types.",
+            "sid": "help.vehicletypesitem.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "This will trigger when a team begins capturing a **%{PYRITE_TYPE_CAPTUREPOINT}**. _Payloads: %{ID_ARRIVAL_BLOCK_EVENTCAPTUREPOINT} (Capture Point Being Captured)_",
+            "sid": "help.rule.oncapturepointcapturing",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "(Local Position)",
+            "sid": "help.common.contexts.localpos",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Sets the max health of a target **%{PYRITE_TYPE_PLAYER}**.  \n  \n_Note: the max health of a player cannot be higher than 1000._",
+            "sid": "help.setplayermaxhealth.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Returns %{help.common.value-true} whether or not the active inventory slot of the target **%{PYRITE_TYPE_PLAYER}** is the provided **%{PYRITE_TYPE_ENUM_INVENTORYSLOTS}**.",
+            "sid": "help.isinventoryslotactive.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Enables or disables the provided **%{PYRITE_TYPE_CAPTUREPOINT}**.",
+            "sid": "help.enableobjective.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Returns the **%{PYRITE_TYPE_DEATHTYPE}** of the victim from the **%{ID_ARRIVAL_MODBUILDER_EVENT_ONPLAYERDIED}** or **%{ID_ARRIVAL_MODBUILDER_EVENT_ONPLAYEREARNEDKILL}** **%{PYRITE_EVENT}** context.",
+            "sid": "help.eventdeathtype.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Returns an **%{PYRITE_TYPE_ENUM_OPENGADGETS}** from the collection of all open gadgets.",
+            "sid": "help.opengadgetsitem.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Returns a **%{PYRITE_TYPE_ENUM_CAPTUREPOINTS}** from the collection of all possible capture points.",
+            "sid": "help.capturepointsitem.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Returns an **%{PYRITE_TYPE_ENUM_SOLDIERKITS}** from a list of all soldiers.",
+            "sid": "help.soldierkitsitem.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Gradually modifies the value of a **%{PYRITE_TYPE_VARIABLE}** at a specified rate (value/second) until it reaches the provided limit.",
+            "sid": "help.chasevariableatrate.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "This will trigger at the start of the gamemode.",
+            "sid": "help.rule.ongamemodestarted",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Returns a **%{PYRITE_TYPE_BOOLEAN}** indicating if the 1st provided value is greater than the 2nd provided value.",
+            "sid": "help.greaterthanequalto.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Count",
+            "sid": "help.arrayslice.context2",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Enables or disables the gamemode VO messaging.",
+            "sid": "help.enablevospawning.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Inputs",
+            "sid": "help.common.input",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Enables or disables the gamemode's default win condition logic. The win condition is checked when the time limit is reached or when a team or player reaches the target score. Disable this if you want to trigger your own win condition.",
+            "sid": "help.enabledefaultwincondition.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Returns a **%{PYRITE_TYPE_BOOLEAN}** indicating if the target **%{PYRITE_TYPE_VEHICLE}** has the same name as the provided **%{PYRITE_TYPE_ENUM_VEHICLES}** or if it is the same type as the provided **%{PYRITE_TYPE_ENUM_VEHICLETYPES}**.",
+            "sid": "help.comparevehiclename.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Returns an **%{PYRITE_TYPE_ENUM_THROWABLES}** from the collection of all throwables.",
+            "sid": "help.throwablesitem.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Stops the execution of a list of **%{PYRITE_ACTIONS}** in a **%{PYRITE_RULE}** if the provided **%{PYRITE_TYPE_BOOLEAN}** is %{help.common.value-true}. Otherwise, the execution continues with the remaining **%{PYRITE_ACTIONS}**.",
+            "sid": "help.abortif.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Forces the target **%{PYRITE_TYPE_PLAYER}** to switch to the provided **%{PYRITE_TYPE_ENUM_INVENTORYSLOTS}**.",
+            "sid": "help.forceswitchinventory.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Returns an **%{PYRITE_TYPE_ENUM_SECONDARYWEAPONS}** from the collection of all secondary weapons.",
+            "sid": "help.secondaryweaponsitem.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Returns an **%{PYRITE_TYPE_ENUM_VEHICLES}** from the %{PYRITE_TYPE_VEHICLE} collection.",
+            "sid": "help.vehiclesitem.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Returns a **%{PYRITE_TYPE_BOOLEAN}** indicating if the victim died by the provided **%{PYRITE_TYPE_DEATHTYPE}**.",
+            "sid": "help.eventdeathtypecompare.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Inputs",
+            "sid": "help.common.titles.input",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Sets the capture speed multiplier for target **%{PYRITE_TYPE_CAPTUREPOINT}** to the provided **%{PYRITE_TYPE_NUMBER}**.",
+            "sid": "help.setmaxcapturemultiplier.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Skips a provided number of **%{PYRITE_ACTIONS}** in the **%{PYRITE_RULE}** following this block if the condition evaluates to %{help.common.value-true}. If it does not, execution continues with the remaining **%{PYRITE_ACTIONS}**.",
+            "sid": "help.skipif.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Returns an **%{PYRITE_TYPE_ENUM_PRIMARYWEAPONS}** from the collection of all primary weapons.",
+            "sid": "help.primaryweaponsitem.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Returns the direction, or normalized **%{PYRITE_TYPE_VECTOR}**, from a starting position and ending position.",
+            "sid": "help.directiontowards.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "(Start)",
+            "sid": "help.common.contexts.start",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Returns the upward directional **%{PYRITE_TYPE_VECTOR}** of (0, 1, 0).",
+            "sid": "help.upvector.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Returns the cosine value of a specified angle in degrees.",
+            "sid": "help.cosinefromdegrees.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Forces the specified **%{PYRITE_TYPE_PLAYER}** to exit the target **%{PYRITE_TYPE_VEHICLE}**.",
+            "sid": "help.forceplayerexitvehicle.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "This will trigger when a **%{PYRITE_TYPE_PLAYER}** exits a **%{PYRITE_TYPE_VEHICLE}** seat. _Payloads: %{ID_ARRIVAL_BLOCK_EVENTPLAYER} (Player Who Exits Seat), %{ID_ARRIVAL_BLOCK_EVENTVEHICLE} (Vehicle), %{ID_ARRIVAL_BLOCK_EVENTSEAT} (Seat Index)_",
+            "sid": "help.rule.onplayerexitvehicleseat",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "(Position)",
+            "sid": "help.common.contexts.position",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Returns the total elapsed time of the current gamemode.",
+            "sid": "help.getgamemodetimeelapsed.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Pauses or unpauses the gamemode timer based on the provided **%{PYRITE_TYPE_BOOLEAN}** input.",
+            "sid": "help.pauseroundtime.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Stops the execution of a list of **%{PYRITE_ACTIONS}** in a **%{PYRITE_RULE}**.",
+            "sid": "help.abort.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "_False_",
+            "sid": "help.common.value-false",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Types of **%{PYRITE_RULE}** Blocks Events",
+            "sid": "help.rule.typesofrule",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "HELP",
+            "sid": "menu.help",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "This will trigger whenever a **%{PYRITE_TYPE_PLAYER}** deploys. _Payloads: %{ID_ARRIVAL_BLOCK_EVENTPLAYER} (Deployed Player)_",
+            "sid": "help.rule.onplayerdeployed",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Returns the gamemode target score needed for victory.",
+            "sid": "help.gettargetscore.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Start Index",
+            "sid": "help.arrayslice.context1",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "(Yaw Rotation)",
+            "sid": "help.common.contexts.yaw",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "This will trigger when the **%{PYRITE_TYPE_PLAYER}** dies and returns to the deploy screen. _Payloads: %{ID_ARRIVAL_BLOCK_EVENTPLAYER} (Dead Player)_",
+            "sid": "help.rule.onplayerirreversiblydead",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Breaks and exits the execution of a looping block, such as %{ID_ARRIVAL_BLOCK_WHILE} or %{ID_ARRIVAL_BLOCK_FORVARIABLE}.",
+            "sid": "help.break.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Returns %{help.common.value-true} if the provided condition is %{help.common.value-true} for at least one element in the provided **%{PYRITE_TYPE_ARRAY}**.",
+            "sid": "help.istrueforany.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Returns the **%{PYRITE_TYPE_ENUM_SOLDIERSTATENUMBER}** of the selected **%{PYRITE_TYPE_NUMBER}**-based player property.",
+            "sid": "help.soldierstatenumberitem.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "(1st Angle)",
+            "sid": "help.common.contexts.firstangle",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Returns the value of the target **%{PYRITE_TYPE_PLAYER}** state.",
+            "sid": "help.getsoldierstate.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Returns a **%{PYRITE_TYPE_ENUM_FACTIONS}** from the collection of all available factions.",
+            "sid": "help.factionsitem.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Resupplies the target **%{PYRITE_TYPE_PLAYER}** using a provided **%{PYRITE_TYPE_ENUM_RESUPPLYTYPES}**.",
+            "sid": "help.resupply.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "The start of a block of **%{PYRITE_ACTIONS}** that will run if its condition is %{help.common.value-true} and all previous %{ID_ARRIVAL_BLOCK_IF} or %{ID_ARRIVAL_BLOCK_ELSEIF} conditions are %{help.common.value-false}.",
+            "sid": "help.controlselseif.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "The start of a series of **%{PYRITE_ACTIONS}** that will execute in a loop, modifying the control variable on each iteration. If the control %{PYRITE_TYPE_VARIABLE} reaches or passes the range end value, the loop exits, and execution continues through the remaining **%{PYRITE_ACTIONS}** in the **%{PYRITE_RULE}**.",
+            "sid": "help.forvariable.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Returns %{help.common.value-true} if the provided **%{PYRITE_TYPE_BOOLEAN}** inputs return different values.",
+            "sid": "help.xor.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Converts the provided world vector to the corresponding vector in local **%{PYRITE_TYPE_PLAYER}** space.",
+            "sid": "help.localvectorof.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "(Maximum)",
+            "sid": "help.common.contexts.max",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Returns a **%{PYRITE_TYPE_ENUM_RESUPPLYTYPES}** from the collection of resupply types which can be used with %{ID_ARRIVAL_BLOCK_RESUPPLY}.",
+            "sid": "help.resupplytypesitem.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Returns a **%{PYRITE_TYPE_ENUM_CHARACTERGADGETS}** from the collection of all character specialties.",
+            "sid": "help.charactergadgetsitem.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Returns a **%{PYRITE_TYPE_BOOLEAN}** indicating if the provided **%{PYRITE_TYPE_PLAYER}** has the specified ability.",
+            "sid": "help.hasinventory.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Displays a provided **%{PYRITE_TYPE_MESSAGE}** as an error in the Admin menu.",
+            "sid": "help.senderrorreport.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "(Count)",
+            "sid": "help.common.contexts.count",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Returns a **%{PYRITE_TYPE_ENUM_PLAYERDEATHTYPES}** from the collection of all possible death types.",
+            "sid": "help.playerdeathtypesitem.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "The start of a conditional control block whose **%{PYRITE_ACTIONS}** will execute if its condition is %{help.common.value-true}.",
+            "sid": "help.controlsif.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Returns the rightward directional **%{PYRITE_TYPE_VECTOR}** of (1, 0, 0).",
+            "sid": "help.rightvector.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Returns the leftward directional **%{PYRITE_TYPE_VECTOR}** of (-1, 0, 0).",
+            "sid": "help.leftvector.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "This will trigger when a **%{PYRITE_TYPE_PLAYER}** enters a **%{PYRITE_TYPE_VEHICLE}**. _Payloads: %{ID_ARRIVAL_BLOCK_EVENTPLAYER} (Player Who Enters), %{ID_ARRIVAL_BLOCK_EVENTVEHICLE} (Vehicle)_",
+            "sid": "help.rule.onplayerentervehicle",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Returns a **%{PYRITE_TYPE_VECTOR}** composed of three provided 'X' (left), 'Y' (up), and 'Z' (forward) values.",
+            "sid": "help.createvector.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "A block of **%{PYRITE_ACTIONS}** that will execute in a loop as long as the provided condition is %{help.common.value-true}.  \n  \n_Note: You must utilize a %{ID_ARRIVAL_BLOCK_WAIT} block at the beginning or the end of the iteration._",
+            "sid": "help.while.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "This will trigger when a team takes control of a **%{PYRITE_TYPE_CAPTUREPOINT}**. _Payloads: %{ID_ARRIVAL_BLOCK_EVENTCAPTUREPOINT} (Captured Capture Point)_",
+            "sid": "help.rule.oncapturepointcaptured",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Returns %{help.common.value-true} if the provided condition is %{help.common.value-true} for every element in the provided **%{PYRITE_TYPE_ARRAY}**.",
+            "sid": "help.istrueforall.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Returns a **%{PYRITE_TYPE_BOOLEAN}** indicating if the target **%{PYRITE_TYPE_VEHICLE}** is a occupied by a player.",
+            "sid": "help.isvehicleoccupied.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Revives a target **%{PYRITE_TYPE_PLAYER}** that is in the mandown state.",
+            "sid": "help.forcerevive.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Converts the provided local **%{PYRITE_TYPE_PLAYER}** vector to the corresponding vector in the world space.",
+            "sid": "help.worldvectorof.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "This will trigger when a **%{PYRITE_TYPE_PLAYER}** exits a **%{PYRITE_TYPE_VEHICLE}**. _Payloads: %{ID_ARRIVAL_BLOCK_EVENTPLAYER} (Player Who Exits), %{ID_ARRIVAL_BLOCK_EVENTVEHICLE} (Vehicle)_",
+            "sid": "help.rule.onplayerexitvehicle",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Displays a notification-type **%{PYRITE_TYPE_MESSAGE}** on the screen for 6 seconds. If no target is provided, it will display the **%{PYRITE_TYPE_MESSAGE}** to everyone.  \n  \n_Note: It's your responsibility to ensure a safe and fair experience for others, violating the EA User Agreement by using offensive or inappropriate text may result in account bans._",
+            "sid": "help.shownotificationmessage.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Stops an in-progress tracking of a **%{PYRITE_TYPE_VARIABLE}**, leaving it at its current value.",
+            "sid": "help.stopchasingvariable.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Returns the angle (in degrees) between two provided **%{PYRITE_TYPE_VECTOR}** values.",
+            "sid": "help.anglebetweenvectors.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "(Interval)",
+            "sid": "help.common.contexts.interval",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Returns the greater of the two **%{PYRITE_TYPE_NUMBER}** values provided.",
+            "sid": "help.max.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Returns a **%{PYRITE_TYPE_NUMBER}** from zero to one corresponding to the capture progress of the provided **%{PYRITE_TYPE_CAPTUREPOINT}**.",
+            "sid": "help.getcaptureprogress.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Returns the closest alive **%{PYRITE_TYPE_PLAYER}** to a provided position. Can be filtered using a **%{PYRITE_TYPE_TEAMID}**.  \n  \n_Note: If no players are alive when this block is called, the returned **%{PYRITE_TYPE_PLAYER}** will be invalid._",
+            "sid": "help.closestplayerto.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Forces the execution of a looping block (such as %{ID_ARRIVAL_BLOCK_WHILE} or %{ID_ARRIVAL_BLOCK_FORVARIABLE}) to the start of the next iteration of that block.",
+            "sid": "help.continue.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Returns the ratio between two **%{PYRITE_TYPE_NUMBER}** values or a **%{PYRITE_TYPE_VECTOR}** and **%{PYRITE_TYPE_NUMBER}** value. A **%{PYRITE_TYPE_VECTOR}** divided by a **%{PYRITE_TYPE_NUMBER}** will yield a scaled **%{PYRITE_TYPE_VECTOR}**.",
+            "sid": "help.divide.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "_True_",
+            "sid": "help.common.value-true",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "This will trigger when a **%{PYRITE_TYPE_PLAYER}** is forced into the mandown state. _Payloads: %{ID_ARRIVAL_BLOCK_EVENTPLAYER}  (Downed Player)_",
+            "sid": "help.rule.onmandown",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Finds or initializes an **%{PYRITE_TYPE_ARRAY}** on a provided **%{PYRITE_TYPE_VARIABLE}**, and stores a provided value in that **%{PYRITE_TYPE_ARRAY}** at the specified index.",
+            "sid": "help.setvariableatindex.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Returns the backward directional **%{PYRITE_TYPE_VECTOR}** of (0, 0, 1).",
+            "sid": "help.backwardvector.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "This block is used to reference a **%{PYRITE_TYPE_VARIABLE}** instance. The **%{PYRITE_TYPE_VARIABLE}** can be selected by setting the scope -  %{PYRITE_OBJECT_GLOBAL} , Player, or Team - in the first dropdown, and then selecting the **%{PYRITE_TYPE_VARIABLE}** name in the second dropdown.  \n  \n**%{PYRITE_TYPE_VARIABLE}** instances can be created or deleted by clicking on the _Variables_ tab, and clicking on _Manage Variables_.",
+            "sid": "help.variablereference.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Returns a random value from the specified **%{PYRITE_TYPE_ARRAY}**.",
+            "sid": "help.randomvalueinarray.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Sets the target **%{PYRITE_TYPE_PLAYER}** team using the provided **%{PYRITE_TYPE_TEAMID}**. This will force the **%{PYRITE_TYPE_PLAYER}** back to the deploy screen.  \n  \n_Note: this block is not supported in Free For All._",
+            "sid": "help.setteam.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Force spawns all players in the deploy screen.",
+            "sid": "help.forcespawnallplayers.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Returns the **%{PYRITE_TYPE_ENUM_VEHICLESTATEVECTOR}** of the selected **%{PYRITE_TYPE_VECTOR}**-based vehicle property.",
+            "sid": "help.vehiclestatevectoritem.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "(Exponent)",
+            "sid": "help.common.contexts.exponent",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Enables or disables default gamemode scoring logic. The default scoring logic refers to the base gamemode scoring rules (such as getting kills in Team Deathmatch or Free-for-All). Disable this if you want to implement your own custom scoring logic.",
+            "sid": "help.enabledefaultscoring.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Returns an **%{PYRITE_TYPE_ARRAY}** of all players within a game.",
+            "sid": "help.allplayers.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "This will trigger when a **%{PYRITE_TYPE_PLAYER}** joins the game. _Payloads: %{ID_ARRIVAL_BLOCK_EVENTPLAYER} (Joined Player)_",
+            "sid": "help.rule.onplayerjoingame",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Returns the **%{PYRITE_TYPE_VEHICLE}** payload from the **%{PYRITE_RULE}** **%{PYRITE_EVENT}** context.",
+            "sid": "help.eventvehicle.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Returns the cross product between two **%{PYRITE_TYPE_VECTOR}** values. If the two **%{PYRITE_TYPE_VECTOR}** inputs are parallel, the result will be zero.",
+            "sid": "help.crossproduct.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Display a **%{PYRITE_TYPE_MESSAGE}** on-screen exclusive to custom gamemodes. Using the **%{PYRITE_TYPE_ENUM_CUSTOMMESSAGES}**, this **%{PYRITE_TYPE_MESSAGE}** can be displayed on multiple lines. It will stay up for the length of the provided duration, or stay up indefinitely if a negative **%{PYRITE_TYPE_NUMBER}** is provided. It will be displayed to everyone unless a specific **%{PYRITE_TYPE_PLAYER}** or **%{PYRITE_TYPE_TEAMID}** is provided.  \n  \n_Note: It's your responsibility to ensure a safe and fair experience for others, violating the EA User Agreement by using offensive or inappropriate text may result in account bans._",
+            "sid": "help.displaycustommessage.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Returns the cosine value of a specified angle in radians.",
+            "sid": "help.cosinefromradians.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "This will trigger when a **%{PYRITE_TYPE_PLAYER}** is revived by another **%{PYRITE_TYPE_PLAYER}**. _Payloads: %{ID_ARRIVAL_BLOCK_EVENTPLAYER} (Revived Player), %{ID_ARRIVAL_BLOCK_EVENTOTHERPLAYER} (Reviver Player)_",
+            "sid": "help.rule.onrevived",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "2nd Value",
+            "sid": "help.angledifference.context.parameter2",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "(Spotter)",
+            "sid": "help.common.contexts.spotter",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Returns a unit-length normalization of a **%{PYRITE_TYPE_VECTOR}**.",
+            "sid": "help.normalize.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Calls a **%{PYRITE_SUBROUTINE}** block of the same name.",
+            "sid": "help.subroutineinstance.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Count",
+            "sid": "help.arrayslice.context.parameter2",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Returns the difference between two **%{PYRITE_TYPE_NUMBER}** values or two **%{PYRITE_TYPE_VECTOR}** values.",
+            "sid": "help.subtract.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Destroys the target **%{PYRITE_TYPE_VEHICLE}**.",
+            "sid": "help.destroyvehicle.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Returns the inverse tangent of a provided **%{PYRITE_TYPE_NUMBER}** value in degrees.",
+            "sid": "help.arctangentindegrees.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "(End)",
+            "sid": "help.common.contexts.end",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Converts the provided world position to the corresponding position in local **%{PYRITE_TYPE_PLAYER}** space.",
+            "sid": "help.localpositionof.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Returns the distance between a starting position and ending position.",
+            "sid": "help.distancebetween.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Returns %{help.common.value-true} if the provided **%{PYRITE_TYPE_TEAMID}** is using soldiers from the specified **%{PYRITE_TYPE_ENUM_FACTIONS}**.",
+            "sid": "help.isfaction.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Returns the first value of the specified **%{PYRITE_TYPE_ARRAY}**.",
+            "sid": "help.firstof.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Returns the **%{PYRITE_TYPE_TEAMID}** of the team currently capturing the provided **%{PYRITE_TYPE_CAPTUREPOINT}**.",
+            "sid": "help.getownerprogressteamid.summary",
+            "categoryId": 200
+        },
+        {
+            "localizedText": "Returns the **%{PYRITE_TYPE_CAPTUREPOINT}** corresponding to the provided **%{PYRITE_TYPE_ENUM_CAPTUREPOINTS}**.",
+            "sid": "help.getcapturepoint.summary",
+            "categoryId": 200
+        }
+    ]
+}
