@@ -2,7 +2,7 @@ name: ScrapeBlockNames
 on:
   workflow_dispatch:
 jobs:
-  scrape:
+  get_enabled_blocks:
     runs-on: ubuntu-latest
     env:
       BFPORTAL_EMAIL: ${{ secrets.BFPORTAL_EMAIL }}
@@ -25,3 +25,18 @@ jobs:
         run: pip install -r requirements.txt
       - name: Run the scraping script
         run: python libs/get_block_names.py
+  commit_changes:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: |
+          git fetch --prune --unshallow
+      - name: Commit and push changes
+        run: |
+          git add .
+          git diff
+          git config --global user.email "github-action-bot@example.com"
+          git config --global user.name "GitHub Action Bot"
+          git commit -m "Successfully generated docs 🎉🎉🎉" -a || echo "No changes to commit"
+          git push          
+    
