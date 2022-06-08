@@ -111,7 +111,7 @@ jobs:
       - name: Download docs artifact
         uses: actions/download-artifact@v3
         with:
-          name: data-artifact
+          name: docs-artifact
           path: docs/
       
       - run: |
