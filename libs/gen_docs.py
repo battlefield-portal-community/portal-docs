@@ -47,6 +47,7 @@ for item in translations:
 
 
 logger.info("Generate Docs")
+clean_names = []
 for raw_doc in sorted((project_dir / "data" / "raw_docs").glob("*.md")):
     bad_blocks = ['controls_if_else', 'missingActionBlockType_v1', 'missingValueBlockType_v1']
     with open(raw_doc) as file:
@@ -96,5 +97,9 @@ for raw_doc in sorted((project_dir / "data" / "raw_docs").glob("*.md")):
 
     with open(project_dir / "docs" / f'{clean_name}.json', 'w') as file:
         json.dump(clean_doc, file)
+    clean_names.append(clean_name)
     logger.debug(f"{raw_doc.stem} -> {clean_name}")
+
+with open(project_dir / "data" / "clean_names", 'w') as file:
+    json.dump(clean_names, file)
 logger.info("Gen docs complete")
