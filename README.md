@@ -1,5 +1,8 @@
 # portal-docs
-![image](https://user-images.githubusercontent.com/22869882/172840336-7b48b7ca-63b4-4ca4-a054-3384547115da.png)
+
+[![GenerateDocs](https://github.com/battlefield-portal-community/portal-docs/actions/workflows/gen-docs.yml/badge.svg)](https://github.com/battlefield-portal-community/portal-docs/actions/workflows/gen-docs.yml)  
+![image](https://user-images.githubusercontent.com/22869882/172840336-7b48b7ca-63b4-4ca4-a054-3384547115da.png)  
+
 
 ### Automated docs generation for [portal-helper](https://github.com/battlefield-portal-community/portal_helper) bot, 
 ### Uses github actions to compile the docs provided by https://portal.battlefield.com
