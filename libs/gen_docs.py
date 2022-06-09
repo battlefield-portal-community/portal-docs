@@ -34,10 +34,10 @@ def gen_text(doc: str, rule_block: bool=False) -> str:
 
 
 logger.debug("Get Translations from gametools")
-# translations = requests.get("https://api.gametools.network/bf2042/translations/").json()['localizedTexts']
+translations = requests.get("https://api.gametools.network/bf2042/translations/").json()['localizedTexts']
 
-with open(project_dir / "data" / "translations.json") as file:
-    translations = json.load(file)['localizedTexts']
+# with open(project_dir / "data" / "translations.json") as file:
+#     translations = json.load(file)['localizedTexts']
 
 mapped_translations = dict()
 
