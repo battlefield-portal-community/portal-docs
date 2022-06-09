@@ -14,9 +14,12 @@ class CleanDoc(TypedDict):
     output: Optional[list]
 
 
-def gen_text(doc: str) -> str:
-    if key := re.search('#+\s*%{(.*?)}', doc):
-        doc = doc.replace(key.group(), f'{mapped_translations[key.groups()[0]]}')
+def gen_text(doc: str, rule_block: bool=False) -> str:
+    if key := re.search('^#+\s*%{(.*?)}', doc):
+        if rule_block:
+            doc = doc.replace(key.group(), f'**{mapped_translations[key.groups()[0]]}**')
+        else:
+            doc = doc.replace(key.group(), f'{mapped_translations[key.groups()[0]]}')
     elif key := re.search('\*\*%{(.*?)}\*\*', doc):
         doc = doc.replace(key.group(), f'**{mapped_translations[key.groups()[0]]}**')
     elif key := re.search('^%{(.*?)}', doc):
@@ -31,10 +34,10 @@ def gen_text(doc: str) -> str:
 
 
 logger.debug("Get Translations from gametools")
-translations = requests.get("https://api.gametools.network/bf2042/translations/").json()['localizedTexts']
+# translations = requests.get("https://api.gametools.network/bf2042/translations/").json()['localizedTexts']
 
-# with open(project_dir / "data" / "translations.json") as file:
-#     translations = json.load(file)['localizedTexts']
+with open(project_dir / "data" / "translations.json") as file:
+    translations = json.load(file)['localizedTexts']
 
 mapped_translations = dict()
 
@@ -43,12 +46,9 @@ for item in translations:
     mapped_translations[item['sid']] = item['localizedText']
 
 
-logger.debug("Generate Docs")
+logger.info("Generate Docs")
 for raw_doc in sorted((project_dir / "data" / "raw_docs").glob("*.md")):
-    logger.debug(f"Gen doc for {raw_doc.stem}")
     bad_blocks = ['controls_if_else', 'missingActionBlockType_v1', 'missingValueBlockType_v1']
-    if raw_doc.stem in ['ruleBlock', 'subroutineBlock', 'subroutineInstanceBlock']:
-        continue
     with open(raw_doc) as file:
         data = [
             key
@@ -56,16 +56,31 @@ for raw_doc in sorted((project_dir / "data" / "raw_docs").glob("*.md")):
         ]
         if not len(data):
             continue
-    clean = [gen_text(line) for line in data]
-    clean_doc: CleanDoc = dict()
-    clean_doc['block'] = clean[0]
-    clean_doc['summary'] = clean[1]
+
+    if raw_doc.stem == "ruleBlock":
+        clean = [gen_text(data[0])]
+        for index, line in enumerate(data[1:]):
+            if index == 0:
+                clean.append(gen_text(line, rule_block=True).split('\n')[0])
+            else:
+                clean.append(gen_text(line, rule_block=True))
+    else:
+        clean = [gen_text(line) for line in data]
+
     i = False
     o = False
     if 'Inputs' in clean:
         i = clean.index('Inputs')
     if 'Output' in clean:
         o = clean.index('Output')
+
+    clean_doc: CleanDoc = dict()
+    if raw_doc.stem == "subroutineInstanceBlock":
+        clean_doc['block'] = "subroutineInstanceBlock"
+    else:
+        clean_doc['block'] = clean[0]
+
+    clean_doc['summary'] = "\n".join(clean[1:(i if i else o if o else None)])
     if i:
         clean_doc['inputs'] = clean[i+1:(o if o else None)]
     if o:
@@ -81,5 +96,5 @@ for raw_doc in sorted((project_dir / "data" / "raw_docs").glob("*.md")):
 
     with open(project_dir / "docs" / f'{clean_name}.json', 'w') as file:
         json.dump(clean_doc, file)
-
-logger.debug("Gen docs complete")
+    logger.debug(f"{raw_doc.stem} -> {clean_name}")
+logger.info("Gen docs complete")
