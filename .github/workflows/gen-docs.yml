@@ -1,4 +1,4 @@
-name: ScrapeBlockNames
+name: GenerateDocs
 on:
   workflow_dispatch:
 jobs:
