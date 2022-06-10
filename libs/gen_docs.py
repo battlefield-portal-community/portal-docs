@@ -48,6 +48,11 @@ for item in translations:
 
 logger.info("Generate Docs")
 clean_names = []
+
+# delete all present docs before making new docs
+for file in (project_dir / "docs").glob("*.json"):
+    file.unlink()
+
 for raw_doc in sorted((project_dir / "data" / "raw_docs").glob("*.md")):
     bad_blocks = ['controls_if_else', 'missingActionBlockType_v1', 'missingValueBlockType_v1']
     with open(raw_doc) as file:
