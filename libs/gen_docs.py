@@ -93,7 +93,7 @@ for raw_doc in sorted((project_dir / "data" / "raw_docs").glob("*.md")):
         if raw_doc.stem == "controls_if_if":
             clean_name = "Control_If"
         else:
-            clean_name = clean_doc['block'].replace(' ', '')
+            clean_name = clean_doc['block'].replace(' ', '').replace('#', '')
 
     with open(project_dir / "docs" / f'{clean_name}.json', 'w') as file:
         json.dump(clean_doc, file)
