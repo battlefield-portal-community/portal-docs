@@ -14,7 +14,7 @@ class CleanDoc(TypedDict):
     output: Optional[list]
 
 
-def gen_text(doc: str, rule_block: bool=False) -> str:
+def gen_text(doc: str, rule_block: bool = False) -> str:
     if key := re.search('^#+\s*%{(.*?)}', doc):
         if rule_block:
             doc = doc.replace(key.group(), f'**{mapped_translations[key.groups()[0]]}**')
@@ -50,6 +50,7 @@ logger.info("Generate Docs")
 clean_names = []
 
 # delete all present docs before making new docs
+logger.info("Deleting currently present docs")
 for file in (project_dir / "docs").glob("*.json"):
     file.unlink()
 
