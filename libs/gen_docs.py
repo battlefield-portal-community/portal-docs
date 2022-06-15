@@ -103,6 +103,8 @@ for raw_doc in sorted((project_dir / "data" / "raw_docs").glob("*.md")):
         else:
             clean_name = clean_doc['block'].replace(' ', '').replace('#', '')
 
+    if clean_name in ["RULE", "MOD"]:
+        clean_name = clean_name.capitalize()
     with open(project_dir / "docs" / f'{clean_name}.json', 'w') as file:
         json.dump(clean_doc, file)
     clean_names.append(clean_name)
