@@ -95,7 +95,9 @@ for raw_doc in sorted((project_dir / "data" / "raw_docs").glob("*.md")):
 
     k = f"ID_ARRIVAL_BLOCK_{raw_doc.stem.upper()}"
     clean_name = mapped_translations.get(k, False)
-    if not clean_name:
+    if clean_name == "VehicleTypes":
+        clean = "VehicleTypesItem"
+    elif not clean_name:
         if raw_doc.stem == "controls_if_if":
             clean_name = "Control_If"
         else:
