@@ -128,3 +128,4 @@ dmypy.json
 # Pyre type checker
 .pyre/
 data/translations.json
+/data/save_translations.py
