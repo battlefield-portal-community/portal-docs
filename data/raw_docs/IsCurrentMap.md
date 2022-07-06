@@ -4,7 +4,7 @@
 
 ### %{help.common.input}
 
-1. %{PYRITE_TYPE_ENUM_MAPSITEM}
+1. %{PYRITE_TYPE_ENUM_MAPS}
 
 ### %{help.common.output}
 

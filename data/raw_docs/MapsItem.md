@@ -4,7 +4,7 @@
 
 ### %{help.common.output}
 
--   %{PYRITE_TYPE_ENUM_MAPSITEM}
+-   %{PYRITE_TYPE_ENUM_MAPS}
 
 ```
 <block type="MapsItem">

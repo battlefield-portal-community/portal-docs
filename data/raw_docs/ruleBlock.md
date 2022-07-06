@@ -115,3 +115,15 @@
 #### %{ID_ARRIVAL_MODBUILDER_EVENT_ONPLAYEREXITVEHICLESEAT}
 
 %{help.rule.onplayerexitvehicleseat}
+
+#### %{ID_ARRIVAL_MODBUILDER_EVENT_ONCAPTUREPOINTCAPTURED}
+
+%{help.rule.oncapturepointcaptured}
+
+#### %{ID_ARRIVAL_MODBUILDER_EVENT_ONCAPTUREPOINTCAPTURING}
+
+%{help.rule.oncapturepointcapturing}
+
+#### %{ID_ARRIVAL_MODBUILDER_EVENT_ONCAPTUREPOINTLOST}
+
+%{help.rule.oncapturepointlost}
