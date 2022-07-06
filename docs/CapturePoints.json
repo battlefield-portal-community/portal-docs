@@ -1,0 +1,1 @@
+{"block": "CapturePoints", "summary": "Returns a **CapturePointsItem** from the collection of all possible capture points.", "output": ["-   **CapturePointsItem**"]}

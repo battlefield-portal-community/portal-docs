@@ -1,0 +1,1 @@
+{"block": "SetVehicleMaxHealthMultiplier", "summary": "Multiplies the maximum health of target **Vehicle** by the provided **Number** \n  \n_Note: the number cannont be more than 10 or less than or equal to 0._", "inputs": ["1. **Vehicle**", "2. **Number**"]}

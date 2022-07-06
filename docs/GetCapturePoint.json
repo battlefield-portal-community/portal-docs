@@ -1,0 +1,1 @@
+{"block": "GetCapturePoint", "summary": "Returns the **CapturePoint** corresponding to the provided **CapturePointsItem**.", "inputs": ["1. **CapturePointsItem**"], "output": ["-   **CapturePoint**"]}

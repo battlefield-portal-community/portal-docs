@@ -1,0 +1,1 @@
+{"block": "EnableGameModeObjective", "summary": "Enables or disables the provided **CapturePoint**.", "inputs": ["1. **CapturePoint**", "2. **Bool**"]}

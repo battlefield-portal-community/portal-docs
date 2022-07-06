@@ -1,0 +1,1 @@
+{"block": "EventCapturePoint", "summary": "Returns the **CapturePoint** payload from the **RULE** **EVENT** context.", "output": ["-   **CapturePoint**"]}
