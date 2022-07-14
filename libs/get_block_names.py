@@ -73,7 +73,7 @@ try:
     else:
         raise ProductionEnvironment
     logger.debug("Already Logged in 😃")
-except TimeoutException or ProductionEnvironment:
+except (TimeoutException, ProductionEnvironment):
     try:
         logger.debug('Not logged in....')
         driver.get("https://accounts.ea.com/connect")
