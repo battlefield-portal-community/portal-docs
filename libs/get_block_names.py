@@ -22,6 +22,10 @@ from helper import project_dir
 load_dotenv()
 
 
+class ProductionEnvironment(Exception):
+    pass
+
+
 DEBUG = os.getenv("DEBUG", False)
 
 chrome_service = Service(ChromeDriverManager(chrome_type=ChromeType.CHROMIUM).install())
@@ -67,9 +71,9 @@ try:
     if DEBUG:
         web_driver_wait(By.CLASS_NAME, 'blocklyWorkspace', 10)
     else:
-        raise TimeoutException
+        raise ProductionEnvironment
     logger.debug("Already Logged in 😃")
-except TimeoutException:
+except TimeoutException or ProductionEnvironment:
     try:
         logger.debug('Not logged in....')
         driver.get("https://accounts.ea.com/connect")
