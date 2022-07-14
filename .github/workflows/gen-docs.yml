@@ -10,8 +10,8 @@ jobs:
   get_enabled_blocks:
     runs-on: ubuntu-latest
     env:
-      BFPORTAL_EMAIL: ${{ secrets.BFPORTAL_EMAIL }}
-      BFPORTAL_PASSWORD: ${{ secrets.BFPORTAL_PASSWORD }}
+      BFPORTAL_EMAIL: ${{ secrets.REMID }}
+      BFPORTAL_PASSWORD: ${{ secrets.SID }}
     steps:
       - name: Check out this repo
         uses: actions/checkout@v2
