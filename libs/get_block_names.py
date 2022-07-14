@@ -18,28 +18,29 @@ import json
 import sys
 from dotenv import load_dotenv
 from helper import project_dir
+
 load_dotenv()
 
 chrome_service = Service(ChromeDriverManager(chrome_type=ChromeType.CHROMIUM).install())
 chrome_options = Options()
 
-options = [
-    "--headless",
-    "--disable-gpu",
-    "--window-size=1920,1200",
-    "--ignore-certificate-errors",
-    "--disable-extensions",
-    "--no-sandbox",
-    "--disable-dev-shm-usage"
-]
+if not os.getenv("DEBUG", False):
+    options = [
+        "--headless",
+        "--disable-gpu",
+        "--window-size=1920,1200",
+        "--ignore-certificate-errors",
+        "--disable-extensions",
+        "--no-sandbox",
+        "--disable-dev-shm-usage"
+    ]
 
-for option in options:
-    chrome_options.add_argument(option)
-
-
-# chrome_options.add_argument("--detach")
-
-chrome_options.add_argument("user-data-dir=/tmp/selenium")
+    for option in options:
+        chrome_options.add_argument(option)
+else:
+    logger.debug("Running in detach mode")
+    chrome_options.add_experimental_option("detach", True)
+    chrome_options.add_argument("user-data-dir=/tmp/selenium")
 
 driver = webdriver.Chrome(service=chrome_service, options=chrome_options)
 
@@ -48,6 +49,7 @@ def web_driver_wait(by: By, element: str, time: int = 10) -> WebElement:
     return WebDriverWait(driver, time).until(
         EC.presence_of_element_located((by, element))
     )
+
 
 # workflow
 # Check if logged-in, If not > log in
@@ -64,17 +66,13 @@ try:
 except TimeoutException:
     try:
         logger.debug('Not logged in....')
-        web_driver_wait(By.CLASS_NAME, 'login-button').click()
-        email = os.getenv('BFPORTAL_EMAIL', None)
-        password = os.getenv('BFPORTAL_PASSWORD', None)
-        if email is None or password is None:
-            sys.exit("email and password to login not found")
-        web_driver_wait(By.ID, 'email').send_keys(email)
-        web_driver_wait(By.ID, 'password').send_keys(password)
-        logger.debug('login info set....')
-        web_driver_wait(By.ID, 'logInBtn').click()
-        logger.debug("Trying to log in ....")
+        driver.get("https://accounts.ea.com/connect")
+        driver.add_cookie({'name': 'remid', 'value': os.getenv('REMID')})
+        driver.add_cookie({'name': 'sid', 'value': os.getenv('SID')})
+        driver.get("https://portal.battlefield.com/login")
         try:
+            driver.get(
+                'https://portal.battlefield.com/experience/rules?playgroundId=a56cf4d0-c713-11ec-b056-e3dbf89f52ce')
             web_driver_wait(By.CLASS_NAME, 'blocklyWorkspace')
             logger.debug('Login Successful')
         except TimeoutException:
@@ -94,7 +92,8 @@ blocks = {'blocks': ''}
 data = driver.execute_script("return _Blockly.Blocks")
 logger.debug(f"got {len(data)} blocks")
 with open(project_dir / "data" / "enabled_blocks.json", 'w') as json_file:
-    bad_blocks = ['Compare', 'IndexOfFirstTrue', 'actionComment', 'missingActionBlockType_v1', 'missingValueBlockType_v1']
+    bad_blocks = ['Compare', 'IndexOfFirstTrue', 'actionComment', 'missingActionBlockType_v1',
+                  'missingValueBlockType_v1']
     blocks['blocks'] = [block for block in data.keys() if block not in bad_blocks]
     json.dump(blocks, json_file)
 
