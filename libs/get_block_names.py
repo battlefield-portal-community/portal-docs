@@ -21,10 +21,13 @@ from helper import project_dir
 
 load_dotenv()
 
+
+DEBUG = os.getenv("DEBUG", False)
+
 chrome_service = Service(ChromeDriverManager(chrome_type=ChromeType.CHROMIUM).install())
 chrome_options = Options()
 
-if not os.getenv("DEBUG", False):
+if not DEBUG:
     options = [
         "--headless",
         "--disable-gpu",
@@ -56,12 +59,15 @@ def web_driver_wait(by: By, element: str, time: int = 10) -> WebElement:
 # load the page
 # execute
 
-
-driver.get('https://portal.battlefield.com/experience/rules?playgroundId=a56cf4d0-c713-11ec-b056-e3dbf89f52ce')
+if DEBUG:
+    driver.get('https://portal.battlefield.com/experience/rules?playgroundId=a56cf4d0-c713-11ec-b056-e3dbf89f52ce')
 
 # handle login
 try:
-    web_driver_wait(By.CLASS_NAME, 'blocklyWorkspace', 10)
+    if DEBUG:
+        web_driver_wait(By.CLASS_NAME, 'blocklyWorkspace', 10)
+    else:
+        raise TimeoutException
     logger.debug("Already Logged in 😃")
 except TimeoutException:
     try:
