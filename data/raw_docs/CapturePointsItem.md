@@ -7,8 +7,12 @@
 -   %{PYRITE_TYPE_ENUM_CAPTUREPOINTS}
 
 ```
-<block type="CapturePointsItem">
-    <field name="VALUE-0">CapturePoints</field>
-    <field name="VALUE-1">C1</field>
+<block type="GetCapturePoint">
+    <value name="VALUE-0">
+        <block type="CapturePointsItem">
+            <field name="VALUE-0">CapturePoints</field>
+            <field name="VALUE-1">C1</field>
+        </block>
+    </value>
 </block>
 ```

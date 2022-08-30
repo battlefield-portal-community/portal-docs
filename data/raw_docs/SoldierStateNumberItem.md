@@ -7,8 +7,15 @@
 -   %{PYRITE_TYPE_ENUM_SOLDIERSTATENUMBER}
 
 ```
-<block type="SoldierStateNumberItem">
-    <field name="VALUE-0">SoldierStateNumber</field>
-    <field name="VALUE-1">MaxHealth</field>
+<block type="GetSoldierState">
+    <value name="VALUE-0">
+        <block type="EventPlayer"></block>
+    </value>
+    <value name="VALUE-1">
+        <block type="SoldierStateNumberItem">
+            <field name="VALUE-0">SoldierStateNumber</field>
+            <field name="VALUE-1">MaxHealth</field>
+        </block>
+    </value>
 </block>
 ```

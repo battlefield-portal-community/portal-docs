@@ -18,7 +18,7 @@
     </value>
     <value name="VALUE-1">
         <block type="VehiclesItem">
-            <field name="VALUE-0">VehiclesRumney</field>
+            <field name="VALUE-0">Heavy</field>
             <field name="VALUE-1">T90</field>
         </block>
     </value>

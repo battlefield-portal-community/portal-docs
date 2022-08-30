@@ -7,8 +7,15 @@
 -   %{PYRITE_TYPE_ENUM_CHARACTERGADGETS}
 
 ```
-<block type="CharacterGadgetsItem">
-    <field name="VALUE-0">CharacterGadgetsAlexandria</field>
-    <field name="VALUE-1">RepairTool_ALX</field>
+<block type="AddSoldierWeapon">
+    <value name="VALUE-0">
+        <block type="EventPlayer"></block>
+    </value>
+    <value name="VALUE-1">
+        <block type="CharacterGadgetsItem">
+            <field name="VALUE-0">CharacterGadgetsAlexandria</field>
+            <field name="VALUE-1">RepairTool_ALX</field>
+        </block>
+    </value>
 </block>
 ```

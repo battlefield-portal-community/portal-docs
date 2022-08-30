@@ -7,8 +7,15 @@
 -   %{PYRITE_TYPE_ENUM_THROWABLES}
 
 ```
-<block type="ThrowablesItem">
-    <field name="VALUE-0">ThrowablesKingston</field>
-    <field name="VALUE-1">SmokeGrenade</field>
+<block type="AddSoldierWeapon">
+    <value name="VALUE-0">
+        <block type="EventPlayer"></block>
+    </value>
+    <value name="VALUE-1">
+        <block type="ThrowablesItem">
+            <field name="VALUE-0">ThrowablesKingston</field>
+            <field name="VALUE-1">SmokeGrenade</field>
+        </block>
+    </value>
 </block>
 ```
