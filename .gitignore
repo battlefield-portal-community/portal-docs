@@ -129,3 +129,4 @@ dmypy.json
 .pyre/
 data/translations.json
 /data/save_translations.py
+.idea/
