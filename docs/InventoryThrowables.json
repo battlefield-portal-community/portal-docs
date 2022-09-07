@@ -1,1 +1,1 @@
-{"block": "InventoryThrowables", "summary": "Returns an **InventoryThrowablesItem** from the collection of all throwables.", "output": ["-   **InventoryThrowablesItem**"]}
+{"block": "InventoryThrowables", "summary": "Returns a **InventoryThrowablesItem** from the collection of all throwables.", "output": ["-   **InventoryThrowablesItem**"]}
