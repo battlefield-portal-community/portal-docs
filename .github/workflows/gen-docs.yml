@@ -23,9 +23,12 @@ jobs:
         run: apt list --installed
       - name: Remove Chrome
         run: sudo apt purge google-chrome-stable
-      # Chromium is already installed!
-      # - name: Install software
-      #   run: sudo apt install -y chromium-browser
+      
+      - name: Print Chromium Version
+        run: chromium --version
+      - name: Install Chromium
+        run: sudo apt install -y chromium-browser
+        
       - name: Install all necessary packages
         run: pip install -r requirements.txt
       - name: Run the scraping script
