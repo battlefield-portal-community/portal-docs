@@ -76,7 +76,7 @@ try:
 except (TimeoutException, ProductionEnvironment):
     try:
         logger.debug('Not logged in....')
-        driver.get("https://accounts.ea.com/connect")
+        driver.get("https://accounts.ea.com")  # needed as selenium only sets cookies for a domain when on it
         driver.add_cookie({'name': 'remid', 'value': os.getenv('REMID')})
         driver.add_cookie({'name': 'sid', 'value': os.getenv('SID')})
         driver.get("https://portal.battlefield.com/login")
