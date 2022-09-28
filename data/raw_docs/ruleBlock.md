@@ -127,3 +127,15 @@
 #### %{ID_ARRIVAL_MODBUILDER_EVENT_ONCAPTUREPOINTLOST}
 
 %{help.rule.oncapturepointlost}
+
+#### %{ID_ARRIVAL_MODBUILDER_EVENT_ONCAPTUREPOINTNEUTRALIZING}
+
+%{help.rule.oncapturepointneutralizing}
+
+#### %{ID_ARRIVAL_MODBUILDER_EVENT_ONPLAYERENTERCAPTUREPOINT}
+
+%{help.rule.onplayerentercapturepoint}
+
+#### %{ID_ARRIVAL_MODBUILDER_EVENT_ONPLAYEREXITCAPTUREPOINT}
+
+%{help.rule.onplayerexitcapturepoint}

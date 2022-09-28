@@ -1,1 +1,1 @@
-{"block": "SetGameModeTimeLimit", "summary": "Sets the duration of the gamemode (in seconds).", "inputs": ["1. **Number**"]}
+{"block": "SetGameModeTimeLimit", "summary": "Sets the duration of the game in seconds.", "inputs": ["1. **Number**"]}

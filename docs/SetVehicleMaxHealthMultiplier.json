@@ -1,1 +1,1 @@
-{"block": "SetVehicleMaxHealthMultiplier", "summary": "Multiplies the maximum health of target **Vehicle** by the provided **Number** \n  \n_Note: the number cannont be more than 10 or less than or equal to 0._", "inputs": ["1. **Vehicle**", "2. **Number**"]}
+{"block": "SetVehicleMaxHealthMultiplier", "summary": "Multiplies the maximum health of target **Vehicle** by the provided **Number** greater than 0 and less than or equal to 4.  \n  \n_Note: The health of a **Vehicle** is displayed in-game as a percentage._", "inputs": ["1. **Vehicle**", "2. **Number**"]}
