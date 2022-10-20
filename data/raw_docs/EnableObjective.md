@@ -4,7 +4,7 @@
 
 ### %{help.common.input}
 
-1. %{PYRITE_TYPE_CAPTUREPOINT}
+1. %{PYRITE_TYPE_CAPTUREPOINT} | %{PYRITE_TYPE_MCOM} 
 2. %{PYRITE_TYPE_BOOLEAN}
 
 ```

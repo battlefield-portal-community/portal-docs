@@ -139,3 +139,23 @@
 #### %{ID_ARRIVAL_MODBUILDER_EVENT_ONPLAYEREXITCAPTUREPOINT}
 
 %{help.rule.onplayerexitcapturepoint}
+
+#### %{ID_ARRIVAL_MODBUILDER_EVENT_ONMCOMARMED}
+
+%{help.rule.onmcomarmed}
+
+#### %{ID_ARRIVAL_MODBUILDER_EVENT_ONMCOMDEFUSED}
+
+%{help.rule.onmcomdefused}
+
+#### %{ID_ARRIVAL_MODBUILDER_EVENT_ONMCOMDESTROYED}
+
+%{help.rule.onmcomdestroyed}
+
+#### %{ID_ARRIVAL_MODBUILDER_EVENT_ONPLAYERDAMAGED}
+
+%{help.rule.onplayerdamaged}
+
+#### %{ID_ARRIVAL_MODBUILDER_EVENT_ONPLAYEREARNKILLASSIST}
+
+%{help.rule.onplayerearnkillassist}

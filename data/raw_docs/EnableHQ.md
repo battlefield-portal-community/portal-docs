@@ -6,6 +6,9 @@
 
 1. %{PYRITE_TYPE_TEAMID}
 2. %{PYRITE_TYPE_NUMBER}
+
+    %{help.common.contexts.index}
+
 3. %{PYRITE_TYPE_BOOLEAN}
 
 ```
