@@ -88,7 +88,7 @@ jobs:
       - name: Install all necessary packages
         run: pip install -r requirements.txt
       - name: Generating Docs
-        run: python libs/gen_docs.py    
+        run: python libs/gen_docs_json.py
 
       - name: Upload data artifact
         uses: actions/upload-artifact@v3
