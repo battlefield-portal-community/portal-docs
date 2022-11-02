@@ -1,0 +1,9 @@
+{
+    "block": "SetWorldIconText",
+    "summary": "Sets the text property for a provided **WorldIconsItem**.",
+    "inputs": [
+        "1. **WorldIconsItem**",
+        "2. **Message**"
+    ],
+    "extra": ""
+}

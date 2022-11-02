@@ -1,0 +1,9 @@
+{
+    "block": "SetPlayerMaxHealth",
+    "summary": "Sets the max health of a target **Player** from 0 to 1000.  \n  \n_Note: The value will be multiplied by the max health multiplier of the that target._",
+    "inputs": [
+        "1. **Player**",
+        "2. **Number**"
+    ],
+    "extra": ""
+}

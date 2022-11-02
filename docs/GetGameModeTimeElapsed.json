@@ -1,1 +1,0 @@
-{"block": "GetGameModeTimeElapsed", "summary": "Returns the total elapsed time of the current gamemode.", "output": ["-   **Number**"]}

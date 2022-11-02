@@ -1,0 +1,14 @@
+{
+    "block": "AngleDifference",
+    "summary": "Returns the difference between two angles (in degrees).",
+    "inputs": [
+        "1. **Number**",
+        "    **(1st Angle)**",
+        "2. **Number**",
+        "    **(2nd Angle)**"
+    ],
+    "output": [
+        "-   **Number**"
+    ],
+    "extra": ""
+}

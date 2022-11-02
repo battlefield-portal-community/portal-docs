@@ -1,0 +1,8 @@
+{
+    "block": "InventorySecondaryWeapons",
+    "summary": "Returns an **InventorySecondaryWeaponsItem** from the collection of all secondary weapons.",
+    "output": [
+        "-   **InventorySecondaryWeaponsItem**"
+    ],
+    "extra": ""
+}

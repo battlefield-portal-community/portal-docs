@@ -1,0 +1,13 @@
+{
+    "block": "DealDamage",
+    "summary": "Deals a provided amount of damage to a target **Player** by a another **Player**.",
+    "inputs": [
+        "1. **Player**",
+        "    **(Target)**",
+        "2. **Number**",
+        "3. **Player**",
+        "    **(Giver)**",
+        "    **_Optional_**"
+    ],
+    "extra": ""
+}

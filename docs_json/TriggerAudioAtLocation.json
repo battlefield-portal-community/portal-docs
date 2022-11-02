@@ -1,0 +1,9 @@
+{
+    "block": "TriggerAudioAtLocation",
+    "summary": "Plays a selected **LocationalSoundsItem** at a specified position.",
+    "inputs": [
+        "1. **LocationalSoundsItem**",
+        "2. **Vector**"
+    ],
+    "extra": ""
+}

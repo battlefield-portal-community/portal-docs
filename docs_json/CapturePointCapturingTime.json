@@ -1,0 +1,9 @@
+{
+    "block": "CapturePointCapturingTime",
+    "summary": "Sets the capturing time for target **CapturePoint** to the provided **Number**.",
+    "inputs": [
+        "1. **CapturePoint**",
+        "2. **Number**"
+    ],
+    "extra": ""
+}

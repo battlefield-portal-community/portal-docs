@@ -1,0 +1,14 @@
+{
+    "block": "WorldToLocalVector",
+    "summary": "Converts the provided world vector to the corresponding vector in local **Player** space.",
+    "inputs": [
+        "1. **Vector**",
+        "    **(World Vector)**",
+        "2. **Player**"
+    ],
+    "output": [
+        "-   **Vector**",
+        "    **(Local Vector)**"
+    ],
+    "extra": ""
+}

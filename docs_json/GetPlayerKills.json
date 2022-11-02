@@ -1,0 +1,11 @@
+{
+    "block": "GetPlayerKills",
+    "summary": "Returns the total amount of kills for the target **Player**.",
+    "inputs": [
+        "1. **Player**"
+    ],
+    "output": [
+        "-   **Number**"
+    ],
+    "extra": ""
+}

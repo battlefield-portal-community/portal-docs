@@ -1,0 +1,11 @@
+{
+    "block": "CosineFromDegrees",
+    "summary": "Returns the cosine value of a specified angle in degrees.",
+    "inputs": [
+        "1. **Number**"
+    ],
+    "output": [
+        "-   **Number**"
+    ],
+    "extra": ""
+}

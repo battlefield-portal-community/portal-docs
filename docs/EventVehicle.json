@@ -1,1 +1,0 @@
-{"block": "EventVehicle", "summary": "Returns the **Vehicle** payload from the **RULE** **EVENT** context.", "output": ["-   **Vehicle**"]}

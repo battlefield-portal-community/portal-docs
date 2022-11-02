@@ -1,0 +1,12 @@
+{
+    "block": "GetVehicleState",
+    "summary": "Returns the value of the target **Vehicle** state.",
+    "inputs": [
+        "1. **Vehicle**",
+        "2. **VehicleStateVectorItem**"
+    ],
+    "output": [
+        "-   **Vector**"
+    ],
+    "extra": ""
+}

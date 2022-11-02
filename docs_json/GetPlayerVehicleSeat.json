@@ -1,0 +1,11 @@
+{
+    "block": "GetPlayerVehicleSeat",
+    "summary": "Returns the seat index **Number** for the target **Player** if they are in a vehicle, otherwise returns -1.",
+    "inputs": [
+        "1. **Player**"
+    ],
+    "output": [
+        "1. **Number**"
+    ],
+    "extra": ""
+}

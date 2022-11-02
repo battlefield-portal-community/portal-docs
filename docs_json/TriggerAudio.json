@@ -1,0 +1,9 @@
+{
+    "block": "TriggerAudio",
+    "summary": "Plays a provided **SoundsItem** or **VoiceOversItem** to a provided **TeamId**.",
+    "inputs": [
+        "1. **SoundsItem** | **VoiceOversItem**",
+        "2. **TeamId**"
+    ],
+    "extra": ""
+}

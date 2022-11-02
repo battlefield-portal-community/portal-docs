@@ -1,0 +1,11 @@
+{
+    "block": "GetXComponent",
+    "summary": "Returns the 'X' component of a provided **Vector**.",
+    "inputs": [
+        "1. **Vector**"
+    ],
+    "output": [
+        "-   **Number**"
+    ],
+    "extra": ""
+}

@@ -1,1 +1,0 @@
-{"block": "SetObjectiveOwner", "summary": "Claims the provided **CapturePoint** for the specified **TeamId**.", "inputs": ["1. **CapturePoint**", "2. **TeamId**"]}

@@ -1,0 +1,11 @@
+{
+    "block": "Not",
+    "summary": "Return a **Bool** of the opposite value of the **Bool** input.",
+    "inputs": [
+        "1. **Bool**"
+    ],
+    "output": [
+        "-   **Bool**"
+    ],
+    "extra": ""
+}

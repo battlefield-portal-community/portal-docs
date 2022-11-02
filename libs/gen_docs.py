@@ -10,6 +10,7 @@ from helper import project_dir
 class CleanDoc(TypedDict):
     block: str
     summary: str
+    extra: str
     inputs: Optional[list]
     output: Optional[list]
 
@@ -33,11 +34,11 @@ def gen_text(doc: str, rule_block: bool = False) -> str:
     return gen_text(doc)
 
 
-logger.debug("Get Translations from gametools")
-translations = requests.get("https://api.gametools.network/bf2042/translations/").json()['localizedTexts']
+# logger.debug("Get Translations from gametools")
+# translations = requests.get("https://api.gametools.network/bf2042/translations/").json()['localizedTexts']
 
-# with open(project_dir / "data" / "translations.json") as file:
-#     translations = json.load(file)['localizedTexts']
+with open(project_dir / "data" / "translations.json") as file:
+    translations = json.load(file)['localizedTexts']
 
 mapped_translations = dict()
 
@@ -48,11 +49,6 @@ for item in translations:
 
 logger.info("Generate Docs")
 clean_names = []
-
-# delete all present docs before making new docs
-logger.info("Deleting currently present docs")
-for file in (project_dir / "docs").glob("*.json"):
-    file.unlink()
 
 for raw_doc in sorted((project_dir / "data" / "raw_docs").glob("*.md")):
     bad_blocks = ['controls_if_else', 'missingActionBlockType_v1', 'missingValueBlockType_v1']
@@ -105,8 +101,24 @@ for raw_doc in sorted((project_dir / "data" / "raw_docs").glob("*.md")):
 
     if clean_name in ["RULE", "MOD"]:
         clean_name = clean_name.capitalize()
-    with open(project_dir / "docs" / f'{clean_name}.json', 'w') as file:
-        json.dump(clean_doc, file)
+
+    doc_json_folder_path = project_dir / "docs_json"
+    doc_json_folder_path.mkdir(exist_ok=True)
+    doc_json_file_path = doc_json_folder_path / f'{clean_name}.json'
+    doc_json_file_path.touch(exist_ok=True)
+
+    with open(doc_json_file_path, 'r+') as file:
+        try:
+            doc_json: CleanDoc = json.loads(file.read())
+        except json.JSONDecodeError:
+            doc_json = dict()
+        doc_json.update(clean_doc)
+        if not doc_json.get('extra', False):
+            doc_json['extra'] = ''
+        file.seek(0)
+        json.dump(doc_json, file, indent=4)
+        file.truncate()
+
     clean_names.append(clean_name)
     logger.debug(f"{raw_doc.stem} -> {clean_name}")
 

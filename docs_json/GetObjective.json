@@ -1,0 +1,11 @@
+{
+    "block": "GetObjective",
+    "summary": "Returns the **CapturePoint** or **MCOM** corresponding to the provided **CapturePointsItem** or **MCOMsItem** respectively.",
+    "inputs": [
+        "1. **CapturePointsItem**"
+    ],
+    "output": [
+        "-   **CapturePoint**"
+    ],
+    "extra": ""
+}

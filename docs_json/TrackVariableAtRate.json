@@ -1,0 +1,12 @@
+{
+    "block": "TrackVariableAtRate",
+    "summary": "Gradually modifies the value of a **Variable** at a specified rate (value/second) until it reaches the provided limit.   \n  \n_Note: If the limit is changed later, the **Variable** will continue to be updated from its previous value. To spot modifying the **Variable**, use **StopTrackingVariable**._",
+    "inputs": [
+        "1. **Variable**",
+        "2. **Number**",
+        "    **(Limit)**",
+        "3. **Number**",
+        "    **(Rate)**"
+    ],
+    "extra": ""
+}

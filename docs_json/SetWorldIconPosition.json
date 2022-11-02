@@ -1,0 +1,9 @@
+{
+    "block": "SetWorldIconPosition",
+    "summary": "Sets the in-world position of a provided **WorldIconsItem**.",
+    "inputs": [
+        "1. **WorldIconsItem**",
+        "2. **Vector**"
+    ],
+    "extra": ""
+}

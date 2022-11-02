@@ -1,0 +1,9 @@
+{
+    "block": "ApplyMedGadget",
+    "summary": "Applies the effect of a medical gadget to a target **Player**.",
+    "inputs": [
+        "1. **Player**",
+        "2. **MedGadgetTypesItem**"
+    ],
+    "extra": ""
+}

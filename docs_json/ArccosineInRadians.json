@@ -1,0 +1,11 @@
+{
+    "block": "ArccosineInRadians",
+    "summary": "Returns the inverse cosine of a provided **Number** value in radians.",
+    "inputs": [
+        "1. **Number**"
+    ],
+    "output": [
+        "-   **Number**"
+    ],
+    "extra": ""
+}

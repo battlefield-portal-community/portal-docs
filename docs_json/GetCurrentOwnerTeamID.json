@@ -1,0 +1,11 @@
+{
+    "block": "GetCurrentOwnerTeamID",
+    "summary": "Returns the current owner **TeamId** corresponding to the provided **CapturePoint**.",
+    "inputs": [
+        "1. **CapturePoint**"
+    ],
+    "output": [
+        "-   **TeamId**"
+    ],
+    "extra": ""
+}

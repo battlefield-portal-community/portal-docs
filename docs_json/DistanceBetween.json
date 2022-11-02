@@ -1,0 +1,14 @@
+{
+    "block": "DistanceBetween",
+    "summary": "Returns the distance between a starting position and ending position.",
+    "inputs": [
+        "1. **Vector**",
+        "    **(Starting Position)**",
+        "2. **Vector**",
+        "    **(Ending Position)**"
+    ],
+    "output": [
+        "-   **Number**"
+    ],
+    "extra": ""
+}

@@ -1,0 +1,9 @@
+{
+    "block": "ReplacePlayerInventory",
+    "summary": "Gives a target **Player** a new inventory item.",
+    "inputs": [
+        "1. **Player**",
+        "2. **InventoryPrimaryWeaponsItem** | **InventorySecondaryWeaponsItem** | **InventoryCharacterSpecialtiesItem** | **InventoryOpenGadgetsItem** | **InventoryThrowablesItem** | **InventoryMeleeWeaponsItem**"
+    ],
+    "extra": ""
+}

@@ -1,0 +1,11 @@
+{
+    "block": "CountOf",
+    "summary": "Returns the **Number** of elements in the specified **Array**.",
+    "inputs": [
+        "1. **Array**"
+    ],
+    "output": [
+        "-   **Number**"
+    ],
+    "extra": ""
+}

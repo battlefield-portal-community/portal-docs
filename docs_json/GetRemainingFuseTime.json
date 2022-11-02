@@ -1,0 +1,11 @@
+{
+    "block": "GetRemainingFuseTime",
+    "summary": "Returns the remaining fuse time (in seconds) on the provided **MCOM**.",
+    "inputs": [
+        "1. **MCOM**"
+    ],
+    "output": [
+        "-   **Number**"
+    ],
+    "extra": ""
+}

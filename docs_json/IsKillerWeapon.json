@@ -1,0 +1,12 @@
+{
+    "block": "IsKillerWeapon",
+    "summary": "Returns a **Bool** indicating if the given **HardwareId** is equivalent to the provided ability.",
+    "inputs": [
+        "1. **HardwareId**",
+        "2. **InventoryPrimaryWeaponsItem** | **InventorySecondaryWeaponsItem** | **InventoryCharacterSpecialtiesItem** | **InventoryOpenGadgetsItem** | **InventoryThrowablesItem** | **InventoryMeleeWeaponsItem**"
+    ],
+    "output": [
+        "-   **Bool**"
+    ],
+    "extra": ""
+}

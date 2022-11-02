@@ -1,1 +1,0 @@
-{"block": "Multiply", "summary": "Returns the product of two **Number** values or the product of a **Vector** and **Number** value.", "inputs": ["1. **Number** | **Vector**", "2. **Number**"], "output": ["-   **Number** | **Vector**"]}

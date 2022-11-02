@@ -1,0 +1,8 @@
+{
+    "block": "EventOtherPlayer",
+    "summary": "Returns the 2nd **Player** payload from the **RULE** **EVENT** context.",
+    "output": [
+        "-   **Player**"
+    ],
+    "extra": ""
+}
