@@ -1,18 +1,8 @@
 import json
-import requests
 import re
-from typing import TypedDict, Optional
 from loguru import logger
 
-from helper import project_dir
-
-
-class CleanDoc(TypedDict):
-    block: str
-    summary: str
-    extra: str
-    inputs: Optional[list]
-    output: Optional[list]
+from helper import project_dir, CleanDoc
 
 
 def gen_text(doc: str, rule_block: bool = False) -> str:
