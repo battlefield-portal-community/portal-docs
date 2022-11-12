@@ -48,6 +48,7 @@ else:
     logger.debug("Running in detach mode")
     chrome_options.add_experimental_option("detach", True)
     chrome_options.add_argument("user-data-dir=/tmp/selenium")
+    chrome_options.binary_location = '/usr/bin/chromium'
 
 driver = webdriver.Chrome(service=chrome_service, options=chrome_options)
 
