@@ -1,7 +1,10 @@
 import json
-import requests
+import operator
 import re
 from typing import TypedDict, Optional
+
+import box
+from box import Box
 from loguru import logger
 
 from helper import project_dir
@@ -14,37 +17,52 @@ class CleanDoc(TypedDict):
     output: Optional[list]
 
 
+def get_nested_dot(dot_string) -> str:
+    try:
+        return operator.attrgetter(dot_string)(i18n)
+    except box.BoxKeyError:
+        if block := mapped_translations.get(dot_string, False):
+            return block
+        raise
+
+
 def gen_text(doc: str, rule_block: bool = False) -> str:
-    if key := re.search('^#+\s*%{(.*?)}', doc):
-        if rule_block:
-            doc = doc.replace(key.group(), f'**{mapped_translations[key.groups()[0]]}**')
+    if key := re.search(r'^#+\s*%{(.*?)}$', doc):
+        mkey = key.groups()[0]
+        if r := mapped_translations.get(mkey, False):
+            replace_with = r
         else:
-            doc = doc.replace(key.group(), f'{mapped_translations[key.groups()[0]]}')
-    elif key := re.search('\*\*%{(.*?)}\*\*', doc):
-        doc = doc.replace(key.group(), f'**{mapped_translations[key.groups()[0]]}**')
-    elif key := re.search('^%{(.*?)}', doc):
-        mkey = key.groups()[0]
-        doc = doc.replace(key.group(), f'{mapped_translations[mkey]}')
-    elif key := re.search('%{(.*?)}', doc):
-        mkey = key.groups()[0]
-        doc = doc.replace(key.group(), f'**{mapped_translations[mkey]}**')
+            replace_with = get_nested_dot(mkey)
+        if rule_block:
+            doc = doc.replace(key.group(), f'**{replace_with}**')
+        else:
+            doc = doc.replace(key.group(), f'{replace_with}')
+
+    elif key := re.search(r'\*\*%{(.*?)}\*\*', doc):
+        doc = doc.replace(key.group(), f'**{get_nested_dot(key.groups()[0])}**')
+    elif key := re.search(r'^%{(.*?)}', doc):
+        doc = doc.replace(key.group(), get_nested_dot(key.groups()[0]))
+    elif key := re.search(r'%{(.*?)}', doc):
+        doc = doc.replace(key.group(), f'**{get_nested_dot(key.groups()[0])}**')
     else:
         return doc
     return gen_text(doc)
 
 
-logger.debug("Get Translations from gametools")
-translations = requests.get("https://api.gametools.network/bf2042/translations/").json()['localizedTexts']
+# logger.debug("Get Translations from gametools")
+# translations = requests.get("https://api.gametools.network/bf2042/translations/").json()['localizedTexts']
 
-# with open(project_dir / "data" / "translations.json") as file:
-#     translations = json.load(file)['localizedTexts']
+
+with open(project_dir / "data" / "translations.json") as file:
+    translations = json.load(file)['localizedTexts']
+
+i18n = Box.from_json(filename=project_dir / "data" / "i18n.json")
 
 mapped_translations = dict()
 
 logger.debug("Generate Mapping")
 for item in translations:
     mapped_translations[item['sid']] = item['localizedText']
-
 
 logger.info("Generate Docs")
 clean_names = []
@@ -89,9 +107,9 @@ for raw_doc in sorted((project_dir / "data" / "raw_docs").glob("*.md")):
 
     clean_doc['summary'] = "\n".join(clean[1:(i if i else o if o else None)])
     if i:
-        clean_doc['inputs'] = clean[i+1:(o if o else None)]
+        clean_doc['inputs'] = clean[i + 1:(o if o else None)]
     if o:
-        clean_doc['output'] = clean[o+1:]
+        clean_doc['output'] = clean[o + 1:]
 
     k = f"ID_ARRIVAL_BLOCK_{raw_doc.stem.upper()}"
     clean_name = mapped_translations.get(k, False)
