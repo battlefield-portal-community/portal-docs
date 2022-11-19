@@ -5,7 +5,9 @@ import grequests
 from loguru import logger
 
 from helper import project_dir
+from save_translations import save_translations_json
 
+save_translations_json()
 with open(project_dir / "data" / "enabled_blocks.json") as file:
     blocks = json.load(file)['blocks']
 with open(project_dir / "data" / "rules_editor_version") as file:
