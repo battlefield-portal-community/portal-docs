@@ -1,0 +1,19 @@
+docSections = ["blocks"]
+enableDarkMode = true
+metaThemeColor = '#26FFDF'
+
+[logo]
+  lightMode = "https://bfportal.gg/static/images/icon_portal_library_website.png"
+  darkMode = "https://bfportal.gg/static/images/icon_portal_library_website.png"
+
+[source]
+  name = "GitHub"
+  iconLight = "images/GitHubMarkLight.svg"
+  iconDark = "images/GitHubMarkDark.svg"
+  url = "https://github.com/battlefield-portal-community/portal-docs"
+
+# optional
+# attribution. Feel free to delete this
+[author]
+  name = "gala"
+  url = "https://stilllearning.tech/"

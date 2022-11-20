@@ -1,0 +1,15 @@
+---
+title: "TrackVariableAtRate"
+draft: false
+---
+Gradually modifies the value of a **Variable** at a specified rate (value/second) until it reaches the provided limit.   
+  
+_Note: If the limit is changed later, the **Variable** will continue to be updated from its previous value. To spot modifying the **Variable**, use **StopTrackingVariable**._
+### Inputs
+1. **Variable**
+2. **Number**
+    **(Limit)**
+3. **Number**
+    **(Rate)**
+
+![TrackVariableAtRate](https://raw.githubusercontent.com/battlefield-portal-community/Image-CDN/main/portal_blocks/TrackVariableAtRate.png)
