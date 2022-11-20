@@ -68,7 +68,7 @@ jobs:
           path: data/
   
   
-  generate_docs:
+  generate_json_docs:
     needs: generate_data
 
     runs-on: ubuntu-latest
@@ -99,7 +99,7 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: docs-artifact
-          path: docs/
+          path: docs_json/
 
 
 
@@ -118,7 +118,7 @@ jobs:
         uses: actions/download-artifact@v3
         with:
           name: docs-artifact
-          path: docs/
+          path: docs-json/
       
       - run: |
           git fetch --prune --unshallow
