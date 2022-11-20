@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - docs_json/**  # Set a branch that will trigger a deployment
+      - hugo/**
 
   workflow_dispatch:
 
