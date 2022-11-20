@@ -1,1 +1,0 @@
-{"block": "NotEqualTo", "summary": "Returns a **Bool** indicating if two values are not equal to each other.", "inputs": ["1. **Any Type**", "2. **Any Type**"], "output": ["-   **Bool**"]}

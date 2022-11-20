@@ -1,1 +1,0 @@
-{"block": "InventoryOpenGadgets", "summary": "Returns an **InventoryOpenGadgetsItem** from the collection of all open gadgets.", "output": ["-   **InventoryOpenGadgetsItem**"]}

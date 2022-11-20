@@ -1,1 +1,0 @@
-{"block": "RandomizedArray", "summary": "Returns a copy of the specified **Array** with the values in a random order.", "inputs": ["1. **Array**"], "output": ["-   **Array**"]}

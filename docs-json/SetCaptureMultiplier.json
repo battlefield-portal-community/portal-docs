@@ -1,1 +1,0 @@
-{"block": "SetCaptureMultiplier", "summary": "Sets the capture time multiplier for target **CapturePoint** to the provided **Number**.", "inputs": ["1. **CapturePoint**", "2. **Number**"]}
