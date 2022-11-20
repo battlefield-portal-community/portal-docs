@@ -1,0 +1,1 @@
+{"block": "CapturePointNeutralizationTime", "summary": "Sets the neutralization time for target **CapturePoint** to the provided **Number**.", "inputs": ["1. **CapturePoint**", "2. **Number**"]}

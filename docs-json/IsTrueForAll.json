@@ -1,0 +1,1 @@
+{"block": "IsTrueForAll", "summary": "Returns **_True_** if the provided condition is **_True_** for every element in the provided **Array**.", "inputs": ["1. **Array**", "2. **Bool**"], "output": ["-   **Bool**"]}

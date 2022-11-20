@@ -1,0 +1,1 @@
+{"block": "SendErrorReport", "summary": "Displays a provided **Message** as an error in the Admin menu.", "inputs": ["1. **Message**"]}

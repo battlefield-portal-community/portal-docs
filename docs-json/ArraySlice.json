@@ -1,0 +1,1 @@
+{"block": "ArraySlice", "summary": "Returns a copy of the specified **Array** containing only values from a specified index range.", "inputs": ["1. **Array**", "2. **Number**", "    **(Start Index)**", "3. **Number**", "    **(Count)**"], "output": ["-   **Array**"]}

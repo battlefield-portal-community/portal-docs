@@ -1,0 +1,1 @@
+{"block": "Add", "summary": "Returns the sum of two **Number** or two **Vector** values.", "inputs": ["1. **Number** | **Vector**", "2. **Number** | **Vector**"], "output": ["-   **Number** | **Vector**"]}

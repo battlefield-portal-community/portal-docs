@@ -1,0 +1,1 @@
+{"block": "EnableHQ", "summary": "Enables or disables a headquarters specified by the provided **TeamId** and **Number** index.  \n  \n_Note: The index begins counting at 0_.", "inputs": ["1. **TeamId**", "2. **Number**", "    **(Index)**", "3. **Bool**"]}

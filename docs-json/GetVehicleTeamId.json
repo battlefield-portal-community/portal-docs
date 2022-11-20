@@ -1,0 +1,1 @@
+{"block": "GetVehicleTeamId", "summary": "Returns the **TeamId** of the provided **Vehicle**.  \n  \n_Note: A **Vehicle** that is not occupied will have a neutral **TeamId**._", "inputs": ["1. **Vehicle**"], "output": ["-   **TeamId**"]}

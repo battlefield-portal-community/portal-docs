@@ -1,0 +1,1 @@
+{"block": "SetVariable", "summary": "Sets the value of a **Variable**.", "inputs": ["1. **Variable**", "2. **Any Type**"]}

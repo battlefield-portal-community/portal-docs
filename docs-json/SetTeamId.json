@@ -1,0 +1,1 @@
+{"block": "SetTeamId", "summary": "Sets the target **Player** team using the provided **TeamId**. This will force the **Player** back to the deploy screen.  \n  \n_Note: this block is not supported in Free-For-All._", "inputs": ["1. **Player**", "2. **TeamId**"]}

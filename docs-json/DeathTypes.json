@@ -1,0 +1,1 @@
+{"block": "DeathTypes", "summary": "Returns a **DeathTypesItem** from the collection of all possible death types.", "output": ["-   **DeathTypesItem**"]}

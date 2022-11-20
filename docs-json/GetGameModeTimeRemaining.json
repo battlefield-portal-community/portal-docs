@@ -1,0 +1,1 @@
+{"block": "GetGameModeTimeRemaining", "summary": "Returns the amount of time left (seconds) in the current gamemode.", "output": ["-   **Number**"]}

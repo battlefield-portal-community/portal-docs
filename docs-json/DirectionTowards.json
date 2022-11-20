@@ -1,0 +1,1 @@
+{"block": "DirectionTowards", "summary": "Returns the direction, or normalized **Vector**, from a starting position and ending position.", "inputs": ["1. **Vector**", "    **(Starting Position)**", "2. **Vector**", "    **(Ending Position)**"], "output": ["-   **Vector**"]}
