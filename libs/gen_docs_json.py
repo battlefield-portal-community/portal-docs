@@ -69,7 +69,7 @@ clean_names = []
 
 # delete all present docs before making new docs
 logger.info("Deleting currently present docs")
-for file in (project_dir / "docs").glob("*.json"):
+for file in (project_dir / "docs_json").glob("*.json"):
     file.unlink()
 
 for raw_doc in sorted((project_dir / "data" / "raw_docs").glob("*.md")):
@@ -123,7 +123,7 @@ for raw_doc in sorted((project_dir / "data" / "raw_docs").glob("*.md")):
 
     if clean_name in ["RULE", "MOD"]:
         clean_name = clean_name.capitalize()
-    with open(project_dir / "docs" / f'{clean_name}.json', 'w') as file:
+    with open(project_dir / "docs_json" / f'{clean_name}.json', 'w') as file:
         json.dump(clean_doc, file)
     clean_names.append(clean_name)
     logger.debug(f"{raw_doc.stem} -> {clean_name}")
