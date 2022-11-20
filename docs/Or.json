@@ -1,1 +1,0 @@
-{"block": "Or", "summary": "Returns a **Bool** based on whether either of the two inputs are **_True_**.", "inputs": ["1. **Bool**", "2. **Bool**"], "output": ["-   **Bool**"]}

@@ -1,0 +1,8 @@
+{
+    "block": "CurrentArrayElement",
+    "summary": "Returns a reference to the current **Array** element being evaluated. Only used for **FilteredArray**, **MappedArray**, **SortedArray**, **IsTrueForAll**, and **IsTrueForAny**.",
+    "output": [
+        "-   **Any Type**"
+    ],
+    "extra": ""
+}

@@ -1,0 +1,8 @@
+{
+    "block": "Kill",
+    "summary": "Kills a target **Player** (skips the Mandown state).",
+    "inputs": [
+        "1. **Player**"
+    ],
+    "extra": ""
+}

@@ -1,1 +1,0 @@
-{"block": "MCOMStateBool", "summary": "Returns the **MCOMStateBoolItem** of the selected **Bool**-based MCOM property.", "output": ["-   **Bool**"]}

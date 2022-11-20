@@ -1,0 +1,8 @@
+{
+    "block": "SetGameModeTargetScore",
+    "summary": "Sets the gamemode target score used to determine victory.",
+    "inputs": [
+        "1. **Number**"
+    ],
+    "extra": ""
+}

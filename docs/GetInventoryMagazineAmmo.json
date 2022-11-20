@@ -1,1 +1,0 @@
-{"block": "GetInventoryMagazineAmmo", "summary": "Returns the target **Player** magazine ammo of the provided **PlayerInventorySlotsItem**.", "inputs": ["1. **Player**", "2. **PlayerInventorySlotsItem**"], "output": ["-   **Number**"]}

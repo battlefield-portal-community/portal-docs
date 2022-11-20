@@ -1,1 +1,0 @@
-{"block": "SpotTarget", "summary": "Spots a target **Player** for all players for a specified duration of time (in seconds).", "inputs": ["1. **Player**", "2. **Number**", "    **(Duration)**"]}

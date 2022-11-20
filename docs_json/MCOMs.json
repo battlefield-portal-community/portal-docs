@@ -1,0 +1,8 @@
+{
+    "block": "MCOMs",
+    "summary": "Returns a **MCOMsItem** from the collection of all possible MCOMs.",
+    "output": [
+        "-   **MCOMsItem**"
+    ],
+    "extra": ""
+}

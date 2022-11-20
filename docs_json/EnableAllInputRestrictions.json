@@ -1,0 +1,9 @@
+{
+    "block": "EnableAllInputRestrictions",
+    "summary": "Enables or disables all keyboard and mouse inputs - such as movement, firing, and turning - for a target **Player**.",
+    "inputs": [
+        "1. **Player**",
+        "2. **Bool**"
+    ],
+    "extra": ""
+}

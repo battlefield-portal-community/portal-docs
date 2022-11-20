@@ -1,0 +1,8 @@
+{
+    "block": "PlayerStateBool",
+    "summary": "Returns the **PlayerStateBoolItem** of the selected **Bool**-based player property.",
+    "output": [
+        "-   **PlayerStateBoolItem**"
+    ],
+    "extra": ""
+}

@@ -1,0 +1,10 @@
+{
+    "block": "WaitUntil",
+    "summary": "Pauses the execution of **ACTIONS** in a **RULE** for a provided **Number** of seconds or if the provided condition evaluates to **_True_** during that interval.",
+    "inputs": [
+        "1. **Number**",
+        "2. **Bool**"
+    ],
+    "output": [],
+    "extra": ""
+}

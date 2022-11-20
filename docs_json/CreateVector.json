@@ -1,0 +1,16 @@
+{
+    "block": "CreateVector",
+    "summary": "Returns a **Vector** composed of three provided 'X' (left), 'Y' (up), and 'Z' (forward) values.",
+    "inputs": [
+        "1. **Number**",
+        "    **(X Value)**",
+        "2. **Number**",
+        "    **(Y Value)**",
+        "3. **Number**",
+        "    **(Z Value)**"
+    ],
+    "output": [
+        "-   **Vector**"
+    ],
+    "extra": ""
+}

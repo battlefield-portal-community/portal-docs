@@ -1,0 +1,8 @@
+{
+    "block": "EventSeat",
+    "summary": "Returns the **Number** seat index payload of a **Vehicle** from the **RULE** **EVENT** context.",
+    "output": [
+        "-   **Number**"
+    ],
+    "extra": ""
+}

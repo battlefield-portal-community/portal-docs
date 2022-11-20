@@ -1,0 +1,8 @@
+{
+    "block": "DownVector",
+    "summary": "Returns the downward directional **Vector** of (0, -1, 0).",
+    "output": [
+        "-   **Vector**"
+    ],
+    "extra": ""
+}

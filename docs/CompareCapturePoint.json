@@ -1,1 +1,0 @@
-{"block": "CompareCapturePoint", "summary": "Returns a **Bool** indicating if the target **CapturePoint** has the same designation as the provided **CapturePointsItem**.", "inputs": ["1. **CapturePoint**", "2. **CapturePointsItem**"], "output": ["-   **Bool**"]}

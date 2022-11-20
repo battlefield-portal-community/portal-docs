@@ -1,0 +1,9 @@
+{
+    "block": "SkipMandown",
+    "summary": "Sets the target **Player** to skip the mandown state and go directly to the deploy screen when killed.  \n  \n_Note: By default, **SkipMandown** is disabled._",
+    "inputs": [
+        "1. **Player**",
+        "2. **Bool**"
+    ],
+    "extra": ""
+}

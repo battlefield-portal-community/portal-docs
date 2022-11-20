@@ -1,0 +1,5 @@
+{
+    "block": "Break",
+    "summary": "Breaks and exits the execution of a looping block, such as **While** or **LoopVariable**.",
+    "extra": ""
+}

@@ -1,0 +1,7 @@
+baseURL = 'http://example.org/'
+title = "Portal Docs"
+languageCode = 'en-us'
+Theme = "compose"
+titleCaseStyle = "Go"
+[outputs]
+   home = ["HTML", "RSS","JSON"]

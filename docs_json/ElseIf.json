@@ -1,0 +1,8 @@
+{
+    "block": "ElseIf",
+    "summary": "The start of a block of **ACTIONS** that will run if its condition is **_True_** and all previous **If** or **ElseIf** conditions are **_False_**.",
+    "inputs": [
+        "1. **Bool**"
+    ],
+    "extra": ""
+}

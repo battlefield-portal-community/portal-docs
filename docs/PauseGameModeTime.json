@@ -1,1 +1,0 @@
-{"block": "PauseGameModeTime", "summary": "Pauses or unpauses the gamemode timer based on the provided **Bool** input.", "inputs": ["1. **Bool**"]}

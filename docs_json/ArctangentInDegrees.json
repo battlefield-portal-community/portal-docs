@@ -1,0 +1,11 @@
+{
+    "block": "ArctangentInDegrees",
+    "summary": "Returns the inverse tangent of a provided **Number** value in degrees.",
+    "inputs": [
+        "1. **Number**"
+    ],
+    "output": [
+        "-   **Number**"
+    ],
+    "extra": ""
+}

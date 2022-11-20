@@ -1,0 +1,8 @@
+{
+    "block": "InputRestrictions",
+    "summary": "Returns a **InputRestrictionsItem** from the collection of all inputs which can be restricted with **EnableInputRestriction**.",
+    "output": [
+        "-   **InputRestrictionsItem**"
+    ],
+    "extra": ""
+}

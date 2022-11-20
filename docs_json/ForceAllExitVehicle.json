@@ -1,0 +1,8 @@
+{
+    "block": "ForceAllExitVehicle",
+    "summary": "Forces all players to exit the target **Vehicle**.",
+    "inputs": [
+        "1. **Vehicle**"
+    ],
+    "extra": ""
+}

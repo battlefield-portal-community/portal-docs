@@ -1,0 +1,12 @@
+{
+    "block": "GetMCOMState",
+    "summary": "Returns the value of the target **MCOM** state.",
+    "inputs": [
+        "1. **MCOM**",
+        "2. **MCOMStateBoolItem**"
+    ],
+    "output": [
+        "-   **Bool**"
+    ],
+    "extra": ""
+}

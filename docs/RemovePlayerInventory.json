@@ -1,1 +1,0 @@
-{"block": "RemovePlayerInventory", "summary": "Removes a specified inventory item from a target **Player** if that item is equipped.", "inputs": ["1. **Player**", "2. **InventoryPrimaryWeaponsItem** | **InventorySecondaryWeaponsItem** | **InventoryCharacterSpecialtiesItem** | **InventoryOpenGadgetsItem** | **InventoryThrowablesItem**"]}

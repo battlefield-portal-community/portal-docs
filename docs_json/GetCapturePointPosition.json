@@ -1,0 +1,11 @@
+{
+    "block": "GetCapturePointPosition",
+    "summary": "Returns the in-world position of the provided **CapturePoint**.",
+    "inputs": [
+        "1. **CapturePoint**"
+    ],
+    "output": [
+        "-   **Vector**"
+    ],
+    "extra": ""
+}

@@ -1,1 +1,0 @@
-{"block": "SkipIf", "summary": "Skips a provided number of **ACTIONS** following this block within this **RULE** if the condition evaluates to **_True_**. If it does not, execution continues with the remaining **ACTIONS**.", "inputs": ["1. **Number**", "2. **Bool**"]}

@@ -1,0 +1,65 @@
+$font-path: "../fonts/"
+$prev-icon-path: "../images/icons/previous.svg"
+$next-icon-path: "../images/icons/double-arrow.svg"
+$never-icon-path: "../images/sitting.svg"
+
+html
+  --color-mode: "light"
+  --light: #fff
+  --dark:  rgb(28,28,30)
+  --haze: #f2f5f7
+  --bubble: rgb(36,36,38)
+  --accent: var(--haze)
+  --bg: var(--light)
+  --code-bg: var(--accent)
+  --overlay: var(--light)
+  --text: #111
+  --font: 'Metropolis', sans-serif
+  --border-color: #eee
+  --inline-color: darkgoldenrod
+  --theme: #08A696
+  --ease: ease
+  --search-border-color: transparent
+
+  @mixin darkmode
+    --color-mode: "dark"
+    --theme: #26FFDF
+    --bg: var(--dark)
+    --text: #eee
+    --accent: var(--bubble)
+    --overlay: var(--bubble)
+    --border-color: transparent
+    --search-bg: var(--accent)
+    --search-border-color: var(--accent)
+    *
+      box-shadow: none !important
+
+  &[data-mode="dark"]
+    @include darkmode
+    .color
+      &_choice
+        &::after
+          background-image: var(--moonIcon)
+
+  &.dark:not([data-mode="light"])
+    @media (prefers-color-scheme: dark)
+      @include darkmode
+
+%narrow
+  max-width: 750px
+  margin: 0 auto
+
+blockquote
+  + .highlight_wrap
+    margin-top: 2.25rem
+
+.button
+  .pager_label
+    color: #011C26
+  &::after, &::before
+    filter: brightness(0%)
+
+.section_link.active
+  color: #26FFDF
+.toc.toc_active
+  border-left: 2px solid #26FFDF

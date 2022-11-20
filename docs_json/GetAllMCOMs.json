@@ -1,0 +1,8 @@
+{
+    "block": "GetAllMCOMs",
+    "summary": "Returns an **Array** of all MCOMs within a game.",
+    "output": [
+        "-   **Array**"
+    ],
+    "extra": ""
+}

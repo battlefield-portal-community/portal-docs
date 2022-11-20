@@ -1,0 +1,9 @@
+{
+    "block": "SetGameModeScore",
+    "summary": "Sets the gamemode score of the provided **Player** or **TeamId**.",
+    "inputs": [
+        "1. **Player** | **TeamId**",
+        "2. **Number**"
+    ],
+    "extra": ""
+}

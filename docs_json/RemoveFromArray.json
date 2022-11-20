@@ -1,0 +1,12 @@
+{
+    "block": "RemoveFromArray",
+    "summary": "Returns a copy of the specified **Array** with the provided value removed.",
+    "inputs": [
+        "1. **Array**",
+        "2. **Any Type**"
+    ],
+    "output": [
+        "-   **Array**"
+    ],
+    "extra": ""
+}

@@ -1,0 +1,8 @@
+{
+    "block": "# Debug Message",
+    "summary": "Displays debug text for testing script.",
+    "inputs": [
+        "1. **String**"
+    ],
+    "extra": ""
+}

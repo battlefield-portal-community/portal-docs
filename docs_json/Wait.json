@@ -1,0 +1,8 @@
+{
+    "block": "Wait",
+    "summary": "Pauses the execution of **ACTIONS** in a **RULE** for a provided **Number** of seconds.",
+    "inputs": [
+        "1. **Number**"
+    ],
+    "extra": ""
+}

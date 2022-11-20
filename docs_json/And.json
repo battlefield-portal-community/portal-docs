@@ -1,0 +1,12 @@
+{
+    "block": "And",
+    "summary": "Returns a **Bool** value based on whether both of the provided inputs return **_True_**.",
+    "inputs": [
+        "1. **Bool**",
+        "2. **Bool**"
+    ],
+    "output": [
+        "-   **Bool**"
+    ],
+    "extra": ""
+}

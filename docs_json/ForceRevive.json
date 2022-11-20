@@ -1,0 +1,8 @@
+{
+    "block": "ForceRevive",
+    "summary": "Revives a target **Player** that is in the mandown state.",
+    "inputs": [
+        "1. **Player**"
+    ],
+    "extra": ""
+}

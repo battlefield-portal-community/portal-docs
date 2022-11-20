@@ -1,0 +1,12 @@
+{
+    "block": "DotProduct",
+    "summary": "Returns the dot product between two **Vector** values. If the two values are orthogonal to each other, the result will be zero.",
+    "inputs": [
+        "1. **Vector**",
+        "2. **Vector**"
+    ],
+    "output": [
+        "-   **Number**"
+    ],
+    "extra": ""
+}

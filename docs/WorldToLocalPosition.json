@@ -1,1 +1,0 @@
-{"block": "WorldToLocalPosition", "summary": "Converts the provided world position to the corresponding position in local **Player** space.", "inputs": ["1. **Vector**", "    **(World Position)**", "2. **Player**"], "output": ["-   **Vector**", "    **(Local Position)**"]}

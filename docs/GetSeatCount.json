@@ -1,1 +1,0 @@
-{"block": "GetSeatCount", "summary": "Returns the **Number** of seats in a **Vehicle**.", "inputs": ["1. **Vehicle**"], "output": ["-   **Number**"]}
