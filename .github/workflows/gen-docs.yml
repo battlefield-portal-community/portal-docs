@@ -118,7 +118,7 @@ jobs:
         uses: actions/download-artifact@v3
         with:
           name: docs-artifact
-          path: docs-json/
+          path: docs_json/
       
       - run: |
           git fetch --prune --unshallow
