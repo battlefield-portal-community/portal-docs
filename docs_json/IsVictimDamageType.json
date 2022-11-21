@@ -1,12 +1,1 @@
-{
-    "block": "IsVictimDamageType",
-    "summary": "Returns a **Bool** indicating if the victim was damaged by the provided **DamageType**.",
-    "inputs": [
-        "1. **DamageType**",
-        "2. **DamageTypesItem**"
-    ],
-    "output": [
-        "-   **Bool**"
-    ],
-    "extra": ""
-}
+{"block": "IsVictimDamageType", "summary": "Returns a **Bool** indicating if the victim was damaged by the provided **DamageType**.", "inputs": ["1. **DamageType**", "2. **DamageTypesItem**"], "output": ["-   **Bool**"]}

@@ -1,11 +1,1 @@
-{
-    "block": "ArccosineInDegrees",
-    "summary": "Returns the inverse cosine of a provided **Number** value in degrees.",
-    "inputs": [
-        "1. **Number**"
-    ],
-    "output": [
-        "-   **Number**"
-    ],
-    "extra": ""
-}
+{"block": "ArccosineInDegrees", "summary": "Returns the inverse cosine of a provided **Number** value in degrees.", "inputs": ["1. **Number**"], "output": ["-   **Number**"]}

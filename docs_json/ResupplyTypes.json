@@ -1,8 +1,1 @@
-{
-    "block": "ResupplyTypes",
-    "summary": "Returns a **ResupplyTypesItem** from the collection of resupply types which can be used with **Resupply**.",
-    "output": [
-        "-   **ResupplyTypesItem**"
-    ],
-    "extra": ""
-}
+{"block": "ResupplyTypes", "summary": "Returns a **ResupplyTypesItem** from the collection of resupply types which can be used with **Resupply**.", "output": ["-   **ResupplyTypesItem**"]}

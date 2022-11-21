@@ -1,9 +1,1 @@
-{
-    "block": "IsPlayerUsingSoldier",
-    "summary": "Returns a **Bool** indicating if the target **Player** is a specified **PlayerSoldiersItem**.",
-    "inputs": [
-        "1. **Player**",
-        "2. **PlayerSoldiersItem**"
-    ],
-    "extra": ""
-}
+{"block": "IsPlayerUsingSoldier", "summary": "Returns a **Bool** indicating if the target **Player** is a specified **PlayerSoldiersItem**.", "inputs": ["1. **Player**", "2. **PlayerSoldiersItem**"]}

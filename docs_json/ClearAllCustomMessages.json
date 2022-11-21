@@ -1,10 +1,1 @@
-{
-    "block": "ClearAllCustomMessages",
-    "summary": "Clears all custom messages for a provided **Player** or **TeamId**. If no **Player** or **TeamId** is provided, it will clear all custom messages for everyone.",
-    "inputs": [
-        "1. **Player** | **TeamId**",
-        "    **(Group)**",
-        "    **_Optional_**"
-    ],
-    "extra": ""
-}
+{"block": "ClearAllCustomMessages", "summary": "Clears all custom messages for a provided **Player** or **TeamId**. If no **Player** or **TeamId** is provided, it will clear all custom messages for everyone.", "inputs": ["1. **Player** | **TeamId**", "    **(Group)**", "    **_Optional_**"]}

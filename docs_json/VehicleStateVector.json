@@ -1,8 +1,1 @@
-{
-    "block": "VehicleStateVector",
-    "summary": "Returns the **VehicleStateVectorItem** of the selected **Vector**-based vehicle property.",
-    "output": [
-        "-   **VehicleStateVectorItem**"
-    ],
-    "extra": ""
-}
+{"block": "VehicleStateVector", "summary": "Returns the **VehicleStateVectorItem** of the selected **Vector**-based vehicle property.", "output": ["-   **VehicleStateVectorItem**"]}

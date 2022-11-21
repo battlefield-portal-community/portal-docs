@@ -1,11 +1,1 @@
-{
-    "block": "AbsoluteValue",
-    "summary": "Returns the unsigned value of the provided **Number** input.",
-    "inputs": [
-        "1. **Number**"
-    ],
-    "output": [
-        "-   **Number**"
-    ],
-    "extra": ""
-}
+{"block": "AbsoluteValue", "summary": "Returns the unsigned value of the provided **Number** input.", "inputs": ["1. **Number**"], "output": ["-   **Number**"]}

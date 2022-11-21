@@ -1,10 +1,1 @@
-{
-    "block": "SetInventoryAmmo",
-    "summary": "Sets the target **Player** loaded ammo for the provided **PlayerInventorySlotsItem**.",
-    "inputs": [
-        "1. **Player**",
-        "2. **PlayerInventorySlotsItem**",
-        "3. **Number**"
-    ],
-    "extra": ""
-}
+{"block": "SetInventoryAmmo", "summary": "Sets the target **Player** loaded ammo for the provided **PlayerInventorySlotsItem**.", "inputs": ["1. **Player**", "2. **PlayerInventorySlotsItem**", "3. **Number**"]}

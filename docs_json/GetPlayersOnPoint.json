@@ -1,11 +1,1 @@
-{
-    "block": "GetPlayersOnPoint",
-    "summary": "Returns a **Array** of all players within the boundaries of a provided **CapturePoint**.",
-    "inputs": [
-        "1. **CapturePoint**"
-    ],
-    "output": [
-        "-   **Array**"
-    ],
-    "extra": ""
-}
+{"block": "GetPlayersOnPoint", "summary": "Returns a **Array** of all players within the boundaries of a provided **CapturePoint**.", "inputs": ["1. **CapturePoint**"], "output": ["-   **Array**"]}

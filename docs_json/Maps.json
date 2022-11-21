@@ -1,8 +1,1 @@
-{
-    "block": "Maps",
-    "summary": "Returns a **MapsItem** from the collection of all maps.",
-    "output": [
-        "-   **MapsItem**"
-    ],
-    "extra": ""
-}
+{"block": "Maps", "summary": "Returns a **MapsItem** from the collection of all maps.", "output": ["-   **MapsItem**"]}

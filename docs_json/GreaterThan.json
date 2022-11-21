@@ -1,12 +1,1 @@
-{
-    "block": "GreaterThan",
-    "summary": "Returns a **Bool** indicating if the 1st provided value is greater than the 2nd provided value.",
-    "inputs": [
-        "1. **Number**",
-        "2. **Number**"
-    ],
-    "output": [
-        "-   **Bool**"
-    ],
-    "extra": ""
-}
+{"block": "GreaterThan", "summary": "Returns a **Bool** indicating if the 1st provided value is greater than the 2nd provided value.", "inputs": ["1. **Number**", "2. **Number**"], "output": ["-   **Bool**"]}

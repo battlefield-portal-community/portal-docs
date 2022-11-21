@@ -1,8 +1,1 @@
-{
-    "block": "EnableVOMessaging",
-    "summary": "Enables or disables the gamemode voice-over (VO) text and audio messaging, such as announcements about sector majority and capture points.  \n  \n_Note: This function is enabled by default._",
-    "inputs": [
-        "1. **Bool**"
-    ],
-    "extra": ""
-}
+{"block": "EnableVOMessaging", "summary": "Enables or disables the gamemode voice-over (VO) text and audio messaging, such as announcements about sector majority and capture points.  \n  \n_Note: This function is enabled by default._", "inputs": ["1. **Bool**"]}

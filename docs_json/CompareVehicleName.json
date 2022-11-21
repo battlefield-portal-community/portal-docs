@@ -1,12 +1,1 @@
-{
-    "block": "CompareVehicleName",
-    "summary": "Returns a **Bool** indicating if the target **Vehicle** has the same name as the provided **VehiclesItem** or if it is the same type as the provided **VehicleTypesItem**.",
-    "inputs": [
-        "1. **Vehicle**",
-        "2. **VehiclesItem** | **VehicleTypesItem**"
-    ],
-    "output": [
-        "-   **Bool**"
-    ],
-    "extra": ""
-}
+{"block": "CompareVehicleName", "summary": "Returns a **Bool** indicating if the target **Vehicle** has the same name as the provided **VehiclesItem** or if it is the same type as the provided **VehicleTypesItem**.", "inputs": ["1. **Vehicle**", "2. **VehiclesItem** | **VehicleTypesItem**"], "output": ["-   **Bool**"]}

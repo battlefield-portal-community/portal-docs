@@ -1,8 +1,1 @@
-{
-    "block": "GetGameModeTargetScore",
-    "summary": "Returns the gamemode target score needed for victory.",
-    "output": [
-        "-   **Number**"
-    ],
-    "extra": ""
-}
+{"block": "GetGameModeTargetScore", "summary": "Returns the gamemode target score needed for victory.", "output": ["-   **Number**"]}

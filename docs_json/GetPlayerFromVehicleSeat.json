@@ -1,12 +1,1 @@
-{
-    "block": "GetPlayerFromVehicleSeat",
-    "summary": "Returns the **Player** currently occupying the provided seat index **Number** of the provided **Vehicle**.  \n  \n_Note: If no players are in the vehicle seat when this block is called, the returned **Player** will be invalid._",
-    "inputs": [
-        "1. **Vehicle**",
-        "2. **Number**"
-    ],
-    "output": [
-        "1. **Player**"
-    ],
-    "extra": ""
-}
+{"block": "GetPlayerFromVehicleSeat", "summary": "Returns the **Player** currently occupying the provided seat index **Number** of the provided **Vehicle**.  \n  \n_Note: If no players are in the vehicle seat when this block is called, the returned **Player** will be invalid._", "inputs": ["1. **Vehicle**", "2. **Number**"], "output": ["1. **Player**"]}

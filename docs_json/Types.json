@@ -1,8 +1,1 @@
-{
-    "block": "Types",
-    "summary": "Returns a **TypesItem** from the collection of all object types.",
-    "output": [
-        "-   **TypesItem**"
-    ],
-    "extra": ""
-}
+{"block": "Types", "summary": "Returns a **TypesItem** from the collection of all object types.", "output": ["-   **TypesItem**"]}

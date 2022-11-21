@@ -1,8 +1,1 @@
-{
-    "block": "EmptyArray",
-    "summary": "Returns an initialized empty **Array**.",
-    "output": [
-        "-   **Array**"
-    ],
-    "extra": ""
-}
+{"block": "EmptyArray", "summary": "Returns an initialized empty **Array**.", "output": ["-   **Array**"]}

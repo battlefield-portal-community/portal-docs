@@ -1,9 +1,1 @@
-{
-    "block": "ForcePlayerExitVehicle",
-    "summary": "Forces the specified **Player** to exit the target **Vehicle**.",
-    "inputs": [
-        "1. **Player**",
-        "2. **Vehicle**"
-    ],
-    "extra": ""
-}
+{"block": "ForcePlayerExitVehicle", "summary": "Forces the specified **Player** to exit the target **Vehicle**.", "inputs": ["1. **Player**", "2. **Vehicle**"]}

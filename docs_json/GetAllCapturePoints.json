@@ -1,8 +1,1 @@
-{
-    "block": "GetAllCapturePoints",
-    "summary": "Returns an **Array** of all capture points within a game.",
-    "output": [
-        "-   **Array**"
-    ],
-    "extra": ""
-}
+{"block": "GetAllCapturePoints", "summary": "Returns an **Array** of all capture points within a game.", "output": ["-   **Array**"]}

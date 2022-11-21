@@ -1,5 +1,1 @@
-{
-    "block": "Else",
-    "summary": "The start of a block of **ACTIONS** that will execute if all previous **If** and **ElseIf** conditions are **_False_**.",
-    "extra": ""
-}
+{"block": "Else", "summary": "The start of a block of **ACTIONS** that will execute if all previous **If** and **ElseIf** conditions are **_False_**."}

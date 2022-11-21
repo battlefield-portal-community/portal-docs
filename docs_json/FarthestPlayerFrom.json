@@ -1,14 +1,1 @@
-{
-    "block": "FarthestPlayerFrom",
-    "summary": "Returns the farthest alive **Player** from a provided position. Can be filtered using a **TeamId**.  \n  \n_Note: If no players are alive when this block is called, the returned **Player** will be invalid._",
-    "inputs": [
-        "1. **Vector**",
-        "    **(Position)**",
-        "2. **TeamId**",
-        "    **_Optional_**"
-    ],
-    "output": [
-        "-   **Player**"
-    ],
-    "extra": ""
-}
+{"block": "FarthestPlayerFrom", "summary": "Returns the farthest alive **Player** from a provided position. Can be filtered using a **TeamId**.  \n  \n_Note: If no players are alive when this block is called, the returned **Player** will be invalid._", "inputs": ["1. **Vector**", "    **(Position)**", "2. **TeamId**", "    **_Optional_**"], "output": ["-   **Player**"]}

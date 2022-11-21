@@ -1,12 +1,1 @@
-{
-    "block": "AngleBetweenVectors",
-    "summary": "Returns the angle (in degrees) between two provided **Vector** values.",
-    "inputs": [
-        "1. **Vector**",
-        "2. **Vector**"
-    ],
-    "output": [
-        "-   **Number**"
-    ],
-    "extra": ""
-}
+{"block": "AngleBetweenVectors", "summary": "Returns the angle (in degrees) between two provided **Vector** values.", "inputs": ["1. **Vector**", "2. **Vector**"], "output": ["-   **Number**"]}

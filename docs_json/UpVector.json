@@ -1,8 +1,1 @@
-{
-    "block": "UpVector",
-    "summary": "Returns the upward directional **Vector** of (0, 1, 0).",
-    "output": [
-        "-   **Vector**"
-    ],
-    "extra": ""
-}
+{"block": "UpVector", "summary": "Returns the upward directional **Vector** of (0, 1, 0).", "output": ["-   **Vector**"]}

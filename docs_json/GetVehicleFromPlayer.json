@@ -1,11 +1,1 @@
-{
-    "block": "GetVehicleFromPlayer",
-    "summary": "Returns the **Vehicle** used by a **Player**.",
-    "inputs": [
-        "1. **Player**"
-    ],
-    "output": [
-        "-   **Vehicle**"
-    ],
-    "extra": ""
-}
+{"block": "GetVehicleFromPlayer", "summary": "Returns the **Vehicle** used by a **Player**.", "inputs": ["1. **Player**"], "output": ["-   **Vehicle**"]}

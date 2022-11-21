@@ -1,8 +1,1 @@
-{
-    "block": "GetGameModeTimeLimit",
-    "summary": "Returns the time limit set for the gamemode (in seconds).",
-    "output": [
-        "-   **Number**"
-    ],
-    "extra": ""
-}
+{"block": "GetGameModeTimeLimit", "summary": "Returns the time limit set for the gamemode (in seconds).", "output": ["-   **Number**"]}

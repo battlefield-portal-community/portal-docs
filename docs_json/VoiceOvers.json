@@ -1,8 +1,1 @@
-{
-    "block": "VoiceOvers",
-    "summary": "Returns a **VoiceOversItem** from the collection of voice overs.",
-    "output": [
-        "-   **VoiceOversItem**"
-    ],
-    "extra": ""
-}
+{"block": "VoiceOvers", "summary": "Returns a **VoiceOversItem** from the collection of voice overs.", "output": ["-   **VoiceOversItem**"]}

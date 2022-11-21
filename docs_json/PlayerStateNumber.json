@@ -1,8 +1,1 @@
-{
-    "block": "PlayerStateNumber",
-    "summary": "Returns the **PlayerStateNumberItem** of the selected **Number**-based player property.",
-    "output": [
-        "-   **PlayerStateNumberItem**"
-    ],
-    "extra": ""
-}
+{"block": "PlayerStateNumber", "summary": "Returns the **PlayerStateNumberItem** of the selected **Number**-based player property.", "output": ["-   **PlayerStateNumberItem**"]}

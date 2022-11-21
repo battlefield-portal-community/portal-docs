@@ -1,10 +1,1 @@
-{
-    "block": "EnableInputRestriction",
-    "summary": "Enables or disables a specified **InputRestrictionsItem** on a target **Player**.",
-    "inputs": [
-        "1. **Player**",
-        "2. **InputRestrictionsItem**",
-        "3. **Bool**"
-    ],
-    "extra": ""
-}
+{"block": "EnableInputRestriction", "summary": "Enables or disables a specified **InputRestrictionsItem** on a target **Player**.", "inputs": ["1. **Player**", "2. **InputRestrictionsItem**", "3. **Bool**"]}

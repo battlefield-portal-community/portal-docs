@@ -1,5 +1,1 @@
-{
-    "block": "ResetGameModeTime",
-    "summary": "Resets the gamemode time to its starting value.",
-    "extra": ""
-}
+{"block": "ResetGameModeTime", "summary": "Resets the gamemode time to its starting value."}

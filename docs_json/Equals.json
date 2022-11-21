@@ -1,12 +1,1 @@
-{
-    "block": "Equals",
-    "summary": "Returns a **Bool** indicating if two values are equal to each other.",
-    "inputs": [
-        "1. **Any Type**",
-        "2. **Any Type**"
-    ],
-    "output": [
-        "-   **Bool**"
-    ],
-    "extra": ""
-}
+{"block": "Equals", "summary": "Returns a **Bool** indicating if two values are equal to each other.", "inputs": ["1. **Any Type**", "2. **Any Type**"], "output": ["-   **Bool**"]}

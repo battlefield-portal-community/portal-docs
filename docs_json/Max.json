@@ -1,12 +1,1 @@
-{
-    "block": "Max",
-    "summary": "Returns the greater of the two **Number** values provided.",
-    "inputs": [
-        "1. **Number**",
-        "2. **Number**"
-    ],
-    "output": [
-        "-   **Number**"
-    ],
-    "extra": ""
-}
+{"block": "Max", "summary": "Returns the greater of the two **Number** values provided.", "inputs": ["1. **Number**", "2. **Number**"], "output": ["-   **Number**"]}

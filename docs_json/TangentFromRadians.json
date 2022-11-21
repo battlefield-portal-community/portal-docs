@@ -1,11 +1,1 @@
-{
-    "block": "TangentFromRadians",
-    "summary": "Returns the tangent value of a specified angle in radians.",
-    "inputs": [
-        "1. **Number**"
-    ],
-    "output": [
-        "-   **Number**"
-    ],
-    "extra": ""
-}
+{"block": "TangentFromRadians", "summary": "Returns the tangent value of a specified angle in radians.", "inputs": ["1. **Number**"], "output": ["-   **Number**"]}

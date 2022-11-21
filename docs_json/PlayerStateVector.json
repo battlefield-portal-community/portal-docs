@@ -1,8 +1,1 @@
-{
-    "block": "PlayerStateVector",
-    "summary": "Returns the **PlayerStateVectorItem** of the selected **Vector**-based player property.",
-    "output": [
-        "-   **PlayerStateVectorItem**"
-    ],
-    "extra": ""
-}
+{"block": "PlayerStateVector", "summary": "Returns the **PlayerStateVectorItem** of the selected **Vector**-based player property.", "output": ["-   **PlayerStateVectorItem**"]}

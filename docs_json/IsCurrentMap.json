@@ -1,11 +1,1 @@
-{
-    "block": "IsCurrentMap",
-    "summary": "Returns **_True_** if the provided **MapsItem** is the name of the current map.",
-    "inputs": [
-        "1. **MapsItem**"
-    ],
-    "output": [
-        "-   **Bool**"
-    ],
-    "extra": ""
-}
+{"block": "IsCurrentMap", "summary": "Returns **_True_** if the provided **MapsItem** is the name of the current map.", "inputs": ["1. **MapsItem**"], "output": ["-   **Bool**"]}

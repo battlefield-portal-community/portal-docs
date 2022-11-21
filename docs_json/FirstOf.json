@@ -1,11 +1,1 @@
-{
-    "block": "FirstOf",
-    "summary": "Returns the first value of the specified **Array**.",
-    "inputs": [
-        "1. **Array**"
-    ],
-    "output": [
-        "-   **Any Type**"
-    ],
-    "extra": ""
-}
+{"block": "FirstOf", "summary": "Returns the first value of the specified **Array**.", "inputs": ["1. **Array**"], "output": ["-   **Any Type**"]}

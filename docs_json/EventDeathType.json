@@ -1,8 +1,1 @@
-{
-    "block": "EventDeathType",
-    "summary": "Returns the **DeathType** of the victim from the **OnPlayerDied** or **OnPlayerEarnedKill** **EVENT** context.",
-    "output": [
-        "-   **DeathType**"
-    ],
-    "extra": ""
-}
+{"block": "EventDeathType", "summary": "Returns the **DeathType** of the victim from the **OnPlayerDied** or **OnPlayerEarnedKill** **EVENT** context.", "output": ["-   **DeathType**"]}

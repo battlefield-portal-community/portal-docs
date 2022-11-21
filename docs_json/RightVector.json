@@ -1,8 +1,1 @@
-{
-    "block": "RightVector",
-    "summary": "Returns the rightward directional **Vector** of (1, 0, 0).",
-    "output": [
-        "-   **Vector**"
-    ],
-    "extra": ""
-}
+{"block": "RightVector", "summary": "Returns the rightward directional **Vector** of (1, 0, 0).", "output": ["-   **Vector**"]}

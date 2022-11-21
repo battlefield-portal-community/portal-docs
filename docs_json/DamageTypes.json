@@ -1,8 +1,1 @@
-{
-    "block": "DamageTypes",
-    "summary": "Returns a **DamageTypesItem** from the collection of all possible damage types.",
-    "output": [
-        "-   **DamageTypesItem**"
-    ],
-    "extra": ""
-}
+{"block": "DamageTypes", "summary": "Returns a **DamageTypesItem** from the collection of all possible damage types.", "output": ["-   **DamageTypesItem**"]}

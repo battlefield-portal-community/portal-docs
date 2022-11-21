@@ -1,9 +1,1 @@
-{
-    "block": "SetMCOMFuseTime",
-    "summary": "Sets the fuse time (in seconds) for target **MCOM** to the provided **Number**",
-    "inputs": [
-        "1.  **MCOM**",
-        "2.  **Number**"
-    ],
-    "extra": ""
-}
+{"block": "SetMCOMFuseTime", "summary": "Sets the fuse time (in seconds) for target **MCOM** to the provided **Number**", "inputs": ["1.  **MCOM**", "2.  **Number**"]}

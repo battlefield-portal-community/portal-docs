@@ -1,11 +1,1 @@
-{
-    "block": "SineFromRadians",
-    "summary": "Returns the sine value of a specified angle in radians.",
-    "inputs": [
-        "1. **Number**"
-    ],
-    "output": [
-        "-   **Number**"
-    ],
-    "extra": ""
-}
+{"block": "SineFromRadians", "summary": "Returns the sine value of a specified angle in radians.", "inputs": ["1. **Number**"], "output": ["-   **Number**"]}

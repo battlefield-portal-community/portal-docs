@@ -1,5 +1,1 @@
-{
-    "block": "DeployAllPlayers",
-    "summary": "Force spawns all players in the deploy screen.",
-    "extra": ""
-}
+{"block": "DeployAllPlayers", "summary": "Force spawns all players in the deploy screen."}

@@ -1,11 +1,1 @@
-{
-    "block": "GetTeamId",
-    "summary": "Returns the **TeamId** value of the specified **Player** OR the corresponding **TeamId** of the provided **Number**.",
-    "inputs": [
-        "1. **Player** | **Number**"
-    ],
-    "output": [
-        "-   **TeamId**"
-    ],
-    "extra": ""
-}
+{"block": "GetTeamId", "summary": "Returns the **TeamId** value of the specified **Player** OR the corresponding **TeamId** of the provided **Number**.", "inputs": ["1. **Player** | **Number**"], "output": ["-   **TeamId**"]}

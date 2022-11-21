@@ -1,12 +1,1 @@
-{
-    "block": "HasInventory",
-    "summary": "Returns a **Bool** indicating if the provided **Player** has the specified ability.",
-    "inputs": [
-        "1. **Player**",
-        "2. **InventoryPrimaryWeaponsItem** | **InventorySecondaryWeaponsItem** | **InventoryCharacterSpecialtiesItem** | **InventoryOpenGadgetsItem** | **InventoryThrowablesItem** | **InventoryMeleeWeaponsItem**"
-    ],
-    "output": [
-        "-   **Bool**"
-    ],
-    "extra": ""
-}
+{"block": "HasInventory", "summary": "Returns a **Bool** indicating if the provided **Player** has the specified ability.", "inputs": ["1. **Player**", "2. **InventoryPrimaryWeaponsItem** | **InventorySecondaryWeaponsItem** | **InventoryCharacterSpecialtiesItem** | **InventoryOpenGadgetsItem** | **InventoryThrowablesItem** | **InventoryMeleeWeaponsItem**"], "output": ["-   **Bool**"]}

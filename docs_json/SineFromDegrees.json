@@ -1,11 +1,1 @@
-{
-    "block": "SineFromDegrees",
-    "summary": "Returns the sine value of a specified angle in degrees.",
-    "inputs": [
-        "1. **Number**"
-    ],
-    "output": [
-        "-   **Number**"
-    ],
-    "extra": ""
-}
+{"block": "SineFromDegrees", "summary": "Returns the sine value of a specified angle in degrees.", "inputs": ["1. **Number**"], "output": ["-   **Number**"]}

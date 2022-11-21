@@ -1,15 +1,1 @@
-{
-    "block": "IfThenElse",
-    "summary": "Returns the 1st provided value if the condition is **_True_**, otherwise, returns the 2nd provided value.",
-    "inputs": [
-        "1. **Bool**",
-        "2. **Any Type**",
-        "    **(Output Value if the Condition is **_True_**)**",
-        "3. **Any Type**",
-        "    **(Output Value if the Condition is **_False_**)**"
-    ],
-    "output": [
-        "-   **Any Type**"
-    ],
-    "extra": ""
-}
+{"block": "IfThenElse", "summary": "Returns the 1st provided value if the condition is **_True_**, otherwise, returns the 2nd provided value.", "inputs": ["1. **Bool**", "2. **Any Type**", "    **(Output Value if the Condition is **_True_**)**", "3. **Any Type**", "    **(Output Value if the Condition is **_False_**)**"], "output": ["-   **Any Type**"]}

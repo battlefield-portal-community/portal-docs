@@ -1,8 +1,1 @@
-{
-    "block": "EndGameMode",
-    "summary": "Ends the current gamemode and designates the provided **Player** or **TeamId** as the winner. The gamemode ends in draw if TeamId is set to 0.",
-    "inputs": [
-        "1. **TeamId** | **Player**"
-    ],
-    "extra": ""
-}
+{"block": "EndGameMode", "summary": "Ends the current gamemode and designates the provided **Player** or **TeamId** as the winner. The gamemode ends in draw if TeamId is set to 0.", "inputs": ["1. **TeamId** | **Player**"]}

@@ -1,8 +1,1 @@
-{
-    "block": "InventoryPrimaryWeapons",
-    "summary": "Returns an **InventoryPrimaryWeaponsItem** from the collection of all primary weapons.",
-    "output": [
-        "-   **InventoryPrimaryWeaponsItem**"
-    ],
-    "extra": ""
-}
+{"block": "InventoryPrimaryWeapons", "summary": "Returns an **InventoryPrimaryWeaponsItem** from the collection of all primary weapons.", "output": ["-   **InventoryPrimaryWeaponsItem**"]}

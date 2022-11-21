@@ -1,9 +1,1 @@
-{
-    "block": "EnableGameModeObjective",
-    "summary": "Enables or disables the provided **CapturePoint** or **MCOM**.  \n  \n_Note: MCOMs are only available on TDM, VTDM, and Custom Conquest layouts._",
-    "inputs": [
-        "1. **CapturePoint** | **MCOM** ",
-        "2. **Bool**"
-    ],
-    "extra": ""
-}
+{"block": "EnableGameModeObjective", "summary": "Enables or disables the provided **CapturePoint** or **MCOM**.  \n  \n_Note: MCOMs are only available on TDM, VTDM, and Custom Conquest layouts._", "inputs": ["1. **CapturePoint** | **MCOM** ", "2. **Bool**"]}

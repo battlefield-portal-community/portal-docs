@@ -1,13 +1,1 @@
-{
-    "block": "Heal",
-    "summary": "Instantly adds a given amount of health to the target **Player** applied by a healer **Player**.  \n  \n_Note: When healing a player with a max health multiplier not equal to 1, the amount of health they receive will scale with their max health multiplier value._",
-    "inputs": [
-        "1. **Player**",
-        "    **(Target)**",
-        "2. **Number**",
-        "3. **Player**",
-        "    **(Healer)**",
-        "    **_Optional_**"
-    ],
-    "extra": ""
-}
+{"block": "Heal", "summary": "Instantly adds a given amount of health to the target **Player** applied by a healer **Player**.  \n  \n_Note: When healing a player with a max health multiplier not equal to 1, the amount of health they receive will scale with their max health multiplier value._", "inputs": ["1. **Player**", "    **(Target)**", "2. **Number**", "3. **Player**", "    **(Healer)**", "    **_Optional_**"]}

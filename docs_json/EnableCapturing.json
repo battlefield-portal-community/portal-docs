@@ -1,9 +1,1 @@
-{
-    "block": "EnableCapturing",
-    "summary": "Enables or disables capturing a provided **CapturePoint**.",
-    "inputs": [
-        "1. **CapturePoint**",
-        "2. **Bool**"
-    ],
-    "extra": ""
-}
+{"block": "EnableCapturing", "summary": "Enables or disables capturing a provided **CapturePoint**.", "inputs": ["1. **CapturePoint**", "2. **Bool**"]}

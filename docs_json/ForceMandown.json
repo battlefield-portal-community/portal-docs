@@ -1,8 +1,1 @@
-{
-    "block": "ForceMandown",
-    "summary": "Puts the target **Player** into the mandown state (unless mandown is disabled).",
-    "inputs": [
-        "1. **Player**"
-    ],
-    "extra": ""
-}
+{"block": "ForceMandown", "summary": "Puts the target **Player** into the mandown state (unless mandown is disabled).", "inputs": ["1. **Player**"]}

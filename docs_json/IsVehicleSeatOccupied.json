@@ -1,12 +1,1 @@
-{
-    "block": "IsVehicleSeatOccupied",
-    "summary": "Returns a **Bool** indicating if the target seat index **Number** of target **Vehicle** is a occupied by a player.",
-    "inputs": [
-        "1. **Vehicle**",
-        "2. **Number**"
-    ],
-    "output": [
-        "1. **Bool**"
-    ],
-    "extra": ""
-}
+{"block": "IsVehicleSeatOccupied", "summary": "Returns a **Bool** indicating if the target seat index **Number** of target **Vehicle** is a occupied by a player.", "inputs": ["1. **Vehicle**", "2. **Number**"], "output": ["1. **Bool**"]}

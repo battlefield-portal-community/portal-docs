@@ -1,8 +1,1 @@
-{
-    "block": "UnspotTarget",
-    "summary": "Unspots a target **Player** for all players.",
-    "inputs": [
-        "1. **Player**"
-    ],
-    "extra": ""
-}
+{"block": "UnspotTarget", "summary": "Unspots a target **Player** for all players.", "inputs": ["1. **Player**"]}

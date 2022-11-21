@@ -1,8 +1,1 @@
-{
-    "block": "Vehicles",
-    "summary": "Returns a **VehiclesItem** from the **Vehicle** collection.",
-    "output": [
-        "-   **VehiclesItem**"
-    ],
-    "extra": ""
-}
+{"block": "Vehicles", "summary": "Returns a **VehiclesItem** from the **Vehicle** collection.", "output": ["-   **VehiclesItem**"]}

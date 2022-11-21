@@ -1,8 +1,1 @@
-{
-    "block": "EnableAllPlayerDeploy",
-    "summary": "Enables or disables spawning from the deploy screen for all players.",
-    "inputs": [
-        "1. **Bool**"
-    ],
-    "extra": ""
-}
+{"block": "EnableAllPlayerDeploy", "summary": "Enables or disables spawning from the deploy screen for all players.", "inputs": ["1. **Bool**"]}

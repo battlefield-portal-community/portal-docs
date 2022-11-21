@@ -1,8 +1,1 @@
-{
-    "block": "StopTrackingVariable",
-    "summary": "Stops an in-progress tracking of a **Variable** from the **TrackVariableOverTime** or **TrackVariableAtRate** blocks, leaving it at its current value.",
-    "inputs": [
-        "1. **Variable**"
-    ],
-    "extra": ""
-}
+{"block": "StopTrackingVariable", "summary": "Stops an in-progress tracking of a **Variable** from the **TrackVariableOverTime** or **TrackVariableAtRate** blocks, leaving it at its current value.", "inputs": ["1. **Variable**"]}
