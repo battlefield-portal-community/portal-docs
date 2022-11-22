@@ -1,4 +1,4 @@
-name: GenerateDocs
+name: Generate Json Docs
 on:
   workflow_dispatch:
   schedule:
