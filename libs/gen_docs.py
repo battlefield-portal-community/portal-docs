@@ -37,7 +37,7 @@ draft: false
         doc.append(
             f"\n![{file.stem}](https://raw.githubusercontent.com/battlefield-portal-community/Image-CDN/main/portal_blocks/{file.stem}.png)"  # noqa
         )
-        if extra := doc_json['extra']:
+        if extra := doc_json.get("extra", False):
             doc.append("## Extra Documentation")
             doc.append(extra)
 
