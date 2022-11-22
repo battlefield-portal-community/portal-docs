@@ -2,9 +2,11 @@ name: Github Pages
 
 on:
   push:
+    branches:
+      - main
     paths:
-      - docs_json  # Set a branch that will trigger a deployment
-      - hugo
+      - docs_json/**  # Set a branch that will trigger a deployment
+      - hugo/**
 
   workflow_dispatch:
 
@@ -28,13 +30,13 @@ jobs:
 
       - name: Generate Markdown
         run: python libs/gen_docs.py
-        
+
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
           hugo-version: 'latest'
           extended: true
-      
+
       - name: Build
         working-directory: ./hugo
         run: hugo --minify
