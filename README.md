@@ -1,7 +1,17 @@
-# portal-docs
+# Portal Docs
+<p align="center">
+    <a href="https://github.com/battlefield-portal-community/portal-docs/actions/workflows/gen-docs.yml">  
+    <img src="https://img.shields.io/github/workflow/status/battlefield-portal-community/portal-docs/Generate%20Json%20Docs?labelColor=011C26&label=Generate%20Docs%20Json&style=for-the-badge&color=26FFDF" alt="Generate Docs Json">
+    </a>  
+    <a href="https://github.com/battlefield-portal-community/portal-docs/actions/workflows/gh-pages.yaml">
+    <img src="https://img.shields.io/github/workflow/status/battlefield-portal-community/portal-docs/Github%20Pages?labelColor=011C26&label=Build%20GH-pages&style=for-the-badge&color=26FFDF" alt="Build GH pages">
+    </a>
+    <a href="https://github.com/battlefield-portal-community/portal-docs/actions/workflows/pages/pages-build-deployment">
+    <img src="https://img.shields.io/github/deployments/battlefield-portal-community/portal-docs/github-pages?label=GH-pages%20deploy&style=for-the-badge&color=26FFDF&labelColor=011C26" alt="Deploy GH pages">  
+    </a>        
+</p> 
 
-[![GenerateDocs](https://github.com/battlefield-portal-community/portal-docs/actions/workflows/gen-docs.yml/badge.svg)](https://github.com/battlefield-portal-community/portal-docs/actions/workflows/gen-docs.yml)  
-![image](https://user-images.githubusercontent.com/22869882/172840336-7b48b7ca-63b4-4ca4-a054-3384547115da.png)  
+<p align="center"><img src="https://user-images.githubusercontent.com/22869882/172840336-7b48b7ca-63b4-4ca4-a054-3384547115da.png"> </p>
 
 
 ### Automated docs generation for [portal-helper](https://github.com/battlefield-portal-community/portal_helper) bot, 
