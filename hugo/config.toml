@@ -4,4 +4,4 @@ languageCode = 'en-us'
 Theme = "compose"
 titleCaseStyle = "Go"
 [outputs]
-   home = ["HTML", "RSS","JSON"]
+home = ["HTML", "RSS", "JSON"]
