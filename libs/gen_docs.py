@@ -6,7 +6,7 @@ from helper import CleanDoc
 from loguru import logger
 
 
-build_base_dir = project_dir / "build"
+build_base_dir = project_dir / "hugo"
 build_dir = build_base_dir / "content" / "blocks"
 
 # delete all files if dir exists
