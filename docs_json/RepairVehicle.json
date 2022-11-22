@@ -1,0 +1,1 @@
+{"block": "RepairVehicle", "summary": "Repairs target **Vehicle** by the provided **Number** amount.  \n  \n_Note: When repairing a vehicle with a max health multiplier not equal to 1, the amount of health they receive will scale with their max health multiplier value._", "inputs": ["1. **Vehicle**", "2. **Number**"]}

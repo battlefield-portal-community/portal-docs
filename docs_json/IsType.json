@@ -1,0 +1,1 @@
+{"block": "IsType", "summary": "Returns **_True_** if the provided value is equal to the specified **TypesItem**.", "inputs": ["1. **Any Type**", "2. **TypesItem**"], "output": ["-   **Bool**"]}
