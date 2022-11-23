@@ -1,7 +1,7 @@
-baseURL = 'https://battlefield-portal-community.github.io/portal-docs'
+baseURL = "https://docs.bfportal.gg/"
 title = "Portal Docs"
 languageCode = 'en-us'
 Theme = "compose"
 titleCaseStyle = "Go"
 [outputs]
-home = ["HTML", "RSS", "JSON"]
+    home = ["HTML", "RSS", "JSON"]
