@@ -17756,6 +17756,11 @@
             "sid": "ID_BF01_VO_EN_CONQUEST_KIN-US_COMMANDER_BRIEFING-LEVELRIDGE-GAMEMODECONQUEST-SEQUENCE04_WAVE_01"
         },
         {
+            "localizedText": "MCOM",
+            "categoryId": 200,
+            "sid": "PYRITE_TOOLBOX_MCOM"
+        },
+        {
             "localizedText": "Toggle Scope",
             "categoryId": 197,
             "sid": "ID_CONCEPT_FOCUSDOWN"
@@ -26141,11 +26146,6 @@
             "sid": "ID_PASSIVE_AWARD_JULIET"
         },
         {
-            "localizedText": "Gradually modifies the value of a **%{PYRITE_TYPE_VARIABLE}** over time (in seconds). The variable's value will reach the limit at the end of the interval.   \n  \n_Note: If the limit is changed later, the **%{PYRITE_TYPE_VARIABLE}** will continue to be updated from its previous value. To spot modifying the **%{PYRITE_TYPE_VARIABLE}**, use %{ID_ARRIVAL_BLOCK_STOPCHASINGVARIABLE}._",
-            "categoryId": 200,
-            "sid": "help.chasevariableovertime.summary"
-        },
-        {
             "localizedText": "Lightweight and easy to break down, wireframe firearms are perfect for a night on the town when too much attention might be lethal. Try our custom stealth package today!",
             "categoryId": 197,
             "sid": "ID_PLAYERCARD_DESC_BACKGROUND103"
@@ -26194,6 +26194,16 @@
             "localizedText": "Mastermind",
             "categoryId": 197,
             "sid": "ID_BADGE_VETERANCY_RIBBONCQINT_NAME"
+        },
+        {
+            "localizedText": "Gradually modifies the value of a **%{PYRITE_TYPE_VARIABLE}** over time (in seconds). The variable's value will reach the limit at the end of the interval.   \n  \n_Note: If the limit is changed later, the **%{PYRITE_TYPE_VARIABLE}** will continue to be updated from its previous value. To spot modifying the **%{PYRITE_TYPE_VARIABLE}**, use %{ID_ARRIVAL_BLOCK_STOPCHASINGVARIABLE}._",
+            "categoryId": 200,
+            "sid": "help.chasevariableovertime.summary"
+        },
+        {
+            "localizedText": "Battlefield\u2122 2042 Welcome Pack",
+            "categoryId": 201,
+            "sid": "ID_ARRIVAL_WELCOME_PACK"
         },
         {
             "localizedText": "For use of Foxi",
@@ -66616,11 +66626,6 @@
             "sid": "ID_M_OPTIONS_VOIP_CHANNEL_PARTY"
         },
         {
-            "localizedText": "EA Play - Hit Squad",
-            "categoryId": 197,
-            "sid": "ID_STORE_BUNDLE_LAUNCH_MARCOM_6"
-        },
-        {
             "localizedText": "Returns the cosine value of a specified angle in degrees.",
             "categoryId": 200,
             "sid": "help.cosinefromdegrees.summary"
@@ -66659,6 +66664,16 @@
             "localizedText": "Tier 1",
             "categoryId": 197,
             "sid": "ID_COS_FOXTROT_04"
+        },
+        {
+            "localizedText": "EA Play - Hit Squad",
+            "categoryId": 197,
+            "sid": "ID_STORE_BUNDLE_LAUNCH_MARCOM_6"
+        },
+        {
+            "localizedText": "Welcome Pack",
+            "categoryId": 201,
+            "sid": "ID_ARRIVAL_WELCOM_PACK"
         },
         {
             "localizedText": "Backend Software Engineer",
