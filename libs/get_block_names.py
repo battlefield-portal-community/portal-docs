@@ -2,6 +2,7 @@ import os
 
 import requests
 from selenium import webdriver
+# from selenium.webdriver.chrome.service import Service as ChromiumService
 from webdriver_manager.chrome import ChromeDriverManager
 from webdriver_manager.core.utils import ChromeType
 from selenium.webdriver.chrome.options import Options
@@ -26,7 +27,7 @@ def get_block_names():
 
     DEBUG = os.getenv("DEBUG", False)
 
-    chrome_service = Service(ChromeDriverManager(chrome_type=ChromeType.CHROMIUM).install())
+    chrome_service = Service(ChromeDriverManager().install())
     chrome_options = Options()
 
     if not DEBUG:
