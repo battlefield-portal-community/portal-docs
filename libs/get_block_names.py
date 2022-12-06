@@ -33,13 +33,8 @@ def get_block_names():
 
     if not DEBUG:
         options = [
-            "--headless",
-            "--disable-gpu",
             "--window-size=1920,1200",
-            "--ignore-certificate-errors",
-            "--disable-extensions",
-            "--no-sandbox",
-            "--disable-dev-shm-usage"
+            "--ignore-certificate-errors"
         ]
 
         for option in options:
