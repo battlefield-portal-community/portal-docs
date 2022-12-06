@@ -29,6 +29,7 @@ def get_block_names():
 
     chrome_service = Service(ChromeDriverManager(chrome_type=ChromeType.CHROMIUM).install())
     chrome_options = Options()
+    chrome_options.binary_location = os.getenv("CHROME_BIN")
 
     if not DEBUG:
         options = [
