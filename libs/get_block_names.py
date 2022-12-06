@@ -17,7 +17,10 @@ import time
 import json
 import sys
 from helper import project_dir
+from pyvirtualdisplay import Display
 
+display = Display(visible=0, size=(800, 800))  
+display.start()
 
 class ProductionEnvironment(Exception):
     pass
