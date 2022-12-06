@@ -26,7 +26,6 @@ jobs:
         run: sudo apt purge google-chrome-stable  
         
        # Need to fetch reqs if needed
-      - name: Installing all necessary packages
       - name: Install xvfb
         run: sudo apt-get install xvfb      
 
