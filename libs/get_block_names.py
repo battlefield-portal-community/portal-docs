@@ -17,10 +17,6 @@ import time
 import json
 import sys
 from helper import project_dir
-from pyvirtualdisplay import Display
-
-display = Display(visible=0, size=(800, 800))  
-display.start()
 
 class ProductionEnvironment(Exception):
     pass
@@ -30,12 +26,12 @@ def get_block_names():
 
     DEBUG = os.getenv("DEBUG", False)
 
-    chrome_service = Service(ChromeDriverManager().install())
+    chrome_service = Service(ChromeDriverManager(chrome_type=ChromeType.CHROMIUM).install())
     chrome_options = Options()
-#     chrome_options.binary_location = os.getenv("CHROME_BIN")
 
     if not DEBUG:
         options = [
+            "--headless",
             "--window-size=1920,1200",
             "--ignore-certificate-errors"
         ]
