@@ -252,7 +252,7 @@
         },
         {
             "categoryId": 197,
-            "localizedText": "TIER {0:d}",
+            "localizedText": "T{0:d}",
             "sid": "ID_COLLECTION_TIER"
         },
         {
@@ -1951,11 +1951,6 @@
             "sid": "ID_ARRIVAL_PLAYSTYLE_PORTAL_BROWSE"
         },
         {
-            "categoryId": 198,
-            "localizedText": "Carries the Ammo Box to resupply their teammates. They also have the trap gadgets: C4 and M18 Claymores.",
-            "sid": "ID_MICA_KIT_ALX_SUPPORT_DESC"
-        },
-        {
             "categoryId": 197,
             "localizedText": "EA Legal Business Affairs",
             "sid": "ID_CREDITS_EA_LEGAL_BUSINESS_AFFAIRS"
@@ -1989,6 +1984,16 @@
             "categoryId": 197,
             "localizedText": "Secondary Weapon",
             "sid": "ID_CONCEPT_SELECTINVENTORYITEM2"
+        },
+        {
+            "categoryId": 197,
+            "localizedText": "Engineer Proficiency",
+            "sid": "ID_ABILITY_ENGINEER_PROFICIENCY_PORTAL"
+        },
+        {
+            "categoryId": 198,
+            "localizedText": "Carries the Ammo Box to resupply their teammates. They also have the trap gadgets: C4 and M18 Claymores.",
+            "sid": "ID_MICA_KIT_ALX_SUPPORT_DESC"
         },
         {
             "categoryId": 197,
@@ -36981,6 +36986,11 @@
             "sid": "help.arccosineindegrees.summary"
         },
         {
+            "categoryId": 197,
+            "localizedText": "-",
+            "sid": "ID_COLLECTION_TIER_EMPTY"
+        },
+        {
             "categoryId": 8,
             "localizedText": "Out.",
             "sid": "ID_BF01_VO_EN_BREAKTHROUGH_KIN-RU_COMMANDER_BRIEFING-LEVELRIDGE-GAMEMODEBREAKTHROUGH-SEQUENCE04_WAVE_01"
@@ -43377,6 +43387,11 @@
         },
         {
             "categoryId": 197,
+            "localizedText": "Not Available In Hazard Zone",
+            "sid": "ID_MENU_CLASSES_NOT_AVAILABLE"
+        },
+        {
+            "categoryId": 197,
             "localizedText": "Med-Pen Mastery",
             "sid": "ID_PLAYERCARD_MASTERY_BADGE_SELFHEAL"
         },
@@ -43654,6 +43669,11 @@
             "categoryId": 197,
             "localizedText": "Placeholder tip Wing Suit",
             "sid": "ID_HINT_WING_SUIT"
+        },
+        {
+            "categoryId": 197,
+            "localizedText": "Support Proficiency",
+            "sid": "ID_ABILITY_SUPPORT_PROFICIENCY_PORTAL"
         },
         {
             "categoryId": 197,
@@ -52931,11 +52951,6 @@
             "sid": "ID_MICA_CALLIN_UH60_DESC"
         },
         {
-            "categoryId": 197,
-            "localizedText": "Located a Ranger uplink",
-            "sid": "ID_HAZARDZONE_UPLINK_SUPPORT_INTERACT"
-        },
-        {
             "categoryId": 201,
             "localizedText": "Breakthrough Tutorial",
             "sid": "ID_ARRIVAL_PLAYSTYLE_BREAKTHROUGH_TUTORIAL"
@@ -52969,6 +52984,16 @@
             "categoryId": 197,
             "localizedText": "Senior Audio Artist",
             "sid": "ID_CREDITS_SENIOR_AUDIO_ARTIST"
+        },
+        {
+            "categoryId": 197,
+            "localizedText": "Assault Proficiency",
+            "sid": "ID_ABILITY_ASSAULT_PROFICIENCY_PORTAL"
+        },
+        {
+            "categoryId": 197,
+            "localizedText": "Located a Ranger uplink",
+            "sid": "ID_HAZARDZONE_UPLINK_SUPPORT_INTERACT"
         },
         {
             "categoryId": 197,
@@ -97604,6 +97629,11 @@
             "categoryId": 197,
             "localizedText": "LONGEST LIFE (S)",
             "sid": "ID_STATS_LONGESTLIFE"
+        },
+        {
+            "categoryId": 197,
+            "localizedText": "Recon Proficiency",
+            "sid": "ID_ABILITY_RECON_PROFICIENCY_PORTAL"
         },
         {
             "categoryId": 198,
