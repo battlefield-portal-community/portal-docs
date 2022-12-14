@@ -2042,7 +2042,7 @@
         },
         {
             "categoryId": 197,
-            "localizedText": "He saw some of his friends join the military and much to his parents\u2019 dismay he followed suit. His confidence and resourcefulness, both traits he developed as a child, propelled him up the ranks of the military and into El-Sa'ka.",
+            "localizedText": "He saw some of his friends join the military and much to his parents\u2019 dismay he followed suit. His confidence and resourcefulness, both traits he developed as a child, propelled him up the ranks of the military and into El-Sa\u2019ka.",
             "sid": "ID_CHAR_NOVEMBER_HISTORY_3"
         },
         {
@@ -3267,7 +3267,7 @@
         },
         {
             "categoryId": 197,
-            "localizedText": "He was assigned command of the Exodus, a refugee rescue vessel and deployment ship. Onboard, lived an elite task force that would undertake covert operations to further the No-Pat cause. But as Oz's methods became more extreme, Irish could no longer blindly follow orders. The breaking point came when the No-Pat leader baited the US and Russia into war. Irish knew then Oz needed to be stopped. He won\u2019t rest until that happens.  ",
+            "localizedText": "He was assigned command of the Exodus, a refugee rescue vessel and deployment ship. Onboard, lived an elite task force that would undertake covert operations to further the No-Pat cause. But as Oz\u2019s methods became more extreme, Irish could no longer blindly follow orders. The breaking point came when the No-Pat leader baited the US and Russia into war. Irish knew then Oz needed to be stopped. He won\u2019t rest until that happens.  ",
             "sid": "ID_CHAR_BRAVO_HISTORY_7"
         },
         {
@@ -3962,7 +3962,7 @@
         },
         {
             "categoryId": 197,
-            "localizedText": "Immediate and Constant Steady Scope",
+            "localizedText": "Immediate and constant steady scope",
             "sid": "ID_ABILITY_RECON_PROFICIENCY_DESCRIPTION"
         },
         {
@@ -4447,7 +4447,7 @@
         },
         {
             "categoryId": 197,
-            "localizedText": "An airburst rifle effective at flushing enemy infantry out from behind cover",
+            "localizedText": "An airburst rifle effective at flushing enemy infantry out from behind cover.",
             "sid": "ID_CHAR_NOVEMBER_SPECIAL_DESC"
         },
         {
@@ -7282,7 +7282,7 @@
         },
         {
             "categoryId": 197,
-            "localizedText": "After several years Constantin had fully restored the engine, as well as adding a few of his own personal modifications. But unknown to his father he'd attached it to an old plane chassis. It was a short test flight that ended with the teenager barely escaping with his life. An incident that earned him the nickname, \u201cAngel\u201d.",
+            "localizedText": "After several years Constantin had fully restored the engine, as well as adding a few of his own personal modifications. But unknown to his father he\u2019d attached it to an old plane chassis. It was a short test flight that ended with the teenager barely escaping with his life. An incident that earned him the nickname, \u201cAngel\u201d.",
             "sid": "ID_CHAR_INDIA_HISTORY_2"
         },
         {
@@ -18872,7 +18872,7 @@
         },
         {
             "categoryId": 197,
-            "localizedText": "A tripod mounted minigun",
+            "localizedText": "A stationary mini-gun that excels against infantry and light vehicles.",
             "sid": "ID_CHAR_MIKE_SPECIAL_DESC"
         },
         {
@@ -21197,7 +21197,7 @@
         },
         {
             "categoryId": 197,
-            "localizedText": "Deflects incoming small arms fire",
+            "localizedText": "Deflects incoming small arms fire.",
             "sid": "ID_ABILITY_SHIELD_DESC"
         },
         {
@@ -22747,7 +22747,7 @@
         },
         {
             "categoryId": 197,
-            "localizedText": "At 18, David joined one of Germany's few remaining militia forces. Despite her fears, Falck gave her blessing as her son fought to rebuild his country. But two years into his deployment, he was reported missing in action. Distraught, Falck refused to believe David was dead and finding him became her only goal. She spent any money she had following leads and paying for information, but it was hopeless. ",
+            "localizedText": "At 18, David joined one of Germany\u2019s few remaining militia forces. Despite her fears, Falck gave her blessing as her son fought to rebuild his country. But two years into his deployment, he was reported missing in action. Distraught, Falck refused to believe David was dead and finding him became her only goal. She spent any money she had following leads and paying for information, but it was hopeless. ",
             "sid": "ID_CHAR_FOXTROT_HISTORY_4"
         },
         {
@@ -22992,7 +22992,7 @@
         },
         {
             "categoryId": 197,
-            "localizedText": "As Europe disintegrated, Poland eventually collapsed. Lis, now a member of Poland\u2019s elite special forces, headed up one of the few remaining GROM units, helping government officials restore order. Their main task was targeting Dark Market bases that were flooding the country with weapons . Lis and her team were on a night raid infiltrating an illegal weapons compound when the Blackout hit and scrambled their equipment. In the mayhem that followed her entire team was wiped out - only Lis escaped with near fatal injuries.",
+            "localizedText": "As Europe disintegrated, Poland eventually collapsed. Lis, now a member of Poland\u2019s elite special forces, headed up one of the few remaining GROM units, helping government officials restore order. Their main task was targeting Dark Market bases that were flooding the country with weapons. Lis and her team were on a night raid infiltrating an illegal weapons compound when the Blackout hit and scrambled their equipment. In the mayhem that followed her entire team was wiped out - only Lis escaped with near fatal injuries.",
             "sid": "ID_CHAR_HOTEL_HISTORY_3"
         },
         {
@@ -24272,7 +24272,7 @@
         },
         {
             "categoryId": 197,
-            "localizedText": "Improved Dispersion While Crouched or Prone",
+            "localizedText": "Improved accuracy while crouched or prone",
             "sid": "ID_ABILITY_ENGINEER_PROFICIENCY_DESCRIPTION"
         },
         {
@@ -24652,7 +24652,7 @@
         },
         {
             "categoryId": 197,
-            "localizedText": "1988 \u2013 Born in Brooklyn, New York.\n2005 \u2013 at 17, joins the US Marine Corps.\n2009 \u2013 at 21, marries his first wife and goes on to father 3 children.\n2014 \u2013 at 26, joins what will eventually become Tombstone squad.\n2020 \u2013 at 32, thwarts Admiral Chang and helps avert a world war.\n2025 \u2013 at 37, re-ups with the marines.\n2038 \u2013 at 50, marries Raphaella Miller and quits the corps.\n2039 \u2013 at 51, meets Oz during a visit to South Africa..\n2040 \u2013 at 52, mourns Raphaella and informally adopts Omar.\n2042 \u2013 at 54 , assumes command of a No-Pat ship called the Exodus.",
+            "localizedText": "1988 \u2013 Born in Brooklyn, New York.\n2005 \u2013 at 17, joins the US Marine Corps.\n2009 \u2013 at 21, marries his first wife and goes on to father 3 children.\n2014 \u2013 at 26, joins what will eventually become Tombstone squad.\n2020 \u2013 at 32, thwarts Admiral Chang and helps avert a world war.\n2025 \u2013 at 37, re-ups with the marines.\n2038 \u2013 at 50, marries Raphaella Miller and quits the corps.\n2039 \u2013 at 51, meets Oz during a visit to South Africa..\n2040 \u2013 at 52, mourns Raphaella and informally adopts Omar.\n2042 \u2013 at 54, assumes command of a No-Pat ship called the Exodus.",
             "sid": "ID_CHAR_BRAVO_KEY_DATES"
         },
         {
@@ -29897,7 +29897,7 @@
         },
         {
             "categoryId": 197,
-            "localizedText": "During the transportation of a cargo container from Tunisia, the ship encountered a violent storm and was forced to dock before reaching its destination. Upon assessing the ship\u2019s damage, Sundance discovered the vessel was harboring several dozen terrified migrants in the process of being trafficked. It was a line Sundance wasn't prepared to cross: they had to act. After subduing their fellow gang members and releasing the prisoners, Sundance fled knowing full well a contract would be put on their life.",
+            "localizedText": "During the transportation of a cargo container from Tunisia, the ship encountered a violent storm and was forced to dock before reaching its destination. Upon assessing the ship\u2019s damage, Sundance discovered the vessel was harboring several dozen terrified migrants in the process of being trafficked. It was a line Sundance wasn\u2019t prepared to cross: they had to act. After subduing their fellow gang members and releasing the prisoners, Sundance fled knowing full well a contract would be put on their life.",
             "sid": "ID_CHAR_CHARLIE_HISTORY_3"
         },
         {
@@ -35092,7 +35092,7 @@
         },
         {
             "categoryId": 197,
-            "localizedText": "Engages nearby hostiles",
+            "localizedText": "Automatically targets hostiles, with priority given to soldier targets.",
             "sid": "ID_GADGETS_AUTOTURRET_DESC"
         },
         {
@@ -41977,7 +41977,7 @@
         },
         {
             "categoryId": 197,
-            "localizedText": "Highlights hostiles concealed behind cover",
+            "localizedText": "Temporarily highlights hostiles. Your position will be revealed when activated.",
             "sid": "ID_ABILITY_ARSCANNER_DESC"
         },
         {
@@ -42062,7 +42062,7 @@
         },
         {
             "categoryId": 197,
-            "localizedText": "As a boy, Rao was struck down by childhood leukemia. He spent many weeks and months in hospital undergoing treatment that often left him bedridden. Becoming increasingly isolated and lonely, he found an online community and learned how to code. It soon became clear that Rao was a prodigious talent, and in an effort to impress his friends, Rao hacked his school\u2019s computer network to inflate his companions' grades. When his efforts were traced back to his parents\u2019 home in Mumbai, he was sent away to live with his aunt and uncle as punishment.",
+            "localizedText": "As a boy, Rao was struck down by childhood leukemia. He spent many weeks and months in hospital undergoing treatment that often left him bedridden. Becoming increasingly isolated and lonely, he found an online community and learned how to code. It soon became clear that Rao was a prodigious talent, and in an effort to impress his friends, Rao hacked his school\u2019s computer network to inflate his companions\u2019 grades. When his efforts were traced back to his parents\u2019 home in Mumbai, he was sent away to live with his aunt and uncle as punishment.",
             "sid": "ID_CHAR_LIMA_HISTORY_1"
         },
         {
@@ -47612,7 +47612,7 @@
         },
         {
             "categoryId": 197,
-            "localizedText": "After several years learning about the business, Crawford was brought into the fold and put to work stealing farming equipment. At the same time he completed his studies and graduated with 1st class honors in Political Science from Manchester University. His educational distinctions allowed him to gain a position in the UK\u2019s international intelligence agency, MI6, where he worked as an inside man to help grow his uncle's operations abroad.",
+            "localizedText": "After several years learning about the business, Crawford was brought into the fold and put to work stealing farming equipment. At the same time he completed his studies and graduated with 1st class honors in Political Science from Manchester University. His educational distinctions allowed him to gain a position in the UK\u2019s international intelligence agency, MI6, where he worked as an inside man to help grow his uncle\u2019s operations abroad.",
             "sid": "ID_CHAR_MIKE_HISTORY_3"
         },
         {
@@ -52732,7 +52732,7 @@
         },
         {
             "categoryId": 197,
-            "localizedText": "Sea Tour",
+            "localizedText": "Silver Spear",
             "sid": "ID_COS_INDIA_HEAD_09"
         },
         {
@@ -53302,7 +53302,7 @@
         },
         {
             "categoryId": 197,
-            "localizedText": "2017 \u2013 Born in Gwangju, South Korea.\n2035 \u2013 at 18, conscripted into the Army.\n2038 \u2013 at 21, joins the Republic of Korea Army Special Warfare Command (ROK-SOF).\n2039 \u2013 at 22, her team earns the moniker \"\"Gumiho\"\". \n2041 \u2013 at 24, flees after military career ends in disgrace.\n2042 \u2013 at 25, joins the Exodus.",
+            "localizedText": "2017 \u2013 Born in Gwangju, South Korea.\n2035 \u2013 at 18, conscripted into the Army.\n2038 \u2013 at 21, joins the Republic of Korea Army Special Warfare Command (ROK-SOF).\n2039 \u2013 at 22, her team earns the moniker \"Gumiho\". \n2041 \u2013 at 24, flees after military career ends in disgrace.\n2042 \u2013 at 25, joins the Exodus.",
             "sid": "ID_CHAR_ECHO_KEY_DATES"
         },
         {
@@ -59452,7 +59452,7 @@
         },
         {
             "categoryId": 197,
-            "localizedText": "Sundance was orphaned while still an infant when Paris was devastated by a nuclear attack. As the city underwent mass evacuation, Sundance was moved to a large children's home in Lyon. Growing up was a traumatic period for them not only dealing with issues of identity but also navigating the shifting power struggles between the other children.",
+            "localizedText": "Sundance was orphaned while still an infant when Paris was devastated by a nuclear attack. As the city underwent mass evacuation, Sundance was moved to a large children\u2019s home in Lyon. Growing up was a traumatic period for them not only dealing with issues of identity but also navigating the shifting power struggles between the other children.",
             "sid": "ID_CHAR_CHARLIE_HISTORY_1"
         },
         {
@@ -63952,7 +63952,7 @@
         },
         {
             "categoryId": 197,
-            "localizedText": "Extra Magazines",
+            "localizedText": "Three extra magazines",
             "sid": "ID_ABILITY_ASSAULT_PROFICIENCY_DESCRIPTION"
         },
         {
@@ -65847,11 +65847,6 @@
         },
         {
             "categoryId": 197,
-            "localizedText": "Woodland",
-            "sid": "ID_COS_CSKIN_CAMO_FOREST_WOODLAND_01"
-        },
-        {
-            "categoryId": 197,
             "localizedText": "Aerial Ace",
             "sid": "ID_RECOGNITION_HW_02"
         },
@@ -65899,6 +65894,16 @@
             "categoryId": 197,
             "localizedText": "Hazard Zone Intel Ribbon",
             "sid": "ID_PLAYERCARD_BADGE_VETERANCY_HZ_INT"
+        },
+        {
+            "categoryId": 200,
+            "localizedText": "This {{ itemType }} is available to players who choose to play: {{ classList }}",
+            "sid": "editor.package.details-panel.descriptions.multiClass"
+        },
+        {
+            "categoryId": 197,
+            "localizedText": "Woodland",
+            "sid": "ID_COS_CSKIN_CAMO_FOREST_WOODLAND_01"
         },
         {
             "categoryId": 198,
@@ -66942,7 +66947,7 @@
         },
         {
             "categoryId": 197,
-            "localizedText": "Disables enemy hardware",
+            "localizedText": "Temporarily disables vehicle systems and disorients enemy soldiers.",
             "sid": "ID_ABILITYSIGNALHACKER_DESC"
         },
         {
@@ -67667,7 +67672,7 @@
         },
         {
             "categoryId": 197,
-            "localizedText": "A portable life support device that can revive critically wounded allies and restore them to full health",
+            "localizedText": "A portable life support device that can revive critically wounded allies and restore them to full health.",
             "sid": "ID_MENU_ABILITY_DEFIBRILLATOR"
         },
         {
@@ -73647,7 +73652,7 @@
         },
         {
             "categoryId": 197,
-            "localizedText": "Resupply ammo and loadout call-in",
+            "localizedText": "Delivers ammunition and crates that allow for loadout changes.",
             "sid": "ID_GADGET_SUPPLYBAG_DESC"
         },
         {
@@ -74367,7 +74372,7 @@
         },
         {
             "categoryId": 197,
-            "localizedText": "Allows unrivalled mobility  ",
+            "localizedText": "Use to scale buildings, reach ziplines, or damage enemy soldiers.",
             "sid": "ID_GADGET_GRAPPLEGUN_DESC"
         },
         {
@@ -74657,7 +74662,7 @@
         },
         {
             "categoryId": 197,
-            "localizedText": "2005 \u2013 Born in Ploiesti, Romania.\n2019 \u2013 at 14, earns the nickname \u201cAngel\u201d after a testflight nearly takes his life.\n2025 \u2013 at 20, joins the Romanian Naval forces.\n2031 \u2013 at 26 - deploys to combat the Baltic firestorms.\n2034 \u2013 at 29, returns home to see his father for the last time.\n2041 \u2013 at 36, rescued by a No-Pat task force and joins the movement.",
+            "localizedText": "2005 \u2013 Born in Ploiesti, Romania.\n2019 \u2013 at 14, earns the nickname \u201cAngel\u201d after a testflight nearly takes his life.\n2025 \u2013 at 20, joins the Romanian Naval forces.\n2031 \u2013 at 26, deploys to combat the Baltic firestorms.\n2034 \u2013 at 29, returns home to see his father for the last time.\n2041 \u2013 at 36, rescued by a No-Pat task force and joins the movement.",
             "sid": "ID_CHAR_INDIA_KEY_DATES"
         },
         {
@@ -80187,7 +80192,7 @@
         },
         {
             "categoryId": 197,
-            "localizedText": "Launches a player controlled anti-vehicle missile ",
+            "localizedText": "Launches a player controlled anti-vehicle missile.",
             "sid": "ID_ABILITY_MULTIPURPOSE_ROCKETLAUNCHER_DESC"
         },
         {
@@ -80647,7 +80652,7 @@
         },
         {
             "categoryId": 197,
-            "localizedText": "Contains options for point defence",
+            "localizedText": "Can deploy cover or a trophy system to intercept explosives.",
             "sid": "ID_GADGETS_CONSTRUCTIONKIT_DESC"
         },
         {
@@ -81357,7 +81362,7 @@
         },
         {
             "categoryId": 197,
-            "localizedText": "Faster Draw Time",
+            "localizedText": "Faster draw time",
             "sid": "ID_ABILITY_SUPPORT_PROFICIENCY_DESCRIPTION"
         },
         {
@@ -83937,7 +83942,7 @@
         },
         {
             "categoryId": 197,
-            "localizedText": "Sea Tour",
+            "localizedText": "Silver Spear",
             "sid": "ID_COS_INDIA_BODY_09"
         },
         {
@@ -86402,7 +86407,7 @@
         },
         {
             "categoryId": 197,
-            "localizedText": "Heal at range",
+            "localizedText": "Restores health, or heals friendly soldiers at range. Rounds can also be shot onto the ground to be picked up later.",
             "sid": "ID_GADGET_STIMPISTOL_DESC"
         },
         {
@@ -86567,7 +86572,7 @@
         },
         {
             "categoryId": 197,
-            "localizedText": "Scout ahead without risk",
+            "localizedText": "Spots enemies in its proximity and can target them with a disruptive EMP burst.",
             "sid": "ID_GADGET_RECONDRONE_DESC"
         },
         {
@@ -90237,7 +90242,7 @@
         },
         {
             "categoryId": 197,
-            "localizedText": "Zain was born in Egypt at a time of great economic instability. As the infrastructure of the Cairo Governorate continued to disintegrate, Zain's parents lost their jobs and eventually their home. During this period Zain\u2019s mother became a full time activist, fighting for the rights of everyday people struggling to survive. Zain would often help his mother paint placards and join her on marches. The experience deepened their bond and inspired one another\u2019s commitment to the cause.",
+            "localizedText": "Zain was born in Egypt at a time of great economic instability. As the infrastructure of the Cairo Governorate continued to disintegrate, Zain\u2019s parents lost their jobs and eventually their home. During this period Zain\u2019s mother became a full time activist, fighting for the rights of everyday people struggling to survive. Zain would often help his mother paint placards and join her on marches. The experience deepened their bond and inspired one another\u2019s commitment to the cause.",
             "sid": "ID_CHAR_NOVEMBER_HISTORY_1"
         },
         {
@@ -98692,7 +98697,7 @@
         },
         {
             "categoryId": 197,
-            "localizedText": "Multiple grenade payloads",
+            "localizedText": "Multiple grenade payloads.",
             "sid": "ID_GADGET_SMARTEXPLOSIVES_DESC"
         },
         {
