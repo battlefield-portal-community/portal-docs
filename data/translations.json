@@ -2691,6 +2691,11 @@
             "sid": "ID_ABILITY_VEHICLE_MINELAYER_CLUSTER"
         },
         {
+            "categoryId": 201,
+            "localizedText": "UNRESTRICTED 2042 GADGET SELECTION",
+            "sid": "ID_ARRIVAL_ID_ARRIVAL_MUTATOR_BOOL_UNRESTRICTED_2042_GADGET_SELECTION"
+        },
+        {
             "categoryId": 197,
             "localizedText": "Scattered",
             "sid": "ID_COS_CAMO__UNIVERSAL_BATTLEPASS_04_VEH"
@@ -46511,6 +46516,11 @@
             "sid": "ID_ABILITY_ATMINE"
         },
         {
+            "categoryId": 201,
+            "localizedText": "UNRESTRICTED 2042 THROWABLE SELECTION",
+            "sid": "ID_ARRIVAL_MUTATOR_BOOL_UNRESTRICTED_2042_THROWABLE_SELECTION"
+        },
+        {
             "categoryId": 197,
             "localizedText": "Smoke Discharger",
             "sid": "ID_ABILITY_SMOKE_DISCHARGER"
@@ -81262,11 +81272,6 @@
         },
         {
             "categoryId": 197,
-            "localizedText": "Kills, Assists, and Objectives Captured with the LCAA Hovercraft",
-            "sid": "ID_HWPROG_CHRISTY_BASE_CRIT"
-        },
-        {
-            "categoryId": 197,
             "localizedText": "Icons Opacity Central",
             "sid": "ID_OPTIONS_ICONS_OPACITY_CENTER_LABEL"
         },
@@ -81309,6 +81314,16 @@
             "categoryId": 200,
             "localizedText": "Validation Error",
             "sid": "editor.manage.validation-error"
+        },
+        {
+            "categoryId": 201,
+            "localizedText": "MANCOUR & DIRTEEBREAKS | ALL ERAS | CUSTOM | 12",
+            "sid": "ID_ARRIVAL_EXP_CSL_GUNFIGHT_ROYALE_MODE"
+        },
+        {
+            "categoryId": 197,
+            "localizedText": "Kills, Assists, and Objectives Captured with the LCAA Hovercraft",
+            "sid": "ID_HWPROG_CHRISTY_BASE_CRIT"
         },
         {
             "categoryId": 197,
@@ -87219,6 +87234,11 @@
             "categoryId": 197,
             "localizedText": "Participated in a FridayNightBattlefield Match",
             "sid": "ID_FRIDAY_NIGHT_BF_CRITERIA_01"
+        },
+        {
+            "categoryId": 201,
+            "localizedText": "UNRESTRICTED 2042 GADGET SELECTION",
+            "sid": "ID_ARRIVAL_MUTATOR_BOOL_UNRESTRICTED_2042_GADGET_SELECTION"
         },
         {
             "categoryId": 197,
