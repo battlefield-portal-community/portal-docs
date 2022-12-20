@@ -9906,11 +9906,6 @@
             "categoryId": 197
         },
         {
-            "sid": "ID_CALLIN_CONFIRM_BUTTON",
-            "localizedText": "ASSIGN DROP POINT",
-            "categoryId": 197
-        },
-        {
             "sid": "ID_GAMEMODE_BREAKTHROUGH_OBJ_I4",
             "localizedText": "I4",
             "categoryId": 197
@@ -9953,6 +9948,16 @@
         {
             "sid": "ID_HUD_SCORE_TERRITORYCAPTURED",
             "localizedText": "SECTOR CAPTURED",
+            "categoryId": 197
+        },
+        {
+            "sid": "ID_ARRIVAL_FNB_BT_MAYHEM_DESC",
+            "localizedText": "It's pure mayhem as you push through enemy sectors in this amped-up version of Breakthrough!",
+            "categoryId": 201
+        },
+        {
+            "sid": "ID_CALLIN_CONFIRM_BUTTON",
+            "localizedText": "ASSIGN DROP POINT",
             "categoryId": 197
         },
         {
@@ -77319,6 +77324,11 @@
             "sid": "ID_COS_CSKIN_CAMO_URBAN_NIGHT_01_CD_CHARLIE_BODY",
             "localizedText": "Night Operations",
             "categoryId": 197
+        },
+        {
+            "sid": "ID_ARRIVAL_FNB_BT_MAYHEM",
+            "localizedText": "FNB - BREAKTHROUGH MAYHEM",
+            "categoryId": 201
         },
         {
             "sid": "ID_M_MP_MARKER_NAVIGATION",
