@@ -55931,6 +55931,11 @@
             "localizedText": "Factory Suppressor"
         },
         {
+            "sid": "ID_ARRIVAL_S3_POSTLAUNCH_CONTENT_DETAILS",
+            "categoryId": 201,
+            "localizedText": "Season 3 Retroactive Reward: Specialist Zain & 1000 BFC"
+        },
+        {
             "sid": "ID_VEHICLES_WEAPON_NAME_40_UTILITY_EMP",
             "categoryId": 197,
             "localizedText": "EMP Grenade Pod"
