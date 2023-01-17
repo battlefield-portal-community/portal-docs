@@ -466,6 +466,11 @@
             "localizedText": "Sun Praiser"
         },
         {
+            "categoryId": 201,
+            "sid": "ID_ARRIVAL_PLAYSTYLE_BREAKTHROUGH_SEASONS_DESC",
+            "localizedText": "Breakthrough is the focused mode where the frontline is constantly on the move. Seasons tailors the rotation to feature each season's new map."
+        },
+        {
             "categoryId": 197,
             "sid": "ID_HWPROG_REM870_BASE_CRIT",
             "localizedText": "Kills with the MCS-880"
@@ -674,6 +679,11 @@
             "categoryId": 197,
             "sid": "ID_COS_WCHARM0037_BASE_01",
             "localizedText": "Wireframe"
+        },
+        {
+            "categoryId": 201,
+            "sid": "ID_ARRIVAL_EXP_CSL_GUNFIGHT_ROYALE",
+            "localizedText": "COMMUNITY SPOTLIGHT - GUNFIGHT ROYALE"
         },
         {
             "categoryId": 198,
@@ -1747,6 +1757,11 @@
         },
         {
             "categoryId": 201,
+            "sid": "ID_ARRIVAL_PLAYSTYLE_RUSH_SEASONS_DESC",
+            "localizedText": "The all-time classic Rush mode, with a rotation that features each season\u2019s new map."
+        },
+        {
+            "categoryId": 201,
             "sid": "ID_ARRIVAL_MUTATOR_FLOAT_CALLINVEHICLECOOLDOWN_DESC",
             "localizedText": "Multiplies the default cooldown for call-in vehicles. Values below 1.0 make cooldowns faster, values above 1.0 make cooldowns longer."
         },
@@ -2079,6 +2094,11 @@
             "categoryId": 197,
             "sid": "ID_ARRIVAL_SERVERTAG_MAPDEFAULT_ERA",
             "localizedText": "MAP FACTION"
+        },
+        {
+            "categoryId": 201,
+            "sid": "ID_ARRIVAL_FNB_BT_MAYHEM_DESC",
+            "localizedText": "It's pure mayhem as you push through enemy sectors in this amped-up version of Breakthrough!"
         },
         {
             "categoryId": 197,
@@ -4119,6 +4139,11 @@
             "categoryId": 201,
             "sid": "ID_ARRIVAL_MUTATOR_BOOL_IFINITE_WEAPON_MAGAZINES_DESC",
             "localizedText": "Control if primary and secondary weapons have infinite magazines."
+        },
+        {
+            "categoryId": 201,
+            "sid": "ID_ARRIVAL_EXP_TORMENT",
+            "localizedText": "TORMENT"
         },
         {
             "categoryId": 197,
@@ -7841,6 +7866,11 @@
             "localizedText": "Hot Spot"
         },
         {
+            "categoryId": 201,
+            "sid": "ID_ARRIVAL_EXP_TORMENT_DESC",
+            "localizedText": "Prepare for ALL-OUT TORFARE as you fight for dominance with an armada of ground vehicles and EMKV90-TORs."
+        },
+        {
             "categoryId": 197,
             "sid": "ID_BATTLEPASS_TAG_07_NAME",
             "localizedText": "Aerial Escort"
@@ -8931,6 +8961,11 @@
             "localizedText": "VEHICLE DAMAGE MULTIPLIER"
         },
         {
+            "categoryId": 201,
+            "sid": "ID_ARRIVAL_EXP_1942_RENDEZVOUS_MODE",
+            "localizedText": "1942 | CONQUEST & RUSH | 32 v 32"
+        },
+        {
             "categoryId": 197,
             "sid": "ID_COS_WEP_RIFLE__RAILGUN_01_WSKIN0351",
             "localizedText": "Tier 1"
@@ -9049,6 +9084,11 @@
             "categoryId": 197,
             "sid": "ID_PLAYERCARD_NAME_BACKGROUND070",
             "localizedText": "Business or Vocation"
+        },
+        {
+            "categoryId": 201,
+            "sid": "ID_ARRIVAL_PLAYSTYLE_RUSH_INFANTRY",
+            "localizedText": "Infantry Rush"
         },
         {
             "categoryId": 197,
@@ -10211,6 +10251,11 @@
             "localizedText": "LessThanEqualTo"
         },
         {
+            "categoryId": 201,
+            "sid": "ID_ARRIVAL_PLAYSTYLE_BREAKTHROUGH_SEASONS",
+            "localizedText": "Seasons Breakthrough"
+        },
+        {
             "categoryId": 197,
             "sid": "ID_HWPROG_PECHENEG_BASE_CRIT",
             "localizedText": "Kills with the PKP-BP"
@@ -10299,6 +10344,11 @@
             "categoryId": 197,
             "sid": "ID_ABILITY_NBR",
             "localizedText": "AC-42"
+        },
+        {
+            "categoryId": 201,
+            "sid": "ID_ARRIVAL_PLAYSTYLE_BREAKTHROUGH_INFANTRY",
+            "localizedText": "Infantry Breakthrough"
         },
         {
             "categoryId": 198,
@@ -10404,6 +10454,11 @@
             "categoryId": 198,
             "sid": "ID_MICA_ABILITY_MOTION_SENSOR_GRENADE",
             "localizedText": "Motion Sensor"
+        },
+        {
+            "categoryId": 201,
+            "sid": "ID_ARRIVAL_PLAYSTYLE_RUSH_SEASONS",
+            "localizedText": "Seasons Rush"
         },
         {
             "categoryId": 197,
@@ -13266,6 +13321,11 @@
             "localizedText": "Spearhead"
         },
         {
+            "categoryId": 201,
+            "sid": "ID_ARRIVAL_PLAYSTYLE_RUSH_INFANTRY_DESC",
+            "localizedText": "The infantry-only version of the all-time classic Rush mode."
+        },
+        {
             "categoryId": 197,
             "sid": "ID_WEAPONS_ATTACH_BARREL_NAME_12",
             "localizedText": "Shortened Barrel"
@@ -13674,6 +13734,11 @@
             "categoryId": 197,
             "sid": "ID_WEAPONS_ATTACH_BARREL_NAME_16",
             "localizedText": "Spook Y Suppressor"
+        },
+        {
+            "categoryId": 201,
+            "sid": "ID_ARRIVAL_EXP_1942_RENDEZVOUS",
+            "localizedText": "1942 RENDEZVOUS"
         },
         {
             "categoryId": 197,
@@ -15621,6 +15686,11 @@
             "localizedText": "Night Operations"
         },
         {
+            "categoryId": 201,
+            "sid": "ID_ARRIVAL_FNB_BT_MAYHEM",
+            "localizedText": "FNB - BREAKTHROUGH MAYHEM"
+        },
+        {
             "categoryId": 197,
             "sid": "ID_ARRIVAL_SERVERTAG_AI_ENABLED",
             "localizedText": "PvP AI"
@@ -16421,6 +16491,11 @@
             "localizedText": "Crow"
         },
         {
+            "categoryId": 201,
+            "sid": "ID_ARRIVAL_EXP_CSL_GUNFIGHT_ROYALE_MODE",
+            "localizedText": "MANCOUR & DIRTEEBREAKS | ALL ERAS | CUSTOM | 12"
+        },
+        {
             "categoryId": 197,
             "sid": "ID_HWPROG_CHRISTY_BASE_CRIT",
             "localizedText": "Kills, Assists, and Objectives Captured with the LCAA Hovercraft"
@@ -16979,6 +17054,11 @@
             "categoryId": 197,
             "sid": "ID_ARRIVAL_MODBUILDER_SELECTIONLISTS_DAMAGETYPES_MELEE",
             "localizedText": "Melee"
+        },
+        {
+            "categoryId": 201,
+            "sid": "ID_ARRIVAL_PLAYSTYLE_BREAKTHROUGH_INFANTRY_DESC",
+            "localizedText": "The focused, infantry-only mode where the frontline is constantly on the move."
         },
         {
             "categoryId": 197,
@@ -18741,6 +18821,11 @@
             "localizedText": "Low Poly"
         },
         {
+            "categoryId": 201,
+            "sid": "ID_ARRIVAL_EXP_CSL_GUNFIGHT_ROYALE_DESC",
+            "localizedText": "Be the last man standing in a series of Free-For-All rounds with random loadouts. The first to reach three points wins. Inspired by MANCOUR and DIRTEEBREAKS."
+        },
+        {
             "categoryId": 197,
             "sid": "ID_BADGE_MASTERY_VIHIND_NAME",
             "localizedText": "Mi-240 Super Hind Mastery"
@@ -18819,6 +18904,11 @@
             "categoryId": 197,
             "sid": "ID_BADGE_MASTERY_TUKTUK_NAME",
             "localizedText": "Tuk-Tuk Mastery"
+        },
+        {
+            "categoryId": 201,
+            "sid": "ID_ARRIVAL_EXP_1942_RENDEZVOUS_DESC",
+            "localizedText": "Put your 1942 skills to the test featuring both Conquest and Rush across multiple 2042, BF3, BC2, and 1942 maps."
         },
         {
             "categoryId": 197,
