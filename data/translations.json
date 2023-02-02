@@ -1,6 +1,11 @@
 {
     "localizedTexts": [
         {
+            "categoryId": 201,
+            "localizedText": "Go on a world tour of Conquest and Rush across multiple 2042, BF3, BC2, and 1942 maps.",
+            "sid": "ID_ARRIVAL_EXP_BF_WORLD_TOUR_DESC"
+        },
+        {
             "categoryId": 197,
             "localizedText": "Icebreaker",
             "sid": "ID_COS_VEH_AIRPLANE__F35B_01_VSKIN0063"
@@ -226,6 +231,11 @@
             "sid": "ID_COS_WEP_SIDEARM__TAURUS44_REVOLVER_01_WSKIN0137"
         },
         {
+            "categoryId": 201,
+            "localizedText": "COMMUNITY SPOTLIGHT - TIPPING POINT",
+            "sid": "ID_ARRIVAL_EXP_CSL_TIPPINGPOINT"
+        },
+        {
             "categoryId": 197,
             "localizedText": "XDR Holo",
             "sid": "ID_WEAPONS_ATTACH_OPTIC_NAME_3"
@@ -269,6 +279,11 @@
             "categoryId": 197,
             "localizedText": "Shadow Stalker",
             "sid": "ID_COS_KILO_SET_01"
+        },
+        {
+            "categoryId": 197,
+            "localizedText": "Kills and Assists with the PP-2000 (Portal) or MP9",
+            "sid": "ID_AWARD_HWUNLOCK_PP2000_C1"
         },
         {
             "categoryId": 197,
@@ -357,6 +372,11 @@
         },
         {
             "categoryId": 197,
+            "localizedText": "Pathmaker",
+            "sid": "ID_PLAYERCARD_NAME_BACKGROUND_DMC_S4_2"
+        },
+        {
+            "categoryId": 197,
             "localizedText": "Marauder",
             "sid": "ID_COS_CSKIN_CAMO_NIGHTOPS_UNIVERSAL_01__CD_MIKE_BODY"
         },
@@ -397,6 +417,11 @@
         },
         {
             "categoryId": 197,
+            "localizedText": "BF2042 Dev",
+            "sid": "ID_COS_CSKIN_CAMO_DEV_01__CD_MIKE_BODY"
+        },
+        {
+            "categoryId": 197,
             "localizedText": "Controls the timing for AI soldier health regeneration. Values less than 1.0 slow the time it takes to regenerate AI soldiers to full health, while values greater than 1.0 regenerate health more quickly.",
             "sid": "ID_ARRIVAL_MUTATOR_FLOAT_AI_REGEN_RATE_DESC"
         },
@@ -424,6 +449,11 @@
             "categoryId": 197,
             "localizedText": "Evergreen",
             "sid": "ID_COS_WEP_RIFLE__SLX_SPEAR_01_WSKIN0256"
+        },
+        {
+            "categoryId": 197,
+            "localizedText": "Kills with the Ghostmaker R10 while Aiming",
+            "sid": "ID_HWPROG_GHSTMKR_BES_THERMAL_CRIT"
         },
         {
             "categoryId": 197,
@@ -462,8 +492,18 @@
         },
         {
             "categoryId": 197,
+            "localizedText": "Engineer Proficiency",
+            "sid": "ID_ABILITY_ENGINEER_PROFICIENCY_PORTAL"
+        },
+        {
+            "categoryId": 197,
             "localizedText": "Sun Praiser",
             "sid": "ID_STORE_TAG_05_NAME"
+        },
+        {
+            "categoryId": 201,
+            "localizedText": "Drone Gadgets",
+            "sid": "ID_ARRIVAL_CATEGORIZATIONTAG_NAME_DRONE_GADGETS"
         },
         {
             "categoryId": 201,
@@ -657,6 +697,16 @@
         },
         {
             "categoryId": 197,
+            "localizedText": "Sea Tour",
+            "sid": "ID_PLAYERCARD_NAME_BACKGROUND_DMC_S4_5"
+        },
+        {
+            "categoryId": 201,
+            "localizedText": "2042 | TDM | 32 v 32",
+            "sid": "ID_ARRIVAL_EXP_TDM_LRG_NEW_MODE"
+        },
+        {
+            "categoryId": 197,
             "localizedText": "Weapon",
             "sid": "ID_ARRIVAL_MODBUILDER_SELECTIONLISTS_DAMAGETYPES_WEAPON"
         },
@@ -697,6 +747,11 @@
         },
         {
             "categoryId": 197,
+            "localizedText": "Barometric",
+            "sid": "ID_COS_VEH_ARMOREDCAR__JAGUAR_EBRC_01_VSKIN0196"
+        },
+        {
+            "categoryId": 197,
             "localizedText": "Explosion",
             "sid": "ID_ARRIVAL_MODBUILDER_SELECTIONLISTS_PLAYERDEATHTYPES_EXPLOSION"
         },
@@ -711,6 +766,11 @@
             "sid": "ID_ARRIVAL_EXP_CSL_CTF_MODE"
         },
         {
+            "categoryId": 201,
+            "localizedText": "Yatagara II",
+            "sid": "ID_ARRIVAL_STORE_BUNDLE_TITLE_SLA5"
+        },
+        {
             "categoryId": 197,
             "localizedText": "Dust Devil",
             "sid": "ID_COS_LIMA_04"
@@ -719,6 +779,11 @@
             "categoryId": 201,
             "localizedText": "Russia Faction",
             "sid": "ID_ARRIVAL_CATEGORIZATIONTAG_NAME_FACTIONRU"
+        },
+        {
+            "categoryId": 197,
+            "localizedText": "T-UGS Mastery",
+            "sid": "ID_BADGE_MASTERY_TUGS_NAME"
         },
         {
             "categoryId": 197,
@@ -869,6 +934,11 @@
             "categoryId": 197,
             "localizedText": "SquadId",
             "sid": "ID_ARRIVAL_MODBUILDER_TYPE_SQUADID"
+        },
+        {
+            "categoryId": 197,
+            "localizedText": "Bloodthirst",
+            "sid": "ID_COS_WEP_SHOTGUN__SAIGA_12_01_WSKIN0233"
         },
         {
             "categoryId": 197,
@@ -1102,6 +1172,11 @@
         },
         {
             "categoryId": 201,
+            "localizedText": "Japanese weapons manufacturer Yatagara Industries excels at flawless execution. With their help now you can too.",
+            "sid": "ID_ARRIVAL_STORE_BUNDLE_DESCRIPTION_SLA5"
+        },
+        {
+            "categoryId": 201,
             "localizedText": "Sights - Medium Range",
             "sid": "ID_ARRIVAL_CATEGORIZATIONTAG_NAME_SIGHTS_MEDIUM"
         },
@@ -1169,6 +1244,11 @@
             "categoryId": 197,
             "localizedText": "SU-57 FELON Mastery",
             "sid": "ID_BADGE_MASTERY_SU57_NAME"
+        },
+        {
+            "categoryId": 197,
+            "localizedText": "Cutting Edge",
+            "sid": "ID_COS_VEH_AIRPLANE__SU57_01_VSKIN0167"
         },
         {
             "categoryId": 198,
@@ -1299,6 +1379,11 @@
             "categoryId": 197,
             "localizedText": "50mm Cannon Pod",
             "sid": "ID_VEHICLES_WEAPON_NAME_35_RWS_50MM_AIR"
+        },
+        {
+            "categoryId": 197,
+            "localizedText": "FGM-148 Javelin Mastery",
+            "sid": "ID_BADGE_MASTERY_JAVELIN_NAME"
         },
         {
             "categoryId": 197,
@@ -1484,6 +1569,11 @@
             "categoryId": 197,
             "localizedText": "EndGameMode",
             "sid": "ID_ARRIVAL_BLOCK_ENDROUND"
+        },
+        {
+            "categoryId": 201,
+            "localizedText": "Class Gadgets",
+            "sid": "ID_ARRIVAL_CATEGORIZATIONTAG_NAME_CLASS_GADGETS"
         },
         {
             "categoryId": 197,
@@ -1727,6 +1817,11 @@
         },
         {
             "categoryId": 197,
+            "localizedText": "Defibrillator Mastery",
+            "sid": "ID_BADGE_MASTERY_DEFIB_NAME"
+        },
+        {
+            "categoryId": 197,
             "localizedText": "VehicleTypes",
             "sid": "ID_ARRIVAL_BLOCK_VEHICLETYPESITEM"
         },
@@ -1827,6 +1922,11 @@
         },
         {
             "categoryId": 197,
+            "localizedText": "Skull Crusher",
+            "sid": "ID_STORE_TAG_S3_2_TANKCREW_NAME"
+        },
+        {
+            "categoryId": 197,
             "localizedText": "Offroad Trojan",
             "sid": "ID_COS_VEH_CAR__HDT_STORM_01_VSKIN0035"
         },
@@ -1847,8 +1947,18 @@
         },
         {
             "categoryId": 197,
+            "localizedText": "BF2042 Dev",
+            "sid": "ID_COS_CSKIN_CAMO_DEV_01__CD_NOVEMBER_HEAD"
+        },
+        {
+            "categoryId": 197,
             "localizedText": "Smoke Launcher",
             "sid": "ID_VEHICLE_WEAPONS_VEHICLE_EQUIPMENT_3_SMOKE_LAUNCHER"
+        },
+        {
+            "categoryId": 197,
+            "localizedText": "Quickhatch",
+            "sid": "ID_COS_WEP_SIDEARM__P320_MP17_01_WSKIN0205"
         },
         {
             "categoryId": 197,
@@ -2027,6 +2137,11 @@
         },
         {
             "categoryId": 197,
+            "localizedText": "MTAR-21",
+            "sid": "ID_MICA_ABILITY_MTAR21"
+        },
+        {
+            "categoryId": 197,
             "localizedText": "Canine Crew",
             "sid": "ID_STORE_TAG_S2_13_NAME"
         },
@@ -2117,6 +2232,11 @@
         },
         {
             "categoryId": 197,
+            "localizedText": "A Life Saved",
+            "sid": "ID_PLAYERCARD_NAME_BACKGROUND232"
+        },
+        {
+            "categoryId": 197,
             "localizedText": "Raven 4x",
             "sid": "ID_WEAPONS_ATTACH_OPTIC_NAME_12"
         },
@@ -2142,11 +2262,6 @@
         },
         {
             "categoryId": 197,
-            "localizedText": "Kills while aiming with SMGs",
-            "sid": "ID_AWARD_HWUNLOCK_AM40_C2"
-        },
-        {
-            "categoryId": 197,
             "localizedText": "B2",
             "sid": "ID_GAMEMODE_BREAKTHROUGH_OBJ_B2"
         },
@@ -2159,6 +2274,11 @@
             "categoryId": 197,
             "localizedText": "Goldhorn",
             "sid": "ID_COS_WCHARM0092_BASE_01"
+        },
+        {
+            "categoryId": 201,
+            "localizedText": "Shapeshifter",
+            "sid": "ID_ARRIVAL_STORE_BUNDLE_TITLE_SLS11"
         },
         {
             "categoryId": 197,
@@ -2199,6 +2319,11 @@
             "categoryId": 201,
             "localizedText": "FNB - SPEARHEAD CONQUEST CHAOS",
             "sid": "ID_ARRIVAL_FNB_SPEARHEAD_CQ_CHAOS"
+        },
+        {
+            "categoryId": 197,
+            "localizedText": "Revives while playing as Support",
+            "sid": "ID_BADGE_VETERANCY_SUPPORT_T1_CRIT"
         },
         {
             "categoryId": 201,
@@ -2262,6 +2387,11 @@
         },
         {
             "categoryId": 197,
+            "localizedText": "Class Gadget",
+            "sid": "ID_CONCEPT_SELECTCLASSGADGET"
+        },
+        {
+            "categoryId": 197,
             "localizedText": "Wild Cat",
             "sid": "ID_COS_VEHDEC_111"
         },
@@ -2274,6 +2404,11 @@
             "categoryId": 197,
             "localizedText": "ArcsineInDegrees",
             "sid": "ID_ARRIVAL_BLOCK_ARCSINEINDEGREES"
+        },
+        {
+            "categoryId": 197,
+            "localizedText": "Helping Hand",
+            "sid": "U_DPF_WCHARM0088_BASE_01"
         },
         {
             "categoryId": 197,
@@ -2322,6 +2457,11 @@
         },
         {
             "categoryId": 197,
+            "localizedText": "Kills with the PBX-45 while Aiming",
+            "sid": "ID_HWPROG_SMG45_BES_THERMAL_CRIT"
+        },
+        {
+            "categoryId": 197,
             "localizedText": "Irish Mastery",
             "sid": "ID_BADGE_MASTERY_BRAVO_NAME"
         },
@@ -2354,6 +2494,11 @@
             "categoryId": 198,
             "localizedText": "M203 Smoke",
             "sid": "ID_MICA_ABILITY_UBR_M203SMK"
+        },
+        {
+            "categoryId": 197,
+            "localizedText": "EOD Bot Mastery",
+            "sid": "ID_BADGE_MASTERY_EOD_NAME"
         },
         {
             "categoryId": 197,
@@ -2402,6 +2547,11 @@
         },
         {
             "categoryId": 197,
+            "localizedText": "The Lightning",
+            "sid": "ID_COS_VEH_AIRPLANE__SU57_01_VSKIN0175"
+        },
+        {
+            "categoryId": 197,
             "localizedText": "No 4",
             "sid": "ID_MICA_ABILITY_NO4"
         },
@@ -2439,6 +2589,11 @@
             "categoryId": 197,
             "localizedText": "InventoryMeleeWeapons",
             "sid": "ID_ARRIVAL_BLOCK_MELEEWEAPONSITEM"
+        },
+        {
+            "categoryId": 197,
+            "localizedText": "Forsaken",
+            "sid": "ID_COS_LIMA_HEAD_07"
         },
         {
             "categoryId": 197,
@@ -2516,6 +2671,11 @@
             "sid": "ID_WEAPONS_ATTACH_BARREL_NAME_2"
         },
         {
+            "categoryId": 197,
+            "localizedText": "Explosive Damage Inflicted while on foot or Health Repaired as Engineer",
+            "sid": "ID_BADGE_VETERANCY_ENGINEER_T1_CRIT"
+        },
+        {
             "categoryId": 201,
             "localizedText": "Breakthrough",
             "sid": "ID_ARRIVAL_PLAYSTYLE_BREAKTHROUGH_DESC"
@@ -2584,6 +2744,16 @@
             "categoryId": 197,
             "localizedText": "Sap Green",
             "sid": "ID_COS_CAMO__UNIVERSAL_RUSSIANIMPORT_01_WEP"
+        },
+        {
+            "categoryId": 197,
+            "localizedText": "Kills with the Rorsch Mk-4 from a distance of 250m or more",
+            "sid": "ID_HWPROG_MK4_BES1_CRIT"
+        },
+        {
+            "categoryId": 201,
+            "localizedText": "FNB - CQC GRIND",
+            "sid": "ID_ARRIVAL_FNB_CQC_GRIND"
         },
         {
             "categoryId": 197,
@@ -2677,6 +2847,11 @@
         },
         {
             "categoryId": 197,
+            "localizedText": "Firestorm",
+            "sid": "ID_COS_VEH_AIRPLANE__CONDOR_01_VSKIN0195"
+        },
+        {
+            "categoryId": 197,
             "localizedText": "1UP",
             "sid": "ID_COS_WEPCHRM_WCHARM0027"
         },
@@ -2704,6 +2879,11 @@
             "categoryId": 201,
             "localizedText": "Law of the Jungle",
             "sid": "ID_ARRIVAL_STORE_BUNDLE_TITLE_E7"
+        },
+        {
+            "categoryId": 197,
+            "localizedText": "PP-2000 Mastery",
+            "sid": "ID_BADGE_MASTERY_PP2000_NAME"
         },
         {
             "categoryId": 197,
@@ -2759,6 +2939,11 @@
             "categoryId": 197,
             "localizedText": "M1A5 Mastery",
             "sid": "ID_BADGE_MASTERY_ABRAMS_NAME"
+        },
+        {
+            "categoryId": 197,
+            "localizedText": "Friend in Need",
+            "sid": "ID_PLAYERCARD_NAME_BACKGROUND229"
         },
         {
             "categoryId": 197,
@@ -3051,6 +3236,11 @@
             "sid": "ID_ARRIVAL_EXP_FFA_OFAGES"
         },
         {
+            "categoryId": 201,
+            "localizedText": "Rush on Spearhead, Manifest, and Breakaway. Make your mark on the world in new and revised Season 3 maps. Available for a limited time.",
+            "sid": "ID_ARRIVAL_PLAYSTYLE_RUSH_ESCALATION_DESC_3.2"
+        },
+        {
             "categoryId": 197,
             "localizedText": "Spine & Blade",
             "sid": "ID_STORE_TAG_S2_11_NAME"
@@ -3111,6 +3301,11 @@
             "sid": "ID_ARRIVAL_CATEGORIZATIONTAG_NAME_EQUIPMENT"
         },
         {
+            "categoryId": 197,
+            "localizedText": "Proximity Fuze",
+            "sid": "ID_COS_WEP_LEVERACTION__MARLIN_4570_01_WSKIN0207"
+        },
+        {
             "categoryId": 199,
             "localizedText": "BC2 RECON",
             "sid": "ID_MICA_TEST_KIT_RUMNEY_RECON"
@@ -3147,8 +3342,18 @@
         },
         {
             "categoryId": 197,
+            "localizedText": "Kills and Assists with the M39 EMR (Portal) or DM7",
+            "sid": "ID_AWARD_HWUNLOCK_M39_C1"
+        },
+        {
+            "categoryId": 197,
             "localizedText": "SG-36 Sentry Gun",
             "sid": "ID_GADGETS_AUTOTURRET"
+        },
+        {
+            "categoryId": 197,
+            "localizedText": "Kills with the LCMG while Aiming",
+            "sid": "ID_HWPROG_LAMG_BES_THERMAL_CRIT"
         },
         {
             "categoryId": 201,
@@ -3189,6 +3394,11 @@
             "categoryId": 197,
             "localizedText": "Sacrificer",
             "sid": "ID_COS_DELTA_HEAD_06"
+        },
+        {
+            "categoryId": 197,
+            "localizedText": "Kills with the VCAR while Aiming",
+            "sid": "ID_HWPROG_CMR30_BES_THERMAL_CRIT"
         },
         {
             "categoryId": 197,
@@ -3244,6 +3454,11 @@
             "categoryId": 197,
             "localizedText": "PF51",
             "sid": "ID_ABILITY_KELTEC-P50"
+        },
+        {
+            "categoryId": 197,
+            "localizedText": "Nordvik Issue",
+            "sid": "ID_COS_WEP_SIDEARM__GLOCK_17_01_WSKIN0217"
         },
         {
             "categoryId": 197,
@@ -3312,6 +3527,11 @@
         },
         {
             "categoryId": 197,
+            "localizedText": "Kills and Assists with the A-91 (Portal)",
+            "sid": "ID_AWARD_HWUNLOCK_MTAR21_C1"
+        },
+        {
+            "categoryId": 197,
             "localizedText": "Civilised",
             "sid": "ID_COS_VEHDEC_009"
         },
@@ -3369,6 +3589,11 @@
             "categoryId": 198,
             "localizedText": "Thermal Camo",
             "sid": "ID_MICA_ABILITY_VEHICLE_THERMAL_CAMO"
+        },
+        {
+            "categoryId": 201,
+            "localizedText": "Support Shortcut Kit",
+            "sid": "ID_ARRIVAL_SUP_SK"
         },
         {
             "categoryId": 197,
@@ -3482,6 +3707,11 @@
         },
         {
             "categoryId": 197,
+            "localizedText": "Clinical",
+            "sid": "ID_COS_WEP_RIFLE__DDM4_01_WSKIN0036"
+        },
+        {
+            "categoryId": 197,
             "localizedText": "Noble",
             "sid": "ID_COS_WEP_SNIPERRIFLE__DENEL_NTW20_01_WSKIN0197"
         },
@@ -3517,6 +3747,11 @@
         },
         {
             "categoryId": 197,
+            "localizedText": "Pincer",
+            "sid": "ID_STORE_TAG_S3_2_WASTELAND01_NAME"
+        },
+        {
+            "categoryId": 197,
             "localizedText": "TigerStripe",
             "sid": "ID_COS_CAMO__TROPICAL_TIGERSTRIPE_01_WEP"
         },
@@ -3544,6 +3779,11 @@
             "categoryId": 197,
             "localizedText": "Farstrike",
             "sid": "ID_COS_WEP_SNIPERRIFLE__TRG_M10_01_WSKIN0064"
+        },
+        {
+            "categoryId": 197,
+            "localizedText": "Headshot Kills with the Rorsch Mk-4",
+            "sid": "ID_HWPROG_MK4_BES_THERMAL_CRIT"
         },
         {
             "categoryId": 197,
@@ -3597,6 +3837,11 @@
         },
         {
             "categoryId": 197,
+            "localizedText": "Devil Temptress",
+            "sid": "ID_COS_VEH_ARMOREDCAR__PANHARD_CRAB_01_VSKIN0159"
+        },
+        {
+            "categoryId": 197,
             "localizedText": "Controls whether AI soldiers in a squad can revive other players in the squad, regardless of class or gadget.",
             "sid": "ID_ARRIVAL_MUTATOR_BOOL_AI_SQUAD_REVIVE_DESC"
         },
@@ -3614,6 +3859,11 @@
             "categoryId": 197,
             "localizedText": "Extraction Streak Reached as Zain in Hazard Zone",
             "sid": "ID_AWARD_EXPLORATION_EXPL_GM17_C1"
+        },
+        {
+            "categoryId": 197,
+            "localizedText": "Found the Evidence on Manifest",
+            "sid": "ID_PLAYERCARD_CRITERIA_BACKGROUND_DMC_S4_2"
         },
         {
             "categoryId": 197,
@@ -3669,6 +3919,11 @@
             "categoryId": 201,
             "localizedText": "Endangered II",
             "sid": "ID_ARRIVAL_STORE_BUNDLE_SB1B_ENDANGERED_II"
+        },
+        {
+            "categoryId": 201,
+            "localizedText": "When a competitor threatens their business, the Dark Market sends their Liquidators - a vicious hit squad that specializes in \"involuntary asset liquidation\". Your job is to dissolve enemy squads from the battlefield and capture areas critical to the Dark Market's bottom line.\n\nCapture and hold multiple objectives on new, smaller, infantry-only Conquest map layouts.",
+            "sid": "ID_ARRIVAL_PLAYSTYLE_LQ_DESC_EXTRALONG"
         },
         {
             "categoryId": 197,
@@ -3749,6 +4004,11 @@
             "categoryId": 197,
             "localizedText": "Wrapped Suppressor",
             "sid": "ID_WEAPONS_ATTACH_BARREL_NAME_8"
+        },
+        {
+            "categoryId": 197,
+            "localizedText": "Kills on foot while playing as Assault",
+            "sid": "ID_BADGE_VETERANCY_ASSAULT_T1_CRIT"
         },
         {
             "categoryId": 197,
@@ -3937,6 +4197,11 @@
         },
         {
             "categoryId": 197,
+            "localizedText": "Mastery Earned with the M18 Claymore",
+            "sid": "ID_BADGE_MASTERY_CLAYMORE_T1_CRIT"
+        },
+        {
+            "categoryId": 197,
             "localizedText": "Mamba",
             "sid": "ID_COS_CSKIN_CAMO_URBAN_KRYPTEKT_01_CD_INDIA_BODY"
         },
@@ -3964,6 +4229,11 @@
             "categoryId": 199,
             "localizedText": "Sundance",
             "sid": "ID_TEST_CHARLIE"
+        },
+        {
+            "categoryId": 197,
+            "localizedText": "Armored Response",
+            "sid": "ID_COS_VEH_AMPHIBIOUS__FNSS_ZAHA_01_VSKIN0161"
         },
         {
             "categoryId": 197,
@@ -4181,6 +4451,11 @@
             "sid": "ID_MICA_ABILITY_SCP_AA"
         },
         {
+            "categoryId": 197,
+            "localizedText": "Mastery Earned with the Defibrillator",
+            "sid": "ID_BADGE_MASTERY_DEFIB_T1_CRIT"
+        },
+        {
             "categoryId": 201,
             "localizedText": "Heritage",
             "sid": "ID_ARRIVAL_STORE_BUNDLE_SLH7_TITLE"
@@ -4244,6 +4519,11 @@
             "categoryId": 197,
             "localizedText": "Catastrophic",
             "sid": "ID_COS_CSKIN_CAMO_LIGHTSOUT_01__CD_LIMA_BODY"
+        },
+        {
+            "categoryId": 197,
+            "localizedText": "Kills with the K30 while Aiming",
+            "sid": "ID_HWPROG_VECTOR_BES_THERMAL_CRIT"
         },
         {
             "categoryId": 197,
@@ -4527,6 +4807,11 @@
         },
         {
             "categoryId": 197,
+            "localizedText": "Defiant",
+            "sid": "ID_PLAYERCARD_NAME_BACKGROUND230"
+        },
+        {
+            "categoryId": 197,
             "localizedText": "Hipfire Kills with the Avancys",
             "sid": "ID_HWPROG_AVANCYS_BES1_CRIT"
         },
@@ -4589,6 +4874,11 @@
             "categoryId": 197,
             "localizedText": "Weapon",
             "sid": "ID_ARRIVAL_MODBUILDER_SELECTIONLISTS_PLAYERDEATHTYPES_WEAPON"
+        },
+        {
+            "categoryId": 201,
+            "localizedText": "ALL ERAS | CONQUEST & RUSH | 32 v 32",
+            "sid": "ID_ARRIVAL_EXP_BF_WORLD_TOUR_MODE"
         },
         {
             "categoryId": 197,
@@ -4932,6 +5222,11 @@
         },
         {
             "categoryId": 197,
+            "localizedText": "Mastery Earned with the M39 EMR",
+            "sid": "ID_BADGE_MASTERY_M39_T1_CRIT"
+        },
+        {
+            "categoryId": 197,
             "localizedText": "Specialist Graves",
             "sid": "ID_COS_BRAVO_HEAD_01"
         },
@@ -4959,6 +5254,11 @@
             "categoryId": 197,
             "localizedText": "Blood Hawk",
             "sid": "ID_COS_WEP_SNIPERRIFLE__SVCH_CHUKAVIN_01_WSKIN0046"
+        },
+        {
+            "categoryId": 197,
+            "localizedText": "MTAR-21 Mastery",
+            "sid": "ID_BADGE_MASTERY_MTAR21_NAME"
         },
         {
             "categoryId": 197,
@@ -5004,6 +5304,11 @@
             "categoryId": 197,
             "localizedText": "Blood Moon",
             "sid": "ID_COS_CAMO__UNIVERSAL_LUNARNEWYEAR_01_WEP"
+        },
+        {
+            "categoryId": 201,
+            "localizedText": "The infamous Black Guard unit are specialists in infiltration and assassination. Join their ranks and lay waste to your enemies.",
+            "sid": "ID_ARRIVAL_STORE_BUNDLE_DESCRIPTION_S3_EB1"
         },
         {
             "categoryId": 201,
@@ -5101,6 +5406,11 @@
             "sid": "ID_COS_WEP_MG__LAMG_01_WSKIN0264"
         },
         {
+            "categoryId": 201,
+            "localizedText": "When the enemy has many faces, deception will serve your squad well.",
+            "sid": "ID_ARRIVAL_STORE_BUNDLE_DESCRIPTION_SLS11"
+        },
+        {
             "categoryId": 197,
             "localizedText": "AngleDifference",
             "sid": "ID_ARRIVAL_BLOCK_ANGLEDIFFERENCE"
@@ -5189,6 +5499,11 @@
             "categoryId": 201,
             "localizedText": "Exposure",
             "sid": "ID_ARRIVAL_MAP_RIDGE_EXPOSURE"
+        },
+        {
+            "categoryId": 197,
+            "localizedText": "Shellshocked",
+            "sid": "ID_COS_DELTA_BODY_14"
         },
         {
             "categoryId": 198,
@@ -5296,6 +5611,11 @@
             "sid": "ID_HWPROG_AK12_BASE_CRIT"
         },
         {
+            "categoryId": 197,
+            "localizedText": "Kills with the PP-29 while Aiming",
+            "sid": "ID_HWPROG_PP19_BES_THERMAL_CRIT"
+        },
+        {
             "categoryId": 198,
             "localizedText": "Anti-Air Missiles",
             "sid": "ID_MICA_ABILITY_VEHICLE_AA_MISSILES"
@@ -5304,6 +5624,16 @@
             "categoryId": 197,
             "localizedText": "Is Prone",
             "sid": "ID_ARRIVAL_MODBUILDER_SELECTIONLISTS_SOLDIERSTATEBOOL_ISPRONE"
+        },
+        {
+            "categoryId": 201,
+            "localizedText": "Lead the opposition into uncharted territory and deal a savage assault.",
+            "sid": "ID_ARRIVAL_STORE_BUNDLE_DESCRIPTION_SLH12"
+        },
+        {
+            "categoryId": 197,
+            "localizedText": "Kills with the NVK-S22 from a distance of 15m or less",
+            "sid": "ID_HWPROG_NVKS22_BES1_CRIT"
         },
         {
             "categoryId": 201,
@@ -5456,6 +5786,11 @@
             "sid": "ID_ARRIVAL_MUTATOR_FLOAT_BODYSHOT_MULTIPLY_DESC"
         },
         {
+            "categoryId": 197,
+            "localizedText": "Kumiho",
+            "sid": "ID_COS_ECHO_SET_02"
+        },
+        {
             "categoryId": 198,
             "localizedText": "MP412 REX",
             "sid": "ID_MICA_ABILITY_MP412REX"
@@ -5511,6 +5846,11 @@
             "sid": "ID_ARRIVAL_CATEGORIZATIONTAG_NAME_UNDERBARRELTACTICAL"
         },
         {
+            "categoryId": 201,
+            "localizedText": "Battlefield\u2122 2042 Welcome Pack",
+            "sid": "ID_ARRIVAL_WELCOME_PACK"
+        },
+        {
             "categoryId": 197,
             "localizedText": "Select Secondary Weapon",
             "sid": "ID_ARRIVAL_MODBUILDER_SELECTIONLISTS_RESTRICTEDINPUTS_SELECTSECONDARY"
@@ -5544,6 +5884,11 @@
             "categoryId": 201,
             "localizedText": "Twilight Strike",
             "sid": "ID_ARRIVAL_STORE_BUNDLE_TITLE_SB5"
+        },
+        {
+            "categoryId": 197,
+            "localizedText": "Kills with the M1A5 or T28",
+            "sid": "ID_HWPROG_ABRAMS_T14_BES1_CRIT"
         },
         {
             "categoryId": 198,
@@ -5622,6 +5967,11 @@
         },
         {
             "categoryId": 201,
+            "localizedText": "FNB - KING OF THE HILL",
+            "sid": "ID_ARRIVAL_FNB_KOTH"
+        },
+        {
+            "categoryId": 201,
             "localizedText": "Conquest on Spearhead on repeat. Deploy on the new map and battle for control over the Nordvik facility. Available for a limited time.",
             "sid": "ID_ARRIVAL_PLAYSTYLE_CONQUEST_LIGHTSOUT_DESC"
         },
@@ -5687,6 +6037,11 @@
         },
         {
             "categoryId": 197,
+            "localizedText": "Kills with the Avancys while Aiming",
+            "sid": "ID_HWPROG_AVANCYS_BES_THERMAL_CRIT"
+        },
+        {
+            "categoryId": 197,
             "localizedText": "Active Protection System",
             "sid": "ID_VEHICLE_EQUIPMENT_NAME_ACTIVE_PROTECTION"
         },
@@ -5699,6 +6054,11 @@
             "categoryId": 197,
             "localizedText": "High Velocity",
             "sid": "ID_COS_CHARLIE_02"
+        },
+        {
+            "categoryId": 201,
+            "localizedText": "Breakthrough on Spearhead, Manifest, and Breakaway. Make your mark on the world in new and revised Season 3 maps. Available for a limited time.",
+            "sid": "ID_ARRIVAL_PLAYSTYLE_BREAKTHROUGH_ESCALATION_DESC_3.2"
         },
         {
             "categoryId": 201,
@@ -5774,6 +6134,11 @@
             "categoryId": 197,
             "localizedText": "Promontory",
             "sid": "ID_COS_VEH_TANK__M1_ABRAMS_01_VSKIN0148"
+        },
+        {
+            "categoryId": 197,
+            "localizedText": "Storm Ward",
+            "sid": "ID_COS_LIMA_SET_03"
         },
         {
             "categoryId": 198,
@@ -5882,6 +6247,11 @@
         },
         {
             "categoryId": 197,
+            "localizedText": "Kills with the SVK from a distance of 250m or more",
+            "sid": "ID_HWPROG_CHUKAVIN_BES4_CRIT"
+        },
+        {
+            "categoryId": 197,
             "localizedText": "Mr Friendly",
             "sid": "ID_COS_VEH_ARMOREDCAR__JAGUAR_EBRC_01_VSKIN0078"
         },
@@ -5921,11 +6291,6 @@
             "sid": "ID_ARRIVAL_MODBUILDER_SELECTIONLISTS_SOLDIERSTATENUMBER_CURRENTHEALTH"
         },
         {
-            "categoryId": 197,
-            "localizedText": "The Gift Wrapper",
-            "sid": "ID_ABILITY_LAMG_HOLIDAY"
-        },
-        {
             "categoryId": 198,
             "localizedText": "Belt Speed",
             "sid": "ID_MICA_ABILITY_VEHICLE_BELT_SPEED"
@@ -5959,11 +6324,6 @@
             "categoryId": 197,
             "localizedText": "Player",
             "sid": "ID_ARRIVAL_MODBUILDER_OBJECT_PLAYER"
-        },
-        {
-            "categoryId": 197,
-            "localizedText": "Kills and Assists with the LCMG",
-            "sid": "ID_AWARD_HWUNLOCK_AVANCYS_C1"
         },
         {
             "categoryId": 197,
@@ -6041,6 +6401,11 @@
             "sid": "ID_WEAPONS_ATTACH_BARREL_NAME_10"
         },
         {
+            "categoryId": 197,
+            "localizedText": "Headshot kills with the DXR-1",
+            "sid": "ID_HWPROG_DSR1_BES_THERMAL_CRIT"
+        },
+        {
             "categoryId": 201,
             "localizedText": "The veins of the earth still have more to give. Use all of the power that\u2019s left to see another sunrise.",
             "sid": "ID_ARRIVAL_STORE_BUNDLE_DESCRIPTION_SLH9"
@@ -6072,6 +6437,11 @@
         },
         {
             "categoryId": 197,
+            "localizedText": "BF2042 Dev",
+            "sid": "ID_COS_CSKIN_CAMO_DEV_01__CD_HOTEL_BODY"
+        },
+        {
+            "categoryId": 197,
             "localizedText": "GetVehicleState",
             "sid": "ID_ARRIVAL_BLOCK_GETVEHICLESTATE"
         },
@@ -6089,6 +6459,11 @@
             "categoryId": 197,
             "localizedText": "Melee Kills in one round",
             "sid": "ID_AWARD_RECOGNITION_GEN11_C1"
+        },
+        {
+            "categoryId": 201,
+            "localizedText": "Claim the skies in this Jets only TDM variant of Air Superiority.",
+            "sid": "ID_ARRIVAL_EXP_AERIAL_ASSAULT_DESC"
         },
         {
             "categoryId": 197,
@@ -6129,6 +6504,11 @@
             "categoryId": 197,
             "localizedText": "Unlocked by Mastery",
             "sid": "ID_HWPROG_MASTERYRANK_CRIT"
+        },
+        {
+            "categoryId": 201,
+            "localizedText": "Ultimate shortcut kit",
+            "sid": "ID_ARRIVAL_ULT_SK"
         },
         {
             "categoryId": 197,
@@ -6236,6 +6616,11 @@
             "sid": "ID_GAMEMODE_BREAKTHROUGH_OBJ_B1"
         },
         {
+            "categoryId": 201,
+            "localizedText": "Escalation Rush XL",
+            "sid": "ID_ARRIVAL_PLAYSTYLE_RUSH_ESCALATION_XL"
+        },
+        {
             "categoryId": 197,
             "localizedText": "Navalized",
             "sid": "ID_COS_CSKIN_CAMO_NAVY_DIGICAMO_01_CD_ALPHA_BODY"
@@ -6284,6 +6669,11 @@
             "categoryId": 198,
             "localizedText": "P38",
             "sid": "ID_MICA_ABILITY_P38"
+        },
+        {
+            "categoryId": 197,
+            "localizedText": "Airstream",
+            "sid": "ID_COS_WEP_SNIPERRIFLE__VSS_VINTOREZ_01_WSKIN0256"
         },
         {
             "categoryId": 197,
@@ -6521,6 +6911,11 @@
             "sid": "ID_AWARD_HWUNLOCK_STEALTHHELI_C1"
         },
         {
+            "categoryId": 201,
+            "localizedText": "Use the EBLC-Ram to claim dominance over the ground and skies in this Ram-centric vehicle superiority mode.",
+            "sid": "ID_ARRIVAL_EXP_RAMPAGE_DESC"
+        },
+        {
             "categoryId": 197,
             "localizedText": "SVK",
             "sid": "ID_ABILITY_CHUKAVIN"
@@ -6619,6 +7014,11 @@
             "categoryId": 199,
             "localizedText": "Casper",
             "sid": "ID_TEST_KILO"
+        },
+        {
+            "categoryId": 201,
+            "localizedText": "Chaos reigns over Conquest, Breakthrough, and Rush in a single amped-up experience!",
+            "sid": "ID_ARRIVAL_FNB_ULTIMATE_CHAOS_DESC"
         },
         {
             "categoryId": 197,
@@ -7012,6 +7412,11 @@
         },
         {
             "categoryId": 197,
+            "localizedText": "Mastery Earned with the PP-2000",
+            "sid": "ID_BADGE_MASTERY_PP2000_T1_CRIT"
+        },
+        {
+            "categoryId": 197,
             "localizedText": "HARDCORE",
             "sid": "ID_ARRIVAL_SERVERTAG_HARDCORE"
         },
@@ -7039,6 +7444,11 @@
             "categoryId": 201,
             "localizedText": "Experience Rush on every map from 1942, Bad Company 2 and Battlefield 3.",
             "sid": "ID_ARRIVAL_PRESET_RUSHOFAGES_DESC"
+        },
+        {
+            "categoryId": 197,
+            "localizedText": "Headshot kills with the NTW-50",
+            "sid": "ID_HWPROG_NTW20_BES_THERMAL_CRIT"
         },
         {
             "categoryId": 197,
@@ -7102,6 +7512,11 @@
         },
         {
             "categoryId": 197,
+            "localizedText": "2038 Thermal 6x",
+            "sid": "ID_WEAPONS_ATTACH_OPTIC_NAME_23"
+        },
+        {
+            "categoryId": 197,
             "localizedText": "TangentFromRadians",
             "sid": "ID_ARRIVAL_BLOCK_TANGENTFROMRADIANS"
         },
@@ -7109,6 +7524,11 @@
             "categoryId": 197,
             "localizedText": "GAME TIME MODIFIERS",
             "sid": "ID_ARRIVAL_SERVERTAG_CUSTOM_TIME"
+        },
+        {
+            "categoryId": 201,
+            "localizedText": "CONQUEST SUPERIORITY",
+            "sid": "ID_ARRIVAL_EXP_CONQUEST_SUPERIORITY"
         },
         {
             "categoryId": 201,
@@ -7136,14 +7556,14 @@
             "sid": "ID_STORE_TAG_S2_18_NAME"
         },
         {
-            "categoryId": 197,
-            "localizedText": "Teammates Revived while Concealed by Smoke",
-            "sid": "ID_AWARD_HWUNLOCK_SMOKEGL_C1"
-        },
-        {
             "categoryId": 201,
             "localizedText": "Return to where it all began -  a classic 1942 Conquest experience on El Alamein & Battle of the Bulge.",
             "sid": "ID_ARRIVAL_PRESET_1942_CLASSIC_DESC"
+        },
+        {
+            "categoryId": 197,
+            "localizedText": "Kills with the MCS-880 while Aiming",
+            "sid": "ID_HWPROG_REM870_BES_THERMAL_CRIT"
         },
         {
             "categoryId": 201,
@@ -7164,6 +7584,11 @@
             "categoryId": 197,
             "localizedText": "RANGER",
             "sid": "ID_CALLIN_ROBODOG_NAME"
+        },
+        {
+            "categoryId": 197,
+            "localizedText": "Kills with the SVK while Aiming",
+            "sid": "ID_HWPROG_CHUKAVIN_BES_THERMAL_CRIT"
         },
         {
             "categoryId": 197,
@@ -7264,6 +7689,11 @@
             "categoryId": 197,
             "localizedText": "Mastery Earned with the M5A3",
             "sid": "ID_BADGE_MASTERY_SLXSPEAR_T1_CRIT"
+        },
+        {
+            "categoryId": 197,
+            "localizedText": "Adaptive",
+            "sid": "ID_COS_WEP_SIDEARM__KELTEC_P50_01_WSKIN0254"
         },
         {
             "categoryId": 197,
@@ -7384,6 +7814,11 @@
             "categoryId": 197,
             "localizedText": "Visited the Lumberyard on Battle of the Bulge",
             "sid": "ID_AWARD_EXPLORATION_MICA_LVL01_C1"
+        },
+        {
+            "categoryId": 197,
+            "localizedText": "Kills with the MP9 while Aiming",
+            "sid": "ID_HWPROG_MP9_BES_THERMAL_CRIT"
         },
         {
             "categoryId": 197,
@@ -7627,6 +8062,11 @@
         },
         {
             "categoryId": 197,
+            "localizedText": "A Fuse is Lit",
+            "sid": "ID_PLAYERCARD_NAME_BACKGROUND_DMC_S4_4"
+        },
+        {
+            "categoryId": 197,
             "localizedText": "SetWorldIconOwner",
             "sid": "ID_ARRIVAL_BLOCK_SETWORLDICONOWNER"
         },
@@ -7767,6 +8207,11 @@
         },
         {
             "categoryId": 201,
+            "localizedText": "Become King of the Hill by battling over a single objective!",
+            "sid": "ID_ARRIVAL_FNB_KOTH_DESC"
+        },
+        {
+            "categoryId": 201,
             "localizedText": "The All-Out-War Experience at the core of Battlefield, with a rotation that features each season\u2019s new map.",
             "sid": "ID_ARRIVAL_PLAYSTYLE_CONQUEST_SEASONS_DESC"
         },
@@ -7799,6 +8244,11 @@
             "categoryId": 197,
             "localizedText": "EnableAllPlayerDeploy",
             "sid": "ID_ARRIVAL_BLOCK_ENABLEPLAYERSPAWNING"
+        },
+        {
+            "categoryId": 201,
+            "localizedText": "2042 | MULTIPLE MODES | 32 v 32",
+            "sid": "ID_ARRIVAL_FNB_ULTIMATE_CHAOS_MODE"
         },
         {
             "categoryId": 197,
@@ -7864,6 +8314,11 @@
             "categoryId": 197,
             "localizedText": "Hot Spot",
             "sid": "ID_COS_VEH_ARMOREDCAR__PANHARD_CRAB_01_VSKIN0129"
+        },
+        {
+            "categoryId": 197,
+            "localizedText": "Kills with the BSV-M while Aiming",
+            "sid": "ID_HWPROG_VSS_BES_THERMAL_CRIT"
         },
         {
             "categoryId": 201,
@@ -8094,6 +8549,11 @@
             "categoryId": 197,
             "localizedText": "Scalpel",
             "sid": "ID_COS_WEP_SNIPERRIFLE__DENEL_NTW20_01_WSKIN0152"
+        },
+        {
+            "categoryId": 197,
+            "localizedText": "Mastery Earned with the Tracer Dart Gun",
+            "sid": "ID_BADGE_MASTERY_TRACER_T1_CRIT"
         },
         {
             "categoryId": 201,
@@ -8476,6 +8936,11 @@
             "sid": "ID_MICA_ABILITY_A-91"
         },
         {
+            "categoryId": 201,
+            "localizedText": "Enter a new realm of Rush Chaos with a significantly larger player count and more changes. It's bananas!",
+            "sid": "ID_ARRIVAL_EXP_CSL_SQUIDG_CHAOS_DESC"
+        },
+        {
             "categoryId": 197,
             "localizedText": "Requesting a Pickup",
             "sid": "ID_COS_VEHDEC_080"
@@ -8524,6 +8989,11 @@
             "categoryId": 197,
             "localizedText": "Short Circuit",
             "sid": "ID_COS_HOTEL_BODY_04"
+        },
+        {
+            "categoryId": 197,
+            "localizedText": "Tracer Dart Gun Mastery",
+            "sid": "ID_BADGE_MASTERY_TRACER_NAME"
         },
         {
             "categoryId": 198,
@@ -8599,6 +9069,11 @@
             "categoryId": 197,
             "localizedText": "InventorySecondaryWeapons",
             "sid": "ID_ARRIVAL_BLOCK_SECONDARYWEAPONSITEM"
+        },
+        {
+            "categoryId": 201,
+            "localizedText": "Fight for control over a single objective. The goal is to push the objective towards the enemy's HQ. Inspired by RECON RIPTOR.",
+            "sid": "ID_ARRIVAL_EXP_CSL_TIPPINGPOINT_DESC"
         },
         {
             "categoryId": 197,
@@ -8807,6 +9282,11 @@
         },
         {
             "categoryId": 197,
+            "localizedText": "Surveyor",
+            "sid": "ID_COS_VEH_AMPHIBIOUS__CHRISTY_HOVERCRAFT_01_VSKIN0184"
+        },
+        {
+            "categoryId": 197,
             "localizedText": "Celestial",
             "sid": "ID_PLAYERCARD_NAME_BACKGROUND228"
         },
@@ -8831,6 +9311,11 @@
             "sid": "ID_GADGETS_DEPLOYABLECOVER"
         },
         {
+            "categoryId": 197,
+            "localizedText": "Savagery",
+            "sid": "ID_COS_VEHDEC_113"
+        },
+        {
             "categoryId": 198,
             "localizedText": "Radio Beacon",
             "sid": "ID_MICA_ABILITY_RADIO_BEACON"
@@ -8844,6 +9329,11 @@
             "categoryId": 201,
             "localizedText": "VEHICLE TEAM DEATHMATCH",
             "sid": "ID_ARRIVAL_PRESET_VTDM"
+        },
+        {
+            "categoryId": 197,
+            "localizedText": "Support Proficiency",
+            "sid": "ID_ABILITY_SUPPORT_PROFICIENCY_PORTAL"
         },
         {
             "categoryId": 197,
@@ -8927,11 +9417,6 @@
         },
         {
             "categoryId": 197,
-            "localizedText": "Disaster Response",
-            "sid": "ID_COS_CSKIN_CAMO_SEARCHRESCUE_01_CD_FOXTROT_BODY"
-        },
-        {
-            "categoryId": 197,
             "localizedText": "EnableWorldIconText",
             "sid": "ID_ARRIVAL_BLOCK_ENABLEWORLDICONTEXT"
         },
@@ -8944,6 +9429,11 @@
             "categoryId": 197,
             "localizedText": "Slipstream",
             "sid": "ID_COS_VEH_AIRPLANE__CONDOR_01_VSKIN0194"
+        },
+        {
+            "categoryId": 197,
+            "localizedText": "Disaster Response",
+            "sid": "ID_COS_CSKIN_CAMO_SEARCHRESCUE_01_CD_FOXTROT_BODY"
         },
         {
             "categoryId": 197,
@@ -9016,6 +9506,11 @@
             "sid": "ID_COS_VEH_DRONE__ROBOTDOG_01_VSKIN0027"
         },
         {
+            "categoryId": 201,
+            "localizedText": "Gain control of multiple objectives to claim Superiority using a variety of ground vehicles.",
+            "sid": "ID_ARRIVAL_EXP_CONQUEST_SUPERIORITY_DESC"
+        },
+        {
             "categoryId": 197,
             "localizedText": "Tusk",
             "sid": "ID_COS_VEH_TANK__M1A2_01_VSKIN0187"
@@ -9039,6 +9534,11 @@
             "categoryId": 197,
             "localizedText": "Kills with the AM40 at a distance of 40m or less",
             "sid": "ID_AWARD_EXPLORATION_WP_ASS02_C1"
+        },
+        {
+            "categoryId": 197,
+            "localizedText": "Class Gadget",
+            "sid": "ID_ARRIVAL_MODBUILDER_SELECTIONLISTS_INVENTORYSLOTS_CLASSGADGET"
         },
         {
             "categoryId": 197,
@@ -9396,6 +9896,11 @@
             "sid": "ID_ABILITY_ATMINE"
         },
         {
+            "categoryId": 201,
+            "localizedText": "UNRESTRICTED 2042 THROWABLE SELECTION",
+            "sid": "ID_ARRIVAL_MUTATOR_BOOL_UNRESTRICTED_2042_THROWABLE_SELECTION"
+        },
+        {
             "categoryId": 197,
             "localizedText": "Master of Arms",
             "sid": "ID_RECOGNITION_CMB_01"
@@ -9409,6 +9914,11 @@
             "categoryId": 197,
             "localizedText": "Factory",
             "sid": "ID_COS_WEP_SNIPERRIFLE__DENEL_NTW20_01_WSKINDEFAULT0001"
+        },
+        {
+            "categoryId": 201,
+            "localizedText": "Wild Frontier",
+            "sid": "ID_ARRIVAL_STORE_BUNDLE_TITLE_SLH12"
         },
         {
             "categoryId": 197,
@@ -9747,6 +10257,11 @@
         },
         {
             "categoryId": 197,
+            "localizedText": "Kills with the GVT 45-70  while Aiming",
+            "sid": "ID_HWPROG_MADPIG_BES_THERMAL_CRIT"
+        },
+        {
+            "categoryId": 197,
             "localizedText": "\"Just stay out of my scope.\" - Paik",
             "sid": "ID_PLAYERCARD_DESC_BACKGROUND072"
         },
@@ -10022,6 +10537,11 @@
         },
         {
             "categoryId": 197,
+            "localizedText": "Mastery Earned with the T-UGS",
+            "sid": "ID_BADGE_MASTERY_TUGS_T1_CRIT"
+        },
+        {
+            "categoryId": 197,
             "localizedText": "Grasshopper",
             "sid": "ID_COS_WEP_SMG__KRISSVECTOR_01_WSKIN0050_V2"
         },
@@ -10109,6 +10629,11 @@
             "categoryId": 201,
             "localizedText": "Underbarrel Slot",
             "sid": "ID_ARRIVAL_CATEGORIZATIONTAG_NAME_UNDERBARRELSLOT"
+        },
+        {
+            "categoryId": 197,
+            "localizedText": "Teammates Spawned with the Insertion Beacon or Enemies Spotted as Recon",
+            "sid": "ID_BADGE_VETERANCY_RECON_T1_CRIT"
         },
         {
             "categoryId": 197,
@@ -10222,6 +10747,11 @@
         },
         {
             "categoryId": 197,
+            "localizedText": "Mastery Earned with the EOD Bot",
+            "sid": "ID_BADGE_MASTERY_EOD_T1_CRIT"
+        },
+        {
+            "categoryId": 197,
             "localizedText": "Diamondback",
             "sid": "ID_COS_CHARLIE_HEAD_07"
         },
@@ -10249,6 +10779,11 @@
             "categoryId": 197,
             "localizedText": "LessThanEqualTo",
             "sid": "ID_ARRIVAL_BLOCK_LESSTHANEQUALTO"
+        },
+        {
+            "categoryId": 197,
+            "localizedText": "Snared",
+            "sid": "U_DPF_WCHARM0085_BASE_01"
         },
         {
             "categoryId": 201,
@@ -10312,6 +10847,11 @@
         },
         {
             "categoryId": 197,
+            "localizedText": "Dusted",
+            "sid": "ID_COS_WEP_SIDEARM__GLOCK_17_01_WSKIN0255"
+        },
+        {
+            "categoryId": 197,
             "localizedText": "ADR Bipod",
             "sid": "ID_WEAPONS_ATTACH_UNDERBARREL_NAME_9"
         },
@@ -10334,6 +10874,11 @@
             "categoryId": 197,
             "localizedText": "M1911 Mastery",
             "sid": "ID_BADGE_MASTERY_M1911_NAME"
+        },
+        {
+            "categoryId": 201,
+            "localizedText": "As the battle to defend Nordvik intensifies, more severe methods are required. Nordvik Control Corps tasks Crackdown Squad with their rigorous implementation.",
+            "sid": "ID_ARRIVAL_STORE_BUNDLE_DESCRIPTION_SLS14"
         },
         {
             "categoryId": 201,
@@ -10551,6 +11096,11 @@
             "sid": "ID_BADGE_MASTERY_RZRBUGGY_T1_CRIT"
         },
         {
+            "categoryId": 197,
+            "localizedText": "Established Communication with Oz on Breakaway",
+            "sid": "ID_PLAYERCARD_CRITERIA_BACKGROUND_DMC_S4_4"
+        },
+        {
             "categoryId": 201,
             "localizedText": "Axis Faction",
             "sid": "ID_ARRIVAL_CATEGORIZATIONTAG_NAME_FACTIONAXIS"
@@ -10717,6 +11267,16 @@
         },
         {
             "categoryId": 197,
+            "localizedText": "Damage Repaired to Vehicles",
+            "sid": "ID_AWARD_HWUNLOCK_MIKE_C3"
+        },
+        {
+            "categoryId": 197,
+            "localizedText": "Longshot 40x",
+            "sid": "ID_WEAPONS_ATTACH_OPTIC_NAME_32"
+        },
+        {
+            "categoryId": 197,
             "localizedText": "Mastery Earned with the DM7",
             "sid": "ID_BADGE_MASTERY_DDM4_T1_CRIT"
         },
@@ -10739,6 +11299,11 @@
             "categoryId": 197,
             "localizedText": "STNR Laser Sight",
             "sid": "ID_WEAPONS_ATTACH_UNDERBARREL_NAME_21"
+        },
+        {
+            "categoryId": 197,
+            "localizedText": "Silver Spear",
+            "sid": "ID_COS_INDIA_HEAD_09"
         },
         {
             "categoryId": 197,
@@ -10769,6 +11334,11 @@
             "categoryId": 197,
             "localizedText": "Casper Mastery",
             "sid": "ID_BADGE_MASTERY_KILO_NAME"
+        },
+        {
+            "categoryId": 197,
+            "localizedText": "Assault Proficiency",
+            "sid": "ID_ABILITY_ASSAULT_PROFICIENCY_PORTAL"
         },
         {
             "categoryId": 197,
@@ -10956,6 +11526,11 @@
             "sid": "ID_ARRIVAL_MUTATOR_BOOL_AI_PASSENGERSEATALLOWED"
         },
         {
+            "categoryId": 201,
+            "localizedText": "Every bullet counts. Friendly fire is enabled and damage is increased, all with a limited HUD.",
+            "sid": "ID_ARRIVAL_FNB_2042_TDM_HARDCORE_DESC"
+        },
+        {
             "categoryId": 197,
             "localizedText": "Kills and Vehicles Destroyed with the SFAR-M GL",
             "sid": "ID_HWPROG_SCARH_BASE_CRIT"
@@ -10964,6 +11539,11 @@
             "categoryId": 197,
             "localizedText": "Hell Fire",
             "sid": "ID_COS_REMINGTON_870_WSKIN0429"
+        },
+        {
+            "categoryId": 197,
+            "localizedText": "Breachpoint",
+            "sid": "ID_COS_JULIET_SINGLEHEAD_05"
         },
         {
             "categoryId": 197,
@@ -11016,6 +11596,11 @@
             "sid": "ID_ARRIVAL_MODBUILDER_SELECTIONLISTS_SOLDIERSTATEBOOL_ISMANDOWN"
         },
         {
+            "categoryId": 201,
+            "localizedText": "Twilight Strike",
+            "sid": "ID_ARRIVAL_STORE_BUNDLE_TITLE_S3_EB1"
+        },
+        {
             "categoryId": 197,
             "localizedText": "Conspiracy",
             "sid": "ID_COS_VEHDEC_104"
@@ -11064,6 +11649,16 @@
             "categoryId": 197,
             "localizedText": "Frostbite",
             "sid": "ID_COS_WEP_RIFLE__DDM4_01_WSKIN0042"
+        },
+        {
+            "categoryId": 201,
+            "localizedText": "Tactical Conquest 8v8",
+            "sid": "ID_ARRIVAL_PLAYSTYLE_TACTICALCONQUEST_8"
+        },
+        {
+            "categoryId": 197,
+            "localizedText": "TR-1 Thermal 1.25x",
+            "sid": "ID_WEAPONS_ATTACH_OPTIC_NAME_17"
         },
         {
             "categoryId": 197,
@@ -11272,11 +11867,6 @@
         },
         {
             "categoryId": 197,
-            "localizedText": "Health Repaired on teammates Vehicles",
-            "sid": "ID_AWARD_HWUNLOCK_MIKE_C1"
-        },
-        {
-            "categoryId": 197,
             "localizedText": "The Believer",
             "sid": "ID_PLAYERCARD_NAME_BACKGROUND233"
         },
@@ -11459,6 +12049,11 @@
             "categoryId": 197,
             "localizedText": "Kills with the Ghostmaker R10",
             "sid": "ID_HWPROG_COBRAR9_BASE_CRIT"
+        },
+        {
+            "categoryId": 201,
+            "localizedText": "Assault Shortcut Kit",
+            "sid": "ID_ARRIVAL_ASS_SK"
         },
         {
             "categoryId": 197,
@@ -11876,6 +12471,11 @@
             "sid": "ID_ARRIVAL_BLOCK_CLEARCUSTOMNOTIFICATIONMESSAGE"
         },
         {
+            "categoryId": 201,
+            "localizedText": "Recon Shortcut Kit",
+            "sid": "ID_ARRIVAL_REC_SK"
+        },
+        {
             "categoryId": 197,
             "localizedText": "AI SLIDE",
             "sid": "ID_ARRIVAL_MUTATOR_BOOL_AI_SLIDE"
@@ -11919,6 +12519,11 @@
             "categoryId": 201,
             "localizedText": "Launchers",
             "sid": "ID_ARRIVAL_CATEGORIZATIONTAG_NAME_LAUNCHER"
+        },
+        {
+            "categoryId": 201,
+            "localizedText": "FNB - ULTIMATE CHAOS",
+            "sid": "ID_ARRIVAL_FNB_ULTIMATE_CHAOS"
         },
         {
             "categoryId": 197,
@@ -12086,6 +12691,11 @@
             "sid": "ID_COS_VEH_ARMOREDCAR__BOLTE_01_VSKIN0143"
         },
         {
+            "categoryId": 197,
+            "localizedText": "Mastery Earned with the FGM-148 Javelin",
+            "sid": "ID_BADGE_MASTERY_JAVELIN_T1_CRIT"
+        },
+        {
             "categoryId": 201,
             "localizedText": "New Leaf",
             "sid": "ID_ARRIVAL_STORE_BUNDLE_TITLE_SB3"
@@ -12181,6 +12791,11 @@
             "sid": "ID_ARRIVAL_MODBUILDER_SELECTIONLISTS_VOICEOVERS_HALFTICKETS_ENEMY"
         },
         {
+            "categoryId": 201,
+            "localizedText": "Controls whether the selection of gadgets from the 2042 era is restricted per class or available to all soldiers.",
+            "sid": "ID_ARRIVAL_MUTATOR_BOOL_DISABLE_GADGET_RESTRICTIONS_DESC"
+        },
+        {
             "categoryId": 197,
             "localizedText": "Berserker",
             "sid": "ID_COS_CSKIN_CAMO_BATTLEPASS1_01__CD_DELTA_FUTURE_HEAD"
@@ -12214,6 +12829,11 @@
             "categoryId": 197,
             "localizedText": "Controls the difficulty level of AI.",
             "sid": "ID_ARRIVAL_MUTATOR_INT_AI_DIFFICULTY_DESC"
+        },
+        {
+            "categoryId": 198,
+            "localizedText": "Rifle Scope 8x",
+            "sid": "ID_MICA_ABILITY_SCP_RIFLESCOPE_8X"
         },
         {
             "categoryId": 198,
@@ -12259,6 +12879,11 @@
             "categoryId": 197,
             "localizedText": "Some Specialists or Classes are not allowed.",
             "sid": "ID_ARRIVAL_SERVERTAG_HERO_RESTRICTIONS_DESC"
+        },
+        {
+            "categoryId": 197,
+            "localizedText": "Kills with the AK-24 while Aiming",
+            "sid": "ID_HWPROG_AK12_BES_THERMAL_CRIT"
         },
         {
             "categoryId": 197,
@@ -12411,6 +13036,11 @@
             "sid": "ID_ARRIVAL_SERVERTAG_ASYMMETRIC_VEHICLE_SETTINGS_DESC"
         },
         {
+            "categoryId": 201,
+            "localizedText": "Test your hunting skills in this 64 player Team Deathmatch with only a Crossbow and a knife available.",
+            "sid": "ID_ARRIVAL_FNB_CROSSBOW_KNIFE_DESC"
+        },
+        {
             "categoryId": 197,
             "localizedText": "ROK / SOF",
             "sid": "ID_COS_ECHO_02"
@@ -12429,6 +13059,11 @@
             "categoryId": 197,
             "localizedText": "On-Foot Call-ins Only",
             "sid": "ID_ARRIVAL_MUTATOR_4125176977_ENTRY_1"
+        },
+        {
+            "categoryId": 201,
+            "localizedText": "Play Breakthrough on Stranded and Renewal. Adapt to your territory in new and revised Season 2 maps. Available for a limited time.",
+            "sid": "ID_ARRIVAL_PLAYSTYLE_BREAKTHROUGH_MASTEROFARMS_2.1_DESC"
         },
         {
             "categoryId": 197,
@@ -12497,6 +13132,11 @@
         },
         {
             "categoryId": 197,
+            "localizedText": "T4 Thermal 2.5x",
+            "sid": "ID_WEAPONS_ATTACH_OPTIC_NAME_20"
+        },
+        {
+            "categoryId": 197,
             "localizedText": "Mamba",
             "sid": "ID_COS_CSKIN_CAMO_URBAN_KRYPTEKT_01_CD_BRAVO_BODY"
         },
@@ -12544,6 +13184,11 @@
             "categoryId": 197,
             "localizedText": "Shredded",
             "sid": "ID_COS_WEP_SMG__MP9_01_WSKIN0054"
+        },
+        {
+            "categoryId": 201,
+            "localizedText": "Discover Breakthrough",
+            "sid": "ID_ARRIVAL_PLAYSTYLE_BREAKTHROUGH_DISCOVER"
         },
         {
             "categoryId": 201,
@@ -12602,6 +13247,11 @@
         },
         {
             "categoryId": 197,
+            "localizedText": "Forsaken",
+            "sid": "ID_COS_LIMA_BODY_07"
+        },
+        {
+            "categoryId": 197,
             "localizedText": "Abyssal",
             "sid": "ID_BATTLEPASS_TAG_S03_18_NAME"
         },
@@ -12646,6 +13296,11 @@
             "sid": "ID_GAMEMODE_BREAKTHROUGH_OBJ_E1"
         },
         {
+            "categoryId": 201,
+            "localizedText": "RAMPAGE",
+            "sid": "ID_ARRIVAL_EXP_RAMPAGE"
+        },
+        {
             "categoryId": 197,
             "localizedText": "Hardpan",
             "sid": "ID_COS_INDIA_HEAD_10"
@@ -12669,6 +13324,11 @@
             "categoryId": 197,
             "localizedText": "Data Drive Scanner",
             "sid": "ID_GADGETS_INTELSCANNER"
+        },
+        {
+            "categoryId": 197,
+            "localizedText": "Ravager",
+            "sid": "ID_STORE_TAG_S3_2_WASTELAND02_NAME"
         },
         {
             "categoryId": 197,
@@ -12696,6 +13356,16 @@
             "sid": "ID_ARRIVAL_CATEGORIZATIONTAG_NAME_GADGET"
         },
         {
+            "categoryId": 197,
+            "localizedText": "InventoryClassGadgets",
+            "sid": "ID_ARRIVAL_BLOCK_CLASSGADGETSITEM"
+        },
+        {
+            "categoryId": 197,
+            "localizedText": "Barren",
+            "sid": "ID_COS_CSKIN_CAMO_WASTELAND_01__CD_BRAVO_BODY"
+        },
+        {
             "categoryId": 201,
             "localizedText": "Savage Skies",
             "sid": "ID_ARRIVAL_STORE_BUNDLE_SLH2_SAVAGESKIES"
@@ -12714,6 +13384,11 @@
             "categoryId": 198,
             "localizedText": "Rocket Pods",
             "sid": "ID_MICA_ABILITY_VEHICLE_AIRCRAFT_ROCKET_PODS"
+        },
+        {
+            "categoryId": 201,
+            "localizedText": "RECON RIPTOR | 2042 | CUSTOM CONQUEST | 32 v 32",
+            "sid": "ID_ARRIVAL_EXP_CSL_TIPPINGPOINT_MODE"
         },
         {
             "categoryId": 199,
@@ -12776,6 +13451,11 @@
             "sid": "ID_ARRIVAL_CATEGORIZATIONTAG_NAME_BC2_US"
         },
         {
+            "categoryId": 201,
+            "localizedText": "FNB - CROSSBOW & KNIFE",
+            "sid": "ID_ARRIVAL_FNB_CROSSBOW_KNIFE"
+        },
+        {
             "categoryId": 197,
             "localizedText": "Slingshot",
             "sid": "ID_COS_VEH_TANK__CV90R_01_VSKIN0171"
@@ -12794,6 +13474,11 @@
             "categoryId": 201,
             "localizedText": "Thank you for subscribing",
             "sid": "ID_ARRIVAL_NEWSLETTER_SUBSCRIBER_REWARD"
+        },
+        {
+            "categoryId": 197,
+            "localizedText": "Touch of Death",
+            "sid": "ID_STORE_TAG_S3_2_ZOMBIE_NAME"
         },
         {
             "categoryId": 201,
@@ -12842,6 +13527,11 @@
         },
         {
             "categoryId": 197,
+            "localizedText": "The Deception",
+            "sid": "ID_PLAYERCARD_NAME_BACKGROUND_DMC_S4_1"
+        },
+        {
+            "categoryId": 197,
             "localizedText": "Speedstar",
             "sid": "ID_STORE_TAG_12_NAME"
         },
@@ -12886,6 +13576,11 @@
             "sid": "ID_ARRIVAL_STORE_BUNDLE_SLH7_DESCRIPTION"
         },
         {
+            "categoryId": 197,
+            "localizedText": "Starved Vulture",
+            "sid": "ID_COS_VEH_AIRPLANE__CONDOR_01_VSKIN0163"
+        },
+        {
             "categoryId": 198,
             "localizedText": "8 x M43 500lb Bombs",
             "sid": "ID_MICA_ABILITY_VEHICLE_B17_BOMBS"
@@ -12904,6 +13599,11 @@
             "categoryId": 197,
             "localizedText": "Kills, Assists, and Vehicles Destroyed with the AH-64GX Apache Warchief",
             "sid": "ID_HWPROG_APACHE_BASE_CRIT"
+        },
+        {
+            "categoryId": 197,
+            "localizedText": "Damage Inflicted with the Mounted Vulcan as Crawford",
+            "sid": "ID_AWARD_EXPLORATION_MIKE_C1"
         },
         {
             "categoryId": 197,
@@ -12929,6 +13629,11 @@
             "categoryId": 197,
             "localizedText": "Exposure",
             "sid": "ID_PLAYERCARD_NAME_BACKGROUND079"
+        },
+        {
+            "categoryId": 197,
+            "localizedText": "Activated the Transmitters on Spearhead",
+            "sid": "ID_PLAYERCARD_CRITERIA_BACKGROUND_DMC_S4_1"
         },
         {
             "categoryId": 201,
@@ -13062,6 +13767,11 @@
         },
         {
             "categoryId": 197,
+            "localizedText": "Draconian",
+            "sid": "ID_STORE_TAG_S3_2_INSIDESQUAD_NAME"
+        },
+        {
+            "categoryId": 197,
             "localizedText": "Specialist Crawford",
             "sid": "ID_COS_MIKE_BODY_03"
         },
@@ -13084,6 +13794,11 @@
             "categoryId": 198,
             "localizedText": "NOSHAHR CANALS",
             "sid": "ID_LVL_MICA_PORT_NAME"
+        },
+        {
+            "categoryId": 197,
+            "localizedText": "Kills with the NVK-S22 while Aiming",
+            "sid": "ID_HWPROG_NVKS22_BES_THERMAL_CRIT"
         },
         {
             "categoryId": 197,
@@ -13241,6 +13956,11 @@
             "sid": "ID_COS_FOXTROT_BODY_06"
         },
         {
+            "categoryId": 197,
+            "localizedText": "Spartan",
+            "sid": "ID_COS_BRAVO_SET_02_1"
+        },
+        {
             "categoryId": 198,
             "localizedText": "SVD",
             "sid": "ID_MICA_ABILITY_SVD"
@@ -13269,6 +13989,11 @@
             "categoryId": 198,
             "localizedText": "Buckhorn Sights",
             "sid": "ID_MICA_ABILITY_SCP_BUCKHORN"
+        },
+        {
+            "categoryId": 197,
+            "localizedText": "M18 Claymore Mastery",
+            "sid": "ID_BADGE_MASTERY_CLAYMORE_NAME"
         },
         {
             "categoryId": 197,
@@ -13381,6 +14106,11 @@
             "sid": "ID_ARRIVAL_EXP_RUSH_XL"
         },
         {
+            "categoryId": 197,
+            "localizedText": "Admiral's Authority",
+            "sid": "U_DPF_WCHARM0073_BASE_01"
+        },
+        {
             "categoryId": 201,
             "localizedText": "El Alamein",
             "sid": "ID_ARRIVAL_MAP_OASIS"
@@ -13469,6 +14199,11 @@
             "categoryId": 201,
             "localizedText": "In a world like this, combat evolves in strange ways. Show your stripes and tear through the opposition until your name becomes a legend.",
             "sid": "ID_ARRIVAL_STORE_BUNDLE_DESCRIPTION_SLS9"
+        },
+        {
+            "categoryId": 197,
+            "localizedText": "Siren Call",
+            "sid": "ID_COS_MP9_WSKIN0251"
         },
         {
             "categoryId": 197,
@@ -13572,6 +14307,11 @@
         },
         {
             "categoryId": 197,
+            "localizedText": "Barren",
+            "sid": "ID_COS_CSKIN_CAMO_WASTELAND_01__CD_BRAVO_HEAD"
+        },
+        {
+            "categoryId": 197,
             "localizedText": "Once upon a time, Charlie Crawford was MI6. He was supposed to protect His Majesty\u2019s realm, not screw it over by selling weapons to foreign powers. But weapons were his speciality. It\u2019s why the Dark Market recruited him.\n\nIt\u2019s also why they sprung him from custody. He still had so much to offer. But he needed to be put on ice for a while. Ironic, Crawford thought, Panama felt more like a fucking furnace.",
             "sid": "ID_PLAYERCARD_DESC_BACKGROUND185"
         },
@@ -13672,6 +14412,11 @@
         },
         {
             "categoryId": 197,
+            "localizedText": "Trapper",
+            "sid": "ID_COS_WEP_CROSSBOW__COBRA_R9_01_WSKIN0248"
+        },
+        {
+            "categoryId": 197,
             "localizedText": "Carbon Series",
             "sid": "ID_COS_VEH_AIRPLANE__SU57_01_VSKIN0072"
         },
@@ -13699,6 +14444,11 @@
             "categoryId": 201,
             "localizedText": "Urban Ops",
             "sid": "ID_ARRIVAL_STORE_BUNDLE_E6_URBANOPS"
+        },
+        {
+            "categoryId": 197,
+            "localizedText": "Spruced",
+            "sid": "ID_COS_WEP_SIDEARM__KELTEC_P50_01_WSKIN0257"
         },
         {
             "categoryId": 197,
@@ -13759,6 +14509,11 @@
             "categoryId": 197,
             "localizedText": "Razor Sharp",
             "sid": "ID_STORE_TAG_S3_03_NAME"
+        },
+        {
+            "categoryId": 201,
+            "localizedText": "Nordvik Fortress",
+            "sid": "ID_ARRIVAL_STORE_BUNDLE_TITLE_S3_EB3"
         },
         {
             "categoryId": 197,
@@ -13829,6 +14584,11 @@
             "categoryId": 197,
             "localizedText": "Kills, Assists, and Vehicles Destroyed with the EBLC-Ram",
             "sid": "ID_HWPROG_CRAB_BASE_CRIT"
+        },
+        {
+            "categoryId": 201,
+            "localizedText": "Master the art of attack and defend in this combat experience tailored for players new to the battlefield. Play against a mix of other players and AI.",
+            "sid": "ID_ARRIVAL_PLAYSTYLE_BREAKTHROUGH_DISCOVER_DESC"
         },
         {
             "categoryId": 197,
@@ -13922,8 +14682,18 @@
         },
         {
             "categoryId": 197,
+            "localizedText": "Horde Hunter",
+            "sid": "ID_COS_WEP_SNIPERRIFLE__DENEL_NTW20_01_WSKIN0261"
+        },
+        {
+            "categoryId": 197,
             "localizedText": "Severed",
             "sid": "ID_COS_WEP_RIFLE__DDM4_01_WSKIN0153"
+        },
+        {
+            "categoryId": 201,
+            "localizedText": "FNB - CUTTING EDGE",
+            "sid": "ID_ARRIVAL_FNB_CUTTING_EDGE"
         },
         {
             "categoryId": 197,
@@ -14009,6 +14779,11 @@
             "categoryId": 197,
             "localizedText": "Tier 1",
             "sid": "ID_COS_FOXTROT_04"
+        },
+        {
+            "categoryId": 201,
+            "localizedText": "Welcome Pack",
+            "sid": "ID_ARRIVAL_WELCOM_PACK"
         },
         {
             "categoryId": 197,
@@ -14436,6 +15211,11 @@
             "sid": "ID_GADGETS_STIMPISTOL"
         },
         {
+            "categoryId": 201,
+            "localizedText": "Slice and dice your way to the top by eliminating the opposing team using only Throwing Knives!",
+            "sid": "ID_ARRIVAL_FNB_CUTTING_EDGE_DESC"
+        },
+        {
             "categoryId": 197,
             "localizedText": "NTW-50 Mastery",
             "sid": "ID_BADGE_MASTERY_NTW20_NAME"
@@ -14647,6 +15427,11 @@
         },
         {
             "categoryId": 197,
+            "localizedText": "Kills with the 12M Auto while Aiming",
+            "sid": "ID_HWPROG_SAIGA12_BES_THERMAL_CRIT"
+        },
+        {
+            "categoryId": 197,
             "localizedText": "Green Light",
             "sid": "ID_PLAYERCARD_NAME_BACKGROUND_057"
         },
@@ -14699,6 +15484,11 @@
             "categoryId": 197,
             "localizedText": "Grim",
             "sid": "ID_COS_WEP_SMG__MP9_01_WSKIN0102"
+        },
+        {
+            "categoryId": 197,
+            "localizedText": "Headshot kills with the SWS-10",
+            "sid": "ID_HWPROG_TRGM10_BES_THERMAL_CRIT"
         },
         {
             "categoryId": 197,
@@ -14797,6 +15587,11 @@
         },
         {
             "categoryId": 197,
+            "localizedText": "Tactical Kama",
+            "sid": "ID_COS_WEP_MELEE_TACTICALKAMA_01"
+        },
+        {
+            "categoryId": 197,
             "localizedText": "Wrecking Crew",
             "sid": "ID_COS_DELTA_HEAD_07"
         },
@@ -14864,6 +15659,11 @@
             "categoryId": 197,
             "localizedText": "Battlefield V",
             "sid": "ID_PLAYERCARD_NAME_BACKGROUND_20A_BFV"
+        },
+        {
+            "categoryId": 201,
+            "localizedText": "2042 | AIR SUPERIORITY | 16 v 16",
+            "sid": "ID_ARRIVAL_EXP_2042_AIR_SUPERIORITY_32"
         },
         {
             "categoryId": 201,
@@ -15026,6 +15826,11 @@
             "sid": "ID_WEAPONS_ATTACH_MUNITION_NAME_27"
         },
         {
+            "categoryId": 197,
+            "localizedText": "Doubletapped",
+            "sid": "ID_COS_KRISSVECTOR_WSKIN0206"
+        },
+        {
             "categoryId": 201,
             "localizedText": "Annihilate your enemies and look good doing it.",
             "sid": "ID_ARRIVAL_STORE_BUNDLE_SLA9_DESCRIPTION"
@@ -15099,6 +15904,11 @@
             "categoryId": 197,
             "localizedText": "Vehicles Destroyed with the F-35E Panther",
             "sid": "ID_HWPROG_F35B_BASE_CRIT"
+        },
+        {
+            "categoryId": 197,
+            "localizedText": "Strong-arm",
+            "sid": "ID_COS_CSKIN_CAMO_TANKCREW_01__CD_MIKE_HEAD"
         },
         {
             "categoryId": 197,
@@ -15224,6 +16034,11 @@
             "categoryId": 201,
             "localizedText": "Capture adjacent points to create multiple links or one larger link to deplete the opposing team's reinforcements.",
             "sid": "ID_ARRIVAL_EXP_CONQUEST_CHAINLINK_DESC"
+        },
+        {
+            "categoryId": 197,
+            "localizedText": "Shellshocked",
+            "sid": "ID_COS_DELTA_HEAD_14"
         },
         {
             "categoryId": 201,
@@ -15497,6 +16312,11 @@
         },
         {
             "categoryId": 197,
+            "localizedText": "Operation Wildcard",
+            "sid": "ID_PLAYERCARD_NAME_BACKGROUND231"
+        },
+        {
+            "categoryId": 197,
             "localizedText": "Squad Ping",
             "sid": "ID_ARRIVAL_MODBUILDER_SELECTIONLISTS_WORLDICONIMAGES_SQUADPING"
         },
@@ -15539,6 +16359,11 @@
             "categoryId": 197,
             "localizedText": "XM8 LMG Mastery",
             "sid": "ID_BADGE_MASTERY_XM8LMG_NAME"
+        },
+        {
+            "categoryId": 197,
+            "localizedText": "Kills with the NTW-50 from a distance of 250m or more",
+            "sid": "ID_HWPROG_NTW20_BES3_CRIT"
         },
         {
             "categoryId": 197,
@@ -15692,6 +16517,11 @@
         },
         {
             "categoryId": 197,
+            "localizedText": "Dismemberer",
+            "sid": "ID_COS_CB12_WSKIN0250"
+        },
+        {
+            "categoryId": 197,
             "localizedText": "PvP AI",
             "sid": "ID_ARRIVAL_SERVERTAG_AI_ENABLED"
         },
@@ -15714,6 +16544,11 @@
             "categoryId": 201,
             "localizedText": "2042 ALL-OUT SUPERIORITY",
             "sid": "ID_ARRIVAL_EXP_2042_ALLOUT_SUPERIORITY"
+        },
+        {
+            "categoryId": 197,
+            "localizedText": "Cold Blood",
+            "sid": "ID_COS_WEP_SIDEARM__GLOCK_17_01_WSKIN0101"
         },
         {
             "categoryId": 201,
@@ -16162,6 +16997,11 @@
         },
         {
             "categoryId": 197,
+            "localizedText": "Now It\u2019s Personal",
+            "sid": "ID_PLAYERCARD_NAME_BACKGROUND_DMC_S4_3"
+        },
+        {
+            "categoryId": 197,
             "localizedText": "Tier 1",
             "sid": "ID_COS_WEP_RIFLE__SCAR_MK17_01_WSKIN0018"
         },
@@ -16172,6 +17012,11 @@
         },
         {
             "categoryId": 197,
+            "localizedText": "Neon Wings",
+            "sid": "U_DPF_WCHARM0004_BASE_01"
+        },
+        {
+            "categoryId": 197,
             "localizedText": "Mastery Earned as Angel",
             "sid": "ID_BADGE_MASTERY_INDIA_T1_CRIT"
         },
@@ -16179,6 +17024,11 @@
             "categoryId": 197,
             "localizedText": "Mastery Earned with the Smoke Grenade",
             "sid": "ID_BADGE_MASTERY_SMOKEGRENADE_T1_CRIT"
+        },
+        {
+            "categoryId": 197,
+            "localizedText": "Support Class Badge",
+            "sid": "ID_BADGE_VETERANCY_SUPPORT_NAME"
         },
         {
             "categoryId": 197,
@@ -16224,11 +17074,6 @@
             "categoryId": 197,
             "localizedText": "C5 Explosive",
             "sid": "ID_ABILITY_C4"
-        },
-        {
-            "categoryId": 201,
-            "localizedText": "Happy lunar new year",
-            "sid": "ID_ARRIVAL_HAPPY_LUNAR"
         },
         {
             "categoryId": 197,
@@ -16356,6 +17201,11 @@
             "sid": "ID_RANK_MASTERY_ROBDOG_CRIT"
         },
         {
+            "categoryId": 201,
+            "localizedText": "Instantly unlock weapons, vehicles, and more with Shortcut Kits! Get class-specific content or hardware for all classes with the Ultimate Shortcut Kit. ",
+            "sid": "ID_ARRIVAL_DESC_SK"
+        },
+        {
             "categoryId": 197,
             "localizedText": "Repair Tool",
             "sid": "ID_GADGETS_REPAIRTOOL"
@@ -16396,6 +17246,11 @@
             "sid": "ID_BADGE_MASTERY_FOXTROT_NAME"
         },
         {
+            "categoryId": 197,
+            "localizedText": "BF2042 Dev",
+            "sid": "ID_COS_CSKIN_CAMO_DEV_01__CD_NOVEMBER_BODY"
+        },
+        {
             "categoryId": 201,
             "localizedText": "MASTER OF ARMS",
             "sid": "ID_ARRIVAL_SEASON02_NAME"
@@ -16412,8 +17267,18 @@
         },
         {
             "categoryId": 197,
+            "localizedText": "BF2042 Dev",
+            "sid": "ID_COS_CSKIN_CAMO_DEV_01__CD_MIKE_HEAD"
+        },
+        {
+            "categoryId": 197,
             "localizedText": "SOFLAM",
             "sid": "ID_ABILITY_SOFLAM"
+        },
+        {
+            "categoryId": 197,
+            "localizedText": "Kills with the SWS-10 from a distance of 250m or more",
+            "sid": "ID_HWPROG_TRGM10_BES3_CRIT"
         },
         {
             "categoryId": 197,
@@ -16671,6 +17536,11 @@
             "sid": "ID_COS_WEP_SNIPERRIFLE__VSS_VINTOREZ_01_WSKIN0272"
         },
         {
+            "categoryId": 201,
+            "localizedText": "Roll out the heavy armor with Boris and strengthen Nordvik Control Corps\u2019 defensive power.",
+            "sid": "ID_ARRIVAL_STORE_BUNDLE_DESCRIPTION_S3_EB3"
+        },
+        {
             "categoryId": 197,
             "localizedText": "VEHICLE MODIFIERS",
             "sid": "ID_ARRIVAL_SERVERTAG_CUSTOM_VEHICLE_SETTINGS"
@@ -16739,6 +17609,11 @@
             "categoryId": 197,
             "localizedText": "Gewehr 43 ZF4",
             "sid": "ID_MICA_ABILITY_GEWEHR_43_ZF4"
+        },
+        {
+            "categoryId": 201,
+            "localizedText": "Class Weapon Proficiencies",
+            "sid": "ID_ARRIVAL_CATEGORIZATIONTAG_NAME_CLASS_WEAPON_PROFICIENCIES"
         },
         {
             "categoryId": 201,
@@ -16836,6 +17711,11 @@
             "sid": "ID_COS_CSKIN_CAMO_MASTERY_01_CD_KILO_HEAD"
         },
         {
+            "categoryId": 197,
+            "localizedText": "NVK-BOX",
+            "sid": "ID_WEAPONS_ATTACH_BARREL_NAME_21"
+        },
+        {
             "categoryId": 201,
             "localizedText": "Barrel Slot",
             "sid": "ID_ARRIVAL_CATEGORIZATIONTAG_NAME_BARRELSLOT"
@@ -16844,6 +17724,11 @@
             "categoryId": 201,
             "localizedText": "AI ON-FOOT DEPLOYMENT",
             "sid": "ID_ARRIVAL_MUTATOR_BOOL_AI_ONFOOT_SPAWN"
+        },
+        {
+            "categoryId": 197,
+            "localizedText": "Kills with the AC-42 while Aiming",
+            "sid": "ID_HWPROG_AC74_BES_THERMAL_CRIT"
         },
         {
             "categoryId": 197,
@@ -17011,11 +17896,6 @@
             "sid": "ID_COS_CSKIN_CAMO_MASTERY_01_CD_FOXTROT_HEAD"
         },
         {
-            "categoryId": 197,
-            "localizedText": "Revives as Crawford",
-            "sid": "ID_AWARD_EXPLORATION_MIKE_C2"
-        },
-        {
             "categoryId": 201,
             "localizedText": "Breakthrough on Spearhead and Manifest. Adapt to your territory in new and revised Season 3 maps. Available for a limited time.",
             "sid": "ID_ARRIVAL_PLAYSTYLE_BREAKTHROUGH_ESCALATION_DESC_3.1"
@@ -17061,6 +17941,11 @@
             "sid": "ID_ARRIVAL_MODBUILDER_SELECTIONLISTS_DAMAGETYPES_MELEE"
         },
         {
+            "categoryId": 197,
+            "localizedText": "Kills with the M5A3 while Aiming",
+            "sid": "ID_HWPROG_SLXSPEAR_BES_THERMAL_CRIT"
+        },
+        {
             "categoryId": 201,
             "localizedText": "The focused, infantry-only mode where the frontline is constantly on the move.",
             "sid": "ID_ARRIVAL_PLAYSTYLE_BREAKTHROUGH_INFANTRY_DESC"
@@ -17084,6 +17969,11 @@
             "categoryId": 197,
             "localizedText": "Balidan",
             "sid": "ID_COS_LIMA_03"
+        },
+        {
+            "categoryId": 197,
+            "localizedText": "Silver Spear",
+            "sid": "ID_COS_INDIA_BODY_09"
         },
         {
             "categoryId": 197,
@@ -17181,6 +18071,11 @@
             "sid": "ID_AWARD_EXPLORATION_LVL08_C1"
         },
         {
+            "categoryId": 201,
+            "localizedText": "Controls whether the selection of throwables from the 2042 era is restricted per class or available to all soldiers.",
+            "sid": "ID_ARRIVAL_MUTATOR_BOOL_DISABLE_THROWABLE_RESTRICTIONS_DESC"
+        },
+        {
             "categoryId": 197,
             "localizedText": "Kiss the Sky",
             "sid": "ID_PLAYERCARD_NAME_BACKGROUND039"
@@ -17209,6 +18104,11 @@
             "categoryId": 201,
             "localizedText": "FNB - SHOTGUN & PISTOL",
             "sid": "ID_ARRIVAL_FNB_SHOTGUN_PISTOL"
+        },
+        {
+            "categoryId": 197,
+            "localizedText": "Hibernator",
+            "sid": "ID_COS_VEH_TANK__M1_ABRAMS_01_VSKIN0157"
         },
         {
             "categoryId": 197,
@@ -17436,6 +18336,11 @@
             "sid": "ID_MICA_ABILITY_SMAW"
         },
         {
+            "categoryId": 201,
+            "localizedText": "Tactical Conquest 16v16",
+            "sid": "ID_ARRIVAL_PLAYSTYLE_TACTICALCONQUEST_16"
+        },
+        {
             "categoryId": 197,
             "localizedText": "Primary Weapon",
             "sid": "ID_ARRIVAL_MODBUILDER_SELECTIONLISTS_INVENTORYSLOTS_PRIMARYWEAPON"
@@ -17557,6 +18462,11 @@
         },
         {
             "categoryId": 197,
+            "localizedText": "Mastery Earned with the MTAR-21",
+            "sid": "ID_BADGE_MASTERY_MTAR21_T1_CRIT"
+        },
+        {
+            "categoryId": 197,
             "localizedText": "50mm Cannon",
             "sid": "ID_VEHICLES_WEAPON_NAME_15_RWS_50MM"
         },
@@ -17569,6 +18479,11 @@
             "categoryId": 198,
             "localizedText": "P90",
             "sid": "ID_MICA_ABILITY_P90"
+        },
+        {
+            "categoryId": 197,
+            "localizedText": "Kills with the AM40 while Aiming",
+            "sid": "ID_HWPROG_AM40_BES_THERMAL_CRIT"
         },
         {
             "categoryId": 197,
@@ -17609,6 +18524,11 @@
             "categoryId": 197,
             "localizedText": "Controls the maximum number of players allowed.",
             "sid": "ID_ARRIVAL_MUTATOR_INT_MAXPLAYERCOUNT_DESC"
+        },
+        {
+            "categoryId": 201,
+            "localizedText": "2042 | VEHICLE SUPERIORITY | 32 v 32",
+            "sid": "ID_ARRIVAL_EXP_RAMPAGE_MODE"
         },
         {
             "categoryId": 197,
@@ -17716,11 +18636,6 @@
             "sid": "ID_COS_BRAVO_SINGLEHEAD_06"
         },
         {
-            "categoryId": 197,
-            "localizedText": "Enemies Hit with EMP Grenades",
-            "sid": "ID_AWARD_HWUNLOCK_CONC_C1"
-        },
-        {
             "categoryId": 201,
             "localizedText": "2XP WEEKEND BONUS",
             "sid": "ID_ARRIVAL_BONUS_XP_EVENT_WEEKEND"
@@ -17752,6 +18667,11 @@
         },
         {
             "categoryId": 197,
+            "localizedText": "Kills with the DXR-1 from a distance of 250m or more",
+            "sid": "ID_HWPROG_DSR1_BES3_CRIT"
+        },
+        {
+            "categoryId": 197,
             "localizedText": "Weapon or gadget options have been restricted.",
             "sid": "ID_ARRIVAL_SERVERTAG_CUSTOM_LOADOUTS_DESC"
         },
@@ -17769,6 +18689,11 @@
             "categoryId": 197,
             "localizedText": "No-Pats",
             "sid": "ID_COS_VEHDEC_064"
+        },
+        {
+            "categoryId": 201,
+            "localizedText": "UNRESTRICTED 2042 GADGET SELECTION",
+            "sid": "ID_ARRIVAL_MUTATOR_BOOL_UNRESTRICTED_2042_GADGET_SELECTION"
         },
         {
             "categoryId": 197,
@@ -17871,9 +18796,19 @@
             "sid": "ID_STORE_TAG_S2_10_NAME"
         },
         {
+            "categoryId": 201,
+            "localizedText": "BATTLEFIELD WORLD TOUR",
+            "sid": "ID_ARRIVAL_EXP_BF_WORLD_TOUR"
+        },
+        {
             "categoryId": 197,
             "localizedText": "Hexmesh Triweave",
             "sid": "ID_COS_CSKIN_CAMO_MASTERY_01_CD_JULIET_HEAD"
+        },
+        {
+            "categoryId": 197,
+            "localizedText": "Recon Class Badge",
+            "sid": "ID_BADGE_VETERANCY_RECON_NAME"
         },
         {
             "categoryId": 197,
@@ -18002,6 +18937,11 @@
         },
         {
             "categoryId": 197,
+            "localizedText": "BF2042 Dev",
+            "sid": "ID_COS_CSKIN_CAMO_DEV_01__CD_HOTEL_HEAD"
+        },
+        {
+            "categoryId": 197,
             "localizedText": "Eagle Eyes",
             "sid": "ID_RECOGNITION_GEN_08"
         },
@@ -18104,6 +19044,11 @@
             "categoryId": 197,
             "localizedText": "Standard Fit",
             "sid": "ID_COS_CSKIN_CAMO_MARCOM_04__CD_ALPHA_FUTURE_BODY"
+        },
+        {
+            "categoryId": 197,
+            "localizedText": "Kills with the PKP-BP while Aiming",
+            "sid": "ID_HWPROG_PECHENEG_BES_THERMAL_CRIT"
         },
         {
             "categoryId": 197,
@@ -18272,6 +19217,11 @@
         },
         {
             "categoryId": 197,
+            "localizedText": "Kills with the DM7 while Aiming",
+            "sid": "ID_HWPROG_DDM4_BES_THERMAL_CRIT"
+        },
+        {
+            "categoryId": 197,
             "localizedText": "Tin Can Rally",
             "sid": "ID_PLAYERCARD_NAME_BACKGROUND027"
         },
@@ -18414,6 +19364,11 @@
             "categoryId": 198,
             "localizedText": "Reflex",
             "sid": "ID_MICA_ABILITY_SCP_REFLEX"
+        },
+        {
+            "categoryId": 201,
+            "localizedText": "When a competitor threatens their business, the Dark Market sends their Liquidators - a vicious hit squad that specializes in \"involuntary asset liquidation\". Your job is to dissolve enemy squads from the battlefield and capture areas critical to the Dark Market's bottom line.",
+            "sid": "ID_ARRIVAL_PLAYSTYLE_LQ_DESC_LONG"
         },
         {
             "categoryId": 197,
@@ -18641,6 +19596,11 @@
             "sid": "ID_COS_CSKIN_CAMO_URBAN_KRYPTEKT_01_CD_ECHO_BODY"
         },
         {
+            "categoryId": 201,
+            "localizedText": "Tactical Conquest",
+            "sid": "ID_ARRIVAL_PLAYSTYLE_TACTICALCONQUEST"
+        },
+        {
             "categoryId": 197,
             "localizedText": "Deathless",
             "sid": "ID_COS_ALPHA_HEAD_06"
@@ -18669,6 +19629,11 @@
             "categoryId": 197,
             "localizedText": "Icon 4",
             "sid": "ID_ARRIVAL_MODBUILDER_SELECTIONLISTS_WORLDICONS_ICON_4"
+        },
+        {
+            "categoryId": 197,
+            "localizedText": "Strong-arm",
+            "sid": "ID_COS_CSKIN_CAMO_TANKCREW_01__CD_MIKE_BODY"
         },
         {
             "categoryId": 197,
@@ -18716,6 +19681,11 @@
             "sid": "ID_PLAYERCARD_NAME_BACKGROUND002"
         },
         {
+            "categoryId": 201,
+            "localizedText": "Conquest on Spearhead, Manifest, and Breakaway. Make your mark on the world in new and revised Season 3 maps. Available for a limited time.",
+            "sid": "ID_ARRIVAL_PLAYSTYLE_CONQUEST_ESCALATION_DESC_3.2"
+        },
+        {
             "categoryId": 197,
             "localizedText": "Echelon",
             "sid": "ID_COS_VEHDEC_015"
@@ -18747,6 +19717,11 @@
         },
         {
             "categoryId": 197,
+            "localizedText": "Legend Has It",
+            "sid": "U_DPF_WCHARM0067_BASE_01"
+        },
+        {
+            "categoryId": 197,
             "localizedText": "Naughty List",
             "sid": "ID_COS_ALPHA_SINGLEHEAD_01"
         },
@@ -18764,6 +19739,11 @@
             "categoryId": 197,
             "localizedText": "Nice List",
             "sid": "ID_COS_JULIET_SINGLEHEAD_04"
+        },
+        {
+            "categoryId": 197,
+            "localizedText": "Delfinul",
+            "sid": "ID_COS_WEP_MG__PECHENEG_BULLPUP_01_WSKIN0222"
         },
         {
             "categoryId": 197,
@@ -18804,6 +19784,16 @@
             "categoryId": 197,
             "localizedText": "Season 03: Escalation Badge",
             "sid": "ID_BADGE_VETERANCY_SEAS03_NAME"
+        },
+        {
+            "categoryId": 197,
+            "localizedText": "FridayNightBattlefield",
+            "sid": "ID_FRIDAY_NIGHT_BF_NAME_01"
+        },
+        {
+            "categoryId": 201,
+            "localizedText": "Engineer Shortcut Kit",
+            "sid": "ID_ARRIVAL_ENG_SK"
         },
         {
             "categoryId": 201,
@@ -18967,11 +19957,6 @@
         },
         {
             "categoryId": 201,
-            "localizedText": "Spearhead: Printing Facility",
-            "sid": "ID_ARRIVAL_MAP_LIGHTSOUT_SMALL"
-        },
-        {
-            "categoryId": 201,
             "localizedText": "Explosives",
             "sid": "ID_ARRIVAL_CATEGORIZATIONTAG_NAME_EQUIPMENTEXPLOSIVE"
         },
@@ -19032,6 +20017,11 @@
         },
         {
             "categoryId": 197,
+            "localizedText": "Feral",
+            "sid": "ID_COS_VEH_ARMOREDCAR__BOLTE_01_VSKIN0155"
+        },
+        {
+            "categoryId": 197,
             "localizedText": "Kills and Assists with the M1911 (Portal) or MP28",
             "sid": "ID_AWARD_HWUNLOCK_M1911_C1"
         },
@@ -19049,6 +20039,11 @@
             "categoryId": 201,
             "localizedText": "Master of Arms",
             "sid": "ID_ARRIVAL_STORE_BUNDLE_SLH6_TITLE"
+        },
+        {
+            "categoryId": 197,
+            "localizedText": "Grim Reaper",
+            "sid": "ID_COS_VEH_TANK__CV90R_01_VSKIN0172"
         },
         {
             "categoryId": 197,
@@ -19101,6 +20096,11 @@
             "sid": "ID_ARRIVAL_CATEGORIZATIONTAG_NAME_OPTICSTECH"
         },
         {
+            "categoryId": 197,
+            "localizedText": "M39 EMR Mastery",
+            "sid": "ID_BADGE_MASTERY_M39_NAME"
+        },
+        {
             "categoryId": 201,
             "localizedText": "PASSENGER SEATS",
             "sid": "ID_ARRIVAL_MUTATOR_BOOL_PASSENGERSEATALLOWED"
@@ -19109,6 +20109,11 @@
             "categoryId": 197,
             "localizedText": "Rib Tickler",
             "sid": "ID_COS_WEP_TRENCHKNIFE"
+        },
+        {
+            "categoryId": 197,
+            "localizedText": "Kills with the SFAR-M GL while Aiming",
+            "sid": "ID_HWPROG_SCARH_BES_THERMAL_CRIT"
         },
         {
             "categoryId": 197,
@@ -19169,6 +20174,11 @@
             "categoryId": 197,
             "localizedText": "Pilgrim",
             "sid": "ID_COS_CAMO__UNIVERSAL_BATTLEPASS_05_VEH"
+        },
+        {
+            "categoryId": 197,
+            "localizedText": "Banisher",
+            "sid": "ID_COS_REMINGTON_870_WSKIN0212"
         },
         {
             "categoryId": 197,
@@ -19281,6 +20291,11 @@
             "sid": "ID_ARRIVAL_MODBUILDER_SELECTIONLISTS_SOLDIERSTATEVECTOR_GETFACINGDIRECTION"
         },
         {
+            "categoryId": 201,
+            "localizedText": "AERIAL ASSAULT",
+            "sid": "ID_ARRIVAL_EXP_AERIAL_ASSAULT"
+        },
+        {
             "categoryId": 197,
             "localizedText": "Select Throwable",
             "sid": "ID_ARRIVAL_MODBUILDER_SELECTIONLISTS_RESTRICTEDINPUTS_SELECTTHROWABLE"
@@ -19367,6 +20382,11 @@
         },
         {
             "categoryId": 197,
+            "localizedText": "Nightstick",
+            "sid": "ID_COS_WEP_MELEE_LIGHTSOUTBATON_01"
+        },
+        {
+            "categoryId": 197,
             "localizedText": "Pain in the Neck",
             "sid": "ID_COS_WEP_MELEE__1942KNIFE_01"
         },
@@ -19397,8 +20417,18 @@
         },
         {
             "categoryId": 197,
+            "localizedText": "Moved the Satellite on Exposure",
+            "sid": "ID_PLAYERCARD_CRITERIA_BACKGROUND_DMC_S4_3"
+        },
+        {
+            "categoryId": 197,
             "localizedText": "Parting Gift",
             "sid": "ID_COS_WEPCHRM_WCHARM0020"
+        },
+        {
+            "categoryId": 197,
+            "localizedText": "Engineer Class Badge",
+            "sid": "ID_BADGE_VETERANCY_ENGINEER_NAME"
         },
         {
             "categoryId": 197,
@@ -19657,6 +20687,11 @@
         },
         {
             "categoryId": 197,
+            "localizedText": "Assault Class Badge",
+            "sid": "ID_BADGE_VETERANCY_ASSAULT_NAME"
+        },
+        {
+            "categoryId": 197,
             "localizedText": "RHIB Mastery",
             "sid": "ID_BADGE_MASTERY_RHIB_NAME"
         },
@@ -19751,6 +20786,11 @@
             "sid": "ID_COS_WEP_RIFLE__SLX_SPEAR_01_WSKIN0162"
         },
         {
+            "categoryId": 201,
+            "localizedText": "2042 TDM - HARDCORE",
+            "sid": "ID_ARRIVAL_EXP_2042TDM_HARDCORE"
+        },
+        {
             "categoryId": 197,
             "localizedText": "Controls whether soldiers regenerate health over time after not taking damage.",
             "sid": "ID_ARRIVAL_MUTATOR_BOOL_SOLDIER_REGEN_DESC"
@@ -19764,6 +20804,11 @@
             "categoryId": 197,
             "localizedText": "Kills and Assists with the M93R (Portal) or the G57",
             "sid": "ID_AWARD_HWUNLOCK_M93R_C1"
+        },
+        {
+            "categoryId": 197,
+            "localizedText": "Recon Proficiency",
+            "sid": "ID_ABILITY_RECON_PROFICIENCY_PORTAL"
         },
         {
             "categoryId": 197,
@@ -19814,6 +20859,11 @@
             "categoryId": 197,
             "localizedText": "Kills with the MP9",
             "sid": "ID_RANK_MASTERY_MP9_CRIT"
+        },
+        {
+            "categoryId": 201,
+            "localizedText": "Crackdown",
+            "sid": "ID_ARRIVAL_STORE_BUNDLE_TITLE_SLS14"
         },
         {
             "categoryId": 197,
