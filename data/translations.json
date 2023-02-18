@@ -11457,7 +11457,7 @@
         },
         {
             "categoryId": 201,
-            "localizedText": "Fast-paced Rush with SMGs that have faster projectile speed and deal more damage.",
+            "localizedText": "Fast-paced Rush with SMGs that have faster projectile speed.",
             "sid": "ID_ARRIVAL_EXP_RUSH_SMGS_DESC"
         },
         {
