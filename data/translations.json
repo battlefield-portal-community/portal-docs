@@ -6911,6 +6911,11 @@
             "sid": "ID_COS_CSKIN_CAMO_NAVY_DIGICAMO_01_CD_ALPHA_BODY"
         },
         {
+            "localizedText": "Thank you for playing",
+            "categoryId": 201,
+            "sid": "ID_ARRIVAL_THANK_YOU"
+        },
+        {
             "localizedText": "Night Operations",
             "categoryId": 197,
             "sid": "ID_COS_CSKIN_CAMO_URBAN_NIGHT_01_CD_DELTA_HEAD"
@@ -15959,6 +15964,11 @@
             "localizedText": "Ultimate Killjoy",
             "categoryId": 197,
             "sid": "ID_PLAYERCARD_NAME_BACKGROUND_096"
+        },
+        {
+            "localizedText": "Conquest 64",
+            "categoryId": 201,
+            "sid": "ID_ARRIVAL_PLAYSTYLE_CONQUEST_64_NAME"
         },
         {
             "localizedText": "Controls whether players are allowed to deploy on foot as a soldier.",
