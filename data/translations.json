@@ -6461,6 +6461,11 @@
             "sid": "ID_ARRIVAL_EXP_CSL_SQUIDG_CHAOS"
         },
         {
+            "localizedText": "GODLESSGOD | CUSTOM | 32",
+            "categoryId": 201,
+            "sid": "ID_ARRIVAL_EXP_CSL_NINJA_WARFARE_MODE"
+        },
+        {
             "localizedText": "Free-For-All",
             "categoryId": 197,
             "sid": "ID_ARRIVAL_MUTATOR_2047132398_ENTRY_2"
@@ -9601,6 +9606,11 @@
             "sid": "ID_COS_VEH_HELICOPTER__SHOSHONE_01_VSKIN0040"
         },
         {
+            "localizedText": "Eliminate enemy Ninjas using only a limited-ammo Crossbow, a Knife, and a Throwable. Ammo is replenished on kills. Inspired by GODLESSGOD.",
+            "categoryId": 201,
+            "sid": "ID_ARRIVAL_EXP_CSL_NINJA_WARFARE_DESC"
+        },
+        {
             "localizedText": "PP-29",
             "categoryId": 197,
             "sid": "ID_ABILITY_BIZON"
@@ -10874,6 +10884,11 @@
             "localizedText": "Break",
             "categoryId": 197,
             "sid": "ID_ARRIVAL_BLOCK_BREAK"
+        },
+        {
+            "localizedText": "The all-time classic Rush mode, with a rotation that features each season\u2019s new map and a significantly larger player count.",
+            "categoryId": 201,
+            "sid": "ID_ARRIVAL_PLAYSTYLE_RUSH_SEASONS_XL_DESC"
         },
         {
             "localizedText": "60mm Mortar Pod",
@@ -13029,6 +13044,11 @@
             "localizedText": "Navalized",
             "categoryId": 197,
             "sid": "ID_COS_CSKIN_CAMO_NAVY_DIGICAMO_01_CD_ALPHA_HEAD"
+        },
+        {
+            "localizedText": "COMMUNITY SPOTLIGHT - NINJA WARFARE",
+            "categoryId": 201,
+            "sid": "ID_ARRIVAL_EXP_CSL_NINJA_WARFARE"
         },
         {
             "localizedText": "Equinox",
@@ -16761,11 +16781,6 @@
             "sid": "ID_ARRIVAL_SERVERTAG_NO_HUD_DESC"
         },
         {
-            "localizedText": "MappedArray",
-            "categoryId": 197,
-            "sid": "ID_ARRIVAL_BLOCK_MAPPEDARRAY"
-        },
-        {
             "localizedText": "Capture, Defend, Hold",
             "categoryId": 197,
             "sid": "ID_AWARD_RIBBON_BT_OBJECTIVE_CRIT"
@@ -16779,6 +16794,11 @@
             "localizedText": "Battlefield 3 - US",
             "categoryId": 201,
             "sid": "ID_ARRIVAL_CATEGORIZATIONTAG_NAME_BF3_US"
+        },
+        {
+            "localizedText": "MappedArray",
+            "categoryId": 197,
+            "sid": "ID_ARRIVAL_BLOCK_MAPPEDARRAY"
         },
         {
             "localizedText": "Missions completed in Preseason Week 16",
