@@ -321,6 +321,11 @@
             "sid": "ID_COS_CSKIN_CAMO_CONTRABAND_01__CD_HOTEL_FUTURE_HEAD"
         },
         {
+            "categoryId": 201,
+            "localizedText": "Leviathan asset has been activated. Grab your gear and cause some chaos.",
+            "sid": "ID_ARRIVAL_STORE_BUNDLE_DESCRIPTION_T19"
+        },
+        {
             "categoryId": 198,
             "localizedText": "MP443",
             "sid": "ID_MICA_ABILITY_MP443"
@@ -3469,6 +3474,11 @@
             "categoryId": 201,
             "localizedText": "Enlister Pack",
             "sid": "ID_ARRIVAL_STORE_BUNDLE_TITLE_SB1A"
+        },
+        {
+            "categoryId": 201,
+            "localizedText": "In the heat of battle the wrong order costs lives. Seize control and lead Leviathan Division to glory.",
+            "sid": "ID_ARRIVAL_STORE_BUNDLE_DESCRIPTION_T21"
         },
         {
             "categoryId": 197,
@@ -11839,6 +11849,11 @@
             "categoryId": 197,
             "localizedText": "Mastery Earned with the Polaris RZR",
             "sid": "ID_BADGE_MASTERY_RZRBUGGY_T1_CRIT"
+        },
+        {
+            "categoryId": 201,
+            "localizedText": "Strike at the heart of your enemy and sabotage their attack. Shut them down, Leviathans.",
+            "sid": "ID_ARRIVAL_STORE_BUNDLE_DESCRIPTION_T20"
         },
         {
             "categoryId": 197,
