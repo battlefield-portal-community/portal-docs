@@ -3716,11 +3716,6 @@
             "categoryId": 197
         },
         {
-            "sid": "ID_ARRIVAL_MUTATOR_ENUM_MCOM_BEHAVIOR",
-            "localizedText": "M-COM DESTRUCTION",
-            "categoryId": 197
-        },
-        {
             "sid": "ID_ABILITY_SIGNALJAMMER",
             "localizedText": "X6-Infiltration Device",
             "categoryId": 197
@@ -9576,11 +9571,6 @@
             "categoryId": 197
         },
         {
-            "sid": "ID_ARRIVAL_MUTATOR_639633808_ENTRY_1",
-            "localizedText": "Must Plant Bomb",
-            "categoryId": 197
-        },
-        {
             "sid": "ID_TEST_INDIA",
             "localizedText": "Angel",
             "categoryId": 199
@@ -10048,11 +10038,6 @@
         {
             "sid": "ID_BADGE_MASTERY_EMKV90_T1_CRIT",
             "localizedText": "Mastery Earned with the EMKV90-TOR",
-            "categoryId": 197
-        },
-        {
-            "sid": "ID_ARRIVAL_MUTATOR_ENUM_MCOM_BEHAVIOR_DESC",
-            "localizedText": "Controls whether players must Plant a bomb to destroy the M-COM, must Destroy it with damage, or allow for both options",
             "categoryId": 197
         },
         {
@@ -15826,11 +15811,6 @@
             "categoryId": 197
         },
         {
-            "sid": "ID_ARRIVAL_MUTATOR_639633808_ENTRY_2",
-            "localizedText": "Must Destroy",
-            "categoryId": 197
-        },
-        {
             "sid": "ID_ARRIVAL_STORE_BUNDLE_SLA10_DESCRIPTION",
             "localizedText": "Planet Earth is brutal and unforgiving \u2013 you\u2019ll fit right in.",
             "categoryId": 201
@@ -21023,11 +21003,6 @@
         {
             "sid": "ID_COS_WEP_SHOTGUN__REMINGTON_870_01_WSKIN0278",
             "localizedText": "Choke Chain",
-            "categoryId": 197
-        },
-        {
-            "sid": "ID_ARRIVAL_MUTATOR_639633808_ENTRY_0",
-            "localizedText": "Plant or Destroy",
             "categoryId": 197
         },
         {
