@@ -10693,7 +10693,7 @@
         {
             "sid": "ID_ARRIVAL_STORE_BUNDLE_TITLE_SLS17",
             "categoryId": 201,
-            "localizedText": "Overpowered"
+            "localizedText": "Tactical Showdown"
         },
         {
             "sid": "ID_COS_HOTEL_BODY_09",
@@ -19623,7 +19623,7 @@
         {
             "sid": "ID_VEHICLES_WEAPON_NAME_49_STEALTH_HELI_RWS_GUNNER",
             "categoryId": 197,
-            "localizedText": "12.7mm Supressed HMG"
+            "localizedText": "12.7mm Suppressed HMG"
         },
         {
             "sid": "ID_AWARD_EXPLORATION_LVL08_C1",
