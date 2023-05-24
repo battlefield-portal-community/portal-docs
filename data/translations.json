@@ -176,6 +176,11 @@
             "sid": "ID_COS_VEH_HELICOPTER__SHOSHONE_01_VSKIN0090"
         },
         {
+            "localizedText": "Revisit the fan-favorite world of Bad Company! Play the classic Rush game mode on Arica Harbor and Valparaiso.   Vehicles spawn in-world. Traversal Sprint, Slide, and Prone are disabled. Squad Revive and the Plus Menu are disabled, while 3d Spotting is enabled. Soldier weapons use Classic tuning.",
+            "categoryId": 201,
+            "sid": "ID_ARRIVAL_MICA_CLASSIC_BAD_COMPANY_2_LONG_DESCRIPTION"
+        },
+        {
             "localizedText": "PauseGameModeTime",
             "categoryId": 197,
             "sid": "ID_ARRIVAL_BLOCK_PAUSEROUNDTIME"
@@ -1369,6 +1374,11 @@
             "localizedText": "Enjoy this month's EA Play member reward",
             "categoryId": 201,
             "sid": "ID_ARRIVAL_EA_PLAY_LOGIN_REWARDS"
+        },
+        {
+            "localizedText": "Welcome Pack \u2013 Season 5",
+            "categoryId": 201,
+            "sid": "ID_ARRIVAL_FIRSTPARTY_CONTENTSOURCE_S5WELCOMEPACK"
         },
         {
             "localizedText": "Kills with the AC9",
@@ -4074,6 +4084,11 @@
             "localizedText": "Noble",
             "categoryId": 197,
             "sid": "ID_COS_WEP_SNIPERRIFLE__DENEL_NTW20_01_WSKIN0197"
+        },
+        {
+            "localizedText": "FNB - Blades n' Bullets",
+            "categoryId": 201,
+            "sid": "ID_ARRIVAL_FNB_BLADES_BULLETS"
         },
         {
             "localizedText": "Bleed Purple",
@@ -6946,6 +6961,11 @@
             "sid": "ID_ARRIVAL_STORE_BUNDLE_SLH2_DESCRIPTION"
         },
         {
+            "localizedText": "Head into battle fully equipped. Get the Battlefield 2042 Elite Upgrade* and catch up if you\u2019ve missed out on the four Specialists, 10 weapons, and 6 vehicles from the game\u2019s first year. Also enjoy the \u201cLost World\u201d Epic Cosmetic Bundle.",
+            "categoryId": 201,
+            "sid": "ID_ARRIVAL_ELITE_UPGRADE_DESCRIPTION"
+        },
+        {
             "localizedText": "Type 4 Heavy Suppressor",
             "categoryId": 197,
             "sid": "ID_WEAPONS_ATTACH_BARREL_NAME_10"
@@ -9576,6 +9596,11 @@
             "sid": "ID_COS_NOVEMBER_HEAD_02"
         },
         {
+            "localizedText": "Battlefield\u2122 2042 Elite Edition Upgrade",
+            "categoryId": 201,
+            "sid": "ID_ARRIVAL_ELITE_UPGRADE_TITLE"
+        },
+        {
             "localizedText": "Angel",
             "categoryId": 199,
             "sid": "ID_TEST_INDIA"
@@ -12101,6 +12126,11 @@
             "sid": "ID_ARRIVAL_BLOCK_RANDOMREAL"
         },
         {
+            "localizedText": "FNB - Last Defense",
+            "categoryId": 201,
+            "sid": "ID_ARRIVAL_FNB_LAST_DEFENSE"
+        },
+        {
             "localizedText": "Array",
             "categoryId": 197,
             "sid": "ID_ARRIVAL_MODBUILDER_TYPE_ARRAY"
@@ -14516,6 +14546,11 @@
             "sid": "ID_COS_WEP_RIFLE__AK12_01_WSKIN0035"
         },
         {
+            "localizedText": "1942 | CONQUEST | 32 v 32",
+            "categoryId": 201,
+            "sid": "ID_ARRIVAL_PLAYSTYLE_CONQUEST_1942_32V32_MODE"
+        },
+        {
             "localizedText": "Custom Conquest",
             "categoryId": 201,
             "sid": "ID_ARRIVAL_MUTATOR_2047132398_ENTRY_3"
@@ -15099,6 +15134,11 @@
             "localizedText": "Chemical Weathering",
             "categoryId": 197,
             "sid": "ID_COS_ECHO_BODY_09"
+        },
+        {
+            "localizedText": "Team Deathmatch in 2042 with increased damage and a limited HUD.",
+            "categoryId": 201,
+            "sid": "ID_ARRIVAL_EXP_2042TDM_HARDCORE_DESC"
         },
         {
             "localizedText": "TOW Missile",
@@ -16851,6 +16891,11 @@
             "sid": "ID_COS_CSKIN_CAMO_DEV_01_CD_ALPHA_BODY"
         },
         {
+            "localizedText": "The focused, infantry-only mode where the frontline is constantly on the move - now with increased movement speed to balance the lack of vehicles.",
+            "categoryId": 201,
+            "sid": "ID_ARRIVAL_PLAYSTYLE_BREAKTHROUGH_INFANTRY_2.0_DESC"
+        },
+        {
             "localizedText": "M98B",
             "categoryId": 198,
             "sid": "ID_MICA_ABILITY_M98B"
@@ -17231,9 +17276,19 @@
             "sid": "ID_COS_INDIA_SET_03"
         },
         {
+            "localizedText": "Season 5 Field Kit",
+            "categoryId": 201,
+            "sid": "ID_ARRIVAL_FIRSTPARTY_S5PERK"
+        },
+        {
             "localizedText": "All-terrain Tactician",
             "categoryId": 197,
             "sid": "ID_RECOGNITION_HW_03"
+        },
+        {
+            "localizedText": "Give your Specialist a sharp new look and put some coin in your pocket. The Battlefield 2042 Welcome Pack contains:\n\u2022 Epic \"Leviathan\" outfit for Angel\n\u2022 500 Battlefield Coins\nThis currency can be spent on other outfits, a Battle Pass, weapon skins, player cards, and more in the Store.\nAct now and get this great pack today!",
+            "categoryId": 201,
+            "sid": "ID_ARRIVAL_FIRSTPARTY_DESCRIPTION_WELCOMEPACK_S5"
         },
         {
             "localizedText": "Kills with the NVK-P125 at a distance of 30m or more",
@@ -17589,6 +17644,11 @@
             "localizedText": "CGF42",
             "categoryId": 197,
             "sid": "ID_COS_WEPCHRM_WCHARM0024"
+        },
+        {
+            "localizedText": "Outnumbered and outgunned, four Exodus specialists make their last stand against Wolff's militia, intent on killing Oz and ending the No-Pats' future. \n\nLast Defense is an asymmetrical David v. Goliath struggle where amped 2042 specialists face a horde of Battlefield 3 soldiers. Win with strength \u2013 or numbers.",
+            "categoryId": 201,
+            "sid": "ID_ARRIVAL_FNB_LAST_DEFENSE_DESC"
         },
         {
             "localizedText": "Carbon Series",
@@ -18199,6 +18259,11 @@
             "localizedText": "G3A3",
             "categoryId": 198,
             "sid": "ID_MICA_ABILITY_G3A3"
+        },
+        {
+            "localizedText": "Eliminate the opposing team with a with Sniper or Throwing knife. Which one will reign supreme?",
+            "categoryId": 201,
+            "sid": "ID_ARRIVAL_FNB_BLADES_BULLETS_DESC"
         },
         {
             "localizedText": "Incendiary Grenade",
@@ -21996,6 +22061,11 @@
             "sid": "ID_VEHICLES_WEAPON_NAME_2_HOMING_SHELL"
         },
         {
+            "localizedText": "Battlefield\u2122 2042 Welcome Pack \u2013 Season 5",
+            "categoryId": 201,
+            "sid": "ID_ARRIVAL_FIRSTPARTY_WELCOMEPACK_S5"
+        },
+        {
             "localizedText": "MP28",
             "categoryId": 197,
             "sid": "ID_RANK_MASTERY_MP17_NAME"
@@ -22601,6 +22671,11 @@
             "sid": "ID_COS_WEP_RIFLE__SLX_SPEAR_01_WSKIN0162"
         },
         {
+            "localizedText": "2042 TDM - HARDCORE",
+            "categoryId": 201,
+            "sid": "ID_ARRIVAL_EXP_2042TDM_HARDCORE"
+        },
+        {
             "localizedText": "Controls whether soldiers regenerate health over time after not taking damage.",
             "categoryId": 197,
             "sid": "ID_ARRIVAL_MUTATOR_BOOL_SOLDIER_REGEN_DESC"
@@ -22639,6 +22714,11 @@
             "localizedText": "Bad Company 2",
             "categoryId": 201,
             "sid": "ID_ARRIVAL_CATEGORIZATIONTAG_NAME_BC2"
+        },
+        {
+            "localizedText": "2042 | Rush | 12 v 36",
+            "categoryId": 201,
+            "sid": "ID_ARRIVAL_PLAYSTYLE_2042_RUSH_12V36_MODE"
         },
         {
             "localizedText": "Toxicant",
