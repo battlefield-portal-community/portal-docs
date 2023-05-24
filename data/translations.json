@@ -5071,14 +5071,14 @@
             "sid": "ID_COS_WCHARM0086_BASE_01"
         },
         {
-            "localizedText": "Scripted Damage",
-            "categoryId": 198,
-            "sid": "ID_MODBUILDER_SCRIPTED_DAMAGE"
-        },
-        {
             "localizedText": "Monsoon",
             "categoryId": 197,
             "sid": "ID_COS_CSKIN_CAMO_MARCOM_04__CD_LIMA_HEAD"
+        },
+        {
+            "localizedText": "Scripted Damage",
+            "categoryId": 198,
+            "sid": "ID_MODBUILDER_SCRIPTED_DAMAGE"
         },
         {
             "localizedText": "2042 | CUSTOM CONQUEST | 16 v 16",
@@ -7611,14 +7611,14 @@
             "sid": "ID_COS_ALPHA_SINGLEHEAD_06"
         },
         {
-            "localizedText": "Misc. Equipment - Artillery",
-            "categoryId": 201,
-            "sid": "ID_ARRIVAL_CATEGORIZATIONTAG_NAME_EQUIPMISCARTILLERY"
-        },
-        {
             "localizedText": "30mm Cannon",
             "categoryId": 197,
             "sid": "ID_VEHICLES_WEAPON_NAME_16_RWS_30MM"
+        },
+        {
+            "localizedText": "Misc. Equipment - Artillery",
+            "categoryId": 201,
+            "sid": "ID_ARRIVAL_CATEGORIZATIONTAG_NAME_EQUIPMISCARTILLERY"
         },
         {
             "localizedText": "Casper",
