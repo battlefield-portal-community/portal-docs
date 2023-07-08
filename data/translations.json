@@ -1,9 +1,4 @@
 {
-    "updateTime": [
-        {
-            "date": 1688459753
-        }
-    ],
     "localizedTexts": [
         {
             "localizedText": "Go on a world tour of Conquest and Rush across multiple 2042, BF3, BC2, and 1942 maps.",
@@ -3101,11 +3096,6 @@
             "sid": "ID_ARRIVAL_STORE_BUNDLE_E10_DESCRIPTION"
         },
         {
-            "localizedText": "M39 EMR",
-            "categoryId": 198,
-            "sid": "ID_MICA_ABILITY_M39EMR"
-        },
-        {
             "localizedText": "Miasma",
             "categoryId": 197,
             "sid": "ID_COS_CAMO__UNIVERSAL_THEMEDEVENTWEP_02_WEP"
@@ -3124,6 +3114,11 @@
             "localizedText": "20mm M693 Autocannon",
             "categoryId": 198,
             "sid": "ID_MICA_ABILITY_VEHICLE_20MM_M693_AUTOCANNON"
+        },
+        {
+            "localizedText": "M39 EMR",
+            "categoryId": 198,
+            "sid": "ID_MICA_ABILITY_M39EMR"
         },
         {
             "localizedText": "Extended Barrel",
@@ -20411,14 +20406,14 @@
             "sid": "ID_ARRIVAL_PRESET_BF3_CLASSIC_DESC"
         },
         {
-            "localizedText": "LATV4 Recon Mastery",
-            "categoryId": 197,
-            "sid": "ID_BADGE_MASTERY_HDTSTORM_NAME"
-        },
-        {
             "localizedText": "Factory",
             "categoryId": 197,
             "sid": "ID_COS_RM68_WSKINDEFAULT0001"
+        },
+        {
+            "localizedText": "LATV4 Recon Mastery",
+            "categoryId": 197,
+            "sid": "ID_BADGE_MASTERY_HDTSTORM_NAME"
         },
         {
             "localizedText": "Ground Breaker",
@@ -24529,6 +24524,11 @@
             "localizedText": "Exit Strategy",
             "categoryId": 197,
             "sid": "ID_COS_VEH_HELICOPTER__LITTLEBIRD_01_VSKIN0033"
+        }
+    ],
+    "updateTime": [
+        {
+            "date": 1688632129
         }
     ]
 }
