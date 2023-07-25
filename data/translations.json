@@ -1,4 +1,9 @@
 {
+    "updateTime": [
+        {
+            "date": 1690197102
+        }
+    ],
     "localizedTexts": [
         {
             "localizedText": "Go on a world tour of Conquest and Rush across multiple 2042, BF3, BC2, and 1942 maps.",
@@ -24544,11 +24549,6 @@
             "localizedText": "Exit Strategy",
             "sid": "ID_COS_VEH_HELICOPTER__LITTLEBIRD_01_VSKIN0033",
             "categoryId": 197
-        }
-    ],
-    "updateTime": [
-        {
-            "date": 1689938395
         }
     ]
 }
