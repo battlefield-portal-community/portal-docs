@@ -1,5 +1,4 @@
 from dotenv import load_dotenv
-from loguru import logger
 load_dotenv()
 
 if __name__ == '__main__':
@@ -18,6 +17,6 @@ if __name__ == '__main__':
         gen_json()
         print("::endgroup::")
     except Exception as why:
-        logger.error(why)
+        print(why)
         raise
 
