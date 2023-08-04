@@ -68,22 +68,11 @@ def get_block_names():
     except (TimeoutException, ProductionEnvironment):
         try:
             logger.debug('Not logged in....')
-            # driver.get("https://accounts.ea.com")  # needed as selenium only sets cookies for a domain when on it
-            # driver.add_cookie({'name': 'remid', 'value': os.getenv('REMID')})
-            # driver.add_cookie({'name': 'sid', 'value': os.getenv('SID')})
+            driver.get("https://accounts.ea.com")  # needed as selenium only sets cookies for a domain when on it
+            driver.add_cookie({'name': 'remid', 'value': os.getenv('REMID')})
+            driver.add_cookie({'name': 'sid', 'value': os.getenv('SID')})
             driver.get("https://portal.battlefield.com/login")
-            web_driver_wait(By.ID, 'email')
-            driver.find_element(By.ID, 'email').send_keys('bfportal.community@gmail.com')
-            logger.debug('Email set')
-            driver.find_element(By.ID, 'password').send_keys(os.getenv('EA_LOGIN_PASS'))
-            logger.debug('Password set')
-            driver.find_element(By.ID, 'logInBtn').click()
-            logger.debug('Clicked Login')
             try:
-                logger.debug('Waiting for login to complete')
-                wait = WebDriverWait(driver, 10)
-                wait.until(lambda d: d.current_url != "https://portal.battlefield.com/experiences")
-                logger.debug(f"at {driver.current_url}")
                 logger.debug('Waiting for playground to load')
                 driver.get(
                     'https://portal.battlefield.com/experience/rules?playgroundId=a56cf4d0-c713-11ec-b056-e3dbf89f52ce')
