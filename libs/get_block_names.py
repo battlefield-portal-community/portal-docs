@@ -71,7 +71,7 @@ def get_block_names():
             # driver.get("https://accounts.ea.com")  # needed as selenium only sets cookies for a domain when on it
             # driver.add_cookie({'name': 'remid', 'value': os.getenv('REMID')})
             # driver.add_cookie({'name': 'sid', 'value': os.getenv('SID')})
-            driver.get("https://ea.com/login")
+            driver.get("https://portal.battlefield.com/login")
             web_driver_wait(By.ID, 'email')
             driver.find_element(By.ID, 'email').send_keys('bfportal.community@gmail.com')
             logger.debug('Email set')
@@ -81,7 +81,8 @@ def get_block_names():
             logger.debug('Clicked Login')
             try:
                 logger.debug('Waiting for login to complete')
-                driver.implicitly_wait(5)
+                wait = WebDriverWait(driver, 10)
+                wait.until(lambda d: d.current_url != "https://portal.battlefield.com/experiences")
                 logger.debug(f"at {driver.current_url}")
                 logger.debug('Waiting for playground to load')
                 driver.get(
