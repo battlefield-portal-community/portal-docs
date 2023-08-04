@@ -76,6 +76,7 @@ def get_block_names():
             py_button = driver.find_element(By.CLASS_NAME, 'login-button')
             login_button = py_button.find_element(By.TAG_NAME, 'button')
             login_button.click()
+            logger.debug('Clicked Login...portal')
             web_driver_wait(By.ID, 'email')
             driver.find_element(By.ID, 'email').send_keys('bfportal.community@gmail.com')
             logger.debug('Email set')
@@ -87,9 +88,10 @@ def get_block_names():
                 logger.debug('Waiting for login to complete')
                 driver.implicitly_wait(5)
                 logger.debug(f"at {driver.current_url}")
+                logger.debug('Waiting for playground to load')
                 driver.get(
                     'https://portal.battlefield.com/experience/rules?playgroundId=a56cf4d0-c713-11ec-b056-e3dbf89f52ce')
-                logger.debug('Waiting for playground to load')
+                logger.debug(f"at {driver.current_url}")
                 web_driver_wait(By.CLASS_NAME, 'blocklyWorkspace')
                 logger.debug('Login Successful')
             except TimeoutException:
