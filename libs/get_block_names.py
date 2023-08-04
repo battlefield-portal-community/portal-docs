@@ -81,7 +81,8 @@ def get_block_names():
             logger.debug('Clicked Login')
             try:
                 logger.debug('Waiting for login to complete')
-                web_driver_wait(By.CLASS_NAME, 'experiences-wrapper')
+                driver.implicitly_wait(5)
+                logger.debug(f"at {driver.current_url}")
                 driver.get(
                     'https://portal.battlefield.com/experience/rules?playgroundId=a56cf4d0-c713-11ec-b056-e3dbf89f52ce')
                 logger.debug('Waiting for playground to load')
