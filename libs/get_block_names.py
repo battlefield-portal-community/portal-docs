@@ -77,6 +77,7 @@ def get_block_names():
             driver.find_element(By.ID, 'password').send_keys(os.getenv('EA_LOGIN_PASS'))
             driver.find_element(By.ID, 'logInBtn').click()
             try:
+                web_driver_wait(By.CLASS_NAME, 'experiences-wrapper')
                 driver.get(
                     'https://portal.battlefield.com/experience/rules?playgroundId=a56cf4d0-c713-11ec-b056-e3dbf89f52ce')
                 web_driver_wait(By.CLASS_NAME, 'blocklyWorkspace')
