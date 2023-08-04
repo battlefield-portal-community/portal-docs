@@ -1,5 +1,4 @@
 from dotenv import load_dotenv
-from urllib3.exceptions import MaxRetryError
 from loguru import logger
 load_dotenv()
 
@@ -18,7 +17,7 @@ if __name__ == '__main__':
         from gen_docs_json import gen_json  # import later as i18n needs to be populated with the latest changes
         gen_json()
         print("::endgroup::")
-    except MaxRetryError as why:
+    except Exception as why:
         logger.error(why)
         raise
 
