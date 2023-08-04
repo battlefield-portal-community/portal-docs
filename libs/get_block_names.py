@@ -87,11 +87,14 @@ def get_block_names():
         except TimeoutException:
             logger.debug('Login failed...')
             driver.quit()
+            sys.exit("Login failed... exiting")
         except ConnectionRefusedError:
             raise
     except ConnectionRefusedError:
         driver.quit()
         sys.exit("Unable to connect to portal.battlefield.com.. exiting")
+    except Exception:
+        raise
 
     time.sleep(5)
     blocks = {'blocks': ''}
