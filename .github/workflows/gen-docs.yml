@@ -10,8 +10,7 @@ jobs:
     name: Generate Json Docs
     runs-on: ubuntu-latest
     env:
-      REMID: ${{ secrets.REMID }}
-      SID: ${{ secrets.SID }}
+      EA_LOGIN_PASS: ${{ secrets.EA_LOGIN_PASS }}
     steps:
       - name: Check out this repo
         uses: actions/checkout@v3
