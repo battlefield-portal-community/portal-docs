@@ -1,9 +1,4 @@
 {
-    "updateTime": [
-        {
-            "date": 1690197102
-        }
-    ],
     "localizedTexts": [
         {
             "localizedText": "Go on a world tour of Conquest and Rush across multiple 2042, BF3, BC2, and 1942 maps.",
@@ -188,6 +183,11 @@
         {
             "localizedText": "Carbon Series",
             "sid": "ID_COS_VEH_ARMOREDCAR__PANHARD_CRAB_01_VSKIN0135",
+            "categoryId": 197
+        },
+        {
+            "localizedText": "Timeless",
+            "sid": "ID_PLAYERCARD_NAME_BACKGROUND296",
             "categoryId": 197
         },
         {
@@ -1456,6 +1456,11 @@
             "categoryId": 197
         },
         {
+            "localizedText": "Conquest on Hourglass on repeat. Deploy on the reworked map and fight to reclaim the shattered city of Doha, Qatar. Available for a limited time.",
+            "sid": "ID_ARRIVAL_PLAYSTYLE_CONQUEST_HOURGLASS_DESC",
+            "categoryId": 201
+        },
+        {
             "localizedText": "Dig deep and outlast the enemy. You\u2019ll be the gold standard on any mission.",
             "sid": "ID_ARRIVAL_STORE_BUNDLE_DESCRIPTION_E15",
             "categoryId": 201
@@ -2283,6 +2288,11 @@
         {
             "localizedText": "Smoke Launcher",
             "sid": "ID_VEHICLE_WEAPONS_VEHICLE_EQUIPMENT_3_SMOKE_LAUNCHER",
+            "categoryId": 197
+        },
+        {
+            "localizedText": "Cloaked Menace",
+            "sid": "ID_COS_VEH_ARMOREDCAR__JAGUAR_EBRC_01_VSKIN0329",
             "categoryId": 197
         },
         {
@@ -3126,6 +3136,11 @@
             "categoryId": 198
         },
         {
+            "localizedText": "Community Experience - Supremacy",
+            "sid": "ID_ARRIVAL_CE_SUPREMACY",
+            "categoryId": 201
+        },
+        {
             "localizedText": "M39 EMR",
             "sid": "ID_MICA_ABILITY_M39EMR",
             "categoryId": 198
@@ -3189,6 +3204,11 @@
             "localizedText": "Tier 1",
             "sid": "ID_COS_VEH_TANK__M1_ABRAMS_01_VSKIN0002",
             "categoryId": 197
+        },
+        {
+            "localizedText": "SUMMER SALE - Prime Ascendency",
+            "sid": "ID_ARRIVAL_STORE_BUNDLE_TITLE_SLH3_SUMMERSALE",
+            "categoryId": 201
         },
         {
             "localizedText": "Awarded for kills with all weapon classes",
@@ -3444,6 +3464,11 @@
             "localizedText": "NVK-P125",
             "sid": "ID_ABILITY_BPPISTOL",
             "categoryId": 197
+        },
+        {
+            "localizedText": "Breakthrough on Reclaimed & Hourglass. Make your mark on the world in new and revised Season 5 maps. Available for a limited time.",
+            "sid": "ID_ARRIVAL_PLAYSTYLE_BREAKTHROUGH_NEWDAWN_DESC",
+            "categoryId": 201
         },
         {
             "localizedText": "Winterkill",
@@ -4481,6 +4506,11 @@
             "categoryId": 197
         },
         {
+            "localizedText": "Echo State",
+            "sid": "U_DPF_WCHARM0122_BASE_01",
+            "categoryId": 197
+        },
+        {
             "localizedText": "Gray Muzzle",
             "sid": "ID_COS_WEP_SMG__PP19_BIZON_01_WSKIN0280",
             "categoryId": 197
@@ -4866,11 +4896,6 @@
             "categoryId": 197
         },
         {
-            "localizedText": "Eliminate the opposing team to win. Available for a limited time.",
-            "sid": "ID_ARRIVAL_PLAYSTYLE_TDM_LTM_DESC",
-            "categoryId": 201
-        },
-        {
             "localizedText": "Controls the default speed of AI Soldier movement, which can then be multiplied by other movement types. Values less than 1.0 slow down AI soldier movement, while values greater than 1.0 increase movement speed.",
             "sid": "ID_ARRIVAL_MUTATOR_FLOAT_AI_MOVEMENT_SPEED_DESC",
             "categoryId": 197
@@ -4879,6 +4904,11 @@
             "localizedText": "Controls whether the Minimap is displayed in the HUD. Also controls whether the Full Map is viewable.",
             "sid": "ID_ARRIVAL_MUTATOR_MISC_MINIMAP_DESC",
             "categoryId": 197
+        },
+        {
+            "localizedText": "Eliminate the opposing team to win. Available for a limited time.",
+            "sid": "ID_ARRIVAL_PLAYSTYLE_TDM_LTM_DESC",
+            "categoryId": 201
         },
         {
             "localizedText": "Old Growth",
@@ -5326,6 +5356,11 @@
             "categoryId": 197
         },
         {
+            "localizedText": "SUMMER SALE - Flash Freeze",
+            "sid": "ID_ARRIVAL_STORE_BUNDLE_TITLE_SB4A_SUMMERSALE",
+            "categoryId": 201
+        },
+        {
             "localizedText": "Dual 25mm Autocannons",
             "sid": "ID_MICA_ABILITY_VEHICLE_25MM_DUAL_AUTOCANNON",
             "categoryId": 198
@@ -5744,6 +5779,11 @@
             "localizedText": "Sidewalker",
             "sid": "ID_COS_CSKIN_CAMO_URBANSTRIKE_01__CD_JULIET_FUTURE_BODY",
             "categoryId": 197
+        },
+        {
+            "localizedText": "{0:s} - {1:s} - {2:s} - {3:d}/{4:d} players",
+            "sid": "ID_SOC_RP_GAMEMODEDETAILED",
+            "categoryId": 201
         },
         {
             "localizedText": "Misc. Equipment",
@@ -6966,6 +7006,11 @@
             "categoryId": 197
         },
         {
+            "localizedText": "Happy Birthday",
+            "sid": "ID_PLAYERCARD_NAME_BACKGROUND297",
+            "categoryId": 197
+        },
+        {
             "localizedText": "Spring Grenade",
             "sid": "ID_ABILITY_BOUNCINGBETTYGRENADE",
             "categoryId": 197
@@ -7169,6 +7214,11 @@
             "localizedText": "Bone White",
             "sid": "ID_COS_CAMO__UNIVERSAL_BATTLEPASSVEH_01_VEH",
             "categoryId": 197
+        },
+        {
+            "localizedText": "SUMMER SALE - Forsaken Sands",
+            "sid": "ID_ARRIVAL_STORE_BUNDLE_TITLE_E8_SUMMERSALE",
+            "categoryId": 201
         },
         {
             "localizedText": "M240B Mastery",
@@ -7528,6 +7578,11 @@
         {
             "localizedText": "D2",
             "sid": "ID_GAMEMODE_BREAKTHROUGH_OBJ_D2",
+            "categoryId": 197
+        },
+        {
+            "localizedText": "ID_COS_CAMO__RARE_FOREST_01_VEH_PLACEHOLDER",
+            "sid": "ID_COS_CAMO__RARE_FOREST_01_VEH",
             "categoryId": 197
         },
         {
@@ -9566,6 +9621,11 @@
             "categoryId": 197
         },
         {
+            "localizedText": "RECLAIMED",
+            "sid": "ID_LVL_SCARRED_NAME",
+            "categoryId": 197
+        },
+        {
             "localizedText": "Kills and Assists with the M5C Bolte",
             "sid": "ID_HWPROG_BOLTE_BASE_CRIT",
             "categoryId": 197
@@ -10451,6 +10511,11 @@
             "categoryId": 201
         },
         {
+            "localizedText": "Leviathans operate incognito and attack from the shadows. Make them know our name.",
+            "sid": "ID_ARRIVAL_STORE_BUNDLE_DESCRIPTION_T18",
+            "categoryId": 201
+        },
+        {
             "localizedText": "Existential Effect",
             "sid": "ID_COS_EVOLYS_WSKIN0576",
             "categoryId": 197
@@ -10676,6 +10741,11 @@
             "categoryId": 201
         },
         {
+            "localizedText": "SUMMER SALE - Air Americana",
+            "sid": "ID_ARRIVAL_STORE_BUNDLE_TITLE_SLH1_SUMMERSALE",
+            "categoryId": 201
+        },
+        {
             "localizedText": "Deathbringer",
             "sid": "ID_ARRIVAL_STORE_BUNDLE_E1_DEATHBRINGER",
             "categoryId": 201
@@ -10719,6 +10789,11 @@
             "localizedText": "Mastery Earned with the EMKV90-TOR",
             "sid": "ID_BADGE_MASTERY_EMKV90_T1_CRIT",
             "categoryId": 197
+        },
+        {
+            "localizedText": "Built by you \u2014 for you. Fight across unique Battlefield experiences made by our community. This week, play Supremacy, made by Recon Riptor.\n\nSupremacy is a hybrid game experience combining Conquest and Rush. Capture all objectives, then destroy all M-COMs to win.",
+            "sid": "ID_ARRIVAL_CE_SUPREMACY_DESC",
+            "categoryId": 201
         },
         {
             "localizedText": "Is Sprinting",
@@ -10813,6 +10888,11 @@
         {
             "localizedText": "Support Proficiency",
             "sid": "ID_ABILITY_SUPPORT_PROFICIENCY_PORTAL",
+            "categoryId": 197
+        },
+        {
+            "localizedText": "Ghost Killer",
+            "sid": "ID_COS_WEP_SIDEARM__DESERT_EAGLE_01_WSKIN0489",
             "categoryId": 197
         },
         {
@@ -10978,6 +11058,11 @@
         {
             "localizedText": "Damage Inflicted using Machine Guns with the M1A5 or T28",
             "sid": "ID_HWPROG_ABRAMS_T14_BES3_CRIT",
+            "categoryId": 197
+        },
+        {
+            "localizedText": "Veridian Flux",
+            "sid": "ID_COS_CV90R_VSKIN0327",
             "categoryId": 197
         },
         {
@@ -12091,6 +12176,11 @@
             "categoryId": 201
         },
         {
+            "localizedText": "SUMMER SALE - Heritage",
+            "sid": "ID_ARRIVAL_STORE_BUNDLE_TITLE_SLH7_SUMMERSALE",
+            "categoryId": 201
+        },
+        {
             "localizedText": "Mastery Earned with the M44",
             "sid": "ID_BADGE_MASTERY_TAURUS_T1_CRIT",
             "categoryId": 197
@@ -12218,6 +12308,11 @@
         {
             "localizedText": "Missions completed in Preseason Week 20",
             "sid": "ID_WEEKLY_S00W20L14_CRIT",
+            "categoryId": 197
+        },
+        {
+            "localizedText": "ID_COS_CAMO__RARE_FOREST_01_WEP_PLACEHOLDER",
+            "sid": "ID_COS_CAMO__RARE_FOREST_01_WEP",
             "categoryId": 197
         },
         {
@@ -12623,6 +12718,11 @@
         {
             "localizedText": "Get immediate access to Tier 0 rewards from the Season 3 Premium Battle Pass.",
             "sid": "ID_ARRIVAL_TIER_0_S3_DESC",
+            "categoryId": 201
+        },
+        {
+            "localizedText": "SUMMER SALE - Subsurface",
+            "sid": "ID_ARRIVAL_STORE_BUNDLE_TITLE_E15_SUMMERSALE",
             "categoryId": 201
         },
         {
@@ -13161,6 +13261,11 @@
             "categoryId": 197
         },
         {
+            "localizedText": "Hourglass Conquest",
+            "sid": "ID_ARRIVAL_PLAYSTYLE_CONQUEST_HOURGLASS",
+            "categoryId": 201
+        },
+        {
             "localizedText": "Trophy Hunter",
             "sid": "U_DPF_WCHARM0097_BASE_01",
             "categoryId": 197
@@ -13261,11 +13366,6 @@
             "categoryId": 197
         },
         {
-            "localizedText": "Kills with SMGs from a distance of 25m or less",
-            "sid": "ID_AWARD_HWUNLOCK_VSS_C1",
-            "categoryId": 197
-        },
-        {
             "localizedText": "Night Operations",
             "sid": "ID_COS_CSKIN_CAMO_URBAN_NIGHT_01_CD_JULIET_BODY",
             "categoryId": 197
@@ -13353,6 +13453,11 @@
         {
             "localizedText": "Pillar of Fire",
             "sid": "ID_PLAYERCARD_NAME_BACKGROUND042",
+            "categoryId": 197
+        },
+        {
+            "localizedText": "Offshore Protector",
+            "sid": "ID_COS_VEH_AIRPLANE__CONDOR_01_VSKIN0326",
             "categoryId": 197
         },
         {
@@ -14426,6 +14531,11 @@
             "categoryId": 197
         },
         {
+            "localizedText": "SUMMER SALE - Fire Team II",
+            "sid": "ID_ARRIVAL_STORE_BUNDLE_TITLE_V1_SUMMERSALE",
+            "categoryId": 201
+        },
+        {
             "localizedText": "Axis Interference",
             "sid": "ID_COS_OSCAR_HEAD_06",
             "categoryId": 197
@@ -15094,6 +15204,11 @@
             "localizedText": "Mauler",
             "sid": "ID_COS_WEP_SMG__PP19_BIZON_01_WSKIN0058",
             "categoryId": 197
+        },
+        {
+            "localizedText": "Hourglass Breakthrough",
+            "sid": "ID_ARRIVAL_PLAYSTYLE_BREAKTHROUGH_HOURGLASS",
+            "categoryId": 201
         },
         {
             "localizedText": "Vehicle Modifiers are different per-team.",
@@ -16886,6 +17001,11 @@
             "categoryId": 197
         },
         {
+            "localizedText": "SUMMER SALE - Dry Dunes",
+            "sid": "ID_ARRIVAL_STORE_BUNDLE_TITLE_SLA10_SUMMERSALE",
+            "categoryId": 201
+        },
+        {
             "localizedText": "Gas",
             "sid": "ID_ARRIVAL_MODBUILDER_SELECTIONLISTS_PLAYERDEATHTYPES_GAS",
             "categoryId": 197
@@ -17316,6 +17436,11 @@
             "categoryId": 197
         },
         {
+            "localizedText": "Breakthrough on Hourglass on repeat. Deploy on the reworked map and fight to reclaim the shattered city of Doha, Qatar. Available for a limited time.",
+            "sid": "ID_ARRIVAL_PLAYSTYLE_BREAKTHROUGH_HOURGLASS_DESC",
+            "categoryId": 201
+        },
+        {
             "localizedText": "Become masters of the sky and secure the airspace using ample Jets and Helicopters.",
             "sid": "ID_ARRIVAL_EXP_AIR_SUPERIORITY_DESC",
             "categoryId": 201
@@ -17421,6 +17546,11 @@
             "categoryId": 197
         },
         {
+            "localizedText": "SUMMER SALE - Shapeshifter",
+            "sid": "ID_ARRIVAL_STORE_BUNDLE_TITLE_SLS11_SUMMERSALE",
+            "categoryId": 201
+        },
+        {
             "localizedText": "GP-30 Buck",
             "sid": "ID_MICA_ABILITY_UBR_GP30SGN",
             "categoryId": 198
@@ -17454,6 +17584,11 @@
             "localizedText": "Panorama Cruiser",
             "sid": "ID_COS_VEH_AIRPLANE__SU57_01_VSKIN0082",
             "categoryId": 197
+        },
+        {
+            "localizedText": "Sniping in Battlefield is always challenging, but even more so in this experience. Do you have what it takes to lead your team to victory. By Privitalino.",
+            "sid": "ID_ARRIVAL_EXP_SCOUTBYPRIV_DESC",
+            "categoryId": 201
         },
         {
             "localizedText": "Flag",
@@ -17641,6 +17776,11 @@
             "categoryId": 201
         },
         {
+            "localizedText": "SUMMER SALE - Caretaker",
+            "sid": "ID_ARRIVAL_STORE_BUNDLE_TITLE_SLS16_SUMMERSALE",
+            "categoryId": 201
+        },
+        {
             "localizedText": "Slice and dice your way to the top by eliminating the opposing team using only Throwing Knives!",
             "sid": "ID_ARRIVAL_FNB_CUTTING_EDGE_DESC",
             "categoryId": 201
@@ -17813,6 +17953,11 @@
         {
             "localizedText": "Controlled Burn",
             "sid": "ID_COS_JULIET_BODY_08",
+            "categoryId": 197
+        },
+        {
+            "localizedText": "ID_COS_CAMO__RARE_FOREST_01_VEH_AIR_PLACEHOLDER",
+            "sid": "ID_COS_CAMO__RARE_FOREST_01_VEH_AIR",
             "categoryId": 197
         },
         {
@@ -18224,6 +18369,11 @@
             "localizedText": "Solenoid",
             "sid": "ID_COS_WEP_CROSSBOW__COBRAR9_01_WSKIN0475",
             "categoryId": 197
+        },
+        {
+            "localizedText": "Hourglass: Burj Alsamaha",
+            "sid": "ID_ARRIVAL_MAP_HOURGLASS_SMALL_REWORK",
+            "categoryId": 201
         },
         {
             "localizedText": "BC2",
@@ -18751,6 +18901,11 @@
             "categoryId": 197
         },
         {
+            "localizedText": "Gnasher",
+            "sid": "ID_COS_PATRIA_VSKIN0330",
+            "categoryId": 197
+        },
+        {
             "localizedText": "Is Defusing",
             "sid": "ID_ARRIVAL_MODBUILDER_SELECTIONLISTS_MCOMSTATEBOOL_ISDEFUSING",
             "categoryId": 197
@@ -18988,6 +19143,11 @@
         {
             "localizedText": "Squad Ping",
             "sid": "ID_ARRIVAL_MODBUILDER_SELECTIONLISTS_WORLDICONIMAGES_SQUADPING",
+            "categoryId": 197
+        },
+        {
+            "localizedText": "Creeper",
+            "sid": "ID_COS_VEH_ARMOREDCAR__JAGUAR_EBRC_01_VSKIN0328",
             "categoryId": 197
         },
         {
@@ -20271,6 +20431,11 @@
             "categoryId": 197
         },
         {
+            "localizedText": "New Dawn Breakthrough",
+            "sid": "ID_ARRIVAL_PLAYSTYLE_BREAKTHROUGH_NEWDAWN",
+            "categoryId": 201
+        },
+        {
             "localizedText": "Fight for dominance over a single objective with an armada of Tanks and IFVs.",
             "sid": "ID_ARRIVAL_PRESET_TANK_SUPERIORITY_DESC",
             "categoryId": 201
@@ -20764,11 +20929,6 @@
             "localizedText": "SineFromDegrees",
             "sid": "ID_ARRIVAL_BLOCK_SINEFROMDEGREES",
             "categoryId": 197
-        },
-        {
-            "localizedText": "Hourglass: Al Salam Park",
-            "sid": "ID_ARRIVAL_MAP_HOURGLASS_SMALL",
-            "categoryId": 201
         },
         {
             "localizedText": "Combat and Intel Ribbons Earned",
@@ -21496,6 +21656,11 @@
             "categoryId": 197
         },
         {
+            "localizedText": "Summer Sale",
+            "sid": "ID_ARRIVAL_BUNDLE_SS23_TITLE",
+            "categoryId": 201
+        },
+        {
             "localizedText": "2042 | VEHICLE SUPERIORITY | 32 v 32",
             "sid": "ID_ARRIVAL_EXP_RAMPAGE_MODE",
             "categoryId": 201
@@ -21564,6 +21729,11 @@
             "localizedText": "Blitzen",
             "sid": "ID_COS_CAMO__CELEBRATION_CHRISTMAS_02_VEH",
             "categoryId": 197
+        },
+        {
+            "localizedText": "S.C.O.U.T.",
+            "sid": "ID_ARRIVAL_EXP_SCOUTBYPRIV",
+            "categoryId": 201
         },
         {
             "localizedText": "Light Tanks",
@@ -24276,6 +24446,11 @@
             "categoryId": 197
         },
         {
+            "localizedText": "Alias",
+            "sid": "ID_ARRIVAL_STORE_BUNDLE_TITLE_T18",
+            "categoryId": 201
+        },
+        {
             "localizedText": "1942 ENGINEER",
             "sid": "ID_MICA_KIT_GRAFTON_ENGINEER",
             "categoryId": 198
@@ -24549,6 +24724,11 @@
             "localizedText": "Exit Strategy",
             "sid": "ID_COS_VEH_HELICOPTER__LITTLEBIRD_01_VSKIN0033",
             "categoryId": 197
+        }
+    ],
+    "updateTime": [
+        {
+            "date": 1691174126
         }
     ]
 }
