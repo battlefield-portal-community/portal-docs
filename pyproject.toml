@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "portal-docs"
+version = "1.0.0"
+description = ""
+authors = ["p0lygun <solankivibhakar82@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+loguru = "^0.7.0"
+python-box = "^7.0.1"
+selenium = "^4.11.2"
+webdriver-manager = "^4.0.0"
+grequests = "^0.7.0"
+python-dotenv = "^1.0.0"
+requests = "^2.31.0"
+
+
+[tool.poetry.group.dev.dependencies]
+aiohttp = "^3.8.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -2,9 +2,7 @@ import os
 
 import requests
 from selenium import webdriver
-# from selenium.webdriver.chrome.service import Service as ChromiumService
 from webdriver_manager.chrome import ChromeDriverManager
-from webdriver_manager.core.utils import ChromeType
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service
 
@@ -19,12 +17,12 @@ import json
 import sys
 from helper import project_dir
 
+
 class ProductionEnvironment(Exception):
     pass
 
 
 def get_block_names():
-
     DEBUG = os.getenv("DEBUG", False)
 
     chrome_service = Service(ChromeDriverManager().install())
@@ -47,12 +45,10 @@ def get_block_names():
 
     driver = webdriver.Chrome(service=chrome_service, options=chrome_options)
 
-
     def web_driver_wait(by: By, element: str, time: int = 10) -> WebElement:
         return WebDriverWait(driver, time).until(
             EC.presence_of_element_located((by, element))
         )
-
 
     # workflow
     # Check if logged-in, If not > log in
@@ -72,10 +68,14 @@ def get_block_names():
     except (TimeoutException, ProductionEnvironment):
         try:
             logger.debug('Not logged in....')
-            driver.get("https://accounts.ea.com")  # needed as selenium only sets cookies for a domain when on it
-            driver.add_cookie({'name': 'remid', 'value': os.getenv('REMID')})
-            driver.add_cookie({'name': 'sid', 'value': os.getenv('SID')})
+            # driver.get("https://accounts.ea.com")  # needed as selenium only sets cookies for a domain when on it
+            # driver.add_cookie({'name': 'remid', 'value': os.getenv('REMID')})
+            # driver.add_cookie({'name': 'sid', 'value': os.getenv('SID')})
             driver.get("https://portal.battlefield.com/login")
+            web_driver_wait(By.ID, 'email')
+            driver.find_element(By.ID, 'email').send_keys('bfportal.community@gmail.com')
+            driver.find_element(By.ID, 'password').send_keys(os.getenv('EA_LOGIN_PASS'))
+            driver.find_element(By.ID, 'logInBtn').click()
             try:
                 driver.get(
                     'https://portal.battlefield.com/experience/rules?playgroundId=a56cf4d0-c713-11ec-b056-e3dbf89f52ce')
@@ -138,5 +138,6 @@ def get_block_names():
 
 if __name__ == '__main__':
     from dotenv import load_dotenv
+
     load_dotenv()
     get_block_names()
