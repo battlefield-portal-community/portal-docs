@@ -1,7 +1,7 @@
 {
     "updateTime": [
         {
-            "date": 1692797772
+            "date": 1693243040
         }
     ],
     "localizedTexts": [
@@ -24517,13 +24517,13 @@
         },
         {
             "categoryId": 197,
-            "sid": "ID_COS_CSKIN_CAMO_NAVY_DIGICAMO_01_CD_DELTA_HEAD",
-            "localizedText": "Navalized"
+            "sid": "ID_ARRIVAL_MODBUILDER_TYPE_VARIABLE",
+            "localizedText": "Variable"
         },
         {
             "categoryId": 197,
-            "sid": "ID_ARRIVAL_MODBUILDER_TYPE_VARIABLE",
-            "localizedText": "Variable"
+            "sid": "ID_COS_CSKIN_CAMO_NAVY_DIGICAMO_01_CD_DELTA_HEAD",
+            "localizedText": "Navalized"
         },
         {
             "categoryId": 197,
