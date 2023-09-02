@@ -217,7 +217,7 @@
         },
         {
             "sid": "ID_WEAPONS_ATTACH_MUNITION_NAME_6",
-            "localizedText": "Factory Mounts",
+            "localizedText": "High-Power",
             "categoryId": 197
         },
         {
@@ -25143,7 +25143,7 @@
     ],
     "updateTime": [
         {
-            "date": 1693306500
+            "date": 1693595801
         }
     ]
 }
