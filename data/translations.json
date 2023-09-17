@@ -1,7 +1,8 @@
 {
-    "updateTime": [
+    "timestamp": [
         {
-            "date": 1693827208
+            "seconds": 1694533478,
+            "nanos": null
         }
     ],
     "localizedTexts": [
@@ -22824,6 +22825,11 @@
             "sid": "ID_COS_CHARLIE_BODY_14",
             "localizedText": "Archangel",
             "categoryId": 197
+        },
+        {
+            "sid": "ID_ARRIVAL_PLAYSTYLE_CONQUEST_SMALL_DESC",
+            "localizedText": "The All-Out-War experience at the core of Battlefield. Conquest features large-scale battles to secure strategic global locations across maps from Battlefield 2042, Battlefield 3, and Battlefield: Bad Company 2. \n\nFight directly, or hold strategic locations to bleed the opposing force until they run out of reinforcements.",
+            "categoryId": 201
         },
         {
             "sid": "ID_ARRIVAL_MODBUILDER_SELECTIONLISTS_INVENTORYSLOTS_MELEEWEAPON",
