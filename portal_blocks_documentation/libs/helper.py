@@ -11,7 +11,6 @@ project_root = project_dir.parent
 class CleanDoc(TypedDict):
     block: str
     summary: str
-    extra: str
     inputs: Optional[list]
     output: Optional[list]
 
