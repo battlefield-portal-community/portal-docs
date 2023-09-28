@@ -1,7 +1,7 @@
 import json
 import shutil
 
-from helper import CleanDoc, project_dir, project_root
+from .libs.helper import CleanDoc, project_dir, project_root
 from loguru import logger
 
 build_base_dir = project_root / "hugo"

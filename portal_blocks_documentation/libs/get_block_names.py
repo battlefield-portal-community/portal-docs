@@ -15,13 +15,14 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
 from webdriver_manager.chrome import ChromeDriverManager
 
-from .helper import project_dir
+from .helper import project_dir, skip_function_if_env
 
 
 class ProductionEnvironment(Exception):
     pass
 
 
+@skip_function_if_env("SKIP_GETTING_BLOCK_NAMES")
 def get_block_names():
     DEBUG = os.getenv("DEBUG", False)
 

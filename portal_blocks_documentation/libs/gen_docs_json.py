@@ -7,7 +7,7 @@ import box
 from box import Box
 from loguru import logger
 
-from .helper import project_dir
+from .helper import project_dir, skip_function_if_env
 
 
 class CleanDoc(TypedDict):
@@ -62,6 +62,7 @@ def gen_text(doc: str, rule_block: bool = False) -> str:
 # translations = requests.get("https://api.gametools.network/bf2042/translations/").json()['localizedTexts']
 
 
+@skip_function_if_env("SKIP_GEN_DOCS_JSON")
 def gen_json():
     populate_i18n()
 

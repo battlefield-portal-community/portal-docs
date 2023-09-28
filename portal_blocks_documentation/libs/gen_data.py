@@ -3,10 +3,11 @@ import json
 import grequests
 from loguru import logger
 
-from .helper import project_dir
+from .helper import project_dir, skip_function_if_env
 from .save_translations import save_translations_json
 
 
+@skip_function_if_env("SKIP_RAW_DOCS")
 def gen_data():
     save_translations_json()
     with open(project_dir / "data" / "enabled_blocks.json") as file:
