@@ -144,3 +144,4 @@ dmypy.json
 .idea/
 
 libs/login.py
+docs/portal_blocks/blocks/*
