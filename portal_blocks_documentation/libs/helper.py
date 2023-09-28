@@ -1,7 +1,8 @@
 import pathlib
-from typing import TypedDict, Optional
+from typing import Optional, TypedDict
 
-project_dir = pathlib.Path(__file__).parents[1]
+project_dir = pathlib.Path(__file__).parent.parent
+project_root = project_dir.parent
 
 
 class CleanDoc(TypedDict):

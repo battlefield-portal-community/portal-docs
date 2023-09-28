@@ -1,17 +1,16 @@
 import json
 
 import grequests
-
 from loguru import logger
 
-from helper import project_dir
-from save_translations import save_translations_json
+from .helper import project_dir
+from .save_translations import save_translations_json
 
 
 def gen_data():
     save_translations_json()
     with open(project_dir / "data" / "enabled_blocks.json") as file:
-        blocks = json.load(file)['blocks']
+        blocks = json.load(file)["blocks"]
     with open(project_dir / "data" / "rules_editor_version") as file:
         ver = json.load(file)
 
@@ -27,11 +26,11 @@ def gen_data():
     invalid_blocks = []
     logger.debug("Saving Raw Blocks")
     raw_docs_dir = project_dir / "data" / "raw_docs"
-    for file in raw_docs_dir.glob('*'):
+    for file in raw_docs_dir.glob("*"):
         file.unlink()
 
     for req, block in zip(rs, blocks):
-        with open(raw_docs_dir / f"{block}.md", 'w') as file:
+        with open(raw_docs_dir / f"{block}.md", "w") as file:
             text = req.text
             if "<!DOCTYPE html>" not in text[0:20]:
                 file.write(text)
@@ -42,5 +41,5 @@ def gen_data():
     logger.debug("Done")
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     gen_data()
