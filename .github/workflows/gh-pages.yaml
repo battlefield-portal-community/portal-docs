@@ -45,7 +45,7 @@ jobs:
 
 
       - name: Generate Markdown
-        run:  python -m portal_blocks_documentation.libs.gen_docs
+        run:  python -m portal_blocks_documentation.gen_docs
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
