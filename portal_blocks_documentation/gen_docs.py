@@ -16,6 +16,7 @@ for file in build_dir.glob("*.md"):
     if file.stem != "_index":
         file.unlink()
 
+#geekdocFilePath: portal_blocks/blocks/{file.stem}.md
 
 for file in (project_dir / "docs_json").glob("*.json"):
     with file.open("r") as JSON_FILE, (blocks_dir / f"{file.stem}.md").open(
@@ -25,6 +26,7 @@ for file in (project_dir / "docs_json").glob("*.json"):
             f"""---
 title: "{file.stem}"
 draft: false
+geekdocFilePath: false
 ---"""
         ]
         doc_json: CleanDoc = json.loads(JSON_FILE.read())

@@ -12,6 +12,7 @@ pygmentsUseClasses = true
 pygmentsCodeFences = true
 disablePathToLower = true
 
+
 [markup]
   [markup.goldmark.renderer]
     # Needed for mermaid shortcode
@@ -36,3 +37,6 @@ target = "./content/blocks"
 
 [params]
     geekdocLogo= "/images/bf_portal_logo_bc.png"
+    geekdocFilePath= "content"
+    geekdocRepo = "https://github.com/battlefield-portal-community/portal-docs"
+    geekdocEditPath = "edit/main/docs"
