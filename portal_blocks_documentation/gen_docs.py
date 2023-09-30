@@ -13,7 +13,8 @@ extra_docs_dir.mkdir(exist_ok=True)
 
 # delete all files if dir exists
 for file in build_dir.glob("*.md"):
-    file.unlink()
+    if file.stem != "_index":
+        file.unlink()
 
 
 for file in (project_dir / "docs_json").glob("*.json"):
