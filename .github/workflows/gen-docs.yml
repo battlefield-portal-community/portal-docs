@@ -7,7 +7,12 @@ on:
     branches:
       - main
     paths:
-      - 'docs/portal_blocks/**'
+      - docs/portal_blocks/**
+
+concurrency:
+  group: docs-ci-${{ github.ref }}
+  cancel-in-progress: true
+
 
 jobs:
 

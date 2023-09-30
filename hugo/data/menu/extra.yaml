@@ -1,6 +1,12 @@
 ---
 header:
+  - name: Discord
+    ref: https://discord.bfportal.gg
+    icon: discord
+    external: true
+
   - name: GitHub
     ref: https://github.com/battlefield-portal-community/portal-docs
     icon: gdoc_github
     external: true
+

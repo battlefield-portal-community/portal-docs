@@ -5,11 +5,16 @@ on:
     branches:
       - main
     paths:
-      - docs_json/**  # Set a branch that will trigger a deployment
+      - docs/**  # Set a branch that will trigger a deployment
       - hugo/**
       - .github/workflows/gh-pages.yaml
 
   workflow_dispatch:
+
+concurrency:
+  group: docs-ci-${{ github.ref }}
+  cancel-in-progress: true
+
 
 jobs:
   deploy:
