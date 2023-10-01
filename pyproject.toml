@@ -5,6 +5,8 @@ description = ""
 authors = ["p0lygun <solankivibhakar82@gmail.com>"]
 license = "MIT"
 readme = "README.md"
+packages = [{ include = "portal_blocks_documentation"}]
+
 
 [tool.poetry.dependencies]
 python = "^3.11"
@@ -21,6 +23,9 @@ black = "^23.9.1"
 
 [tool.poetry.group.dev.dependencies]
 aiohttp = "^3.8.5"
+
+[tool.poetry.scripts]
+gen-docs = "portal_blocks_documentation.docs:generate"
 
 [build-system]
 requires = ["poetry-core"]

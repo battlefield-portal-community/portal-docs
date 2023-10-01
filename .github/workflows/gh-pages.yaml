@@ -53,7 +53,7 @@ jobs:
       - name: Generate Markdown
         run:  |
           source .venv/bin/activate
-          python -m portal_blocks_documentation.gen_docs
+          poetry run gen-docs
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2

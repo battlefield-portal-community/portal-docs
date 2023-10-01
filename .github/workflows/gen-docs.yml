@@ -1,4 +1,4 @@
-name: Generate Json Docs
+name: Generate
 on:
   workflow_dispatch:
   schedule:
@@ -7,7 +7,7 @@ on:
     branches:
       - main
     paths:
-      - docs/portal_blocks/**
+      - 'portal_blocks_documentation/**'
 
 concurrency:
   group: docs-ci-${{ github.ref }}
