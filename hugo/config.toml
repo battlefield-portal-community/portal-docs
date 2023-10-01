@@ -31,7 +31,7 @@ target = "./content/"
 excludeFiles = ["portal_blocks/**"]
 
 [[module.mounts]]
-source = "../docs/portal_blocks/blocks"
+source = "../docs/portal_blocks"
 target = "./content/blocks"
 
 
