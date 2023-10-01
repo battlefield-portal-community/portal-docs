@@ -1,5 +1,6 @@
 ---
 title: SetPlayerSoldier
 draft: false
-geekdocFilePath: false
----# SetPlayerSoldier
+geekdocFilePath: portal_blocks/SetPlayerSoldier/_index.md
+---
+# SetPlayerSoldier

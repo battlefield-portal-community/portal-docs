@@ -1,5 +1,6 @@
 ---
 title: RaiseToPower
 draft: false
-geekdocFilePath: false
----# RaiseToPower
+geekdocFilePath: portal_blocks/RaiseToPower/_index.md
+---
+# RaiseToPower

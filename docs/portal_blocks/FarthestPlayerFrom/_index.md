@@ -1,5 +1,6 @@
 ---
 title: FarthestPlayerFrom
 draft: false
-geekdocFilePath: false
----# FarthestPlayerFrom
+geekdocFilePath: portal_blocks/FarthestPlayerFrom/_index.md
+---
+# FarthestPlayerFrom

@@ -1,5 +1,6 @@
 ---
 title: UndeployAllPlayers
 draft: false
-geekdocFilePath: false
----# UndeployAllPlayers
+geekdocFilePath: portal_blocks/UndeployAllPlayers/_index.md
+---
+# UndeployAllPlayers

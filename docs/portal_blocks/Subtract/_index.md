@@ -1,5 +1,6 @@
 ---
 title: Subtract
 draft: false
-geekdocFilePath: false
----# Subtract
+geekdocFilePath: portal_blocks/Subtract/_index.md
+---
+# Subtract

@@ -1,5 +1,6 @@
 ---
 title: VehicleTypesItem
 draft: false
-geekdocFilePath: false
----# VehicleTypesItem
+geekdocFilePath: portal_blocks/VehicleTypesItem/_index.md
+---
+# VehicleTypesItem

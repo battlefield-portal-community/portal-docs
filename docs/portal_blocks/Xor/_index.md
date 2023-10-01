@@ -1,5 +1,6 @@
 ---
 title: Xor
 draft: false
-geekdocFilePath: false
----# Xor
+geekdocFilePath: portal_blocks/Xor/_index.md
+---
+# Xor

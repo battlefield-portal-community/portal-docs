@@ -1,5 +1,6 @@
 ---
 title: Resupply
 draft: false
-geekdocFilePath: false
----# Resupply
+geekdocFilePath: portal_blocks/Resupply/_index.md
+---
+# Resupply

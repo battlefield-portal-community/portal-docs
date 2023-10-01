@@ -1,5 +1,6 @@
 ---
 title: SetRedeployTime
 draft: false
-geekdocFilePath: false
----# SetRedeployTime
+geekdocFilePath: portal_blocks/SetRedeployTime/_index.md
+---
+# SetRedeployTime

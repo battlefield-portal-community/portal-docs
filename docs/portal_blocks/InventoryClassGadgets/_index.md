@@ -1,5 +1,6 @@
 ---
 title: InventoryClassGadgets
 draft: false
-geekdocFilePath: false
----# InventoryClassGadgets
+geekdocFilePath: portal_blocks/InventoryClassGadgets/_index.md
+---
+# InventoryClassGadgets

@@ -1,5 +1,6 @@
 ---
 title: PlayerSoldiers
 draft: false
-geekdocFilePath: false
----# PlayerSoldiers
+geekdocFilePath: portal_blocks/PlayerSoldiers/_index.md
+---
+# PlayerSoldiers

@@ -1,5 +1,6 @@
 ---
 title: GetAllVehicles
 draft: false
-geekdocFilePath: false
----# GetAllVehicles
+geekdocFilePath: portal_blocks/GetAllVehicles/_index.md
+---
+# GetAllVehicles

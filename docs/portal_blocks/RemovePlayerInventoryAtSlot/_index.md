@@ -1,5 +1,6 @@
 ---
 title: RemovePlayerInventoryAtSlot
 draft: false
-geekdocFilePath: false
----# RemovePlayerInventoryAtSlot
+geekdocFilePath: portal_blocks/RemovePlayerInventoryAtSlot/_index.md
+---
+# RemovePlayerInventoryAtSlot

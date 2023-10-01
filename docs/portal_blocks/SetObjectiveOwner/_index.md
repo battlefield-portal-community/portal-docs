@@ -1,5 +1,6 @@
 ---
 title: SetObjectiveOwner
 draft: false
-geekdocFilePath: false
----# SetObjectiveOwner
+geekdocFilePath: portal_blocks/SetObjectiveOwner/_index.md
+---
+# SetObjectiveOwner

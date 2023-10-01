@@ -1,5 +1,6 @@
 ---
 title: SineFromRadians
 draft: false
-geekdocFilePath: false
----# SineFromRadians
+geekdocFilePath: portal_blocks/SineFromRadians/_index.md
+---
+# SineFromRadians

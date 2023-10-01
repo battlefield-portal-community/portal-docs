@@ -1,5 +1,6 @@
 ---
 title: GetPlayersOnPoint
 draft: false
-geekdocFilePath: false
----# GetPlayersOnPoint
+geekdocFilePath: portal_blocks/GetPlayersOnPoint/_index.md
+---
+# GetPlayersOnPoint

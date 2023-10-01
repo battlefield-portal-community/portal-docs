@@ -1,5 +1,6 @@
 ---
 title: IsCurrentMap
 draft: false
-geekdocFilePath: false
----# IsCurrentMap
+geekdocFilePath: portal_blocks/IsCurrentMap/_index.md
+---
+# IsCurrentMap

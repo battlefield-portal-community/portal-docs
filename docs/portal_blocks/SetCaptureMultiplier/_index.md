@@ -1,5 +1,6 @@
 ---
 title: SetCaptureMultiplier
 draft: false
-geekdocFilePath: false
----# SetCaptureMultiplier
+geekdocFilePath: portal_blocks/SetCaptureMultiplier/_index.md
+---
+# SetCaptureMultiplier

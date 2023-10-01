@@ -1,5 +1,6 @@
 ---
 title: Wait
 draft: false
-geekdocFilePath: false
----# Wait
+geekdocFilePath: portal_blocks/Wait/_index.md
+---
+# Wait

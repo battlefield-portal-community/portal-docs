@@ -1,5 +1,6 @@
 ---
 title: Vehicles
 draft: false
-geekdocFilePath: false
----# Vehicles
+geekdocFilePath: portal_blocks/Vehicles/_index.md
+---
+# Vehicles

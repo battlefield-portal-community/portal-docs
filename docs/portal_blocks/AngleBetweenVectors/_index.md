@@ -1,5 +1,6 @@
 ---
 title: AngleBetweenVectors
 draft: false
-geekdocFilePath: false
----# AngleBetweenVectors
+geekdocFilePath: portal_blocks/AngleBetweenVectors/_index.md
+---
+# AngleBetweenVectors

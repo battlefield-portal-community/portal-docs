@@ -1,5 +1,6 @@
 ---
 title: Control_If
 draft: false
-geekdocFilePath: false
----# Control_If
+geekdocFilePath: portal_blocks/Control_If/_index.md
+---
+# Control_If

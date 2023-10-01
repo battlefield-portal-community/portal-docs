@@ -1,5 +1,6 @@
 ---
 title: Multiply
 draft: false
-geekdocFilePath: false
----# Multiply
+geekdocFilePath: portal_blocks/Multiply/_index.md
+---
+# Multiply

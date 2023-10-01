@@ -1,5 +1,6 @@
 ---
 title: IsVictimDamageType
 draft: false
-geekdocFilePath: false
----# IsVictimDamageType
+geekdocFilePath: portal_blocks/IsVictimDamageType/_index.md
+---
+# IsVictimDamageType

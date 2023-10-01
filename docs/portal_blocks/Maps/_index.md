@@ -1,5 +1,6 @@
 ---
 title: Maps
 draft: false
-geekdocFilePath: false
----# Maps
+geekdocFilePath: portal_blocks/Maps/_index.md
+---
+# Maps

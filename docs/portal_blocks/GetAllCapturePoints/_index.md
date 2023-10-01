@@ -1,5 +1,6 @@
 ---
 title: GetAllCapturePoints
 draft: false
-geekdocFilePath: false
----# GetAllCapturePoints
+geekdocFilePath: portal_blocks/GetAllCapturePoints/_index.md
+---
+# GetAllCapturePoints

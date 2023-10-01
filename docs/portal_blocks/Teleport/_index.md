@@ -1,5 +1,6 @@
 ---
 title: Teleport
 draft: false
-geekdocFilePath: false
----# Teleport
+geekdocFilePath: portal_blocks/Teleport/_index.md
+---
+# Teleport

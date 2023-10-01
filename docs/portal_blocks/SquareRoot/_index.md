@@ -1,5 +1,6 @@
 ---
 title: SquareRoot
 draft: false
-geekdocFilePath: false
----# SquareRoot
+geekdocFilePath: portal_blocks/SquareRoot/_index.md
+---
+# SquareRoot

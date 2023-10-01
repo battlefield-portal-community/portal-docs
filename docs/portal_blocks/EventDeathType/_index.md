@@ -1,5 +1,6 @@
 ---
 title: EventDeathType
 draft: false
-geekdocFilePath: false
----# EventDeathType
+geekdocFilePath: portal_blocks/EventDeathType/_index.md
+---
+# EventDeathType

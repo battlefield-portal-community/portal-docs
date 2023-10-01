@@ -1,5 +1,6 @@
 ---
 title: IsVehicleSeatOccupied
 draft: false
-geekdocFilePath: false
----# IsVehicleSeatOccupied
+geekdocFilePath: portal_blocks/IsVehicleSeatOccupied/_index.md
+---
+# IsVehicleSeatOccupied

@@ -1,5 +1,6 @@
 ---
 title: EnableDefaultGameModeScoring
 draft: false
-geekdocFilePath: false
----# EnableDefaultGameModeScoring
+geekdocFilePath: portal_blocks/EnableDefaultGameModeScoring/_index.md
+---
+# EnableDefaultGameModeScoring

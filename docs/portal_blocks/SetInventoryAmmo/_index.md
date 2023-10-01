@@ -1,5 +1,6 @@
 ---
 title: SetInventoryAmmo
 draft: false
-geekdocFilePath: false
----# SetInventoryAmmo
+geekdocFilePath: portal_blocks/SetInventoryAmmo/_index.md
+---
+# SetInventoryAmmo

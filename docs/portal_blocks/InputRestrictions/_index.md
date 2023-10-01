@@ -1,5 +1,6 @@
 ---
 title: InputRestrictions
 draft: false
-geekdocFilePath: false
----# InputRestrictions
+geekdocFilePath: portal_blocks/InputRestrictions/_index.md
+---
+# InputRestrictions

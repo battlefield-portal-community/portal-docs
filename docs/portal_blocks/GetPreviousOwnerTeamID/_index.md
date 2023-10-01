@@ -1,5 +1,6 @@
 ---
 title: GetPreviousOwnerTeamID
 draft: false
-geekdocFilePath: false
----# GetPreviousOwnerTeamID
+geekdocFilePath: portal_blocks/GetPreviousOwnerTeamID/_index.md
+---
+# GetPreviousOwnerTeamID

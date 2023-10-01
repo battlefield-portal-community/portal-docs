@@ -1,5 +1,6 @@
 ---
 title: Types
 draft: false
-geekdocFilePath: false
----# Types
+geekdocFilePath: portal_blocks/Types/_index.md
+---
+# Types

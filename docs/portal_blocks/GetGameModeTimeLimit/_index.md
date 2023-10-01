@@ -1,5 +1,6 @@
 ---
 title: GetGameModeTimeLimit
 draft: false
-geekdocFilePath: false
----# GetGameModeTimeLimit
+geekdocFilePath: portal_blocks/GetGameModeTimeLimit/_index.md
+---
+# GetGameModeTimeLimit

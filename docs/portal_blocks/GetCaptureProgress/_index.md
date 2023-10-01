@@ -1,5 +1,6 @@
 ---
 title: GetCaptureProgress
 draft: false
-geekdocFilePath: false
----# GetCaptureProgress
+geekdocFilePath: portal_blocks/GetCaptureProgress/_index.md
+---
+# GetCaptureProgress

@@ -1,5 +1,6 @@
 ---
 title: MCOMStateBool
 draft: false
-geekdocFilePath: false
----# MCOMStateBool
+geekdocFilePath: portal_blocks/MCOMStateBool/_index.md
+---
+# MCOMStateBool

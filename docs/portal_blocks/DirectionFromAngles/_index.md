@@ -1,5 +1,6 @@
 ---
 title: DirectionFromAngles
 draft: false
-geekdocFilePath: false
----# DirectionFromAngles
+geekdocFilePath: portal_blocks/DirectionFromAngles/_index.md
+---
+# DirectionFromAngles

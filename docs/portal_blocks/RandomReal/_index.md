@@ -1,5 +1,6 @@
 ---
 title: RandomReal
 draft: false
-geekdocFilePath: false
----# RandomReal
+geekdocFilePath: portal_blocks/RandomReal/_index.md
+---
+# RandomReal

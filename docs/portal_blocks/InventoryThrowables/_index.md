@@ -1,5 +1,6 @@
 ---
 title: InventoryThrowables
 draft: false
-geekdocFilePath: false
----# InventoryThrowables
+geekdocFilePath: portal_blocks/InventoryThrowables/_index.md
+---
+# InventoryThrowables

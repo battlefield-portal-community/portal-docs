@@ -1,5 +1,6 @@
 ---
 title: IsPlayerUsingSoldier
 draft: false
-geekdocFilePath: false
----# IsPlayerUsingSoldier
+geekdocFilePath: portal_blocks/IsPlayerUsingSoldier/_index.md
+---
+# IsPlayerUsingSoldier

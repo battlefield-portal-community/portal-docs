@@ -1,5 +1,6 @@
 ---
 title: DamageVehicle
 draft: false
-geekdocFilePath: false
----# DamageVehicle
+geekdocFilePath: portal_blocks/DamageVehicle/_index.md
+---
+# DamageVehicle

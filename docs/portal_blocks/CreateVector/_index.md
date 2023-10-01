@@ -1,5 +1,6 @@
 ---
 title: CreateVector
 draft: false
-geekdocFilePath: false
----# CreateVector
+geekdocFilePath: portal_blocks/CreateVector/_index.md
+---
+# CreateVector

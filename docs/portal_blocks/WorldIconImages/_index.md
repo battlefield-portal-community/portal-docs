@@ -1,5 +1,6 @@
 ---
 title: WorldIconImages
 draft: false
-geekdocFilePath: false
----# WorldIconImages
+geekdocFilePath: portal_blocks/WorldIconImages/_index.md
+---
+# WorldIconImages

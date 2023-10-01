@@ -1,5 +1,6 @@
 ---
 title: CapturePointNeutralizationTime
 draft: false
-geekdocFilePath: false
----# CapturePointNeutralizationTime
+geekdocFilePath: portal_blocks/CapturePointNeutralizationTime/_index.md
+---
+# CapturePointNeutralizationTime

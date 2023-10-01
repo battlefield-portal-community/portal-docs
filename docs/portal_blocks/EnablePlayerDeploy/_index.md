@@ -1,5 +1,6 @@
 ---
 title: EnablePlayerDeploy
 draft: false
-geekdocFilePath: false
----# EnablePlayerDeploy
+geekdocFilePath: portal_blocks/EnablePlayerDeploy/_index.md
+---
+# EnablePlayerDeploy

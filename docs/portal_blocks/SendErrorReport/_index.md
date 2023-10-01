@@ -1,5 +1,6 @@
 ---
 title: SendErrorReport
 draft: false
-geekdocFilePath: false
----# SendErrorReport
+geekdocFilePath: portal_blocks/SendErrorReport/_index.md
+---
+# SendErrorReport

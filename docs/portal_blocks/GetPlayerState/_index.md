@@ -1,5 +1,6 @@
 ---
 title: GetPlayerState
 draft: false
-geekdocFilePath: false
----# GetPlayerState
+geekdocFilePath: portal_blocks/GetPlayerState/_index.md
+---
+# GetPlayerState

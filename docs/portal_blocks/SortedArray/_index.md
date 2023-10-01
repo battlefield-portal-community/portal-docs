@@ -1,5 +1,6 @@
 ---
 title: SortedArray
 draft: false
-geekdocFilePath: false
----# SortedArray
+geekdocFilePath: portal_blocks/SortedArray/_index.md
+---
+# SortedArray

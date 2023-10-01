@@ -1,5 +1,6 @@
 ---
 title: CurrentArrayElement
 draft: false
-geekdocFilePath: false
----# CurrentArrayElement
+geekdocFilePath: portal_blocks/CurrentArrayElement/_index.md
+---
+# CurrentArrayElement

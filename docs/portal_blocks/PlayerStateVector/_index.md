@@ -1,5 +1,6 @@
 ---
 title: PlayerStateVector
 draft: false
-geekdocFilePath: false
----# PlayerStateVector
+geekdocFilePath: portal_blocks/PlayerStateVector/_index.md
+---
+# PlayerStateVector

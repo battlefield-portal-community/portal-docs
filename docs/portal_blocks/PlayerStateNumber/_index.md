@@ -1,5 +1,6 @@
 ---
 title: PlayerStateNumber
 draft: false
-geekdocFilePath: false
----# PlayerStateNumber
+geekdocFilePath: portal_blocks/PlayerStateNumber/_index.md
+---
+# PlayerStateNumber

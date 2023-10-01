@@ -1,5 +1,6 @@
 ---
 title: IfThenElse
 draft: false
-geekdocFilePath: false
----# IfThenElse
+geekdocFilePath: portal_blocks/IfThenElse/_index.md
+---
+# IfThenElse

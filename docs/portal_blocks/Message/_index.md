@@ -1,5 +1,6 @@
 ---
 title: Message
 draft: false
-geekdocFilePath: false
----# Message
+geekdocFilePath: portal_blocks/Message/_index.md
+---
+# Message

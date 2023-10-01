@@ -1,5 +1,6 @@
 ---
 title: Variable
 draft: false
-geekdocFilePath: false
----# Variable
+geekdocFilePath: portal_blocks/Variable/_index.md
+---
+# Variable

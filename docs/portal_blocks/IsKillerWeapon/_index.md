@@ -1,5 +1,6 @@
 ---
 title: IsKillerWeapon
 draft: false
-geekdocFilePath: false
----# IsKillerWeapon
+geekdocFilePath: portal_blocks/IsKillerWeapon/_index.md
+---
+# IsKillerWeapon

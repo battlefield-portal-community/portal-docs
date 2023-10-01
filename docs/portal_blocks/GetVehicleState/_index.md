@@ -1,5 +1,6 @@
 ---
 title: GetVehicleState
 draft: false
-geekdocFilePath: false
----# GetVehicleState
+geekdocFilePath: portal_blocks/GetVehicleState/_index.md
+---
+# GetVehicleState

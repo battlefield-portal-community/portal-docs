@@ -1,5 +1,6 @@
 ---
 title: Mod
 draft: false
-geekdocFilePath: false
----# Mod
+geekdocFilePath: portal_blocks/Mod/_index.md
+---
+# Mod

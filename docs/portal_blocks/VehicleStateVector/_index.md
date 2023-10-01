@@ -1,5 +1,6 @@
 ---
 title: VehicleStateVector
 draft: false
-geekdocFilePath: false
----# VehicleStateVector
+geekdocFilePath: portal_blocks/VehicleStateVector/_index.md
+---
+# VehicleStateVector

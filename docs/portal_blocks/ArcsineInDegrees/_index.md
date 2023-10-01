@@ -1,5 +1,6 @@
 ---
 title: ArcsineInDegrees
 draft: false
-geekdocFilePath: false
----# ArcsineInDegrees
+geekdocFilePath: portal_blocks/ArcsineInDegrees/_index.md
+---
+# ArcsineInDegrees

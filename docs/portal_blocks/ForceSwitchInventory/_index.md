@@ -1,5 +1,6 @@
 ---
 title: ForceSwitchInventory
 draft: false
-geekdocFilePath: false
----# ForceSwitchInventory
+geekdocFilePath: portal_blocks/ForceSwitchInventory/_index.md
+---
+# ForceSwitchInventory

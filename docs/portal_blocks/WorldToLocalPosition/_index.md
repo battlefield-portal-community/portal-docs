@@ -1,5 +1,6 @@
 ---
 title: WorldToLocalPosition
 draft: false
-geekdocFilePath: false
----# WorldToLocalPosition
+geekdocFilePath: portal_blocks/WorldToLocalPosition/_index.md
+---
+# WorldToLocalPosition

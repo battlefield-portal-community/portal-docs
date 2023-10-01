@@ -1,5 +1,6 @@
 ---
 title: MappedArray
 draft: false
-geekdocFilePath: false
----# MappedArray
+geekdocFilePath: portal_blocks/MappedArray/_index.md
+---
+# MappedArray

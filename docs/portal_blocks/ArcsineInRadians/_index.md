@@ -1,5 +1,6 @@
 ---
 title: ArcsineInRadians
 draft: false
-geekdocFilePath: false
----# ArcsineInRadians
+geekdocFilePath: portal_blocks/ArcsineInRadians/_index.md
+---
+# ArcsineInRadians

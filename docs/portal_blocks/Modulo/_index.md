@@ -1,5 +1,6 @@
 ---
 title: Modulo
 draft: false
-geekdocFilePath: false
----# Modulo
+geekdocFilePath: portal_blocks/Modulo/_index.md
+---
+# Modulo

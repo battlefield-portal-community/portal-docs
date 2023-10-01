@@ -1,5 +1,6 @@
 ---
 title: DestroyVehicle
 draft: false
-geekdocFilePath: false
----# DestroyVehicle
+geekdocFilePath: portal_blocks/DestroyVehicle/_index.md
+---
+# DestroyVehicle

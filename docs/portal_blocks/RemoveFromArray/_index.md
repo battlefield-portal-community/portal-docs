@@ -1,5 +1,6 @@
 ---
 title: RemoveFromArray
 draft: false
-geekdocFilePath: false
----# RemoveFromArray
+geekdocFilePath: portal_blocks/RemoveFromArray/_index.md
+---
+# RemoveFromArray

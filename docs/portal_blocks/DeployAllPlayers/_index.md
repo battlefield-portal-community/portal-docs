@@ -1,5 +1,6 @@
 ---
 title: DeployAllPlayers
 draft: false
-geekdocFilePath: false
----# DeployAllPlayers
+geekdocFilePath: portal_blocks/DeployAllPlayers/_index.md
+---
+# DeployAllPlayers

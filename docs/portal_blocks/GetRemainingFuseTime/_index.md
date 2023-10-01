@@ -1,5 +1,6 @@
 ---
 title: GetRemainingFuseTime
 draft: false
-geekdocFilePath: false
----# GetRemainingFuseTime
+geekdocFilePath: portal_blocks/GetRemainingFuseTime/_index.md
+---
+# GetRemainingFuseTime

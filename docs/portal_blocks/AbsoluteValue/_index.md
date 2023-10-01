@@ -1,5 +1,6 @@
 ---
 title: AbsoluteValue
 draft: false
-geekdocFilePath: false
----# AbsoluteValue
+geekdocFilePath: portal_blocks/AbsoluteValue/_index.md
+---
+# AbsoluteValue

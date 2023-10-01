@@ -1,5 +1,6 @@
 ---
 title: EnableTicketBleedAcceleration
 draft: false
-geekdocFilePath: false
----# EnableTicketBleedAcceleration
+geekdocFilePath: portal_blocks/EnableTicketBleedAcceleration/_index.md
+---
+# EnableTicketBleedAcceleration

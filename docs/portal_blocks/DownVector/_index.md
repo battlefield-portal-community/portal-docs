@@ -1,5 +1,6 @@
 ---
 title: DownVector
 draft: false
-geekdocFilePath: false
----# DownVector
+geekdocFilePath: portal_blocks/DownVector/_index.md
+---
+# DownVector

@@ -1,5 +1,6 @@
 ---
 title: GetYComponent
 draft: false
-geekdocFilePath: false
----# GetYComponent
+geekdocFilePath: portal_blocks/GetYComponent/_index.md
+---
+# GetYComponent

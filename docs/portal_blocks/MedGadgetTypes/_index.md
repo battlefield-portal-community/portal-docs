@@ -1,5 +1,6 @@
 ---
 title: MedGadgetTypes
 draft: false
-geekdocFilePath: false
----# MedGadgetTypes
+geekdocFilePath: portal_blocks/MedGadgetTypes/_index.md
+---
+# MedGadgetTypes

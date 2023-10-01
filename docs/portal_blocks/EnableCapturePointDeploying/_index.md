@@ -1,5 +1,6 @@
 ---
 title: EnableCapturePointDeploying
 draft: false
-geekdocFilePath: false
----# EnableCapturePointDeploying
+geekdocFilePath: portal_blocks/EnableCapturePointDeploying/_index.md
+---
+# EnableCapturePointDeploying

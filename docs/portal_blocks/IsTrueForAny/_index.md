@@ -1,5 +1,6 @@
 ---
 title: IsTrueForAny
 draft: false
-geekdocFilePath: false
----# IsTrueForAny
+geekdocFilePath: portal_blocks/IsTrueForAny/_index.md
+---
+# IsTrueForAny

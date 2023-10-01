@@ -1,5 +1,6 @@
 ---
 title: DealDamage
 draft: false
-geekdocFilePath: false
----# DealDamage
+geekdocFilePath: portal_blocks/DealDamage/_index.md
+---
+# DealDamage

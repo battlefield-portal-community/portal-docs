@@ -1,5 +1,6 @@
 ---
 title: EnableGameModeObjective
 draft: false
-geekdocFilePath: false
----# EnableGameModeObjective
+geekdocFilePath: portal_blocks/EnableGameModeObjective/_index.md
+---
+# EnableGameModeObjective

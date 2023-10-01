@@ -1,5 +1,6 @@
 ---
 title: VectorTowards
 draft: false
-geekdocFilePath: false
----# VectorTowards
+geekdocFilePath: portal_blocks/VectorTowards/_index.md
+---
+# VectorTowards

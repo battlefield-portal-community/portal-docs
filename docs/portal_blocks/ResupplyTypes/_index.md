@@ -1,5 +1,6 @@
 ---
 title: ResupplyTypes
 draft: false
-geekdocFilePath: false
----# ResupplyTypes
+geekdocFilePath: portal_blocks/ResupplyTypes/_index.md
+---
+# ResupplyTypes

@@ -1,5 +1,6 @@
 ---
 title: GetPlayerDeaths
 draft: false
-geekdocFilePath: false
----# GetPlayerDeaths
+geekdocFilePath: portal_blocks/GetPlayerDeaths/_index.md
+---
+# GetPlayerDeaths

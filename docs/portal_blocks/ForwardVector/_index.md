@@ -1,5 +1,6 @@
 ---
 title: ForwardVector
 draft: false
-geekdocFilePath: false
----# ForwardVector
+geekdocFilePath: portal_blocks/ForwardVector/_index.md
+---
+# ForwardVector

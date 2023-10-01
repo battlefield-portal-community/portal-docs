@@ -1,5 +1,6 @@
 ---
 title: ArraySlice
 draft: false
-geekdocFilePath: false
----# ArraySlice
+geekdocFilePath: portal_blocks/ArraySlice/_index.md
+---
+# ArraySlice

@@ -1,5 +1,6 @@
 ---
 title: Normalize
 draft: false
-geekdocFilePath: false
----# Normalize
+geekdocFilePath: portal_blocks/Normalize/_index.md
+---
+# Normalize

@@ -1,5 +1,6 @@
 ---
 title: LessThanEqualTo
 draft: false
-geekdocFilePath: false
----# LessThanEqualTo
+geekdocFilePath: portal_blocks/LessThanEqualTo/_index.md
+---
+# LessThanEqualTo

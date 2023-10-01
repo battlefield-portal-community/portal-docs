@@ -1,5 +1,6 @@
 ---
 title: InventoryCharacterSpecialties
 draft: false
-geekdocFilePath: false
----# InventoryCharacterSpecialties
+geekdocFilePath: portal_blocks/InventoryCharacterSpecialties/_index.md
+---
+# InventoryCharacterSpecialties

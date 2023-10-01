@@ -1,5 +1,6 @@
 ---
 title: CustomMessageSlot
 draft: false
-geekdocFilePath: false
----# CustomMessageSlot
+geekdocFilePath: portal_blocks/CustomMessageSlot/_index.md
+---
+# CustomMessageSlot

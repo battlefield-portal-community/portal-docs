@@ -1,5 +1,6 @@
 ---
 title: Factions
 draft: false
-geekdocFilePath: false
----# Factions
+geekdocFilePath: portal_blocks/Factions/_index.md
+---
+# Factions

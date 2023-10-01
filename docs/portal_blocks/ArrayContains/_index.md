@@ -1,5 +1,6 @@
 ---
 title: ArrayContains
 draft: false
-geekdocFilePath: false
----# ArrayContains
+geekdocFilePath: portal_blocks/ArrayContains/_index.md
+---
+# ArrayContains

@@ -1,5 +1,6 @@
 ---
 title: LocationalSounds
 draft: false
-geekdocFilePath: false
----# LocationalSounds
+geekdocFilePath: portal_blocks/LocationalSounds/_index.md
+---
+# LocationalSounds

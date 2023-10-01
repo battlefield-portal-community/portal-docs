@@ -1,5 +1,6 @@
 ---
 title: Not
 draft: false
-geekdocFilePath: false
----# Not
+geekdocFilePath: portal_blocks/Not/_index.md
+---
+# Not

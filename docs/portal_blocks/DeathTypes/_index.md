@@ -1,5 +1,6 @@
 ---
 title: DeathTypes
 draft: false
-geekdocFilePath: false
----# DeathTypes
+geekdocFilePath: portal_blocks/DeathTypes/_index.md
+---
+# DeathTypes

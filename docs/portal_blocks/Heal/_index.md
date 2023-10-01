@@ -1,5 +1,6 @@
 ---
 title: Heal
 draft: false
-geekdocFilePath: false
----# Heal
+geekdocFilePath: portal_blocks/Heal/_index.md
+---
+# Heal

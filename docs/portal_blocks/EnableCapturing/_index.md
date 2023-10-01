@@ -1,5 +1,6 @@
 ---
 title: EnableCapturing
 draft: false
-geekdocFilePath: false
----# EnableCapturing
+geekdocFilePath: portal_blocks/EnableCapturing/_index.md
+---
+# EnableCapturing

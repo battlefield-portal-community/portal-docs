@@ -1,5 +1,6 @@
 ---
 title: ForcePlayerExitVehicle
 draft: false
-geekdocFilePath: false
----# ForcePlayerExitVehicle
+geekdocFilePath: portal_blocks/ForcePlayerExitVehicle/_index.md
+---
+# ForcePlayerExitVehicle

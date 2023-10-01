@@ -1,5 +1,6 @@
 ---
 title: CapturePointCapturingTime
 draft: false
-geekdocFilePath: false
----# CapturePointCapturingTime
+geekdocFilePath: portal_blocks/CapturePointCapturingTime/_index.md
+---
+# CapturePointCapturingTime

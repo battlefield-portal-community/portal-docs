@@ -1,5 +1,6 @@
 ---
 title: StopTrackingVariable
 draft: false
-geekdocFilePath: false
----# StopTrackingVariable
+geekdocFilePath: portal_blocks/StopTrackingVariable/_index.md
+---
+# StopTrackingVariable

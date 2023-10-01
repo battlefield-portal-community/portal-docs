@@ -1,5 +1,6 @@
 ---
 title: LoopVariable
 draft: false
-geekdocFilePath: false
----# LoopVariable
+geekdocFilePath: portal_blocks/LoopVariable/_index.md
+---
+# LoopVariable

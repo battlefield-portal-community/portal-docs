@@ -1,5 +1,6 @@
 ---
 title: CompareCapturePoint
 draft: false
-geekdocFilePath: false
----# CompareCapturePoint
+geekdocFilePath: portal_blocks/CompareCapturePoint/_index.md
+---
+# CompareCapturePoint

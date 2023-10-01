@@ -1,5 +1,6 @@
 ---
 title: ForceMandown
 draft: false
-geekdocFilePath: false
----# ForceMandown
+geekdocFilePath: portal_blocks/ForceMandown/_index.md
+---
+# ForceMandown

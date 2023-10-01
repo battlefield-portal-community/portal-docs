@@ -1,5 +1,6 @@
 ---
 title: SetGameModeScore
 draft: false
-geekdocFilePath: false
----# SetGameModeScore
+geekdocFilePath: portal_blocks/SetGameModeScore/_index.md
+---
+# SetGameModeScore

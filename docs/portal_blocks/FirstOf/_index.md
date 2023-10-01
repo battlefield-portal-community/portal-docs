@@ -1,5 +1,6 @@
 ---
 title: FirstOf
 draft: false
-geekdocFilePath: false
----# FirstOf
+geekdocFilePath: portal_blocks/FirstOf/_index.md
+---
+# FirstOf

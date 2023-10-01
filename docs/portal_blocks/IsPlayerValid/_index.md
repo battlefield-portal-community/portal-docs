@@ -1,5 +1,6 @@
 ---
 title: IsPlayerValid
 draft: false
-geekdocFilePath: false
----# IsPlayerValid
+geekdocFilePath: portal_blocks/IsPlayerValid/_index.md
+---
+# IsPlayerValid

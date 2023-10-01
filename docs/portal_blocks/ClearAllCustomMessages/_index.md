@@ -1,5 +1,6 @@
 ---
 title: ClearAllCustomMessages
 draft: false
-geekdocFilePath: false
----# ClearAllCustomMessages
+geekdocFilePath: portal_blocks/ClearAllCustomMessages/_index.md
+---
+# ClearAllCustomMessages

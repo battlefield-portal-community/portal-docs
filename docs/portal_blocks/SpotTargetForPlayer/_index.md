@@ -1,5 +1,6 @@
 ---
 title: SpotTargetForPlayer
 draft: false
-geekdocFilePath: false
----# SpotTargetForPlayer
+geekdocFilePath: portal_blocks/SpotTargetForPlayer/_index.md
+---
+# SpotTargetForPlayer

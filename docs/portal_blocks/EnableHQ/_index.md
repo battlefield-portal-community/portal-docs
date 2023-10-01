@@ -1,5 +1,6 @@
 ---
 title: EnableHQ
 draft: false
-geekdocFilePath: false
----# EnableHQ
+geekdocFilePath: portal_blocks/EnableHQ/_index.md
+---
+# EnableHQ

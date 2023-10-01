@@ -1,5 +1,6 @@
 ---
 title: CONDITION
 draft: false
-geekdocFilePath: false
----# CONDITION
+geekdocFilePath: portal_blocks/CONDITION/_index.md
+---
+# CONDITION

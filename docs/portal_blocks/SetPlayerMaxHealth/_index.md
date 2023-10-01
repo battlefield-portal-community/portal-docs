@@ -1,5 +1,6 @@
 ---
 title: SetPlayerMaxHealth
 draft: false
-geekdocFilePath: false
----# SetPlayerMaxHealth
+geekdocFilePath: portal_blocks/SetPlayerMaxHealth/_index.md
+---
+# SetPlayerMaxHealth

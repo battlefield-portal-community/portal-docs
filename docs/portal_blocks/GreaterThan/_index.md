@@ -1,5 +1,6 @@
 ---
 title: GreaterThan
 draft: false
-geekdocFilePath: false
----# GreaterThan
+geekdocFilePath: portal_blocks/GreaterThan/_index.md
+---
+# GreaterThan

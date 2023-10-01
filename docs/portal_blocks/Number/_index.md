@@ -1,5 +1,6 @@
 ---
 title: Number
 draft: false
-geekdocFilePath: false
----# Number
+geekdocFilePath: portal_blocks/Number/_index.md
+---
+# Number

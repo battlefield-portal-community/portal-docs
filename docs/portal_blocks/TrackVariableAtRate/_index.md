@@ -1,5 +1,6 @@
 ---
 title: TrackVariableAtRate
 draft: false
-geekdocFilePath: false
----# TrackVariableAtRate
+geekdocFilePath: portal_blocks/TrackVariableAtRate/_index.md
+---
+# TrackVariableAtRate

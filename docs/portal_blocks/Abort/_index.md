@@ -1,5 +1,6 @@
 ---
 title: Abort
 draft: false
-geekdocFilePath: false
----# Abort
+geekdocFilePath: portal_blocks/Abort/_index.md
+---
+# Abort

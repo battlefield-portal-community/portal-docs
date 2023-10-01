@@ -1,5 +1,6 @@
 ---
 title: Add
 draft: false
-geekdocFilePath: false
----# Add
+geekdocFilePath: portal_blocks/Add/_index.md
+---
+# Add

@@ -1,5 +1,6 @@
 ---
 title: EventTeam
 draft: false
-geekdocFilePath: false
----# EventTeam
+geekdocFilePath: portal_blocks/EventTeam/_index.md
+---
+# EventTeam

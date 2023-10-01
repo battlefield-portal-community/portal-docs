@@ -1,5 +1,6 @@
 ---
 title: ClosestPlayerTo
 draft: false
-geekdocFilePath: false
----# ClosestPlayerTo
+geekdocFilePath: portal_blocks/ClosestPlayerTo/_index.md
+---
+# ClosestPlayerTo

@@ -1,5 +1,6 @@
 ---
 title: SetWorldIconOwner
 draft: false
-geekdocFilePath: false
----# SetWorldIconOwner
+geekdocFilePath: portal_blocks/SetWorldIconOwner/_index.md
+---
+# SetWorldIconOwner

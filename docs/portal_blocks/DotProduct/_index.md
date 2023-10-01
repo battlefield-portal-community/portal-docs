@@ -1,5 +1,6 @@
 ---
 title: DotProduct
 draft: false
-geekdocFilePath: false
----# DotProduct
+geekdocFilePath: portal_blocks/DotProduct/_index.md
+---
+# DotProduct

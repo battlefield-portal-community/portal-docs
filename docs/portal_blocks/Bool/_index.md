@@ -1,5 +1,6 @@
 ---
 title: Bool
 draft: false
-geekdocFilePath: false
----# Bool
+geekdocFilePath: portal_blocks/Bool/_index.md
+---
+# Bool

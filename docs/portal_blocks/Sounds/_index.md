@@ -1,5 +1,6 @@
 ---
 title: Sounds
 draft: false
-geekdocFilePath: false
----# Sounds
+geekdocFilePath: portal_blocks/Sounds/_index.md
+---
+# Sounds

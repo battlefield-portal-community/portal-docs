@@ -1,5 +1,6 @@
 ---
 title: SineFromDegrees
 draft: false
-geekdocFilePath: false
----# SineFromDegrees
+geekdocFilePath: portal_blocks/SineFromDegrees/_index.md
+---
+# SineFromDegrees

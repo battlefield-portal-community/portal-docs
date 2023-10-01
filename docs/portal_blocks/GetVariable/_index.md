@@ -1,5 +1,6 @@
 ---
 title: GetVariable
 draft: false
-geekdocFilePath: false
----# GetVariable
+geekdocFilePath: portal_blocks/GetVariable/_index.md
+---
+# GetVariable

@@ -1,5 +1,6 @@
 ---
 title: IndexOfArrayValue
 draft: false
-geekdocFilePath: false
----# IndexOfArrayValue
+geekdocFilePath: portal_blocks/IndexOfArrayValue/_index.md
+---
+# IndexOfArrayValue

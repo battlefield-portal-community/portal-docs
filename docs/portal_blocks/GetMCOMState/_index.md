@@ -1,5 +1,6 @@
 ---
 title: GetMCOMState
 draft: false
-geekdocFilePath: false
----# GetMCOMState
+geekdocFilePath: portal_blocks/GetMCOMState/_index.md
+---
+# GetMCOMState

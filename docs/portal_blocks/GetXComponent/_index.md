@@ -1,5 +1,6 @@
 ---
 title: GetXComponent
 draft: false
-geekdocFilePath: false
----# GetXComponent
+geekdocFilePath: portal_blocks/GetXComponent/_index.md
+---
+# GetXComponent

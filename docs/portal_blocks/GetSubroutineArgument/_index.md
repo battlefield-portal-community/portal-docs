@@ -1,5 +1,6 @@
 ---
 title: GetSubroutineArgument
 draft: false
-geekdocFilePath: false
----# GetSubroutineArgument
+geekdocFilePath: portal_blocks/GetSubroutineArgument/_index.md
+---
+# GetSubroutineArgument

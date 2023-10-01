@@ -1,5 +1,6 @@
 ---
 title: Else
 draft: false
-geekdocFilePath: false
----# Else
+geekdocFilePath: portal_blocks/Else/_index.md
+---
+# Else

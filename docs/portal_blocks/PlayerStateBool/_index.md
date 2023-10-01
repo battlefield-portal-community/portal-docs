@@ -1,5 +1,6 @@
 ---
 title: PlayerStateBool
 draft: false
-geekdocFilePath: false
----# PlayerStateBool
+geekdocFilePath: portal_blocks/PlayerStateBool/_index.md
+---
+# PlayerStateBool

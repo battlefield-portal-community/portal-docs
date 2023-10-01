@@ -1,5 +1,6 @@
 ---
 title: EventVehicle
 draft: false
-geekdocFilePath: false
----# EventVehicle
+geekdocFilePath: portal_blocks/EventVehicle/_index.md
+---
+# EventVehicle

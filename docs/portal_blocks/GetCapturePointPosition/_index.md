@@ -1,5 +1,6 @@
 ---
 title: GetCapturePointPosition
 draft: false
-geekdocFilePath: false
----# GetCapturePointPosition
+geekdocFilePath: portal_blocks/GetCapturePointPosition/_index.md
+---
+# GetCapturePointPosition

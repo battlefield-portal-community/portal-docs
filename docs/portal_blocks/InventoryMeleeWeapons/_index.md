@@ -1,5 +1,6 @@
 ---
 title: InventoryMeleeWeapons
 draft: false
-geekdocFilePath: false
----# InventoryMeleeWeapons
+geekdocFilePath: portal_blocks/InventoryMeleeWeapons/_index.md
+---
+# InventoryMeleeWeapons

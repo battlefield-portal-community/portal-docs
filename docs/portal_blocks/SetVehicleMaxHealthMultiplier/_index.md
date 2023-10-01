@@ -1,5 +1,6 @@
 ---
 title: SetVehicleMaxHealthMultiplier
 draft: false
-geekdocFilePath: false
----# SetVehicleMaxHealthMultiplier
+geekdocFilePath: portal_blocks/SetVehicleMaxHealthMultiplier/_index.md
+---
+# SetVehicleMaxHealthMultiplier

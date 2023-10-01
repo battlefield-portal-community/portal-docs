@@ -1,5 +1,6 @@
 ---
 title: SetWorldIconText
 draft: false
-geekdocFilePath: false
----# SetWorldIconText
+geekdocFilePath: portal_blocks/SetWorldIconText/_index.md
+---
+# SetWorldIconText

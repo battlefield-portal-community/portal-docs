@@ -1,5 +1,6 @@
 ---
 title: ArctangentInDegrees
 draft: false
-geekdocFilePath: false
----# ArctangentInDegrees
+geekdocFilePath: portal_blocks/ArctangentInDegrees/_index.md
+---
+# ArctangentInDegrees

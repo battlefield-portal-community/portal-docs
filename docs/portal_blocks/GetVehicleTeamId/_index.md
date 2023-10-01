@@ -1,5 +1,6 @@
 ---
 title: GetVehicleTeamId
 draft: false
-geekdocFilePath: false
----# GetVehicleTeamId
+geekdocFilePath: portal_blocks/GetVehicleTeamId/_index.md
+---
+# GetVehicleTeamId

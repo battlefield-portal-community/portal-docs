@@ -1,5 +1,6 @@
 ---
 title: GetObjective
 draft: false
-geekdocFilePath: false
----# GetObjective
+geekdocFilePath: portal_blocks/GetObjective/_index.md
+---
+# GetObjective

@@ -1,5 +1,6 @@
 ---
 title: DeployPlayer
 draft: false
-geekdocFilePath: false
----# DeployPlayer
+geekdocFilePath: portal_blocks/DeployPlayer/_index.md
+---
+# DeployPlayer

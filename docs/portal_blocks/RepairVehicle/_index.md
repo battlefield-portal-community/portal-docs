@@ -1,5 +1,6 @@
 ---
 title: RepairVehicle
 draft: false
-geekdocFilePath: false
----# RepairVehicle
+geekdocFilePath: portal_blocks/RepairVehicle/_index.md
+---
+# RepairVehicle

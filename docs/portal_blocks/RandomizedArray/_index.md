@@ -1,5 +1,6 @@
 ---
 title: RandomizedArray
 draft: false
-geekdocFilePath: false
----# RandomizedArray
+geekdocFilePath: portal_blocks/RandomizedArray/_index.md
+---
+# RandomizedArray

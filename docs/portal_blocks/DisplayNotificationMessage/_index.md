@@ -1,5 +1,6 @@
 ---
 title: DisplayNotificationMessage
 draft: false
-geekdocFilePath: false
----# DisplayNotificationMessage
+geekdocFilePath: portal_blocks/DisplayNotificationMessage/_index.md
+---
+# DisplayNotificationMessage

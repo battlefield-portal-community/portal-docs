@@ -1,5 +1,6 @@
 ---
 title: IsType
 draft: false
-geekdocFilePath: false
----# IsType
+geekdocFilePath: portal_blocks/IsType/_index.md
+---
+# IsType

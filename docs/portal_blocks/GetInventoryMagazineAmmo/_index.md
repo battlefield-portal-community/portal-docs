@@ -1,5 +1,6 @@
 ---
 title: GetInventoryMagazineAmmo
 draft: false
-geekdocFilePath: false
----# GetInventoryMagazineAmmo
+geekdocFilePath: portal_blocks/GetInventoryMagazineAmmo/_index.md
+---
+# GetInventoryMagazineAmmo

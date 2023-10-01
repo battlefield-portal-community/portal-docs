@@ -1,5 +1,6 @@
 ---
 title: GetGameModeTargetScore
 draft: false
-geekdocFilePath: false
----# GetGameModeTargetScore
+geekdocFilePath: portal_blocks/GetGameModeTargetScore/_index.md
+---
+# GetGameModeTargetScore

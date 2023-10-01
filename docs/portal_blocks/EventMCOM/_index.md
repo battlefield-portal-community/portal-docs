@@ -1,5 +1,6 @@
 ---
 title: EventMCOM
 draft: false
-geekdocFilePath: false
----# EventMCOM
+geekdocFilePath: portal_blocks/EventMCOM/_index.md
+---
+# EventMCOM

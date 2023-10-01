@@ -1,5 +1,6 @@
 ---
 title: CrossProduct
 draft: false
-geekdocFilePath: false
----# CrossProduct
+geekdocFilePath: portal_blocks/CrossProduct/_index.md
+---
+# CrossProduct

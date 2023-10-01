@@ -1,5 +1,6 @@
 ---
 title: SetMCOMFuseTime
 draft: false
-geekdocFilePath: false
----# SetMCOMFuseTime
+geekdocFilePath: portal_blocks/SetMCOMFuseTime/_index.md
+---
+# SetMCOMFuseTime

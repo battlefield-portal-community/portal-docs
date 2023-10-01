@@ -1,5 +1,6 @@
 ---
 title: SetWorldIconPosition
 draft: false
-geekdocFilePath: false
----# SetWorldIconPosition
+geekdocFilePath: portal_blocks/SetWorldIconPosition/_index.md
+---
+# SetWorldIconPosition

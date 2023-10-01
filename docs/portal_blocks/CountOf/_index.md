@@ -1,5 +1,6 @@
 ---
 title: CountOf
 draft: false
-geekdocFilePath: false
----# CountOf
+geekdocFilePath: portal_blocks/CountOf/_index.md
+---
+# CountOf

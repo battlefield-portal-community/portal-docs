@@ -1,5 +1,6 @@
 ---
 title: If
 draft: false
-geekdocFilePath: false
----# If
+geekdocFilePath: portal_blocks/If/_index.md
+---
+# If

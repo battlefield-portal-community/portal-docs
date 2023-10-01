@@ -1,5 +1,6 @@
 ---
 title: HasInventory
 draft: false
-geekdocFilePath: false
----# HasInventory
+geekdocFilePath: portal_blocks/HasInventory/_index.md
+---
+# HasInventory

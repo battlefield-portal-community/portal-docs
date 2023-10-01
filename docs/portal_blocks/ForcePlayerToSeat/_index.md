@@ -1,5 +1,6 @@
 ---
 title: ForcePlayerToSeat
 draft: false
-geekdocFilePath: false
----# ForcePlayerToSeat
+geekdocFilePath: portal_blocks/ForcePlayerToSeat/_index.md
+---
+# ForcePlayerToSeat

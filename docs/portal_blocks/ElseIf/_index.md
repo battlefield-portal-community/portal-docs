@@ -1,5 +1,6 @@
 ---
 title: ElseIf
 draft: false
-geekdocFilePath: false
----# ElseIf
+geekdocFilePath: portal_blocks/ElseIf/_index.md
+---
+# ElseIf

@@ -1,5 +1,6 @@
 ---
 title: PauseGameModeTime
 draft: false
-geekdocFilePath: false
----# PauseGameModeTime
+geekdocFilePath: portal_blocks/PauseGameModeTime/_index.md
+---
+# PauseGameModeTime

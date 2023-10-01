@@ -1,5 +1,6 @@
 ---
 title: EventDamageType
 draft: false
-geekdocFilePath: false
----# EventDamageType
+geekdocFilePath: portal_blocks/EventDamageType/_index.md
+---
+# EventDamageType

@@ -1,5 +1,6 @@
 ---
 title: EndGameMode
 draft: false
-geekdocFilePath: false
----# EndGameMode
+geekdocFilePath: portal_blocks/EndGameMode/_index.md
+---
+# EndGameMode

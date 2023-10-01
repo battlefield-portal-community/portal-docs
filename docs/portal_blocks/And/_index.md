@@ -1,5 +1,6 @@
 ---
 title: And
 draft: false
-geekdocFilePath: false
----# And
+geekdocFilePath: portal_blocks/And/_index.md
+---
+# And

@@ -1,5 +1,6 @@
 ---
 title: EnableDefaultGameModeWinCondition
 draft: false
-geekdocFilePath: false
----# EnableDefaultGameModeWinCondition
+geekdocFilePath: portal_blocks/EnableDefaultGameModeWinCondition/_index.md
+---
+# EnableDefaultGameModeWinCondition

@@ -1,5 +1,6 @@
 ---
 title: EnableWorldIconImage
 draft: false
-geekdocFilePath: false
----# EnableWorldIconImage
+geekdocFilePath: portal_blocks/EnableWorldIconImage/_index.md
+---
+# EnableWorldIconImage

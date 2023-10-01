@@ -1,5 +1,6 @@
 ---
 title: FilteredArray
 draft: false
-geekdocFilePath: false
----# FilteredArray
+geekdocFilePath: portal_blocks/FilteredArray/_index.md
+---
+# FilteredArray

@@ -1,5 +1,6 @@
 ---
 title: Rule
 draft: false
-geekdocFilePath: false
----# Rule
+geekdocFilePath: portal_blocks/Rule/_index.md
+---
+# Rule

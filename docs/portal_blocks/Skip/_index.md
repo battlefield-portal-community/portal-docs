@@ -1,5 +1,6 @@
 ---
 title: Skip
 draft: false
-geekdocFilePath: false
----# Skip
+geekdocFilePath: portal_blocks/Skip/_index.md
+---
+# Skip

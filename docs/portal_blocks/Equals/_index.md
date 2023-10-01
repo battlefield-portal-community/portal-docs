@@ -1,5 +1,6 @@
 ---
 title: Equals
 draft: false
-geekdocFilePath: false
----# Equals
+geekdocFilePath: portal_blocks/Equals/_index.md
+---
+# Equals

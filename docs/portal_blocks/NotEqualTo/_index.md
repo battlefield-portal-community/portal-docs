@@ -1,5 +1,6 @@
 ---
 title: NotEqualTo
 draft: false
-geekdocFilePath: false
----# NotEqualTo
+geekdocFilePath: portal_blocks/NotEqualTo/_index.md
+---
+# NotEqualTo

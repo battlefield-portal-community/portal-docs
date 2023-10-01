@@ -40,8 +40,8 @@ def ensure_index_md(block_name: str):
             "---",
             f"title: {block_name}",
             "draft: false",
-            "geekdocFilePath: false",
-            "---"
+            f"geekdocFilePath: portal_blocks/{block_name}/_index.md",
+            "---",
             f"# {block_name}"
         ]
         root_doc.write_text('\n'.join(doc_header))

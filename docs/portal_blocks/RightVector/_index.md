@@ -1,5 +1,6 @@
 ---
 title: RightVector
 draft: false
-geekdocFilePath: false
----# RightVector
+geekdocFilePath: portal_blocks/RightVector/_index.md
+---
+# RightVector

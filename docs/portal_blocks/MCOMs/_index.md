@@ -1,5 +1,6 @@
 ---
 title: MCOMs
 draft: false
-geekdocFilePath: false
----# MCOMs
+geekdocFilePath: portal_blocks/MCOMs/_index.md
+---
+# MCOMs

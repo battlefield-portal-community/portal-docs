@@ -1,5 +1,6 @@
 ---
 title: GetVehicleFromPlayer
 draft: false
-geekdocFilePath: false
----# GetVehicleFromPlayer
+geekdocFilePath: portal_blocks/GetVehicleFromPlayer/_index.md
+---
+# GetVehicleFromPlayer

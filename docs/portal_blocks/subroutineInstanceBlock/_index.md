@@ -1,5 +1,6 @@
 ---
 title: subroutineInstanceBlock
 draft: false
-geekdocFilePath: false
----# subroutineInstanceBlock
+geekdocFilePath: portal_blocks/subroutineInstanceBlock/_index.md
+---
+# subroutineInstanceBlock

@@ -1,5 +1,6 @@
 ---
 title: AppendToArray
 draft: false
-geekdocFilePath: false
----# AppendToArray
+geekdocFilePath: portal_blocks/AppendToArray/_index.md
+---
+# AppendToArray

@@ -1,5 +1,6 @@
 ---
 title: ApplyMedGadget
 draft: false
-geekdocFilePath: false
----# ApplyMedGadget
+geekdocFilePath: portal_blocks/ApplyMedGadget/_index.md
+---
+# ApplyMedGadget

@@ -1,5 +1,6 @@
 ---
 title: GetPlayers
 draft: false
-geekdocFilePath: false
----# GetPlayers
+geekdocFilePath: portal_blocks/GetPlayers/_index.md
+---
+# GetPlayers

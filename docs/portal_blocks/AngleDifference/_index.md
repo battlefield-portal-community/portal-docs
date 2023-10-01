@@ -1,5 +1,6 @@
 ---
 title: AngleDifference
 draft: false
-geekdocFilePath: false
----# AngleDifference
+geekdocFilePath: portal_blocks/AngleDifference/_index.md
+---
+# AngleDifference

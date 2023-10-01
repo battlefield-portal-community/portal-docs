@@ -1,5 +1,6 @@
 ---
 title: ResetGameModeTime
 draft: false
-geekdocFilePath: false
----# ResetGameModeTime
+geekdocFilePath: portal_blocks/ResetGameModeTime/_index.md
+---
+# ResetGameModeTime

@@ -1,5 +1,6 @@
 ---
 title: DirectionTowards
 draft: false
-geekdocFilePath: false
----# DirectionTowards
+geekdocFilePath: portal_blocks/DirectionTowards/_index.md
+---
+# DirectionTowards

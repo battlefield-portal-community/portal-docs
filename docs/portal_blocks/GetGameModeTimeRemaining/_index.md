@@ -1,5 +1,6 @@
 ---
 title: GetGameModeTimeRemaining
 draft: false
-geekdocFilePath: false
----# GetGameModeTimeRemaining
+geekdocFilePath: portal_blocks/GetGameModeTimeRemaining/_index.md
+---
+# GetGameModeTimeRemaining

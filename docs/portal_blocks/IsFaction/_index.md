@@ -1,5 +1,6 @@
 ---
 title: IsFaction
 draft: false
-geekdocFilePath: false
----# IsFaction
+geekdocFilePath: portal_blocks/IsFaction/_index.md
+---
+# IsFaction

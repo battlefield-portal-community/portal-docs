@@ -1,5 +1,6 @@
 ---
 title: DamageTypes
 draft: false
-geekdocFilePath: false
----# DamageTypes
+geekdocFilePath: portal_blocks/DamageTypes/_index.md
+---
+# DamageTypes

@@ -1,5 +1,6 @@
 ---
 title: DisplayGameModeMessage
 draft: false
-geekdocFilePath: false
----# DisplayGameModeMessage
+geekdocFilePath: portal_blocks/DisplayGameModeMessage/_index.md
+---
+# DisplayGameModeMessage

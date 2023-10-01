@@ -1,5 +1,6 @@
 ---
 title: EventWeapon
 draft: false
-geekdocFilePath: false
----# EventWeapon
+geekdocFilePath: portal_blocks/EventWeapon/_index.md
+---
+# EventWeapon

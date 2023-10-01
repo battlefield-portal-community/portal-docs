@@ -1,5 +1,6 @@
 ---
 title: SUBROUTINE
 draft: false
-geekdocFilePath: false
----# SUBROUTINE
+geekdocFilePath: portal_blocks/SUBROUTINE/_index.md
+---
+# SUBROUTINE

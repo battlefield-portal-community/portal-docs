@@ -1,5 +1,6 @@
 ---
 title: EmptyArray
 draft: false
-geekdocFilePath: false
----# EmptyArray
+geekdocFilePath: portal_blocks/EmptyArray/_index.md
+---
+# EmptyArray

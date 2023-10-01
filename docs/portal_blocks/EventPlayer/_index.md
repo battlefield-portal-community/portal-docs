@@ -1,5 +1,6 @@
 ---
 title: EventPlayer
 draft: false
-geekdocFilePath: false
----# EventPlayer
+geekdocFilePath: portal_blocks/EventPlayer/_index.md
+---
+# EventPlayer

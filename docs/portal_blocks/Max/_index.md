@@ -1,5 +1,6 @@
 ---
 title: Max
 draft: false
-geekdocFilePath: false
----# Max
+geekdocFilePath: portal_blocks/Max/_index.md
+---
+# Max

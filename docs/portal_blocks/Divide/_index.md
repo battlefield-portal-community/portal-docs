@@ -1,5 +1,6 @@
 ---
 title: Divide
 draft: false
-geekdocFilePath: false
----# Divide
+geekdocFilePath: portal_blocks/Divide/_index.md
+---
+# Divide

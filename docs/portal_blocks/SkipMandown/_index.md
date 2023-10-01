@@ -1,5 +1,6 @@
 ---
 title: SkipMandown
 draft: false
-geekdocFilePath: false
----# SkipMandown
+geekdocFilePath: portal_blocks/SkipMandown/_index.md
+---
+# SkipMandown

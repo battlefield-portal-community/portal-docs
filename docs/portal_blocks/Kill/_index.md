@@ -1,5 +1,6 @@
 ---
 title: Kill
 draft: false
-geekdocFilePath: false
----# Kill
+geekdocFilePath: portal_blocks/Kill/_index.md
+---
+# Kill

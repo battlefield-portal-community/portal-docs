@@ -1,5 +1,6 @@
 ---
 title: ReplacePlayerInventory
 draft: false
-geekdocFilePath: false
----# ReplacePlayerInventory
+geekdocFilePath: portal_blocks/ReplacePlayerInventory/_index.md
+---
+# ReplacePlayerInventory

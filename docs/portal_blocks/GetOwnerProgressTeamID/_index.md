@@ -1,5 +1,6 @@
 ---
 title: GetOwnerProgressTeamID
 draft: false
-geekdocFilePath: false
----# GetOwnerProgressTeamID
+geekdocFilePath: portal_blocks/GetOwnerProgressTeamID/_index.md
+---
+# GetOwnerProgressTeamID

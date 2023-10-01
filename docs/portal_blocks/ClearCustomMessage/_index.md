@@ -1,5 +1,6 @@
 ---
 title: ClearCustomMessage
 draft: false
-geekdocFilePath: false
----# ClearCustomMessage
+geekdocFilePath: portal_blocks/ClearCustomMessage/_index.md
+---
+# ClearCustomMessage

@@ -1,5 +1,6 @@
 ---
 title: LeftVector
 draft: false
-geekdocFilePath: false
----# LeftVector
+geekdocFilePath: portal_blocks/LeftVector/_index.md
+---
+# LeftVector
