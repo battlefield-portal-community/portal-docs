@@ -38,7 +38,7 @@ jobs:
         uses: actions/cache@v3
         with:
           path: ~/.local  # the path depends on the OS
-          key: poetry-${{ env.POETRY_VERSION }}-${{ steps.setup-python.outputs.python-version }}
+          key: poetry-${{ env.POETRY_VERSION }}-${{ env.PYTHON_VERSION }}
 
       - name: Load cached venv
         id: cached-poetry-dependencies

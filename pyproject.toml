@@ -26,6 +26,7 @@ aiohttp = "^3.8.5"
 
 [tool.poetry.scripts]
 gen-docs = "portal_blocks_documentation.docs:generate"
+gen-docs-json = "portal_blocks_documentation.gen_raw_data:generate"
 
 [build-system]
 requires = ["poetry-core"]
