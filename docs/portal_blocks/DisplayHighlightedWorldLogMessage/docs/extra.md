@@ -1,0 +1,1 @@
+<!-- Add extra documentation for DisplayHighlightedWorldLogMessage in this file -->

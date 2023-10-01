@@ -1,0 +1,1 @@
+<!-- Add extra documentation for IsVehicleSeatOccupied in this file -->

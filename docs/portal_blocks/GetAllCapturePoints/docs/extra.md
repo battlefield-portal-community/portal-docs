@@ -1,0 +1,1 @@
+<!-- Add extra documentation for GetAllCapturePoints in this file -->

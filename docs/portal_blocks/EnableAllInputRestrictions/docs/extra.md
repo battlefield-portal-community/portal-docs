@@ -1,0 +1,1 @@
+<!-- Add extra documentation for EnableAllInputRestrictions in this file -->

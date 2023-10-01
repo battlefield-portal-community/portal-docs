@@ -1,0 +1,1 @@
+<!-- Add extra documentation for SetCaptureMultiplier in this file -->

@@ -1,0 +1,1 @@
+<!-- Add extra documentation for EnableCapturing in this file -->

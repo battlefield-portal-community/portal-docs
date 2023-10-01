@@ -1,0 +1,1 @@
+<!-- Add extra documentation for EnableInputRestriction in this file -->

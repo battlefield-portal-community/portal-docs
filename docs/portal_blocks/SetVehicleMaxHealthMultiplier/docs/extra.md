@@ -1,0 +1,1 @@
+<!-- Add extra documentation for SetVehicleMaxHealthMultiplier in this file -->

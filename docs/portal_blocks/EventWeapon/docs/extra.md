@@ -1,0 +1,1 @@
+<!-- Add extra documentation for EventWeapon in this file -->

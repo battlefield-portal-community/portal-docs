@@ -1,0 +1,1 @@
+<!-- Add extra documentation for MCOMStateBool in this file -->

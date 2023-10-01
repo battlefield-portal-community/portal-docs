@@ -1,0 +1,1 @@
+<!-- Add extra documentation for PlayerStateBool in this file -->

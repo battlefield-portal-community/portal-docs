@@ -1,0 +1,1 @@
+<!-- Add extra documentation for CosineFromDegrees in this file -->

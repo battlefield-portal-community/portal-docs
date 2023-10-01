@@ -1,0 +1,1 @@
+<!-- Add extra documentation for CompareCapturePoint in this file -->

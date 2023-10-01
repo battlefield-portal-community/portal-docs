@@ -1,0 +1,1 @@
+<!-- Add extra documentation for GetGameModeTimeElapsed in this file -->

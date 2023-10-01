@@ -1,0 +1,1 @@
+<!-- Add extra documentation for PlayerInventorySlots in this file -->

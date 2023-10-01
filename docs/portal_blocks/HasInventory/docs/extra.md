@@ -1,0 +1,1 @@
+<!-- Add extra documentation for HasInventory in this file -->

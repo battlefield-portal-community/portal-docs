@@ -1,0 +1,1 @@
+<!-- Add extra documentation for IsInventorySlotActive in this file -->

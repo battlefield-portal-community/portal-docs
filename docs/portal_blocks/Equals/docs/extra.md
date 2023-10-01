@@ -1,0 +1,1 @@
+<!-- Add extra documentation for Equals in this file -->

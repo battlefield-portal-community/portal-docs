@@ -1,0 +1,1 @@
+<!-- Add extra documentation for CapturePoints in this file -->

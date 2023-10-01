@@ -1,0 +1,1 @@
+<!-- Add extra documentation for IsCurrentMap in this file -->

@@ -1,0 +1,1 @@
+<!-- Add extra documentation for SetPlayerSoldier in this file -->

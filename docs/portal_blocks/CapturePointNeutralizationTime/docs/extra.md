@@ -1,0 +1,1 @@
+<!-- Add extra documentation for CapturePointNeutralizationTime in this file -->

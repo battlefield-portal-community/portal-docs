@@ -1,0 +1,1 @@
+<!-- Add extra documentation for InventoryOpenGadgets in this file -->

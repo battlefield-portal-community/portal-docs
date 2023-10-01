@@ -1,0 +1,1 @@
+<!-- Add extra documentation for DamageTypes in this file -->

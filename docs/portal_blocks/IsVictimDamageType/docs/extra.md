@@ -1,0 +1,1 @@
+<!-- Add extra documentation for IsVictimDamageType in this file -->

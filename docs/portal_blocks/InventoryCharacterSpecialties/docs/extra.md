@@ -1,0 +1,1 @@
+<!-- Add extra documentation for InventoryCharacterSpecialties in this file -->

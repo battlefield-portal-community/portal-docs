@@ -1,0 +1,1 @@
+<!-- Add extra documentation for IsPlayerUsingSoldier in this file -->

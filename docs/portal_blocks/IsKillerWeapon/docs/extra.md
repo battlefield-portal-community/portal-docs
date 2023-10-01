@@ -1,0 +1,1 @@
+<!-- Add extra documentation for IsKillerWeapon in this file -->
