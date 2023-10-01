@@ -1,1 +1,1 @@
-{"block": "GetSeatCount", "summary": "Returns the **Number** of seats in a **Vehicle**.", "inputs": ["1. **Vehicle**"], "output": ["-   **Number**"]}
+{"block_id": "ID_ARRIVAL_BLOCK_GETVEHICLESEATCOUNT", "block": "GetSeatCount", "summary": "Returns the **Number** of seats in a **Vehicle**.", "inputs": ["1. **Vehicle**"], "output": ["-   **Number**"]}

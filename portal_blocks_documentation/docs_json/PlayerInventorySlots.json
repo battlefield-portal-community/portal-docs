@@ -1,1 +1,1 @@
-{"block": "PlayerInventorySlots", "summary": "Returns a **PlayerInventorySlotsItem** from the collection of all available player inventory slots.", "output": ["-   **PlayerInventorySlotsItem**"]}
+{"block_id": "ID_ARRIVAL_BLOCK_INVENTORYSLOTSITEM", "block": "PlayerInventorySlots", "summary": "Returns a **PlayerInventorySlotsItem** from the collection of all available player inventory slots.", "output": ["-   **PlayerInventorySlotsItem**"]}

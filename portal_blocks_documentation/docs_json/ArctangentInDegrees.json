@@ -1,1 +1,1 @@
-{"block": "ArctangentInDegrees", "summary": "Returns the inverse tangent of a provided **Number** value in degrees.", "inputs": ["1. **Number**"], "output": ["-   **Number**"]}
+{"block_id": "ID_ARRIVAL_BLOCK_ARCTANGENTINDEGREES", "block": "ArctangentInDegrees", "summary": "Returns the inverse tangent of a provided **Number** value in degrees.", "inputs": ["1. **Number**"], "output": ["-   **Number**"]}

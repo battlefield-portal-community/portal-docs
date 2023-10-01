@@ -1,1 +1,1 @@
-{"block": "Abort", "summary": "Stops the execution of a list of **ACTIONS** in a **RULE**."}
+{"block_id": "ID_ARRIVAL_BLOCK_ABORT", "block": "Abort", "summary": "Stops the execution of a list of **ACTIONS** in a **RULE**."}

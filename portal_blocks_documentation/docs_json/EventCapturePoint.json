@@ -1,1 +1,1 @@
-{"block": "EventCapturePoint", "summary": "Returns the **CapturePoint** payload from the **RULE** **EVENT** context.", "output": ["-   **CapturePoint**"]}
+{"block_id": "ID_ARRIVAL_BLOCK_EVENTCAPTUREPOINT", "block": "EventCapturePoint", "summary": "Returns the **CapturePoint** payload from the **RULE** **EVENT** context.", "output": ["-   **CapturePoint**"]}

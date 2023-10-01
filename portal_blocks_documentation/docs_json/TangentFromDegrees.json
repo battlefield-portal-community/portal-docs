@@ -1,1 +1,1 @@
-{"block": "TangentFromDegrees", "summary": "Returns the tangent value of a specified angle in degrees.", "inputs": ["1. **Number**"], "output": ["-   **Number**"]}
+{"block_id": "ID_ARRIVAL_BLOCK_TANGENTFROMDEGREES", "block": "TangentFromDegrees", "summary": "Returns the tangent value of a specified angle in degrees.", "inputs": ["1. **Number**"], "output": ["-   **Number**"]}

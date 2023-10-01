@@ -1,1 +1,1 @@
-{"block": "IsVictimDeathType", "summary": "Returns a **Bool** indicating if the victim died by the provided **DeathType**.", "inputs": ["1. **DeathType**", "2. **DeathTypesItem**"], "output": ["-   **Bool**"]}
+{"block_id": "ID_ARRIVAL_BLOCK_EVENTDEATHTYPECOMPARE", "block": "IsVictimDeathType", "summary": "Returns a **Bool** indicating if the victim died by the provided **DeathType**.", "inputs": ["1. **DeathType**", "2. **DeathTypesItem**"], "output": ["-   **Bool**"]}

@@ -1,1 +1,1 @@
-{"block": "IndexOfArrayValue", "summary": "Returns the index of an **Array** value.", "inputs": ["1. **Array**", "2. **Any Type**"], "output": ["-   **Number**"]}
+{"block_id": "PYRITE_CONVENIENCE_INDEXOFARRAYVALUE", "block": "IndexOfArrayValue", "summary": "Returns the index of an **Array** value.", "inputs": ["1. **Array**", "2. **Any Type**"], "output": ["-   **Number**"]}

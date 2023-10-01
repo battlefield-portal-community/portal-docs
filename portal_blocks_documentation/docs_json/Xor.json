@@ -1,1 +1,1 @@
-{"block": "Xor", "summary": "Returns **_True_** if the provided **Bool** inputs return different values.", "inputs": ["1. **Bool**", "2. **Bool**"], "output": ["-   **Bool**"]}
+{"block_id": "ID_ARRIVAL_BLOCK_XOR", "block": "Xor", "summary": "Returns **_True_** if the provided **Bool** inputs return different values.", "inputs": ["1. **Bool**", "2. **Bool**"], "output": ["-   **Bool**"]}

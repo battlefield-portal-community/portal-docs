@@ -1,1 +1,1 @@
-{"block": "LocationalSounds", "summary": "Returns a **LocationalSoundsItem** from the collection of locational sounds.", "output": ["-   **LocationalSoundsItem**"]}
+{"block_id": "ID_ARRIVAL_BLOCK_LOCATIONALSOUNDSITEM", "block": "LocationalSounds", "summary": "Returns a **LocationalSoundsItem** from the collection of locational sounds.", "output": ["-   **LocationalSoundsItem**"]}

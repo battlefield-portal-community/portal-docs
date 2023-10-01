@@ -1,1 +1,1 @@
-{"block": "GetPlayers", "summary": "Returns an **Array** of all players within a game.", "output": ["-   **Array**"]}
+{"block_id": "ID_ARRIVAL_BLOCK_ALLPLAYERS", "block": "GetPlayers", "summary": "Returns an **Array** of all players within a game.", "output": ["-   **Array**"]}

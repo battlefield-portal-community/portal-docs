@@ -1,1 +1,1 @@
-{"block": "SetWorldIconImage", "summary": "Sets the image property of a **WorldIconsItem** to the selected **WorldIconImagesItem**.", "inputs": ["1. **WorldIconsItem**", "2. **WorldIconImagesItem**"]}
+{"block_id": "ID_ARRIVAL_BLOCK_SETWORLDICONIMAGE", "block": "SetWorldIconImage", "summary": "Sets the image property of a **WorldIconsItem** to the selected **WorldIconImagesItem**.", "inputs": ["1. **WorldIconsItem**", "2. **WorldIconImagesItem**"]}

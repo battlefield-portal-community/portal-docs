@@ -1,1 +1,1 @@
-{"block": "ForceRevive", "summary": "Revives a target **Player** that is in the mandown state.", "inputs": ["1. **Player**"]}
+{"block_id": "ID_ARRIVAL_BLOCK_FORCEREVIVE", "block": "ForceRevive", "summary": "Revives a target **Player** that is in the mandown state.", "inputs": ["1. **Player**"]}

@@ -1,1 +1,1 @@
-{"block": "ArrayContains", "summary": "Returns a **Bool** value based on whether the provided **Array** contains the provided value.", "inputs": ["1. **Array**", "2. **Any Type**"], "output": ["-   **Bool**"]}
+{"block_id": "PYRITE_CONVENIENCE_ARRAYCONTAINS", "block": "ArrayContains", "summary": "Returns a **Bool** value based on whether the provided **Array** contains the provided value.", "inputs": ["1. **Array**", "2. **Any Type**"], "output": ["-   **Bool**"]}

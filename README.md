@@ -20,6 +20,7 @@
 ### Each doc follows the this class
 ```python
 class CleanDoc(TypedDict):
+    block_id: str
     block: str
     summary: str
     inputs: Optional[list]

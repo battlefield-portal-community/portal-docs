@@ -1,1 +1,1 @@
-{"block": "GetAllPlayersInVehicle", "summary": "Returns a **Array** of all players inside a provided **Vehicle**", "inputs": ["1.  **Vehicle**"], "output": ["-   **Array**"]}
+{"block_id": "ID_ARRIVAL_BLOCK_ALLPLAYERSINVEHICLE", "block": "GetAllPlayersInVehicle", "summary": "Returns a **Array** of all players inside a provided **Vehicle**", "inputs": ["1.  **Vehicle**"], "output": ["-   **Array**"]}

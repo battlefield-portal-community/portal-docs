@@ -1,1 +1,1 @@
-{"block": "EventPlayer", "summary": "Returns the 1st **Player** payload from the **RULE** **EVENT** context.", "output": ["-   **Player**"]}
+{"block_id": "ID_ARRIVAL_BLOCK_EVENTPLAYER", "block": "EventPlayer", "summary": "Returns the 1st **Player** payload from the **RULE** **EVENT** context.", "output": ["-   **Player**"]}

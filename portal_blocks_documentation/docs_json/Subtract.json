@@ -1,1 +1,1 @@
-{"block": "Subtract", "summary": "Returns the difference between two **Number** values or two **Vector** values.", "inputs": ["1. **Number** | **Vector**", "2. **Number** | **Vector**"], "output": ["-   **Number** | **Vector**"]}
+{"block_id": "ID_ARRIVAL_BLOCK_SUBTRACT", "block": "Subtract", "summary": "Returns the difference between two **Number** values or two **Vector** values.", "inputs": ["1. **Number** | **Vector**", "2. **Number** | **Vector**"], "output": ["-   **Number** | **Vector**"]}

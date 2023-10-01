@@ -1,1 +1,1 @@
-{"block": "AngleDifference", "summary": "Returns the difference between two angles (in degrees).", "inputs": ["1. **Number**", "    **(1st Angle)**", "2. **Number**", "    **(2nd Angle)**"], "output": ["-   **Number**"]}
+{"block_id": "ID_ARRIVAL_BLOCK_ANGLEDIFFERENCE", "block": "AngleDifference", "summary": "Returns the difference between two angles (in degrees).", "inputs": ["1. **Number**", "    **(1st Angle)**", "2. **Number**", "    **(2nd Angle)**"], "output": ["-   **Number**"]}

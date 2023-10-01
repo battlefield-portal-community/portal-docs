@@ -1,1 +1,1 @@
-{"block": "GetCaptureProgress", "summary": "Returns a **Number** from zero to one corresponding to the capture progress of the provided **CapturePoint**.", "inputs": ["1. **CapturePoint**"], "output": ["-   **Number**"]}
+{"block_id": "ID_ARRIVAL_BLOCK_GETCAPTUREPROGRESS", "block": "GetCaptureProgress", "summary": "Returns a **Number** from zero to one corresponding to the capture progress of the provided **CapturePoint**.", "inputs": ["1. **CapturePoint**"], "output": ["-   **Number**"]}

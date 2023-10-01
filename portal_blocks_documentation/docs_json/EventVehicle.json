@@ -1,1 +1,1 @@
-{"block": "EventVehicle", "summary": "Returns the **Vehicle** payload from the **RULE** **EVENT** context.", "output": ["-   **Vehicle**"]}
+{"block_id": "ID_ARRIVAL_BLOCK_EVENTVEHICLE", "block": "EventVehicle", "summary": "Returns the **Vehicle** payload from the **RULE** **EVENT** context.", "output": ["-   **Vehicle**"]}

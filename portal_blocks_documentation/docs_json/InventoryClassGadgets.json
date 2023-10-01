@@ -1,1 +1,1 @@
-{"block": "InventoryClassGadgets", "summary": "Returns an **InventoryClassGadgetsItem** from the collection of all class gadgets.", "output": ["-   **InventoryClassGadgetsItem**"]}
+{"block_id": "ID_ARRIVAL_BLOCK_CLASSGADGETSITEM", "block": "InventoryClassGadgets", "summary": "Returns an **InventoryClassGadgetsItem** from the collection of all class gadgets.", "output": ["-   **InventoryClassGadgetsItem**"]}

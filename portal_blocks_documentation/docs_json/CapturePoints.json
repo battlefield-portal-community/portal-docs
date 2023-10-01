@@ -1,1 +1,1 @@
-{"block": "CapturePoints", "summary": "Returns a **CapturePointsItem** from the collection of all possible capture points.", "output": ["-   **CapturePointsItem**"]}
+{"block_id": "ID_ARRIVAL_BLOCK_CAPTUREPOINTSITEM", "block": "CapturePoints", "summary": "Returns a **CapturePointsItem** from the collection of all possible capture points.", "output": ["-   **CapturePointsItem**"]}

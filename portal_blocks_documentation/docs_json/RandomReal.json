@@ -1,1 +1,1 @@
-{"block": "RandomReal", "summary": "Returns a random **Number** between a specified minimum and maximum value (inclusive).", "inputs": ["1. **Number**", "    **(Minimum)**", "2. **Number**", "    **(Maximum)**"], "output": ["-   **Number**"]}
+{"block_id": "ID_ARRIVAL_BLOCK_RANDOMREAL", "block": "RandomReal", "summary": "Returns a random **Number** between a specified minimum and maximum value (inclusive).", "inputs": ["1. **Number**", "    **(Minimum)**", "2. **Number**", "    **(Maximum)**"], "output": ["-   **Number**"]}

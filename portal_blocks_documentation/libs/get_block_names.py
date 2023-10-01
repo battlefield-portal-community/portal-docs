@@ -106,6 +106,8 @@ def get_block_names():
     logger.debug(f"got {len(data)} blocks")
     with open(project_dir / "data" / "enabled_blocks.json", "w") as json_file:
         bad_blocks = [
+            # this is the "Control" flow group not the actual If block that is "controls_if_if"
+            "If",
             "Compare",
             "IndexOfFirstTrue",
             "actionComment",
