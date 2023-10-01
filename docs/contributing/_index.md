@@ -1,4 +1,4 @@
 ---
 title: Contributing
-weight: 100
+weight: 1000
 ---
