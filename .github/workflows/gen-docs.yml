@@ -3,11 +3,6 @@ on:
   workflow_dispatch:
   schedule:
     - cron: "0 0 * * *"
-  push:
-    branches:
-      - main
-    paths:
-      - 'portal_blocks_documentation/**'
 
 concurrency:
   group: docs-ci-${{ github.ref }}
