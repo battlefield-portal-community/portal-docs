@@ -1,1 +1,1 @@
-{"block": "SetWorldIconOwner", "summary": "Sets the owner **TeamId** of the provided **WorldIconsItem**.", "inputs": ["1. **WorldIconsItem**", "2. **TeamId**"]}
+{"block_id": "ID_ARRIVAL_BLOCK_SETWORLDICONOWNER", "block": "SetWorldIconOwner", "summary": "Sets the owner **TeamId** of the provided **WorldIconsItem**.", "inputs": ["1. **WorldIconsItem**", "2. **TeamId**"]}

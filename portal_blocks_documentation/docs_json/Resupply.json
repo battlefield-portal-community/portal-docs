@@ -1,1 +1,1 @@
-{"block": "Resupply", "summary": "Resupplies the target **Player** using a provided **ResupplyTypesItem**.", "inputs": ["1. **Player**", "2. **ResupplyTypesItem**"]}
+{"block_id": "ID_ARRIVAL_BLOCK_RESUPPLY", "block": "Resupply", "summary": "Resupplies the target **Player** using a provided **ResupplyTypesItem**.", "inputs": ["1. **Player**", "2. **ResupplyTypesItem**"]}

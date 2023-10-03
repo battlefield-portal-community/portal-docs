@@ -1,1 +1,1 @@
-{"block": "MCOMStateBool", "summary": "Returns the **MCOMStateBoolItem** of the selected **Bool**-based MCOM property.", "output": ["-   **Bool**"]}
+{"block_id": "ID_ARRIVAL_BLOCK_MCOMSTATEBOOLITEM", "block": "MCOMStateBool", "summary": "Returns the **MCOMStateBoolItem** of the selected **Bool**-based MCOM property.", "output": ["-   **Bool**"]}

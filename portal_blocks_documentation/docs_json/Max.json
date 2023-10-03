@@ -1,1 +1,1 @@
-{"block": "Max", "summary": "Returns the greater of the two **Number** values provided.", "inputs": ["1. **Number**", "2. **Number**"], "output": ["-   **Number**"]}
+{"block_id": "ID_ARRIVAL_BLOCK_MAX", "block": "Max", "summary": "Returns the greater of the two **Number** values provided.", "inputs": ["1. **Number**", "2. **Number**"], "output": ["-   **Number**"]}

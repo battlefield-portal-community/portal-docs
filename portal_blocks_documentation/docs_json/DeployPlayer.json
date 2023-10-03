@@ -1,1 +1,1 @@
-{"block": "DeployPlayer", "summary": "Deploys a target **Player** onto the battlefield from the deploy screen.", "inputs": ["1. **Player**"]}
+{"block_id": "ID_ARRIVAL_BLOCK_SPAWNPLAYER", "block": "DeployPlayer", "summary": "Deploys a target **Player** onto the battlefield from the deploy screen.", "inputs": ["1. **Player**"]}

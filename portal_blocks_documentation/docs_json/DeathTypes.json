@@ -1,1 +1,1 @@
-{"block": "DeathTypes", "summary": "Returns a **DeathTypesItem** from the collection of all possible death types.", "output": ["-   **DeathTypesItem**"]}
+{"block_id": "ID_ARRIVAL_BLOCK_PLAYERDEATHTYPESITEM", "block": "DeathTypes", "summary": "Returns a **DeathTypesItem** from the collection of all possible death types.", "output": ["-   **DeathTypesItem**"]}

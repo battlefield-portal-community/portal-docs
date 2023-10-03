@@ -1,1 +1,1 @@
-{"block": "EventDamageType", "summary": "Returns the **DamageType** of the victim from the **OnPlayerDamaged** **EVENT** context.", "output": ["-   **DamageType**"]}
+{"block_id": "ID_ARRIVAL_BLOCK_EVENTDAMAGETYPE", "block": "EventDamageType", "summary": "Returns the **DamageType** of the victim from the **OnPlayerDamaged** **EVENT** context.", "output": ["-   **DamageType**"]}

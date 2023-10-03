@@ -1,1 +1,1 @@
-{"block": "Sounds", "summary": "Returns a **SoundsItem** from the collection of sounds.", "output": ["-   **SoundsItem**"]}
+{"block_id": "ID_ARRIVAL_BLOCK_SOUNDSITEM", "block": "Sounds", "summary": "Returns a **SoundsItem** from the collection of sounds.", "output": ["-   **SoundsItem**"]}

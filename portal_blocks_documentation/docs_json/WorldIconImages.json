@@ -1,1 +1,1 @@
-{"block": "WorldIconImages", "summary": "Returns a **WorldIconImagesItem** from the collection of world icon images.", "output": ["-   **WorldIconImagesItem**"]}
+{"block_id": "ID_ARRIVAL_BLOCK_WORLDICONIMAGESITEM", "block": "WorldIconImages", "summary": "Returns a **WorldIconImagesItem** from the collection of world icon images.", "output": ["-   **WorldIconImagesItem**"]}

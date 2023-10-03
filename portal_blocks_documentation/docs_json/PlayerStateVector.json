@@ -1,1 +1,1 @@
-{"block": "PlayerStateVector", "summary": "Returns the **PlayerStateVectorItem** of the selected **Vector**-based player property.", "output": ["-   **PlayerStateVectorItem**"]}
+{"block_id": "ID_ARRIVAL_BLOCK_SOLDIERSTATEVECTORITEM", "block": "PlayerStateVector", "summary": "Returns the **PlayerStateVectorItem** of the selected **Vector**-based player property.", "output": ["-   **PlayerStateVectorItem**"]}

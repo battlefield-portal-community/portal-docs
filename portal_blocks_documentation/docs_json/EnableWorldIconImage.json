@@ -1,1 +1,1 @@
-{"block": "EnableWorldIconImage", "summary": "Enables or disables the image for a provided **WorldIconsItem**.", "inputs": ["1. **WorldIconsItem**", "2. **Bool**"]}
+{"block_id": "ID_ARRIVAL_BLOCK_ENABLEWORLDICONIMAGE", "block": "EnableWorldIconImage", "summary": "Enables or disables the image for a provided **WorldIconsItem**.", "inputs": ["1. **WorldIconsItem**", "2. **Bool**"]}

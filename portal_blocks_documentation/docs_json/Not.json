@@ -1,1 +1,1 @@
-{"block": "Not", "summary": "Return a **Bool** of the opposite value of the **Bool** input.", "inputs": ["1. **Bool**"], "output": ["-   **Bool**"]}
+{"block_id": "ID_ARRIVAL_BLOCK_NOT", "block": "Not", "summary": "Return a **Bool** of the opposite value of the **Bool** input.", "inputs": ["1. **Bool**"], "output": ["-   **Bool**"]}

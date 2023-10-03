@@ -1,1 +1,1 @@
-{"block": "ResupplyTypes", "summary": "Returns a **ResupplyTypesItem** from the collection of resupply types which can be used with **Resupply**.", "output": ["-   **ResupplyTypesItem**"]}
+{"block_id": "ID_ARRIVAL_BLOCK_RESUPPLYTYPESITEM", "block": "ResupplyTypes", "summary": "Returns a **ResupplyTypesItem** from the collection of resupply types which can be used with **Resupply**.", "output": ["-   **ResupplyTypesItem**"]}

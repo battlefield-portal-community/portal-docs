@@ -1,1 +1,1 @@
-{"block": "GetPlayerState", "summary": "Returns the value of the target **Player** state.", "inputs": ["1. **Player**", "2. **PlayerStateBoolItem** | **PlayerStateNumberItem** | **PlayerStateVectorItem**"], "output": ["-   **Bool** | **Number** | **Vector**"]}
+{"block_id": "ID_ARRIVAL_BLOCK_GETSOLDIERSTATE", "block": "GetPlayerState", "summary": "Returns the value of the target **Player** state.", "inputs": ["1. **Player**", "2. **PlayerStateBoolItem** | **PlayerStateNumberItem** | **PlayerStateVectorItem**"], "output": ["-   **Bool** | **Number** | **Vector**"]}

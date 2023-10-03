@@ -1,1 +1,1 @@
-{"block": "EnablePlayerDeploy", "summary": "Enables or disables the ability for a target **Player** to deploy.", "inputs": ["1. **Player**", "2. **Bool**"]}
+{"block_id": "ID_ARRIVAL_BLOCK_SETSPAWNOVERRIDE", "block": "EnablePlayerDeploy", "summary": "Enables or disables the ability for a target **Player** to deploy.", "inputs": ["1. **Player**", "2. **Bool**"]}

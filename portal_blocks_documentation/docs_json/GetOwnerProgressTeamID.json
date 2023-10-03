@@ -1,1 +1,1 @@
-{"block": "GetOwnerProgressTeamID", "summary": "Returns the **TeamId** of the team currently capturing the provided **CapturePoint**.", "inputs": ["1. **CapturePoint**"], "output": ["-   **TeamId**"]}
+{"block_id": "ID_ARRIVAL_BLOCK_GETOWNERPROGRESSTEAMID", "block": "GetOwnerProgressTeamID", "summary": "Returns the **TeamId** of the team currently capturing the provided **CapturePoint**.", "inputs": ["1. **CapturePoint**"], "output": ["-   **TeamId**"]}

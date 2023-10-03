@@ -1,1 +1,1 @@
-{"block": "SineFromDegrees", "summary": "Returns the sine value of a specified angle in degrees.", "inputs": ["1. **Number**"], "output": ["-   **Number**"]}
+{"block_id": "ID_ARRIVAL_BLOCK_SINEFROMDEGREES", "block": "SineFromDegrees", "summary": "Returns the sine value of a specified angle in degrees.", "inputs": ["1. **Number**"], "output": ["-   **Number**"]}

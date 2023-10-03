@@ -1,1 +1,1 @@
-{"block": "LastOf", "summary": "Returns the value at the end of the specified **Array**.", "inputs": ["1. **Array**"], "output": ["-   **Any Type**"]}
+{"block_id": "ID_ARRIVAL_BLOCK_LASTOF", "block": "LastOf", "summary": "Returns the value at the end of the specified **Array**.", "inputs": ["1. **Array**"], "output": ["-   **Any Type**"]}

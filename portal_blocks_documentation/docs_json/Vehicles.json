@@ -1,1 +1,1 @@
-{"block": "Vehicles", "summary": "Returns a **VehiclesItem** from the **Vehicle** collection.", "output": ["-   **VehiclesItem**"]}
+{"block_id": "ID_ARRIVAL_BLOCK_VEHICLESITEM", "block": "Vehicles", "summary": "Returns a **VehiclesItem** from the **Vehicle** collection.", "output": ["-   **VehiclesItem**"]}

@@ -15,6 +15,7 @@ class CleanDoc(TypedDict):
     summary: str
     inputs: Optional[list]
     output: Optional[list]
+    block_id: Optional[str]
 
 
 i18n = None
@@ -83,10 +84,17 @@ def gen_json():
 
     for raw_doc in sorted((project_dir / "data" / "raw_docs").glob("*.md")):
         bad_blocks = [
+            "control_if"
             "controls_if_else",
             "missingActionBlockType_v1",
             "missingValueBlockType_v1",
         ]
+        raw_doc_name_parts = raw_doc.stem.split("-")
+        if len(raw_doc_name_parts) == 1:
+            # continue because we only care for blocks with ID
+            continue
+        raw_doc_name_without_id = raw_doc_name_parts[0]
+        block_id = raw_doc_name_parts[1]
         with open(raw_doc) as file:
             data = [
                 key
@@ -98,7 +106,7 @@ def gen_json():
             if not len(data):
                 continue
 
-        if raw_doc.stem == "ruleBlock":
+        if raw_doc_name_without_id == "ruleBlock":
             clean = [gen_text(data[0])]
             for index, line in enumerate(data[1:]):
                 if index == 0:
@@ -116,7 +124,8 @@ def gen_json():
             o = clean.index("Output")
 
         clean_doc: CleanDoc = dict()
-        if raw_doc.stem == "subroutineInstanceBlock":
+        clean_doc['block_id'] = block_id
+        if raw_doc_name_without_id == "subroutineInstanceBlock":
             clean_doc["block"] = "subroutineInstanceBlock"
         else:
             clean_doc["block"] = clean[0]
@@ -127,22 +136,22 @@ def gen_json():
         if o:
             clean_doc["output"] = clean[o + 1 :]
 
-        k = f"ID_ARRIVAL_BLOCK_{raw_doc.stem.upper()}"
+        k = f"ID_ARRIVAL_BLOCK_{raw_doc_name_without_id.upper()}"
         clean_name = mapped_translations.get(k, False)
-        if clean_name == "VehicleTypes":
-            clean_name = "VehicleTypesItem"
-        elif not clean_name:
-            if raw_doc.stem == "controls_if_if":
-                clean_name = "Control_If"
+        if not clean_name:
+            if raw_doc_name_without_id == "controls_if_if":
+                clean_name = "If"
             else:
                 clean_name = clean_doc["block"].replace(" ", "").replace("#", "")
+        elif clean_name == "VehicleTypes":
+            clean_name = "VehicleTypesItem"
 
-        if clean_name in ["RULE", "MOD"]:
+        if clean_name in ["RULE", "MOD", "CONDITION"]:
             clean_name = clean_name.capitalize()
         with open(project_dir / "docs_json" / f"{clean_name}.json", "w") as file:
             json.dump(clean_doc, file)
         clean_names.append(clean_name)
-        logger.debug(f"{raw_doc.stem} -> {clean_name}")
+        logger.debug(f"{raw_doc_name_without_id} -> {clean_name}")
 
     with open(project_dir / "data" / "clean_names", "w") as file:
         json.dump(clean_names, file)

@@ -1,1 +1,1 @@
-{"block": "RandomizedArray", "summary": "Returns a copy of the specified **Array** with the values in a random order.", "inputs": ["1. **Array**"], "output": ["-   **Array**"]}
+{"block_id": "ID_ARRIVAL_BLOCK_RANDOMIZEDARRAY", "block": "RandomizedArray", "summary": "Returns a copy of the specified **Array** with the values in a random order.", "inputs": ["1. **Array**"], "output": ["-   **Array**"]}

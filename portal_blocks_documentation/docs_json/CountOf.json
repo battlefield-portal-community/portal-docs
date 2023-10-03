@@ -1,1 +1,1 @@
-{"block": "CountOf", "summary": "Returns the **Number** of elements in the specified **Array**.", "inputs": ["1. **Array**"], "output": ["-   **Number**"]}
+{"block_id": "ID_ARRIVAL_BLOCK_COUNTOF", "block": "CountOf", "summary": "Returns the **Number** of elements in the specified **Array**.", "inputs": ["1. **Array**"], "output": ["-   **Number**"]}

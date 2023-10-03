@@ -1,1 +1,1 @@
-{"block": "InventoryMeleeWeapons", "summary": "Returns an **InventoryMeleeWeaponsItem** from the collection of all melee weapons.", "output": ["-   **InventoryMeleeWeaponsItem**"]}
+{"block_id": "ID_ARRIVAL_BLOCK_MELEEWEAPONSITEM", "block": "InventoryMeleeWeapons", "summary": "Returns an **InventoryMeleeWeaponsItem** from the collection of all melee weapons.", "output": ["-   **InventoryMeleeWeaponsItem**"]}

@@ -1,1 +1,1 @@
-{"block": "GetGameModeTimeElapsed", "summary": "Returns the total elapsed time of the current gamemode.", "output": ["-   **Number**"]}
+{"block_id": "ID_ARRIVAL_BLOCK_GETGAMEMODETIMEELAPSED", "block": "GetGameModeTimeElapsed", "summary": "Returns the total elapsed time of the current gamemode.", "output": ["-   **Number**"]}

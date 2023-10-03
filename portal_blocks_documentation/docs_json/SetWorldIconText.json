@@ -1,1 +1,1 @@
-{"block": "SetWorldIconText", "summary": "Sets the text property for a provided **WorldIconsItem**.", "inputs": ["1. **WorldIconsItem**", "2. **Message**"]}
+{"block_id": "ID_ARRIVAL_BLOCK_SETWORLDICONTEXT", "block": "SetWorldIconText", "summary": "Sets the text property for a provided **WorldIconsItem**.", "inputs": ["1. **WorldIconsItem**", "2. **Message**"]}
