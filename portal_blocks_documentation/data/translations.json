@@ -1,4 +1,10 @@
 {
+    "timestamp": [
+        {
+            "seconds": 1696336490,
+            "nanos": null
+        }
+    ],
     "localizedTexts": [
         {
             "sid": "ID_ARRIVAL_EXP_BF_WORLD_TOUR_DESC",
@@ -25144,12 +25150,6 @@
             "sid": "ID_COS_VEH_HELICOPTER__LITTLEBIRD_01_VSKIN0033",
             "localizedText": "Exit Strategy",
             "categoryId": 197
-        }
-    ],
-    "timestamp": [
-        {
-            "nanos": null,
-            "seconds": 1696336490
         }
     ]
 }
