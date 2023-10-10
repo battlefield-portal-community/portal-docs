@@ -1,4 +1,12 @@
 [
+    "AutoPlayers_DefendObjective",
+    "AutoPlayers_ForceFillTeam",
+    "AutoPlayers_GetName",
+    "AutoPlayers_GetObjectivePosition",
+    "AutoPlayers_IsAutoPlayer",
+    "AutoPlayers_IsIdle",
+    "AutoPlayers_MoveObjective",
+    "AutoPlayers_SetPlayerCount",
     "GetArgument",
     "colour_blend",
     "colour_picker",
