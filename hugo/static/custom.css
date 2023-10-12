@@ -79,6 +79,10 @@ a .gdoc-nav__entry .is-active {
   text-decoration-style: none !important; */
 }
 
+.gdoc-hint {
+  text-shadow: none;
+}
+
 :root {
     --code-max-height: 60rem;
   }

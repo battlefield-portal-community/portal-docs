@@ -1,18 +1,18 @@
 ---
-title: "Debug Portal Rules Editor Issues"
+title: Debug Rules Editor
 date: 2023-10-12T13:52:22+05:30
 draft: false
 geekdocAnchor: true
 weight: 100
 ---
 
-{{< toc >}}
-
-# Debugging Portal Rules Editor
-
 Sometimes there might be issues in loading your rules (especially when using more complex and exported data for import).
 
 In this section we will show you how to debug issues while on PC and using your internet browser.
+
+{{< toc >}}
+
+# Debug Loading Issues
 
 ## Preparation
 
@@ -83,3 +83,9 @@ You now have the JSON representation of your visual blocks and can check the det
 ![step 05](images/step_05.png)
 
 In our example the error message was related to a block-ID, which we can now find with the usual search functionality within a text-editor and examine it further.
+
+# Debug Saving Issues
+
+{{< hint type=note >}}
+Work in progress... check back later!
+{{< /hint >}}
