@@ -1,6 +1,9 @@
 ---
 title: Tutorials
-weight: 4
+date: 2023-10-12T13:52:22+05:30
+draft: false
+geekdocAnchor: true
+weight: 3
 ---
 
 This section contains tutorials for the Battlefield Portal game mode.

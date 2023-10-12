@@ -1,8 +1,10 @@
 ---
-title: Welcome to the Battlefield Portal Documentation
+title: Battlefield Portal Documentation
 geekdocNav: true
-geekdocAlign: center
-geekdocAnchor: false
+geekdocAnchor: true
+date: 2023-10-12T13:52:22+05:30
+draft: false
+weight: 1
 geekdocFilePath: "_index.md"
 ---
 

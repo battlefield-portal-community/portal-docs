@@ -1,11 +1,9 @@
 ---
-title: Tools
+title: Rules Editor
 date: 2023-10-12T13:52:22+05:30
 draft: false
 geekdocAnchor: true
 weight: 4
 ---
-
-This section contains a collection of helpful tools to work with Battlefield Portal.
 
 {{< toc-tree >}}
