@@ -15,8 +15,11 @@
 }
 
 .container {
+  --auto-margin1: calc(100vw - 82rem);
+  --auto-margin: calc(var(--auto-margin1) / 2 + 82rem);
+
   background-image: url(/images/rules-bg.png);
-  background-position-x: calc(18rem + 2rem + 82rem - 400px);
+  background-position-x: calc(var(--auto-margin) - 420px);
   background-position-y: bottom;
   background-repeat: no-repeat;
   background-attachment: fixed;
