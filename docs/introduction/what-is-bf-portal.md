@@ -23,6 +23,8 @@ With Portal you have the possibility to play old eras of the Battlefield Games a
 - [Share your Experience](https://www.ea.com/games/battlefield/battlefield-2042/tips-and-tricks/battlefield-portal-share-experience)
 - [Override Defaults with the Rules Editor](https://www.ea.com/games/battlefield/battlefield-2042/tips-and-tricks/battlefield-portal-overriding-defaults)
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/eHm542knTb8?si=MMv4Zz4oM56CUPHS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 # Terms and Synonyms
 
 Experience = Game Mode = Mod (= Server)
