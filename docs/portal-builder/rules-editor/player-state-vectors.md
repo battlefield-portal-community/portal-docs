@@ -3,7 +3,7 @@ title: Player State Vectors
 date: 2023-10-12T13:52:22+05:30
 draft: false
 geekdocAnchor: true
-weight: 3
+weight: 70
 ---
 
 This section will explain you the single Player State Vectors that are available in the Rules Editor

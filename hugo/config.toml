@@ -40,3 +40,5 @@ target = "./content/blocks"
     geekdocFilePath= "content"
     geekdocRepo = "https://github.com/battlefield-portal-community/portal-docs"
     geekdocEditPath = "edit/main/docs"
+    geekdocNextPrev = true
+    geekdocSearchShowParent = true

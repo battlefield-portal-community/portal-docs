@@ -3,7 +3,7 @@ title: UI Message Types
 date: 2023-10-12T13:52:22+05:30
 draft: false
 geekdocAnchor: true
-weight: 3
+weight: 60
 ---
 
 This section will explain you the single message types that are available in the Rules Editor.
