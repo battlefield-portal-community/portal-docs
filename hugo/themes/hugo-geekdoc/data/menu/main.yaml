@@ -1,7 +1,6 @@
----
 main:
   - name: Introduction
-    # ref: "/introduction"
+    ref: "/introduction/"
     sub:
       - name: Battlefield Portal Documentation
         ref: "/introduction/bfportal-documentation"
@@ -9,84 +8,83 @@ main:
         ref: "/introduction/what-is-bf-portal"
       - name: Battlefield Portal Community
         ref: "/introduction/bfportal-community"
+      - name: XP/Progression Limitations
+        ref: "/introduction/xp-limitation"
   - name: Portal Builder
-    # ref: "/contributing/page-template/work-in-progress"
+    ref: "/portal-builder/"
     sub:
       - name: Game Modes
-      # ref: "/contributing/page-template/work-in-progress"
+        ref: "/portal-builder/game-modes"
       - name: Modifiers
-        # ref: "/contributing/page-template/work-in-progress"
+        ref: "/portal-builder/modifiers"
       - name: Restrictions
-        # ref: "/contributing/page-template/work-in-progress"
+        ref: "/portal-builder/restrictions"
       - name: Rules Editor
-        # ref: "/contributing/page-template/work-in-progress"
+        ref: "/portal-builder/rules-editor"
         sub:
           - name: Basics
-            # ref: "/contributing/page-template/work-in-progress"
+            ref: "/portal-builder/rules-editor/basics"
             sub:
               - name: The Game Loop
-                # ref: "/contributing/page-template/work-in-progress"
+                ref: "/portal-builder/rules-editor/basics/game-loop"
               - name: Rules
-                # ref: "/contributing/page-template/work-in-progress"
+                ref: "/portal-builder/rules-editor/basics/rules"
               - name: Conditions
-                # ref: "/contributing/page-template/work-in-progress"
+                ref: "/portal-builder/rules-editor/basics/conditions"
               - name: Variables
-                # ref: "/contributing/page-template/work-in-progress"
+                ref: "/portal-builder/rules-editor/basics/variables"
               - name: Block Types
-                # ref: "/contributing/page-template/work-in-progress"
+                ref: "/portal-builder/rules-editor/basics/block-types"
               - name: Subroutines
-                # ref: "/contributing/page-template/work-in-progress"
+                ref: "/portal-builder/rules-editor/basics/subroutines"
           - name: Advanced
-            # ref: "/contributing/page-template/work-in-progress"
+            ref: "/portal-builder/rules-editor/advanced"
             sub:
+              - name: Arrays
+                ref: "/portal-builder/rules-editor/advanced/arrays"
+              - name: Loops
+                ref: "/portal-builder/rules-editor/advanced/loops"
               - name: Debug
-              # ref: "/contributing/page-template/work-in-progress"
+                ref: "/portal-builder/rules-editor/advanced/debug"
               - name: Player State Vectors
-                # ref: "/contributing/page-template/work-in-progress"
+                ref: "/portal-builder/rules-editor/advanced/player-state-vectors"
           - name: How-To
-            # ref: "/contributing/page-template/work-in-progress"
+            ref: "/portal-builder/rules-editor/how-to"
             sub:
               - name: Display UI Messages
-                # ref: "/contributing/page-template/work-in-progress"
+                ref: "/portal-builder/rules-editor/how-to/message-types"
               - name: Show World Icons
-                # ref: "/contributing/page-template/work-in-progress"
-              - name: Trigger Sounds
-                # ref: "/contributing/page-template/work-in-progress"
-              - name: Use MCOMs
-                # ref: "/contributing/page-template/work-in-progress"
-      - name: Miscellaneous
-        # ref: "/contributing/page-template/work-in-progress"
-        sub:
-          - name: XP/Progression Limitations
-            # ref: "/contributing/page-template/work-in-progress"
+                ref: "/portal-builder/rules-editor/how-to/world-icons"
+          - name: Block Reference
+            ref: "/blocks/"
   - name: Tutorials
-    # ref: "/contributing/page-template/work-in-progress"
+    ref: "/tutorial"
     sub:
       - name: Custom Spawnpoints
-        # ref: "/contributing/page-template/work-in-progress"
+        ref: "/tutorial/custom-spawnpoints"
       - name: Custom Time and Score
-        # ref: "/contributing/page-template/work-in-progress"
+        ref: "/tutorial/Set-Score-and-Time-Target"
       - name: Complete Game Modes
-        # ref: "/contributing/page-template/work-in-progress"
+        ref: "/tutorial/complete-game-modes"
         sub:
           - name: Custom Gun Game
-            # ref: "/contributing/page-template/work-in-progress"
+            ref: "/tutorial/complete-game-modes/Gun-Game"
           - name: Survival/Wave Game
-            # ref: "/contributing/page-template/work-in-progress"
+            ref: "/tutorial/complete-game-modes/survival-wave-horde-mode"
           - name: Custom Breakthrough
-            # ref: "/contributing/page-template/work-in-progress"
+            ref: "/tutorial/complete-game-modes/Custom-Breakthrough"
           - name: Custom Rush
-            # ref: "/contributing/page-template/work-in-progress"
+            ref: "/tutorial/complete-game-modes/Custom-Rush"
   - name: Tools
-    # ref: "/contributing/page-template/work-in-progress"
+    ref: "/tools"
     sub:
       - name: Portal Browser Extension
-        # ref: "/contributing/page-template/work-in-progress"
+        ref: "/tools/browser-extension"
       - name: Coordinate Finder
-        # ref: "/contributing/page-template/work-in-progress"
+        ref: "/tools/coordinate-finder"
   - name: Bookmarks
-    # ref: "/contributing/page-template/work-in-progress"
+    ref: "/bookmarks/"
+    icon: gdoc_bookmark
   - name: Contributing
-    # ref: "/contributing/page-template/work-in-progress"
----
-
+    ref: "/contributing/how"
+    icon: gdoc_git
