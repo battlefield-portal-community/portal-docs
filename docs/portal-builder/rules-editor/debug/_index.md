@@ -2,7 +2,7 @@
 title: Debug Rules Editor
 date: 2023-10-12T13:52:22+05:30
 draft: false
-geekdocAnchor: true
+
 weight: 100
 ---
 
@@ -12,7 +12,16 @@ In this section we will show you how to debug issues while on PC and using your 
 
 {{< toc >}}
 
-# Debug Loading Issues
+# Debug Experience In-Game
+
+{{< hint type=note >}}
+Work in progress... check back later!
+{{< /hint >}}
+
+- Check Error Log from server admin menu
+- use "SendErrorReport" block to populate own debug messages in the server error log
+
+# Debug Builder Website Loading Issues
 
 ## Preparation
 
@@ -84,7 +93,7 @@ You now have the JSON representation of your visual blocks and can check the det
 
 In our example the error message was related to a block-ID, which we can now find with the usual search functionality within a text-editor and examine it further.
 
-# Debug Saving Issues
+# Debug Builder Website Saving Issues
 
 {{< hint type=note >}}
 Work in progress... check back later!

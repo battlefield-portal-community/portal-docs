@@ -42,3 +42,5 @@ target = "./content/blocks"
     geekdocEditPath = "edit/main/docs"
     geekdocNextPrev = true
     geekdocSearchShowParent = true
+    geekdocMenuBundle = true
+    geekdocAnchor = true

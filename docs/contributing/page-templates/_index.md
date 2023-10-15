@@ -2,8 +2,7 @@
 title: Page-Template
 date: 2023-10-12T13:52:22+05:30
 draft: true
-geekdocAnchor: true
-weight: 1000
+weight: 1
 ---
 
 Test introductory message...
@@ -13,6 +12,8 @@ Test introductory message...
 # Headline
 
 Another paragraph
+
+[Link to BFPortal.gg](https://bfportal.gg/)
 
 ## Sub-Heading
 

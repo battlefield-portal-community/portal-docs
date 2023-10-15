@@ -1,9 +1,9 @@
 ---
-title: Understand the Game-Loop
+title: Rules
 date: 2023-10-12T13:52:22+05:30
 draft: false
-geekdocAnchor: true
-weight: 10
+
+weight: 20
 ---
 
 Work in progress... check back later!

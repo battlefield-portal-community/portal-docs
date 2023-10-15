@@ -1,5 +1,5 @@
 ---
-title: Rules Editor Blocks Reference
+title: Block Reference
 geekdocCollapseSection: true
 geekdocFilePath: "portal_blocks/_index.md"
 weight: 5

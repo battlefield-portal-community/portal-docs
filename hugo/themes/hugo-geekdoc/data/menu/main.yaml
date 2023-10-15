@@ -1,0 +1,90 @@
+---
+main:
+  - name: Introduction
+    ref: "/introduction"
+    sub:
+      - name: What is Battlefield Portal
+        ref: "/introduction/what-is-bf-portal"
+      - name: Battlefield Portal Community
+        ref: "/introduction/bfportal-community"
+  - name: Portal Builder
+    # ref: "/contributing/page-template/work-in-progress"
+    sub:
+      - name: Game Modes
+        # ref: "/contributing/page-template/work-in-progress"
+      - name: Modifiers
+        # ref: "/contributing/page-template/work-in-progress"
+      - name: Restrictions
+        # ref: "/contributing/page-template/work-in-progress"
+      - name: Rules Editor
+        # ref: "/contributing/page-template/work-in-progress"
+        sub:
+          - name: Basics
+            # ref: "/contributing/page-template/work-in-progress"
+            sub:
+              - name: The Game Loop
+                # ref: "/contributing/page-template/work-in-progress"
+              - name: Rules
+                # ref: "/contributing/page-template/work-in-progress"
+              - name: Conditions
+                # ref: "/contributing/page-template/work-in-progress"
+              - name: Variables
+                # ref: "/contributing/page-template/work-in-progress"
+              - name: Block Types
+                # ref: "/contributing/page-template/work-in-progress"
+              - name: Subroutines
+                # ref: "/contributing/page-template/work-in-progress"
+          - name: Advanced
+            # ref: "/contributing/page-template/work-in-progress"
+            sub:
+              - name: Debug
+                # ref: "/contributing/page-template/work-in-progress"
+              - name: Player State Vectors
+                # ref: "/contributing/page-template/work-in-progress"
+          - name: How-To
+            # ref: "/contributing/page-template/work-in-progress"
+            sub:
+              - name: Display UI Messages
+                # ref: "/contributing/page-template/work-in-progress"
+              - name: Show World Icons
+                # ref: "/contributing/page-template/work-in-progress"
+              - name: Trigger Sounds
+                # ref: "/contributing/page-template/work-in-progress"
+              - name: Use MCOMs
+                # ref: "/contributing/page-template/work-in-progress"
+      - name: Miscellaneous
+        # ref: "/contributing/page-template/work-in-progress"
+        sub:
+          - name: XP/Progression Limitations
+            # ref: "/contributing/page-template/work-in-progress"
+  - name: Tutorials
+    # ref: "/contributing/page-template/work-in-progress"
+    sub:
+      - name: Custom Spawnpoints
+        # ref: "/contributing/page-template/work-in-progress"
+      - name: Custom Time and Score
+        # ref: "/contributing/page-template/work-in-progress"
+      - name: Complete Game Modes
+        # ref: "/contributing/page-template/work-in-progress"
+        sub:
+          - name: Custom Gun Game
+            # ref: "/contributing/page-template/work-in-progress"
+          - name: Survival/Wave Game
+            # ref: "/contributing/page-template/work-in-progress"
+          - name: Custom Breakthrough
+            # ref: "/contributing/page-template/work-in-progress"
+          - name: Custom Rush
+            # ref: "/contributing/page-template/work-in-progress"
+  - name: Tools
+    # ref: "/contributing/page-template/work-in-progress"
+    sub:
+      - name: Portal Browser Extension
+        # ref: "/contributing/page-template/work-in-progress"
+      - name: Coordinate Finder
+        # ref: "/contributing/page-template/work-in-progress"
+  - name: Bookmarks
+    # ref: "/contributing/page-template/work-in-progress"
+  - name: Contributing
+    # ref: "/contributing/page-template/work-in-progress"
+---
+

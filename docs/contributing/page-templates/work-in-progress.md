@@ -1,9 +1,9 @@
 ---
-title: Rules
+title: Work in Progress
 date: 2023-10-12T13:52:22+05:30
 draft: false
-geekdocAnchor: true
-weight: 20
+
+weight: 30
 ---
 
 Work in progress... check back later!
