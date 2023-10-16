@@ -1,9 +1,9 @@
 ---
-title: Restrictions
+title: Block Types
 date: 2023-10-12T13:52:22+05:30
 draft: false
 
-weight: 3
+weight: 45
 ---
 
 Work in progress... check back later!
@@ -15,3 +15,5 @@ Work in progress... check back later!
 {{< hint type=note >}}
 Work in progress... check back later!
 {{< /hint >}}
+
+[Vercidium Rules Editor Guide](https://vercidium.com/blog/battlefield-2042-portal-rules-editor-guide/)

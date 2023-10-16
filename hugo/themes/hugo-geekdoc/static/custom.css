@@ -1,1 +1,256 @@
 /* You can add custom styles here. */
+
+.bf-palette {
+    color: #25fedf;
+    color: #000000;
+    color: #ff2c0f;
+    color: #ffd800;
+    color: #feb31a;
+    color: #b32d12;
+    color: #189985;
+    color: #106659;
+    color: #364041;
+    color: #ffffff;
+  
+  }
+  
+  .container {
+    --auto-margin1: calc(100vw - 82rem);
+    --auto-margin: calc(var(--auto-margin1) / 2 + 82rem);
+  
+    background-image: url(/images/rules-bg.png);
+    background-position-x: calc(var(--auto-margin) - 420px);
+    background-position-y: bottom;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-origin: padding-box;
+    background-size: 400px;
+  }
+  
+  @media screen and (max-width: 41rem) {
+    .container {
+      background: #000000;
+    }
+  }
+  
+  .gdoc-page {
+    text-shadow: 2px 2px 2px black
+  }
+
+  a.gdoc-nav__entry {
+    color: #ddd
+  }
+
+  a.gdoc-nav__entry:visited {
+    color: #ddd
+  }
+
+  a.gdoc-nav__entry:hover {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  a.gdoc-nav__entry.is-active {
+      color: #25fedf;
+      text-decoration: none;
+  }
+
+  a.gdoc-nav__entry.is-active:hover {
+    color: #25fedf;
+    text-decoration: none;
+  }
+
+  .bf-gradient{
+      background-image: linear-gradient(#000000, #25fedf);
+  }
+  
+  @font-face {
+    font-family: BF-Modernista;
+    src: url(fonts/BF_Modernista-Bold.ttf);
+  }
+  
+  .gdoc-brand__title {
+    font-family: 'BF-Modernista', 'Purista-Bold';
+    text-transform: uppercase;
+  }
+  
+  h1 {
+    font-family: 'BF-Modernista', 'Purista-Bold';
+    color: #25fedf;
+    text-transform: uppercase;
+  }
+  
+  .gdoc-page__anchorwrap h1 {
+    font-family: 'BF-Modernista', 'Purista-Bold';
+    color: #ffffff;
+    text-transform: none;
+  }
+  
+  .gdoc-nav--main h2 {
+    display: flex;
+    align-items: left;
+    padding: 5px 10px 8px;
+    line-height: 1;
+    text-transform: uppercase;
+    word-break: normal;
+    color: #000000;
+    background-color: #ffffff;
+    font-family: 'BF-Modernista', 'Purista-Bold';
+  }
+  
+  .gdoc-hint {
+    text-shadow: none;
+  }
+  
+  :root {
+      --code-max-height: 60rem;
+    }
+    
+    /* Light mode theming */
+    :root,
+    :root[color-theme="light"] {
+      --header-background: linear-gradient(#000000 90%, #25fedf 10%);
+      --header-font-color: #ffffff;
+  
+      --body-background: #000000;
+      --body-font-color: #ffffff;
+  
+      --mark-color: #ffffff;
+  
+      --button-background: #25fedf;
+      --button-border-color: #25fedf;
+  
+      --link-color: #25fedf;
+      --link-color-visited: #189985;
+  
+      --code-background: #364041;
+      --code-accent-color: #262b2f;
+      --code-accent-color-lite: #2b3035;
+      --code-font-color: #b9b9b9;
+  
+      --code-copy-background: #343a40;
+      --code-copy-font-color: #6b7784;
+      --code-copy-border-color: #6b7784;
+      --code-copy-success-color: #189985;
+  
+      --accent-color: #2b3035;
+      --accent-color-lite: #2f353a;
+  
+      --control-icons: #b2bac1;
+  
+      --footer-background: #000000;
+      --footer-font-color: #ffffff;
+      --footer-link-color: #25fedf;
+      --footer-link-color-visited: #189985;
+    }
+    @media (prefers-color-scheme: light) {
+      :root {
+        --header-background: linear-gradient(#000000 90%, #25fedf 10%);
+        --header-font-color: #ffffff;
+    
+        --body-background: #000000;
+        --body-font-color: #ffffff;
+    
+        --mark-color: #ffffff;
+    
+        --button-background: #25fedf;
+        --button-border-color: #25fedf;
+    
+        --link-color: #25fedf;
+        --link-color-visited: #189985;
+    
+        --code-background: #364041;
+        --code-accent-color: #262b2f;
+        --code-accent-color-lite: #2b3035;
+        --code-font-color: #b9b9b9;
+    
+        --code-copy-background: #343a40;
+        --code-copy-font-color: #6b7784;
+        --code-copy-border-color: #6b7784;
+        --code-copy-success-color: #189985;
+    
+        --accent-color: #2b3035;
+        --accent-color-lite: #2f353a;
+    
+        --control-icons: #b2bac1;
+    
+        --footer-background: #000000;
+        --footer-font-color: #ffffff;
+        --footer-link-color: #25fedf;
+        --footer-link-color-visited: #189985;
+      }
+    }
+    
+    /* Dark mode theming */
+    :root[color-theme="dark"] {
+      --header-background: linear-gradient(#000000 90%, #25fedf 10%);
+      --header-font-color: #ffffff;
+  
+      --body-background: #000000;
+      --body-font-color: #ffffff;
+  
+      --mark-color: #ffffff;
+  
+      --button-background: #25fedf;
+      --button-border-color: #25fedf;
+  
+      --link-color: #25fedf;
+      --link-color-visited: #189985;
+  
+      --code-background: #364041;
+      --code-accent-color: #262b2f;
+      --code-accent-color-lite: #2b3035;
+      --code-font-color: #b9b9b9;
+  
+      --code-copy-background: #343a40;
+      --code-copy-font-color: #6b7784;
+      --code-copy-border-color: #6b7784;
+      --code-copy-success-color: #189985;
+  
+      --accent-color: #2b3035;
+      --accent-color-lite: #2f353a;
+  
+      --control-icons: #b2bac1;
+  
+      --footer-background: #000000;
+      --footer-font-color: #ffffff;
+      --footer-link-color: #25fedf;
+      --footer-link-color-visited: #189985;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --header-background: linear-gradient(#000000 90%, #25fedf 10%);
+        --header-font-color: #ffffff;
+    
+        --body-background: #000000;
+        --body-font-color: #ffffff;
+    
+        --mark-color: #ffffff;
+    
+        --button-background: #25fedf;
+        --button-border-color: #25fedf;
+    
+        --link-color: #25fedf;
+        --link-color-visited: #189985;
+    
+        --code-background: #364041;
+        --code-accent-color: #262b2f;
+        --code-accent-color-lite: #2b3035;
+        --code-font-color: #b9b9b9;
+    
+        --code-copy-background: #343a40;
+        --code-copy-font-color: #6b7784;
+        --code-copy-border-color: #6b7784;
+        --code-copy-success-color: #189985;
+    
+        --accent-color: #2b3035;
+        --accent-color-lite: #2f353a;
+    
+        --control-icons: #b2bac1;
+    
+        --footer-background: #000000;
+        --footer-font-color: #ffffff;
+        --footer-link-color: #25fedf;
+        --footer-link-color-visited: #189985;
+      }
+    }

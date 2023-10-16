@@ -1,9 +1,9 @@
 ---
-title: Restrictions
+title: Understand the Game-Loop
 date: 2023-10-12T13:52:22+05:30
 draft: false
 
-weight: 3
+weight: 10
 ---
 
 Work in progress... check back later!

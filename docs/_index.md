@@ -1,7 +1,7 @@
 ---
 title: Battlefield Portal Documentation
 geekdocNav: true
-geekdocAnchor: true
+
 date: 2023-10-12T13:52:22+05:30
 draft: false
 weight: 1

@@ -1,9 +1,8 @@
 ---
-title: Restrictions
+title: Game Modes
 date: 2023-10-12T13:52:22+05:30
 draft: false
-
-weight: 3
+weight: 1
 ---
 
 Work in progress... check back later!
