@@ -4,14 +4,15 @@ theme = "hugo-geekdoc"
 title = "Portal Documentation"
 
 titleCaseStyle = "Go"
-[outputs]
-    home = ["HTML", "RSS"]
 
 # Geekdoc required configuration
 pygmentsUseClasses = true
 pygmentsCodeFences = true
 disablePathToLower = true
+# ignoreFiles = ["../docs/portal_blocks/*/official.md"]
 
+[outputs]
+    home = ["HTML", "RSS"]
 
 [markup]
   [markup.goldmark.renderer]
@@ -24,16 +25,13 @@ disablePathToLower = true
 [taxonomies]
    tag = "tags"
 
-
 [[module.mounts]]
 source = "../docs/"
 target = "./content/"
-excludeFiles = ["portal_blocks/**"]
-
+# excludeFiles = ["portal_blocks/**"]
 [[module.mounts]]
 source = "../docs/portal_blocks"
-target = "./content/blocks"
-
+target = "./content/portal-builder/rules-editor/block-reference"
 
 [params]
     geekdocLogo= "/images/bf_portal_logo_bc.png"
