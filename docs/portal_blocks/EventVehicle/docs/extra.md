@@ -1,1 +1,1 @@
-<!-- Add extra documentation for EventVehicle in this file -->
+_There is currently no additional information provided for this block by the community._

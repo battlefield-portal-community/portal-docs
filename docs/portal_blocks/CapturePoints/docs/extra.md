@@ -1,1 +1,1 @@
-<!-- Add extra documentation for CapturePoints in this file -->
+_There is currently no additional information provided for this block by the community._

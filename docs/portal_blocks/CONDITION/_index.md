@@ -1,6 +1,11 @@
 ---
-title: CONDITION
+title: Condition
 draft: false
-geekdocFilePath: portal_blocks/CONDITION/_index.md
+geekdocFilePath: portal_blocks/Condition/_index.md
 ---
-# CONDITION
+# Condition
+{{< include file="../content/portal-builder/rules-editor/block-reference/Condition/docs/official.md" >}}
+
+# Community Additions
+
+{{< include file="../content/portal-builder/rules-editor/block-reference/Condition/docs/extra.md" >}}

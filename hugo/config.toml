@@ -9,7 +9,6 @@ titleCaseStyle = "Go"
 pygmentsUseClasses = true
 pygmentsCodeFences = true
 disablePathToLower = true
-# ignoreFiles = ["../docs/portal_blocks/*/official.md"]
 
 [outputs]
     home = ["HTML", "RSS"]
@@ -28,7 +27,8 @@ disablePathToLower = true
 [[module.mounts]]
 source = "../docs/"
 target = "./content/"
-# excludeFiles = ["portal_blocks/**"]
+excludeFiles = ["portal_blocks/**"]
+
 [[module.mounts]]
 source = "../docs/portal_blocks"
 target = "./content/portal-builder/rules-editor/block-reference"
