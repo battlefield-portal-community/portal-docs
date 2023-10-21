@@ -1,11 +1,7 @@
 ---
 title: ForwardVector
 draft: false
-geekdocFilePath: portal_blocks/ForwardVector/_index.md
+geekdocFilePath: portal_blocks/ForwardVector/docs/extra.md
+layout: "block_documentation"
 ---
 # ForwardVector
-{{< include file="../content/portal-builder/rules-editor/block-reference/ForwardVector/docs/official.md" >}}
-
-# Community Additions
-
-{{< include file="../content/portal-builder/rules-editor/block-reference/ForwardVector/docs/extra.md" >}}

@@ -1,11 +1,7 @@
 ---
 title: EventDamageType
 draft: false
-geekdocFilePath: portal_blocks/EventDamageType/_index.md
+geekdocFilePath: portal_blocks/EventDamageType/docs/extra.md
+layout: "block_documentation"
 ---
 # EventDamageType
-{{< include file="../content/portal-builder/rules-editor/block-reference/EventDamageType/docs/official.md" >}}
-
-# Community Additions
-
-{{< include file="../content/portal-builder/rules-editor/block-reference/EventDamageType/docs/extra.md" >}}

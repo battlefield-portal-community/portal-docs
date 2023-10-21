@@ -1,11 +1,7 @@
 ---
 title: SetPlayerMaxHealth
 draft: false
-geekdocFilePath: portal_blocks/SetPlayerMaxHealth/_index.md
+geekdocFilePath: portal_blocks/SetPlayerMaxHealth/docs/extra.md
+layout: "block_documentation"
 ---
 # SetPlayerMaxHealth
-{{< include file="../content/portal-builder/rules-editor/block-reference/SetPlayerMaxHealth/docs/official.md" >}}
-
-# Community Additions
-
-{{< include file="../content/portal-builder/rules-editor/block-reference/SetPlayerMaxHealth/docs/extra.md" >}}

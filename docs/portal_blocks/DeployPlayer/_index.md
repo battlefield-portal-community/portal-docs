@@ -1,11 +1,7 @@
 ---
 title: DeployPlayer
 draft: false
-geekdocFilePath: portal_blocks/DeployPlayer/_index.md
+geekdocFilePath: portal_blocks/DeployPlayer/docs/extra.md
+layout: "block_documentation"
 ---
 # DeployPlayer
-{{< include file="../content/portal-builder/rules-editor/block-reference/DeployPlayer/docs/official.md" >}}
-
-# Community Additions
-
-{{< include file="../content/portal-builder/rules-editor/block-reference/DeployPlayer/docs/extra.md" >}}

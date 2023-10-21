@@ -1,11 +1,7 @@
 ---
 title: RemovePlayerInventoryAtSlot
 draft: false
-geekdocFilePath: portal_blocks/RemovePlayerInventoryAtSlot/_index.md
+geekdocFilePath: portal_blocks/RemovePlayerInventoryAtSlot/docs/extra.md
+layout: "block_documentation"
 ---
 # RemovePlayerInventoryAtSlot
-{{< include file="../content/portal-builder/rules-editor/block-reference/RemovePlayerInventoryAtSlot/docs/official.md" >}}
-
-# Community Additions
-
-{{< include file="../content/portal-builder/rules-editor/block-reference/RemovePlayerInventoryAtSlot/docs/extra.md" >}}

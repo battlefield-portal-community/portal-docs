@@ -1,11 +1,7 @@
 ---
 title: SetWorldIconText
 draft: false
-geekdocFilePath: portal_blocks/SetWorldIconText/_index.md
+geekdocFilePath: portal_blocks/SetWorldIconText/docs/extra.md
+layout: "block_documentation"
 ---
 # SetWorldIconText
-{{< include file="../content/portal-builder/rules-editor/block-reference/SetWorldIconText/docs/official.md" >}}
-
-# Community Additions
-
-{{< include file="../content/portal-builder/rules-editor/block-reference/SetWorldIconText/docs/extra.md" >}}

@@ -1,11 +1,7 @@
 ---
 title: While
 draft: false
-geekdocFilePath: portal_blocks/While/_index.md
+geekdocFilePath: portal_blocks/While/docs/extra.md
+layout: "block_documentation"
 ---
 # While
-{{< include file="../content/portal-builder/rules-editor/block-reference/While/docs/official.md" >}}
-
-# Community Additions
-
-{{< include file="../content/portal-builder/rules-editor/block-reference/While/docs/extra.md" >}}

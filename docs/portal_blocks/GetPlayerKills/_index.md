@@ -1,11 +1,7 @@
 ---
 title: GetPlayerKills
 draft: false
-geekdocFilePath: portal_blocks/GetPlayerKills/_index.md
+geekdocFilePath: portal_blocks/GetPlayerKills/docs/extra.md
+layout: "block_documentation"
 ---
 # GetPlayerKills
-{{< include file="../content/portal-builder/rules-editor/block-reference/GetPlayerKills/docs/official.md" >}}
-
-# Community Additions
-
-{{< include file="../content/portal-builder/rules-editor/block-reference/GetPlayerKills/docs/extra.md" >}}

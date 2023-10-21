@@ -1,11 +1,7 @@
 ---
 title: IsInventorySlotActive
 draft: false
-geekdocFilePath: portal_blocks/IsInventorySlotActive/_index.md
+geekdocFilePath: portal_blocks/IsInventorySlotActive/docs/extra.md
+layout: "block_documentation"
 ---
 # IsInventorySlotActive
-{{< include file="../content/portal-builder/rules-editor/block-reference/IsInventorySlotActive/docs/official.md" >}}
-
-# Community Additions
-
-{{< include file="../content/portal-builder/rules-editor/block-reference/IsInventorySlotActive/docs/extra.md" >}}

@@ -1,11 +1,7 @@
 ---
 title: SetGameModeTimeLimit
 draft: false
-geekdocFilePath: portal_blocks/SetGameModeTimeLimit/_index.md
+geekdocFilePath: portal_blocks/SetGameModeTimeLimit/docs/extra.md
+layout: "block_documentation"
 ---
 # SetGameModeTimeLimit
-{{< include file="../content/portal-builder/rules-editor/block-reference/SetGameModeTimeLimit/docs/official.md" >}}
-
-# Community Additions
-
-{{< include file="../content/portal-builder/rules-editor/block-reference/SetGameModeTimeLimit/docs/extra.md" >}}

@@ -1,11 +1,7 @@
 ---
 title: IsPlayerUsingSoldier
 draft: false
-geekdocFilePath: portal_blocks/IsPlayerUsingSoldier/_index.md
+geekdocFilePath: portal_blocks/IsPlayerUsingSoldier/docs/extra.md
+layout: "block_documentation"
 ---
 # IsPlayerUsingSoldier
-{{< include file="../content/portal-builder/rules-editor/block-reference/IsPlayerUsingSoldier/docs/official.md" >}}
-
-# Community Additions
-
-{{< include file="../content/portal-builder/rules-editor/block-reference/IsPlayerUsingSoldier/docs/extra.md" >}}

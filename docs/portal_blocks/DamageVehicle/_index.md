@@ -1,11 +1,7 @@
 ---
 title: DamageVehicle
 draft: false
-geekdocFilePath: portal_blocks/DamageVehicle/_index.md
+geekdocFilePath: portal_blocks/DamageVehicle/docs/extra.md
+layout: "block_documentation"
 ---
 # DamageVehicle
-{{< include file="../content/portal-builder/rules-editor/block-reference/DamageVehicle/docs/official.md" >}}
-
-# Community Additions
-
-{{< include file="../content/portal-builder/rules-editor/block-reference/DamageVehicle/docs/extra.md" >}}

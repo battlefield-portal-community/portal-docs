@@ -1,11 +1,7 @@
 ---
 title: EnableCapturing
 draft: false
-geekdocFilePath: portal_blocks/EnableCapturing/_index.md
+geekdocFilePath: portal_blocks/EnableCapturing/docs/extra.md
+layout: "block_documentation"
 ---
 # EnableCapturing
-{{< include file="../content/portal-builder/rules-editor/block-reference/EnableCapturing/docs/official.md" >}}
-
-# Community Additions
-
-{{< include file="../content/portal-builder/rules-editor/block-reference/EnableCapturing/docs/extra.md" >}}

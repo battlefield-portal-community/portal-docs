@@ -1,11 +1,7 @@
 ---
 title: ForceMandown
 draft: false
-geekdocFilePath: portal_blocks/ForceMandown/_index.md
+geekdocFilePath: portal_blocks/ForceMandown/docs/extra.md
+layout: "block_documentation"
 ---
 # ForceMandown
-{{< include file="../content/portal-builder/rules-editor/block-reference/ForceMandown/docs/official.md" >}}
-
-# Community Additions
-
-{{< include file="../content/portal-builder/rules-editor/block-reference/ForceMandown/docs/extra.md" >}}

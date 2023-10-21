@@ -1,11 +1,7 @@
 ---
 title: ElseIf
 draft: false
-geekdocFilePath: portal_blocks/ElseIf/_index.md
+geekdocFilePath: portal_blocks/ElseIf/docs/extra.md
+layout: "block_documentation"
 ---
 # ElseIf
-{{< include file="../content/portal-builder/rules-editor/block-reference/ElseIf/docs/official.md" >}}
-
-# Community Additions
-
-{{< include file="../content/portal-builder/rules-editor/block-reference/ElseIf/docs/extra.md" >}}

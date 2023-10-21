@@ -1,11 +1,7 @@
 ---
 title: SkipIf
 draft: false
-geekdocFilePath: portal_blocks/SkipIf/_index.md
+geekdocFilePath: portal_blocks/SkipIf/docs/extra.md
+layout: "block_documentation"
 ---
 # SkipIf
-{{< include file="../content/portal-builder/rules-editor/block-reference/SkipIf/docs/official.md" >}}
-
-# Community Additions
-
-{{< include file="../content/portal-builder/rules-editor/block-reference/SkipIf/docs/extra.md" >}}

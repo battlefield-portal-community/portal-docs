@@ -1,11 +1,7 @@
 ---
 title: IsKillerWeapon
 draft: false
-geekdocFilePath: portal_blocks/IsKillerWeapon/_index.md
+geekdocFilePath: portal_blocks/IsKillerWeapon/docs/extra.md
+layout: "block_documentation"
 ---
 # IsKillerWeapon
-{{< include file="../content/portal-builder/rules-editor/block-reference/IsKillerWeapon/docs/official.md" >}}
-
-# Community Additions
-
-{{< include file="../content/portal-builder/rules-editor/block-reference/IsKillerWeapon/docs/extra.md" >}}

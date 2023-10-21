@@ -1,11 +1,7 @@
 ---
 title: IsTrueForAny
 draft: false
-geekdocFilePath: portal_blocks/IsTrueForAny/_index.md
+geekdocFilePath: portal_blocks/IsTrueForAny/docs/extra.md
+layout: "block_documentation"
 ---
 # IsTrueForAny
-{{< include file="../content/portal-builder/rules-editor/block-reference/IsTrueForAny/docs/official.md" >}}
-
-# Community Additions
-
-{{< include file="../content/portal-builder/rules-editor/block-reference/IsTrueForAny/docs/extra.md" >}}

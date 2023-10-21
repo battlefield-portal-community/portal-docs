@@ -1,11 +1,7 @@
 ---
 title: EnableDefaultGameModeScoring
 draft: false
-geekdocFilePath: portal_blocks/EnableDefaultGameModeScoring/_index.md
+geekdocFilePath: portal_blocks/EnableDefaultGameModeScoring/docs/extra.md
+layout: "block_documentation"
 ---
 # EnableDefaultGameModeScoring
-{{< include file="../content/portal-builder/rules-editor/block-reference/EnableDefaultGameModeScoring/docs/official.md" >}}
-
-# Community Additions
-
-{{< include file="../content/portal-builder/rules-editor/block-reference/EnableDefaultGameModeScoring/docs/extra.md" >}}

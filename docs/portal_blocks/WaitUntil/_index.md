@@ -1,11 +1,7 @@
 ---
 title: WaitUntil
 draft: false
-geekdocFilePath: portal_blocks/WaitUntil/_index.md
+geekdocFilePath: portal_blocks/WaitUntil/docs/extra.md
+layout: "block_documentation"
 ---
 # WaitUntil
-{{< include file="../content/portal-builder/rules-editor/block-reference/WaitUntil/docs/official.md" >}}
-
-# Community Additions
-
-{{< include file="../content/portal-builder/rules-editor/block-reference/WaitUntil/docs/extra.md" >}}

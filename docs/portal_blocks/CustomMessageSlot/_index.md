@@ -1,11 +1,7 @@
 ---
 title: CustomMessageSlot
 draft: false
-geekdocFilePath: portal_blocks/CustomMessageSlot/_index.md
+geekdocFilePath: portal_blocks/CustomMessageSlot/docs/extra.md
+layout: "block_documentation"
 ---
 # CustomMessageSlot
-{{< include file="../content/portal-builder/rules-editor/block-reference/CustomMessageSlot/docs/official.md" >}}
-
-# Community Additions
-
-{{< include file="../content/portal-builder/rules-editor/block-reference/CustomMessageSlot/docs/extra.md" >}}

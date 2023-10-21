@@ -1,11 +1,7 @@
 ---
 title: CapturePointCapturingTime
 draft: false
-geekdocFilePath: portal_blocks/CapturePointCapturingTime/_index.md
+geekdocFilePath: portal_blocks/CapturePointCapturingTime/docs/extra.md
+layout: "block_documentation"
 ---
 # CapturePointCapturingTime
-{{< include file="../content/portal-builder/rules-editor/block-reference/CapturePointCapturingTime/docs/official.md" >}}
-
-# Community Additions
-
-{{< include file="../content/portal-builder/rules-editor/block-reference/CapturePointCapturingTime/docs/extra.md" >}}

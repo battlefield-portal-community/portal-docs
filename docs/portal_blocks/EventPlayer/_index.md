@@ -1,11 +1,7 @@
 ---
 title: EventPlayer
 draft: false
-geekdocFilePath: portal_blocks/EventPlayer/_index.md
+geekdocFilePath: portal_blocks/EventPlayer/docs/extra.md
+layout: "block_documentation"
 ---
 # EventPlayer
-{{< include file="../content/portal-builder/rules-editor/block-reference/EventPlayer/docs/official.md" >}}
-
-# Community Additions
-
-{{< include file="../content/portal-builder/rules-editor/block-reference/EventPlayer/docs/extra.md" >}}

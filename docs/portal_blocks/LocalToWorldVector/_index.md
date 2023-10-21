@@ -1,11 +1,7 @@
 ---
 title: LocalToWorldVector
 draft: false
-geekdocFilePath: portal_blocks/LocalToWorldVector/_index.md
+geekdocFilePath: portal_blocks/LocalToWorldVector/docs/extra.md
+layout: "block_documentation"
 ---
 # LocalToWorldVector
-{{< include file="../content/portal-builder/rules-editor/block-reference/LocalToWorldVector/docs/official.md" >}}
-
-# Community Additions
-
-{{< include file="../content/portal-builder/rules-editor/block-reference/LocalToWorldVector/docs/extra.md" >}}

@@ -1,11 +1,7 @@
 ---
 title: DisplayNotificationMessage
 draft: false
-geekdocFilePath: portal_blocks/DisplayNotificationMessage/_index.md
+geekdocFilePath: portal_blocks/DisplayNotificationMessage/docs/extra.md
+layout: "block_documentation"
 ---
 # DisplayNotificationMessage
-{{< include file="../content/portal-builder/rules-editor/block-reference/DisplayNotificationMessage/docs/official.md" >}}
-
-# Community Additions
-
-{{< include file="../content/portal-builder/rules-editor/block-reference/DisplayNotificationMessage/docs/extra.md" >}}

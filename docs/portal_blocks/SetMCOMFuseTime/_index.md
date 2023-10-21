@@ -1,11 +1,7 @@
 ---
 title: SetMCOMFuseTime
 draft: false
-geekdocFilePath: portal_blocks/SetMCOMFuseTime/_index.md
+geekdocFilePath: portal_blocks/SetMCOMFuseTime/docs/extra.md
+layout: "block_documentation"
 ---
 # SetMCOMFuseTime
-{{< include file="../content/portal-builder/rules-editor/block-reference/SetMCOMFuseTime/docs/official.md" >}}
-
-# Community Additions
-
-{{< include file="../content/portal-builder/rules-editor/block-reference/SetMCOMFuseTime/docs/extra.md" >}}

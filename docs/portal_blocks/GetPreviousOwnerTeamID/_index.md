@@ -1,11 +1,7 @@
 ---
 title: GetPreviousOwnerTeamID
 draft: false
-geekdocFilePath: portal_blocks/GetPreviousOwnerTeamID/_index.md
+geekdocFilePath: portal_blocks/GetPreviousOwnerTeamID/docs/extra.md
+layout: "block_documentation"
 ---
 # GetPreviousOwnerTeamID
-{{< include file="../content/portal-builder/rules-editor/block-reference/GetPreviousOwnerTeamID/docs/official.md" >}}
-
-# Community Additions
-
-{{< include file="../content/portal-builder/rules-editor/block-reference/GetPreviousOwnerTeamID/docs/extra.md" >}}

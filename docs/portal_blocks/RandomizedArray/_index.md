@@ -1,11 +1,7 @@
 ---
 title: RandomizedArray
 draft: false
-geekdocFilePath: portal_blocks/RandomizedArray/_index.md
+geekdocFilePath: portal_blocks/RandomizedArray/docs/extra.md
+layout: "block_documentation"
 ---
 # RandomizedArray
-{{< include file="../content/portal-builder/rules-editor/block-reference/RandomizedArray/docs/official.md" >}}
-
-# Community Additions
-
-{{< include file="../content/portal-builder/rules-editor/block-reference/RandomizedArray/docs/extra.md" >}}

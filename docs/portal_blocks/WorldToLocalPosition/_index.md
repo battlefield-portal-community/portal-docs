@@ -1,11 +1,7 @@
 ---
 title: WorldToLocalPosition
 draft: false
-geekdocFilePath: portal_blocks/WorldToLocalPosition/_index.md
+geekdocFilePath: portal_blocks/WorldToLocalPosition/docs/extra.md
+layout: "block_documentation"
 ---
 # WorldToLocalPosition
-{{< include file="../content/portal-builder/rules-editor/block-reference/WorldToLocalPosition/docs/official.md" >}}
-
-# Community Additions
-
-{{< include file="../content/portal-builder/rules-editor/block-reference/WorldToLocalPosition/docs/extra.md" >}}

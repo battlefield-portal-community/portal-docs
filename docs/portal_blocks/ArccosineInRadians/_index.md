@@ -1,11 +1,7 @@
 ---
 title: ArccosineInRadians
 draft: false
-geekdocFilePath: portal_blocks/ArccosineInRadians/_index.md
+geekdocFilePath: portal_blocks/ArccosineInRadians/docs/extra.md
+layout: "block_documentation"
 ---
 # ArccosineInRadians
-{{< include file="../content/portal-builder/rules-editor/block-reference/ArccosineInRadians/docs/official.md" >}}
-
-# Community Additions
-
-{{< include file="../content/portal-builder/rules-editor/block-reference/ArccosineInRadians/docs/extra.md" >}}

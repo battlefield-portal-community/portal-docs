@@ -1,11 +1,7 @@
 ---
 title: SetCaptureMultiplier
 draft: false
-geekdocFilePath: portal_blocks/SetCaptureMultiplier/_index.md
+geekdocFilePath: portal_blocks/SetCaptureMultiplier/docs/extra.md
+layout: "block_documentation"
 ---
 # SetCaptureMultiplier
-{{< include file="../content/portal-builder/rules-editor/block-reference/SetCaptureMultiplier/docs/official.md" >}}
-
-# Community Additions
-
-{{< include file="../content/portal-builder/rules-editor/block-reference/SetCaptureMultiplier/docs/extra.md" >}}

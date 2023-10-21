@@ -1,11 +1,7 @@
 ---
 title: subroutineInstanceBlock
 draft: false
-geekdocFilePath: portal_blocks/subroutineInstanceBlock/_index.md
+geekdocFilePath: portal_blocks/subroutineInstanceBlock/docs/extra.md
+layout: "block_documentation"
 ---
 # subroutineInstanceBlock
-{{< include file="../content/portal-builder/rules-editor/block-reference/subroutineInstanceBlock/docs/official.md" >}}
-
-# Community Additions
-
-{{< include file="../content/portal-builder/rules-editor/block-reference/subroutineInstanceBlock/docs/extra.md" >}}

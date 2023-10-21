@@ -1,11 +1,7 @@
 ---
 title: EnableTicketBleedAcceleration
 draft: false
-geekdocFilePath: portal_blocks/EnableTicketBleedAcceleration/_index.md
+geekdocFilePath: portal_blocks/EnableTicketBleedAcceleration/docs/extra.md
+layout: "block_documentation"
 ---
 # EnableTicketBleedAcceleration
-{{< include file="../content/portal-builder/rules-editor/block-reference/EnableTicketBleedAcceleration/docs/official.md" >}}
-
-# Community Additions
-
-{{< include file="../content/portal-builder/rules-editor/block-reference/EnableTicketBleedAcceleration/docs/extra.md" >}}

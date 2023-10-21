@@ -1,11 +1,7 @@
 ---
 title: PlayerSoldiers
 draft: false
-geekdocFilePath: portal_blocks/PlayerSoldiers/_index.md
+geekdocFilePath: portal_blocks/PlayerSoldiers/docs/extra.md
+layout: "block_documentation"
 ---
 # PlayerSoldiers
-{{< include file="../content/portal-builder/rules-editor/block-reference/PlayerSoldiers/docs/official.md" >}}
-
-# Community Additions
-
-{{< include file="../content/portal-builder/rules-editor/block-reference/PlayerSoldiers/docs/extra.md" >}}

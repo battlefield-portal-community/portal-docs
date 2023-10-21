@@ -1,11 +1,7 @@
 ---
 title: GetPlayerFromVehicleSeat
 draft: false
-geekdocFilePath: portal_blocks/GetPlayerFromVehicleSeat/_index.md
+geekdocFilePath: portal_blocks/GetPlayerFromVehicleSeat/docs/extra.md
+layout: "block_documentation"
 ---
 # GetPlayerFromVehicleSeat
-{{< include file="../content/portal-builder/rules-editor/block-reference/GetPlayerFromVehicleSeat/docs/official.md" >}}
-
-# Community Additions
-
-{{< include file="../content/portal-builder/rules-editor/block-reference/GetPlayerFromVehicleSeat/docs/extra.md" >}}

@@ -1,11 +1,7 @@
 ---
 title: ForceAllExitVehicle
 draft: false
-geekdocFilePath: portal_blocks/ForceAllExitVehicle/_index.md
+geekdocFilePath: portal_blocks/ForceAllExitVehicle/docs/extra.md
+layout: "block_documentation"
 ---
 # ForceAllExitVehicle
-{{< include file="../content/portal-builder/rules-editor/block-reference/ForceAllExitVehicle/docs/official.md" >}}
-
-# Community Additions
-
-{{< include file="../content/portal-builder/rules-editor/block-reference/ForceAllExitVehicle/docs/extra.md" >}}

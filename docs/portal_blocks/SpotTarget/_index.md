@@ -1,11 +1,7 @@
 ---
 title: SpotTarget
 draft: false
-geekdocFilePath: portal_blocks/SpotTarget/_index.md
+geekdocFilePath: portal_blocks/SpotTarget/docs/extra.md
+layout: "block_documentation"
 ---
 # SpotTarget
-{{< include file="../content/portal-builder/rules-editor/block-reference/SpotTarget/docs/official.md" >}}
-
-# Community Additions
-
-{{< include file="../content/portal-builder/rules-editor/block-reference/SpotTarget/docs/extra.md" >}}

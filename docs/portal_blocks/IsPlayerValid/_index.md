@@ -1,11 +1,7 @@
 ---
 title: IsPlayerValid
 draft: false
-geekdocFilePath: portal_blocks/IsPlayerValid/_index.md
+geekdocFilePath: portal_blocks/IsPlayerValid/docs/extra.md
+layout: "block_documentation"
 ---
 # IsPlayerValid
-{{< include file="../content/portal-builder/rules-editor/block-reference/IsPlayerValid/docs/official.md" >}}
-
-# Community Additions
-
-{{< include file="../content/portal-builder/rules-editor/block-reference/IsPlayerValid/docs/extra.md" >}}

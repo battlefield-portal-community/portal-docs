@@ -1,11 +1,7 @@
 ---
 title: GetMCOMState
 draft: false
-geekdocFilePath: portal_blocks/GetMCOMState/_index.md
+geekdocFilePath: portal_blocks/GetMCOMState/docs/extra.md
+layout: "block_documentation"
 ---
 # GetMCOMState
-{{< include file="../content/portal-builder/rules-editor/block-reference/GetMCOMState/docs/official.md" >}}
-
-# Community Additions
-
-{{< include file="../content/portal-builder/rules-editor/block-reference/GetMCOMState/docs/extra.md" >}}

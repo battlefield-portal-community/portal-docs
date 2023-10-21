@@ -1,11 +1,7 @@
 ---
 title: EnableGameModeObjective
 draft: false
-geekdocFilePath: portal_blocks/EnableGameModeObjective/_index.md
+geekdocFilePath: portal_blocks/EnableGameModeObjective/docs/extra.md
+layout: "block_documentation"
 ---
 # EnableGameModeObjective
-{{< include file="../content/portal-builder/rules-editor/block-reference/EnableGameModeObjective/docs/official.md" >}}
-
-# Community Additions
-
-{{< include file="../content/portal-builder/rules-editor/block-reference/EnableGameModeObjective/docs/extra.md" >}}

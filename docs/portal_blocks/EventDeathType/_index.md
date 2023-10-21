@@ -1,11 +1,7 @@
 ---
 title: EventDeathType
 draft: false
-geekdocFilePath: portal_blocks/EventDeathType/_index.md
+geekdocFilePath: portal_blocks/EventDeathType/docs/extra.md
+layout: "block_documentation"
 ---
 # EventDeathType
-{{< include file="../content/portal-builder/rules-editor/block-reference/EventDeathType/docs/official.md" >}}
-
-# Community Additions
-
-{{< include file="../content/portal-builder/rules-editor/block-reference/EventDeathType/docs/extra.md" >}}

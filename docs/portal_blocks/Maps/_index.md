@@ -1,11 +1,7 @@
 ---
 title: Maps
 draft: false
-geekdocFilePath: portal_blocks/Maps/_index.md
+geekdocFilePath: portal_blocks/Maps/docs/extra.md
+layout: "block_documentation"
 ---
 # Maps
-{{< include file="../content/portal-builder/rules-editor/block-reference/Maps/docs/official.md" >}}
-
-# Community Additions
-
-{{< include file="../content/portal-builder/rules-editor/block-reference/Maps/docs/extra.md" >}}

@@ -1,11 +1,7 @@
 ---
 title: VectorTowards
 draft: false
-geekdocFilePath: portal_blocks/VectorTowards/_index.md
+geekdocFilePath: portal_blocks/VectorTowards/docs/extra.md
+layout: "block_documentation"
 ---
 # VectorTowards
-{{< include file="../content/portal-builder/rules-editor/block-reference/VectorTowards/docs/official.md" >}}
-
-# Community Additions
-
-{{< include file="../content/portal-builder/rules-editor/block-reference/VectorTowards/docs/extra.md" >}}

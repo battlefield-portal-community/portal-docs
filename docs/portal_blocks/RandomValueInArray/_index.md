@@ -1,11 +1,7 @@
 ---
 title: RandomValueInArray
 draft: false
-geekdocFilePath: portal_blocks/RandomValueInArray/_index.md
+geekdocFilePath: portal_blocks/RandomValueInArray/docs/extra.md
+layout: "block_documentation"
 ---
 # RandomValueInArray
-{{< include file="../content/portal-builder/rules-editor/block-reference/RandomValueInArray/docs/official.md" >}}
-
-# Community Additions
-
-{{< include file="../content/portal-builder/rules-editor/block-reference/RandomValueInArray/docs/extra.md" >}}

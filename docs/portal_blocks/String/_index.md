@@ -1,11 +1,7 @@
 ---
 title: String
 draft: false
-geekdocFilePath: portal_blocks/String/_index.md
+geekdocFilePath: portal_blocks/String/docs/extra.md
+layout: "block_documentation"
 ---
 # String
-{{< include file="../content/portal-builder/rules-editor/block-reference/String/docs/official.md" >}}
-
-# Community Additions
-
-{{< include file="../content/portal-builder/rules-editor/block-reference/String/docs/extra.md" >}}

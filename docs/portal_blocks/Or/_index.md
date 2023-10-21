@@ -1,11 +1,7 @@
 ---
 title: Or
 draft: false
-geekdocFilePath: portal_blocks/Or/_index.md
+geekdocFilePath: portal_blocks/Or/docs/extra.md
+layout: "block_documentation"
 ---
 # Or
-{{< include file="../content/portal-builder/rules-editor/block-reference/Or/docs/official.md" >}}
-
-# Community Additions
-
-{{< include file="../content/portal-builder/rules-editor/block-reference/Or/docs/extra.md" >}}

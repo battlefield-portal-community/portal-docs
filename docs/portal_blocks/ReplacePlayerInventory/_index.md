@@ -1,11 +1,7 @@
 ---
 title: ReplacePlayerInventory
 draft: false
-geekdocFilePath: portal_blocks/ReplacePlayerInventory/_index.md
+geekdocFilePath: portal_blocks/ReplacePlayerInventory/docs/extra.md
+layout: "block_documentation"
 ---
 # ReplacePlayerInventory
-{{< include file="../content/portal-builder/rules-editor/block-reference/ReplacePlayerInventory/docs/official.md" >}}
-
-# Community Additions
-
-{{< include file="../content/portal-builder/rules-editor/block-reference/ReplacePlayerInventory/docs/extra.md" >}}

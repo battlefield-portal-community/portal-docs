@@ -1,11 +1,7 @@
 ---
 title: GetObjective
 draft: false
-geekdocFilePath: portal_blocks/GetObjective/_index.md
+geekdocFilePath: portal_blocks/GetObjective/docs/extra.md
+layout: "block_documentation"
 ---
 # GetObjective
-{{< include file="../content/portal-builder/rules-editor/block-reference/GetObjective/docs/official.md" >}}
-
-# Community Additions
-
-{{< include file="../content/portal-builder/rules-editor/block-reference/GetObjective/docs/extra.md" >}}

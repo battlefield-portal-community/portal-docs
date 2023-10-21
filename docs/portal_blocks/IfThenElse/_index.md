@@ -1,11 +1,7 @@
 ---
 title: IfThenElse
 draft: false
-geekdocFilePath: portal_blocks/IfThenElse/_index.md
+geekdocFilePath: portal_blocks/IfThenElse/docs/extra.md
+layout: "block_documentation"
 ---
 # IfThenElse
-{{< include file="../content/portal-builder/rules-editor/block-reference/IfThenElse/docs/official.md" >}}
-
-# Community Additions
-
-{{< include file="../content/portal-builder/rules-editor/block-reference/IfThenElse/docs/extra.md" >}}

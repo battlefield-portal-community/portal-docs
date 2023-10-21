@@ -1,11 +1,7 @@
 ---
 title: EventMCOM
 draft: false
-geekdocFilePath: portal_blocks/EventMCOM/_index.md
+geekdocFilePath: portal_blocks/EventMCOM/docs/extra.md
+layout: "block_documentation"
 ---
 # EventMCOM
-{{< include file="../content/portal-builder/rules-editor/block-reference/EventMCOM/docs/official.md" >}}
-
-# Community Additions
-
-{{< include file="../content/portal-builder/rules-editor/block-reference/EventMCOM/docs/extra.md" >}}

@@ -1,11 +1,7 @@
 ---
 title: DistanceBetween
 draft: false
-geekdocFilePath: portal_blocks/DistanceBetween/_index.md
+geekdocFilePath: portal_blocks/DistanceBetween/docs/extra.md
+layout: "block_documentation"
 ---
 # DistanceBetween
-{{< include file="../content/portal-builder/rules-editor/block-reference/DistanceBetween/docs/official.md" >}}
-
-# Community Additions
-
-{{< include file="../content/portal-builder/rules-editor/block-reference/DistanceBetween/docs/extra.md" >}}

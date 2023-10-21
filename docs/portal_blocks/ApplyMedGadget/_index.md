@@ -1,11 +1,7 @@
 ---
 title: ApplyMedGadget
 draft: false
-geekdocFilePath: portal_blocks/ApplyMedGadget/_index.md
+geekdocFilePath: portal_blocks/ApplyMedGadget/docs/extra.md
+layout: "block_documentation"
 ---
 # ApplyMedGadget
-{{< include file="../content/portal-builder/rules-editor/block-reference/ApplyMedGadget/docs/official.md" >}}
-
-# Community Additions
-
-{{< include file="../content/portal-builder/rules-editor/block-reference/ApplyMedGadget/docs/extra.md" >}}

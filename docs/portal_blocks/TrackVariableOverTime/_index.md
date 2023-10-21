@@ -1,11 +1,7 @@
 ---
 title: TrackVariableOverTime
 draft: false
-geekdocFilePath: portal_blocks/TrackVariableOverTime/_index.md
+geekdocFilePath: portal_blocks/TrackVariableOverTime/docs/extra.md
+layout: "block_documentation"
 ---
 # TrackVariableOverTime
-{{< include file="../content/portal-builder/rules-editor/block-reference/TrackVariableOverTime/docs/official.md" >}}
-
-# Community Additions
-
-{{< include file="../content/portal-builder/rules-editor/block-reference/TrackVariableOverTime/docs/extra.md" >}}

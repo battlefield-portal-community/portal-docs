@@ -1,11 +1,7 @@
 ---
 title: VehicleStateVector
 draft: false
-geekdocFilePath: portal_blocks/VehicleStateVector/_index.md
+geekdocFilePath: portal_blocks/VehicleStateVector/docs/extra.md
+layout: "block_documentation"
 ---
 # VehicleStateVector
-{{< include file="../content/portal-builder/rules-editor/block-reference/VehicleStateVector/docs/official.md" >}}
-
-# Community Additions
-
-{{< include file="../content/portal-builder/rules-editor/block-reference/VehicleStateVector/docs/extra.md" >}}

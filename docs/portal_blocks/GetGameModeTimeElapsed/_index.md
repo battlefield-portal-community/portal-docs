@@ -1,11 +1,7 @@
 ---
 title: GetGameModeTimeElapsed
 draft: false
-geekdocFilePath: portal_blocks/GetGameModeTimeElapsed/_index.md
+geekdocFilePath: portal_blocks/GetGameModeTimeElapsed/docs/extra.md
+layout: "block_documentation"
 ---
 # GetGameModeTimeElapsed
-{{< include file="../content/portal-builder/rules-editor/block-reference/GetGameModeTimeElapsed/docs/official.md" >}}
-
-# Community Additions
-
-{{< include file="../content/portal-builder/rules-editor/block-reference/GetGameModeTimeElapsed/docs/extra.md" >}}

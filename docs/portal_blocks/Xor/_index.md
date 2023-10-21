@@ -1,11 +1,7 @@
 ---
 title: Xor
 draft: false
-geekdocFilePath: portal_blocks/Xor/_index.md
+geekdocFilePath: portal_blocks/Xor/docs/extra.md
+layout: "block_documentation"
 ---
 # Xor
-{{< include file="../content/portal-builder/rules-editor/block-reference/Xor/docs/official.md" >}}
-
-# Community Additions
-
-{{< include file="../content/portal-builder/rules-editor/block-reference/Xor/docs/extra.md" >}}

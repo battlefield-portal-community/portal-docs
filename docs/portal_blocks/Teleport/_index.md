@@ -1,11 +1,7 @@
 ---
 title: Teleport
 draft: false
-geekdocFilePath: portal_blocks/Teleport/_index.md
+geekdocFilePath: portal_blocks/Teleport/docs/extra.md
+layout: "block_documentation"
 ---
 # Teleport
-{{< include file="../content/portal-builder/rules-editor/block-reference/Teleport/docs/official.md" >}}
-
-# Community Additions
-
-{{< include file="../content/portal-builder/rules-editor/block-reference/Teleport/docs/extra.md" >}}

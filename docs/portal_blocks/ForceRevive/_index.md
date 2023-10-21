@@ -1,11 +1,7 @@
 ---
 title: ForceRevive
 draft: false
-geekdocFilePath: portal_blocks/ForceRevive/_index.md
+geekdocFilePath: portal_blocks/ForceRevive/docs/extra.md
+layout: "block_documentation"
 ---
 # ForceRevive
-{{< include file="../content/portal-builder/rules-editor/block-reference/ForceRevive/docs/official.md" >}}
-
-# Community Additions
-
-{{< include file="../content/portal-builder/rules-editor/block-reference/ForceRevive/docs/extra.md" >}}

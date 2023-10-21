@@ -1,11 +1,7 @@
 ---
 title: LocationalSounds
 draft: false
-geekdocFilePath: portal_blocks/LocationalSounds/_index.md
+geekdocFilePath: portal_blocks/LocationalSounds/docs/extra.md
+layout: "block_documentation"
 ---
 # LocationalSounds
-{{< include file="../content/portal-builder/rules-editor/block-reference/LocationalSounds/docs/official.md" >}}
-
-# Community Additions
-
-{{< include file="../content/portal-builder/rules-editor/block-reference/LocationalSounds/docs/extra.md" >}}

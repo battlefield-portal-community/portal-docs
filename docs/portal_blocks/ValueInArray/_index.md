@@ -1,11 +1,7 @@
 ---
 title: ValueInArray
 draft: false
-geekdocFilePath: portal_blocks/ValueInArray/_index.md
+geekdocFilePath: portal_blocks/ValueInArray/docs/extra.md
+layout: "block_documentation"
 ---
 # ValueInArray
-{{< include file="../content/portal-builder/rules-editor/block-reference/ValueInArray/docs/official.md" >}}
-
-# Community Additions
-
-{{< include file="../content/portal-builder/rules-editor/block-reference/ValueInArray/docs/extra.md" >}}

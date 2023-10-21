@@ -1,11 +1,7 @@
 ---
 title: GetInventoryAmmo
 draft: false
-geekdocFilePath: portal_blocks/GetInventoryAmmo/_index.md
+geekdocFilePath: portal_blocks/GetInventoryAmmo/docs/extra.md
+layout: "block_documentation"
 ---
 # GetInventoryAmmo
-{{< include file="../content/portal-builder/rules-editor/block-reference/GetInventoryAmmo/docs/official.md" >}}
-
-# Community Additions
-
-{{< include file="../content/portal-builder/rules-editor/block-reference/GetInventoryAmmo/docs/extra.md" >}}

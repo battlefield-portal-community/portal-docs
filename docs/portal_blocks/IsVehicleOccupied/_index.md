@@ -1,11 +1,7 @@
 ---
 title: IsVehicleOccupied
 draft: false
-geekdocFilePath: portal_blocks/IsVehicleOccupied/_index.md
+geekdocFilePath: portal_blocks/IsVehicleOccupied/docs/extra.md
+layout: "block_documentation"
 ---
 # IsVehicleOccupied
-{{< include file="../content/portal-builder/rules-editor/block-reference/IsVehicleOccupied/docs/official.md" >}}
-
-# Community Additions
-
-{{< include file="../content/portal-builder/rules-editor/block-reference/IsVehicleOccupied/docs/extra.md" >}}

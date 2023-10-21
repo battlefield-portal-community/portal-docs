@@ -1,11 +1,7 @@
 ---
 title: CompareCapturePoint
 draft: false
-geekdocFilePath: portal_blocks/CompareCapturePoint/_index.md
+geekdocFilePath: portal_blocks/CompareCapturePoint/docs/extra.md
+layout: "block_documentation"
 ---
 # CompareCapturePoint
-{{< include file="../content/portal-builder/rules-editor/block-reference/CompareCapturePoint/docs/official.md" >}}
-
-# Community Additions
-
-{{< include file="../content/portal-builder/rules-editor/block-reference/CompareCapturePoint/docs/extra.md" >}}

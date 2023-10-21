@@ -1,11 +1,7 @@
 ---
 title: RandomReal
 draft: false
-geekdocFilePath: portal_blocks/RandomReal/_index.md
+geekdocFilePath: portal_blocks/RandomReal/docs/extra.md
+layout: "block_documentation"
 ---
 # RandomReal
-{{< include file="../content/portal-builder/rules-editor/block-reference/RandomReal/docs/official.md" >}}
-
-# Community Additions
-
-{{< include file="../content/portal-builder/rules-editor/block-reference/RandomReal/docs/extra.md" >}}

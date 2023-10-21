@@ -1,11 +1,7 @@
 ---
 title: GetGameModeTargetScore
 draft: false
-geekdocFilePath: portal_blocks/GetGameModeTargetScore/_index.md
+geekdocFilePath: portal_blocks/GetGameModeTargetScore/docs/extra.md
+layout: "block_documentation"
 ---
 # GetGameModeTargetScore
-{{< include file="../content/portal-builder/rules-editor/block-reference/GetGameModeTargetScore/docs/official.md" >}}
-
-# Community Additions
-
-{{< include file="../content/portal-builder/rules-editor/block-reference/GetGameModeTargetScore/docs/extra.md" >}}

@@ -1,11 +1,7 @@
 ---
 title: SetInventoryAmmo
 draft: false
-geekdocFilePath: portal_blocks/SetInventoryAmmo/_index.md
+geekdocFilePath: portal_blocks/SetInventoryAmmo/docs/extra.md
+layout: "block_documentation"
 ---
 # SetInventoryAmmo
-{{< include file="../content/portal-builder/rules-editor/block-reference/SetInventoryAmmo/docs/official.md" >}}
-
-# Community Additions
-
-{{< include file="../content/portal-builder/rules-editor/block-reference/SetInventoryAmmo/docs/extra.md" >}}

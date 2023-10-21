@@ -1,11 +1,7 @@
 ---
 title: SineFromDegrees
 draft: false
-geekdocFilePath: portal_blocks/SineFromDegrees/_index.md
+geekdocFilePath: portal_blocks/SineFromDegrees/docs/extra.md
+layout: "block_documentation"
 ---
 # SineFromDegrees
-{{< include file="../content/portal-builder/rules-editor/block-reference/SineFromDegrees/docs/official.md" >}}
-
-# Community Additions
-
-{{< include file="../content/portal-builder/rules-editor/block-reference/SineFromDegrees/docs/extra.md" >}}

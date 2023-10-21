@@ -1,11 +1,7 @@
 ---
 title: TangentFromRadians
 draft: false
-geekdocFilePath: portal_blocks/TangentFromRadians/_index.md
+geekdocFilePath: portal_blocks/TangentFromRadians/docs/extra.md
+layout: "block_documentation"
 ---
 # TangentFromRadians
-{{< include file="../content/portal-builder/rules-editor/block-reference/TangentFromRadians/docs/official.md" >}}
-
-# Community Additions
-
-{{< include file="../content/portal-builder/rules-editor/block-reference/TangentFromRadians/docs/extra.md" >}}

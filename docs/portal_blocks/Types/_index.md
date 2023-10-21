@@ -1,11 +1,7 @@
 ---
 title: Types
 draft: false
-geekdocFilePath: portal_blocks/Types/_index.md
+geekdocFilePath: portal_blocks/Types/docs/extra.md
+layout: "block_documentation"
 ---
 # Types
-{{< include file="../content/portal-builder/rules-editor/block-reference/Types/docs/official.md" >}}
-
-# Community Additions
-
-{{< include file="../content/portal-builder/rules-editor/block-reference/Types/docs/extra.md" >}}

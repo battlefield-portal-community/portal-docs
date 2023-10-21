@@ -1,11 +1,7 @@
 ---
 title: InventoryOpenGadgets
 draft: false
-geekdocFilePath: portal_blocks/InventoryOpenGadgets/_index.md
+geekdocFilePath: portal_blocks/InventoryOpenGadgets/docs/extra.md
+layout: "block_documentation"
 ---
 # InventoryOpenGadgets
-{{< include file="../content/portal-builder/rules-editor/block-reference/InventoryOpenGadgets/docs/official.md" >}}
-
-# Community Additions
-
-{{< include file="../content/portal-builder/rules-editor/block-reference/InventoryOpenGadgets/docs/extra.md" >}}

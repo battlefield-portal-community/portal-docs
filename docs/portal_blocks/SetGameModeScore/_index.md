@@ -1,11 +1,7 @@
 ---
 title: SetGameModeScore
 draft: false
-geekdocFilePath: portal_blocks/SetGameModeScore/_index.md
+geekdocFilePath: portal_blocks/SetGameModeScore/docs/extra.md
+layout: "block_documentation"
 ---
 # SetGameModeScore
-{{< include file="../content/portal-builder/rules-editor/block-reference/SetGameModeScore/docs/official.md" >}}
-
-# Community Additions
-
-{{< include file="../content/portal-builder/rules-editor/block-reference/SetGameModeScore/docs/extra.md" >}}

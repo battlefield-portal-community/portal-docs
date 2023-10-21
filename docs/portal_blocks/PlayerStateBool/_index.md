@@ -1,11 +1,7 @@
 ---
 title: PlayerStateBool
 draft: false
-geekdocFilePath: portal_blocks/PlayerStateBool/_index.md
+geekdocFilePath: portal_blocks/PlayerStateBool/docs/extra.md
+layout: "block_documentation"
 ---
 # PlayerStateBool
-{{< include file="../content/portal-builder/rules-editor/block-reference/PlayerStateBool/docs/official.md" >}}
-
-# Community Additions
-
-{{< include file="../content/portal-builder/rules-editor/block-reference/PlayerStateBool/docs/extra.md" >}}

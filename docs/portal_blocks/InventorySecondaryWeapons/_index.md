@@ -1,11 +1,7 @@
 ---
 title: InventorySecondaryWeapons
 draft: false
-geekdocFilePath: portal_blocks/InventorySecondaryWeapons/_index.md
+geekdocFilePath: portal_blocks/InventorySecondaryWeapons/docs/extra.md
+layout: "block_documentation"
 ---
 # InventorySecondaryWeapons
-{{< include file="../content/portal-builder/rules-editor/block-reference/InventorySecondaryWeapons/docs/official.md" >}}
-
-# Community Additions
-
-{{< include file="../content/portal-builder/rules-editor/block-reference/InventorySecondaryWeapons/docs/extra.md" >}}

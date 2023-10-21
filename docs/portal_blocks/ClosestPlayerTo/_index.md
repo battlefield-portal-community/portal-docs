@@ -1,11 +1,7 @@
 ---
 title: ClosestPlayerTo
 draft: false
-geekdocFilePath: portal_blocks/ClosestPlayerTo/_index.md
+geekdocFilePath: portal_blocks/ClosestPlayerTo/docs/extra.md
+layout: "block_documentation"
 ---
 # ClosestPlayerTo
-{{< include file="../content/portal-builder/rules-editor/block-reference/ClosestPlayerTo/docs/official.md" >}}
-
-# Community Additions
-
-{{< include file="../content/portal-builder/rules-editor/block-reference/ClosestPlayerTo/docs/extra.md" >}}

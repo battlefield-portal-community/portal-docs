@@ -1,11 +1,7 @@
 ---
 title: Message
 draft: false
-geekdocFilePath: portal_blocks/Message/_index.md
+geekdocFilePath: portal_blocks/Message/docs/extra.md
+layout: "block_documentation"
 ---
 # Message
-{{< include file="../content/portal-builder/rules-editor/block-reference/Message/docs/official.md" >}}
-
-# Community Additions
-
-{{< include file="../content/portal-builder/rules-editor/block-reference/Message/docs/extra.md" >}}

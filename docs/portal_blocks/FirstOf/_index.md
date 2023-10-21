@@ -1,11 +1,7 @@
 ---
 title: FirstOf
 draft: false
-geekdocFilePath: portal_blocks/FirstOf/_index.md
+geekdocFilePath: portal_blocks/FirstOf/docs/extra.md
+layout: "block_documentation"
 ---
 # FirstOf
-{{< include file="../content/portal-builder/rules-editor/block-reference/FirstOf/docs/official.md" >}}
-
-# Community Additions
-
-{{< include file="../content/portal-builder/rules-editor/block-reference/FirstOf/docs/extra.md" >}}

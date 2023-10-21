@@ -1,11 +1,7 @@
 ---
 title: MCOMStateBool
 draft: false
-geekdocFilePath: portal_blocks/MCOMStateBool/_index.md
+geekdocFilePath: portal_blocks/MCOMStateBool/docs/extra.md
+layout: "block_documentation"
 ---
 # MCOMStateBool
-{{< include file="../content/portal-builder/rules-editor/block-reference/MCOMStateBool/docs/official.md" >}}
-
-# Community Additions
-
-{{< include file="../content/portal-builder/rules-editor/block-reference/MCOMStateBool/docs/extra.md" >}}

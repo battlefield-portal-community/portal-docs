@@ -1,11 +1,7 @@
 ---
 title: GetPlayersOnPoint
 draft: false
-geekdocFilePath: portal_blocks/GetPlayersOnPoint/_index.md
+geekdocFilePath: portal_blocks/GetPlayersOnPoint/docs/extra.md
+layout: "block_documentation"
 ---
 # GetPlayersOnPoint
-{{< include file="../content/portal-builder/rules-editor/block-reference/GetPlayersOnPoint/docs/official.md" >}}
-
-# Community Additions
-
-{{< include file="../content/portal-builder/rules-editor/block-reference/GetPlayersOnPoint/docs/extra.md" >}}

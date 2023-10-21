@@ -1,11 +1,7 @@
 ---
 title: EventSeat
 draft: false
-geekdocFilePath: portal_blocks/EventSeat/_index.md
+geekdocFilePath: portal_blocks/EventSeat/docs/extra.md
+layout: "block_documentation"
 ---
 # EventSeat
-{{< include file="../content/portal-builder/rules-editor/block-reference/EventSeat/docs/official.md" >}}
-
-# Community Additions
-
-{{< include file="../content/portal-builder/rules-editor/block-reference/EventSeat/docs/extra.md" >}}

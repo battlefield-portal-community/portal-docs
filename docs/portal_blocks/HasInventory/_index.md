@@ -1,11 +1,7 @@
 ---
 title: HasInventory
 draft: false
-geekdocFilePath: portal_blocks/HasInventory/_index.md
+geekdocFilePath: portal_blocks/HasInventory/docs/extra.md
+layout: "block_documentation"
 ---
 # HasInventory
-{{< include file="../content/portal-builder/rules-editor/block-reference/HasInventory/docs/official.md" >}}
-
-# Community Additions
-
-{{< include file="../content/portal-builder/rules-editor/block-reference/HasInventory/docs/extra.md" >}}

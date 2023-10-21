@@ -1,11 +1,7 @@
 ---
 title: CapturePointNeutralizationTime
 draft: false
-geekdocFilePath: portal_blocks/CapturePointNeutralizationTime/_index.md
+geekdocFilePath: portal_blocks/CapturePointNeutralizationTime/docs/extra.md
+layout: "block_documentation"
 ---
 # CapturePointNeutralizationTime
-{{< include file="../content/portal-builder/rules-editor/block-reference/CapturePointNeutralizationTime/docs/official.md" >}}
-
-# Community Additions
-
-{{< include file="../content/portal-builder/rules-editor/block-reference/CapturePointNeutralizationTime/docs/extra.md" >}}

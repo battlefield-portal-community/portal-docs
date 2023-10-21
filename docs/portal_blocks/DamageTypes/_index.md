@@ -1,11 +1,7 @@
 ---
 title: DamageTypes
 draft: false
-geekdocFilePath: portal_blocks/DamageTypes/_index.md
+geekdocFilePath: portal_blocks/DamageTypes/docs/extra.md
+layout: "block_documentation"
 ---
 # DamageTypes
-{{< include file="../content/portal-builder/rules-editor/block-reference/DamageTypes/docs/official.md" >}}
-
-# Community Additions
-
-{{< include file="../content/portal-builder/rules-editor/block-reference/DamageTypes/docs/extra.md" >}}

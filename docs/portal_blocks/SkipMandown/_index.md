@@ -1,11 +1,7 @@
 ---
 title: SkipMandown
 draft: false
-geekdocFilePath: portal_blocks/SkipMandown/_index.md
+geekdocFilePath: portal_blocks/SkipMandown/docs/extra.md
+layout: "block_documentation"
 ---
 # SkipMandown
-{{< include file="../content/portal-builder/rules-editor/block-reference/SkipMandown/docs/official.md" >}}
-
-# Community Additions
-
-{{< include file="../content/portal-builder/rules-editor/block-reference/SkipMandown/docs/extra.md" >}}

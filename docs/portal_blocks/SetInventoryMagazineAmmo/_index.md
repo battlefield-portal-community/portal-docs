@@ -1,11 +1,7 @@
 ---
 title: SetInventoryMagazineAmmo
 draft: false
-geekdocFilePath: portal_blocks/SetInventoryMagazineAmmo/_index.md
+geekdocFilePath: portal_blocks/SetInventoryMagazineAmmo/docs/extra.md
+layout: "block_documentation"
 ---
 # SetInventoryMagazineAmmo
-{{< include file="../content/portal-builder/rules-editor/block-reference/SetInventoryMagazineAmmo/docs/official.md" >}}
-
-# Community Additions
-
-{{< include file="../content/portal-builder/rules-editor/block-reference/SetInventoryMagazineAmmo/docs/extra.md" >}}

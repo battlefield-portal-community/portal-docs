@@ -1,11 +1,7 @@
 ---
 title: Not
 draft: false
-geekdocFilePath: portal_blocks/Not/_index.md
+geekdocFilePath: portal_blocks/Not/docs/extra.md
+layout: "block_documentation"
 ---
 # Not
-{{< include file="../content/portal-builder/rules-editor/block-reference/Not/docs/official.md" >}}
-
-# Community Additions
-
-{{< include file="../content/portal-builder/rules-editor/block-reference/Not/docs/extra.md" >}}

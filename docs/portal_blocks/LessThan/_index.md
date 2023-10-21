@@ -1,11 +1,7 @@
 ---
 title: LessThan
 draft: false
-geekdocFilePath: portal_blocks/LessThan/_index.md
+geekdocFilePath: portal_blocks/LessThan/docs/extra.md
+layout: "block_documentation"
 ---
 # LessThan
-{{< include file="../content/portal-builder/rules-editor/block-reference/LessThan/docs/official.md" >}}
-
-# Community Additions
-
-{{< include file="../content/portal-builder/rules-editor/block-reference/LessThan/docs/extra.md" >}}

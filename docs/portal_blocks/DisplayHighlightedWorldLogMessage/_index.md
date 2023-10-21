@@ -1,11 +1,7 @@
 ---
 title: DisplayHighlightedWorldLogMessage
 draft: false
-geekdocFilePath: portal_blocks/DisplayHighlightedWorldLogMessage/_index.md
+geekdocFilePath: portal_blocks/DisplayHighlightedWorldLogMessage/docs/extra.md
+layout: "block_documentation"
 ---
 # DisplayHighlightedWorldLogMessage
-{{< include file="../content/portal-builder/rules-editor/block-reference/DisplayHighlightedWorldLogMessage/docs/official.md" >}}
-
-# Community Additions
-
-{{< include file="../content/portal-builder/rules-editor/block-reference/DisplayHighlightedWorldLogMessage/docs/extra.md" >}}

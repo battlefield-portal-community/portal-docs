@@ -1,11 +1,7 @@
 ---
 title: SUBROUTINE
 draft: false
-geekdocFilePath: portal_blocks/SUBROUTINE/_index.md
+geekdocFilePath: portal_blocks/SUBROUTINE/docs/extra.md
+layout: "block_documentation"
 ---
 # SUBROUTINE
-{{< include file="../content/portal-builder/rules-editor/block-reference/SUBROUTINE/docs/official.md" >}}
-
-# Community Additions
-
-{{< include file="../content/portal-builder/rules-editor/block-reference/SUBROUTINE/docs/extra.md" >}}

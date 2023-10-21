@@ -1,11 +1,7 @@
 ---
 title: Rule
 draft: false
-geekdocFilePath: portal_blocks/Rule/_index.md
+geekdocFilePath: portal_blocks/Rule/docs/extra.md
+layout: "block_documentation"
 ---
 # Rule
-{{< include file="../content/portal-builder/rules-editor/block-reference/Rule/docs/official.md" >}}
-
-# Community Additions
-
-{{< include file="../content/portal-builder/rules-editor/block-reference/Rule/docs/extra.md" >}}

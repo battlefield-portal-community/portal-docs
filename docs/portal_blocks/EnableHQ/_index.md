@@ -1,11 +1,7 @@
 ---
 title: EnableHQ
 draft: false
-geekdocFilePath: portal_blocks/EnableHQ/_index.md
+geekdocFilePath: portal_blocks/EnableHQ/docs/extra.md
+layout: "block_documentation"
 ---
 # EnableHQ
-{{< include file="../content/portal-builder/rules-editor/block-reference/EnableHQ/docs/official.md" >}}
-
-# Community Additions
-
-{{< include file="../content/portal-builder/rules-editor/block-reference/EnableHQ/docs/extra.md" >}}

@@ -1,11 +1,7 @@
 ---
 title: AppendToArray
 draft: false
-geekdocFilePath: portal_blocks/AppendToArray/_index.md
+geekdocFilePath: portal_blocks/AppendToArray/docs/extra.md
+layout: "block_documentation"
 ---
 # AppendToArray
-{{< include file="../content/portal-builder/rules-editor/block-reference/AppendToArray/docs/official.md" >}}
-
-# Community Additions
-
-{{< include file="../content/portal-builder/rules-editor/block-reference/AppendToArray/docs/extra.md" >}}

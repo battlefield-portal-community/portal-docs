@@ -1,11 +1,7 @@
 ---
 title: EventTeam
 draft: false
-geekdocFilePath: portal_blocks/EventTeam/_index.md
+geekdocFilePath: portal_blocks/EventTeam/docs/extra.md
+layout: "block_documentation"
 ---
 # EventTeam
-{{< include file="../content/portal-builder/rules-editor/block-reference/EventTeam/docs/official.md" >}}
-
-# Community Additions
-
-{{< include file="../content/portal-builder/rules-editor/block-reference/EventTeam/docs/extra.md" >}}

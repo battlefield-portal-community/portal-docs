@@ -1,11 +1,7 @@
 ---
 title: CapturePoints
 draft: false
-geekdocFilePath: portal_blocks/CapturePoints/_index.md
+geekdocFilePath: portal_blocks/CapturePoints/docs/extra.md
+layout: "block_documentation"
 ---
 # CapturePoints
-{{< include file="../content/portal-builder/rules-editor/block-reference/CapturePoints/docs/official.md" >}}
-
-# Community Additions
-
-{{< include file="../content/portal-builder/rules-editor/block-reference/CapturePoints/docs/extra.md" >}}

@@ -1,11 +1,7 @@
 ---
 title: Vehicles
 draft: false
-geekdocFilePath: portal_blocks/Vehicles/_index.md
+geekdocFilePath: portal_blocks/Vehicles/docs/extra.md
+layout: "block_documentation"
 ---
 # Vehicles
-{{< include file="../content/portal-builder/rules-editor/block-reference/Vehicles/docs/official.md" >}}
-
-# Community Additions
-
-{{< include file="../content/portal-builder/rules-editor/block-reference/Vehicles/docs/extra.md" >}}

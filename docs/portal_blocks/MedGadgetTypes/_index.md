@@ -1,11 +1,7 @@
 ---
 title: MedGadgetTypes
 draft: false
-geekdocFilePath: portal_blocks/MedGadgetTypes/_index.md
+geekdocFilePath: portal_blocks/MedGadgetTypes/docs/extra.md
+layout: "block_documentation"
 ---
 # MedGadgetTypes
-{{< include file="../content/portal-builder/rules-editor/block-reference/MedGadgetTypes/docs/official.md" >}}
-
-# Community Additions
-
-{{< include file="../content/portal-builder/rules-editor/block-reference/MedGadgetTypes/docs/extra.md" >}}

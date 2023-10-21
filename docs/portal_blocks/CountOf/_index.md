@@ -1,11 +1,7 @@
 ---
 title: CountOf
 draft: false
-geekdocFilePath: portal_blocks/CountOf/_index.md
+geekdocFilePath: portal_blocks/CountOf/docs/extra.md
+layout: "block_documentation"
 ---
 # CountOf
-{{< include file="../content/portal-builder/rules-editor/block-reference/CountOf/docs/official.md" >}}
-
-# Community Additions
-
-{{< include file="../content/portal-builder/rules-editor/block-reference/CountOf/docs/extra.md" >}}

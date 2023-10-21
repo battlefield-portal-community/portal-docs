@@ -1,11 +1,7 @@
 ---
 title: ArcsineInDegrees
 draft: false
-geekdocFilePath: portal_blocks/ArcsineInDegrees/_index.md
+geekdocFilePath: portal_blocks/ArcsineInDegrees/docs/extra.md
+layout: "block_documentation"
 ---
 # ArcsineInDegrees
-{{< include file="../content/portal-builder/rules-editor/block-reference/ArcsineInDegrees/docs/official.md" >}}
-
-# Community Additions
-
-{{< include file="../content/portal-builder/rules-editor/block-reference/ArcsineInDegrees/docs/extra.md" >}}
