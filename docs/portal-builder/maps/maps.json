@@ -1,0 +1,38 @@
+{
+  "maps": [
+    "Discarded",
+    "Hourglass",
+    "Breakaway",
+    "Kaleidoscope",
+    "Manifest",
+    "Orbital",
+    "Renewal",
+    "Battle of the Bulge",
+    "Arica Harbor",
+    "Valparaiso",
+    "El Alamein",
+    "Noshahr Canals",
+    "Caspian Border",
+    "Exposure",
+    "Stranded",
+    "Spearhead",
+    "Flashpoint",
+    "Reclaimed",
+    "Redacted"
+  ],
+  "sizes": ["small", "medium", "large"],
+  "modes": [
+    "Conquest (Core)",
+    "Conquest (Custom)",
+    "Conquest Large (Core)",
+    "Rush (Core)",
+    "Breakthrough (Core)",
+    "Breakthrough Large (Core)",
+    "Team Deathmatch (Core)",
+    "Team Deathmatch (Custom)",
+    "Vehicle Team Deathmatch (Custom)",
+    "Air Superiority (Custom)",
+    "Ground Superiority (Custom)",
+    "Free-For-All (Custom)"
+  ]
+}
