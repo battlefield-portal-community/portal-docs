@@ -43,14 +43,10 @@ def ensure_index_md(block_name: str):
             "---",
             f"title: {block_name}",
             "draft: false",
-            f"geekdocFilePath: portal_blocks/{block_name}/_index.md",
+            f"geekdocFilePath: portal_blocks/{block_name}/docs/extra.md",
+            'layout: "block_documentation"',
             "---",
-            f"# {block_name}",
-            '{{< include file="' + MOUNT_DIR + '/' + block_name + '/docs/official.md" >}}',
-            "",
-            f"# Community Additions",
-            "",
-            '{{< include file="' + MOUNT_DIR + '/' + block_name + '/docs/extra.md" >}}'
+            f"# {block_name}"
         ]
         root_doc.write_text('\n'.join(doc_header))
 
@@ -67,7 +63,7 @@ def ensure_index_md(block_name: str):
 def ensure_index_extra_docs_file(block_name: str):
     extra_doc = BUILD_DIR / block_name / "docs" / "extra.md"
     if not extra_doc.exists():
-        extra_doc.write_text(f"_There is currently no additional information provided for this block by the community._")
+        extra_doc.write_text(f"<!-- Add extra documentation for {block_name} in this file -->")
 
 
 def write_official_doc(doc_json_file: pathlib.Path, block_name: str):
@@ -107,17 +103,15 @@ def write_official_doc(doc_json_file: pathlib.Path, block_name: str):
 
 def create_menu_entry(block_name: str):
     sub_lookup = '# - name: generated-block-reference-do-not-remove'
-    menu_entry_name = '- name: ' + block_name
-    menu_entry_ref = '  ref: "/portal-builder/rules-editor/block-reference/' + block_name + '"'
+    menu_entry_name = f'- name: {block_name}'
+    menu_entry_ref = f'  ref: "/portal-builder/rules-editor/block-reference/{block_name}"'
     if MENU_FILE.exists():
         entries = MENU_FILE.read_text().split('\n')
-        index = 0
-        for entry in entries:
+        for index, entry in enumerate(entries):
             if sub_lookup in entry:
-                entries.insert(index, entry.split('# ')[0] + menu_entry_ref)
-                entries.insert(index, entry.split('# ')[0] + menu_entry_name)
+                entries.insert(index, entry.split('#')[0] + menu_entry_ref)
+                entries.insert(index, entry.split('#')[0] + menu_entry_name)
                 break
-            index += 1
         MENU_FILE.write_text('\n'.join(entries))
 
 def generate():
