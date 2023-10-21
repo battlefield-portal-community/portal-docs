@@ -15,6 +15,8 @@ main:
     sub:
       - name: Game Modes
         ref: "/portal-builder/game-modes"
+      - name: Map Layouts
+        ref: "/portal-builder/maps/maps.md"
       - name: Modifiers
         ref: "/portal-builder/modifiers"
       - name: Restrictions

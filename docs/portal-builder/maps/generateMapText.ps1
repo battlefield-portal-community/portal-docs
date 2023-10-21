@@ -11,7 +11,7 @@ draft: false
 {{< hint type=note >}}
 Work in progress... check back later!
 {{< /hint >}}'
-$mdText += '# Map Layouts'
+$mdText += "`n`n# Map Layouts"
 foreach ($map in $portalData.maps) {
     $mdText += "`n`n## $map"
     foreach ($mode in $portalData.modes) {
@@ -22,4 +22,4 @@ foreach ($map in $portalData.maps) {
         }
     }
 }
-$mdText | Out-File -FilePath "maps.md"
+$mdText | Out-File -FilePath "maps.md" -Encoding utf8
