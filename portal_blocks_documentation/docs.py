@@ -121,7 +121,7 @@ def generate():
     timer_start = timer()
     logger.info("Starting to build official docs")
     delete_existing_official_docs()
-    for file in (project_dir / "docs_json").glob("*.json"):
+    for file in sorted((project_dir / "docs_json").glob("*.json"), key=lambda path: path.stem.lower()):
 
         block_name = file.stem
 
