@@ -5,21 +5,37 @@ draft: false
 ---
 
 {{< toc >}}
-
-# Work in Progress
-
-{{< hint type=note >}}
-Work in progress... check back later!
-{{< /hint >}}'
-$mdText += "`n`n# Map Layouts"
+'
 foreach ($map in $portalData.maps) {
-    $mdText += "`n`n## $map"
+    $mdText += "`n`n"
+    $mdText += "# $map"
+    #$mdText += "`n`n"
+    #$mdText += '{{< tabs "' + $map + '" >}}'
     foreach ($mode in $portalData.modes) {
-        $mdText += "`n`n### $mode"
+        $modePlain = $mode.replace(' ', '-').replace('(', '').replace(')', '')
+        $mdText += "`n"
+        $mdText += "`n"
+        $mdText += "## $map - $mode"
+        $mdText += "`n"
+        $mdText += "`n"
+        #$mdText += '{{< tab "' + $modePlain + '" >}}'
+        #$mdText += "`n"
+        $mdText += '{{< tabs "' + "$map-$modePlain" + '" >}}'
         foreach ($size in $portalData.sizes) {
-            $mdText += "`n`n#### $map - $mode - $size"
+            $mdText += "`n"
+            $mdText += '{{< tab "' + $size + '" >}}'
+            $mdText += "`n`n### $map - $mode - $size"
+            if()
             $mdText += "`n`n_No information available..._"
+            $mdText += "`n`n"
+            $mdText += '{{< /tab >}}'
         }
+        $mdText += "`n"
+        $mdText += '{{< /tabs >}}'
+        #$mdText += "`n"
+        #$mdText += '{{< /tab >}}'
     }
+    #$mdText += "`n"
+    #$mdText += '{{< /tabs >}}'
 }
 $mdText | Out-File -FilePath "maps.md" -Encoding utf8
