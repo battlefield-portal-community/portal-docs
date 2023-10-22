@@ -33,6 +33,10 @@
     }
   }
   
+  .gdoc-nav {
+    overflow: hidden;
+  }
+
   .gdoc-page {
     text-shadow: 2px 2px 2px black
   }
