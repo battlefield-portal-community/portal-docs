@@ -16,7 +16,7 @@ BUILD_DIR.mkdir(exist_ok=True)
 
 MOUNT_DIR = '../content/portal-builder/rules-editor/block-reference'
 
-MENU_FILE = project_root / "hugo" / "themes" / "hugo-geekdoc" / "data" / "menu" / "main.yaml"
+MENU_FILE = project_root / "hugo" / "data" / "menu" / "main.yaml"
 
 def delete_existing_official_docs():
     """Delete all existing official docs"""

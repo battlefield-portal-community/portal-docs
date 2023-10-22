@@ -1,0 +1,624 @@
+main:
+  - name: Introduction
+    ref: "/introduction/"
+    sub:
+      - name: Battlefield Portal Documentation
+        ref: "/introduction/bfportal-documentation"
+      - name: What is Battlefield Portal
+        ref: "/introduction/what-is-bf-portal"
+      - name: Battlefield Portal Community
+        ref: "/introduction/bfportal-community"
+      - name: XP/Progression Limitations
+        ref: "/introduction/xp-limitation"
+  - name: Portal Builder
+    ref: "/portal-builder/"
+    sub:
+      - name: Game Modes
+        ref: "/portal-builder/game-modes"
+      - name: Modifiers
+        ref: "/portal-builder/modifiers"
+      - name: Restrictions
+        ref: "/portal-builder/restrictions"
+      - name: Rules Editor
+        ref: "/portal-builder/rules-editor"
+        sub:
+          - name: Basics
+            ref: "/portal-builder/rules-editor/basics"
+            sub:
+              - name: The Game Loop
+                ref: "/portal-builder/rules-editor/basics/game-loop"
+              - name: Rules
+                ref: "/portal-builder/rules-editor/basics/rules"
+              - name: Conditions
+                ref: "/portal-builder/rules-editor/basics/conditions"
+              - name: Variables
+                ref: "/portal-builder/rules-editor/basics/variables"
+              - name: Block Types
+                ref: "/portal-builder/rules-editor/basics/block-types"
+              - name: Subroutines
+                ref: "/portal-builder/rules-editor/basics/subroutines"
+          - name: Advanced
+            ref: "/portal-builder/rules-editor/advanced"
+            sub:
+              - name: Arrays
+                ref: "/portal-builder/rules-editor/advanced/arrays"
+              - name: Loops
+                ref: "/portal-builder/rules-editor/advanced/loops"
+              - name: Debug
+                ref: "/portal-builder/rules-editor/advanced/debug"
+              - name: Player State Vectors
+                ref: "/portal-builder/rules-editor/advanced/player-state-vectors"
+          - name: How-To
+            ref: "/portal-builder/rules-editor/how-to"
+            sub:
+              - name: Display UI Messages
+                ref: "/portal-builder/rules-editor/how-to/message-types"
+              - name: Show World Icons
+                ref: "/portal-builder/rules-editor/how-to/world-icons"
+          - name: Block Reference
+            ref: "/portal-builder/rules-editor/block-reference/"
+            sub:
+              - name: Abort
+                ref: "/portal-builder/rules-editor/block-reference/Abort"
+              - name: AbortIf
+                ref: "/portal-builder/rules-editor/block-reference/AbortIf"
+              - name: AbsoluteValue
+                ref: "/portal-builder/rules-editor/block-reference/AbsoluteValue"
+              - name: Add
+                ref: "/portal-builder/rules-editor/block-reference/Add"
+              - name: And
+                ref: "/portal-builder/rules-editor/block-reference/And"
+              - name: AngleBetweenVectors
+                ref: "/portal-builder/rules-editor/block-reference/AngleBetweenVectors"
+              - name: AngleDifference
+                ref: "/portal-builder/rules-editor/block-reference/AngleDifference"
+              - name: AppendToArray
+                ref: "/portal-builder/rules-editor/block-reference/AppendToArray"
+              - name: ApplyMedGadget
+                ref: "/portal-builder/rules-editor/block-reference/ApplyMedGadget"
+              - name: ArccosineInDegrees
+                ref: "/portal-builder/rules-editor/block-reference/ArccosineInDegrees"
+              - name: ArccosineInRadians
+                ref: "/portal-builder/rules-editor/block-reference/ArccosineInRadians"
+              - name: ArcsineInDegrees
+                ref: "/portal-builder/rules-editor/block-reference/ArcsineInDegrees"
+              - name: ArcsineInRadians
+                ref: "/portal-builder/rules-editor/block-reference/ArcsineInRadians"
+              - name: ArctangentInDegrees
+                ref: "/portal-builder/rules-editor/block-reference/ArctangentInDegrees"
+              - name: ArctangentInRadians
+                ref: "/portal-builder/rules-editor/block-reference/ArctangentInRadians"
+              - name: ArrayContains
+                ref: "/portal-builder/rules-editor/block-reference/ArrayContains"
+              - name: ArraySlice
+                ref: "/portal-builder/rules-editor/block-reference/ArraySlice"
+              - name: BackwardVector
+                ref: "/portal-builder/rules-editor/block-reference/BackwardVector"
+              - name: Bool
+                ref: "/portal-builder/rules-editor/block-reference/Bool"
+              - name: Break
+                ref: "/portal-builder/rules-editor/block-reference/Break"
+              - name: CapturePointCapturingTime
+                ref: "/portal-builder/rules-editor/block-reference/CapturePointCapturingTime"
+              - name: CapturePointNeutralizationTime
+                ref: "/portal-builder/rules-editor/block-reference/CapturePointNeutralizationTime"
+              - name: CapturePoints
+                ref: "/portal-builder/rules-editor/block-reference/CapturePoints"
+              - name: ClearAllCustomMessages
+                ref: "/portal-builder/rules-editor/block-reference/ClearAllCustomMessages"
+              - name: ClearCustomMessage
+                ref: "/portal-builder/rules-editor/block-reference/ClearCustomMessage"
+              - name: ClosestPlayerTo
+                ref: "/portal-builder/rules-editor/block-reference/ClosestPlayerTo"
+              - name: CompareCapturePoint
+                ref: "/portal-builder/rules-editor/block-reference/CompareCapturePoint"
+              - name: CompareVehicleName
+                ref: "/portal-builder/rules-editor/block-reference/CompareVehicleName"
+              - name: Condition
+                ref: "/portal-builder/rules-editor/block-reference/Condition"
+              - name: Continue
+                ref: "/portal-builder/rules-editor/block-reference/Continue"
+              - name: CosineFromDegrees
+                ref: "/portal-builder/rules-editor/block-reference/CosineFromDegrees"
+              - name: CosineFromRadians
+                ref: "/portal-builder/rules-editor/block-reference/CosineFromRadians"
+              - name: CountOf
+                ref: "/portal-builder/rules-editor/block-reference/CountOf"
+              - name: CreateVector
+                ref: "/portal-builder/rules-editor/block-reference/CreateVector"
+              - name: CrossProduct
+                ref: "/portal-builder/rules-editor/block-reference/CrossProduct"
+              - name: CurrentArrayElement
+                ref: "/portal-builder/rules-editor/block-reference/CurrentArrayElement"
+              - name: CustomMessageSlot
+                ref: "/portal-builder/rules-editor/block-reference/CustomMessageSlot"
+              - name: DamageTypes
+                ref: "/portal-builder/rules-editor/block-reference/DamageTypes"
+              - name: DamageVehicle
+                ref: "/portal-builder/rules-editor/block-reference/DamageVehicle"
+              - name: DealDamage
+                ref: "/portal-builder/rules-editor/block-reference/DealDamage"
+              - name: DeathTypes
+                ref: "/portal-builder/rules-editor/block-reference/DeathTypes"
+              - name: DeployAllPlayers
+                ref: "/portal-builder/rules-editor/block-reference/DeployAllPlayers"
+              - name: DeployPlayer
+                ref: "/portal-builder/rules-editor/block-reference/DeployPlayer"
+              - name: DestroyVehicle
+                ref: "/portal-builder/rules-editor/block-reference/DestroyVehicle"
+              - name: DirectionFromAngles
+                ref: "/portal-builder/rules-editor/block-reference/DirectionFromAngles"
+              - name: DirectionTowards
+                ref: "/portal-builder/rules-editor/block-reference/DirectionTowards"
+              - name: DisplayCustomMessage
+                ref: "/portal-builder/rules-editor/block-reference/DisplayCustomMessage"
+              - name: DisplayGameModeMessage
+                ref: "/portal-builder/rules-editor/block-reference/DisplayGameModeMessage"
+              - name: DisplayHighlightedWorldLogMessage
+                ref: "/portal-builder/rules-editor/block-reference/DisplayHighlightedWorldLogMessage"
+              - name: DisplayNotificationMessage
+                ref: "/portal-builder/rules-editor/block-reference/DisplayNotificationMessage"
+              - name: DistanceBetween
+                ref: "/portal-builder/rules-editor/block-reference/DistanceBetween"
+              - name: Divide
+                ref: "/portal-builder/rules-editor/block-reference/Divide"
+              - name: DotProduct
+                ref: "/portal-builder/rules-editor/block-reference/DotProduct"
+              - name: DownVector
+                ref: "/portal-builder/rules-editor/block-reference/DownVector"
+              - name: Else
+                ref: "/portal-builder/rules-editor/block-reference/Else"
+              - name: ElseIf
+                ref: "/portal-builder/rules-editor/block-reference/ElseIf"
+              - name: EmptyArray
+                ref: "/portal-builder/rules-editor/block-reference/EmptyArray"
+              - name: EnableAllInputRestrictions
+                ref: "/portal-builder/rules-editor/block-reference/EnableAllInputRestrictions"
+              - name: EnableAllPlayerDeploy
+                ref: "/portal-builder/rules-editor/block-reference/EnableAllPlayerDeploy"
+              - name: EnableCapturePointDeploying
+                ref: "/portal-builder/rules-editor/block-reference/EnableCapturePointDeploying"
+              - name: EnableCapturing
+                ref: "/portal-builder/rules-editor/block-reference/EnableCapturing"
+              - name: EnableDefaultGameModeScoring
+                ref: "/portal-builder/rules-editor/block-reference/EnableDefaultGameModeScoring"
+              - name: EnableDefaultGameModeWinCondition
+                ref: "/portal-builder/rules-editor/block-reference/EnableDefaultGameModeWinCondition"
+              - name: EnableGameModeObjective
+                ref: "/portal-builder/rules-editor/block-reference/EnableGameModeObjective"
+              - name: EnableHQ
+                ref: "/portal-builder/rules-editor/block-reference/EnableHQ"
+              - name: EnableInputRestriction
+                ref: "/portal-builder/rules-editor/block-reference/EnableInputRestriction"
+              - name: EnablePlayerDeploy
+                ref: "/portal-builder/rules-editor/block-reference/EnablePlayerDeploy"
+              - name: EnableTicketBleedAcceleration
+                ref: "/portal-builder/rules-editor/block-reference/EnableTicketBleedAcceleration"
+              - name: EnableVOMessaging
+                ref: "/portal-builder/rules-editor/block-reference/EnableVOMessaging"
+              - name: EnableWorldIconImage
+                ref: "/portal-builder/rules-editor/block-reference/EnableWorldIconImage"
+              - name: EnableWorldIconText
+                ref: "/portal-builder/rules-editor/block-reference/EnableWorldIconText"
+              - name: EndGameMode
+                ref: "/portal-builder/rules-editor/block-reference/EndGameMode"
+              - name: Equals
+                ref: "/portal-builder/rules-editor/block-reference/Equals"
+              - name: EventCapturePoint
+                ref: "/portal-builder/rules-editor/block-reference/EventCapturePoint"
+              - name: EventDamageType
+                ref: "/portal-builder/rules-editor/block-reference/EventDamageType"
+              - name: EventDeathType
+                ref: "/portal-builder/rules-editor/block-reference/EventDeathType"
+              - name: EventMCOM
+                ref: "/portal-builder/rules-editor/block-reference/EventMCOM"
+              - name: EventOtherPlayer
+                ref: "/portal-builder/rules-editor/block-reference/EventOtherPlayer"
+              - name: EventPlayer
+                ref: "/portal-builder/rules-editor/block-reference/EventPlayer"
+              - name: EventSeat
+                ref: "/portal-builder/rules-editor/block-reference/EventSeat"
+              - name: EventTeam
+                ref: "/portal-builder/rules-editor/block-reference/EventTeam"
+              - name: EventVehicle
+                ref: "/portal-builder/rules-editor/block-reference/EventVehicle"
+              - name: EventWeapon
+                ref: "/portal-builder/rules-editor/block-reference/EventWeapon"
+              - name: Factions
+                ref: "/portal-builder/rules-editor/block-reference/Factions"
+              - name: FarthestPlayerFrom
+                ref: "/portal-builder/rules-editor/block-reference/FarthestPlayerFrom"
+              - name: FilteredArray
+                ref: "/portal-builder/rules-editor/block-reference/FilteredArray"
+              - name: FirstOf
+                ref: "/portal-builder/rules-editor/block-reference/FirstOf"
+              - name: ForceAllExitVehicle
+                ref: "/portal-builder/rules-editor/block-reference/ForceAllExitVehicle"
+              - name: ForceMandown
+                ref: "/portal-builder/rules-editor/block-reference/ForceMandown"
+              - name: ForcePlayerExitVehicle
+                ref: "/portal-builder/rules-editor/block-reference/ForcePlayerExitVehicle"
+              - name: ForcePlayerToSeat
+                ref: "/portal-builder/rules-editor/block-reference/ForcePlayerToSeat"
+              - name: ForceRevive
+                ref: "/portal-builder/rules-editor/block-reference/ForceRevive"
+              - name: ForceSwitchInventory
+                ref: "/portal-builder/rules-editor/block-reference/ForceSwitchInventory"
+              - name: ForwardVector
+                ref: "/portal-builder/rules-editor/block-reference/ForwardVector"
+              - name: GetAllCapturePoints
+                ref: "/portal-builder/rules-editor/block-reference/GetAllCapturePoints"
+              - name: GetAllMCOMs
+                ref: "/portal-builder/rules-editor/block-reference/GetAllMCOMs"
+              - name: GetAllPlayersInVehicle
+                ref: "/portal-builder/rules-editor/block-reference/GetAllPlayersInVehicle"
+              - name: GetAllVehicles
+                ref: "/portal-builder/rules-editor/block-reference/GetAllVehicles"
+              - name: GetCapturePointPosition
+                ref: "/portal-builder/rules-editor/block-reference/GetCapturePointPosition"
+              - name: GetCaptureProgress
+                ref: "/portal-builder/rules-editor/block-reference/GetCaptureProgress"
+              - name: GetCurrentOwnerTeamID
+                ref: "/portal-builder/rules-editor/block-reference/GetCurrentOwnerTeamID"
+              - name: GetGameModeScore
+                ref: "/portal-builder/rules-editor/block-reference/GetGameModeScore"
+              - name: GetGameModeTargetScore
+                ref: "/portal-builder/rules-editor/block-reference/GetGameModeTargetScore"
+              - name: GetGameModeTimeElapsed
+                ref: "/portal-builder/rules-editor/block-reference/GetGameModeTimeElapsed"
+              - name: GetGameModeTimeLimit
+                ref: "/portal-builder/rules-editor/block-reference/GetGameModeTimeLimit"
+              - name: GetGameModeTimeRemaining
+                ref: "/portal-builder/rules-editor/block-reference/GetGameModeTimeRemaining"
+              - name: GetInventoryAmmo
+                ref: "/portal-builder/rules-editor/block-reference/GetInventoryAmmo"
+              - name: GetInventoryMagazineAmmo
+                ref: "/portal-builder/rules-editor/block-reference/GetInventoryMagazineAmmo"
+              - name: GetMCOMState
+                ref: "/portal-builder/rules-editor/block-reference/GetMCOMState"
+              - name: GetObjective
+                ref: "/portal-builder/rules-editor/block-reference/GetObjective"
+              - name: GetOwnerProgressTeamID
+                ref: "/portal-builder/rules-editor/block-reference/GetOwnerProgressTeamID"
+              - name: GetPlayerDeaths
+                ref: "/portal-builder/rules-editor/block-reference/GetPlayerDeaths"
+              - name: GetPlayerFromVehicleSeat
+                ref: "/portal-builder/rules-editor/block-reference/GetPlayerFromVehicleSeat"
+              - name: GetPlayerKills
+                ref: "/portal-builder/rules-editor/block-reference/GetPlayerKills"
+              - name: GetPlayers
+                ref: "/portal-builder/rules-editor/block-reference/GetPlayers"
+              - name: GetPlayersOnPoint
+                ref: "/portal-builder/rules-editor/block-reference/GetPlayersOnPoint"
+              - name: GetPlayerState
+                ref: "/portal-builder/rules-editor/block-reference/GetPlayerState"
+              - name: GetPlayerVehicleSeat
+                ref: "/portal-builder/rules-editor/block-reference/GetPlayerVehicleSeat"
+              - name: GetPreviousOwnerTeamID
+                ref: "/portal-builder/rules-editor/block-reference/GetPreviousOwnerTeamID"
+              - name: GetRemainingFuseTime
+                ref: "/portal-builder/rules-editor/block-reference/GetRemainingFuseTime"
+              - name: GetSeatCount
+                ref: "/portal-builder/rules-editor/block-reference/GetSeatCount"
+              - name: GetSubroutineArgument
+                ref: "/portal-builder/rules-editor/block-reference/GetSubroutineArgument"
+              - name: GetTeamId
+                ref: "/portal-builder/rules-editor/block-reference/GetTeamId"
+              - name: GetVariable
+                ref: "/portal-builder/rules-editor/block-reference/GetVariable"
+              - name: GetVehicleFromPlayer
+                ref: "/portal-builder/rules-editor/block-reference/GetVehicleFromPlayer"
+              - name: GetVehicleState
+                ref: "/portal-builder/rules-editor/block-reference/GetVehicleState"
+              - name: GetVehicleTeamId
+                ref: "/portal-builder/rules-editor/block-reference/GetVehicleTeamId"
+              - name: GetXComponent
+                ref: "/portal-builder/rules-editor/block-reference/GetXComponent"
+              - name: GetYComponent
+                ref: "/portal-builder/rules-editor/block-reference/GetYComponent"
+              - name: GetZComponent
+                ref: "/portal-builder/rules-editor/block-reference/GetZComponent"
+              - name: GreaterThan
+                ref: "/portal-builder/rules-editor/block-reference/GreaterThan"
+              - name: GreaterThanEqualTo
+                ref: "/portal-builder/rules-editor/block-reference/GreaterThanEqualTo"
+              - name: HasInventory
+                ref: "/portal-builder/rules-editor/block-reference/HasInventory"
+              - name: Heal
+                ref: "/portal-builder/rules-editor/block-reference/Heal"
+              - name: If
+                ref: "/portal-builder/rules-editor/block-reference/If"
+              - name: IfThenElse
+                ref: "/portal-builder/rules-editor/block-reference/IfThenElse"
+              - name: IndexOfArrayValue
+                ref: "/portal-builder/rules-editor/block-reference/IndexOfArrayValue"
+              - name: InputRestrictions
+                ref: "/portal-builder/rules-editor/block-reference/InputRestrictions"
+              - name: InventoryCharacterSpecialties
+                ref: "/portal-builder/rules-editor/block-reference/InventoryCharacterSpecialties"
+              - name: InventoryClassGadgets
+                ref: "/portal-builder/rules-editor/block-reference/InventoryClassGadgets"
+              - name: InventoryMeleeWeapons
+                ref: "/portal-builder/rules-editor/block-reference/InventoryMeleeWeapons"
+              - name: InventoryOpenGadgets
+                ref: "/portal-builder/rules-editor/block-reference/InventoryOpenGadgets"
+              - name: InventoryPrimaryWeapons
+                ref: "/portal-builder/rules-editor/block-reference/InventoryPrimaryWeapons"
+              - name: InventorySecondaryWeapons
+                ref: "/portal-builder/rules-editor/block-reference/InventorySecondaryWeapons"
+              - name: InventoryThrowables
+                ref: "/portal-builder/rules-editor/block-reference/InventoryThrowables"
+              - name: IsCurrentMap
+                ref: "/portal-builder/rules-editor/block-reference/IsCurrentMap"
+              - name: IsFaction
+                ref: "/portal-builder/rules-editor/block-reference/IsFaction"
+              - name: IsInventorySlotActive
+                ref: "/portal-builder/rules-editor/block-reference/IsInventorySlotActive"
+              - name: IsKillerWeapon
+                ref: "/portal-builder/rules-editor/block-reference/IsKillerWeapon"
+              - name: IsPlayerUsingSoldier
+                ref: "/portal-builder/rules-editor/block-reference/IsPlayerUsingSoldier"
+              - name: IsPlayerValid
+                ref: "/portal-builder/rules-editor/block-reference/IsPlayerValid"
+              - name: IsTrueForAll
+                ref: "/portal-builder/rules-editor/block-reference/IsTrueForAll"
+              - name: IsTrueForAny
+                ref: "/portal-builder/rules-editor/block-reference/IsTrueForAny"
+              - name: IsType
+                ref: "/portal-builder/rules-editor/block-reference/IsType"
+              - name: IsVehicleOccupied
+                ref: "/portal-builder/rules-editor/block-reference/IsVehicleOccupied"
+              - name: IsVehicleSeatOccupied
+                ref: "/portal-builder/rules-editor/block-reference/IsVehicleSeatOccupied"
+              - name: IsVictimDamageType
+                ref: "/portal-builder/rules-editor/block-reference/IsVictimDamageType"
+              - name: IsVictimDeathType
+                ref: "/portal-builder/rules-editor/block-reference/IsVictimDeathType"
+              - name: Kill
+                ref: "/portal-builder/rules-editor/block-reference/Kill"
+              - name: LastOf
+                ref: "/portal-builder/rules-editor/block-reference/LastOf"
+              - name: LeftVector
+                ref: "/portal-builder/rules-editor/block-reference/LeftVector"
+              - name: LessThan
+                ref: "/portal-builder/rules-editor/block-reference/LessThan"
+              - name: LessThanEqualTo
+                ref: "/portal-builder/rules-editor/block-reference/LessThanEqualTo"
+              - name: LocalToWorldPosition
+                ref: "/portal-builder/rules-editor/block-reference/LocalToWorldPosition"
+              - name: LocalToWorldVector
+                ref: "/portal-builder/rules-editor/block-reference/LocalToWorldVector"
+              - name: LocationalSounds
+                ref: "/portal-builder/rules-editor/block-reference/LocationalSounds"
+              - name: LoopVariable
+                ref: "/portal-builder/rules-editor/block-reference/LoopVariable"
+              - name: MappedArray
+                ref: "/portal-builder/rules-editor/block-reference/MappedArray"
+              - name: Maps
+                ref: "/portal-builder/rules-editor/block-reference/Maps"
+              - name: Max
+                ref: "/portal-builder/rules-editor/block-reference/Max"
+              - name: MCOMs
+                ref: "/portal-builder/rules-editor/block-reference/MCOMs"
+              - name: MCOMStateBool
+                ref: "/portal-builder/rules-editor/block-reference/MCOMStateBool"
+              - name: MedGadgetTypes
+                ref: "/portal-builder/rules-editor/block-reference/MedGadgetTypes"
+              - name: Message
+                ref: "/portal-builder/rules-editor/block-reference/Message"
+              - name: Mod
+                ref: "/portal-builder/rules-editor/block-reference/Mod"
+              - name: Modulo
+                ref: "/portal-builder/rules-editor/block-reference/Modulo"
+              - name: Multiply
+                ref: "/portal-builder/rules-editor/block-reference/Multiply"
+              - name: Normalize
+                ref: "/portal-builder/rules-editor/block-reference/Normalize"
+              - name: Not
+                ref: "/portal-builder/rules-editor/block-reference/Not"
+              - name: NotEqualTo
+                ref: "/portal-builder/rules-editor/block-reference/NotEqualTo"
+              - name: Number
+                ref: "/portal-builder/rules-editor/block-reference/Number"
+              - name: Or
+                ref: "/portal-builder/rules-editor/block-reference/Or"
+              - name: PauseGameModeTime
+                ref: "/portal-builder/rules-editor/block-reference/PauseGameModeTime"
+              - name: PlayerInventorySlots
+                ref: "/portal-builder/rules-editor/block-reference/PlayerInventorySlots"
+              - name: PlayerSoldiers
+                ref: "/portal-builder/rules-editor/block-reference/PlayerSoldiers"
+              - name: PlayerStateBool
+                ref: "/portal-builder/rules-editor/block-reference/PlayerStateBool"
+              - name: PlayerStateNumber
+                ref: "/portal-builder/rules-editor/block-reference/PlayerStateNumber"
+              - name: PlayerStateVector
+                ref: "/portal-builder/rules-editor/block-reference/PlayerStateVector"
+              - name: RaiseToPower
+                ref: "/portal-builder/rules-editor/block-reference/RaiseToPower"
+              - name: RandomizedArray
+                ref: "/portal-builder/rules-editor/block-reference/RandomizedArray"
+              - name: RandomReal
+                ref: "/portal-builder/rules-editor/block-reference/RandomReal"
+              - name: RandomValueInArray
+                ref: "/portal-builder/rules-editor/block-reference/RandomValueInArray"
+              - name: RemoveFromArray
+                ref: "/portal-builder/rules-editor/block-reference/RemoveFromArray"
+              - name: RemovePlayerInventory
+                ref: "/portal-builder/rules-editor/block-reference/RemovePlayerInventory"
+              - name: RemovePlayerInventoryAtSlot
+                ref: "/portal-builder/rules-editor/block-reference/RemovePlayerInventoryAtSlot"
+              - name: RepairVehicle
+                ref: "/portal-builder/rules-editor/block-reference/RepairVehicle"
+              - name: ReplacePlayerInventory
+                ref: "/portal-builder/rules-editor/block-reference/ReplacePlayerInventory"
+              - name: ResetGameModeTime
+                ref: "/portal-builder/rules-editor/block-reference/ResetGameModeTime"
+              - name: Resupply
+                ref: "/portal-builder/rules-editor/block-reference/Resupply"
+              - name: ResupplyTypes
+                ref: "/portal-builder/rules-editor/block-reference/ResupplyTypes"
+              - name: RightVector
+                ref: "/portal-builder/rules-editor/block-reference/RightVector"
+              - name: RoundToInteger
+                ref: "/portal-builder/rules-editor/block-reference/RoundToInteger"
+              - name: Rule
+                ref: "/portal-builder/rules-editor/block-reference/Rule"
+              - name: SendErrorReport
+                ref: "/portal-builder/rules-editor/block-reference/SendErrorReport"
+              - name: SetCaptureMultiplier
+                ref: "/portal-builder/rules-editor/block-reference/SetCaptureMultiplier"
+              - name: SetGameModeScore
+                ref: "/portal-builder/rules-editor/block-reference/SetGameModeScore"
+              - name: SetGameModeTargetScore
+                ref: "/portal-builder/rules-editor/block-reference/SetGameModeTargetScore"
+              - name: SetGameModeTimeLimit
+                ref: "/portal-builder/rules-editor/block-reference/SetGameModeTimeLimit"
+              - name: SetInventoryAmmo
+                ref: "/portal-builder/rules-editor/block-reference/SetInventoryAmmo"
+              - name: SetInventoryMagazineAmmo
+                ref: "/portal-builder/rules-editor/block-reference/SetInventoryMagazineAmmo"
+              - name: SetMCOMFuseTime
+                ref: "/portal-builder/rules-editor/block-reference/SetMCOMFuseTime"
+              - name: SetNeutralizationTimeMultiplier
+                ref: "/portal-builder/rules-editor/block-reference/SetNeutralizationTimeMultiplier"
+              - name: SetObjectiveOwner
+                ref: "/portal-builder/rules-editor/block-reference/SetObjectiveOwner"
+              - name: SetPlayerMaxHealth
+                ref: "/portal-builder/rules-editor/block-reference/SetPlayerMaxHealth"
+              - name: SetPlayerSoldier
+                ref: "/portal-builder/rules-editor/block-reference/SetPlayerSoldier"
+              - name: SetRedeployTime
+                ref: "/portal-builder/rules-editor/block-reference/SetRedeployTime"
+              - name: SetTeamId
+                ref: "/portal-builder/rules-editor/block-reference/SetTeamId"
+              - name: SetVariable
+                ref: "/portal-builder/rules-editor/block-reference/SetVariable"
+              - name: SetVariableAtIndex
+                ref: "/portal-builder/rules-editor/block-reference/SetVariableAtIndex"
+              - name: SetVehicleMaxHealthMultiplier
+                ref: "/portal-builder/rules-editor/block-reference/SetVehicleMaxHealthMultiplier"
+              - name: SetWorldIconImage
+                ref: "/portal-builder/rules-editor/block-reference/SetWorldIconImage"
+              - name: SetWorldIconOwner
+                ref: "/portal-builder/rules-editor/block-reference/SetWorldIconOwner"
+              - name: SetWorldIconPosition
+                ref: "/portal-builder/rules-editor/block-reference/SetWorldIconPosition"
+              - name: SetWorldIconText
+                ref: "/portal-builder/rules-editor/block-reference/SetWorldIconText"
+              - name: SineFromDegrees
+                ref: "/portal-builder/rules-editor/block-reference/SineFromDegrees"
+              - name: SineFromRadians
+                ref: "/portal-builder/rules-editor/block-reference/SineFromRadians"
+              - name: Skip
+                ref: "/portal-builder/rules-editor/block-reference/Skip"
+              - name: SkipIf
+                ref: "/portal-builder/rules-editor/block-reference/SkipIf"
+              - name: SkipMandown
+                ref: "/portal-builder/rules-editor/block-reference/SkipMandown"
+              - name: SortedArray
+                ref: "/portal-builder/rules-editor/block-reference/SortedArray"
+              - name: Sounds
+                ref: "/portal-builder/rules-editor/block-reference/Sounds"
+              - name: SpotTarget
+                ref: "/portal-builder/rules-editor/block-reference/SpotTarget"
+              - name: SpotTargetForPlayer
+                ref: "/portal-builder/rules-editor/block-reference/SpotTargetForPlayer"
+              - name: SquareRoot
+                ref: "/portal-builder/rules-editor/block-reference/SquareRoot"
+              - name: StopTrackingVariable
+                ref: "/portal-builder/rules-editor/block-reference/StopTrackingVariable"
+              - name: String
+                ref: "/portal-builder/rules-editor/block-reference/String"
+              - name: SUBROUTINE
+                ref: "/portal-builder/rules-editor/block-reference/SUBROUTINE"
+              - name: subroutineInstanceBlock
+                ref: "/portal-builder/rules-editor/block-reference/subroutineInstanceBlock"
+              - name: Subtract
+                ref: "/portal-builder/rules-editor/block-reference/Subtract"
+              - name: TangentFromDegrees
+                ref: "/portal-builder/rules-editor/block-reference/TangentFromDegrees"
+              - name: TangentFromRadians
+                ref: "/portal-builder/rules-editor/block-reference/TangentFromRadians"
+              - name: Teleport
+                ref: "/portal-builder/rules-editor/block-reference/Teleport"
+              - name: TrackVariableAtRate
+                ref: "/portal-builder/rules-editor/block-reference/TrackVariableAtRate"
+              - name: TrackVariableOverTime
+                ref: "/portal-builder/rules-editor/block-reference/TrackVariableOverTime"
+              - name: TriggerAudio
+                ref: "/portal-builder/rules-editor/block-reference/TriggerAudio"
+              - name: TriggerAudioAtLocation
+                ref: "/portal-builder/rules-editor/block-reference/TriggerAudioAtLocation"
+              - name: Types
+                ref: "/portal-builder/rules-editor/block-reference/Types"
+              - name: UndeployAllPlayers
+                ref: "/portal-builder/rules-editor/block-reference/UndeployAllPlayers"
+              - name: UndeployPlayer
+                ref: "/portal-builder/rules-editor/block-reference/UndeployPlayer"
+              - name: UnspotTarget
+                ref: "/portal-builder/rules-editor/block-reference/UnspotTarget"
+              - name: UpVector
+                ref: "/portal-builder/rules-editor/block-reference/UpVector"
+              - name: ValueInArray
+                ref: "/portal-builder/rules-editor/block-reference/ValueInArray"
+              - name: Variable
+                ref: "/portal-builder/rules-editor/block-reference/Variable"
+              - name: VectorTowards
+                ref: "/portal-builder/rules-editor/block-reference/VectorTowards"
+              - name: Vehicles
+                ref: "/portal-builder/rules-editor/block-reference/Vehicles"
+              - name: VehicleStateVector
+                ref: "/portal-builder/rules-editor/block-reference/VehicleStateVector"
+              - name: VehicleTypesItem
+                ref: "/portal-builder/rules-editor/block-reference/VehicleTypesItem"
+              - name: VoiceOvers
+                ref: "/portal-builder/rules-editor/block-reference/VoiceOvers"
+              - name: Wait
+                ref: "/portal-builder/rules-editor/block-reference/Wait"
+              - name: WaitUntil
+                ref: "/portal-builder/rules-editor/block-reference/WaitUntil"
+              - name: While
+                ref: "/portal-builder/rules-editor/block-reference/While"
+              - name: WorldIconImages
+                ref: "/portal-builder/rules-editor/block-reference/WorldIconImages"
+              - name: WorldIcons
+                ref: "/portal-builder/rules-editor/block-reference/WorldIcons"
+              - name: WorldToLocalPosition
+                ref: "/portal-builder/rules-editor/block-reference/WorldToLocalPosition"
+              - name: WorldToLocalVector
+                ref: "/portal-builder/rules-editor/block-reference/WorldToLocalVector"
+              - name: Xor
+                ref: "/portal-builder/rules-editor/block-reference/Xor"
+              # - name: generated-block-reference-do-not-remove
+  - name: Tutorials
+    ref: "/tutorial"
+    sub:
+      - name: Custom Spawnpoints
+        ref: "/tutorial/custom-spawnpoints"
+      - name: Custom Time and Score
+        ref: "/tutorial/Set-Score-and-Time-Target"
+      - name: Complete Game Modes
+        ref: "/tutorial/complete-game-modes"
+        sub:
+          - name: Custom Gun Game
+            ref: "/tutorial/complete-game-modes/Gun-Game"
+          - name: Survival/Wave Game
+            ref: "/tutorial/complete-game-modes/survival-wave-horde-mode"
+          - name: Custom Breakthrough
+            ref: "/tutorial/complete-game-modes/Custom-Breakthrough"
+          - name: Custom Rush
+            ref: "/tutorial/complete-game-modes/Custom-Rush"
+  - name: Tools
+    ref: "/tools"
+    sub:
+      - name: Portal Browser Extension
+        ref: "/tools/browser-extension"
+      - name: Coordinate Finder
+        ref: "/tools/coordinate-finder"
+  - name: Bookmarks
+    ref: "/bookmarks/"
+    icon: gdoc_bookmark
+  - name: Contributing
+    ref: "/contributing/how"
+    icon: gdoc_git
