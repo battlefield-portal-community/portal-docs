@@ -1,6 +1,7 @@
 ---
 title: RemovePlayerInventory
 draft: false
-geekdocFilePath: portal_blocks/RemovePlayerInventory/_index.md
+geekdocFilePath: portal_blocks/RemovePlayerInventory/docs/extra.md
+layout: "block_documentation"
 ---
 # RemovePlayerInventory

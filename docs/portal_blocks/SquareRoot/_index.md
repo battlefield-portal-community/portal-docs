@@ -1,6 +1,7 @@
 ---
 title: SquareRoot
 draft: false
-geekdocFilePath: portal_blocks/SquareRoot/_index.md
+geekdocFilePath: portal_blocks/SquareRoot/docs/extra.md
+layout: "block_documentation"
 ---
 # SquareRoot

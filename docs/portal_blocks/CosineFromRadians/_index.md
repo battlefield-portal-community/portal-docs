@@ -1,6 +1,7 @@
 ---
 title: CosineFromRadians
 draft: false
-geekdocFilePath: portal_blocks/CosineFromRadians/_index.md
+geekdocFilePath: portal_blocks/CosineFromRadians/docs/extra.md
+layout: "block_documentation"
 ---
 # CosineFromRadians

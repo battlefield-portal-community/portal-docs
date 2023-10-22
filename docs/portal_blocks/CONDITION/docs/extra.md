@@ -1,1 +1,1 @@
-<!-- Add extra documentation for CONDITION in this file -->
+<!-- Add extra documentation for Condition in this file -->

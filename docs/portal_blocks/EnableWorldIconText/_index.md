@@ -1,6 +1,7 @@
 ---
 title: EnableWorldIconText
 draft: false
-geekdocFilePath: portal_blocks/EnableWorldIconText/_index.md
+geekdocFilePath: portal_blocks/EnableWorldIconText/docs/extra.md
+layout: "block_documentation"
 ---
 # EnableWorldIconText

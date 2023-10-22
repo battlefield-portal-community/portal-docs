@@ -1,6 +1,7 @@
 ---
 title: InventorySecondaryWeapons
 draft: false
-geekdocFilePath: portal_blocks/InventorySecondaryWeapons/_index.md
+geekdocFilePath: portal_blocks/InventorySecondaryWeapons/docs/extra.md
+layout: "block_documentation"
 ---
 # InventorySecondaryWeapons

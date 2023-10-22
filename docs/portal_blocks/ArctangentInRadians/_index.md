@@ -1,6 +1,7 @@
 ---
 title: ArctangentInRadians
 draft: false
-geekdocFilePath: portal_blocks/ArctangentInRadians/_index.md
+geekdocFilePath: portal_blocks/ArctangentInRadians/docs/extra.md
+layout: "block_documentation"
 ---
 # ArctangentInRadians

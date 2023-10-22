@@ -1,6 +1,7 @@
 ---
 title: UpVector
 draft: false
-geekdocFilePath: portal_blocks/UpVector/_index.md
+geekdocFilePath: portal_blocks/UpVector/docs/extra.md
+layout: "block_documentation"
 ---
 # UpVector

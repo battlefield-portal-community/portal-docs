@@ -1,6 +1,7 @@
 ---
 title: LocalToWorldVector
 draft: false
-geekdocFilePath: portal_blocks/LocalToWorldVector/_index.md
+geekdocFilePath: portal_blocks/LocalToWorldVector/docs/extra.md
+layout: "block_documentation"
 ---
 # LocalToWorldVector

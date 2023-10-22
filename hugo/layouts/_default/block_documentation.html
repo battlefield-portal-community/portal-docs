@@ -1,0 +1,35 @@
+{{ define "main" }}
+  {{ partial "page-header" . }}
+
+
+  <article
+    class="gdoc-markdown gdoc-markdown__align--{{ default "left" (.Page.Params.geekdocAlign | lower) }}"
+  >
+    {{ partial "utils/content" . }}
+
+    <div>
+      {{ $index_md_file := .Page.File.Path }}
+      {{ $doc_dir := (strings.TrimSuffix .Page.File.LogicalName $index_md_file )}}
+      {{ $extra_doc_file := (path.Join $doc_dir "docs/extra.md") }}
+      {{ $official_doc_file := (path.Join $doc_dir "docs/official.md") }}
+
+      {{ if os.FileExists $official_doc_file }}
+          {{ os.ReadFile $official_doc_file | markdownify }}
+      {{ end }}
+
+
+      {{ if os.FileExists $extra_doc_file }}
+          {{ $extra_content := (os.ReadFile $extra_doc_file | .Page.RenderString) }}
+          {{ $comment_string := printf "<!-- Add extra documentation for %s in this file -->"  .Page.Title }}
+          {{ if ne $extra_content $comment_string }}
+            {{ "## Extra Documentation" | markdownify }}
+            {{ $extra_content }}
+          {{ end }}
+
+
+      {{ end }}
+    </div>
+
+
+  </article>
+{{ end }}

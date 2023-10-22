@@ -1,6 +1,7 @@
 ---
 title: PlayerInventorySlots
 draft: false
-geekdocFilePath: portal_blocks/PlayerInventorySlots/_index.md
+geekdocFilePath: portal_blocks/PlayerInventorySlots/docs/extra.md
+layout: "block_documentation"
 ---
 # PlayerInventorySlots

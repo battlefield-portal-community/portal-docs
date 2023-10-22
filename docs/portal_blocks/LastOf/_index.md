@@ -1,6 +1,7 @@
 ---
 title: LastOf
 draft: false
-geekdocFilePath: portal_blocks/LastOf/_index.md
+geekdocFilePath: portal_blocks/LastOf/docs/extra.md
+layout: "block_documentation"
 ---
 # LastOf

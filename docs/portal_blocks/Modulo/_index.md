@@ -1,6 +1,7 @@
 ---
 title: Modulo
 draft: false
-geekdocFilePath: portal_blocks/Modulo/_index.md
+geekdocFilePath: portal_blocks/Modulo/docs/extra.md
+layout: "block_documentation"
 ---
 # Modulo

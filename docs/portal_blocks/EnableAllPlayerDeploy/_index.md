@@ -1,6 +1,7 @@
 ---
 title: EnableAllPlayerDeploy
 draft: false
-geekdocFilePath: portal_blocks/EnableAllPlayerDeploy/_index.md
+geekdocFilePath: portal_blocks/EnableAllPlayerDeploy/docs/extra.md
+layout: "block_documentation"
 ---
 # EnableAllPlayerDeploy

@@ -1,6 +1,7 @@
 ---
 title: EventCapturePoint
 draft: false
-geekdocFilePath: portal_blocks/EventCapturePoint/_index.md
+geekdocFilePath: portal_blocks/EventCapturePoint/docs/extra.md
+layout: "block_documentation"
 ---
 # EventCapturePoint

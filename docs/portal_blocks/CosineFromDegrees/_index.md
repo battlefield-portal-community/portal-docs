@@ -1,6 +1,7 @@
 ---
 title: CosineFromDegrees
 draft: false
-geekdocFilePath: portal_blocks/CosineFromDegrees/_index.md
+geekdocFilePath: portal_blocks/CosineFromDegrees/docs/extra.md
+layout: "block_documentation"
 ---
 # CosineFromDegrees

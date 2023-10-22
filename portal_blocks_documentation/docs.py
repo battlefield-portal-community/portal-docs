@@ -14,6 +14,9 @@ from loguru import logger
 BUILD_DIR = project_root / "docs" / "portal_blocks"
 BUILD_DIR.mkdir(exist_ok=True)
 
+MOUNT_DIR = '../content/portal-builder/rules-editor/block-reference'
+
+MENU_FILE = project_root / "hugo" / "data" / "menu" / "main.yaml"
 
 def delete_existing_official_docs():
     """Delete all existing official docs"""
@@ -40,7 +43,8 @@ def ensure_index_md(block_name: str):
             "---",
             f"title: {block_name}",
             "draft: false",
-            f"geekdocFilePath: portal_blocks/{block_name}/_index.md",
+            f"geekdocFilePath: portal_blocks/{block_name}/docs/extra.md",
+            'layout: "block_documentation"',
             "---",
             f"# {block_name}"
         ]
@@ -97,6 +101,18 @@ def write_official_doc(doc_json_file: pathlib.Path, block_name: str):
     doc_file = BUILD_DIR / block_name / "docs" / "official.md"
     doc_file.write_text("\n".join(doc))
 
+def create_menu_entry(block_name: str):
+    sub_lookup = '# - name: generated-block-reference-do-not-remove'
+    menu_entry_name = f'- name: {block_name}'
+    menu_entry_ref = f'  ref: "/portal-builder/rules-editor/block-reference/{block_name}"'
+    if MENU_FILE.exists():
+        entries = MENU_FILE.read_text().split('\n')
+        for index, entry in enumerate(entries):
+            if sub_lookup in entry:
+                entries.insert(index, entry.split('#')[0] + menu_entry_ref)
+                entries.insert(index, entry.split('#')[0] + menu_entry_name)
+                break
+        MENU_FILE.write_text('\n'.join(entries))
 
 def generate():
 
@@ -116,5 +132,6 @@ def generate():
         ensure_index_extra_docs_file(block_name)
 
         write_official_doc(file, block_name)
+        create_menu_entry(block_name)
         logger.debug(f"Built {file.stem}")
     logger.info(f"Finished building official docs in {timer() - timer_start} seconds")

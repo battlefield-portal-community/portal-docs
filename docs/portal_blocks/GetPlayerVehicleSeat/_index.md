@@ -1,6 +1,7 @@
 ---
 title: GetPlayerVehicleSeat
 draft: false
-geekdocFilePath: portal_blocks/GetPlayerVehicleSeat/_index.md
+geekdocFilePath: portal_blocks/GetPlayerVehicleSeat/docs/extra.md
+layout: "block_documentation"
 ---
 # GetPlayerVehicleSeat

@@ -1,6 +1,7 @@
 ---
 title: GetPlayerKills
 draft: false
-geekdocFilePath: portal_blocks/GetPlayerKills/_index.md
+geekdocFilePath: portal_blocks/GetPlayerKills/docs/extra.md
+layout: "block_documentation"
 ---
 # GetPlayerKills

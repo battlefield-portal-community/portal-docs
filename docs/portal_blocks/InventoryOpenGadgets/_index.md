@@ -1,6 +1,7 @@
 ---
 title: InventoryOpenGadgets
 draft: false
-geekdocFilePath: portal_blocks/InventoryOpenGadgets/_index.md
+geekdocFilePath: portal_blocks/InventoryOpenGadgets/docs/extra.md
+layout: "block_documentation"
 ---
 # InventoryOpenGadgets

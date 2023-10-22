@@ -1,6 +1,7 @@
 ---
 title: DisplayHighlightedWorldLogMessage
 draft: false
-geekdocFilePath: portal_blocks/DisplayHighlightedWorldLogMessage/_index.md
+geekdocFilePath: portal_blocks/DisplayHighlightedWorldLogMessage/docs/extra.md
+layout: "block_documentation"
 ---
 # DisplayHighlightedWorldLogMessage

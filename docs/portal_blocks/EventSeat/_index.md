@@ -1,6 +1,7 @@
 ---
 title: EventSeat
 draft: false
-geekdocFilePath: portal_blocks/EventSeat/_index.md
+geekdocFilePath: portal_blocks/EventSeat/docs/extra.md
+layout: "block_documentation"
 ---
 # EventSeat
