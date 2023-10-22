@@ -1,6 +1,7 @@
 ---
 title: GetAllPlayersInVehicle
 draft: false
-geekdocFilePath: portal_blocks/GetAllPlayersInVehicle/_index.md
+geekdocFilePath: portal_blocks/GetAllPlayersInVehicle/docs/extra.md
+layout: "block_documentation"
 ---
 # GetAllPlayersInVehicle

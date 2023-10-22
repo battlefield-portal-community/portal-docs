@@ -1,6 +1,7 @@
 ---
 title: Or
 draft: false
-geekdocFilePath: portal_blocks/Or/_index.md
+geekdocFilePath: portal_blocks/Or/docs/extra.md
+layout: "block_documentation"
 ---
 # Or

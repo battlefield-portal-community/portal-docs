@@ -1,6 +1,7 @@
 ---
 title: FirstOf
 draft: false
-geekdocFilePath: portal_blocks/FirstOf/_index.md
+geekdocFilePath: portal_blocks/FirstOf/docs/extra.md
+layout: "block_documentation"
 ---
 # FirstOf

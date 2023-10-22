@@ -1,6 +1,7 @@
 ---
 title: RandomValueInArray
 draft: false
-geekdocFilePath: portal_blocks/RandomValueInArray/_index.md
+geekdocFilePath: portal_blocks/RandomValueInArray/docs/extra.md
+layout: "block_documentation"
 ---
 # RandomValueInArray

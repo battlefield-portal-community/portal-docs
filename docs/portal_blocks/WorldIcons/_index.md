@@ -1,6 +1,7 @@
 ---
 title: WorldIcons
 draft: false
-geekdocFilePath: portal_blocks/WorldIcons/_index.md
+geekdocFilePath: portal_blocks/WorldIcons/docs/extra.md
+layout: "block_documentation"
 ---
 # WorldIcons

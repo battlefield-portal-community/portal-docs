@@ -58,7 +58,9 @@ main:
               - name: Show World Icons
                 ref: "/portal-builder/rules-editor/how-to/world-icons"
           - name: Block Reference
-            ref: "/blocks/"
+            ref: "/portal-builder/rules-editor/block-reference/"
+            sub:
+              # - name: generated-block-reference-do-not-remove
   - name: Tutorials
     ref: "/tutorial"
     sub:

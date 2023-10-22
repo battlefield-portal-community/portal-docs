@@ -1,6 +1,7 @@
 ---
 title: GetZComponent
 draft: false
-geekdocFilePath: portal_blocks/GetZComponent/_index.md
+geekdocFilePath: portal_blocks/GetZComponent/docs/extra.md
+layout: "block_documentation"
 ---
 # GetZComponent

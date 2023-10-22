@@ -1,6 +1,7 @@
 ---
 title: GetSeatCount
 draft: false
-geekdocFilePath: portal_blocks/GetSeatCount/_index.md
+geekdocFilePath: portal_blocks/GetSeatCount/docs/extra.md
+layout: "block_documentation"
 ---
 # GetSeatCount

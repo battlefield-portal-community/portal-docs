@@ -1,6 +1,7 @@
 ---
 title: ForceRevive
 draft: false
-geekdocFilePath: portal_blocks/ForceRevive/_index.md
+geekdocFilePath: portal_blocks/ForceRevive/docs/extra.md
+layout: "block_documentation"
 ---
 # ForceRevive

@@ -1,6 +1,7 @@
 ---
 title: TriggerAudioAtLocation
 draft: false
-geekdocFilePath: portal_blocks/TriggerAudioAtLocation/_index.md
+geekdocFilePath: portal_blocks/TriggerAudioAtLocation/docs/extra.md
+layout: "block_documentation"
 ---
 # TriggerAudioAtLocation

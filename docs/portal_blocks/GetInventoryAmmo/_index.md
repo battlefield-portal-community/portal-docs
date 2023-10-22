@@ -1,6 +1,7 @@
 ---
 title: GetInventoryAmmo
 draft: false
-geekdocFilePath: portal_blocks/GetInventoryAmmo/_index.md
+geekdocFilePath: portal_blocks/GetInventoryAmmo/docs/extra.md
+layout: "block_documentation"
 ---
 # GetInventoryAmmo

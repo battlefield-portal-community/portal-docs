@@ -1,6 +1,7 @@
 ---
 title: CompareCapturePoint
 draft: false
-geekdocFilePath: portal_blocks/CompareCapturePoint/_index.md
+geekdocFilePath: portal_blocks/CompareCapturePoint/docs/extra.md
+layout: "block_documentation"
 ---
 # CompareCapturePoint

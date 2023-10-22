@@ -1,6 +1,7 @@
 ---
 title: InventoryPrimaryWeapons
 draft: false
-geekdocFilePath: portal_blocks/InventoryPrimaryWeapons/_index.md
+geekdocFilePath: portal_blocks/InventoryPrimaryWeapons/docs/extra.md
+layout: "block_documentation"
 ---
 # InventoryPrimaryWeapons

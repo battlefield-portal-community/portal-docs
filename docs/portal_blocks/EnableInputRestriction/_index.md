@@ -1,6 +1,7 @@
 ---
 title: EnableInputRestriction
 draft: false
-geekdocFilePath: portal_blocks/EnableInputRestriction/_index.md
+geekdocFilePath: portal_blocks/EnableInputRestriction/docs/extra.md
+layout: "block_documentation"
 ---
 # EnableInputRestriction

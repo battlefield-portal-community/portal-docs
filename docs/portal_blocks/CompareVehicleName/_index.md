@@ -1,6 +1,7 @@
 ---
 title: CompareVehicleName
 draft: false
-geekdocFilePath: portal_blocks/CompareVehicleName/_index.md
+geekdocFilePath: portal_blocks/CompareVehicleName/docs/extra.md
+layout: "block_documentation"
 ---
 # CompareVehicleName

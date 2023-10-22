@@ -1,6 +1,7 @@
 ---
 title: DisplayCustomMessage
 draft: false
-geekdocFilePath: portal_blocks/DisplayCustomMessage/_index.md
+geekdocFilePath: portal_blocks/DisplayCustomMessage/docs/extra.md
+layout: "block_documentation"
 ---
 # DisplayCustomMessage

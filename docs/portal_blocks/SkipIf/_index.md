@@ -1,6 +1,7 @@
 ---
 title: SkipIf
 draft: false
-geekdocFilePath: portal_blocks/SkipIf/_index.md
+geekdocFilePath: portal_blocks/SkipIf/docs/extra.md
+layout: "block_documentation"
 ---
 # SkipIf

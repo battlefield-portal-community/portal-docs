@@ -1,6 +1,7 @@
 ---
 title: TriggerAudio
 draft: false
-geekdocFilePath: portal_blocks/TriggerAudio/_index.md
+geekdocFilePath: portal_blocks/TriggerAudio/docs/extra.md
+layout: "block_documentation"
 ---
 # TriggerAudio

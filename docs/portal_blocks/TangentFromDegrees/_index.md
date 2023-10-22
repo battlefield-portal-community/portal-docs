@@ -1,6 +1,7 @@
 ---
 title: TangentFromDegrees
 draft: false
-geekdocFilePath: portal_blocks/TangentFromDegrees/_index.md
+geekdocFilePath: portal_blocks/TangentFromDegrees/docs/extra.md
+layout: "block_documentation"
 ---
 # TangentFromDegrees

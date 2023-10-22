@@ -1,6 +1,7 @@
 ---
 title: Normalize
 draft: false
-geekdocFilePath: portal_blocks/Normalize/_index.md
+geekdocFilePath: portal_blocks/Normalize/docs/extra.md
+layout: "block_documentation"
 ---
 # Normalize

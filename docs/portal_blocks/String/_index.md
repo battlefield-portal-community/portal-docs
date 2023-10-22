@@ -1,6 +1,7 @@
 ---
 title: String
 draft: false
-geekdocFilePath: portal_blocks/String/_index.md
+geekdocFilePath: portal_blocks/String/docs/extra.md
+layout: "block_documentation"
 ---
 # String
