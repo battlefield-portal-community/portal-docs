@@ -24601,11 +24601,6 @@
             "sid": "ID_ARRIVAL_MAP_LIGHTSOUT_SMALL"
         },
         {
-            "categoryId": 201,
-            "localizedText": "Explosives",
-            "sid": "ID_ARRIVAL_CATEGORIZATIONTAG_NAME_EQUIPMENTEXPLOSIVE"
-        },
-        {
             "categoryId": 197,
             "localizedText": "Overthrower",
             "sid": "ID_COS_DELTA_SET_03"
@@ -24619,6 +24614,11 @@
             "categoryId": 197,
             "localizedText": "ASYM. VEHICLE MODIFIERS",
             "sid": "ID_ARRIVAL_SERVERTAG_ASYMMETRIC_VEHICLE_SETTINGS"
+        },
+        {
+            "categoryId": 201,
+            "localizedText": "Explosives",
+            "sid": "ID_ARRIVAL_CATEGORIZATIONTAG_NAME_EQUIPMENTEXPLOSIVE"
         },
         {
             "categoryId": 197,
@@ -26089,7 +26089,7 @@
     "timestamp": [
         {
             "nanos": null,
-            "seconds": 1697548274
+            "seconds": 1698068759
         }
     ]
 }
