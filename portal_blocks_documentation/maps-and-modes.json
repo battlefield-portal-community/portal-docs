@@ -21,18 +21,22 @@
     "Redacted"
   ],
   "sizes": ["small", "medium", "large"],
-  "modes": [
-    "Conquest (Core)",
-    "Conquest (Custom)",
-    "Conquest Large (Core)",
-    "Rush (Core)",
-    "Breakthrough (Core)",
-    "Breakthrough Large (Core)",
-    "Team Deathmatch (Core)",
-    "Team Deathmatch (Custom)",
-    "Vehicle Team Deathmatch (Custom)",
-    "Air Superiority (Custom)",
-    "Ground Superiority (Custom)",
-    "Free-For-All (Custom)"
-  ]
+  "modes": {
+    "core": [
+      "Conquest",
+      "Conquest Large",
+      "Rush",
+      "Breakthrough",
+      "Breakthrough Large",
+      "Team Deathmatch"
+    ],
+    "custom": [
+      "Conquest",
+      "Team Deathmatch",
+      "Vehicle Team Deathmatch",
+      "Air Superiority",
+      "Ground Superiority",
+      "Free-For-All"
+    ]
+  }
 }

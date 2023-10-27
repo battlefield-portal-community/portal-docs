@@ -1,10 +1,12 @@
 if True:
     import os
+
     os.environ["LOGURU_LEVEL"] = os.getenv("LOGURU_LEVEL", "INFO")
 
 import json
 import pathlib
 import shutil
+import re
 from timeit import default_timer as timer
 
 from .libs.helper import CleanDoc, project_dir, project_root
@@ -14,21 +16,41 @@ from loguru import logger
 BUILD_DIR = project_root / "docs" / "portal_blocks"
 BUILD_DIR.mkdir(exist_ok=True)
 
-MOUNT_DIR = '../content/portal-builder/rules-editor/block-reference'
+MOUNT_DIR = "../content/portal-builder/rules-editor/block-reference"
 
 MENU_FILE = project_root / "hugo" / "data" / "menu" / "main.yaml"
 
+MAPS_LAYOUT_IMGS_DIR = "../docs/portal-builder/maps/images/layouts/"
+MAPS_LAYOUT_IMGS_DIR_MD = "../images/layouts/"
+MAPS_LAYOUT_FILE_EXT = "png"
+MAPS_THUMBNAIL_FILE_EXT = "jpg"
+MAPS_THUMBNAIL_IMGS_DIR_MD = "../images/thumbnails/"
+MAPS_JSON_FILE = "./maps-and-modes.json"
+MAPS_DOC_FILE = "_index.md"
+MAPS_DOC_FILE_DIR = "../docs/portal-builder/maps/"
+
+
+def identify(text: str):
+    return re.sub(r"[^0-9A-Za-z]", "", text).lower()
+
+
 def delete_existing_official_docs():
     """Delete all existing official docs"""
-    REGEN_DOCS_DIR = os.getenv("REGEN_DOCS_DIR", "False").lower() == 'true'
+    REGEN_DOCS_DIR = os.getenv("REGEN_DOCS_DIR", "False").lower() == "true"
     if REGEN_DOCS_DIR:
-        logger.warning(f"REGEN_DOCS_DIR is Set to {REGEN_DOCS_DIR}, Document directories will be regenerated")
+        logger.warning(
+            f"REGEN_DOCS_DIR is Set to {REGEN_DOCS_DIR}, Document directories will be regenerated"
+        )
     else:
-        logger.warning(f"REGEN_DOCS_DIR is Set to {REGEN_DOCS_DIR}, Document directories will not be regenerated")
+        logger.warning(
+            f"REGEN_DOCS_DIR is Set to {REGEN_DOCS_DIR}, Document directories will not be regenerated"
+        )
 
     for f in BUILD_DIR.iterdir():
         if f.is_dir():
-            shutil.rmtree(f) if REGEN_DOCS_DIR else (f / "docs" / "official.md").unlink(missing_ok=True)
+            shutil.rmtree(f) if REGEN_DOCS_DIR else (f / "docs" / "official.md").unlink(
+                missing_ok=True
+            )
 
 
 def ensure_doc_dir(block_name: str):
@@ -46,24 +68,22 @@ def ensure_index_md(block_name: str):
             f"geekdocFilePath: portal_blocks/{block_name}/docs/extra.md",
             'layout: "block_documentation"',
             "---",
-            f"# {block_name}"
+            f"# {block_name}",
         ]
-        root_doc.write_text('\n'.join(doc_header))
+        root_doc.write_text("\n".join(doc_header))
 
     self_docs_index = BUILD_DIR / block_name / "docs" / "_index.md"
     if not self_docs_index.exists():
-        header = [
-            "---",
-            "geekdocHidden: true",
-            "---"
-        ]
-        self_docs_index.write_text('\n'.join(header))
+        header = ["---", "geekdocHidden: true", "---"]
+        self_docs_index.write_text("\n".join(header))
 
 
 def ensure_index_extra_docs_file(block_name: str):
     extra_doc = BUILD_DIR / block_name / "docs" / "extra.md"
     if not extra_doc.exists():
-        extra_doc.write_text(f"<!-- Add extra documentation for {block_name} in this file -->")
+        extra_doc.write_text(
+            f"<!-- Add extra documentation for {block_name} in this file -->"
+        )
 
 
 def write_official_doc(doc_json_file: pathlib.Path, block_name: str):
@@ -81,19 +101,15 @@ def write_official_doc(doc_json_file: pathlib.Path, block_name: str):
     doc = [DISCLAIMER, f"{doc_json['summary']}"]
 
     if doc_json.get("inputs", False):
-        doc.extend([
-                "### Inputs",
-                "\n".join(doc_json["inputs"])
-        ])
+        doc.extend(["### Inputs", "\n".join(doc_json["inputs"])])
 
     if doc_json.get("output", False):
-        doc.extend([
-            "### Output",
-            "\n".join(doc_json["output"])
-        ])
+        doc.extend(["### Output", "\n".join(doc_json["output"])])
 
-    block_image_url = (f"https://raw.githubusercontent.com/battlefield-portal-community/"
-                       f"Image-CDN/main/portal_blocks/{block_name}.png")
+    block_image_url = (
+        f"https://raw.githubusercontent.com/battlefield-portal-community/"
+        f"Image-CDN/main/portal_blocks/{block_name}.png"
+    )
 
     doc.append(f"\n![{block_name}]({block_image_url})")
 
@@ -101,28 +117,129 @@ def write_official_doc(doc_json_file: pathlib.Path, block_name: str):
     doc_file = BUILD_DIR / block_name / "docs" / "official.md"
     doc_file.write_text("\n".join(doc))
 
-def create_menu_entry(block_name: str):
-    sub_lookup = '# - name: generated-block-reference-do-not-remove'
-    menu_entry_name = f'- name: {block_name}'
-    menu_entry_ref = f'  ref: "/portal-builder/rules-editor/block-reference/{block_name}"'
+
+def cleanup_menu_entries(sub_lookup_start: str, sub_lookup_end: str):
     if MENU_FILE.exists():
-        entries = MENU_FILE.read_text().split('\n')
+        startIndex = -1
+        endIndex = -1
+        entries = MENU_FILE.read_text().split("\n")
         for index, entry in enumerate(entries):
-            if sub_lookup in entry:
-                entries.insert(index, entry.split('#')[0] + menu_entry_ref)
-                entries.insert(index, entry.split('#')[0] + menu_entry_name)
+            if sub_lookup_start in entry:
+                startIndex = index
+            if sub_lookup_end in entry:
+                endIndex = index
+            if startIndex > -1 and endIndex > -1:
                 break
-        MENU_FILE.write_text('\n'.join(entries))
+        if endIndex - startIndex > 1:
+            for i in range(startIndex, endIndex-1):
+                deletedEntry = entries.pop(startIndex + 1)
+                logger.debug(f"deleted entry from menu: {deletedEntry}")
+        else:
+            logger.debug(
+                f"No menu entries to be cleaned up in defined section (start: {startIndex}, end: {endIndex}"
+            )
+        MENU_FILE.write_text("\n".join(entries))
+
+
+def insert_menu_entry(menu_entry_name: str, menu_entry_ref: str, insert_before_lookup: str):
+    if MENU_FILE.exists():
+        entries = MENU_FILE.read_text().split("\n")
+        for index, entry in enumerate(entries):
+            if insert_before_lookup in entry:
+                entries.insert(index, entry.split("#")[0] + menu_entry_ref)
+                entries.insert(index, entry.split("#")[0] + menu_entry_name)
+                break
+        MENU_FILE.write_text("\n".join(entries))
+
+
+def generate_maps_doc():
+    timer_start = timer()
+    logger.info("Building map layout docs...")
+    logger.debug("Read map and mode information...")
+    jsonFile = open(MAPS_JSON_FILE)
+    mapsAndModes = json.load(jsonFile)
+    logger.debug("Successfully read map and mode information.")
+    logger.debug("Generate Maps index...")
+    docLines = [
+        "---\n",
+        "title: Map Layouts\n",
+        "geekdocCollapseSection: true\n"
+        "---\n\n",
+        "{{< toc-tree >}}\n\n",
+    ]
+    docFile = open(f"{MAPS_DOC_FILE_DIR}{MAPS_DOC_FILE}", mode="w+", encoding="utf-8")
+    docFile.writelines(docLines)
+    docFile.close()
+    docLines.clear()
+    logger.debug("Successfully generated maps index.")
+    for map in sorted(mapsAndModes["maps"]):
+        logger.debug(f"Generate doc for {map}...")
+        docLines = ["---\n", f"title: {map}\n", "---\n\n", "{{< toc >}}\n\n"]
+        docLines.append(f"# {map}\n\n")
+        docLines.append(
+            f"![{map} thumbnail]({MAPS_THUMBNAIL_IMGS_DIR_MD}{identify(map)}_thumbnail.{MAPS_THUMBNAIL_FILE_EXT})\n\n"
+        )
+        for modeType in mapsAndModes["modes"]:
+            # docLines.append(f'{{{{< expand label="{modeType.capitalize()} Game Modes">}}}}\n')
+            for mode in sorted(mapsAndModes["modes"][modeType]):
+                docLines.append(f"## {map} - {mode} ({modeType})\n\n")
+                docLines.append(f'{{{{< tabs "{map}-{mode}-{modeType}" >}}}}\n')
+                for size in mapsAndModes["sizes"]:
+                    docLines.append(f'{{{{< tab "{size}" >}}}}\n')
+                    docLines.append(f"### {map} - {mode} ({modeType}) - {size}\n\n")
+                    layoutId = f"{identify(map)}_{modeType}_{identify(mode)}_{size}"
+                    layoutFilePath = (
+                        f"{MAPS_LAYOUT_IMGS_DIR}{layoutId}.{MAPS_LAYOUT_FILE_EXT}"
+                    )
+                    if os.path.exists(layoutFilePath):
+                        logger.debug(
+                            f"Map Layout of {layoutId} is supported!"
+                        )
+                        docLines.append(
+                            f"![Map Layout of {map} - {modeType} - {mode} - {size}]({MAPS_LAYOUT_IMGS_DIR_MD}{layoutId}.{MAPS_LAYOUT_FILE_EXT})"
+                        )
+                    else:
+                        logger.debug(
+                            f"Map Layout of {layoutId} not found!"
+                        )
+                        docLines.append(
+                            "_Map Layout is not supported in portal or not yet documented by the community!_\n"
+                        )
+                    docLines.append("{{< /tab >}}\n")
+                docLines.append("{{< /tabs >}}\n")
+            # docLines.append(f'{{{{< /expand >}}}}\n')
+        docFile = open(
+            f"{MAPS_DOC_FILE_DIR}{identify(map)}.md", mode="w+", encoding="utf-8"
+        )
+        docFile.writelines(docLines)
+        docFile.close()
+        docLines.clear()
+        insert_menu_entry(
+            f"- name: {map}",
+            f'  ref: "/portal-builder/maps/{identify(map)}"',
+            "# - name: generated-map-reference-end-do-not-remove"
+        )
+        logger.debug(f"Successfully generated doc for {map}.")
+    logger.info(f"Finished building map layout docs in {timer() - timer_start} seconds")
+
 
 def generate():
-
     # geekdocFilePath: portal_blocks/blocks/{file.stem}.md
 
     timer_start = timer()
     logger.info("Starting to build official docs")
     delete_existing_official_docs()
-    for file in sorted((project_dir / "docs_json").glob("*.json"), key=lambda path: path.stem.lower()):
-
+    cleanup_menu_entries(
+        sub_lookup_start="# - name: generated-block-reference-start-do-not-remove",
+        sub_lookup_end="# - name: generated-block-reference-end-do-not-remove",
+    )
+    cleanup_menu_entries(
+        sub_lookup_start="# - name: generated-map-reference-start-do-not-remove",
+        sub_lookup_end="# - name: generated-map-reference-end-do-not-remove",
+    )
+    for file in sorted(
+        (project_dir / "docs_json").glob("*.json"), key=lambda path: path.stem.lower()
+    ):
         block_name = file.stem
 
         # need to ensure as delete_existing_official_docs may delete the doc dir
@@ -132,6 +249,12 @@ def generate():
         ensure_index_extra_docs_file(block_name)
 
         write_official_doc(file, block_name)
-        create_menu_entry(block_name)
+        insert_menu_entry(
+            f"- name: {block_name}",
+            f'  ref: "/portal-builder/rules-editor/block-reference/{block_name}"',
+            "# - name: generated-block-reference-end-do-not-remove"
+        )
         logger.debug(f"Built {file.stem}")
     logger.info(f"Finished building official docs in {timer() - timer_start} seconds")
+
+    generate_maps_doc()
