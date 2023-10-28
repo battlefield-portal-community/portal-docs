@@ -11,18 +11,8 @@ title: Renewal
 ## Renewal - Breakthrough (core)
 
 {{< tabs "Renewal-Breakthrough-core" >}}
-{{< tab "small" >}}
-### Renewal - Breakthrough (core) - small
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "medium" >}}
-### Renewal - Breakthrough (core) - medium
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "large" >}}
-### Renewal - Breakthrough (core) - large
+{{< tab "standard" >}}
+### Renewal - Breakthrough (core) - standard
 
 _Map Layout is not supported in portal or not yet documented by the community!_
 {{< /tab >}}
@@ -30,18 +20,8 @@ _Map Layout is not supported in portal or not yet documented by the community!_
 ## Renewal - Breakthrough Large (core)
 
 {{< tabs "Renewal-Breakthrough Large-core" >}}
-{{< tab "small" >}}
-### Renewal - Breakthrough Large (core) - small
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "medium" >}}
-### Renewal - Breakthrough Large (core) - medium
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "large" >}}
-### Renewal - Breakthrough Large (core) - large
+{{< tab "standard" >}}
+### Renewal - Breakthrough Large (core) - standard
 
 _Map Layout is not supported in portal or not yet documented by the community!_
 {{< /tab >}}
@@ -49,56 +29,24 @@ _Map Layout is not supported in portal or not yet documented by the community!_
 ## Renewal - Conquest (core)
 
 {{< tabs "Renewal-Conquest-core" >}}
-{{< tab "small" >}}
-### Renewal - Conquest (core) - small
+{{< tab "standard" >}}
+### Renewal - Conquest (core) - standard
 
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "medium" >}}
-### Renewal - Conquest (core) - medium
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "large" >}}
-### Renewal - Conquest (core) - large
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
+![Map Layout of Renewal - core - Conquest - standard](../images/layouts/renewal_conquest_core_standard.png){{< /tab >}}
 {{< /tabs >}}
 ## Renewal - Conquest Large (core)
 
 {{< tabs "Renewal-Conquest Large-core" >}}
-{{< tab "small" >}}
-### Renewal - Conquest Large (core) - small
+{{< tab "standard" >}}
+### Renewal - Conquest Large (core) - standard
 
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "medium" >}}
-### Renewal - Conquest Large (core) - medium
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "large" >}}
-### Renewal - Conquest Large (core) - large
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
+![Map Layout of Renewal - core - Conquest Large - standard](../images/layouts/renewal_conquestlarge_core_standard.png){{< /tab >}}
 {{< /tabs >}}
 ## Renewal - Rush (core)
 
 {{< tabs "Renewal-Rush-core" >}}
-{{< tab "small" >}}
-### Renewal - Rush (core) - small
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "medium" >}}
-### Renewal - Rush (core) - medium
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "large" >}}
-### Renewal - Rush (core) - large
+{{< tab "standard" >}}
+### Renewal - Rush (core) - standard
 
 _Map Layout is not supported in portal or not yet documented by the community!_
 {{< /tab >}}
@@ -106,18 +54,8 @@ _Map Layout is not supported in portal or not yet documented by the community!_
 ## Renewal - Team Deathmatch (core)
 
 {{< tabs "Renewal-Team Deathmatch-core" >}}
-{{< tab "small" >}}
-### Renewal - Team Deathmatch (core) - small
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "medium" >}}
-### Renewal - Team Deathmatch (core) - medium
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "large" >}}
-### Renewal - Team Deathmatch (core) - large
+{{< tab "standard" >}}
+### Renewal - Team Deathmatch (core) - standard
 
 _Map Layout is not supported in portal or not yet documented by the community!_
 {{< /tab >}}
@@ -147,13 +85,11 @@ _Map Layout is not supported in portal or not yet documented by the community!_
 {{< tab "small" >}}
 ### Renewal - Conquest (custom) - small
 
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
+![Map Layout of Renewal - custom - Conquest - small](../images/layouts/renewal_conquest_custom_small.png){{< /tab >}}
 {{< tab "medium" >}}
 ### Renewal - Conquest (custom) - medium
 
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
+![Map Layout of Renewal - custom - Conquest - medium](../images/layouts/renewal_conquest_custom_medium.png){{< /tab >}}
 {{< tab "large" >}}
 ### Renewal - Conquest (custom) - large
 

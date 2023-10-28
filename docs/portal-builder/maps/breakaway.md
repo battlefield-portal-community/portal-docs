@@ -11,18 +11,8 @@ title: Breakaway
 ## Breakaway - Breakthrough (core)
 
 {{< tabs "Breakaway-Breakthrough-core" >}}
-{{< tab "small" >}}
-### Breakaway - Breakthrough (core) - small
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "medium" >}}
-### Breakaway - Breakthrough (core) - medium
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "large" >}}
-### Breakaway - Breakthrough (core) - large
+{{< tab "standard" >}}
+### Breakaway - Breakthrough (core) - standard
 
 _Map Layout is not supported in portal or not yet documented by the community!_
 {{< /tab >}}
@@ -30,18 +20,8 @@ _Map Layout is not supported in portal or not yet documented by the community!_
 ## Breakaway - Breakthrough Large (core)
 
 {{< tabs "Breakaway-Breakthrough Large-core" >}}
-{{< tab "small" >}}
-### Breakaway - Breakthrough Large (core) - small
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "medium" >}}
-### Breakaway - Breakthrough Large (core) - medium
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "large" >}}
-### Breakaway - Breakthrough Large (core) - large
+{{< tab "standard" >}}
+### Breakaway - Breakthrough Large (core) - standard
 
 _Map Layout is not supported in portal or not yet documented by the community!_
 {{< /tab >}}
@@ -49,56 +29,24 @@ _Map Layout is not supported in portal or not yet documented by the community!_
 ## Breakaway - Conquest (core)
 
 {{< tabs "Breakaway-Conquest-core" >}}
-{{< tab "small" >}}
-### Breakaway - Conquest (core) - small
+{{< tab "standard" >}}
+### Breakaway - Conquest (core) - standard
 
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "medium" >}}
-### Breakaway - Conquest (core) - medium
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "large" >}}
-### Breakaway - Conquest (core) - large
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
+![Map Layout of Breakaway - core - Conquest - standard](../images/layouts/breakaway_conquest_core_standard.png){{< /tab >}}
 {{< /tabs >}}
 ## Breakaway - Conquest Large (core)
 
 {{< tabs "Breakaway-Conquest Large-core" >}}
-{{< tab "small" >}}
-### Breakaway - Conquest Large (core) - small
+{{< tab "standard" >}}
+### Breakaway - Conquest Large (core) - standard
 
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "medium" >}}
-### Breakaway - Conquest Large (core) - medium
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "large" >}}
-### Breakaway - Conquest Large (core) - large
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
+![Map Layout of Breakaway - core - Conquest Large - standard](../images/layouts/breakaway_conquestlarge_core_standard.png){{< /tab >}}
 {{< /tabs >}}
 ## Breakaway - Rush (core)
 
 {{< tabs "Breakaway-Rush-core" >}}
-{{< tab "small" >}}
-### Breakaway - Rush (core) - small
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "medium" >}}
-### Breakaway - Rush (core) - medium
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "large" >}}
-### Breakaway - Rush (core) - large
+{{< tab "standard" >}}
+### Breakaway - Rush (core) - standard
 
 _Map Layout is not supported in portal or not yet documented by the community!_
 {{< /tab >}}
@@ -106,18 +54,8 @@ _Map Layout is not supported in portal or not yet documented by the community!_
 ## Breakaway - Team Deathmatch (core)
 
 {{< tabs "Breakaway-Team Deathmatch-core" >}}
-{{< tab "small" >}}
-### Breakaway - Team Deathmatch (core) - small
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "medium" >}}
-### Breakaway - Team Deathmatch (core) - medium
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "large" >}}
-### Breakaway - Team Deathmatch (core) - large
+{{< tab "standard" >}}
+### Breakaway - Team Deathmatch (core) - standard
 
 _Map Layout is not supported in portal or not yet documented by the community!_
 {{< /tab >}}
@@ -147,8 +85,7 @@ _Map Layout is not supported in portal or not yet documented by the community!_
 {{< tab "small" >}}
 ### Breakaway - Conquest (custom) - small
 
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
+![Map Layout of Breakaway - custom - Conquest - small](../images/layouts/breakaway_conquest_custom_small.png){{< /tab >}}
 {{< tab "medium" >}}
 ### Breakaway - Conquest (custom) - medium
 

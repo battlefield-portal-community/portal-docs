@@ -20,14 +20,14 @@ MOUNT_DIR = "../content/portal-builder/rules-editor/block-reference"
 
 MENU_FILE = project_root / "hugo" / "data" / "menu" / "main.yaml"
 
-MAPS_LAYOUT_IMGS_DIR = "../docs/portal-builder/maps/images/layouts/"
+MAPS_LAYOUT_IMGS_DIR = f"{project_root.as_posix()}/docs/portal-builder/maps/images/layouts/"
 MAPS_LAYOUT_IMGS_DIR_MD = "../images/layouts/"
 MAPS_LAYOUT_FILE_EXT = "png"
 MAPS_THUMBNAIL_FILE_EXT = "jpg"
 MAPS_THUMBNAIL_IMGS_DIR_MD = "../images/thumbnails/"
-MAPS_JSON_FILE = "./maps-and-modes.json"
+MAPS_JSON_FILE = f"{project_dir.as_posix()}/maps-and-modes.json"
 MAPS_DOC_FILE = "_index.md"
-MAPS_DOC_FILE_DIR = "../docs/portal-builder/maps/"
+MAPS_DOC_FILE_DIR = f"{project_root.as_posix()}/docs/portal-builder/maps/"
 
 
 def identify(text: str):
@@ -184,10 +184,10 @@ def generate_maps_doc():
             for mode in sorted(mapsAndModes["modes"][modeType]):
                 docLines.append(f"## {map} - {mode} ({modeType})\n\n")
                 docLines.append(f'{{{{< tabs "{map}-{mode}-{modeType}" >}}}}\n')
-                for size in mapsAndModes["sizes"]:
+                for size in (["standard"] if modeType == "core" else mapsAndModes["sizes"]):
                     docLines.append(f'{{{{< tab "{size}" >}}}}\n')
                     docLines.append(f"### {map} - {mode} ({modeType}) - {size}\n\n")
-                    layoutId = f"{identify(map)}_{modeType}_{identify(mode)}_{size}"
+                    layoutId = f"{identify(map)}_{identify(mode)}_{modeType}_{size}"
                     layoutFilePath = (
                         f"{MAPS_LAYOUT_IMGS_DIR}{layoutId}.{MAPS_LAYOUT_FILE_EXT}"
                     )

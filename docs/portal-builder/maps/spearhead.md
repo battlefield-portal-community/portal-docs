@@ -11,18 +11,8 @@ title: Spearhead
 ## Spearhead - Breakthrough (core)
 
 {{< tabs "Spearhead-Breakthrough-core" >}}
-{{< tab "small" >}}
-### Spearhead - Breakthrough (core) - small
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "medium" >}}
-### Spearhead - Breakthrough (core) - medium
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "large" >}}
-### Spearhead - Breakthrough (core) - large
+{{< tab "standard" >}}
+### Spearhead - Breakthrough (core) - standard
 
 _Map Layout is not supported in portal or not yet documented by the community!_
 {{< /tab >}}
@@ -30,18 +20,8 @@ _Map Layout is not supported in portal or not yet documented by the community!_
 ## Spearhead - Breakthrough Large (core)
 
 {{< tabs "Spearhead-Breakthrough Large-core" >}}
-{{< tab "small" >}}
-### Spearhead - Breakthrough Large (core) - small
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "medium" >}}
-### Spearhead - Breakthrough Large (core) - medium
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "large" >}}
-### Spearhead - Breakthrough Large (core) - large
+{{< tab "standard" >}}
+### Spearhead - Breakthrough Large (core) - standard
 
 _Map Layout is not supported in portal or not yet documented by the community!_
 {{< /tab >}}
@@ -49,18 +29,8 @@ _Map Layout is not supported in portal or not yet documented by the community!_
 ## Spearhead - Conquest (core)
 
 {{< tabs "Spearhead-Conquest-core" >}}
-{{< tab "small" >}}
-### Spearhead - Conquest (core) - small
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "medium" >}}
-### Spearhead - Conquest (core) - medium
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "large" >}}
-### Spearhead - Conquest (core) - large
+{{< tab "standard" >}}
+### Spearhead - Conquest (core) - standard
 
 _Map Layout is not supported in portal or not yet documented by the community!_
 {{< /tab >}}
@@ -68,18 +38,8 @@ _Map Layout is not supported in portal or not yet documented by the community!_
 ## Spearhead - Conquest Large (core)
 
 {{< tabs "Spearhead-Conquest Large-core" >}}
-{{< tab "small" >}}
-### Spearhead - Conquest Large (core) - small
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "medium" >}}
-### Spearhead - Conquest Large (core) - medium
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "large" >}}
-### Spearhead - Conquest Large (core) - large
+{{< tab "standard" >}}
+### Spearhead - Conquest Large (core) - standard
 
 _Map Layout is not supported in portal or not yet documented by the community!_
 {{< /tab >}}
@@ -87,18 +47,8 @@ _Map Layout is not supported in portal or not yet documented by the community!_
 ## Spearhead - Rush (core)
 
 {{< tabs "Spearhead-Rush-core" >}}
-{{< tab "small" >}}
-### Spearhead - Rush (core) - small
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "medium" >}}
-### Spearhead - Rush (core) - medium
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "large" >}}
-### Spearhead - Rush (core) - large
+{{< tab "standard" >}}
+### Spearhead - Rush (core) - standard
 
 _Map Layout is not supported in portal or not yet documented by the community!_
 {{< /tab >}}
@@ -106,18 +56,8 @@ _Map Layout is not supported in portal or not yet documented by the community!_
 ## Spearhead - Team Deathmatch (core)
 
 {{< tabs "Spearhead-Team Deathmatch-core" >}}
-{{< tab "small" >}}
-### Spearhead - Team Deathmatch (core) - small
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "medium" >}}
-### Spearhead - Team Deathmatch (core) - medium
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "large" >}}
-### Spearhead - Team Deathmatch (core) - large
+{{< tab "standard" >}}
+### Spearhead - Team Deathmatch (core) - standard
 
 _Map Layout is not supported in portal or not yet documented by the community!_
 {{< /tab >}}
@@ -152,8 +92,7 @@ _Map Layout is not supported in portal or not yet documented by the community!_
 {{< tab "medium" >}}
 ### Spearhead - Conquest (custom) - medium
 
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
+![Map Layout of Spearhead - custom - Conquest - medium](../images/layouts/spearhead_conquest_custom_medium.png){{< /tab >}}
 {{< tab "large" >}}
 ### Spearhead - Conquest (custom) - large
 

@@ -11,18 +11,8 @@ title: Redacted
 ## Redacted - Breakthrough (core)
 
 {{< tabs "Redacted-Breakthrough-core" >}}
-{{< tab "small" >}}
-### Redacted - Breakthrough (core) - small
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "medium" >}}
-### Redacted - Breakthrough (core) - medium
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "large" >}}
-### Redacted - Breakthrough (core) - large
+{{< tab "standard" >}}
+### Redacted - Breakthrough (core) - standard
 
 _Map Layout is not supported in portal or not yet documented by the community!_
 {{< /tab >}}
@@ -30,18 +20,8 @@ _Map Layout is not supported in portal or not yet documented by the community!_
 ## Redacted - Breakthrough Large (core)
 
 {{< tabs "Redacted-Breakthrough Large-core" >}}
-{{< tab "small" >}}
-### Redacted - Breakthrough Large (core) - small
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "medium" >}}
-### Redacted - Breakthrough Large (core) - medium
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "large" >}}
-### Redacted - Breakthrough Large (core) - large
+{{< tab "standard" >}}
+### Redacted - Breakthrough Large (core) - standard
 
 _Map Layout is not supported in portal or not yet documented by the community!_
 {{< /tab >}}
@@ -49,18 +29,8 @@ _Map Layout is not supported in portal or not yet documented by the community!_
 ## Redacted - Conquest (core)
 
 {{< tabs "Redacted-Conquest-core" >}}
-{{< tab "small" >}}
-### Redacted - Conquest (core) - small
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "medium" >}}
-### Redacted - Conquest (core) - medium
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "large" >}}
-### Redacted - Conquest (core) - large
+{{< tab "standard" >}}
+### Redacted - Conquest (core) - standard
 
 _Map Layout is not supported in portal or not yet documented by the community!_
 {{< /tab >}}
@@ -68,18 +38,8 @@ _Map Layout is not supported in portal or not yet documented by the community!_
 ## Redacted - Conquest Large (core)
 
 {{< tabs "Redacted-Conquest Large-core" >}}
-{{< tab "small" >}}
-### Redacted - Conquest Large (core) - small
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "medium" >}}
-### Redacted - Conquest Large (core) - medium
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "large" >}}
-### Redacted - Conquest Large (core) - large
+{{< tab "standard" >}}
+### Redacted - Conquest Large (core) - standard
 
 _Map Layout is not supported in portal or not yet documented by the community!_
 {{< /tab >}}
@@ -87,18 +47,8 @@ _Map Layout is not supported in portal or not yet documented by the community!_
 ## Redacted - Rush (core)
 
 {{< tabs "Redacted-Rush-core" >}}
-{{< tab "small" >}}
-### Redacted - Rush (core) - small
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "medium" >}}
-### Redacted - Rush (core) - medium
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "large" >}}
-### Redacted - Rush (core) - large
+{{< tab "standard" >}}
+### Redacted - Rush (core) - standard
 
 _Map Layout is not supported in portal or not yet documented by the community!_
 {{< /tab >}}
@@ -106,18 +56,8 @@ _Map Layout is not supported in portal or not yet documented by the community!_
 ## Redacted - Team Deathmatch (core)
 
 {{< tabs "Redacted-Team Deathmatch-core" >}}
-{{< tab "small" >}}
-### Redacted - Team Deathmatch (core) - small
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "medium" >}}
-### Redacted - Team Deathmatch (core) - medium
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "large" >}}
-### Redacted - Team Deathmatch (core) - large
+{{< tab "standard" >}}
+### Redacted - Team Deathmatch (core) - standard
 
 _Map Layout is not supported in portal or not yet documented by the community!_
 {{< /tab >}}

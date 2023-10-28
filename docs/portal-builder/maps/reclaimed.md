@@ -11,18 +11,8 @@ title: Reclaimed
 ## Reclaimed - Breakthrough (core)
 
 {{< tabs "Reclaimed-Breakthrough-core" >}}
-{{< tab "small" >}}
-### Reclaimed - Breakthrough (core) - small
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "medium" >}}
-### Reclaimed - Breakthrough (core) - medium
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "large" >}}
-### Reclaimed - Breakthrough (core) - large
+{{< tab "standard" >}}
+### Reclaimed - Breakthrough (core) - standard
 
 _Map Layout is not supported in portal or not yet documented by the community!_
 {{< /tab >}}
@@ -30,18 +20,8 @@ _Map Layout is not supported in portal or not yet documented by the community!_
 ## Reclaimed - Breakthrough Large (core)
 
 {{< tabs "Reclaimed-Breakthrough Large-core" >}}
-{{< tab "small" >}}
-### Reclaimed - Breakthrough Large (core) - small
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "medium" >}}
-### Reclaimed - Breakthrough Large (core) - medium
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "large" >}}
-### Reclaimed - Breakthrough Large (core) - large
+{{< tab "standard" >}}
+### Reclaimed - Breakthrough Large (core) - standard
 
 _Map Layout is not supported in portal or not yet documented by the community!_
 {{< /tab >}}
@@ -49,36 +29,16 @@ _Map Layout is not supported in portal or not yet documented by the community!_
 ## Reclaimed - Conquest (core)
 
 {{< tabs "Reclaimed-Conquest-core" >}}
-{{< tab "small" >}}
-### Reclaimed - Conquest (core) - small
+{{< tab "standard" >}}
+### Reclaimed - Conquest (core) - standard
 
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "medium" >}}
-### Reclaimed - Conquest (core) - medium
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "large" >}}
-### Reclaimed - Conquest (core) - large
-
-![Map Layout of Reclaimed - core - Conquest - large](../images/layouts/reclaimed_core_conquest_large.png){{< /tab >}}
+![Map Layout of Reclaimed - core - Conquest - standard](../images/layouts/reclaimed_conquest_core_standard.png){{< /tab >}}
 {{< /tabs >}}
 ## Reclaimed - Conquest Large (core)
 
 {{< tabs "Reclaimed-Conquest Large-core" >}}
-{{< tab "small" >}}
-### Reclaimed - Conquest Large (core) - small
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "medium" >}}
-### Reclaimed - Conquest Large (core) - medium
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "large" >}}
-### Reclaimed - Conquest Large (core) - large
+{{< tab "standard" >}}
+### Reclaimed - Conquest Large (core) - standard
 
 _Map Layout is not supported in portal or not yet documented by the community!_
 {{< /tab >}}
@@ -86,18 +46,8 @@ _Map Layout is not supported in portal or not yet documented by the community!_
 ## Reclaimed - Rush (core)
 
 {{< tabs "Reclaimed-Rush-core" >}}
-{{< tab "small" >}}
-### Reclaimed - Rush (core) - small
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "medium" >}}
-### Reclaimed - Rush (core) - medium
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "large" >}}
-### Reclaimed - Rush (core) - large
+{{< tab "standard" >}}
+### Reclaimed - Rush (core) - standard
 
 _Map Layout is not supported in portal or not yet documented by the community!_
 {{< /tab >}}
@@ -105,18 +55,8 @@ _Map Layout is not supported in portal or not yet documented by the community!_
 ## Reclaimed - Team Deathmatch (core)
 
 {{< tabs "Reclaimed-Team Deathmatch-core" >}}
-{{< tab "small" >}}
-### Reclaimed - Team Deathmatch (core) - small
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "medium" >}}
-### Reclaimed - Team Deathmatch (core) - medium
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "large" >}}
-### Reclaimed - Team Deathmatch (core) - large
+{{< tab "standard" >}}
+### Reclaimed - Team Deathmatch (core) - standard
 
 _Map Layout is not supported in portal or not yet documented by the community!_
 {{< /tab >}}
@@ -146,8 +86,7 @@ _Map Layout is not supported in portal or not yet documented by the community!_
 {{< tab "small" >}}
 ### Reclaimed - Conquest (custom) - small
 
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
+![Map Layout of Reclaimed - custom - Conquest - small](../images/layouts/reclaimed_conquest_custom_small.png){{< /tab >}}
 {{< tab "medium" >}}
 ### Reclaimed - Conquest (custom) - medium
 

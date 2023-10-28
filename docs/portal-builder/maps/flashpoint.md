@@ -11,18 +11,8 @@ title: Flashpoint
 ## Flashpoint - Breakthrough (core)
 
 {{< tabs "Flashpoint-Breakthrough-core" >}}
-{{< tab "small" >}}
-### Flashpoint - Breakthrough (core) - small
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "medium" >}}
-### Flashpoint - Breakthrough (core) - medium
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "large" >}}
-### Flashpoint - Breakthrough (core) - large
+{{< tab "standard" >}}
+### Flashpoint - Breakthrough (core) - standard
 
 _Map Layout is not supported in portal or not yet documented by the community!_
 {{< /tab >}}
@@ -30,18 +20,8 @@ _Map Layout is not supported in portal or not yet documented by the community!_
 ## Flashpoint - Breakthrough Large (core)
 
 {{< tabs "Flashpoint-Breakthrough Large-core" >}}
-{{< tab "small" >}}
-### Flashpoint - Breakthrough Large (core) - small
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "medium" >}}
-### Flashpoint - Breakthrough Large (core) - medium
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "large" >}}
-### Flashpoint - Breakthrough Large (core) - large
+{{< tab "standard" >}}
+### Flashpoint - Breakthrough Large (core) - standard
 
 _Map Layout is not supported in portal or not yet documented by the community!_
 {{< /tab >}}
@@ -49,18 +29,8 @@ _Map Layout is not supported in portal or not yet documented by the community!_
 ## Flashpoint - Conquest (core)
 
 {{< tabs "Flashpoint-Conquest-core" >}}
-{{< tab "small" >}}
-### Flashpoint - Conquest (core) - small
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "medium" >}}
-### Flashpoint - Conquest (core) - medium
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "large" >}}
-### Flashpoint - Conquest (core) - large
+{{< tab "standard" >}}
+### Flashpoint - Conquest (core) - standard
 
 _Map Layout is not supported in portal or not yet documented by the community!_
 {{< /tab >}}
@@ -68,18 +38,8 @@ _Map Layout is not supported in portal or not yet documented by the community!_
 ## Flashpoint - Conquest Large (core)
 
 {{< tabs "Flashpoint-Conquest Large-core" >}}
-{{< tab "small" >}}
-### Flashpoint - Conquest Large (core) - small
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "medium" >}}
-### Flashpoint - Conquest Large (core) - medium
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "large" >}}
-### Flashpoint - Conquest Large (core) - large
+{{< tab "standard" >}}
+### Flashpoint - Conquest Large (core) - standard
 
 _Map Layout is not supported in portal or not yet documented by the community!_
 {{< /tab >}}
@@ -87,18 +47,8 @@ _Map Layout is not supported in portal or not yet documented by the community!_
 ## Flashpoint - Rush (core)
 
 {{< tabs "Flashpoint-Rush-core" >}}
-{{< tab "small" >}}
-### Flashpoint - Rush (core) - small
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "medium" >}}
-### Flashpoint - Rush (core) - medium
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "large" >}}
-### Flashpoint - Rush (core) - large
+{{< tab "standard" >}}
+### Flashpoint - Rush (core) - standard
 
 _Map Layout is not supported in portal or not yet documented by the community!_
 {{< /tab >}}
@@ -106,18 +56,8 @@ _Map Layout is not supported in portal or not yet documented by the community!_
 ## Flashpoint - Team Deathmatch (core)
 
 {{< tabs "Flashpoint-Team Deathmatch-core" >}}
-{{< tab "small" >}}
-### Flashpoint - Team Deathmatch (core) - small
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "medium" >}}
-### Flashpoint - Team Deathmatch (core) - medium
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "large" >}}
-### Flashpoint - Team Deathmatch (core) - large
+{{< tab "standard" >}}
+### Flashpoint - Team Deathmatch (core) - standard
 
 _Map Layout is not supported in portal or not yet documented by the community!_
 {{< /tab >}}
@@ -152,8 +92,7 @@ _Map Layout is not supported in portal or not yet documented by the community!_
 {{< tab "medium" >}}
 ### Flashpoint - Conquest (custom) - medium
 
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
+![Map Layout of Flashpoint - custom - Conquest - medium](../images/layouts/flashpoint_conquest_custom_medium.png){{< /tab >}}
 {{< tab "large" >}}
 ### Flashpoint - Conquest (custom) - large
 

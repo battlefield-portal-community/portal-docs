@@ -11,18 +11,8 @@ title: Stranded
 ## Stranded - Breakthrough (core)
 
 {{< tabs "Stranded-Breakthrough-core" >}}
-{{< tab "small" >}}
-### Stranded - Breakthrough (core) - small
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "medium" >}}
-### Stranded - Breakthrough (core) - medium
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "large" >}}
-### Stranded - Breakthrough (core) - large
+{{< tab "standard" >}}
+### Stranded - Breakthrough (core) - standard
 
 _Map Layout is not supported in portal or not yet documented by the community!_
 {{< /tab >}}
@@ -30,18 +20,8 @@ _Map Layout is not supported in portal or not yet documented by the community!_
 ## Stranded - Breakthrough Large (core)
 
 {{< tabs "Stranded-Breakthrough Large-core" >}}
-{{< tab "small" >}}
-### Stranded - Breakthrough Large (core) - small
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "medium" >}}
-### Stranded - Breakthrough Large (core) - medium
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "large" >}}
-### Stranded - Breakthrough Large (core) - large
+{{< tab "standard" >}}
+### Stranded - Breakthrough Large (core) - standard
 
 _Map Layout is not supported in portal or not yet documented by the community!_
 {{< /tab >}}
@@ -49,18 +29,8 @@ _Map Layout is not supported in portal or not yet documented by the community!_
 ## Stranded - Conquest (core)
 
 {{< tabs "Stranded-Conquest-core" >}}
-{{< tab "small" >}}
-### Stranded - Conquest (core) - small
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "medium" >}}
-### Stranded - Conquest (core) - medium
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "large" >}}
-### Stranded - Conquest (core) - large
+{{< tab "standard" >}}
+### Stranded - Conquest (core) - standard
 
 _Map Layout is not supported in portal or not yet documented by the community!_
 {{< /tab >}}
@@ -68,18 +38,8 @@ _Map Layout is not supported in portal or not yet documented by the community!_
 ## Stranded - Conquest Large (core)
 
 {{< tabs "Stranded-Conquest Large-core" >}}
-{{< tab "small" >}}
-### Stranded - Conquest Large (core) - small
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "medium" >}}
-### Stranded - Conquest Large (core) - medium
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "large" >}}
-### Stranded - Conquest Large (core) - large
+{{< tab "standard" >}}
+### Stranded - Conquest Large (core) - standard
 
 _Map Layout is not supported in portal or not yet documented by the community!_
 {{< /tab >}}
@@ -87,18 +47,8 @@ _Map Layout is not supported in portal or not yet documented by the community!_
 ## Stranded - Rush (core)
 
 {{< tabs "Stranded-Rush-core" >}}
-{{< tab "small" >}}
-### Stranded - Rush (core) - small
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "medium" >}}
-### Stranded - Rush (core) - medium
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "large" >}}
-### Stranded - Rush (core) - large
+{{< tab "standard" >}}
+### Stranded - Rush (core) - standard
 
 _Map Layout is not supported in portal or not yet documented by the community!_
 {{< /tab >}}
@@ -106,18 +56,8 @@ _Map Layout is not supported in portal or not yet documented by the community!_
 ## Stranded - Team Deathmatch (core)
 
 {{< tabs "Stranded-Team Deathmatch-core" >}}
-{{< tab "small" >}}
-### Stranded - Team Deathmatch (core) - small
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "medium" >}}
-### Stranded - Team Deathmatch (core) - medium
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "large" >}}
-### Stranded - Team Deathmatch (core) - large
+{{< tab "standard" >}}
+### Stranded - Team Deathmatch (core) - standard
 
 _Map Layout is not supported in portal or not yet documented by the community!_
 {{< /tab >}}
@@ -147,13 +87,11 @@ _Map Layout is not supported in portal or not yet documented by the community!_
 {{< tab "small" >}}
 ### Stranded - Conquest (custom) - small
 
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
+![Map Layout of Stranded - custom - Conquest - small](../images/layouts/stranded_conquest_custom_small.png){{< /tab >}}
 {{< tab "medium" >}}
 ### Stranded - Conquest (custom) - medium
 
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
+![Map Layout of Stranded - custom - Conquest - medium](../images/layouts/stranded_conquest_custom_medium.png){{< /tab >}}
 {{< tab "large" >}}
 ### Stranded - Conquest (custom) - large
 

@@ -11,18 +11,8 @@ title: Arica Harbor
 ## Arica Harbor - Breakthrough (core)
 
 {{< tabs "Arica Harbor-Breakthrough-core" >}}
-{{< tab "small" >}}
-### Arica Harbor - Breakthrough (core) - small
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "medium" >}}
-### Arica Harbor - Breakthrough (core) - medium
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "large" >}}
-### Arica Harbor - Breakthrough (core) - large
+{{< tab "standard" >}}
+### Arica Harbor - Breakthrough (core) - standard
 
 _Map Layout is not supported in portal or not yet documented by the community!_
 {{< /tab >}}
@@ -30,18 +20,8 @@ _Map Layout is not supported in portal or not yet documented by the community!_
 ## Arica Harbor - Breakthrough Large (core)
 
 {{< tabs "Arica Harbor-Breakthrough Large-core" >}}
-{{< tab "small" >}}
-### Arica Harbor - Breakthrough Large (core) - small
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "medium" >}}
-### Arica Harbor - Breakthrough Large (core) - medium
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "large" >}}
-### Arica Harbor - Breakthrough Large (core) - large
+{{< tab "standard" >}}
+### Arica Harbor - Breakthrough Large (core) - standard
 
 _Map Layout is not supported in portal or not yet documented by the community!_
 {{< /tab >}}
@@ -49,18 +29,8 @@ _Map Layout is not supported in portal or not yet documented by the community!_
 ## Arica Harbor - Conquest (core)
 
 {{< tabs "Arica Harbor-Conquest-core" >}}
-{{< tab "small" >}}
-### Arica Harbor - Conquest (core) - small
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "medium" >}}
-### Arica Harbor - Conquest (core) - medium
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "large" >}}
-### Arica Harbor - Conquest (core) - large
+{{< tab "standard" >}}
+### Arica Harbor - Conquest (core) - standard
 
 _Map Layout is not supported in portal or not yet documented by the community!_
 {{< /tab >}}
@@ -68,18 +38,8 @@ _Map Layout is not supported in portal or not yet documented by the community!_
 ## Arica Harbor - Conquest Large (core)
 
 {{< tabs "Arica Harbor-Conquest Large-core" >}}
-{{< tab "small" >}}
-### Arica Harbor - Conquest Large (core) - small
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "medium" >}}
-### Arica Harbor - Conquest Large (core) - medium
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "large" >}}
-### Arica Harbor - Conquest Large (core) - large
+{{< tab "standard" >}}
+### Arica Harbor - Conquest Large (core) - standard
 
 _Map Layout is not supported in portal or not yet documented by the community!_
 {{< /tab >}}
@@ -87,18 +47,8 @@ _Map Layout is not supported in portal or not yet documented by the community!_
 ## Arica Harbor - Rush (core)
 
 {{< tabs "Arica Harbor-Rush-core" >}}
-{{< tab "small" >}}
-### Arica Harbor - Rush (core) - small
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "medium" >}}
-### Arica Harbor - Rush (core) - medium
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "large" >}}
-### Arica Harbor - Rush (core) - large
+{{< tab "standard" >}}
+### Arica Harbor - Rush (core) - standard
 
 _Map Layout is not supported in portal or not yet documented by the community!_
 {{< /tab >}}
@@ -106,18 +56,8 @@ _Map Layout is not supported in portal or not yet documented by the community!_
 ## Arica Harbor - Team Deathmatch (core)
 
 {{< tabs "Arica Harbor-Team Deathmatch-core" >}}
-{{< tab "small" >}}
-### Arica Harbor - Team Deathmatch (core) - small
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "medium" >}}
-### Arica Harbor - Team Deathmatch (core) - medium
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "large" >}}
-### Arica Harbor - Team Deathmatch (core) - large
+{{< tab "standard" >}}
+### Arica Harbor - Team Deathmatch (core) - standard
 
 _Map Layout is not supported in portal or not yet documented by the community!_
 {{< /tab >}}
@@ -147,13 +87,11 @@ _Map Layout is not supported in portal or not yet documented by the community!_
 {{< tab "small" >}}
 ### Arica Harbor - Conquest (custom) - small
 
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
+![Map Layout of Arica Harbor - custom - Conquest - small](../images/layouts/aricaharbor_conquest_custom_small.png){{< /tab >}}
 {{< tab "medium" >}}
 ### Arica Harbor - Conquest (custom) - medium
 
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
+![Map Layout of Arica Harbor - custom - Conquest - medium](../images/layouts/aricaharbor_conquest_custom_medium.png){{< /tab >}}
 {{< tab "large" >}}
 ### Arica Harbor - Conquest (custom) - large
 

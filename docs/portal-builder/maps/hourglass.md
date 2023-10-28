@@ -11,18 +11,8 @@ title: Hourglass
 ## Hourglass - Breakthrough (core)
 
 {{< tabs "Hourglass-Breakthrough-core" >}}
-{{< tab "small" >}}
-### Hourglass - Breakthrough (core) - small
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "medium" >}}
-### Hourglass - Breakthrough (core) - medium
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "large" >}}
-### Hourglass - Breakthrough (core) - large
+{{< tab "standard" >}}
+### Hourglass - Breakthrough (core) - standard
 
 _Map Layout is not supported in portal or not yet documented by the community!_
 {{< /tab >}}
@@ -30,18 +20,8 @@ _Map Layout is not supported in portal or not yet documented by the community!_
 ## Hourglass - Breakthrough Large (core)
 
 {{< tabs "Hourglass-Breakthrough Large-core" >}}
-{{< tab "small" >}}
-### Hourglass - Breakthrough Large (core) - small
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "medium" >}}
-### Hourglass - Breakthrough Large (core) - medium
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "large" >}}
-### Hourglass - Breakthrough Large (core) - large
+{{< tab "standard" >}}
+### Hourglass - Breakthrough Large (core) - standard
 
 _Map Layout is not supported in portal or not yet documented by the community!_
 {{< /tab >}}
@@ -49,18 +29,8 @@ _Map Layout is not supported in portal or not yet documented by the community!_
 ## Hourglass - Conquest (core)
 
 {{< tabs "Hourglass-Conquest-core" >}}
-{{< tab "small" >}}
-### Hourglass - Conquest (core) - small
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "medium" >}}
-### Hourglass - Conquest (core) - medium
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "large" >}}
-### Hourglass - Conquest (core) - large
+{{< tab "standard" >}}
+### Hourglass - Conquest (core) - standard
 
 _Map Layout is not supported in portal or not yet documented by the community!_
 {{< /tab >}}
@@ -68,37 +38,16 @@ _Map Layout is not supported in portal or not yet documented by the community!_
 ## Hourglass - Conquest Large (core)
 
 {{< tabs "Hourglass-Conquest Large-core" >}}
-{{< tab "small" >}}
-### Hourglass - Conquest Large (core) - small
+{{< tab "standard" >}}
+### Hourglass - Conquest Large (core) - standard
 
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "medium" >}}
-### Hourglass - Conquest Large (core) - medium
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "large" >}}
-### Hourglass - Conquest Large (core) - large
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
+![Map Layout of Hourglass - core - Conquest Large - standard](../images/layouts/hourglass_conquestlarge_core_standard.png){{< /tab >}}
 {{< /tabs >}}
 ## Hourglass - Rush (core)
 
 {{< tabs "Hourglass-Rush-core" >}}
-{{< tab "small" >}}
-### Hourglass - Rush (core) - small
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "medium" >}}
-### Hourglass - Rush (core) - medium
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "large" >}}
-### Hourglass - Rush (core) - large
+{{< tab "standard" >}}
+### Hourglass - Rush (core) - standard
 
 _Map Layout is not supported in portal or not yet documented by the community!_
 {{< /tab >}}
@@ -106,18 +55,8 @@ _Map Layout is not supported in portal or not yet documented by the community!_
 ## Hourglass - Team Deathmatch (core)
 
 {{< tabs "Hourglass-Team Deathmatch-core" >}}
-{{< tab "small" >}}
-### Hourglass - Team Deathmatch (core) - small
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "medium" >}}
-### Hourglass - Team Deathmatch (core) - medium
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "large" >}}
-### Hourglass - Team Deathmatch (core) - large
+{{< tab "standard" >}}
+### Hourglass - Team Deathmatch (core) - standard
 
 _Map Layout is not supported in portal or not yet documented by the community!_
 {{< /tab >}}

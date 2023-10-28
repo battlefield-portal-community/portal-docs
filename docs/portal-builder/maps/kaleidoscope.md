@@ -11,18 +11,8 @@ title: Kaleidoscope
 ## Kaleidoscope - Breakthrough (core)
 
 {{< tabs "Kaleidoscope-Breakthrough-core" >}}
-{{< tab "small" >}}
-### Kaleidoscope - Breakthrough (core) - small
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "medium" >}}
-### Kaleidoscope - Breakthrough (core) - medium
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "large" >}}
-### Kaleidoscope - Breakthrough (core) - large
+{{< tab "standard" >}}
+### Kaleidoscope - Breakthrough (core) - standard
 
 _Map Layout is not supported in portal or not yet documented by the community!_
 {{< /tab >}}
@@ -30,18 +20,8 @@ _Map Layout is not supported in portal or not yet documented by the community!_
 ## Kaleidoscope - Breakthrough Large (core)
 
 {{< tabs "Kaleidoscope-Breakthrough Large-core" >}}
-{{< tab "small" >}}
-### Kaleidoscope - Breakthrough Large (core) - small
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "medium" >}}
-### Kaleidoscope - Breakthrough Large (core) - medium
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "large" >}}
-### Kaleidoscope - Breakthrough Large (core) - large
+{{< tab "standard" >}}
+### Kaleidoscope - Breakthrough Large (core) - standard
 
 _Map Layout is not supported in portal or not yet documented by the community!_
 {{< /tab >}}
@@ -49,56 +29,24 @@ _Map Layout is not supported in portal or not yet documented by the community!_
 ## Kaleidoscope - Conquest (core)
 
 {{< tabs "Kaleidoscope-Conquest-core" >}}
-{{< tab "small" >}}
-### Kaleidoscope - Conquest (core) - small
+{{< tab "standard" >}}
+### Kaleidoscope - Conquest (core) - standard
 
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "medium" >}}
-### Kaleidoscope - Conquest (core) - medium
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "large" >}}
-### Kaleidoscope - Conquest (core) - large
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
+![Map Layout of Kaleidoscope - core - Conquest - standard](../images/layouts/kaleidoscope_conquest_core_standard.png){{< /tab >}}
 {{< /tabs >}}
 ## Kaleidoscope - Conquest Large (core)
 
 {{< tabs "Kaleidoscope-Conquest Large-core" >}}
-{{< tab "small" >}}
-### Kaleidoscope - Conquest Large (core) - small
+{{< tab "standard" >}}
+### Kaleidoscope - Conquest Large (core) - standard
 
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "medium" >}}
-### Kaleidoscope - Conquest Large (core) - medium
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "large" >}}
-### Kaleidoscope - Conquest Large (core) - large
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
+![Map Layout of Kaleidoscope - core - Conquest Large - standard](../images/layouts/kaleidoscope_conquestlarge_core_standard.png){{< /tab >}}
 {{< /tabs >}}
 ## Kaleidoscope - Rush (core)
 
 {{< tabs "Kaleidoscope-Rush-core" >}}
-{{< tab "small" >}}
-### Kaleidoscope - Rush (core) - small
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "medium" >}}
-### Kaleidoscope - Rush (core) - medium
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "large" >}}
-### Kaleidoscope - Rush (core) - large
+{{< tab "standard" >}}
+### Kaleidoscope - Rush (core) - standard
 
 _Map Layout is not supported in portal or not yet documented by the community!_
 {{< /tab >}}
@@ -106,18 +54,8 @@ _Map Layout is not supported in portal or not yet documented by the community!_
 ## Kaleidoscope - Team Deathmatch (core)
 
 {{< tabs "Kaleidoscope-Team Deathmatch-core" >}}
-{{< tab "small" >}}
-### Kaleidoscope - Team Deathmatch (core) - small
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "medium" >}}
-### Kaleidoscope - Team Deathmatch (core) - medium
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "large" >}}
-### Kaleidoscope - Team Deathmatch (core) - large
+{{< tab "standard" >}}
+### Kaleidoscope - Team Deathmatch (core) - standard
 
 _Map Layout is not supported in portal or not yet documented by the community!_
 {{< /tab >}}
@@ -147,8 +85,7 @@ _Map Layout is not supported in portal or not yet documented by the community!_
 {{< tab "small" >}}
 ### Kaleidoscope - Conquest (custom) - small
 
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
+![Map Layout of Kaleidoscope - custom - Conquest - small](../images/layouts/kaleidoscope_conquest_custom_small.png){{< /tab >}}
 {{< tab "medium" >}}
 ### Kaleidoscope - Conquest (custom) - medium
 

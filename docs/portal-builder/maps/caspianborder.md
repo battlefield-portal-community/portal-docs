@@ -11,18 +11,8 @@ title: Caspian Border
 ## Caspian Border - Breakthrough (core)
 
 {{< tabs "Caspian Border-Breakthrough-core" >}}
-{{< tab "small" >}}
-### Caspian Border - Breakthrough (core) - small
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "medium" >}}
-### Caspian Border - Breakthrough (core) - medium
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "large" >}}
-### Caspian Border - Breakthrough (core) - large
+{{< tab "standard" >}}
+### Caspian Border - Breakthrough (core) - standard
 
 _Map Layout is not supported in portal or not yet documented by the community!_
 {{< /tab >}}
@@ -30,18 +20,8 @@ _Map Layout is not supported in portal or not yet documented by the community!_
 ## Caspian Border - Breakthrough Large (core)
 
 {{< tabs "Caspian Border-Breakthrough Large-core" >}}
-{{< tab "small" >}}
-### Caspian Border - Breakthrough Large (core) - small
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "medium" >}}
-### Caspian Border - Breakthrough Large (core) - medium
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "large" >}}
-### Caspian Border - Breakthrough Large (core) - large
+{{< tab "standard" >}}
+### Caspian Border - Breakthrough Large (core) - standard
 
 _Map Layout is not supported in portal or not yet documented by the community!_
 {{< /tab >}}
@@ -49,18 +29,8 @@ _Map Layout is not supported in portal or not yet documented by the community!_
 ## Caspian Border - Conquest (core)
 
 {{< tabs "Caspian Border-Conquest-core" >}}
-{{< tab "small" >}}
-### Caspian Border - Conquest (core) - small
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "medium" >}}
-### Caspian Border - Conquest (core) - medium
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "large" >}}
-### Caspian Border - Conquest (core) - large
+{{< tab "standard" >}}
+### Caspian Border - Conquest (core) - standard
 
 _Map Layout is not supported in portal or not yet documented by the community!_
 {{< /tab >}}
@@ -68,18 +38,8 @@ _Map Layout is not supported in portal or not yet documented by the community!_
 ## Caspian Border - Conquest Large (core)
 
 {{< tabs "Caspian Border-Conquest Large-core" >}}
-{{< tab "small" >}}
-### Caspian Border - Conquest Large (core) - small
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "medium" >}}
-### Caspian Border - Conquest Large (core) - medium
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "large" >}}
-### Caspian Border - Conquest Large (core) - large
+{{< tab "standard" >}}
+### Caspian Border - Conquest Large (core) - standard
 
 _Map Layout is not supported in portal or not yet documented by the community!_
 {{< /tab >}}
@@ -87,18 +47,8 @@ _Map Layout is not supported in portal or not yet documented by the community!_
 ## Caspian Border - Rush (core)
 
 {{< tabs "Caspian Border-Rush-core" >}}
-{{< tab "small" >}}
-### Caspian Border - Rush (core) - small
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "medium" >}}
-### Caspian Border - Rush (core) - medium
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "large" >}}
-### Caspian Border - Rush (core) - large
+{{< tab "standard" >}}
+### Caspian Border - Rush (core) - standard
 
 _Map Layout is not supported in portal or not yet documented by the community!_
 {{< /tab >}}
@@ -106,18 +56,8 @@ _Map Layout is not supported in portal or not yet documented by the community!_
 ## Caspian Border - Team Deathmatch (core)
 
 {{< tabs "Caspian Border-Team Deathmatch-core" >}}
-{{< tab "small" >}}
-### Caspian Border - Team Deathmatch (core) - small
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "medium" >}}
-### Caspian Border - Team Deathmatch (core) - medium
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "large" >}}
-### Caspian Border - Team Deathmatch (core) - large
+{{< tab "standard" >}}
+### Caspian Border - Team Deathmatch (core) - standard
 
 _Map Layout is not supported in portal or not yet documented by the community!_
 {{< /tab >}}
@@ -147,8 +87,7 @@ _Map Layout is not supported in portal or not yet documented by the community!_
 {{< tab "small" >}}
 ### Caspian Border - Conquest (custom) - small
 
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
+![Map Layout of Caspian Border - custom - Conquest - small](../images/layouts/caspianborder_conquest_custom_small.png){{< /tab >}}
 {{< tab "medium" >}}
 ### Caspian Border - Conquest (custom) - medium
 
@@ -157,8 +96,7 @@ _Map Layout is not supported in portal or not yet documented by the community!_
 {{< tab "large" >}}
 ### Caspian Border - Conquest (custom) - large
 
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
+![Map Layout of Caspian Border - custom - Conquest - large](../images/layouts/caspianborder_conquest_custom_large.png){{< /tab >}}
 {{< /tabs >}}
 ## Caspian Border - Free-For-All (custom)
 

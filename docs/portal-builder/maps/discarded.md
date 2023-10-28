@@ -11,18 +11,8 @@ title: Discarded
 ## Discarded - Breakthrough (core)
 
 {{< tabs "Discarded-Breakthrough-core" >}}
-{{< tab "small" >}}
-### Discarded - Breakthrough (core) - small
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "medium" >}}
-### Discarded - Breakthrough (core) - medium
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "large" >}}
-### Discarded - Breakthrough (core) - large
+{{< tab "standard" >}}
+### Discarded - Breakthrough (core) - standard
 
 _Map Layout is not supported in portal or not yet documented by the community!_
 {{< /tab >}}
@@ -30,18 +20,8 @@ _Map Layout is not supported in portal or not yet documented by the community!_
 ## Discarded - Breakthrough Large (core)
 
 {{< tabs "Discarded-Breakthrough Large-core" >}}
-{{< tab "small" >}}
-### Discarded - Breakthrough Large (core) - small
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "medium" >}}
-### Discarded - Breakthrough Large (core) - medium
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "large" >}}
-### Discarded - Breakthrough Large (core) - large
+{{< tab "standard" >}}
+### Discarded - Breakthrough Large (core) - standard
 
 _Map Layout is not supported in portal or not yet documented by the community!_
 {{< /tab >}}
@@ -49,56 +29,24 @@ _Map Layout is not supported in portal or not yet documented by the community!_
 ## Discarded - Conquest (core)
 
 {{< tabs "Discarded-Conquest-core" >}}
-{{< tab "small" >}}
-### Discarded - Conquest (core) - small
+{{< tab "standard" >}}
+### Discarded - Conquest (core) - standard
 
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "medium" >}}
-### Discarded - Conquest (core) - medium
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "large" >}}
-### Discarded - Conquest (core) - large
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
+![Map Layout of Discarded - core - Conquest - standard](../images/layouts/discarded_conquest_core_standard.png){{< /tab >}}
 {{< /tabs >}}
 ## Discarded - Conquest Large (core)
 
 {{< tabs "Discarded-Conquest Large-core" >}}
-{{< tab "small" >}}
-### Discarded - Conquest Large (core) - small
+{{< tab "standard" >}}
+### Discarded - Conquest Large (core) - standard
 
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "medium" >}}
-### Discarded - Conquest Large (core) - medium
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "large" >}}
-### Discarded - Conquest Large (core) - large
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
+![Map Layout of Discarded - core - Conquest Large - standard](../images/layouts/discarded_conquestlarge_core_standard.png){{< /tab >}}
 {{< /tabs >}}
 ## Discarded - Rush (core)
 
 {{< tabs "Discarded-Rush-core" >}}
-{{< tab "small" >}}
-### Discarded - Rush (core) - small
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "medium" >}}
-### Discarded - Rush (core) - medium
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "large" >}}
-### Discarded - Rush (core) - large
+{{< tab "standard" >}}
+### Discarded - Rush (core) - standard
 
 _Map Layout is not supported in portal or not yet documented by the community!_
 {{< /tab >}}
@@ -106,18 +54,8 @@ _Map Layout is not supported in portal or not yet documented by the community!_
 ## Discarded - Team Deathmatch (core)
 
 {{< tabs "Discarded-Team Deathmatch-core" >}}
-{{< tab "small" >}}
-### Discarded - Team Deathmatch (core) - small
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "medium" >}}
-### Discarded - Team Deathmatch (core) - medium
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "large" >}}
-### Discarded - Team Deathmatch (core) - large
+{{< tab "standard" >}}
+### Discarded - Team Deathmatch (core) - standard
 
 _Map Layout is not supported in portal or not yet documented by the community!_
 {{< /tab >}}
@@ -147,7 +85,7 @@ _Map Layout is not supported in portal or not yet documented by the community!_
 {{< tab "small" >}}
 ### Discarded - Conquest (custom) - small
 
-![Map Layout of Discarded - custom - Conquest - small](../images/layouts/discarded_custom_conquest_small.png){{< /tab >}}
+![Map Layout of Discarded - custom - Conquest - small](../images/layouts/discarded_conquest_custom_small.png){{< /tab >}}
 {{< tab "medium" >}}
 ### Discarded - Conquest (custom) - medium
 

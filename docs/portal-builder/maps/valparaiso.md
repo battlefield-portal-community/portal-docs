@@ -11,18 +11,8 @@ title: Valparaiso
 ## Valparaiso - Breakthrough (core)
 
 {{< tabs "Valparaiso-Breakthrough-core" >}}
-{{< tab "small" >}}
-### Valparaiso - Breakthrough (core) - small
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "medium" >}}
-### Valparaiso - Breakthrough (core) - medium
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "large" >}}
-### Valparaiso - Breakthrough (core) - large
+{{< tab "standard" >}}
+### Valparaiso - Breakthrough (core) - standard
 
 _Map Layout is not supported in portal or not yet documented by the community!_
 {{< /tab >}}
@@ -30,18 +20,8 @@ _Map Layout is not supported in portal or not yet documented by the community!_
 ## Valparaiso - Breakthrough Large (core)
 
 {{< tabs "Valparaiso-Breakthrough Large-core" >}}
-{{< tab "small" >}}
-### Valparaiso - Breakthrough Large (core) - small
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "medium" >}}
-### Valparaiso - Breakthrough Large (core) - medium
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "large" >}}
-### Valparaiso - Breakthrough Large (core) - large
+{{< tab "standard" >}}
+### Valparaiso - Breakthrough Large (core) - standard
 
 _Map Layout is not supported in portal or not yet documented by the community!_
 {{< /tab >}}
@@ -49,37 +29,16 @@ _Map Layout is not supported in portal or not yet documented by the community!_
 ## Valparaiso - Conquest (core)
 
 {{< tabs "Valparaiso-Conquest-core" >}}
-{{< tab "small" >}}
-### Valparaiso - Conquest (core) - small
+{{< tab "standard" >}}
+### Valparaiso - Conquest (core) - standard
 
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "medium" >}}
-### Valparaiso - Conquest (core) - medium
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "large" >}}
-### Valparaiso - Conquest (core) - large
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
+![Map Layout of Valparaiso - core - Conquest - standard](../images/layouts/valparaiso_conquest_core_standard.png){{< /tab >}}
 {{< /tabs >}}
 ## Valparaiso - Conquest Large (core)
 
 {{< tabs "Valparaiso-Conquest Large-core" >}}
-{{< tab "small" >}}
-### Valparaiso - Conquest Large (core) - small
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "medium" >}}
-### Valparaiso - Conquest Large (core) - medium
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "large" >}}
-### Valparaiso - Conquest Large (core) - large
+{{< tab "standard" >}}
+### Valparaiso - Conquest Large (core) - standard
 
 _Map Layout is not supported in portal or not yet documented by the community!_
 {{< /tab >}}
@@ -87,18 +46,8 @@ _Map Layout is not supported in portal or not yet documented by the community!_
 ## Valparaiso - Rush (core)
 
 {{< tabs "Valparaiso-Rush-core" >}}
-{{< tab "small" >}}
-### Valparaiso - Rush (core) - small
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "medium" >}}
-### Valparaiso - Rush (core) - medium
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "large" >}}
-### Valparaiso - Rush (core) - large
+{{< tab "standard" >}}
+### Valparaiso - Rush (core) - standard
 
 _Map Layout is not supported in portal or not yet documented by the community!_
 {{< /tab >}}
@@ -106,18 +55,8 @@ _Map Layout is not supported in portal or not yet documented by the community!_
 ## Valparaiso - Team Deathmatch (core)
 
 {{< tabs "Valparaiso-Team Deathmatch-core" >}}
-{{< tab "small" >}}
-### Valparaiso - Team Deathmatch (core) - small
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "medium" >}}
-### Valparaiso - Team Deathmatch (core) - medium
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "large" >}}
-### Valparaiso - Team Deathmatch (core) - large
+{{< tab "standard" >}}
+### Valparaiso - Team Deathmatch (core) - standard
 
 _Map Layout is not supported in portal or not yet documented by the community!_
 {{< /tab >}}

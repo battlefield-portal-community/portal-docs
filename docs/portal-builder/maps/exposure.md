@@ -11,18 +11,8 @@ title: Exposure
 ## Exposure - Breakthrough (core)
 
 {{< tabs "Exposure-Breakthrough-core" >}}
-{{< tab "small" >}}
-### Exposure - Breakthrough (core) - small
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "medium" >}}
-### Exposure - Breakthrough (core) - medium
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "large" >}}
-### Exposure - Breakthrough (core) - large
+{{< tab "standard" >}}
+### Exposure - Breakthrough (core) - standard
 
 _Map Layout is not supported in portal or not yet documented by the community!_
 {{< /tab >}}
@@ -30,18 +20,8 @@ _Map Layout is not supported in portal or not yet documented by the community!_
 ## Exposure - Breakthrough Large (core)
 
 {{< tabs "Exposure-Breakthrough Large-core" >}}
-{{< tab "small" >}}
-### Exposure - Breakthrough Large (core) - small
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "medium" >}}
-### Exposure - Breakthrough Large (core) - medium
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "large" >}}
-### Exposure - Breakthrough Large (core) - large
+{{< tab "standard" >}}
+### Exposure - Breakthrough Large (core) - standard
 
 _Map Layout is not supported in portal or not yet documented by the community!_
 {{< /tab >}}
@@ -49,18 +29,8 @@ _Map Layout is not supported in portal or not yet documented by the community!_
 ## Exposure - Conquest (core)
 
 {{< tabs "Exposure-Conquest-core" >}}
-{{< tab "small" >}}
-### Exposure - Conquest (core) - small
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "medium" >}}
-### Exposure - Conquest (core) - medium
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "large" >}}
-### Exposure - Conquest (core) - large
+{{< tab "standard" >}}
+### Exposure - Conquest (core) - standard
 
 _Map Layout is not supported in portal or not yet documented by the community!_
 {{< /tab >}}
@@ -68,37 +38,16 @@ _Map Layout is not supported in portal or not yet documented by the community!_
 ## Exposure - Conquest Large (core)
 
 {{< tabs "Exposure-Conquest Large-core" >}}
-{{< tab "small" >}}
-### Exposure - Conquest Large (core) - small
+{{< tab "standard" >}}
+### Exposure - Conquest Large (core) - standard
 
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "medium" >}}
-### Exposure - Conquest Large (core) - medium
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "large" >}}
-### Exposure - Conquest Large (core) - large
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
+![Map Layout of Exposure - core - Conquest Large - standard](../images/layouts/exposure_conquestlarge_core_standard.png){{< /tab >}}
 {{< /tabs >}}
 ## Exposure - Rush (core)
 
 {{< tabs "Exposure-Rush-core" >}}
-{{< tab "small" >}}
-### Exposure - Rush (core) - small
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "medium" >}}
-### Exposure - Rush (core) - medium
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "large" >}}
-### Exposure - Rush (core) - large
+{{< tab "standard" >}}
+### Exposure - Rush (core) - standard
 
 _Map Layout is not supported in portal or not yet documented by the community!_
 {{< /tab >}}
@@ -106,18 +55,8 @@ _Map Layout is not supported in portal or not yet documented by the community!_
 ## Exposure - Team Deathmatch (core)
 
 {{< tabs "Exposure-Team Deathmatch-core" >}}
-{{< tab "small" >}}
-### Exposure - Team Deathmatch (core) - small
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "medium" >}}
-### Exposure - Team Deathmatch (core) - medium
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "large" >}}
-### Exposure - Team Deathmatch (core) - large
+{{< tab "standard" >}}
+### Exposure - Team Deathmatch (core) - standard
 
 _Map Layout is not supported in portal or not yet documented by the community!_
 {{< /tab >}}
@@ -152,8 +91,7 @@ _Map Layout is not supported in portal or not yet documented by the community!_
 {{< tab "medium" >}}
 ### Exposure - Conquest (custom) - medium
 
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
+![Map Layout of Exposure - custom - Conquest - medium](../images/layouts/exposure_conquest_custom_medium.png){{< /tab >}}
 {{< tab "large" >}}
 ### Exposure - Conquest (custom) - large
 

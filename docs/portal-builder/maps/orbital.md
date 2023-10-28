@@ -11,18 +11,8 @@ title: Orbital
 ## Orbital - Breakthrough (core)
 
 {{< tabs "Orbital-Breakthrough-core" >}}
-{{< tab "small" >}}
-### Orbital - Breakthrough (core) - small
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "medium" >}}
-### Orbital - Breakthrough (core) - medium
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "large" >}}
-### Orbital - Breakthrough (core) - large
+{{< tab "standard" >}}
+### Orbital - Breakthrough (core) - standard
 
 _Map Layout is not supported in portal or not yet documented by the community!_
 {{< /tab >}}
@@ -30,18 +20,8 @@ _Map Layout is not supported in portal or not yet documented by the community!_
 ## Orbital - Breakthrough Large (core)
 
 {{< tabs "Orbital-Breakthrough Large-core" >}}
-{{< tab "small" >}}
-### Orbital - Breakthrough Large (core) - small
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "medium" >}}
-### Orbital - Breakthrough Large (core) - medium
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "large" >}}
-### Orbital - Breakthrough Large (core) - large
+{{< tab "standard" >}}
+### Orbital - Breakthrough Large (core) - standard
 
 _Map Layout is not supported in portal or not yet documented by the community!_
 {{< /tab >}}
@@ -49,18 +29,8 @@ _Map Layout is not supported in portal or not yet documented by the community!_
 ## Orbital - Conquest (core)
 
 {{< tabs "Orbital-Conquest-core" >}}
-{{< tab "small" >}}
-### Orbital - Conquest (core) - small
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "medium" >}}
-### Orbital - Conquest (core) - medium
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "large" >}}
-### Orbital - Conquest (core) - large
+{{< tab "standard" >}}
+### Orbital - Conquest (core) - standard
 
 _Map Layout is not supported in portal or not yet documented by the community!_
 {{< /tab >}}
@@ -68,37 +38,16 @@ _Map Layout is not supported in portal or not yet documented by the community!_
 ## Orbital - Conquest Large (core)
 
 {{< tabs "Orbital-Conquest Large-core" >}}
-{{< tab "small" >}}
-### Orbital - Conquest Large (core) - small
+{{< tab "standard" >}}
+### Orbital - Conquest Large (core) - standard
 
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "medium" >}}
-### Orbital - Conquest Large (core) - medium
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "large" >}}
-### Orbital - Conquest Large (core) - large
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
+![Map Layout of Orbital - core - Conquest Large - standard](../images/layouts/orbital_conquestlarge_core_standard.png){{< /tab >}}
 {{< /tabs >}}
 ## Orbital - Rush (core)
 
 {{< tabs "Orbital-Rush-core" >}}
-{{< tab "small" >}}
-### Orbital - Rush (core) - small
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "medium" >}}
-### Orbital - Rush (core) - medium
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "large" >}}
-### Orbital - Rush (core) - large
+{{< tab "standard" >}}
+### Orbital - Rush (core) - standard
 
 _Map Layout is not supported in portal or not yet documented by the community!_
 {{< /tab >}}
@@ -106,18 +55,8 @@ _Map Layout is not supported in portal or not yet documented by the community!_
 ## Orbital - Team Deathmatch (core)
 
 {{< tabs "Orbital-Team Deathmatch-core" >}}
-{{< tab "small" >}}
-### Orbital - Team Deathmatch (core) - small
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "medium" >}}
-### Orbital - Team Deathmatch (core) - medium
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "large" >}}
-### Orbital - Team Deathmatch (core) - large
+{{< tab "standard" >}}
+### Orbital - Team Deathmatch (core) - standard
 
 _Map Layout is not supported in portal or not yet documented by the community!_
 {{< /tab >}}
@@ -152,8 +91,7 @@ _Map Layout is not supported in portal or not yet documented by the community!_
 {{< tab "medium" >}}
 ### Orbital - Conquest (custom) - medium
 
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
+![Map Layout of Orbital - custom - Conquest - medium](../images/layouts/orbital_conquest_custom_medium.png){{< /tab >}}
 {{< tab "large" >}}
 ### Orbital - Conquest (custom) - large
 

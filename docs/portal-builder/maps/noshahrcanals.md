@@ -11,18 +11,8 @@ title: Noshahr Canals
 ## Noshahr Canals - Breakthrough (core)
 
 {{< tabs "Noshahr Canals-Breakthrough-core" >}}
-{{< tab "small" >}}
-### Noshahr Canals - Breakthrough (core) - small
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "medium" >}}
-### Noshahr Canals - Breakthrough (core) - medium
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "large" >}}
-### Noshahr Canals - Breakthrough (core) - large
+{{< tab "standard" >}}
+### Noshahr Canals - Breakthrough (core) - standard
 
 _Map Layout is not supported in portal or not yet documented by the community!_
 {{< /tab >}}
@@ -30,18 +20,8 @@ _Map Layout is not supported in portal or not yet documented by the community!_
 ## Noshahr Canals - Breakthrough Large (core)
 
 {{< tabs "Noshahr Canals-Breakthrough Large-core" >}}
-{{< tab "small" >}}
-### Noshahr Canals - Breakthrough Large (core) - small
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "medium" >}}
-### Noshahr Canals - Breakthrough Large (core) - medium
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "large" >}}
-### Noshahr Canals - Breakthrough Large (core) - large
+{{< tab "standard" >}}
+### Noshahr Canals - Breakthrough Large (core) - standard
 
 _Map Layout is not supported in portal or not yet documented by the community!_
 {{< /tab >}}
@@ -49,37 +29,16 @@ _Map Layout is not supported in portal or not yet documented by the community!_
 ## Noshahr Canals - Conquest (core)
 
 {{< tabs "Noshahr Canals-Conquest-core" >}}
-{{< tab "small" >}}
-### Noshahr Canals - Conquest (core) - small
+{{< tab "standard" >}}
+### Noshahr Canals - Conquest (core) - standard
 
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "medium" >}}
-### Noshahr Canals - Conquest (core) - medium
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "large" >}}
-### Noshahr Canals - Conquest (core) - large
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
+![Map Layout of Noshahr Canals - core - Conquest - standard](../images/layouts/noshahrcanals_conquest_core_standard.png){{< /tab >}}
 {{< /tabs >}}
 ## Noshahr Canals - Conquest Large (core)
 
 {{< tabs "Noshahr Canals-Conquest Large-core" >}}
-{{< tab "small" >}}
-### Noshahr Canals - Conquest Large (core) - small
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "medium" >}}
-### Noshahr Canals - Conquest Large (core) - medium
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "large" >}}
-### Noshahr Canals - Conquest Large (core) - large
+{{< tab "standard" >}}
+### Noshahr Canals - Conquest Large (core) - standard
 
 _Map Layout is not supported in portal or not yet documented by the community!_
 {{< /tab >}}
@@ -87,18 +46,8 @@ _Map Layout is not supported in portal or not yet documented by the community!_
 ## Noshahr Canals - Rush (core)
 
 {{< tabs "Noshahr Canals-Rush-core" >}}
-{{< tab "small" >}}
-### Noshahr Canals - Rush (core) - small
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "medium" >}}
-### Noshahr Canals - Rush (core) - medium
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "large" >}}
-### Noshahr Canals - Rush (core) - large
+{{< tab "standard" >}}
+### Noshahr Canals - Rush (core) - standard
 
 _Map Layout is not supported in portal or not yet documented by the community!_
 {{< /tab >}}
@@ -106,18 +55,8 @@ _Map Layout is not supported in portal or not yet documented by the community!_
 ## Noshahr Canals - Team Deathmatch (core)
 
 {{< tabs "Noshahr Canals-Team Deathmatch-core" >}}
-{{< tab "small" >}}
-### Noshahr Canals - Team Deathmatch (core) - small
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "medium" >}}
-### Noshahr Canals - Team Deathmatch (core) - medium
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "large" >}}
-### Noshahr Canals - Team Deathmatch (core) - large
+{{< tab "standard" >}}
+### Noshahr Canals - Team Deathmatch (core) - standard
 
 _Map Layout is not supported in portal or not yet documented by the community!_
 {{< /tab >}}

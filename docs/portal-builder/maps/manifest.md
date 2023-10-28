@@ -11,18 +11,8 @@ title: Manifest
 ## Manifest - Breakthrough (core)
 
 {{< tabs "Manifest-Breakthrough-core" >}}
-{{< tab "small" >}}
-### Manifest - Breakthrough (core) - small
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "medium" >}}
-### Manifest - Breakthrough (core) - medium
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "large" >}}
-### Manifest - Breakthrough (core) - large
+{{< tab "standard" >}}
+### Manifest - Breakthrough (core) - standard
 
 _Map Layout is not supported in portal or not yet documented by the community!_
 {{< /tab >}}
@@ -30,18 +20,8 @@ _Map Layout is not supported in portal or not yet documented by the community!_
 ## Manifest - Breakthrough Large (core)
 
 {{< tabs "Manifest-Breakthrough Large-core" >}}
-{{< tab "small" >}}
-### Manifest - Breakthrough Large (core) - small
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "medium" >}}
-### Manifest - Breakthrough Large (core) - medium
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "large" >}}
-### Manifest - Breakthrough Large (core) - large
+{{< tab "standard" >}}
+### Manifest - Breakthrough Large (core) - standard
 
 _Map Layout is not supported in portal or not yet documented by the community!_
 {{< /tab >}}
@@ -49,18 +29,8 @@ _Map Layout is not supported in portal or not yet documented by the community!_
 ## Manifest - Conquest (core)
 
 {{< tabs "Manifest-Conquest-core" >}}
-{{< tab "small" >}}
-### Manifest - Conquest (core) - small
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "medium" >}}
-### Manifest - Conquest (core) - medium
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "large" >}}
-### Manifest - Conquest (core) - large
+{{< tab "standard" >}}
+### Manifest - Conquest (core) - standard
 
 _Map Layout is not supported in portal or not yet documented by the community!_
 {{< /tab >}}
@@ -68,37 +38,16 @@ _Map Layout is not supported in portal or not yet documented by the community!_
 ## Manifest - Conquest Large (core)
 
 {{< tabs "Manifest-Conquest Large-core" >}}
-{{< tab "small" >}}
-### Manifest - Conquest Large (core) - small
+{{< tab "standard" >}}
+### Manifest - Conquest Large (core) - standard
 
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "medium" >}}
-### Manifest - Conquest Large (core) - medium
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "large" >}}
-### Manifest - Conquest Large (core) - large
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
+![Map Layout of Manifest - core - Conquest Large - standard](../images/layouts/manifest_conquestlarge_core_standard.png){{< /tab >}}
 {{< /tabs >}}
 ## Manifest - Rush (core)
 
 {{< tabs "Manifest-Rush-core" >}}
-{{< tab "small" >}}
-### Manifest - Rush (core) - small
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "medium" >}}
-### Manifest - Rush (core) - medium
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "large" >}}
-### Manifest - Rush (core) - large
+{{< tab "standard" >}}
+### Manifest - Rush (core) - standard
 
 _Map Layout is not supported in portal or not yet documented by the community!_
 {{< /tab >}}
@@ -106,18 +55,8 @@ _Map Layout is not supported in portal or not yet documented by the community!_
 ## Manifest - Team Deathmatch (core)
 
 {{< tabs "Manifest-Team Deathmatch-core" >}}
-{{< tab "small" >}}
-### Manifest - Team Deathmatch (core) - small
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "medium" >}}
-### Manifest - Team Deathmatch (core) - medium
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "large" >}}
-### Manifest - Team Deathmatch (core) - large
+{{< tab "standard" >}}
+### Manifest - Team Deathmatch (core) - standard
 
 _Map Layout is not supported in portal or not yet documented by the community!_
 {{< /tab >}}
@@ -152,8 +91,7 @@ _Map Layout is not supported in portal or not yet documented by the community!_
 {{< tab "medium" >}}
 ### Manifest - Conquest (custom) - medium
 
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
+![Map Layout of Manifest - custom - Conquest - medium](../images/layouts/manifest_conquest_custom_medium.png){{< /tab >}}
 {{< tab "large" >}}
 ### Manifest - Conquest (custom) - large
 
@@ -185,8 +123,7 @@ _Map Layout is not supported in portal or not yet documented by the community!_
 {{< tab "small" >}}
 ### Manifest - Ground Superiority (custom) - small
 
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
+![Map Layout of Manifest - custom - Ground Superiority - small](../images/layouts/manifest_groundsuperiority_custom_small.png){{< /tab >}}
 {{< tab "medium" >}}
 ### Manifest - Ground Superiority (custom) - medium
 

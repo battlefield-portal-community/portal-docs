@@ -11,18 +11,8 @@ title: Battle of the Bulge
 ## Battle of the Bulge - Breakthrough (core)
 
 {{< tabs "Battle of the Bulge-Breakthrough-core" >}}
-{{< tab "small" >}}
-### Battle of the Bulge - Breakthrough (core) - small
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "medium" >}}
-### Battle of the Bulge - Breakthrough (core) - medium
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "large" >}}
-### Battle of the Bulge - Breakthrough (core) - large
+{{< tab "standard" >}}
+### Battle of the Bulge - Breakthrough (core) - standard
 
 _Map Layout is not supported in portal or not yet documented by the community!_
 {{< /tab >}}
@@ -30,18 +20,8 @@ _Map Layout is not supported in portal or not yet documented by the community!_
 ## Battle of the Bulge - Breakthrough Large (core)
 
 {{< tabs "Battle of the Bulge-Breakthrough Large-core" >}}
-{{< tab "small" >}}
-### Battle of the Bulge - Breakthrough Large (core) - small
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "medium" >}}
-### Battle of the Bulge - Breakthrough Large (core) - medium
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "large" >}}
-### Battle of the Bulge - Breakthrough Large (core) - large
+{{< tab "standard" >}}
+### Battle of the Bulge - Breakthrough Large (core) - standard
 
 _Map Layout is not supported in portal or not yet documented by the community!_
 {{< /tab >}}
@@ -49,37 +29,16 @@ _Map Layout is not supported in portal or not yet documented by the community!_
 ## Battle of the Bulge - Conquest (core)
 
 {{< tabs "Battle of the Bulge-Conquest-core" >}}
-{{< tab "small" >}}
-### Battle of the Bulge - Conquest (core) - small
+{{< tab "standard" >}}
+### Battle of the Bulge - Conquest (core) - standard
 
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "medium" >}}
-### Battle of the Bulge - Conquest (core) - medium
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "large" >}}
-### Battle of the Bulge - Conquest (core) - large
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
+![Map Layout of Battle of the Bulge - core - Conquest - standard](../images/layouts/battleofthebulge_conquest_core_standard.png){{< /tab >}}
 {{< /tabs >}}
 ## Battle of the Bulge - Conquest Large (core)
 
 {{< tabs "Battle of the Bulge-Conquest Large-core" >}}
-{{< tab "small" >}}
-### Battle of the Bulge - Conquest Large (core) - small
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "medium" >}}
-### Battle of the Bulge - Conquest Large (core) - medium
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "large" >}}
-### Battle of the Bulge - Conquest Large (core) - large
+{{< tab "standard" >}}
+### Battle of the Bulge - Conquest Large (core) - standard
 
 _Map Layout is not supported in portal or not yet documented by the community!_
 {{< /tab >}}
@@ -87,18 +46,8 @@ _Map Layout is not supported in portal or not yet documented by the community!_
 ## Battle of the Bulge - Rush (core)
 
 {{< tabs "Battle of the Bulge-Rush-core" >}}
-{{< tab "small" >}}
-### Battle of the Bulge - Rush (core) - small
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "medium" >}}
-### Battle of the Bulge - Rush (core) - medium
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "large" >}}
-### Battle of the Bulge - Rush (core) - large
+{{< tab "standard" >}}
+### Battle of the Bulge - Rush (core) - standard
 
 _Map Layout is not supported in portal or not yet documented by the community!_
 {{< /tab >}}
@@ -106,18 +55,8 @@ _Map Layout is not supported in portal or not yet documented by the community!_
 ## Battle of the Bulge - Team Deathmatch (core)
 
 {{< tabs "Battle of the Bulge-Team Deathmatch-core" >}}
-{{< tab "small" >}}
-### Battle of the Bulge - Team Deathmatch (core) - small
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "medium" >}}
-### Battle of the Bulge - Team Deathmatch (core) - medium
-
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
-{{< tab "large" >}}
-### Battle of the Bulge - Team Deathmatch (core) - large
+{{< tab "standard" >}}
+### Battle of the Bulge - Team Deathmatch (core) - standard
 
 _Map Layout is not supported in portal or not yet documented by the community!_
 {{< /tab >}}
@@ -152,8 +91,7 @@ _Map Layout is not supported in portal or not yet documented by the community!_
 {{< tab "medium" >}}
 ### Battle of the Bulge - Conquest (custom) - medium
 
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
+![Map Layout of Battle of the Bulge - custom - Conquest - medium](../images/layouts/battleofthebulge_conquest_custom_medium.png){{< /tab >}}
 {{< tab "large" >}}
 ### Battle of the Bulge - Conquest (custom) - large
 
@@ -185,8 +123,7 @@ _Map Layout is not supported in portal or not yet documented by the community!_
 {{< tab "small" >}}
 ### Battle of the Bulge - Ground Superiority (custom) - small
 
-_Map Layout is not supported in portal or not yet documented by the community!_
-{{< /tab >}}
+![Map Layout of Battle of the Bulge - custom - Ground Superiority - small](../images/layouts/battleofthebulge_groundsuperiority_custom_small.png){{< /tab >}}
 {{< tab "medium" >}}
 ### Battle of the Bulge - Ground Superiority (custom) - medium
 
