@@ -1,10 +1,10 @@
 import json
 
 import requests
-from .helper import project_dir, skip_function_if_env
+from generators.utils import PROJECT_DIR, skip_function_if_env
 from loguru import logger
 
-TRANSLATION_FILE = project_dir / "data" / "translations.json"
+TRANSLATION_FILE = PROJECT_DIR / "data" / "translations.json"
 
 
 @skip_function_if_env("SKIP_TRANSLATIONS")

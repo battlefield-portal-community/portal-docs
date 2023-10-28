@@ -7,7 +7,8 @@ import box
 from box import Box
 from loguru import logger
 
-from .helper import project_dir, skip_function_if_env
+from generators.utils import skip_function_if_env
+from . import config
 
 
 class CleanDoc(TypedDict):
@@ -24,7 +25,7 @@ mapped_translations = dict()
 
 def populate_i18n():
     global i18n
-    i18n = Box.from_json(filename=project_dir / "data" / "i18n.json")
+    i18n = Box.from_json(filename=config.DATA_DIR / "i18n.json")
 
 
 def get_nested_dot(dot_string) -> str:
@@ -65,9 +66,10 @@ def gen_text(doc: str, rule_block: bool = False) -> str:
 
 @skip_function_if_env("SKIP_GEN_DOCS_JSON")
 def gen_json():
+    print("::group::Generate Docs Json")
     populate_i18n()
 
-    with open(project_dir / "data" / "translations.json") as file:
+    with open(config.DATA_DIR / "translations.json") as file:
         translations = json.load(file)["localizedTexts"]
 
     logger.debug("Generate Mapping")
@@ -79,10 +81,10 @@ def gen_json():
 
     # delete all present docs before making new docs
     logger.info("Deleting currently present docs")
-    for file in (project_dir / "docs_json").glob("*.json"):
+    for file in config.DOCS_JSON_DIR.glob("*.json"):
         file.unlink()
 
-    for raw_doc in sorted((project_dir / "data" / "raw_docs").glob("*.md")):
+    for raw_doc in sorted((config.DATA_DIR / "raw_docs").glob("*.md")):
         bad_blocks = [
             "control_if"
             "controls_if_else",
@@ -130,11 +132,11 @@ def gen_json():
         else:
             clean_doc["block"] = clean[0]
 
-        clean_doc["summary"] = "\n".join(clean[1 : (i if i else o if o else None)])
+        clean_doc["summary"] = "\n".join(clean[1: (i if i else o if o else None)])
         if i:
-            clean_doc["inputs"] = clean[i + 1 : (o if o else None)]
+            clean_doc["inputs"] = clean[i + 1: (o if o else None)]
         if o:
-            clean_doc["output"] = clean[o + 1 :]
+            clean_doc["output"] = clean[o + 1:]
 
         k = f"ID_ARRIVAL_BLOCK_{raw_doc_name_without_id.upper()}"
         clean_name = mapped_translations.get(k, False)
@@ -148,14 +150,15 @@ def gen_json():
 
         if clean_name in ["RULE", "MOD", "CONDITION"]:
             clean_name = clean_name.capitalize()
-        with open(project_dir / "docs_json" / f"{clean_name}.json", "w") as file:
+        with open(config.DOCS_JSON_DIR / f"{clean_name}.json", "w") as file:
             json.dump(clean_doc, file)
         clean_names.append(clean_name)
         logger.debug(f"{raw_doc_name_without_id} -> {clean_name}")
 
-    with open(project_dir / "data" / "clean_names", "w") as file:
+    with open(config.DATA_DIR / "clean_names", "w") as file:
         json.dump(clean_names, file)
     logger.info("Gen docs complete")
+    print("::endgroup::")
 
 
 if __name__ == "__main__":

@@ -5,18 +5,21 @@ from typing import TYPE_CHECKING
 import grequests
 from loguru import logger
 
-from .helper import project_dir, skip_function_if_env
+from generators.utils import skip_function_if_env
 from .save_translations import save_translations_json
+from . import config
 
 if TYPE_CHECKING:
     import requests
 
+
 @skip_function_if_env("SKIP_RAW_DOCS")
 def gen_data():
+    print("::group::Generate Raw Docs")
     save_translations_json()
-    with open(project_dir / "data" / "enabled_blocks.json") as file:
+    with open(config.DATA_DIR / "enabled_blocks.json") as file:
         blocks = json.load(file)["blocks"]
-    with open(project_dir / "data" / "rules_editor_version") as file:
+    with open(config.DATA_DIR / "rules_editor_version") as file:
         ver = json.load(file)
 
     logger.debug(f"Got {len(blocks)} blocks, current portal Version {ver}")
@@ -30,7 +33,7 @@ def gen_data():
     logger.debug("Done..")
     invalid_blocks = []
     logger.debug("Saving Raw Blocks")
-    raw_docs_dir = project_dir / "data" / "raw_docs"
+    raw_docs_dir = config.DATA_DIR / "raw_docs"
     logger.debug(f"Deleting currently present raw docs, {len(list(raw_docs_dir.glob('*')))} files")
     for file in raw_docs_dir.glob("*"):
         logger.trace(f"Deleting {file}")
@@ -54,7 +57,7 @@ def gen_data():
 
         if block_docs_id is None:
             logger.trace(f"{block} has no ID")
-        raw_doc_filename = f"{block}{'-'+block_docs_id if block_docs_id else ''}.md"
+        raw_doc_filename = f"{block}{'-' + block_docs_id if block_docs_id else ''}.md"
         with open(raw_docs_dir / raw_doc_filename, "w") as file:
             if is_block_valid:
                 file.write(text)
@@ -64,10 +67,11 @@ def gen_data():
     logger.debug(f"{invalid_blocks} returned html")
 
     if invalid_blocks:
-        with open(project_dir / "data" / "invalid_blocks.json", "w") as file:
+        with open(config.DATA_DIR / "invalid_blocks.json", "w") as file:
             json.dump(invalid_blocks, file, indent=4)
 
     logger.debug("Done")
+    print("::endgroup::")
 
 
 if __name__ == "__main__":
