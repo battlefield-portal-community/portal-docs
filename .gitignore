@@ -11,6 +11,7 @@ hugo/hugo.linux
 
 # Temporary lock file while building
 hugo/.hugo_build.lock
+.hugo_build.lock
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
