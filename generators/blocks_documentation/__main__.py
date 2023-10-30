@@ -27,6 +27,8 @@ def delete_existing_official_docs():
             f"REGEN_DOCS_DIR is Set to {REGEN_DOCS_DIR}, Document directories will not be regenerated"
         )
 
+    # todo: discuss if we should delete the whole dir or just the official.md file
+    #  as the directory contains community docs too.
     for f in BUILD_DIR.iterdir():
         if f.is_dir():
             shutil.rmtree(f) if REGEN_DOCS_DIR else (f / "docs" / "official.md").unlink(
