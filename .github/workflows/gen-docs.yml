@@ -1,4 +1,4 @@
-name: Generate
+name: Generate Blocks Json
 on:
   workflow_dispatch:
   schedule:
