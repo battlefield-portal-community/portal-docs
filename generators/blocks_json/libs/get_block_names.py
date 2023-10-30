@@ -15,7 +15,8 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
 from webdriver_manager.chrome import ChromeDriverManager
 
-from .helper import project_dir, skip_function_if_env
+from generators.utils import skip_function_if_env
+from . import config
 
 
 class ProductionEnvironment(Exception):
@@ -24,6 +25,7 @@ class ProductionEnvironment(Exception):
 
 @skip_function_if_env("SKIP_GETTING_BLOCK_NAMES")
 def get_block_names():
+    print("::group::Get Block Names")
     DEBUG = os.getenv("DEBUG", False)
 
     chrome_service = Service(ChromeDriverManager().install())
@@ -104,7 +106,7 @@ def get_block_names():
     blocks = {"blocks": ""}
     data = driver.execute_script("return _Blockly.Blocks")
     logger.debug(f"got {len(data)} blocks")
-    with open(project_dir / "data" / "enabled_blocks.json", "w") as json_file:
+    with open(config.DATA_DIR / "enabled_blocks.json", "w") as json_file:
         bad_blocks = [
             # this is the "Control" flow group not the actual If block that is "controls_if_if"
             "If",
@@ -119,8 +121,8 @@ def get_block_names():
 
     logger.debug("Saving Version info")
 
-    ver_file = project_dir / "data" / "rules_editor_version"
-    ver_backup_file = project_dir / "data" / "rules_editor_version_history"
+    ver_file = config.DATA_DIR / "rules_editor_version"
+    ver_backup_file = config.DATA_DIR / "rules_editor_version_history"
     ver_file.touch(exist_ok=True)
 
     with ver_file.open() as file:
@@ -144,7 +146,7 @@ def get_block_names():
             file.write(f"{new_ver}")
 
     logger.debug("filter and save i18n json")
-    with open(project_dir / "data" / "i18n.json", "w") as file:
+    with open(config.DATA_DIR / "i18n.json", "w") as file:
         json.dump(
             requests.get(
                 f"https://portal.battlefield.com/{new_ver}/assets/i18n/en-US.json"
@@ -153,6 +155,7 @@ def get_block_names():
         )
 
     logger.debug("All tasks complete ")
+    print("::endgroup::")
 
 
 if __name__ == "__main__":

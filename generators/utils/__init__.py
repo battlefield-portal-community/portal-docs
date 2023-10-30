@@ -1,11 +1,19 @@
 import functools
 import os
+import re
 import pathlib
 from typing import Optional, TypedDict, Callable
 from loguru import logger
 
-project_dir = pathlib.Path(__file__).parent.parent
-project_root = project_dir.parent
+PROJECT_DIR = None
+for directory in pathlib.Path(__file__).parents:
+    if directory.name == "generators":
+        PROJECT_DIR = directory
+
+if PROJECT_DIR is None:
+    raise ValueError("Unable to set PROJECT_DIR")
+
+PROJECT_ROOT = PROJECT_DIR.parent
 
 
 class CleanDoc(TypedDict):
@@ -16,7 +24,6 @@ class CleanDoc(TypedDict):
 
 
 def skip_function_if_env(env_flag) -> Callable:
-
     def empty(*args, **kwargs):
         pass
 
@@ -30,4 +37,9 @@ def skip_function_if_env(env_flag) -> Callable:
             return function(*args, **kwargs)
 
         return inner
+
     return wrapper
+
+
+def identify(text: str):
+    return re.sub(r"[^0-9A-Za-z]", "", text).lower()
