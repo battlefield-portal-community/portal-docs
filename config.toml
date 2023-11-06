@@ -25,9 +25,28 @@ disablePathToLower = true
    tag = "tags"
 
 [[module.mounts]]
-source = "hugo/"
-target = "."
+source = "hugo/archetypes"
+target = "archetypes"
 
+[[module.mounts]]
+source = "hugo/assets"
+target = "assets"
+
+[[module.mounts]]
+source = "hugo/data"
+target = "data"
+
+[[module.mounts]]
+source = "hugo/i18n"
+target = "i18n"
+
+[[module.mounts]]
+source = "hugo/layouts"
+target = "layouts"
+
+[[module.mounts]]
+source = "hugo/static"
+target = "static"
 
 [[module.mounts]]
 source = "docs/"
