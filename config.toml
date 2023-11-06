@@ -25,12 +25,17 @@ disablePathToLower = true
    tag = "tags"
 
 [[module.mounts]]
-source = "./docs/"
+source = "hugo/"
+target = "."
+
+
+[[module.mounts]]
+source = "docs/"
 target = "./content/"
 excludeFiles = ["portal_blocks/**"]
 
 [[module.mounts]]
-source = "./docs/portal_blocks"
+source = "docs/portal_blocks"
 target = "./content/portal-builder/rules-editor/block-reference"
 
 [params]
