@@ -25,12 +25,36 @@ disablePathToLower = true
    tag = "tags"
 
 [[module.mounts]]
-source = "../docs/"
+source = "hugo/archetypes"
+target = "archetypes"
+
+[[module.mounts]]
+source = "hugo/assets"
+target = "assets"
+
+[[module.mounts]]
+source = "hugo/data"
+target = "data"
+
+[[module.mounts]]
+source = "hugo/i18n"
+target = "i18n"
+
+[[module.mounts]]
+source = "hugo/layouts"
+target = "layouts"
+
+[[module.mounts]]
+source = "hugo/static"
+target = "static"
+
+[[module.mounts]]
+source = "docs/"
 target = "./content/"
 excludeFiles = ["portal_blocks/**"]
 
 [[module.mounts]]
-source = "../docs/portal_blocks"
+source = "docs/portal_blocks"
 target = "./content/portal-builder/rules-editor/block-reference"
 
 [params]
