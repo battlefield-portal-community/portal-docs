@@ -1,8 +1,8 @@
 {
     "timestamp": [
         {
-            "seconds": 1698938136,
-            "nanos": null
+            "nanos": null,
+            "seconds": 1699444943
         }
     ],
     "localizedTexts": [
@@ -12253,11 +12253,6 @@
         },
         {
             "categoryId": 197,
-            "sid": "ID_COS_HOTEL_BODY_09",
-            "localizedText": "Famine"
-        },
-        {
-            "categoryId": 197,
             "sid": "ID_BADGE_MASTERY_SMOKEGRENADE_NAME",
             "localizedText": "Smoke Grenade Mastery"
         },
@@ -12265,6 +12260,11 @@
             "categoryId": 197,
             "sid": "ID_ARRIVAL_MODBUILDER_SELECTIONLISTS_RESTRICTEDINPUTS_CAMERAPITCH",
             "localizedText": "Camera Pitch"
+        },
+        {
+            "categoryId": 197,
+            "sid": "ID_COS_HOTEL_BODY_09",
+            "localizedText": "Famine"
         },
         {
             "categoryId": 201,
