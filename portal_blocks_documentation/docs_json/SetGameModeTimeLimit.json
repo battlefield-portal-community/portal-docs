@@ -1,1 +1,0 @@
-{"block_id": "ID_ARRIVAL_BLOCK_SETROUNDTIMELIMIT", "block": "SetGameModeTimeLimit", "summary": "Sets the duration of the game in seconds.", "inputs": ["1. **Number**"]}

@@ -1,1 +1,0 @@
-{"block_id": "ID_ARRIVAL_BLOCK_DAMAGEVEHICLE", "block": "DamageVehicle", "summary": "Damages the target **Vehicle** by the provided **Number** amount.", "inputs": ["1. **Vehicle**", "2. **Number**"]}

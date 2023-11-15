@@ -1,1 +1,0 @@
-{"block_id": "ID_ARRIVAL_BLOCK_PRIMARYWEAPONSITEM", "block": "InventoryPrimaryWeapons", "summary": "Returns an **InventoryPrimaryWeaponsItem** from the collection of all primary weapons.", "output": ["-   **InventoryPrimaryWeaponsItem**"]}

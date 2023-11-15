@@ -1,1 +1,0 @@
-{"block_id": "ID_ARRIVAL_BLOCK_WHILE", "block": "While", "summary": "A block of **ACTIONS** that will execute in a loop as long as the provided condition is **_True_**.  \n  \n_Note: You must utilize a **Wait** block at the beginning or the end of the iteration._", "inputs": ["1. **Bool**"]}

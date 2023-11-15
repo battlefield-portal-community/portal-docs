@@ -1,1 +1,0 @@
-{"block_id": "ID_ARRIVAL_BLOCK_ARCTANGENTINRADIANS", "block": "ArctangentInRadians", "summary": "Returns the inverse tangent of a provided **Number** value in radians.", "inputs": ["1. **Number**"], "output": ["-   **Number**"]}

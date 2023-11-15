@@ -1,0 +1,1 @@
+{"block_id": "ID_ARRIVAL_BLOCK_RANDOMVALUEINARRAY", "block": "RandomValueInArray", "summary": "Returns a random value from the specified **Array**.", "inputs": ["1. **Array**"], "output": ["-   **Any Type**"]}

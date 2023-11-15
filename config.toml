@@ -1,0 +1,68 @@
+baseURL = "https://docs.bfportal.gg/"
+languageCode = 'en-us'
+theme = "hugo-geekdoc"
+title = "Portal Documentation"
+
+titleCaseStyle = "Go"
+
+# Geekdoc required configuration
+pygmentsUseClasses = true
+pygmentsCodeFences = true
+disablePathToLower = true
+
+[outputs]
+    home = ["HTML", "RSS"]
+
+[markup]
+  [markup.goldmark.renderer]
+    # Needed for mermaid shortcode
+    unsafe = true
+  [markup.tableOfContents]
+    startLevel = 1
+    endLevel = 9
+
+[taxonomies]
+   tag = "tags"
+
+[[module.mounts]]
+source = "hugo/archetypes"
+target = "archetypes"
+
+[[module.mounts]]
+source = "hugo/assets"
+target = "assets"
+
+[[module.mounts]]
+source = "hugo/data"
+target = "data"
+
+[[module.mounts]]
+source = "hugo/i18n"
+target = "i18n"
+
+[[module.mounts]]
+source = "hugo/layouts"
+target = "layouts"
+
+[[module.mounts]]
+source = "hugo/static"
+target = "static"
+
+[[module.mounts]]
+source = "docs/"
+target = "./content/"
+excludeFiles = ["portal_blocks/**"]
+
+[[module.mounts]]
+source = "docs/portal_blocks"
+target = "./content/portal-builder/rules-editor/block-reference"
+
+[params]
+    geekdocLogo= "/images/bf_portal_logo_bc.png"
+    geekdocFilePath= "content"
+    geekdocRepo = "https://github.com/battlefield-portal-community/portal-docs"
+    geekdocEditPath = "edit/main/docs"
+    geekdocNextPrev = true
+    geekdocSearchShowParent = true
+    geekdocMenuBundle = true
+    geekdocAnchor = true

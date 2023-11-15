@@ -1,1 +1,0 @@
-{"block_id": "ID_ARRIVAL_BLOCK_CAPTUREPOINTCAPTURINGTIME", "block": "CapturePointCapturingTime", "summary": "Sets the capturing time for target **CapturePoint** to the provided **Number**.", "inputs": ["1. **CapturePoint**", "2. **Number**"]}

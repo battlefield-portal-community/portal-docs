@@ -1,1 +1,0 @@
-{"block_id": "ID_ARRIVAL_BLOCK_EVENTWEAPON", "block": "EventWeapon", "summary": "Returns the **HardwareId** of the weapon used to kill the victim from the **OnPlayerDied** or **OnPlayerEarnedKill** **EVENT** context.", "output": ["-   **HardwareId**"]}

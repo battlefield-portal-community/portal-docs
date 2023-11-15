@@ -1,0 +1,1 @@
+{"block_id": "ID_ARRIVAL_BLOCK_ABORTIF", "block": "AbortIf", "summary": "Stops the execution of a list of **ACTIONS** in a **RULE** if the provided **Bool** is **_True_**. Otherwise, the execution continues with the remaining **ACTIONS**.", "inputs": ["1. **Bool**"]}

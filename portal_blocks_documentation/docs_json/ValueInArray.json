@@ -1,1 +1,0 @@
-{"block_id": "ID_ARRIVAL_BLOCK_VALUEINARRAY", "block": "ValueInArray", "summary": "Returns the value found at a provided index of an **Array**.", "inputs": ["1. **Array**", "2. **Number**"], "output": ["-   **Any Type**"]}

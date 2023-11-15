@@ -1,0 +1,1 @@
+{"block_id": "ID_ARRIVAL_BLOCK_TRIGGERLOCATIONALAUDIO", "block": "TriggerAudioAtLocation", "summary": "Plays a selected **LocationalSoundsItem** at a specified position.", "inputs": ["1. **LocationalSoundsItem**", "2. **Vector**"]}

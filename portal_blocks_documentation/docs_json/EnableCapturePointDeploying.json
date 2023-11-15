@@ -1,1 +1,0 @@
-{"block_id": "ID_ARRIVAL_BLOCK_ENABLECAPTUREPOINTSPAWNING", "block": "EnableCapturePointDeploying", "summary": "Enables or disables deploying on provided **CapturePoint** for the team that owns it.", "inputs": ["1. **CapturePoint**", "2. **Bool**"]}

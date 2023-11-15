@@ -1,1 +1,0 @@
-{"block_id": "ID_ARRIVAL_BLOCK_BACKWARDVECTOR", "block": "BackwardVector", "summary": "Returns the backward directional **Vector** of (0, 0, 1).", "output": ["-   **Vector**"]}

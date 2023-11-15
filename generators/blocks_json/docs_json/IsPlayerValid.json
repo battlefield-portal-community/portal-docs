@@ -1,0 +1,1 @@
+{"block_id": "ID_ARRIVAL_BLOCK_ISPLAYERVALID", "block": "IsPlayerValid", "summary": "Returns **_True_** if the provided **Player** is valid.", "inputs": ["1. **Player**"], "output": ["-   **Bool**"]}

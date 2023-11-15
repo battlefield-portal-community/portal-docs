@@ -1,0 +1,1 @@
+{"block_id": "ID_ARRIVAL_BLOCK_VEHICLETYPESITEM", "block": "VehicleTypes", "summary": "Returns a **VehicleTypesItem** from the collection of all **Vehicle** types.", "output": ["-   **VehicleTypesItem**"]}

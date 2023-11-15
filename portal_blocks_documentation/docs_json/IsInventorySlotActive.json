@@ -1,1 +1,0 @@
-{"block_id": "ID_ARRIVAL_BLOCK_ISINVENTORYSLOTACTIVE", "block": "IsInventorySlotActive", "summary": "Returns **_True_** whether or not the active inventory slot of the target **Player** is the provided **PlayerInventorySlotsItem**.", "inputs": ["1. **Player**", "2. **PlayerInventorySlotsItem**"], "output": ["-   **Bool**"]}

@@ -1,1 +1,0 @@
-{"block_id": "ID_ARRIVAL_BLOCK_KILL", "block": "Kill", "summary": "Kills a target **Player** (skips the Mandown state).", "inputs": ["1. **Player**"]}

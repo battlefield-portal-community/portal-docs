@@ -1,1 +1,0 @@
-{"block_id": "ID_ARRIVAL_BLOCK_YCOMPONENTOF", "block": "GetYComponent", "summary": "Returns the 'Y' component of a provided **Vector**.", "inputs": ["1. **Vector**"], "output": ["-   **Number**"]}

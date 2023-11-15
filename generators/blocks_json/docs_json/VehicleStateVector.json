@@ -1,0 +1,1 @@
+{"block_id": "ID_ARRIVAL_BLOCK_VEHICLESTATEVECTORITEM", "block": "VehicleStateVector", "summary": "Returns the **VehicleStateVectorItem** of the selected **Vector**-based vehicle property.", "output": ["-   **VehicleStateVectorItem**"]}

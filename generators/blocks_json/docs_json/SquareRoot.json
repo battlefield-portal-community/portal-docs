@@ -1,0 +1,1 @@
+{"block_id": "ID_ARRIVAL_BLOCK_SQUAREROOT", "block": "SquareRoot", "summary": "Returns the square root of a provided **Number** value.", "inputs": ["1. **Number**"], "output": ["-   **Number**"]}

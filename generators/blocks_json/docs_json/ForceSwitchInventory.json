@@ -1,0 +1,1 @@
+{"block_id": "ID_ARRIVAL_BLOCK_FORCESWITCHINVENTORY", "block": "ForceSwitchInventory", "summary": "Forces the target **Player** to switch to the provided **PlayerInventorySlotsItem**.", "inputs": ["1. **Player**", "2. **PlayerInventorySlotsItem**"]}

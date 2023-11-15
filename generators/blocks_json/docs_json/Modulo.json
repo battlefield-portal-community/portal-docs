@@ -1,0 +1,1 @@
+{"block_id": "ID_ARRIVAL_BLOCK_MODULO", "block": "Modulo", "summary": "Returns the remainder of the 1st provided value divided by the 2nd provided value.", "inputs": ["1. **Number**", "2. **Number**"], "output": ["-   **Number**"]}

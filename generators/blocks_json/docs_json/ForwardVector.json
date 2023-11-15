@@ -1,0 +1,1 @@
+{"block_id": "ID_ARRIVAL_BLOCK_FORWARDVECTOR", "block": "ForwardVector", "summary": "Returns the forward directional **Vector** of (0, 0, -1).", "output": ["-   **Vector**"]}

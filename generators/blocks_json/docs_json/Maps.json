@@ -1,0 +1,1 @@
+{"block_id": "ID_ARRIVAL_BLOCK_MAPSITEM", "block": "Maps", "summary": "Returns a **MapsItem** from the collection of all maps.", "output": ["-   **MapsItem**"]}

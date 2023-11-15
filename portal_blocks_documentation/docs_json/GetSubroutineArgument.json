@@ -1,1 +1,0 @@
-{"block_id": "PYRITE_SUBROUTINE_GET_ARGUMENT", "block": "GetSubroutineArgument", "summary": "Returns the value of the argument that is passed into the **SUBROUTINE**. The list of available parameters will populate once this block is placed inside the **SUBROUTINE**.", "output": ["-   **Any Type**"]}

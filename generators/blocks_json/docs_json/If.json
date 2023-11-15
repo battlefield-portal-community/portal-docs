@@ -1,0 +1,1 @@
+{"block_id": "ID_ARRIVAL_BLOCK_IF", "block": "If", "summary": "The start of a conditional control block whose **ACTIONS** will execute if its condition is **_True_**.", "inputs": ["1. **Bool**"]}

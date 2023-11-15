@@ -1,1 +1,0 @@
-{"block_id": "ID_ARRIVAL_BLOCK_GREATERTHANEQUALTO", "block": "GreaterThanEqualTo", "summary": "Returns a **Bool** indicating if the 1st provided value is greater than the 2nd provided value.", "inputs": ["1. **Number**", "2. **Number**"], "output": ["-   **Bool**"]}

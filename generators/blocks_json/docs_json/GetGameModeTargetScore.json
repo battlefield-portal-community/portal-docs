@@ -1,0 +1,1 @@
+{"block_id": "ID_ARRIVAL_BLOCK_GETTARGETSCORE", "block": "GetGameModeTargetScore", "summary": "Returns the gamemode target score needed for victory.", "output": ["-   **Number**"]}

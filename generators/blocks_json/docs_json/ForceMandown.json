@@ -1,0 +1,1 @@
+{"block_id": "ID_ARRIVAL_BLOCK_FORCEMANDOWN", "block": "ForceMandown", "summary": "Puts the target **Player** into the mandown state (unless mandown is disabled).", "inputs": ["1. **Player**"]}

@@ -1,4 +1,4 @@
-name: Generate
+name: Generate Blocks Json
 on:
   workflow_dispatch:
   schedule:
@@ -8,16 +8,19 @@ concurrency:
   group: docs-ci-${{ github.ref }}
   cancel-in-progress: true
 
+env:
+  LOGURU_LEVEL: DEBUG
+  REMID: ${{ secrets.REMID }}
+  SID: ${{ secrets.SID }}
+  PYTHON_VERSION: '3.11'
+  POETRY_VERSION: '1.5.1'
 
 jobs:
 
   generate_json:
     name: Generate Json Docs
     runs-on: ubuntu-latest
-    env:
-      REMID: ${{ secrets.REMID }}
-      SID: ${{ secrets.SID }}
-      
+
     steps:
       - name: Check out this repo
         uses: actions/checkout@v3
@@ -31,7 +34,14 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.11'
+          python-version: ${{ env.PYTHON_VERSION }}
+
+      - name: Load cached Poetry installation
+        id: cached-poetry
+        uses: actions/cache@v3
+        with:
+          path: ~/.local  # the path depends on the OS
+          key: poetry-${{ env.POETRY_VERSION }}-${{ env.PYTHON_VERSION }}
 
       - name: Load cached venv
         id: cached-poetry-dependencies
@@ -41,22 +51,21 @@ jobs:
           key: venv-${{ runner.os }}-${{ steps.setup-python.outputs.python-version }}-${{ hashFiles('**/poetry.lock') }}
 
       - name: Install Poetry
-        if: steps.cached-poetry-dependencies.outputs.cache-hit != 'true'
+        if: steps.cached-poetry.outputs.cache-hit != 'true'
         uses: snok/install-poetry@v1
         with:
           virtualenvs-create: true
           virtualenvs-in-project: true
           installer-parallel: true
 
-
       - name: Install dependencies
         if: steps.cached-poetry-dependencies.outputs.cache-hit != 'true'
-        run: poetry install --no-interaction --no-root
+        run: poetry install --no-interaction
 
       - name: Build Json docs
         run: |
           source .venv/bin/activate
-          python -m portal_blocks_documentation.gen_raw_data
+          python -m generators.blocks_json
 
       - name: Commit and push changes
         run: |

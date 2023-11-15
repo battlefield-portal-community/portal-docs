@@ -1,1 +1,0 @@
-{"block_id": "ID_ARRIVAL_BLOCK_GETCAPTUREPOINTPOSITION", "block": "GetCapturePointPosition", "summary": "Returns the in-world position of the provided **CapturePoint**.", "inputs": ["1. **CapturePoint**"], "output": ["-   **Vector**"]}

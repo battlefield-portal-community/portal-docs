@@ -1,0 +1,1 @@
+{"block_id": "ID_ARRIVAL_BLOCK_NORMALIZE", "block": "Normalize", "summary": "Returns a unit-length normalization of a **Vector**.", "inputs": ["1. **Vector**"], "output": ["-   **Vector**"]}

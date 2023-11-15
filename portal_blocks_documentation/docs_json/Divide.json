@@ -1,1 +1,0 @@
-{"block_id": "ID_ARRIVAL_BLOCK_DIVIDE", "block": "Divide", "summary": "Returns the ratio between two **Number** values or a **Vector** and **Number** value. A **Vector** divided by a **Number** will yield a scaled **Vector**.", "inputs": ["1. **Number** | **Vector**", "2. **Number**"], "output": ["-   **Number** | **Vector**"]}

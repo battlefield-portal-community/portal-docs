@@ -1,0 +1,39 @@
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" viewBox="0 0 44 44" style="enable-background:new 0 0 44 44" xml:space="preserve" fit="" height="100%" width="100%" preserveAspectRatio="xMidYMid meet" focusable="false">
+  <style>
+    .st0-s{fill:#26ffdf}.st1-s{fill:#00a48c}
+   </style>
+  <g id="Icon_x5F_Map_x5F_Size_x5F_L">
+    <g id="Bg_2_">
+      <path d="M.5.5h43v43H.5z"></path>
+      <path d="M43 1v42H1V1h42m1-1H0v44h44V0z"></path>
+    </g>
+    <path class="st0-s" d="M2 2h40v40H2z"></path>
+    <path class="st1-s" d="M2 14h28v28H2z"></path>
+    <path class="st1-s" d="M2.5 24.5h17v17h-17z"></path>
+    <path class="st0-s" d="M19 25v16H3V25h16m1-1H2v18h18V24z"></path>
+    <g id="Vector_Smart_Object_3_">
+      <defs>
+        <path id="SVGID_1_-l" d="M33 4h6.9v9.9H33z"></path>
+      </defs>
+      <clipPath id="SVGID_2_-l">
+        <use xlink:href="#SVGID_1_-l" style="overflow:visible"></use>
+      </clipPath>
+      <g style="clip-path:url(#SVGID_2_-l)">
+        <defs>
+          <path id="SVGID_3_-l" d="M33 4h6.9v9.9H33z"></path>
+        </defs>
+        <clipPath id="SVGID_4_-l">
+          <use xlink:href="#SVGID_3_-l" style="overflow:visible"></use>
+        </clipPath>
+        <path d="M36.4 4C34.5 4 33 5.5 33 7.4s1.5 3.4 3.4 3.4 3.4-1.5 3.4-3.4S38.3 4 36.4 4m0 5.5c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2" style="clip-path:url(#SVGID_4_-l)"></path>
+        <defs>
+          <path id="SVGID_5_-l" d="M33 4h6.9v9.9H33z"></path>
+        </defs>
+        <clipPath id="SVGID_6_-l">
+          <use xlink:href="#SVGID_5_-l" style="overflow:visible"></use>
+        </clipPath>
+        <path style="clip-path:url(#SVGID_6_-l)" d="m39.2 9.5-2.8 4.4-2.8-4.5 2.8.2z"></path>
+      </g>
+    </g>
+  </g>
+</svg>

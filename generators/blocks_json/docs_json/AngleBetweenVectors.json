@@ -1,0 +1,1 @@
+{"block_id": "ID_ARRIVAL_BLOCK_ANGLEBETWEENVECTORS", "block": "AngleBetweenVectors", "summary": "Returns the angle (in degrees) between two provided **Vector** values.", "inputs": ["1. **Vector**", "2. **Vector**"], "output": ["-   **Number**"]}

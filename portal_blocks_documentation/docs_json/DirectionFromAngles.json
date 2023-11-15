@@ -1,1 +1,0 @@
-{"block_id": "ID_ARRIVAL_BLOCK_DIRECTIONFROMANGLES", "block": "DirectionFromAngles", "summary": "Returns a directional **Vector** from the provided horizontal (yaw) and vertical (pitch) angles (in degrees).", "inputs": ["1. **Number**", "    **(Horizontal)**", "2. **Number**", "    **(Vertical)**"], "output": ["-   **Vector**"]}

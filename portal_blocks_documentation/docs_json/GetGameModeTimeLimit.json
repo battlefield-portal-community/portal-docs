@@ -1,1 +1,0 @@
-{"block_id": "ID_ARRIVAL_BLOCK_GETROUNDTIME", "block": "GetGameModeTimeLimit", "summary": "Returns the time limit set for the gamemode (in seconds).", "output": ["-   **Number**"]}

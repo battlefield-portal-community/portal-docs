@@ -1,0 +1,1 @@
+{"block_id": "ID_ARRIVAL_BLOCK_FACTIONSITEM", "block": "Factions", "summary": "Returns a **FactionsItem** from the collection of all available factions.", "output": ["-   **FactionsItem**"]}

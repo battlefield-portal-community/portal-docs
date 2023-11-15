@@ -1,1 +1,0 @@
-{"block_id": "ID_ARRIVAL_BLOCK_DESTROYVEHICLE", "block": "DestroyVehicle", "summary": "Destroys the target **Vehicle**.", "inputs": ["1. **Vehicle**"]}

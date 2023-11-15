@@ -1,1 +1,0 @@
-{"block_id": "ID_ARRIVAL_BLOCK_SETNEUTRALIZATIONMULTIPLIER", "block": "SetNeutralizationTimeMultiplier", "summary": "Sets the neutralization time multiplier for target **CapturePoint** to the provided **Number**.", "inputs": ["1. **CapturePoint**", "2. **Number**"]}

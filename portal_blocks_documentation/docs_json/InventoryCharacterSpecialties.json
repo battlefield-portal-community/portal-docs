@@ -1,1 +1,0 @@
-{"block_id": "ID_ARRIVAL_BLOCK_CHARACTERGADGETSITEM", "block": "InventoryCharacterSpecialties", "summary": "Returns an **InventoryCharacterSpecialtiesItem** from the collection of all character specialties.", "output": ["-   **InventoryCharacterSpecialtiesItem**"]}

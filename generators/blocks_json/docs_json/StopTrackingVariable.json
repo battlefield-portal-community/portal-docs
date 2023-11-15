@@ -1,0 +1,1 @@
+{"block_id": "ID_ARRIVAL_BLOCK_STOPCHASINGVARIABLE", "block": "StopTrackingVariable", "summary": "Stops an in-progress tracking of a **Variable** from the **TrackVariableOverTime** or **TrackVariableAtRate** blocks, leaving it at its current value.", "inputs": ["1. **Variable**"]}

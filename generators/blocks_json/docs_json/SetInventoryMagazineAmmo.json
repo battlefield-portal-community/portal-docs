@@ -1,0 +1,1 @@
+{"block_id": "ID_ARRIVAL_BLOCK_SETINVENTORYMAGAZINEAMMO", "block": "SetInventoryMagazineAmmo", "summary": "Sets the target **Player** magazine ammo for the provided **PlayerInventorySlotsItem**.", "inputs": ["1. **Player**", "2. **PlayerInventorySlotsItem**", "3. **Number**"]}

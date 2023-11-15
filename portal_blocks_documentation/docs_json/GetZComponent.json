@@ -1,1 +1,0 @@
-{"block_id": "ID_ARRIVAL_BLOCK_ZCOMPONENTOF", "block": "GetZComponent", "summary": "Returns the 'Z' component of a provided **Vector**.", "inputs": ["1. **Vector**"], "output": ["-   **Number**"]}

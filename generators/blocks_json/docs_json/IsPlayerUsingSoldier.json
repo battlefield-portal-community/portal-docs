@@ -1,0 +1,1 @@
+{"block_id": "ID_ARRIVAL_BLOCK_ISUSINGKIT", "block": "IsPlayerUsingSoldier", "summary": "Returns a **Bool** indicating if the target **Player** is a specified **PlayerSoldiersItem**.", "inputs": ["1. **Player**", "2. **PlayerSoldiersItem**"]}

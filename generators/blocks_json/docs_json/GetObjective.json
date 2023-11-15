@@ -1,0 +1,1 @@
+{"block_id": "ID_ARRIVAL_BLOCK_GETCAPTUREPOINT", "block": "GetObjective", "summary": "Returns the **CapturePoint** or **MCOM** corresponding to the provided **CapturePointsItem** or **MCOMsItem** respectively.", "inputs": ["1. **CapturePointsItem**"], "output": ["-   **CapturePoint**"]}

@@ -1,0 +1,1 @@
+{"block_id": "ID_ARRIVAL_BLOCK_MEDGADGETTYPESITEM", "block": "MedGadgetTypes", "summary": "Returns a **MedGadgetTypesItem** from the collection of medical gadget types which can be used with the **ApplyMedGadget**.", "output": ["-   **MedGadgetTypesItem**"]}

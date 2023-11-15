@@ -1,0 +1,1 @@
+{"block_id": "ID_ARRIVAL_BLOCK_RAISETOPOWER", "block": "RaiseToPower", "summary": "Returns the 1st provided value raised to the power of the 2nd provided value.", "inputs": ["1. **Number**", "    **(Base)**", "2. **Number**", "    **(Exponent)**"], "output": ["-   **Number**"]}

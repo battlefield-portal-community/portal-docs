@@ -1,0 +1,1 @@
+{"block_id": "ID_ARRIVAL_BLOCK_EVENTDAMAGETYPECOMPARE", "block": "IsVictimDamageType", "summary": "Returns a **Bool** indicating if the victim was damaged by the provided **DamageType**.", "inputs": ["1. **DamageType**", "2. **DamageTypesItem**"], "output": ["-   **Bool**"]}

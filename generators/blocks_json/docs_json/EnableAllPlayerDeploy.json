@@ -1,0 +1,1 @@
+{"block_id": "ID_ARRIVAL_BLOCK_ENABLEPLAYERSPAWNING", "block": "EnableAllPlayerDeploy", "summary": "Enables or disables spawning from the deploy screen for all players.", "inputs": ["1. **Bool**"]}
