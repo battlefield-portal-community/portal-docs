@@ -1,10 +1,4 @@
 {
-    "timestamp": [
-        {
-            "seconds": 1699870406,
-            "nanos": null
-        }
-    ],
     "localizedTexts": [
         {
             "sid": "ID_ARRIVAL_EXP_BF_WORLD_TOUR_DESC",
@@ -17557,11 +17551,6 @@
             "localizedText": "Night Operations"
         },
         {
-            "sid": "ID_COS_WEPCHRM_WCHARM0018",
-            "categoryId": 197,
-            "localizedText": "No-Pat"
-        },
-        {
             "sid": "ID_BADGE_MASTERY_GHOSTMAKER10_NAME",
             "categoryId": 197,
             "localizedText": "Ghostmaker R10 Mastery"
@@ -17580,6 +17569,11 @@
             "sid": "ID_ARRIVAL_EXP_RUSH_XL",
             "categoryId": 201,
             "localizedText": "RUSH XL"
+        },
+        {
+            "sid": "ID_COS_WEPCHRM_WCHARM0018",
+            "categoryId": 197,
+            "localizedText": "No-Pat"
         },
         {
             "sid": "U_DPF_WCHARM0073_BASE_01",
@@ -26360,6 +26354,12 @@
             "sid": "ID_COS_VEH_HELICOPTER__LITTLEBIRD_01_VSKIN0033",
             "categoryId": 197,
             "localizedText": "Exit Strategy"
+        }
+    ],
+    "timestamp": [
+        {
+            "nanos": null,
+            "seconds": 1699870406
         }
     ]
 }
