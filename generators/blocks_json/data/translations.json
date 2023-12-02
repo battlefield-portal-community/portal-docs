@@ -24131,11 +24131,6 @@
             "localizedText": "Duty Bound"
         },
         {
-            "sid": "ID_AWARD_HWUNLOCK_KNIFE_C1",
-            "categoryId": 197,
-            "localizedText": "Damage Inflicted with Throwables"
-        },
-        {
             "sid": "ID_VEHICLES_WEAPON_NAME_50_STEALTH_HELI_RWS_EMP",
             "categoryId": 197,
             "localizedText": "EMP Grenade Launcher"
@@ -24149,6 +24144,11 @@
             "sid": "ID_ABILITY_REMINGTON",
             "categoryId": 197,
             "localizedText": "MCS-880"
+        },
+        {
+            "sid": "ID_AWARD_HWUNLOCK_KNIFE_C1",
+            "categoryId": 197,
+            "localizedText": "Damage Inflicted with Throwables"
         },
         {
             "sid": "ID_CALLIN_HANNIBAL_NAME",
@@ -26743,8 +26743,8 @@
     ],
     "timestamp": [
         {
-            "nanos": null,
-            "seconds": 1701335191
+            "seconds": 1701335191,
+            "nanos": null
         }
     ]
 }
