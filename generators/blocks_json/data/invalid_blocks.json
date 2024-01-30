@@ -1,5 +1,10 @@
 [
+    "Ceiling",
+    "DegreesToRadians",
+    "Floor",
     "GetArgument",
+    "Pi",
+    "RadiansToDegrees",
     "colour_blend",
     "colour_picker",
     "colour_random",

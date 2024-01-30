@@ -1,10 +1,4 @@
 {
-    "timestamp": [
-        {
-            "seconds": 1706176483,
-            "nanos": null
-        }
-    ],
     "localizedTexts": [
         {
             "localizedText": "Go on a world tour of Conquest and Rush across multiple 2042, BF3, BC2, and 1942 maps.",
@@ -120,6 +114,11 @@
             "localizedText": "Judge & Jury",
             "categoryId": 201,
             "sid": "ID_ARRIVAL_STORE_BUNDLE_E10_JUDGEANDJURY"
+        },
+        {
+            "localizedText": "Team Deathmatch",
+            "categoryId": 201,
+            "sid": "ID_ARRIVAL_PLAYSTYLE_TEAMDEATHMATCH"
         },
         {
             "localizedText": "Discover Conquest",
@@ -707,6 +706,11 @@
             "sid": "ID_COS_VEH_HELICOPTER__KA52_ALLIGATOR_01_VSKIN0291"
         },
         {
+            "localizedText": "2042 | CUSTOM | 16 v 16",
+            "categoryId": 201,
+            "sid": "ID_ARRIVAL_EXP_CUSTOM_MODE_16V16"
+        },
+        {
             "localizedText": "Stationary AA Emplacements",
             "categoryId": 201,
             "sid": "ID_ARRIVAL_CATEGORIZATIONTAG_NAME_STATIONARYAA"
@@ -945,6 +949,11 @@
             "localizedText": "DealDamage",
             "categoryId": 197,
             "sid": "ID_ARRIVAL_BLOCK_SETPLAYERDAMAGE"
+        },
+        {
+            "localizedText": "HOLIDAY FORCES | FESTIVE INFECTION | 4 VS 28",
+            "categoryId": 201,
+            "sid": "ID_ARRIVAL_PLAYSTYLE_ATTACKOFTHEELVES"
         },
         {
             "localizedText": "Augmented",
@@ -1250,6 +1259,11 @@
             "localizedText": "Base Commander",
             "categoryId": 197,
             "sid": "ID_COS_INDIA_BODY_07"
+        },
+        {
+            "localizedText": "Protective Resolve",
+            "categoryId": 197,
+            "sid": "ID_COS_WEP_SMG_45_WSKIN0652"
         },
         {
             "localizedText": "Mastery Earned with the LATV4 Recon",
@@ -2427,6 +2441,11 @@
             "sid": "ID_COS_WEP_SHOTGUN__CB12_01_WSKIN0438"
         },
         {
+            "localizedText": "DISABLE SPECTATING REDEPLOY",
+            "categoryId": 201,
+            "sid": "ID_ARRIVAL_PORTAL_SPECTATING_DISABLE_REDEPLOY"
+        },
+        {
             "localizedText": "Damage inflicted on vehicles with the Anti-Tank Mine",
             "categoryId": 197,
             "sid": "ID_AWARD_EXPLORATION_GAD03_C2"
@@ -2787,6 +2806,11 @@
             "sid": "ID_COS_WEP_LEVERACTION__MARLIN_4570_01_WSKIN0034"
         },
         {
+            "localizedText": "Break through the bedlam in Breakthrough Chaos. Push or hold your objective with faster movement, redeploy, throw speed, vehicle call-ins, and 64 players.",
+            "categoryId": 201,
+            "sid": "ID_ARRIVAL_PLAYSTYLE_BREAKTHROUGH_CHAOS_GEN4_DESC"
+        },
+        {
             "localizedText": "OnCapturePointLost",
             "categoryId": 197,
             "sid": "ID_ARRIVAL_MODBUILDER_EVENT_ONCAPTUREPOINTLOST"
@@ -2982,11 +3006,6 @@
             "sid": "ID_COS_ECHO_04"
         },
         {
-            "localizedText": "Pondhawk Superiority",
-            "categoryId": 201,
-            "sid": "ID_ARRIVAL_EXP_PONDHAWK_SUPERIORITY"
-        },
-        {
             "localizedText": "Killswitch",
             "categoryId": 201,
             "sid": "ID_ARRIVAL_PLAYSTYLE_KILLSWITCH"
@@ -3140,6 +3159,11 @@
             "localizedText": "Shattered Visage II",
             "categoryId": 197,
             "sid": "ID_PLAYERCARD_NAME_BACKGROUND263"
+        },
+        {
+            "localizedText": "Built by you -- for you. Fight across unique battlefield experiences made by our community. This week, play Capture the Flag, made by Andy6170 and Th3_Ozzy.\n\nTake the flag from the enemy's base and return it to your flag to secure a point. Flag carrier must be boots on the ground to pick up and deliver the flag. A dropped flag can be recovered by picking it up and returning to your base or with close proximity to expedite the flag's despawn.",
+            "categoryId": 201,
+            "sid": "ID_ARRIVAL_CE_CAPTURE_THE_FLAG_DESC"
         },
         {
             "localizedText": "Hydrostatic",
@@ -3432,6 +3456,11 @@
             "sid": "ID_ARRIVAL_STORE_BUNDLE_E10_DESCRIPTION"
         },
         {
+            "localizedText": "DegreesToRadians",
+            "categoryId": 197,
+            "sid": "ID_ARRIVAL_BLOCK_DEGREESTORADIANS"
+        },
+        {
             "localizedText": "Tier 1",
             "categoryId": 197,
             "sid": "ID_COS_WEP_MG__LAMG_01_WSKIN0022"
@@ -3675,6 +3704,11 @@
             "localizedText": "Firestorm",
             "categoryId": 197,
             "sid": "ID_COS_VEH_AIRPLANE__CONDOR_01_VSKIN0195"
+        },
+        {
+            "localizedText": "Will disable the redeploy button in the spectating UI. This will prevent the player from manually spawning through the normal deploy flow. Can be used to make one life game modes or manually deploy through the rules editor.",
+            "categoryId": 201,
+            "sid": "ID_ARRIVAL_PORTAL_SPECTATING_DISABLE_REDEPLOY_DESC"
         },
         {
             "localizedText": "1UP",
@@ -4187,11 +4221,6 @@
             "sid": "ID_COS_PATRIA_VSKIN0290"
         },
         {
-            "localizedText": "Conquest transforms into a Pondhawk paradise. Equip your Grappling Hook, grab a handgun, and load out with C5 or your favorite rocket launcher \u2013 with infinite gadget ammo. If your Pondhawk isn't unlocked yet, hop on your squadmate's and join the Pondemonium.",
-            "categoryId": 201,
-            "sid": "ID_ARRIVAL_EXP_PONDHAWK_SUPERIORITY_DESC"
-        },
-        {
             "localizedText": "Spine & Blade",
             "categoryId": 197,
             "sid": "ID_STORE_TAG_S2_11_NAME"
@@ -4450,11 +4479,6 @@
             "localizedText": "Nordvik Issue",
             "categoryId": 197,
             "sid": "ID_COS_WEP_SIDEARM__GLOCK_17_01_WSKIN0217"
-        },
-        {
-            "localizedText": "Objectives Captured or Neutralized",
-            "categoryId": 197,
-            "sid": "ID_WEEKLY_S06W17L41_CRIT"
         },
         {
             "localizedText": "Carbon Series",
@@ -6512,6 +6536,11 @@
             "sid": "ID_COS_CSKIN_CAMO_NAVY_DIGICAMO_01_CD_LIMA_BODY"
         },
         {
+            "localizedText": "In Rush Chaos XL, destroy or defend your MCOMs with faster movement, bullets, equipment throwing, ten times the reinforcements, T-UGS and Prox Sensor gadgets disabled, and 128 players.",
+            "categoryId": 201,
+            "sid": "ID_ARRIVAL_PLAYSTYLE_RUSH_CHAOS_XL_GEN5_DESC"
+        },
+        {
             "localizedText": "Weapons need a warrior. Together, you become the perfect storm.",
             "categoryId": 201,
             "sid": "ID_ARRIVAL_STORE_BUNDLE_B3_DESCRIPTION"
@@ -7322,6 +7351,11 @@
             "sid": "ID_COS_VEH_ARMOREDCAR__PATRIA_01_VSKIN0273"
         },
         {
+            "localizedText": "Welcome to TDDM: the Dozer-only, Team Deathmatch experience with maximum movement speed and instantaneous redeploy. Armed only with your Ballistic Shield, eliminate the opposing team \u2013 the first team to bash their way to max kills wins.",
+            "categoryId": 201,
+            "sid": "ID_ARRIVAL_EXP_CHEAPER_BY_THE_DOZER_DESC"
+        },
+        {
             "localizedText": "7.62mm LMG",
             "categoryId": 197,
             "sid": "ID_VEHICLES_WEAPON_NAME_RWS_LMG"
@@ -7420,11 +7454,6 @@
             "localizedText": "TANK SUPERIORITY",
             "categoryId": 201,
             "sid": "ID_ARRIVAL_PRESET_TANK_SUPERIORITY"
-        },
-        {
-            "localizedText": "Headshot Kills",
-            "categoryId": 197,
-            "sid": "ID_WEEKLY_S06W17L33_CRIT"
         },
         {
             "localizedText": "Carbon Series",
@@ -8022,6 +8051,11 @@
             "sid": "ID_AWARD_HWUNLOCK_EMKV90_C2"
         },
         {
+            "localizedText": "Harmonic Balance",
+            "categoryId": 197,
+            "sid": "ID_COS_WEP_SHOTGUN__SUPERSHORTY_01_WSKIN0708"
+        },
+        {
             "localizedText": "Player",
             "categoryId": 197,
             "sid": "ID_ARRIVAL_MODBUILDER_OBJECT_PLAYER"
@@ -8607,11 +8641,6 @@
             "sid": "ID_ARRIVAL_PLAYSTYLE_S4_TE_W1_CRITERIA"
         },
         {
-            "localizedText": "Control & TDM",
-            "categoryId": 201,
-            "sid": "ID_ARRIVAL_PLAYSTYLE_CONTROL_TDM"
-        },
-        {
             "localizedText": "F/A-18",
             "categoryId": 198,
             "sid": "ID_MICA_CALLIN_FA18HORNET_NAME"
@@ -8795,11 +8824,6 @@
             "localizedText": "ForcePlayerExitVehicle",
             "categoryId": 197,
             "sid": "ID_ARRIVAL_BLOCK_FORCEPLAYEREXITVEHICLE"
-        },
-        {
-            "localizedText": "Enemies Killed at a Distance of 75m or More",
-            "categoryId": 197,
-            "sid": "ID_WEEKLY_S06W17L31_CRIT"
         },
         {
             "localizedText": "PER-SQUAD CHARACTER LIMIT",
@@ -9827,11 +9851,6 @@
             "sid": "ID_PLAYERCARD_NAME_BACKGROUND227"
         },
         {
-            "localizedText": "Teammates Healed or Resupplied",
-            "categoryId": 197,
-            "sid": "ID_WEEKLY_S06W17L12_CRIT"
-        },
-        {
             "localizedText": "Visited the Lumberyard on Battle of the Bulge",
             "categoryId": 197,
             "sid": "ID_AWARD_EXPLORATION_MICA_LVL01_C1"
@@ -9915,6 +9934,11 @@
             "localizedText": "250lb GP Bomb",
             "categoryId": 198,
             "sid": "ID_MICA_ABILITY_VEHICLE_SPITFIRE_BOMBS"
+        },
+        {
+            "localizedText": "1942 v 2042 | CONQUEST | 32 v 32",
+            "categoryId": 201,
+            "sid": "ID_ARRIVAL_PLAYSTYLE_1942VS2042"
         },
         {
             "localizedText": "Sidewinder",
@@ -10297,6 +10321,11 @@
             "sid": "ID_VEHICLES_WEAPON_NAME_RWS_30MM_AIR_THERMAL"
         },
         {
+            "localizedText": "Wood Dragon",
+            "categoryId": 197,
+            "sid": "ID_COS_DELTA_BODY_19"
+        },
+        {
             "localizedText": "ALL ERAS | TEAM DEATHMATCH | 16 v 16",
             "categoryId": 201,
             "sid": "ID_ARRIVAL_EXP_TDMOFAGES_MODE"
@@ -10467,6 +10496,11 @@
             "sid": "ID_HWPROG_VSS_BES_THERMAL_CRIT"
         },
         {
+            "localizedText": "Ceiling",
+            "categoryId": 197,
+            "sid": "ID_ARRIVAL_BLOCK_CEILING"
+        },
+        {
             "localizedText": "Involution",
             "categoryId": 197,
             "sid": "ID_COS_WEP_SIDEARM__ALIEN_01_WSKIN0610"
@@ -10565,6 +10599,11 @@
             "localizedText": "Kills with M5A3 from a distance of 80m",
             "categoryId": 197,
             "sid": "ID_HWPROG_SLXSPEAR_BES1_CRIT"
+        },
+        {
+            "localizedText": "Earn Ribbons in any official mode to unlock rewards",
+            "categoryId": 201,
+            "sid": "ID_ARRIVAL_PLAYSTYLE_RIBBON_OFFICIAL_MODE"
         },
         {
             "localizedText": "AAV-7A1 AMTRAC",
@@ -12682,6 +12721,11 @@
             "sid": "ID_WEAPONS_ATTACH_MUNITION_NAME_16"
         },
         {
+            "localizedText": "Can the best of 1942 take on technologically advanced soldiers from 2042? The 1942 soldiers have a secret to tip the balance, they're wearing \"special armor!\"",
+            "categoryId": 201,
+            "sid": "ID_ARRIVAL_EXP_1942V2042_CONQUEST_DESC"
+        },
+        {
             "localizedText": "Controls whether soldiers in a squad can revive other players in the squad, regardless of class or gadget.",
             "categoryId": 197,
             "sid": "ID_ARRIVAL_MUTATOR_BOOL_SQUADREVIVE_DESC"
@@ -13075,11 +13119,6 @@
             "localizedText": "Week 3 of 4",
             "categoryId": 201,
             "sid": "ID_ARRIVAL_PLAYSTYLE_WEEK3_4"
-        },
-        {
-            "localizedText": "Objective Ribbons Earned",
-            "categoryId": 197,
-            "sid": "ID_WEEKLY_S06W17L22_CRIT"
         },
         {
             "localizedText": "Rising Waters",
@@ -13795,6 +13834,11 @@
             "localizedText": "Carbon Series",
             "categoryId": 197,
             "sid": "ID_COS_WEP_RIFLE__NBR_1_01_WSKIN0079"
+        },
+        {
+            "localizedText": "Break through the bedlam in Breakthrough Chaos. Push or hold your objective with faster movement, redeploy, throw speed, vehicle call-ins, and 128 players.",
+            "categoryId": 201,
+            "sid": "ID_ARRIVAL_PLAYSTYLE_BREAKTHROUGH_CHAOS_GEN5_DESC"
         },
         {
             "localizedText": "Split Loyalties",
@@ -15892,11 +15936,6 @@
             "sid": "ID_ARRIVAL_MUTATOR_4119966672_ENTRY_2"
         },
         {
-            "localizedText": "Teammates Revived, Squad Revives Double Mission Progression",
-            "categoryId": 197,
-            "sid": "ID_WEEKLY_S06W17L21_CRIT"
-        },
-        {
             "localizedText": "Redemption",
             "categoryId": 197,
             "sid": "ID_PLAYERCARD_NAME_BACKGROUND235"
@@ -16442,6 +16481,11 @@
             "sid": "ID_COS_WEP_RIFLE_RAILGUN_01_WSKIN0380"
         },
         {
+            "localizedText": "The elves drank a bad batch of eggnog and are intoxicated with madness. Can the Santas outlast the elves and save the holidays before it\u2019s too late?",
+            "categoryId": 201,
+            "sid": "ID_ARRIVAL_EXP_ATTACKOFTHEELVES_DESC_2"
+        },
+        {
             "localizedText": "Subliminal",
             "categoryId": 197,
             "sid": "ID_COS_CSKIN_CAMO_GOLD_01__CD_KILO_HEAD"
@@ -16805,6 +16849,11 @@
             "localizedText": "12.7mm HMG Gun Pods",
             "categoryId": 197,
             "sid": "ID_VEHICLES_WEAPON_NAME_47_STEALTH_HELI_HMG"
+        },
+        {
+            "localizedText": "Curious Spirit",
+            "categoryId": 197,
+            "sid": "ID_COS_WCHARM0148"
         },
         {
             "localizedText": "Manipulator",
@@ -17252,6 +17301,11 @@
             "sid": "ID_ARRIVAL_MODBUILDER_EVENT_ONPLAYERDIED"
         },
         {
+            "localizedText": "Year of the Dragon",
+            "categoryId": 201,
+            "sid": "ID_ARRIVAL_PLAYSTYLE_LNY_DRAGON"
+        },
+        {
             "localizedText": "RPG-7",
             "categoryId": 198,
             "sid": "ID_MICA_ABILITY_RPG7"
@@ -17355,6 +17409,11 @@
             "localizedText": "And the Frog",
             "categoryId": 197,
             "sid": "ID_COS_WCHARM0114_BASE_01"
+        },
+        {
+            "localizedText": "Shutdown & TDM",
+            "categoryId": 201,
+            "sid": "ID_ARRIVAL_PLAYSTYLE_SHUTDOWN_TDM"
         },
         {
             "localizedText": "Kills with the Rorsch Mk-4",
@@ -17480,6 +17539,11 @@
             "localizedText": "Alias",
             "categoryId": 197,
             "sid": "ID_COS_TAURUS44_WSKIN0422"
+        },
+        {
+            "localizedText": "1942 VS 2042 CONQUEST",
+            "categoryId": 201,
+            "sid": "ID_ARRIVAL_EXP_1942V2042_CONQUEST"
         },
         {
             "localizedText": "Prox Sensor",
@@ -17622,6 +17686,11 @@
             "sid": "ID_COS_CSKIN_CAMO_NAVY_DIGICAMO_01_CD_CHARLIE_BODY"
         },
         {
+            "localizedText": "In Rush Chaos XL, destroy or defend your MCOMs with faster movement, bullets, equipment throwing, five times the reinforcements, T-UGS and Prox Sensor gadgets disabled, and 64 players.",
+            "categoryId": 201,
+            "sid": "ID_ARRIVAL_PLAYSTYLE_RUSH_CHAOS_XL_GEN4_DESC"
+        },
+        {
             "localizedText": "SPRINT",
             "categoryId": 197,
             "sid": "ID_ARRIVAL_MUTATOR_BOOL_SPRINTALLOWED"
@@ -17735,6 +17804,11 @@
             "localizedText": "Project Silver Spear is in its final phase. Fight to make it a reality and usher in the birth of a new No-Pat future.",
             "categoryId": 201,
             "sid": "ID_ARRIVAL_STORE_BUNDLE_DESCRIPTION_SLS15"
+        },
+        {
+            "localizedText": "Cheaper By the Dozer",
+            "categoryId": 201,
+            "sid": "ID_ARRIVAL_EXP_CHEAPER_BY_THE_DOZER"
         },
         {
             "localizedText": "M18 Claymore Mastery",
@@ -18645,11 +18719,6 @@
             "localizedText": "Carbon Series",
             "categoryId": 197,
             "sid": "ID_COS_WEP_SNIPERRIFLE__KELTEC_CMR30_01_WSKIN0098"
-        },
-        {
-            "localizedText": "Distance Travelled in a Vehicle (km)",
-            "categoryId": 197,
-            "sid": "ID_WEEKLY_S06W17L13_CRIT"
         },
         {
             "localizedText": "Raider",
@@ -19927,11 +19996,6 @@
             "sid": "ID_ARRIVAL_SERVERTAG_NO_HUD_DESC"
         },
         {
-            "localizedText": "Kills and Revives",
-            "categoryId": 197,
-            "sid": "ID_WEEKLY_S06W17L11_CRIT"
-        },
-        {
             "localizedText": "Capture, Defend, Hold",
             "categoryId": 197,
             "sid": "ID_AWARD_RIBBON_BT_OBJECTIVE_CRIT"
@@ -20632,6 +20696,11 @@
             "sid": "ID_COS_CSKIN_CAMO_JUNGLESNIPER_01__CD_LIMA_BODY"
         },
         {
+            "localizedText": "Week 2 of 2",
+            "categoryId": 201,
+            "sid": "ID_ARRIVAL_PLAYSTYLE_WEEK2_2"
+        },
+        {
             "localizedText": "Kills, Assists, and Vehicles Destroyed with the M1A5",
             "categoryId": 197,
             "sid": "ID_HWPROG_ABRAMS_BASE_CRIT"
@@ -21230,6 +21299,11 @@
             "localizedText": "Pathfinder",
             "categoryId": 197,
             "sid": "ID_COS_VEH_ARMOREDCAR__JAGUAR_EBRC_01_VSKIN0058"
+        },
+        {
+            "localizedText": "SQUAD SPECTATING",
+            "categoryId": 201,
+            "sid": "ID_ARRIVAL_PORTAL_SQUAD_SPECTATING"
         },
         {
             "localizedText": "3937 Vodnik",
@@ -22027,6 +22101,11 @@
             "sid": "ID_COS_VEH_AMPHIBIOUS__FNSS_ZAHA_01_VSKIN0088"
         },
         {
+            "localizedText": "Floor",
+            "categoryId": 197,
+            "sid": "ID_ARRIVAL_BLOCK_FLOOR"
+        },
+        {
             "localizedText": "Ballista",
             "categoryId": 197,
             "sid": "ID_COS_WEP_SMG__SMG_45_01_WSKIN0130"
@@ -22447,6 +22526,11 @@
             "sid": "ID_COS_DELTA_SINGLEHEAD__01"
         },
         {
+            "localizedText": "Community Experience - Capture the Flag",
+            "categoryId": 201,
+            "sid": "ID_ARRIVAL_CE_CAPTURE_THE_FLAG"
+        },
+        {
             "localizedText": "On Demand",
             "categoryId": 197,
             "sid": "ID_COS_WEP_SIDEARM__P320_MP17_01_WSKIN0140"
@@ -22480,6 +22564,11 @@
             "localizedText": "Hexmesh Triweave",
             "categoryId": 197,
             "sid": "ID_COS_CSKIN_CAMO_MASTERY_01_CD_KILO_HEAD"
+        },
+        {
+            "localizedText": "Lunar New Year",
+            "categoryId": 201,
+            "sid": "ID_ARRIVAL_PLAYSTYLE_LNY"
         },
         {
             "localizedText": "NVK-BOX",
@@ -22680,6 +22769,11 @@
             "localizedText": "Happy Holidays from the Battlefield 2042 team",
             "categoryId": 201,
             "sid": "ID_ARRIVAL_HOLIDAY_THANKS_MESSAGE"
+        },
+        {
+            "localizedText": "RadiansToDegrees",
+            "categoryId": 197,
+            "sid": "ID_ARRIVAL_BLOCK_RADIANSTODEGREES"
         },
         {
             "localizedText": "Battle of the Bulge: Windmill",
@@ -23832,11 +23926,6 @@
             "sid": "ID_HWPROG_NVKP125_BASE_CRIT"
         },
         {
-            "localizedText": "Enemies Spotted and Spot Assists",
-            "categoryId": 197,
-            "sid": "ID_WEEKLY_S06W17L23_CRIT"
-        },
-        {
             "localizedText": "Mastery Earned with the Med-Pen",
             "categoryId": 197,
             "sid": "ID_BADGE_MASTERY_SELFHEAL_T1_CRIT"
@@ -23850,6 +23939,11 @@
             "localizedText": "Resupply",
             "categoryId": 197,
             "sid": "ID_ARRIVAL_BLOCK_RESUPPLY"
+        },
+        {
+            "localizedText": "Year of the Dragon",
+            "categoryId": 201,
+            "sid": "ID_ARRIVAL_STORE_BUNDLE_TITLE_E37"
         },
         {
             "localizedText": "SLIDE",
@@ -24180,6 +24274,11 @@
             "localizedText": "MCS-880",
             "categoryId": 197,
             "sid": "ID_ABILITY_REMINGTON"
+        },
+        {
+            "localizedText": "Week 1 of 2",
+            "categoryId": 201,
+            "sid": "ID_ARRIVAL_PLAYSTYLE_WEEK1_2"
         },
         {
             "localizedText": "Damage Inflicted with Throwables",
@@ -25407,6 +25506,11 @@
             "sid": "ID_COS_CSKIN_CAMO_RISINGWATERS_01__CD_ALPHA_BODY"
         },
         {
+            "localizedText": "Pi",
+            "categoryId": 197,
+            "sid": "ID_ARRIVAL_BLOCK_PI"
+        },
+        {
             "localizedText": "Binoculars",
             "categoryId": 198,
             "sid": "ID_MICA_ABILITY_BINOCULARS"
@@ -25952,6 +26056,11 @@
             "sid": "ID_GAMEMODE_HAZARDZONE_DATADRIVE_DROP"
         },
         {
+            "localizedText": "Ambitious Outlook",
+            "categoryId": 197,
+            "sid": "ID_PLAYERCARD_TAG_NAME_S6_3_01"
+        },
+        {
             "localizedText": "Noobmaster",
             "categoryId": 197,
             "sid": "ID_COS_CAMO_MARCOM_01_CD_LIMA_HEAD"
@@ -26102,11 +26211,6 @@
             "sid": "ID_LVL_KALEIDOSCOPE_NAME"
         },
         {
-            "localizedText": "Rounds Played",
-            "categoryId": 197,
-            "sid": "ID_WEEKLY_S06W17L32_CRIT"
-        },
-        {
             "localizedText": "Stationary Machine Gun Emplacements",
             "categoryId": 201,
             "sid": "ID_ARRIVAL_CATEGORIZATIONTAG_NAME_STATIONARYMACHINEGUN"
@@ -26210,6 +26314,11 @@
             "localizedText": "Tier 1",
             "categoryId": 197,
             "sid": "ID_COS_OSCAR_BODY_02"
+        },
+        {
+            "localizedText": "Enables spectating on squad members once a player dies. ",
+            "categoryId": 201,
+            "sid": "ID_ARRIVAL_PORTAL_SQUAD_SPECTATING_DESC"
         },
         {
             "localizedText": "Tier 1",
@@ -26432,6 +26541,11 @@
             "sid": "ID_ABILITY_COBRAR9"
         },
         {
+            "localizedText": "2042 | TEAM DEATHMATCH | 12 v 12",
+            "categoryId": 201,
+            "sid": "ID_ARRIVAL_EXP_2042_TDM_12V12"
+        },
+        {
             "localizedText": "GAME TIME",
             "categoryId": 201,
             "sid": "ID_ARRIVAL_MUTATOR_INT_BREAKTHROUGHMODETIME"
@@ -26505,6 +26619,11 @@
             "localizedText": "Kills, Assists, and teammates Spawned with the MAV",
             "categoryId": 197,
             "sid": "ID_HWPROG_FNSSZAHA_BASE_CRIT"
+        },
+        {
+            "localizedText": "SQUID G'S CHAOS",
+            "categoryId": 201,
+            "sid": "ID_ARRIVAL_PLAYSTYLE_SQUIDG"
         },
         {
             "localizedText": "Variable",
@@ -26780,6 +26899,12 @@
             "localizedText": "Exit Strategy",
             "categoryId": 197,
             "sid": "ID_COS_VEH_HELICOPTER__LITTLEBIRD_01_VSKIN0033"
+        }
+    ],
+    "timestamp": [
+        {
+            "seconds": 1706525193,
+            "nanos": null
         }
     ]
 }
