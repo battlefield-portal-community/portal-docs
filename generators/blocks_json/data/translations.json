@@ -1,7 +1,7 @@
 {
     "timestamp": [
         {
-            "seconds": 1706607472,
+            "seconds": 1707127549,
             "nanos": null
         }
     ],
@@ -14493,11 +14493,6 @@
         },
         {
             "categoryId": 197,
-            "sid": "ID_COS_KILO_HEAD_04",
-            "localizedText": "Distant Mirage"
-        },
-        {
-            "categoryId": 197,
             "sid": "ID_HWPROG_ABRAMS_T14_BES4_CRIT",
             "localizedText": "Kills with the M1A5 or T28"
         },
@@ -14510,6 +14505,11 @@
             "categoryId": 197,
             "sid": "ID_COS_VEH_HELICOPTER__MI24_01_VSKIN0229",
             "localizedText": "Rapid Array"
+        },
+        {
+            "categoryId": 197,
+            "sid": "ID_COS_KILO_HEAD_04",
+            "localizedText": "Distant Mirage"
         },
         {
             "categoryId": 197,
@@ -15208,11 +15208,6 @@
         },
         {
             "categoryId": 197,
-            "sid": "ID_ARRIVAL_BLOCK_GETREMAININGFUSETIME",
-            "localizedText": "GetRemainingFuseTime"
-        },
-        {
-            "categoryId": 197,
             "sid": "ID_COS_INDIA_03",
             "localizedText": "Tier 1"
         },
@@ -15225,6 +15220,11 @@
             "categoryId": 197,
             "sid": "ID_COS_WCHARM0065_BASE_01",
             "localizedText": "Sanitized"
+        },
+        {
+            "categoryId": 197,
+            "sid": "ID_ARRIVAL_BLOCK_GETREMAININGFUSETIME",
+            "localizedText": "GetRemainingFuseTime"
         },
         {
             "categoryId": 197,
