@@ -189,3 +189,94 @@ Links:
 Authors:
 
 - [p0lygun](https://github.com/p0lygun)
+
+<details>
+  <summary>Example plugin-manager-config entry of local browser storage</summary>
+  ```
+  {
+  "plugins": [
+    {
+      "enabled": true,
+      "baseUrl": "https://the0zzy.github.io/bf2042-portal-github-plugin",
+      "manifestUrl": "https://the0zzy.github.io/bf2042-portal-github-plugin/manifest.json",
+      "manifest": {
+        "id": "bf2042-portal-github-plugin",
+        "name": "GitHub Integration",
+        "version": "1.1.0",
+        "author": "TheOzzy",
+        "main": "index.js",
+        "homepage": "https://the0zzy.github.io/bf2042-portal-github-plugin/",
+        "description": "This plugin adds integration features for GitHub repositories"
+      }
+    },
+    {
+      "enabled": true,
+      "baseUrl": "https://the0zzy.github.io/bf2042-portal-snippet-plugin",
+      "manifestUrl": "https://the0zzy.github.io/bf2042-portal-snippet-plugin/manifest.json",
+      "manifest": {
+        "id": "bf2042-portal-snippet-plugin",
+        "name": "Snippets",
+        "version": "1.3.1",
+        "homepage": "https://the0zzy.github.io/bf2042-portal-snippet-plugin/",
+        "description": "Insert snippets of blocks to your portal workspace",
+        "author": "TheOzzy",
+        "main": "index.js"
+      }
+    },
+    {
+      "enabled": true,
+      "baseUrl": "https://the0zzy.github.io/bf2042-portal-navigation-plugin",
+      "manifestUrl": "https://the0zzy.github.io/bf2042-portal-navigation-plugin/manifest.json",
+      "manifest": {
+        "id": "bf2042-portal-navigation-plugin",
+        "name": "Navigation Helper Plugin",
+        "version": "1.1.1",
+        "homepage": "https://the0zzy.github.io/bf2042-portal-navigation-plugin/",
+        "description": "Extends the navigation features of the rules editor",
+        "author": "TheOzzy",
+        "main": "index.js"
+      }
+    },
+    {
+      "enabled": true,
+      "baseUrl": "https://bf2042-portal-extensions.lennardf1989.com/plugins/dark-context-menu",
+      "manifestUrl": "https://bf2042-portal-extensions.lennardf1989.com/plugins/dark-context-menu/manifest.json",
+      "manifest": {
+        "id": "dark-context-menu",
+        "name": "Dark Context Menu",
+        "version": "1.0.0",
+        "description": "Turn the context menu dark",
+        "author": "LennardF1989",
+        "main": "index.js"
+      }
+    },
+    {
+      "enabled": true,
+      "baseUrl": "https://andy6170.github.io/Dark-Red-Variable-Theme",
+      "manifestUrl": "https://andy6170.github.io/Dark-Red-Variable-Theme/manifest.json",
+      "manifest": {
+        "id": "red-variables",
+        "name": "Dark Red Variables",
+        "version": "1.1.0",
+        "description": "Dark Red Variables",
+        "author": "Gambit - Edited by andy6170",
+        "main": "index.js"
+      }
+    },
+    {
+      "enabled": true,
+      "baseUrl": "https://bf2042-portal-extensions.lennardf1989.com/plugins/control-blocks-outline",
+      "manifestUrl": "https://bf2042-portal-extensions.lennardf1989.com/plugins/control-blocks-outline/manifest.json",
+      "manifest": {
+        "id": "control-blocks-outline",
+        "name": "Control Blocks Outline",
+        "version": "1.0.0",
+        "description": "Add an outline with a darker shade of purple to control blocks",
+        "author": "LennardF1989",
+        "main": "index.js"
+      }
+    }
+  ]
+  }
+  ```
+</details>
