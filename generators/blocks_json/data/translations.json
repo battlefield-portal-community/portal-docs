@@ -2,7 +2,7 @@
     "timestamp": [
         {
             "nanos": null,
-            "seconds": 1710352367
+            "seconds": 1710429124
         }
     ],
     "localizedTexts": [
@@ -1332,11 +1332,6 @@
             "sid": "ID_COS_VEHDEC_132"
         },
         {
-            "localizedText": "Night Flight",
-            "categoryId": 197,
-            "sid": "ID_PLAYERCARD_NAME_BACKGROUND098"
-        },
-        {
             "localizedText": "SetInventoryAmmo",
             "categoryId": 197,
             "sid": "ID_ARRIVAL_BLOCK_SETINVENTORYAMMO"
@@ -1350,6 +1345,11 @@
             "localizedText": "Forsaken Sands",
             "categoryId": 201,
             "sid": "ID_ARRIVAL_STORE_BUNDLE_TITLE_E8"
+        },
+        {
+            "localizedText": "Night Flight",
+            "categoryId": 197,
+            "sid": "ID_PLAYERCARD_NAME_BACKGROUND098"
         },
         {
             "localizedText": "Rising Storm",
