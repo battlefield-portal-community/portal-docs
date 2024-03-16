@@ -10,9 +10,16 @@ weight: 20
 
 # Fundamentals
 
-## What is a gameloop and tickrate?
+## What is a game update-loop and tickrate?
 
-Almost every game uses a so-called "Game-Loop" with a certain "tickrate".
+Who could explain it best than an actual Battlefield Developer?
+Darko Supe explains it in the following video very well and extensively.
+
+**_If you want a short version continue reading down below._**
+
+{{< youtube VzrSy1Z9cGs >}}
+
+Almost every game uses a so-called **"Game/Update-Loop"** with a certain **"tickrate"**.
 This loop contains several crucial actions that need to run frequently during a game.
 
 For example these actions are (not accurate, but an abstraction):
@@ -44,7 +51,7 @@ The rules are evaluated in sequential (one after another) order within the mod-b
 - **Ongoing**  
   Ongoing **RULE** types continually check if their **CONDITIONs** have become **_True_**.  
   If so, the **ACTIONS** will be executed once.  
-  In order for the **RULE** to execute again, the **CONDITIONs** must become **_False_** before becoming **_True_** again.  
+  In order for the **RULE** to execute again, the **CONDITIONs** must become **_False_** before becoming **_True_** again.
 - **Single-Event**  
   Single-Events are pre-defined events like the following:
   - OnPlayerDied
@@ -57,11 +64,11 @@ Every rule has a certain context it runs in.
 
 The available contexts are:
 
-- **Global**  
-- **Player**  
-- **Team**  
-- **Vehicle**  
-- **CapturePoint** 
+- **Global**
+- **Player**
+- **Team**
+- **Vehicle**
+- **CapturePoint**
 - **MCOM**
 
 This is useful as you can use certain payloads of the event and only write the conditions and actions once, but it will be executed for every object of the context.
@@ -71,10 +78,10 @@ Whereas a rule in the global context is only evaluated once for the global game 
 
 ## Event Payloads
 
-Within the **Player** and **Team** contexts, payload value blocks, such as **EventPlayer** and **EventTeam**, 
+Within the **Player** and **Team** contexts, payload value blocks, such as **EventPlayer** and **EventTeam**,
 can be used to refer to the specific **Player** or **Team** within the **EVENT**
 
-E.g. the rule for the event **OnPlayerEarnedKill** in the _player_ **_context_**, which will trigger when a 
+E.g. the rule for the event **OnPlayerEarnedKill** in the _player_ **_context_**, which will trigger when a
 **Player** earns a kill against another **Player** holds the following event-_Payloads_:
 
 - **EventPlayer** (Killer)
