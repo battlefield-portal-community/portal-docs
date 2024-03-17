@@ -32,7 +32,7 @@ For example these actions are (not accurate, but an abstraction):
 - rendering the current game-state on your screen
 
 The frequency by which this loop and its actions are running, is the so-called tickrate and is measured in hertz (actions/ticks per second).
-Battlefield Portal servers have a tickrate of 40hz on PC and latest consoles. For old consoles the tickrate is only 20hz.
+Battlefield Portal servers have a tickrate of 45hz on PC and latest consoles. For old consoles the tickrate is only 25hz.
 
 ## Rules and Tickrate
 
