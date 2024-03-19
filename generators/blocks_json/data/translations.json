@@ -1,4 +1,10 @@
 {
+    "timestamp": [
+        {
+            "nanos": null,
+            "seconds": 1710505923
+        }
+    ],
     "localizedTexts": [
         {
             "localizedText": "Go on a world tour of Conquest and Rush across multiple 2042, BF3, BC2, and 1942 maps.",
@@ -16181,11 +16187,6 @@
             "categoryId": 197
         },
         {
-            "localizedText": "Hit hard and hit fast. An elite and well-armored team can take control and keep it.",
-            "sid": "ID_ARRIVAL_STORE_BUNDLE_E9_DESCRIPTION",
-            "categoryId": 201
-        },
-        {
             "localizedText": "Under the Ascension satellite network, the elite Arkangel Legion can break any deadlock. In Control, take and hold rotating objectives to upload tactical telemetry. Collect the most telemetry to command the region, and earn Ascension Points to purchase vehicles.\n\nExecute the Directive. Achieve control.",
             "sid": "ID_ARRIVAL_PLAYSTYLE_TAD_CONTROL_DESC",
             "categoryId": 201
@@ -16204,6 +16205,11 @@
             "localizedText": "20mm Cannon",
             "sid": "ID_MICA_ABILITY_VEHICLE_20MM_GATLING",
             "categoryId": 198
+        },
+        {
+            "localizedText": "Hit hard and hit fast. An elite and well-armored team can take control and keep it.",
+            "sid": "ID_ARRIVAL_STORE_BUNDLE_E9_DESCRIPTION",
+            "categoryId": 201
         },
         {
             "localizedText": "When AOS, the Boreas artificial intelligence, hijacks communication centers around the world, Ascension Company is sent in to shut it down.\n\nIn Killswitch, secure AI nodes and use the Forge on site to create a swarm of synthetic soldiers. Defend your objectives, survive the onslaught, and stop the AI's spread. Complete the protocol: this is a test you can't afford to fail.",
@@ -27604,12 +27610,6 @@
             "localizedText": "Exit Strategy",
             "sid": "ID_COS_VEH_HELICOPTER__LITTLEBIRD_01_VSKIN0033",
             "categoryId": 197
-        }
-    ],
-    "timestamp": [
-        {
-            "nanos": null,
-            "seconds": 1710505923
         }
     ]
 }
