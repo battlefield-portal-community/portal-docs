@@ -68,12 +68,8 @@ main:
           - name: Basics
             ref: "/portal-builder/rules-editor/basics"
             sub:
-              - name: The Game Loop
-                ref: "/portal-builder/rules-editor/basics/game-loop"
               - name: Rules
                 ref: "/portal-builder/rules-editor/basics/rules"
-              - name: Conditions
-                ref: "/portal-builder/rules-editor/basics/conditions"
               - name: Variables
                 ref: "/portal-builder/rules-editor/basics/variables"
               - name: Block Types
