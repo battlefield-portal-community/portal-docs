@@ -8652,6 +8652,11 @@
         },
         {
             "categoryId": 201,
+            "sid": "ID_ARRIVAL_PLAYSTYLE_HAVEN_247",
+            "localizedText": "Haven 24/7"
+        },
+        {
+            "categoryId": 201,
             "sid": "ID_ARRIVAL_PLAYSTYLE_CONQUEST_ELEVENTHHOUR_WEATHER_DESC",
             "localizedText": "Conquest on Flashpoint and Discarded. Make your mark on the world, and fight on the maps that helped define Season 4. Chance of extreme weather events is increased in this mode."
         },
@@ -27609,7 +27614,7 @@
     "timestamp": [
         {
             "nanos": null,
-            "seconds": 1711117243
+            "seconds": 1711447653
         }
     ]
 }
