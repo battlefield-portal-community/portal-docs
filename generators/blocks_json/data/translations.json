@@ -1,4 +1,10 @@
 {
+    "timestamp": [
+        {
+            "nanos": null,
+            "seconds": 1712074398
+        }
+    ],
     "localizedTexts": [
         {
             "categoryId": 201,
@@ -20977,13 +20983,13 @@
         },
         {
             "categoryId": 197,
-            "localizedText": "Kills, Assists, and Vehicles Destroyed with the YG-99 Hannibal",
-            "sid": "ID_HWPROG_HANNIBAL_BASE_CRIT"
+            "localizedText": "Clean Tread",
+            "sid": "ID_COS_VEH_TANK__T14_ARMATA_01_VSKIN0105"
         },
         {
             "categoryId": 197,
-            "localizedText": "Clean Tread",
-            "sid": "ID_COS_VEH_TANK__T14_ARMATA_01_VSKIN0105"
+            "localizedText": "Kills, Assists, and Vehicles Destroyed with the YG-99 Hannibal",
+            "sid": "ID_HWPROG_HANNIBAL_BASE_CRIT"
         },
         {
             "categoryId": 197,
@@ -27604,12 +27610,6 @@
             "categoryId": 197,
             "localizedText": "Exit Strategy",
             "sid": "ID_COS_VEH_HELICOPTER__LITTLEBIRD_01_VSKIN0033"
-        }
-    ],
-    "timestamp": [
-        {
-            "nanos": null,
-            "seconds": 1712074398
         }
     ]
 }
