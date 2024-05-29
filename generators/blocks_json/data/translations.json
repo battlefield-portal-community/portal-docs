@@ -14876,11 +14876,6 @@
             "categoryId": 197
         },
         {
-            "localizedText": "Battlefest",
-            "sid": "ID_PLAYERCARD_TAG_NAME_S4_25",
-            "categoryId": 197
-        },
-        {
             "localizedText": "Axis Faction",
             "sid": "ID_ARRIVAL_CATEGORIZATIONTAG_NAME_FACTIONAXIS",
             "categoryId": 201
@@ -14903,6 +14898,11 @@
         {
             "localizedText": "Solenoid",
             "sid": "ID_COS_CSKIN_CAMO_SOLENOID_01__CD_ALPHA_HEAD",
+            "categoryId": 197
+        },
+        {
+            "localizedText": "Battlefest",
+            "sid": "ID_PLAYERCARD_TAG_NAME_S4_25",
             "categoryId": 197
         },
         {
@@ -15546,11 +15546,6 @@
             "categoryId": 201
         },
         {
-            "localizedText": "Anaconda",
-            "sid": "ID_COS_HOTEL_HEAD_19",
-            "categoryId": 197
-        },
-        {
             "localizedText": "The battle of Nordvik was only the beginning. Follow the violent feud between the Nordvik Control Corps and Black Storm as they face off on battlefields around the globe.\n\nBreakthrough Chaos is the classic Breakthrough experience with faster movement, redeploy, throw speed, vehicle call-ins, and 128 players. In a word: chaotic.",
             "sid": "ID_ARRIVAL_PLAYSTYLE_REDUX_W4_GEN5",
             "categoryId": 201
@@ -15568,6 +15563,11 @@
         {
             "localizedText": "Kills and Vehicles Destroyed with the SFAR-M GL",
             "sid": "ID_HWPROG_SCARH_BASE_CRIT",
+            "categoryId": 197
+        },
+        {
+            "localizedText": "Anaconda",
+            "sid": "ID_COS_HOTEL_HEAD_19",
             "categoryId": 197
         },
         {
@@ -28454,7 +28454,7 @@
     "timestamp": [
         {
             "nanos": null,
-            "seconds": 1716457438
+            "seconds": 1716898111
         }
     ]
 }
