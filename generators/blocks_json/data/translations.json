@@ -1,10 +1,4 @@
 {
-    "timestamp": [
-        {
-            "nanos": null,
-            "seconds": 1721721251
-        }
-    ],
     "localizedTexts": [
         {
             "categoryId": 201,
@@ -29105,6 +29099,12 @@
             "categoryId": 197,
             "localizedText": "Exit Strategy",
             "sid": "ID_COS_VEH_HELICOPTER__LITTLEBIRD_01_VSKIN0033"
+        }
+    ],
+    "timestamp": [
+        {
+            "nanos": null,
+            "seconds": 1721721251
         }
     ]
 }
