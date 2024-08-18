@@ -2,8 +2,8 @@
 
 if [ "$CF_PAGES_BRANCH" == "main" ]; then
 
-  poetry run gen-docs && hugo --themesDir hugo/themes --logLevel info
+  poetry run gen-docs && hugo --logLevel info
 
 else
-  hugo --themesDir hugo/themes --logLevel info
+  hugo --logLevel info
 fi
