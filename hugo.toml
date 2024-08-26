@@ -1,5 +1,6 @@
 baseURL = "https://docs.bfportal.gg/"
-languageCode = 'en-us'
+languageCode = "en-us"
+themesDir = "hugo/themes"
 theme = "hugo-geekdoc"
 title = "Portal Documentation"
 

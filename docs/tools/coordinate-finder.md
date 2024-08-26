@@ -8,8 +8,11 @@ weight: 20
 
 {{< toc >}}
 
-# Work in Progress
+There is a tool to collect the coordinates of certain points of interest on a map, so you don't have to jump in game to get them.
 
-{{< hint type=note >}}
-Work in progress... Check back later!
-{{< /hint >}}
+The tool can be found here:  
+[Coordinate Finder](https://andy6170.github.io/BFCoordinateFinder/)
+
+Tutorial on how to use the Coordinate Finder:
+
+{{< youtube 4o5wVdihymg >}}
