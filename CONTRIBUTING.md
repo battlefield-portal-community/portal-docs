@@ -31,36 +31,41 @@ The **docs** are also split into two parts:
 
 ## Contributing to the docs
 
-To contribute to the docs to need to:
+### Local environment setup
 
-- Setup hugo on your machine, you can follow the [official guide](https://gohugo.io/installation/)
-- Clone this repo (requires [git](https://git-scm.com/))
+- Setup `hugo` on your machine, you can follow the [official guide](https://gohugo.io/installation/)
+- Clone this repository (requires [git](https://git-scm.com/))
+  
   ```shell
   git clone https://github.com/battlefield-portal-community/portal-docs
   ```
-- Change directory to the `hugo` folder and run
+
+- Change directory to the root directory of the cloned repository and run
+  
   ```shell
    hugo server -D
   ```
-- Now depending on the type of doc you want to contribute to:
-- If you want to contribute to the
 
-  - ### Hand written Docs
+### Contribute to hand written docs
 
-    - If You want to add a new tutorial/guide run,
-      ```shell
-      hugo new content [guide|tutorial]/<name_of_tutorial_or_guide>
-      ```
-    - then you should be able to find the file in **`docs/[guides|tutorials]/<name_of_tutorial_or_guide>/_index.md`**
+- If You want to add a new tutorial/guide run,
 
-  - ### Portal Blocks Documentation
-    - If you wish to add extra information to the portal blocks documentation
-    - In **`docs/portal_blocks/`** Find the block which you want to add information to.
-    - In that folder You will see two things.
-      - `index.md` which is the root of the block documentation
-      - A folder called `docs` which contains the documentation for the block
-    - In the Docs folder find/create a file called `extra.md` and add the extra information there.
+```shell
+hugo new content [guide|tutorial]/<name_of_tutorial_or_guide>
+```
+
+- then you should be able to find the file in **`docs/[guides|tutorials]/<name_of_tutorial_or_guide>/_index.md`**
+
+### Contribute to Portal Blocks Documentation
+
+- If you wish to add extra information to the portal blocks documentation
+- In **`docs/portal_blocks/`** Find the block which you want to add information to.
+- In that folder You will see two things.
+  - `index.md` which is the root of the block documentation
+  - A folder called `docs` which contains the documentation for the block
+    - In the `docs` folder find/create a file called `extra.md` and add the extra information there.
     - All the new information will be added to the bottom of the block documentation page.
+- The code which generates the block documentation structure can be found at `/generators`
 
 ## TODOs (PRs welcome :D )
 

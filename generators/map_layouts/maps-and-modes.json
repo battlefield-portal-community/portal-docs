@@ -18,7 +18,9 @@
     "Spearhead",
     "Flashpoint",
     "Reclaimed",
-    "Redacted"
+    "Redacted",
+    "Haven",
+    "Stadium"
   ],
   "sizes": ["small", "medium", "large"],
   "modes": {
