@@ -13,18 +13,18 @@ packages = [
 [tool.poetry.dependencies]
 python = "^3.11"
 loguru = "^0.7.0"
-python-box = "^7.0.1"
-selenium = "^4.11.2"
-webdriver-manager = "^4.0.0"
+python-box = "^7.2.0"
+selenium = "^4.24.0"
+webdriver-manager = "^4.0.2"
 grequests = "^0.7.0"
-python-dotenv = "^1.0.0"
-requests = "^2.31.0"
-isort = "^5.12.0"
-black = "^23.9.1"
+python-dotenv = "^1.0.1"
+requests = "^2.32.3"
+isort = "^5.13.2"
+black = "^23.12.1"
 
 
 [tool.poetry.group.dev.dependencies]
-aiohttp = "^3.8.5"
+aiohttp = "^3.10.5"
 
 [tool.poetry.scripts]
 gen-docs =        "generators.blocks_documentation.__main__:generate"
