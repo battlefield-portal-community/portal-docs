@@ -44,7 +44,7 @@ def get_block_names():
         logger.debug("Running in detach mode")
         chrome_options.add_experimental_option("detach", True)
         chrome_options.add_argument("user-data-dir=/tmp/selenium")
-        chrome_options.binary_location = "/usr/bin/chromium"
+        # chrome_options.binary_location = "/home/gala/.wdm/drivers/chromedriver/linux64/128.0.6613.86/chromedriver-linux64/chromedriver"
 
     driver = webdriver.Chrome(service=chrome_service, options=chrome_options)
 
@@ -73,11 +73,18 @@ def get_block_names():
     except (TimeoutException, ProductionEnvironment):
         try:
             logger.debug("Not logged in....")
+            COOKIE_DOMAIN = "accounts.ea.com"
+            COOKIE_PATH = "/connect"
             driver.get(
-                "https://accounts.ea.com"
+                f"https://{COOKIE_DOMAIN}{COOKIE_PATH}"
             )  # needed as selenium only sets cookies for a domain when on it
-            driver.add_cookie({"name": "remid", "value": os.getenv("REMID")})
-            driver.add_cookie({"name": "sid", "value": os.getenv("SID")})
+            for cookie_name in ["remid", "sid"]:
+                driver.add_cookie({
+                    "name": cookie_name,
+                    "value": os.getenv(cookie_name.upper()),
+                    "path": COOKIE_PATH,
+                    "domain": COOKIE_DOMAIN,
+                })
             driver.get("https://portal.battlefield.com/login")
             try:
                 logger.debug("Waiting for playground to load")
