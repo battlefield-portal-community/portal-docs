@@ -44,7 +44,6 @@ def get_block_names():
         logger.debug("Running in detach mode")
         chrome_options.add_experimental_option("detach", True)
         chrome_options.add_argument("user-data-dir=/tmp/selenium")
-        # chrome_options.binary_location = "/home/gala/.wdm/drivers/chromedriver/linux64/128.0.6613.86/chromedriver-linux64/chromedriver"
 
     driver = webdriver.Chrome(service=chrome_service, options=chrome_options)
 
