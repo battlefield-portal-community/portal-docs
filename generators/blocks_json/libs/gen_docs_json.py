@@ -72,7 +72,7 @@ def gen_json():
     with open(config.DATA_DIR / "translations.json") as file:
         translations = json.load(file)["localizedTexts"]
 
-    logger.debug("Generate Mapping")
+    logger.info("Generate Mapping")
     for item in translations:
         mapped_translations[item["sid"]] = item["localizedText"]
 

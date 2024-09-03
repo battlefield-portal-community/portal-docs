@@ -68,10 +68,10 @@ def get_block_names():
             web_driver_wait(By.CLASS_NAME, "blocklyWorkspace", 10)
         else:
             raise ProductionEnvironment
-        logger.debug("Already Logged in 😃")
+        logger.info("Already Logged in 😃")
     except (TimeoutException, ProductionEnvironment):
         try:
-            logger.debug("Not logged in....")
+            logger.info("Not logged in....")
             COOKIE_DOMAIN = "accounts.ea.com"
             COOKIE_PATH = "/connect"
             driver.get(
@@ -92,7 +92,7 @@ def get_block_names():
                 )
                 logger.debug(f"at {driver.current_url}")
                 web_driver_wait(By.CLASS_NAME, "blocklyWorkspace")
-                logger.debug("Login Successful")
+                logger.info("Login Successful")
             except TimeoutException:
                 logger.debug("Login failed...Info was set")
                 raise
@@ -111,7 +111,7 @@ def get_block_names():
     time.sleep(5)
     blocks = {"blocks": ""}
     data = driver.execute_script("return _Blockly.Blocks")
-    logger.debug(f"got {len(data)} blocks")
+    logger.info(f"got {len(data)} blocks")
     with open(config.DATA_DIR / "enabled_blocks.json", "w") as json_file:
         bad_blocks = [
             # this is the "Control" flow group not the actual If block that is "controls_if_if"
@@ -125,7 +125,7 @@ def get_block_names():
         blocks["blocks"] = [block for block in data.keys() if block not in bad_blocks]
         json.dump(blocks, json_file)
 
-    logger.debug("Saving Version info")
+    logger.info("Saving Version info")
 
     ver_file = config.DATA_DIR / "rules_editor_version"
     ver_backup_file = config.DATA_DIR / "rules_editor_version_history"
@@ -151,7 +151,7 @@ def get_block_names():
         with ver_file.open("w") as file:
             file.write(f"{new_ver}")
 
-    logger.debug("filter and save i18n json")
+    logger.info("filter and save i18n json")
     with open(config.DATA_DIR / "i18n.json", "w") as file:
         json.dump(
             requests.get(
@@ -160,7 +160,7 @@ def get_block_names():
             file,
         )
 
-    logger.debug("All tasks complete ")
+    logger.info("All tasks complete ")
     print("::endgroup::")
 
 
