@@ -66,6 +66,8 @@ jobs:
         run: |
           source .venv/bin/activate
           python -m generators.blocks_json
+        env:
+          LOGURU_LEVEL: INFO
 
       - name: Commit and push changes
         run: |
