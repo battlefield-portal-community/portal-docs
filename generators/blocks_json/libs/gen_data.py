@@ -22,17 +22,17 @@ def gen_data():
     with open(config.DATA_DIR / "rules_editor_version") as file:
         ver = json.load(file)
 
-    logger.debug(f"Got {len(blocks)} blocks, current portal Version {ver}")
+    logger.info(f"Got {len(blocks)} blocks, current portal Version {ver}")
 
     raw_docs_url = [
         f"https://portal.battlefield.com/{ver}/assets/help/{block}.md"
         for block in blocks
     ]
-    logger.debug(f"Getting raw docs for {len(blocks)} blocks....")
+    logger.info(f"Getting raw docs for {len(blocks)} blocks....")
     rs = grequests.map((grequests.get(url) for url in raw_docs_url))
     logger.debug("Done..")
     invalid_blocks = []
-    logger.debug("Saving Raw Blocks")
+    logger.info("Saving Raw Blocks")
     raw_docs_dir = config.DATA_DIR / "raw_docs"
     logger.debug(f"Deleting currently present raw docs, {len(list(raw_docs_dir.glob('*')))} files")
     for file in raw_docs_dir.glob("*"):
@@ -70,7 +70,7 @@ def gen_data():
         with open(config.DATA_DIR / "invalid_blocks.json", "w") as file:
             json.dump(invalid_blocks, file, indent=4)
 
-    logger.debug("Done")
+    logger.info("Done")
     print("::endgroup::")
 
 

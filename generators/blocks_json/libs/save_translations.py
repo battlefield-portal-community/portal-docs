@@ -13,7 +13,7 @@ TRANSLATION_FILE = config.DATA_DIR / "translations.json"
 
 @skip_function_if_env("SKIP_TRANSLATIONS")
 def save_translations_json(indent: int = 4) -> bool:
-    logger.debug("Saving Translations")
+    logger.info("Saving Translations")
     upstream_json = requests.get("https://api.gametools.network/bf2042/translations/").json()
     local_json = json.load(open(TRANSLATION_FILE))
     if DeepHash(upstream_json)[upstream_json] == DeepHash(local_json)[local_json]:
