@@ -1,5 +1,10 @@
 [
+    "AllAmmoBoxes",
+    "AmmoBoxesItem",
+    "EnableAmmoBox",
+    "EventAmmo",
     "GetArgument",
+    "SetAmmoBoxPosition",
     "colour_blend",
     "colour_picker",
     "colour_random",
