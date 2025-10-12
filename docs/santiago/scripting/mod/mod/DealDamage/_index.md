@@ -3,11 +3,11 @@ draft: false
 type: typedoc_gen
 ---
 
-[**bf6docs**](../../../_index.md)
+[**Battlefield 6 Scripting Docs**](../../../_index.md)
 
 ***
 
-[bf6docs](../../../_index.md) / [mod](../../_index.md) / [mod](../_index.md) / DealDamage
+[Battlefield 6 Scripting Docs](../../../_index.md) / [mod](../../_index.md) / [mod](../_index.md) / DealDamage
 
 # Function: DealDamage()
 
@@ -17,7 +17,9 @@ type: typedoc_gen
 function DealDamage(player, damageAmount): void;
 ```
 
-Defined in: mod/index.d.ts:12269
+Defined in: [mod/index.d.ts:12269](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L12269)
+
+Deals a provided amount of damage to a target player. Can optionally specify damage giver..
 
 ### Parameters
 
@@ -39,7 +41,9 @@ function DealDamage(
    damageGiver): void;
 ```
 
-Defined in: mod/index.d.ts:12272
+Defined in: [mod/index.d.ts:12272](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L12272)
+
+Deals a provided amount of damage to a target player. Can optionally specify damage giver..
 
 ### Parameters
 
@@ -59,7 +63,9 @@ Defined in: mod/index.d.ts:12272
 function DealDamage(vehicle, damageAmount): void;
 ```
 
-Defined in: mod/index.d.ts:12275
+Defined in: [mod/index.d.ts:12275](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L12275)
+
+Deals a provided amount of damage to a target player. Can optionally specify damage giver..
 
 ### Parameters
 

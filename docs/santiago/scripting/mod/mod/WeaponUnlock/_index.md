@@ -3,11 +3,11 @@ draft: false
 type: typedoc_gen
 ---
 
-[**bf6docs**](../../../_index.md)
+[**Battlefield 6 Scripting Docs**](../../../_index.md)
 
 ***
 
-[bf6docs](../../../_index.md) / [mod](../../_index.md) / [mod](../_index.md) / WeaponUnlock
+[Battlefield 6 Scripting Docs](../../../_index.md) / [mod](../../_index.md) / [mod](../_index.md) / WeaponUnlock
 
 # Type Alias: WeaponUnlock
 
@@ -15,10 +15,10 @@ type: typedoc_gen
 type WeaponUnlock = object;
 ```
 
-Defined in: mod/index.d.ts:165
+Defined in: [mod/index.d.ts:165](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L165)
 
 ## Properties
 
 | Property | Type | Defined in |
 | ------ | ------ | ------ |
-| <a id="_opaque"></a> `_opaque` | *typeof* [`WeaponUnlockSymbol`](../WeaponUnlockSymbol/_index.md) | mod/index.d.ts:165 |
+| <a id="_opaque"></a> `_opaque` | *typeof* [`WeaponUnlockSymbol`](../WeaponUnlockSymbol/_index.md) | [mod/index.d.ts:165](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L165) |

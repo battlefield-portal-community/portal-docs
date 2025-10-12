@@ -3,11 +3,11 @@ draft: false
 type: typedoc_gen
 ---
 
-[**bf6docs**](../../../_index.md)
+[**Battlefield 6 Scripting Docs**](../../../_index.md)
 
 ***
 
-[bf6docs](../../../_index.md) / [mod](../../_index.md) / [mod](../_index.md) / OrbitObjectOverTime
+[Battlefield 6 Scripting Docs](../../../_index.md) / [mod](../../_index.md) / [mod](../_index.md) / OrbitObjectOverTime
 
 # Function: OrbitObjectOverTime()
 
@@ -24,7 +24,9 @@ function OrbitObjectOverTime(
    clockwise): void;
 ```
 
-Defined in: mod/index.d.ts:12452
+Defined in: [mod/index.d.ts:12452](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L12452)
+
+Orbits the Object around the provided transform over time. Optional orbitAxis otherwise transform's up vector is used
 
 ### Parameters
 
@@ -56,7 +58,9 @@ function OrbitObjectOverTime(
    orbitAxis): void;
 ```
 
-Defined in: mod/index.d.ts:12463
+Defined in: [mod/index.d.ts:12463](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L12463)
+
+Orbits the Object around the provided transform over time. Optional orbitAxis otherwise transform's up vector is used
 
 ### Parameters
 

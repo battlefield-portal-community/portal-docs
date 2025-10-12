@@ -3,11 +3,11 @@ draft: false
 type: typedoc_gen
 ---
 
-[**bf6docs**](../../../_index.md)
+[**Battlefield 6 Scripting Docs**](../../../_index.md)
 
 ***
 
-[bf6docs](../../../_index.md) / [mod](../../_index.md) / [mod](../_index.md) / SpawnPoint
+[Battlefield 6 Scripting Docs](../../../_index.md) / [mod](../../_index.md) / [mod](../_index.md) / SpawnPoint
 
 # Type Alias: SpawnPoint
 
@@ -15,10 +15,10 @@ type: typedoc_gen
 type SpawnPoint = object;
 ```
 
-Defined in: mod/index.d.ts:95
+Defined in: [mod/index.d.ts:95](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L95)
 
 ## Properties
 
 | Property | Type | Defined in |
 | ------ | ------ | ------ |
-| <a id="_opaque"></a> `_opaque` | *typeof* [`SpawnPointSymbol`](../SpawnPointSymbol/_index.md) | mod/index.d.ts:95 |
+| <a id="_opaque"></a> `_opaque` | *typeof* [`SpawnPointSymbol`](../SpawnPointSymbol/_index.md) | [mod/index.d.ts:95](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L95) |

@@ -3,15 +3,15 @@ draft: false
 type: typedoc_gen
 ---
 
-[**bf6docs**](../../_index.md)
+[**Battlefield 6 Scripting Docs**](../../_index.md)
 
 ***
 
-[bf6docs](../../_index.md) / [modlib](../_index.md) / ConditionState
+[Battlefield 6 Scripting Docs](../../_index.md) / [modlib](../_index.md) / ConditionState
 
 # Class: ConditionState
 
-Defined in: modlib/index.ts:112
+Defined in: [modlib/index.ts:112](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/modlib/index.ts#L112)
 
 ## Constructors
 
@@ -21,7 +21,7 @@ Defined in: modlib/index.ts:112
 new ConditionState(): ConditionState;
 ```
 
-Defined in: modlib/index.ts:115
+Defined in: [modlib/index.ts:115](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/modlib/index.ts#L115)
 
 #### Returns
 
@@ -31,7 +31,7 @@ Defined in: modlib/index.ts:115
 
 | Property | Type | Defined in |
 | ------ | ------ | ------ |
-| <a id="laststate"></a> `lastState` | `boolean` | modlib/index.ts:113 |
+| <a id="laststate"></a> `lastState` | `boolean` | [modlib/index.ts:113](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/modlib/index.ts#L113) |
 
 ## Methods
 
@@ -41,7 +41,7 @@ Defined in: modlib/index.ts:115
 update(newState): boolean;
 ```
 
-Defined in: modlib/index.ts:119
+Defined in: [modlib/index.ts:119](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/modlib/index.ts#L119)
 
 #### Parameters
 

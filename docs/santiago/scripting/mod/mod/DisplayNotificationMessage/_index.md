@@ -3,11 +3,11 @@ draft: false
 type: typedoc_gen
 ---
 
-[**bf6docs**](../../../_index.md)
+[**Battlefield 6 Scripting Docs**](../../../_index.md)
 
 ***
 
-[bf6docs](../../../_index.md) / [mod](../../_index.md) / [mod](../_index.md) / DisplayNotificationMessage
+[Battlefield 6 Scripting Docs](../../../_index.md) / [mod](../../_index.md) / [mod](../_index.md) / DisplayNotificationMessage
 
 # Function: DisplayNotificationMessage()
 
@@ -17,7 +17,9 @@ type: typedoc_gen
 function DisplayNotificationMessage(message): void;
 ```
 
-Defined in: mod/index.d.ts:12586
+Defined in: [mod/index.d.ts:12586](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L12586)
+
+Displays a notification-type Message on the top-right of the screen for 6 seconds.
 
 ### Parameters
 
@@ -35,7 +37,9 @@ Defined in: mod/index.d.ts:12586
 function DisplayNotificationMessage(message, player): void;
 ```
 
-Defined in: mod/index.d.ts:12589
+Defined in: [mod/index.d.ts:12589](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L12589)
+
+Displays a notification-type Message on the top-right of the screen for 6 seconds.
 
 ### Parameters
 
@@ -54,7 +58,9 @@ Defined in: mod/index.d.ts:12589
 function DisplayNotificationMessage(message, team): void;
 ```
 
-Defined in: mod/index.d.ts:12592
+Defined in: [mod/index.d.ts:12592](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L12592)
+
+Displays a notification-type Message on the top-right of the screen for 6 seconds.
 
 ### Parameters
 

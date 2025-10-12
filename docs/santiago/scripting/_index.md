@@ -4,11 +4,11 @@ geekdocCollapseSection: true
 type: typedoc_gen
 ---
 
-**bf6docs**
+**Battlefield 6 Scripting Docs**
 
 ***
 
-# bf6docs
+# Battlefield 6 Scripting Docs
 
 ## Modules
 

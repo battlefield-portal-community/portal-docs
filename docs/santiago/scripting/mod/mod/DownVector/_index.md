@@ -3,11 +3,11 @@ draft: false
 type: typedoc_gen
 ---
 
-[**bf6docs**](../../../_index.md)
+[**Battlefield 6 Scripting Docs**](../../../_index.md)
 
 ***
 
-[bf6docs](../../../_index.md) / [mod](../../_index.md) / [mod](../_index.md) / DownVector
+[Battlefield 6 Scripting Docs](../../../_index.md) / [mod](../../_index.md) / [mod](../_index.md) / DownVector
 
 # Function: DownVector()
 
@@ -15,7 +15,9 @@ type: typedoc_gen
 function DownVector(): Vector;
 ```
 
-Defined in: mod/index.d.ts:13708
+Defined in: [mod/index.d.ts:13708](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L13708)
+
+Returns the downward directional vector of (0, -1, 0).
 
 ## Returns
 

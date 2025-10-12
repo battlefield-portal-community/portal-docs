@@ -3,11 +3,11 @@ draft: false
 type: typedoc_gen
 ---
 
-[**bf6docs**](../../../_index.md)
+[**Battlefield 6 Scripting Docs**](../../../_index.md)
 
 ***
 
-[bf6docs](../../../_index.md) / [mod](../../_index.md) / [mod](../_index.md) / AddUIIcon
+[Battlefield 6 Scripting Docs](../../../_index.md) / [mod](../../_index.md) / [mod](../_index.md) / AddUIIcon
 
 # Function: AddUIIcon()
 
@@ -23,7 +23,9 @@ function AddUIIcon(
    visibility): void;
 ```
 
-Defined in: mod/index.d.ts:12493
+Defined in: [mod/index.d.ts:12493](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L12493)
+
+Attaches a new UI Icon Widget to an object.
 
 ### Parameters
 
@@ -51,7 +53,9 @@ function AddUIIcon(
    iconText): void;
 ```
 
-Defined in: mod/index.d.ts:12503
+Defined in: [mod/index.d.ts:12503](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L12503)
+
+Attaches a new UI Icon Widget to an object.
 
 ### Parameters
 

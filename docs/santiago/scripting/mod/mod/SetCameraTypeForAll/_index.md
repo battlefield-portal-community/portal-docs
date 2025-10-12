@@ -3,11 +3,11 @@ draft: false
 type: typedoc_gen
 ---
 
-[**bf6docs**](../../../_index.md)
+[**Battlefield 6 Scripting Docs**](../../../_index.md)
 
 ***
 
-[bf6docs](../../../_index.md) / [mod](../../_index.md) / [mod](../_index.md) / SetCameraTypeForAll
+[Battlefield 6 Scripting Docs](../../../_index.md) / [mod](../../_index.md) / [mod](../_index.md) / SetCameraTypeForAll
 
 # Function: SetCameraTypeForAll()
 
@@ -17,7 +17,9 @@ type: typedoc_gen
 function SetCameraTypeForAll(cameraType): void;
 ```
 
-Defined in: mod/index.d.ts:12122
+Defined in: [mod/index.d.ts:12122](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L12122)
+
+Sets CameraType for all players. CameraIndex optional.
 
 ### Parameters
 
@@ -35,7 +37,9 @@ Defined in: mod/index.d.ts:12122
 function SetCameraTypeForAll(cameraType, cameraIndex): void;
 ```
 
-Defined in: mod/index.d.ts:12125
+Defined in: [mod/index.d.ts:12125](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L12125)
+
+Sets CameraType for all players. CameraIndex optional.
 
 ### Parameters
 

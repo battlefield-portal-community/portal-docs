@@ -3,11 +3,11 @@ draft: false
 type: typedoc_gen
 ---
 
-[**bf6docs**](../../../_index.md)
+[**Battlefield 6 Scripting Docs**](../../../_index.md)
 
 ***
 
-[bf6docs](../../../_index.md) / [mod](../../_index.md) / [mod](../_index.md) / AllVehicles
+[Battlefield 6 Scripting Docs](../../../_index.md) / [mod](../../_index.md) / [mod](../_index.md) / AllVehicles
 
 # Function: AllVehicles()
 
@@ -15,7 +15,9 @@ type: typedoc_gen
 function AllVehicles(): Array;
 ```
 
-Defined in: mod/index.d.ts:13882
+Defined in: [mod/index.d.ts:13882](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L13882)
+
+Returns an array of all vehicles within a game.
 
 ## Returns
 

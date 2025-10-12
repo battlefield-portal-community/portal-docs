@@ -3,11 +3,11 @@ draft: false
 type: typedoc_gen
 ---
 
-[**bf6docs**](../../../_index.md)
+[**Battlefield 6 Scripting Docs**](../../../_index.md)
 
 ***
 
-[bf6docs](../../../_index.md) / [mod](../../_index.md) / [mod](../_index.md) / Teleport
+[Battlefield 6 Scripting Docs](../../../_index.md) / [mod](../../_index.md) / [mod](../_index.md) / Teleport
 
 # Function: Teleport()
 
@@ -20,7 +20,9 @@ function Teleport(
    orientation): void;
 ```
 
-Defined in: mod/index.d.ts:12361
+Defined in: [mod/index.d.ts:12361](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L12361)
+
+Teleports a target to a provided valid position facing a specified angle (in radians).
 
 ### Parameters
 
@@ -43,7 +45,9 @@ function Teleport(
    orientation): void;
 ```
 
-Defined in: mod/index.d.ts:12364
+Defined in: [mod/index.d.ts:12364](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L12364)
+
+Teleports a target to a provided valid position facing a specified angle (in radians).
 
 ### Parameters
 

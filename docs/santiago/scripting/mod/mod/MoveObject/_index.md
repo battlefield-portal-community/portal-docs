@@ -3,11 +3,11 @@ draft: false
 type: typedoc_gen
 ---
 
-[**bf6docs**](../../../_index.md)
+[**Battlefield 6 Scripting Docs**](../../../_index.md)
 
 ***
 
-[bf6docs](../../../_index.md) / [mod](../../_index.md) / [mod](../_index.md) / MoveObject
+[Battlefield 6 Scripting Docs](../../../_index.md) / [mod](../../_index.md) / [mod](../_index.md) / MoveObject
 
 # Function: MoveObject()
 
@@ -17,7 +17,9 @@ type: typedoc_gen
 function MoveObject(object, positionDelta): void;
 ```
 
-Defined in: mod/index.d.ts:12436
+Defined in: [mod/index.d.ts:12436](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L12436)
+
+Move the Object provided, Euler rotation optional
 
 ### Parameters
 
@@ -39,7 +41,9 @@ function MoveObject(
    rotationDelta): void;
 ```
 
-Defined in: mod/index.d.ts:12439
+Defined in: [mod/index.d.ts:12439](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L12439)
+
+Move the Object provided, Euler rotation optional
 
 ### Parameters
 

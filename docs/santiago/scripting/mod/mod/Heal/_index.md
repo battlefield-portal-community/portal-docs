@@ -3,11 +3,11 @@ draft: false
 type: typedoc_gen
 ---
 
-[**bf6docs**](../../../_index.md)
+[**Battlefield 6 Scripting Docs**](../../../_index.md)
 
 ***
 
-[bf6docs](../../../_index.md) / [mod](../../_index.md) / [mod](../_index.md) / Heal
+[Battlefield 6 Scripting Docs](../../../_index.md) / [mod](../../_index.md) / [mod](../_index.md) / Heal
 
 # Function: Heal()
 
@@ -17,7 +17,9 @@ type: typedoc_gen
 function Heal(player, healAmount): void;
 ```
 
-Defined in: mod/index.d.ts:12281
+Defined in: [mod/index.d.ts:12281](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L12281)
+
+Instantly adds a given amount of health to the target player. Can optionally specify healing player.
 
 ### Parameters
 
@@ -39,7 +41,9 @@ function Heal(
    giver): void;
 ```
 
-Defined in: mod/index.d.ts:12284
+Defined in: [mod/index.d.ts:12284](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L12284)
+
+Instantly adds a given amount of health to the target player. Can optionally specify healing player.
 
 ### Parameters
 
@@ -59,7 +63,9 @@ Defined in: mod/index.d.ts:12284
 function Heal(vehicle, repairAmount): void;
 ```
 
-Defined in: mod/index.d.ts:12287
+Defined in: [mod/index.d.ts:12287](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L12287)
+
+Instantly adds a given amount of health to the target player. Can optionally specify healing player.
 
 ### Parameters
 

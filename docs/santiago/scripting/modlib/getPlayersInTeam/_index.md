@@ -3,11 +3,11 @@ draft: false
 type: typedoc_gen
 ---
 
-[**bf6docs**](../../_index.md)
+[**Battlefield 6 Scripting Docs**](../../_index.md)
 
 ***
 
-[bf6docs](../../_index.md) / [modlib](../_index.md) / getPlayersInTeam
+[Battlefield 6 Scripting Docs](../../_index.md) / [modlib](../_index.md) / getPlayersInTeam
 
 # Function: getPlayersInTeam()
 
@@ -15,7 +15,7 @@ type: typedoc_gen
 function getPlayersInTeam(team): Player[];
 ```
 
-Defined in: modlib/index.ts:200
+Defined in: [modlib/index.ts:200](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/modlib/index.ts#L200)
 
 ## Parameters
 

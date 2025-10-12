@@ -3,11 +3,11 @@ draft: false
 type: typedoc_gen
 ---
 
-[**bf6docs**](../../../_index.md)
+[**Battlefield 6 Scripting Docs**](../../../_index.md)
 
 ***
 
-[bf6docs](../../../_index.md) / [mod](../../_index.md) / [mod](../_index.md) / PlayVO
+[Battlefield 6 Scripting Docs](../../../_index.md) / [mod](../../_index.md) / [mod](../_index.md) / PlayVO
 
 # Function: PlayVO()
 
@@ -20,7 +20,9 @@ function PlayVO(
    flag): void;
 ```
 
-Defined in: mod/index.d.ts:12083
+Defined in: [mod/index.d.ts:12083](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L12083)
+
+Plays a voice-over event clip.
 
 ### Parameters
 
@@ -44,7 +46,9 @@ function PlayVO(
    player): void;
 ```
 
-Defined in: mod/index.d.ts:12086
+Defined in: [mod/index.d.ts:12086](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L12086)
+
+Plays a voice-over event clip.
 
 ### Parameters
 
@@ -69,7 +73,9 @@ function PlayVO(
    squad): void;
 ```
 
-Defined in: mod/index.d.ts:12089
+Defined in: [mod/index.d.ts:12089](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L12089)
+
+Plays a voice-over event clip.
 
 ### Parameters
 
@@ -94,7 +100,9 @@ function PlayVO(
    team): void;
 ```
 
-Defined in: mod/index.d.ts:12092
+Defined in: [mod/index.d.ts:12092](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L12092)
+
+Plays a voice-over event clip.
 
 ### Parameters
 
