@@ -3,11 +3,11 @@ draft: false
 type: typedoc_gen
 ---
 
-[**bf6docs**](../../../_index.md)
+[**Battlefield 6 Scripting Docs**](../../../_index.md)
 
 ***
 
-[bf6docs](../../../_index.md) / [mod](../../_index.md) / [mod](../_index.md) / GetGameModeScore
+[Battlefield 6 Scripting Docs](../../../_index.md) / [mod](../../_index.md) / [mod](../_index.md) / GetGameModeScore
 
 # Function: GetGameModeScore()
 
@@ -17,7 +17,9 @@ type: typedoc_gen
 function GetGameModeScore(player): number;
 ```
 
-Defined in: mod/index.d.ts:13358
+Defined in: [mod/index.d.ts:13358](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L13358)
+
+Returns the current gamemode score of the provided player or team.
 
 ### Parameters
 
@@ -35,7 +37,9 @@ Defined in: mod/index.d.ts:13358
 function GetGameModeScore(team): number;
 ```
 
-Defined in: mod/index.d.ts:13361
+Defined in: [mod/index.d.ts:13361](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L13361)
+
+Returns the current gamemode score of the provided player or team.
 
 ### Parameters
 

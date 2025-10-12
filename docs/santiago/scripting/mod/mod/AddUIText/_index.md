@@ -3,11 +3,11 @@ draft: false
 type: typedoc_gen
 ---
 
-[**bf6docs**](../../../_index.md)
+[**Battlefield 6 Scripting Docs**](../../../_index.md)
 
 ***
 
-[bf6docs](../../../_index.md) / [mod](../../_index.md) / [mod](../_index.md) / AddUIText
+[Battlefield 6 Scripting Docs](../../../_index.md) / [mod](../../_index.md) / [mod](../_index.md) / AddUIText
 
 # Function: AddUIText()
 
@@ -22,7 +22,9 @@ function AddUIText(
    message): void;
 ```
 
-Defined in: mod/index.d.ts:12998
+Defined in: [mod/index.d.ts:12998](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L12998)
+
+Creates a new UI Text Widget.
 
 ### Parameters
 
@@ -50,7 +52,9 @@ function AddUIText(
    receiver): void;
 ```
 
-Defined in: mod/index.d.ts:13001
+Defined in: [mod/index.d.ts:13001](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L13001)
+
+Creates a new UI Text Widget.
 
 ### Parameters
 
@@ -88,7 +92,9 @@ function AddUIText(
    textAnchor): void;
 ```
 
-Defined in: mod/index.d.ts:13011
+Defined in: [mod/index.d.ts:13011](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L13011)
+
+Creates a new UI Text Widget.
 
 ### Parameters
 
@@ -136,7 +142,9 @@ function AddUIText(
    receiver): void;
 ```
 
-Defined in: mod/index.d.ts:13030
+Defined in: [mod/index.d.ts:13030](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L13030)
+
+Creates a new UI Text Widget.
 
 ### Parameters
 
@@ -185,7 +193,9 @@ function AddUIText(
    depth): void;
 ```
 
-Defined in: mod/index.d.ts:13050
+Defined in: [mod/index.d.ts:13050](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L13050)
+
+Creates a new UI Text Widget.
 
 ### Parameters
 
@@ -235,7 +245,9 @@ function AddUIText(
    receiver): void;
 ```
 
-Defined in: mod/index.d.ts:13070
+Defined in: [mod/index.d.ts:13070](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L13070)
+
+Creates a new UI Text Widget.
 
 ### Parameters
 

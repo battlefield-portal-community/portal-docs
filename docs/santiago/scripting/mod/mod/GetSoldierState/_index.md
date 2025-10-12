@@ -3,11 +3,11 @@ draft: false
 type: typedoc_gen
 ---
 
-[**bf6docs**](../../../_index.md)
+[**Battlefield 6 Scripting Docs**](../../../_index.md)
 
 ***
 
-[bf6docs](../../../_index.md) / [mod](../../_index.md) / [mod](../_index.md) / GetSoldierState
+[Battlefield 6 Scripting Docs](../../../_index.md) / [mod](../../_index.md) / [mod](../_index.md) / GetSoldierState
 
 # Function: GetSoldierState()
 
@@ -17,7 +17,9 @@ type: typedoc_gen
 function GetSoldierState(player, soldierStateNumber): number;
 ```
 
-Defined in: mod/index.d.ts:13687
+Defined in: [mod/index.d.ts:13687](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L13687)
+
+Returns the value of the target player state.
 
 ### Parameters
 
@@ -36,7 +38,9 @@ Defined in: mod/index.d.ts:13687
 function GetSoldierState(player, soldierStateBool): boolean;
 ```
 
-Defined in: mod/index.d.ts:13690
+Defined in: [mod/index.d.ts:13690](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L13690)
+
+Returns the value of the target player state.
 
 ### Parameters
 
@@ -55,7 +59,9 @@ Defined in: mod/index.d.ts:13690
 function GetSoldierState(player, soldierStateVector): Vector;
 ```
 
-Defined in: mod/index.d.ts:13693
+Defined in: [mod/index.d.ts:13693](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L13693)
+
+Returns the value of the target player state.
 
 ### Parameters
 

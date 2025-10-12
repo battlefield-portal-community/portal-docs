@@ -3,11 +3,11 @@ draft: false
 type: typedoc_gen
 ---
 
-[**bf6docs**](../../../_index.md)
+[**Battlefield 6 Scripting Docs**](../../../_index.md)
 
 ***
 
-[bf6docs](../../../_index.md) / [mod](../../_index.md) / [mod](../_index.md) / ClearCustomNotificationMessage
+[Battlefield 6 Scripting Docs](../../../_index.md) / [mod](../../_index.md) / [mod](../_index.md) / ClearCustomNotificationMessage
 
 # Function: ClearCustomNotificationMessage()
 
@@ -17,7 +17,9 @@ type: typedoc_gen
 function ClearCustomNotificationMessage(slot): void;
 ```
 
-Defined in: mod/index.d.ts:12545
+Defined in: [mod/index.d.ts:12545](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L12545)
+
+Clears the custom notification slot associated with the given slots for the specified team or player.
 
 ### Parameters
 
@@ -35,7 +37,9 @@ Defined in: mod/index.d.ts:12545
 function ClearCustomNotificationMessage(slot, target): void;
 ```
 
-Defined in: mod/index.d.ts:12548
+Defined in: [mod/index.d.ts:12548](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L12548)
+
+Clears the custom notification slot associated with the given slots for the specified team or player.
 
 ### Parameters
 
@@ -54,7 +58,9 @@ Defined in: mod/index.d.ts:12548
 function ClearCustomNotificationMessage(slot, target): void;
 ```
 
-Defined in: mod/index.d.ts:12551
+Defined in: [mod/index.d.ts:12551](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L12551)
+
+Clears the custom notification slot associated with the given slots for the specified team or player.
 
 ### Parameters
 

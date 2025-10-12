@@ -3,11 +3,11 @@ draft: false
 type: typedoc_gen
 ---
 
-[**bf6docs**](../../../_index.md)
+[**Battlefield 6 Scripting Docs**](../../../_index.md)
 
 ***
 
-[bf6docs](../../../_index.md) / [mod](../../_index.md) / [mod](../_index.md) / SetScoreboardColumnWidths
+[Battlefield 6 Scripting Docs](../../../_index.md) / [mod](../../_index.md) / [mod](../_index.md) / SetScoreboardColumnWidths
 
 # Function: SetScoreboardColumnWidths()
 
@@ -22,7 +22,9 @@ function SetScoreboardColumnWidths(
    column5Width): void;
 ```
 
-Defined in: mod/index.d.ts:12624
+Defined in: [mod/index.d.ts:12624](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L12624)
+
+Sets the relative width of each column. Only works for custom scoreboards.
 
 ### Parameters
 
@@ -48,7 +50,9 @@ function SetScoreboardColumnWidths(
    column4Width): void;
 ```
 
-Defined in: mod/index.d.ts:12633
+Defined in: [mod/index.d.ts:12633](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L12633)
+
+Sets the relative width of each column. Only works for custom scoreboards.
 
 ### Parameters
 
@@ -72,7 +76,9 @@ function SetScoreboardColumnWidths(
    column3Width): void;
 ```
 
-Defined in: mod/index.d.ts:12641
+Defined in: [mod/index.d.ts:12641](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L12641)
+
+Sets the relative width of each column. Only works for custom scoreboards.
 
 ### Parameters
 
@@ -92,7 +98,9 @@ Defined in: mod/index.d.ts:12641
 function SetScoreboardColumnWidths(column1Width, column2Width): void;
 ```
 
-Defined in: mod/index.d.ts:12644
+Defined in: [mod/index.d.ts:12644](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L12644)
+
+Sets the relative width of each column. Only works for custom scoreboards.
 
 ### Parameters
 
@@ -111,7 +119,9 @@ Defined in: mod/index.d.ts:12644
 function SetScoreboardColumnWidths(column1Width): void;
 ```
 
-Defined in: mod/index.d.ts:12647
+Defined in: [mod/index.d.ts:12647](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L12647)
+
+Sets the relative width of each column. Only works for custom scoreboards.
 
 ### Parameters
 

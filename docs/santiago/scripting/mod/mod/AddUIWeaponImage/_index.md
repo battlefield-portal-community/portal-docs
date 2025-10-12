@@ -3,11 +3,11 @@ draft: false
 type: typedoc_gen
 ---
 
-[**bf6docs**](../../../_index.md)
+[**Battlefield 6 Scripting Docs**](../../../_index.md)
 
 ***
 
-[bf6docs](../../../_index.md) / [mod](../../_index.md) / [mod](../_index.md) / AddUIWeaponImage
+[Battlefield 6 Scripting Docs](../../../_index.md) / [mod](../../_index.md) / [mod](../_index.md) / AddUIWeaponImage
 
 # Function: AddUIWeaponImage()
 
@@ -23,7 +23,9 @@ function AddUIWeaponImage(
    parent): void;
 ```
 
-Defined in: mod/index.d.ts:13091
+Defined in: [mod/index.d.ts:13091](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L13091)
+
+Creates a new UI Image Widget based on a Weapon and loadout.
 
 ### Parameters
 
@@ -53,7 +55,9 @@ function AddUIWeaponImage(
    weaponPackage): void;
 ```
 
-Defined in: mod/index.d.ts:13101
+Defined in: [mod/index.d.ts:13101](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L13101)
+
+Creates a new UI Image Widget based on a Weapon and loadout.
 
 ### Parameters
 
@@ -84,7 +88,9 @@ function AddUIWeaponImage(
    visibility): void;
 ```
 
-Defined in: mod/index.d.ts:13112
+Defined in: [mod/index.d.ts:13112](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L13112)
+
+Creates a new UI Image Widget based on a Weapon and loadout.
 
 ### Parameters
 
@@ -116,7 +122,9 @@ function AddUIWeaponImage(
    visibility): void;
 ```
 
-Defined in: mod/index.d.ts:13123
+Defined in: [mod/index.d.ts:13123](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L13123)
+
+Creates a new UI Image Widget based on a Weapon and loadout.
 
 ### Parameters
 

@@ -3,11 +3,11 @@ draft: false
 type: typedoc_gen
 ---
 
-[**bf6docs**](../../../_index.md)
+[**Battlefield 6 Scripting Docs**](../../../_index.md)
 
 ***
 
-[bf6docs](../../../_index.md) / [mod](../../_index.md) / [mod](../_index.md) / GetScreenEffect
+[Battlefield 6 Scripting Docs](../../../_index.md) / [mod](../../_index.md) / [mod](../_index.md) / GetScreenEffect
 
 # Function: GetScreenEffect()
 
@@ -17,7 +17,9 @@ type: typedoc_gen
 function GetScreenEffect(modBuilderEnum): ScreenEffect;
 ```
 
-Defined in: mod/index.d.ts:13346
+Defined in: [mod/index.d.ts:13346](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L13346)
+
+Returns the screen effect object corresponding to the provided id.
 
 ### Parameters
 
@@ -35,7 +37,9 @@ Defined in: mod/index.d.ts:13346
 function GetScreenEffect(number): ScreenEffect;
 ```
 
-Defined in: mod/index.d.ts:13349
+Defined in: [mod/index.d.ts:13349](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L13349)
+
+Returns the screen effect object corresponding to the provided id.
 
 ### Parameters
 

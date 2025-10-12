@@ -3,11 +3,11 @@ draft: false
 type: typedoc_gen
 ---
 
-[**bf6docs**](../_index.md)
+[**Battlefield 6 Scripting Docs**](../_index.md)
 
 ***
 
-[bf6docs](../_index.md) / modlib
+[Battlefield 6 Scripting Docs](../_index.md) / modlib
 
 # modlib
 

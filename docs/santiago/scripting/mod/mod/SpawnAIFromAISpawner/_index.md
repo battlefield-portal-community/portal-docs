@@ -3,11 +3,11 @@ draft: false
 type: typedoc_gen
 ---
 
-[**bf6docs**](../../../_index.md)
+[**Battlefield 6 Scripting Docs**](../../../_index.md)
 
 ***
 
-[bf6docs](../../../_index.md) / [mod](../../_index.md) / [mod](../_index.md) / SpawnAIFromAISpawner
+[Battlefield 6 Scripting Docs](../../../_index.md) / [mod](../../_index.md) / [mod](../_index.md) / SpawnAIFromAISpawner
 
 # Function: SpawnAIFromAISpawner()
 
@@ -17,7 +17,9 @@ type: typedoc_gen
 function SpawnAIFromAISpawner(spawner): void;
 ```
 
-Defined in: mod/index.d.ts:11946
+Defined in: [mod/index.d.ts:11946](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L11946)
+
+Spawn one AI soldier from a specific AI Spawner.
 
 ### Parameters
 
@@ -38,7 +40,9 @@ function SpawnAIFromAISpawner(
    name): void;
 ```
 
-Defined in: mod/index.d.ts:11949
+Defined in: [mod/index.d.ts:11949](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L11949)
+
+Spawn one AI soldier from a specific AI Spawner.
 
 ### Parameters
 
@@ -58,7 +62,9 @@ Defined in: mod/index.d.ts:11949
 function SpawnAIFromAISpawner(spawner, classToSpawn): void;
 ```
 
-Defined in: mod/index.d.ts:11952
+Defined in: [mod/index.d.ts:11952](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L11952)
+
+Spawn one AI soldier from a specific AI Spawner.
 
 ### Parameters
 
@@ -77,7 +83,9 @@ Defined in: mod/index.d.ts:11952
 function SpawnAIFromAISpawner(spawner, name): void;
 ```
 
-Defined in: mod/index.d.ts:11955
+Defined in: [mod/index.d.ts:11955](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L11955)
+
+Spawn one AI soldier from a specific AI Spawner.
 
 ### Parameters
 
@@ -96,7 +104,9 @@ Defined in: mod/index.d.ts:11955
 function SpawnAIFromAISpawner(spawner, team): void;
 ```
 
-Defined in: mod/index.d.ts:11958
+Defined in: [mod/index.d.ts:11958](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L11958)
+
+Spawn one AI soldier from a specific AI Spawner.
 
 ### Parameters
 
@@ -119,7 +129,9 @@ function SpawnAIFromAISpawner(
    team): void;
 ```
 
-Defined in: mod/index.d.ts:11961
+Defined in: [mod/index.d.ts:11961](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L11961)
+
+Spawn one AI soldier from a specific AI Spawner.
 
 ### Parameters
 
@@ -143,7 +155,9 @@ function SpawnAIFromAISpawner(
    team): void;
 ```
 
-Defined in: mod/index.d.ts:11964
+Defined in: [mod/index.d.ts:11964](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L11964)
+
+Spawn one AI soldier from a specific AI Spawner.
 
 ### Parameters
 
@@ -166,7 +180,9 @@ function SpawnAIFromAISpawner(
    team): void;
 ```
 
-Defined in: mod/index.d.ts:11967
+Defined in: [mod/index.d.ts:11967](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L11967)
+
+Spawn one AI soldier from a specific AI Spawner.
 
 ### Parameters
 

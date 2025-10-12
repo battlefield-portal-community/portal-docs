@@ -3,13 +3,16 @@ draft: false
 type: typedoc_gen
 ---
 
-[**bf6docs**](../../_index.md)
+[**Battlefield 6 Scripting Docs**](../../_index.md)
 
 ***
 
-[bf6docs](../../_index.md) / [mod](../_index.md) / mod
+[Battlefield 6 Scripting Docs](../../_index.md) / [mod](../_index.md) / mod
 
 # mod
+
+Generated automatically. Do *NOT* modify the contents of this file.
+Version: 1.0.1.0
 
 ## Namespaces
 

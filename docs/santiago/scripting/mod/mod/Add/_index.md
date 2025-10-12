@@ -3,11 +3,11 @@ draft: false
 type: typedoc_gen
 ---
 
-[**bf6docs**](../../../_index.md)
+[**Battlefield 6 Scripting Docs**](../../../_index.md)
 
 ***
 
-[bf6docs](../../../_index.md) / [mod](../../_index.md) / [mod](../_index.md) / Add
+[Battlefield 6 Scripting Docs](../../../_index.md) / [mod](../../_index.md) / [mod](../_index.md) / Add
 
 # Function: Add()
 
@@ -17,7 +17,9 @@ type: typedoc_gen
 function Add(number0, number1): number;
 ```
 
-Defined in: mod/index.d.ts:13480
+Defined in: [mod/index.d.ts:13480](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L13480)
+
+Returns the sum of two numbers or two vector values.
 
 ### Parameters
 
@@ -36,7 +38,9 @@ Defined in: mod/index.d.ts:13480
 function Add(vector0, vector1): Vector;
 ```
 
-Defined in: mod/index.d.ts:13483
+Defined in: [mod/index.d.ts:13483](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L13483)
+
+Returns the sum of two numbers or two vector values.
 
 ### Parameters
 

@@ -3,11 +3,11 @@ draft: false
 type: typedoc_gen
 ---
 
-[**bf6docs**](../../../_index.md)
+[**Battlefield 6 Scripting Docs**](../../../_index.md)
 
 ***
 
-[bf6docs](../../../_index.md) / [mod](../../_index.md) / [mod](../_index.md) / Any
+[Battlefield 6 Scripting Docs](../../../_index.md) / [mod](../../_index.md) / [mod](../_index.md) / Any
 
 # Type Alias: Any
 
@@ -15,4 +15,6 @@ type: typedoc_gen
 type Any = any;
 ```
 
-Defined in: mod/index.d.ts:10
+Defined in: [mod/index.d.ts:10](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L10)
+
+eslint-disable-next-line @typescript-eslint/no-explicit-any

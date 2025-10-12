@@ -3,11 +3,11 @@ draft: false
 type: typedoc_gen
 ---
 
-[**bf6docs**](../../_index.md)
+[**Battlefield 6 Scripting Docs**](../../_index.md)
 
 ***
 
-[bf6docs](../../_index.md) / [modlib](../_index.md) / ParseUI
+[Battlefield 6 Scripting Docs](../../_index.md) / [modlib](../_index.md) / ParseUI
 
 # Function: ParseUI()
 
@@ -15,7 +15,7 @@ type: typedoc_gen
 function ParseUI(...params): UIWidget | undefined;
 ```
 
-Defined in: modlib/index.ts:515
+Defined in: [modlib/index.ts:515](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/modlib/index.ts#L515)
 
 ## Parameters
 

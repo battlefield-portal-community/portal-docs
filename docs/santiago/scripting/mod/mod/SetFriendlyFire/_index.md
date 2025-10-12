@@ -3,11 +3,11 @@ draft: false
 type: typedoc_gen
 ---
 
-[**bf6docs**](../../../_index.md)
+[**Battlefield 6 Scripting Docs**](../../../_index.md)
 
 ***
 
-[bf6docs](../../../_index.md) / [mod](../../_index.md) / [mod](../_index.md) / SetFriendlyFire
+[Battlefield 6 Scripting Docs](../../../_index.md) / [mod](../../_index.md) / [mod](../_index.md) / SetFriendlyFire
 
 # Function: SetFriendlyFire()
 
@@ -15,7 +15,9 @@ type: typedoc_gen
 function SetFriendlyFire(enableFriendlyFire): void;
 ```
 
-Defined in: mod/index.d.ts:12227
+Defined in: [mod/index.d.ts:12227](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L12227)
+
+Enables of disables friendly fire.
 
 ## Parameters
 
