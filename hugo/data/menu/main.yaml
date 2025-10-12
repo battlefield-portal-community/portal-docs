@@ -10,6 +10,17 @@ main:
         ref: "/introduction/bfportal-community"
       - name: XP/Progression Limitations
         ref: "/introduction/xp-limitation"
+  
+  - name: BF6 Portal
+    ref: "/santiago/"
+    sub:
+      - name: "Scripting"
+        ref: "/santiago/scripting/"
+        sub:
+        - name: mod
+          ref: "/santiago/scripting/mod/"
+        - name: modlib
+          ref: "/santiago/scripting/modlib/"
   - name: Portal Builder
     ref: "/portal-builder/"
     sub:
