@@ -1,5 +1,8 @@
 {
     "typedocOptions": {
+        "name": "Battlefield 6 Scripting Docs",
+        "commentStyle": "line",
+        "entryPointStrategy": "Expand",
         "plugin": [
             "typedoc-plugin-markdown", "./generators/santiago/hugo_plugin.mjs"
         ],
