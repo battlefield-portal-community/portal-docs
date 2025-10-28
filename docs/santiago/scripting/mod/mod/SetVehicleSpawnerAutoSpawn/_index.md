@@ -15,7 +15,7 @@ type: typedoc_gen
 function SetVehicleSpawnerAutoSpawn(vehicleSpawner, enabled): void;
 ```
 
-Defined in: [mod/index.d.ts:13255](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L13255)
+Defined in: [mod/index.d.ts:15124](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L15124)
 
 Enables or Disables automatic vehicle respawning from the vehicle spawner.
 

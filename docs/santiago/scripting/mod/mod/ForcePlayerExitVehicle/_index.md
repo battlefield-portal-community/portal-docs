@@ -17,7 +17,7 @@ type: typedoc_gen
 function ForcePlayerExitVehicle(player, vehicle): void;
 ```
 
-Defined in: [mod/index.d.ts:13282](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L13282)
+Defined in: [mod/index.d.ts:15151](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L15151)
 
 Forces the specified player to exit the target vehicle.
 
@@ -38,7 +38,7 @@ Forces the specified player to exit the target vehicle.
 function ForcePlayerExitVehicle(vehicle): void;
 ```
 
-Defined in: [mod/index.d.ts:13285](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L13285)
+Defined in: [mod/index.d.ts:15154](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L15154)
 
 Forces the specified player to exit the target vehicle.
 
@@ -58,7 +58,7 @@ Forces the specified player to exit the target vehicle.
 function ForcePlayerExitVehicle(player): void;
 ```
 
-Defined in: [mod/index.d.ts:13288](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L13288)
+Defined in: [mod/index.d.ts:15157](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L15157)
 
 Forces the specified player to exit the target vehicle.
 

@@ -15,7 +15,7 @@ type: typedoc_gen
 function DotProduct(vector0, vector1): number;
 ```
 
-Defined in: [mod/index.d.ts:13546](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L13546)
+Defined in: [mod/index.d.ts:15452](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L15452)
 
 Returns the dot product between two vector values. If the two values are orthogonal to each other, the result will be zero.
 

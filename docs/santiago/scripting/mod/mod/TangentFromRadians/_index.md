@@ -15,7 +15,7 @@ type: typedoc_gen
 function TangentFromRadians(number): number;
 ```
 
-Defined in: [mod/index.d.ts:13600](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L13600)
+Defined in: [mod/index.d.ts:15506](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L15506)
 
 Returns the tangent value of a specified angle in radians.
 

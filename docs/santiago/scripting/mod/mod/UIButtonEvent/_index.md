@@ -11,15 +11,15 @@ type: typedoc_gen
 
 # Enumeration: UIButtonEvent
 
-Defined in: [mod/index.d.ts:11397](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L11397)
+Defined in: [mod/index.d.ts:12484](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L12484)
 
 ## Enumeration Members
 
 | Enumeration Member | Value | Defined in |
 | ------ | ------ | ------ |
-| <a id="buttondown"></a> `ButtonDown` | `number` | [mod/index.d.ts:11398](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L11398) |
-| <a id="buttonup"></a> `ButtonUp` | `number` | [mod/index.d.ts:11399](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L11399) |
-| <a id="focusin"></a> `FocusIn` | `number` | [mod/index.d.ts:11400](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L11400) |
-| <a id="focusout"></a> `FocusOut` | `number` | [mod/index.d.ts:11401](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L11401) |
-| <a id="hoverin"></a> `HoverIn` | `number` | [mod/index.d.ts:11402](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L11402) |
-| <a id="hoverout"></a> `HoverOut` | `number` | [mod/index.d.ts:11403](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L11403) |
+| <a id="buttondown"></a> `ButtonDown` | `number` | [mod/index.d.ts:12485](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L12485) |
+| <a id="buttonup"></a> `ButtonUp` | `number` | [mod/index.d.ts:12486](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L12486) |
+| <a id="focusin"></a> `FocusIn` | `number` | [mod/index.d.ts:12487](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L12487) |
+| <a id="focusout"></a> `FocusOut` | `number` | [mod/index.d.ts:12488](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L12488) |
+| <a id="hoverin"></a> `HoverIn` | `number` | [mod/index.d.ts:12489](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L12489) |
+| <a id="hoverout"></a> `HoverOut` | `number` | [mod/index.d.ts:12490](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L12490) |

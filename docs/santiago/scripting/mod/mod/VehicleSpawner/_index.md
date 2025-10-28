@@ -15,10 +15,10 @@ type: typedoc_gen
 type VehicleSpawner = object;
 ```
 
-Defined in: [mod/index.d.ts:150](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L150)
+Defined in: [mod/index.d.ts:164](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L164)
 
 ## Properties
 
 | Property | Type | Defined in |
 | ------ | ------ | ------ |
-| <a id="_opaque"></a> `_opaque` | *typeof* [`VehicleSpawnerSymbol`](../VehicleSpawnerSymbol/_index.md) | [mod/index.d.ts:150](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L150) |
+| <a id="_opaque"></a> `_opaque` | *typeof* [`VehicleSpawnerSymbol`](../VehicleSpawnerSymbol/_index.md) | [mod/index.d.ts:164](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L164) |

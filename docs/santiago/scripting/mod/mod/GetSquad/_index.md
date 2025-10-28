@@ -17,7 +17,7 @@ type: typedoc_gen
 function GetSquad(player): Squad;
 ```
 
-Defined in: [mod/index.d.ts:13657](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L13657)
+Defined in: [mod/index.d.ts:15560](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L15560)
 
 Returns the squad object corresponding to the provided player, or team/squad id.
 
@@ -37,7 +37,7 @@ Returns the squad object corresponding to the provided player, or team/squad id.
 function GetSquad(teamIdNumber, squadIdNumber): Squad;
 ```
 
-Defined in: [mod/index.d.ts:13660](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L13660)
+Defined in: [mod/index.d.ts:15563](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L15563)
 
 Returns the squad object corresponding to the provided player, or team/squad id.
 

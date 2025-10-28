@@ -17,7 +17,7 @@ type: typedoc_gen
 function FindUIWidgetWithName(name, searchRoot): UIWidget;
 ```
 
-Defined in: [mod/index.d.ts:13780](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L13780)
+Defined in: [mod/index.d.ts:15764](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L15764)
 
 Returns the UI Widget matching the specified name.
 
@@ -38,7 +38,7 @@ Returns the UI Widget matching the specified name.
 function FindUIWidgetWithName(name): any;
 ```
 
-Defined in: [mod/index.d.ts:13783](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L13783)
+Defined in: [mod/index.d.ts:15767](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L15767)
 
 Returns the UI Widget matching the specified name.
 

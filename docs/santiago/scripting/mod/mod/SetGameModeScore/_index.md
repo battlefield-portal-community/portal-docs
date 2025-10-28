@@ -17,7 +17,7 @@ type: typedoc_gen
 function SetGameModeScore(team, newScore): void;
 ```
 
-Defined in: [mod/index.d.ts:12230](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L12230)
+Defined in: [mod/index.d.ts:13699](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L13699)
 
 Sets the gamemode score of the provided Player or Team.
 
@@ -38,7 +38,7 @@ Sets the gamemode score of the provided Player or Team.
 function SetGameModeScore(player, newScore): void;
 ```
 
-Defined in: [mod/index.d.ts:12233](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L12233)
+Defined in: [mod/index.d.ts:13702](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L13702)
 
 Sets the gamemode score of the provided Player or Team.
 

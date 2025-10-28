@@ -12,10 +12,10 @@ type: typedoc_gen
 # Function: GetObjId()
 
 ```ts
-function GetObjId(modBuilderObject): number;
+function GetObjId(object): number;
 ```
 
-Defined in: [mod/index.d.ts:13388](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L13388)
+Defined in: [mod/index.d.ts:15266](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L15266)
 
 Returns the id corresponding to the provided object.
 
@@ -23,7 +23,7 @@ Returns the id corresponding to the provided object.
 
 | Parameter | Type |
 | ------ | ------ |
-| `modBuilderObject` | [`Object`](../Object/_index.md) |
+| `object` | [`Object`](../Object/_index.md) |
 
 ## Returns
 

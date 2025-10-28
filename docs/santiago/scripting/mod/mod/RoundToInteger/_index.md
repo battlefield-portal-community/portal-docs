@@ -15,7 +15,7 @@ type: typedoc_gen
 function RoundToInteger(number): number;
 ```
 
-Defined in: [mod/index.d.ts:13579](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L13579)
+Defined in: [mod/index.d.ts:15485](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L15485)
 
 Returns a whole number rounded from the input value. The value rounds up if the decimal of the number is greater than or equal to 0.5, and rounds down if it is less than 0.5.
 

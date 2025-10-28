@@ -19,7 +19,7 @@ function DisplayCustomNotificationMessage(
    target?): void;
 ```
 
-Defined in: [modlib/index.ts:523](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/modlib/index.ts#L523)
+Defined in: [modlib/index.ts:523](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/modlib/index.ts#L523)
 
 ## Parameters
 

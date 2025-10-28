@@ -15,7 +15,7 @@ type: typedoc_gen
 function IsVehicleSeatOccupied(vehicle, number): boolean;
 ```
 
-Defined in: [mod/index.d.ts:13903](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L13903)
+Defined in: [mod/index.d.ts:15887](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L15887)
 
 Returns a boolean indicating if the target seat index number of target vehicle is a occupied by a player.
 

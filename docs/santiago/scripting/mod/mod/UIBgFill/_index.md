@@ -11,18 +11,18 @@ type: typedoc_gen
 
 # Enumeration: UIBgFill
 
-Defined in: [mod/index.d.ts:11386](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L11386)
+Defined in: [mod/index.d.ts:12473](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L12473)
 
 ## Enumeration Members
 
 | Enumeration Member | Value | Defined in |
 | ------ | ------ | ------ |
-| <a id="blur"></a> `Blur` | `number` | [mod/index.d.ts:11387](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L11387) |
-| <a id="gradientbottom"></a> `GradientBottom` | `number` | [mod/index.d.ts:11388](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L11388) |
-| <a id="gradientleft"></a> `GradientLeft` | `number` | [mod/index.d.ts:11389](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L11389) |
-| <a id="gradientright"></a> `GradientRight` | `number` | [mod/index.d.ts:11390](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L11390) |
-| <a id="gradienttop"></a> `GradientTop` | `number` | [mod/index.d.ts:11391](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L11391) |
-| <a id="none"></a> `None` | `number` | [mod/index.d.ts:11392](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L11392) |
-| <a id="outlinethick"></a> `OutlineThick` | `number` | [mod/index.d.ts:11393](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L11393) |
-| <a id="outlinethin"></a> `OutlineThin` | `number` | [mod/index.d.ts:11394](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L11394) |
-| <a id="solid"></a> `Solid` | `number` | [mod/index.d.ts:11395](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L11395) |
+| <a id="blur"></a> `Blur` | `number` | [mod/index.d.ts:12474](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L12474) |
+| <a id="gradientbottom"></a> `GradientBottom` | `number` | [mod/index.d.ts:12475](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L12475) |
+| <a id="gradientleft"></a> `GradientLeft` | `number` | [mod/index.d.ts:12476](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L12476) |
+| <a id="gradientright"></a> `GradientRight` | `number` | [mod/index.d.ts:12477](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L12477) |
+| <a id="gradienttop"></a> `GradientTop` | `number` | [mod/index.d.ts:12478](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L12478) |
+| <a id="none"></a> `None` | `number` | [mod/index.d.ts:12479](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L12479) |
+| <a id="outlinethick"></a> `OutlineThick` | `number` | [mod/index.d.ts:12480](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L12480) |
+| <a id="outlinethin"></a> `OutlineThin` | `number` | [mod/index.d.ts:12481](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L12481) |
+| <a id="solid"></a> `Solid` | `number` | [mod/index.d.ts:12482](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L12482) |

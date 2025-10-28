@@ -11,12 +11,12 @@ type: typedoc_gen
 
 # Enumeration: Cameras
 
-Defined in: [mod/index.d.ts:204](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L204)
+Defined in: [mod/index.d.ts:226](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L226)
 
 ## Enumeration Members
 
 | Enumeration Member | Value | Defined in |
 | ------ | ------ | ------ |
-| <a id="firstperson"></a> `FirstPerson` | `number` | [mod/index.d.ts:205](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L205) |
-| <a id="free"></a> `Free` | `number` | [mod/index.d.ts:206](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L206) |
-| <a id="thirdperson"></a> `ThirdPerson` | `number` | [mod/index.d.ts:207](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L207) |
+| <a id="firstperson"></a> `FirstPerson` | `number` | [mod/index.d.ts:227](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L227) |
+| <a id="free"></a> `Free` | `number` | [mod/index.d.ts:228](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L228) |
+| <a id="thirdperson"></a> `ThirdPerson` | `number` | [mod/index.d.ts:229](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L229) |

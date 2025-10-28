@@ -11,10 +11,10 @@ type: typedoc_gen
 
 # Enumeration: OpenGadgets
 
-Defined in: [mod/index.d.ts:298](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L298)
+Defined in: [mod/index.d.ts:331](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L331)
 
 ## Enumeration Members
 
 | Enumeration Member | Value | Defined in |
 | ------ | ------ | ------ |
-| <a id="unguidedrocketlauncher"></a> `UnguidedRocketLauncher` | `number` | [mod/index.d.ts:299](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L299) |
+| <a id="unguidedrocketlauncher"></a> `UnguidedRocketLauncher` | `number` | [mod/index.d.ts:332](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L332) |

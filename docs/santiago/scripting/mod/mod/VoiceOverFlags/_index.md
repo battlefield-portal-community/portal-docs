@@ -11,16 +11,16 @@ type: typedoc_gen
 
 # Enumeration: VoiceOverFlags
 
-Defined in: [mod/index.d.ts:11505](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L11505)
+Defined in: [mod/index.d.ts:12596](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L12596)
 
 ## Enumeration Members
 
 | Enumeration Member | Value | Defined in |
 | ------ | ------ | ------ |
-| <a id="alpha"></a> `Alpha` | `number` | [mod/index.d.ts:11506](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L11506) |
-| <a id="bravo"></a> `Bravo` | `number` | [mod/index.d.ts:11507](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L11507) |
-| <a id="charlie"></a> `Charlie` | `number` | [mod/index.d.ts:11508](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L11508) |
-| <a id="delta"></a> `Delta` | `number` | [mod/index.d.ts:11509](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L11509) |
-| <a id="echo"></a> `Echo` | `number` | [mod/index.d.ts:11510](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L11510) |
-| <a id="foxtrot"></a> `Foxtrot` | `number` | [mod/index.d.ts:11511](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L11511) |
-| <a id="golf"></a> `Golf` | `number` | [mod/index.d.ts:11512](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L11512) |
+| <a id="alpha"></a> `Alpha` | `number` | [mod/index.d.ts:12597](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L12597) |
+| <a id="bravo"></a> `Bravo` | `number` | [mod/index.d.ts:12598](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L12598) |
+| <a id="charlie"></a> `Charlie` | `number` | [mod/index.d.ts:12599](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L12599) |
+| <a id="delta"></a> `Delta` | `number` | [mod/index.d.ts:12600](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L12600) |
+| <a id="echo"></a> `Echo` | `number` | [mod/index.d.ts:12601](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L12601) |
+| <a id="foxtrot"></a> `Foxtrot` | `number` | [mod/index.d.ts:12602](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L12602) |
+| <a id="golf"></a> `Golf` | `number` | [mod/index.d.ts:12603](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L12603) |

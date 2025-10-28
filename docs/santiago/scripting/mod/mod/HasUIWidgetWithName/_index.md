@@ -17,7 +17,7 @@ type: typedoc_gen
 function HasUIWidgetWithName(name, searchRoot): boolean;
 ```
 
-Defined in: [mod/index.d.ts:13876](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L13876)
+Defined in: [mod/index.d.ts:15860](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L15860)
 
 Returns a boolean indicating if the UI Widget exists.
 
@@ -38,7 +38,7 @@ Returns a boolean indicating if the UI Widget exists.
 function HasUIWidgetWithName(name): boolean;
 ```
 
-Defined in: [mod/index.d.ts:13879](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L13879)
+Defined in: [mod/index.d.ts:15863](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L15863)
 
 Returns a boolean indicating if the UI Widget exists.
 

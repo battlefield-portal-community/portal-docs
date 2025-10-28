@@ -17,7 +17,7 @@ type: typedoc_gen
 function RemoveUIIcon(objectWithIcon): void;
 ```
 
-Defined in: [mod/index.d.ts:12518](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L12518)
+Defined in: [mod/index.d.ts:14334](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L14334)
 
 Removes a UI Icon Widget from an object.
 
@@ -37,7 +37,7 @@ Removes a UI Icon Widget from an object.
 function RemoveUIIcon(objectWithIcon, visibility): void;
 ```
 
-Defined in: [mod/index.d.ts:12521](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L12521)
+Defined in: [mod/index.d.ts:14363](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L14363)
 
 Removes a UI Icon Widget from an object.
 

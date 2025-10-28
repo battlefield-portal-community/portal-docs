@@ -20,7 +20,7 @@ function DisplayCustomNotificationMessage(
    duration): void;
 ```
 
-Defined in: [mod/index.d.ts:12554](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L12554)
+Defined in: [mod/index.d.ts:14423](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L14423)
 
 Display a custom notification in one of the slots for the specified team or player.
 
@@ -46,7 +46,7 @@ function DisplayCustomNotificationMessage(
    target): void;
 ```
 
-Defined in: [mod/index.d.ts:12561](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L12561)
+Defined in: [mod/index.d.ts:14430](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L14430)
 
 Display a custom notification in one of the slots for the specified team or player.
 
@@ -73,7 +73,7 @@ function DisplayCustomNotificationMessage(
    target): void;
 ```
 
-Defined in: [mod/index.d.ts:12569](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L12569)
+Defined in: [mod/index.d.ts:14438](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L14438)
 
 Display a custom notification in one of the slots for the specified team or player.
 

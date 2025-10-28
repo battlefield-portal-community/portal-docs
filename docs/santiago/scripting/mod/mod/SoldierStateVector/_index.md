@@ -11,13 +11,13 @@ type: typedoc_gen
 
 # Enumeration: SoldierStateVector
 
-Defined in: [mod/index.d.ts:11256](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L11256)
+Defined in: [mod/index.d.ts:12336](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L12336)
 
 ## Enumeration Members
 
 | Enumeration Member | Value | Defined in |
 | ------ | ------ | ------ |
-| <a id="eyeposition"></a> `EyePosition` | `number` | [mod/index.d.ts:11257](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L11257) |
-| <a id="getfacingdirection"></a> `GetFacingDirection` | `number` | [mod/index.d.ts:11258](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L11258) |
-| <a id="getlinearvelocity"></a> `GetLinearVelocity` | `number` | [mod/index.d.ts:11259](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L11259) |
-| <a id="getposition"></a> `GetPosition` | `number` | [mod/index.d.ts:11260](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L11260) |
+| <a id="eyeposition"></a> `EyePosition` | `number` | [mod/index.d.ts:12337](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L12337) |
+| <a id="getfacingdirection"></a> `GetFacingDirection` | `number` | [mod/index.d.ts:12338](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L12338) |
+| <a id="getlinearvelocity"></a> `GetLinearVelocity` | `number` | [mod/index.d.ts:12339](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L12339) |
+| <a id="getposition"></a> `GetPosition` | `number` | [mod/index.d.ts:12340](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L12340) |

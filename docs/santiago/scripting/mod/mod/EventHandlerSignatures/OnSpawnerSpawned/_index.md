@@ -15,7 +15,7 @@ type: typedoc_gen
 function OnSpawnerSpawned(eventPlayer, eventSpawner): void;
 ```
 
-Defined in: [mod/index.d.ts:14095](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L14095)
+Defined in: [mod/index.d.ts:16086](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L16086)
 
 This will trigger when an AISpawner spawns an AI Soldier.
 

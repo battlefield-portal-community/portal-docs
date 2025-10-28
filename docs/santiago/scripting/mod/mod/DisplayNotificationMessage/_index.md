@@ -17,7 +17,7 @@ type: typedoc_gen
 function DisplayNotificationMessage(message): void;
 ```
 
-Defined in: [mod/index.d.ts:12586](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L12586)
+Defined in: [mod/index.d.ts:14455](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L14455)
 
 Displays a notification-type Message on the top-right of the screen for 6 seconds.
 
@@ -37,7 +37,7 @@ Displays a notification-type Message on the top-right of the screen for 6 second
 function DisplayNotificationMessage(message, player): void;
 ```
 
-Defined in: [mod/index.d.ts:12589](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L12589)
+Defined in: [mod/index.d.ts:14458](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L14458)
 
 Displays a notification-type Message on the top-right of the screen for 6 seconds.
 
@@ -58,7 +58,7 @@ Displays a notification-type Message on the top-right of the screen for 6 second
 function DisplayNotificationMessage(message, team): void;
 ```
 
-Defined in: [mod/index.d.ts:12592](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L12592)
+Defined in: [mod/index.d.ts:14461](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L14461)
 
 Displays a notification-type Message on the top-right of the screen for 6 seconds.
 

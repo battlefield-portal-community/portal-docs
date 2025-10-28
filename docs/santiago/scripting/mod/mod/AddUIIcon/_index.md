@@ -23,7 +23,7 @@ function AddUIIcon(
    visibility): void;
 ```
 
-Defined in: [mod/index.d.ts:12493](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L12493)
+Defined in: [mod/index.d.ts:14261](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L14261)
 
 Attaches a new UI Icon Widget to an object.
 
@@ -53,7 +53,7 @@ function AddUIIcon(
    iconText): void;
 ```
 
-Defined in: [mod/index.d.ts:12503](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L12503)
+Defined in: [mod/index.d.ts:14295](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L14295)
 
 Attaches a new UI Icon Widget to an object.
 

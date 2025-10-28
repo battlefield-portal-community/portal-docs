@@ -11,12 +11,12 @@ type: typedoc_gen
 
 # Enumeration: ResupplyTypes
 
-Defined in: [mod/index.d.ts:350](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L350)
+Defined in: [mod/index.d.ts:384](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L384)
 
 ## Enumeration Members
 
 | Enumeration Member | Value | Defined in |
 | ------ | ------ | ------ |
-| <a id="ammobox"></a> `AmmoBox` | `number` | [mod/index.d.ts:351](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L351) |
-| <a id="ammocrate"></a> `AmmoCrate` | `number` | [mod/index.d.ts:352](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L352) |
-| <a id="supplybag"></a> `SupplyBag` | `number` | [mod/index.d.ts:353](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L353) |
+| <a id="ammobox"></a> `AmmoBox` | `number` | [mod/index.d.ts:385](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L385) |
+| <a id="ammocrate"></a> `AmmoCrate` | `number` | [mod/index.d.ts:386](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L386) |
+| <a id="supplybag"></a> `SupplyBag` | `number` | [mod/index.d.ts:387](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L387) |

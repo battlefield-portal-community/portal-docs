@@ -17,7 +17,7 @@ type: typedoc_gen
 function AIEnableTargeting(player): void;
 ```
 
-Defined in: [mod/index.d.ts:11979](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L11979)
+Defined in: [mod/index.d.ts:13079](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L13079)
 
 Enables or disables targeting for AI. An AI unable to target cannot shoot, but will also not notice other soldiers (Only works for AI players)
 
@@ -37,7 +37,7 @@ Enables or disables targeting for AI. An AI unable to target cannot shoot, but w
 function AIEnableTargeting(player, enable): void;
 ```
 
-Defined in: [mod/index.d.ts:11982](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L11982)
+Defined in: [mod/index.d.ts:13082](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L13082)
 
 Enables or disables targeting for AI. An AI unable to target cannot shoot, but will also not notice other soldiers (Only works for AI players)
 

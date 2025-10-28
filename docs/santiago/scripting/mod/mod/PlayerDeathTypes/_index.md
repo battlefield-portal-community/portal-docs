@@ -11,20 +11,20 @@ type: typedoc_gen
 
 # Enumeration: PlayerDeathTypes
 
-Defined in: [mod/index.d.ts:309](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L309)
+Defined in: [mod/index.d.ts:342](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L342)
 
 ## Enumeration Members
 
 | Enumeration Member | Value | Defined in |
 | ------ | ------ | ------ |
-| <a id="deserting"></a> `Deserting` | `number` | [mod/index.d.ts:310](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L310) |
-| <a id="drowning"></a> `Drowning` | `number` | [mod/index.d.ts:311](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L311) |
-| <a id="explosion"></a> `Explosion` | `number` | [mod/index.d.ts:312](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L312) |
-| <a id="fall"></a> `Fall` | `number` | [mod/index.d.ts:313](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L313) |
-| <a id="fire"></a> `Fire` | `number` | [mod/index.d.ts:314](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L314) |
-| <a id="headshot"></a> `Headshot` | `number` | [mod/index.d.ts:315](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L315) |
-| <a id="melee"></a> `Melee` | `number` | [mod/index.d.ts:316](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L316) |
-| <a id="penetration"></a> `Penetration` | `number` | [mod/index.d.ts:317](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L317) |
-| <a id="redeploy"></a> `Redeploy` | `number` | [mod/index.d.ts:318](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L318) |
-| <a id="roadkill"></a> `Roadkill` | `number` | [mod/index.d.ts:319](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L319) |
-| <a id="weapon"></a> `Weapon` | `number` | [mod/index.d.ts:320](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L320) |
+| <a id="deserting"></a> `Deserting` | `number` | [mod/index.d.ts:343](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L343) |
+| <a id="drowning"></a> `Drowning` | `number` | [mod/index.d.ts:344](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L344) |
+| <a id="explosion"></a> `Explosion` | `number` | [mod/index.d.ts:345](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L345) |
+| <a id="fall"></a> `Fall` | `number` | [mod/index.d.ts:346](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L346) |
+| <a id="fire"></a> `Fire` | `number` | [mod/index.d.ts:347](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L347) |
+| <a id="headshot"></a> `Headshot` | `number` | [mod/index.d.ts:348](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L348) |
+| <a id="melee"></a> `Melee` | `number` | [mod/index.d.ts:349](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L349) |
+| <a id="penetration"></a> `Penetration` | `number` | [mod/index.d.ts:350](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L350) |
+| <a id="redeploy"></a> `Redeploy` | `number` | [mod/index.d.ts:351](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L351) |
+| <a id="roadkill"></a> `Roadkill` | `number` | [mod/index.d.ts:352](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L352) |
+| <a id="weapon"></a> `Weapon` | `number` | [mod/index.d.ts:353](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L353) |

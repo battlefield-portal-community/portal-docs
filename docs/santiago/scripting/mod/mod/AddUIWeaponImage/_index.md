@@ -23,7 +23,7 @@ function AddUIWeaponImage(
    parent): void;
 ```
 
-Defined in: [mod/index.d.ts:13091](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L13091)
+Defined in: [mod/index.d.ts:14960](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L14960)
 
 Creates a new UI Image Widget based on a Weapon and loadout.
 
@@ -55,7 +55,7 @@ function AddUIWeaponImage(
    weaponPackage): void;
 ```
 
-Defined in: [mod/index.d.ts:13101](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L13101)
+Defined in: [mod/index.d.ts:14970](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L14970)
 
 Creates a new UI Image Widget based on a Weapon and loadout.
 
@@ -88,7 +88,7 @@ function AddUIWeaponImage(
    visibility): void;
 ```
 
-Defined in: [mod/index.d.ts:13112](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L13112)
+Defined in: [mod/index.d.ts:14981](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L14981)
 
 Creates a new UI Image Widget based on a Weapon and loadout.
 
@@ -122,7 +122,7 @@ function AddUIWeaponImage(
    visibility): void;
 ```
 
-Defined in: [mod/index.d.ts:13123](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L13123)
+Defined in: [mod/index.d.ts:14992](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L14992)
 
 Creates a new UI Image Widget based on a Weapon and loadout.
 

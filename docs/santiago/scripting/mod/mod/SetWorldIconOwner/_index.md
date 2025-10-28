@@ -17,7 +17,7 @@ type: typedoc_gen
 function SetWorldIconOwner(worldIcon, newTeamOwner): void;
 ```
 
-Defined in: [mod/index.d.ts:12530](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L12530)
+Defined in: [mod/index.d.ts:14399](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L14399)
 
 Restricts a world icon to be visible only to a specific Player or Team.
 
@@ -38,7 +38,7 @@ Restricts a world icon to be visible only to a specific Player or Team.
 function SetWorldIconOwner(worldIcon, newPlayerOwner): void;
 ```
 
-Defined in: [mod/index.d.ts:12533](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L12533)
+Defined in: [mod/index.d.ts:14402](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L14402)
 
 Restricts a world icon to be visible only to a specific Player or Team.
 
