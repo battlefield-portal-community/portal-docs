@@ -17,7 +17,7 @@ type: typedoc_gen
 function SetScoreboardHeader(team1Name, team2Name): void;
 ```
 
-Defined in: [mod/index.d.ts:12650](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L12650)
+Defined in: [mod/index.d.ts:14519](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L14519)
 
 Sets the name that appears in the top-left corner of the scoreboard
 
@@ -38,7 +38,7 @@ Sets the name that appears in the top-left corner of the scoreboard
 function SetScoreboardHeader(headerName): void;
 ```
 
-Defined in: [mod/index.d.ts:12653](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L12653)
+Defined in: [mod/index.d.ts:14522](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L14522)
 
 Sets the name that appears in the top-left corner of the scoreboard
 

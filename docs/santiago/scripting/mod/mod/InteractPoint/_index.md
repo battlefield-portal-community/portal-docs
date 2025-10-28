@@ -15,10 +15,10 @@ type: typedoc_gen
 type InteractPoint = object;
 ```
 
-Defined in: [mod/index.d.ts:50](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L50)
+Defined in: [mod/index.d.ts:55](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L55)
 
 ## Properties
 
 | Property | Type | Defined in |
 | ------ | ------ | ------ |
-| <a id="_opaque"></a> `_opaque` | *typeof* [`InteractPointSymbol`](../InteractPointSymbol/_index.md) | [mod/index.d.ts:50](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L50) |
+| <a id="_opaque"></a> `_opaque` | *typeof* [`InteractPointSymbol`](../InteractPointSymbol/_index.md) | [mod/index.d.ts:55](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L55) |

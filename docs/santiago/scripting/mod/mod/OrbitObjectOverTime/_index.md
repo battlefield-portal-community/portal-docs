@@ -24,7 +24,7 @@ function OrbitObjectOverTime(
    clockwise): void;
 ```
 
-Defined in: [mod/index.d.ts:12452](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L12452)
+Defined in: [mod/index.d.ts:14068](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L14068)
 
 Orbits the Object around the provided transform over time. Optional orbitAxis otherwise transform's up vector is used
 
@@ -58,7 +58,7 @@ function OrbitObjectOverTime(
    orbitAxis): void;
 ```
 
-Defined in: [mod/index.d.ts:12463](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L12463)
+Defined in: [mod/index.d.ts:14103](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L14103)
 
 Orbits the Object around the provided transform over time. Optional orbitAxis otherwise transform's up vector is used
 

@@ -11,12 +11,12 @@ type: typedoc_gen
 
 # Enumeration: SpawnModes
 
-Defined in: [mod/index.d.ts:11262](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L11262)
+Defined in: [mod/index.d.ts:12342](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L12342)
 
 ## Enumeration Members
 
 | Enumeration Member | Value | Defined in |
 | ------ | ------ | ------ |
-| <a id="autospawn"></a> `AutoSpawn` | `number` | [mod/index.d.ts:11263](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L11263) |
-| <a id="deploy"></a> `Deploy` | `number` | [mod/index.d.ts:11264](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L11264) |
-| <a id="nochange"></a> `NoChange` | `number` | [mod/index.d.ts:11265](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L11265) |
+| <a id="autospawn"></a> `AutoSpawn` | `number` | [mod/index.d.ts:12343](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L12343) |
+| <a id="deploy"></a> `Deploy` | `number` | [mod/index.d.ts:12344](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L12344) |
+| <a id="spectating"></a> `Spectating` | `number` | [mod/index.d.ts:12345](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L12345) |

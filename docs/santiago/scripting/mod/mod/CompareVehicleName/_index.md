@@ -15,7 +15,7 @@ type: typedoc_gen
 function CompareVehicleName(vehicle, vehicleList): boolean;
 ```
 
-Defined in: [mod/index.d.ts:13885](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L13885)
+Defined in: [mod/index.d.ts:15869](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L15869)
 
 Returns a boolean indicating if the target vehicle has the same name as the provided vehicle or if it is the same type as the provided vehicle type.
 

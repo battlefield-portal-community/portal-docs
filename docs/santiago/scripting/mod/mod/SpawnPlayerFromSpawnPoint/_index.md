@@ -17,7 +17,7 @@ type: typedoc_gen
 function SpawnPlayerFromSpawnPoint(player, spawnPointId): void;
 ```
 
-Defined in: [mod/index.d.ts:12355](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L12355)
+Defined in: [mod/index.d.ts:13889](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L13889)
 
 Force Deploy a soldier from a specific spawn point.
 
@@ -38,7 +38,7 @@ Force Deploy a soldier from a specific spawn point.
 function SpawnPlayerFromSpawnPoint(player, spawnPoint): void;
 ```
 
-Defined in: [mod/index.d.ts:12358](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L12358)
+Defined in: [mod/index.d.ts:13892](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L13892)
 
 Force Deploy a soldier from a specific spawn point.
 

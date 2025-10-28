@@ -17,7 +17,7 @@ type: typedoc_gen
 function SetScoreboardSorting(sortingColumn, reverseSorting): void;
 ```
 
-Defined in: [mod/index.d.ts:12689](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L12689)
+Defined in: [mod/index.d.ts:14558](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L14558)
 
 Sets which column the scoreboard is sorted on. Only works for custom scoreboards.
 
@@ -38,7 +38,7 @@ Sets which column the scoreboard is sorted on. Only works for custom scoreboards
 function SetScoreboardSorting(sortingColumn): void;
 ```
 
-Defined in: [mod/index.d.ts:12692](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L12692)
+Defined in: [mod/index.d.ts:14561](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L14561)
 
 Sets which column the scoreboard is sorted on. Only works for custom scoreboards.
 

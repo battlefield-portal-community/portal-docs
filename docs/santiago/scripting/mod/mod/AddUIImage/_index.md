@@ -22,7 +22,7 @@ function AddUIImage(
    imageType): void;
 ```
 
-Defined in: [mod/index.d.ts:12907](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L12907)
+Defined in: [mod/index.d.ts:14776](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L14776)
 
 Creates a new UI Image Widget.
 
@@ -52,7 +52,7 @@ function AddUIImage(
    receiver): void;
 ```
 
-Defined in: [mod/index.d.ts:12916](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L12916)
+Defined in: [mod/index.d.ts:14785](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L14785)
 
 Creates a new UI Image Widget.
 
@@ -90,7 +90,7 @@ function AddUIImage(
    imageAlpha): void;
 ```
 
-Defined in: [mod/index.d.ts:12926](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L12926)
+Defined in: [mod/index.d.ts:14795](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L14795)
 
 Creates a new UI Image Widget.
 
@@ -136,7 +136,7 @@ function AddUIImage(
    receiver): void;
 ```
 
-Defined in: [mod/index.d.ts:12943](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L12943)
+Defined in: [mod/index.d.ts:14812](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L14812)
 
 Creates a new UI Image Widget.
 
@@ -183,7 +183,7 @@ function AddUIImage(
    depth): void;
 ```
 
-Defined in: [mod/index.d.ts:12961](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L12961)
+Defined in: [mod/index.d.ts:14830](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L14830)
 
 Creates a new UI Image Widget.
 
@@ -231,7 +231,7 @@ function AddUIImage(
    receiver): void;
 ```
 
-Defined in: [mod/index.d.ts:12979](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L12979)
+Defined in: [mod/index.d.ts:14848](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L14848)
 
 Creates a new UI Image Widget.
 

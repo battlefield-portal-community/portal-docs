@@ -11,15 +11,15 @@ type: typedoc_gen
 
 # Enumeration: AmmoTypes
 
-Defined in: [mod/index.d.ts:196](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L196)
+Defined in: [mod/index.d.ts:213](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L213)
 
 ## Enumeration Members
 
 | Enumeration Member | Value | Defined in |
 | ------ | ------ | ------ |
-| <a id="ar_carbine_ammo"></a> `AR_Carbine_Ammo` | `number` | [mod/index.d.ts:197](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L197) |
-| <a id="backpack_ammo"></a> `Backpack_Ammo` | `number` | [mod/index.d.ts:198](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L198) |
-| <a id="launcher_ammo"></a> `Launcher_Ammo` | `number` | [mod/index.d.ts:199](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L199) |
-| <a id="lmg_ammo"></a> `LMG_Ammo` | `number` | [mod/index.d.ts:200](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L200) |
-| <a id="pistol_smg_ammo"></a> `Pistol_SMG_Ammo` | `number` | [mod/index.d.ts:201](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L201) |
-| <a id="sniper_dmr_ammo"></a> `Sniper_DMR_Ammo` | `number` | [mod/index.d.ts:202](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L202) |
+| <a id="ar_carbine_ammo"></a> `AR_Carbine_Ammo` | `number` | [mod/index.d.ts:214](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L214) |
+| <a id="armor_plate"></a> `Armor_Plate` | `number` | [mod/index.d.ts:215](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L215) |
+| <a id="lmg_ammo"></a> `LMG_Ammo` | `number` | [mod/index.d.ts:216](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L216) |
+| <a id="pistol_smg_ammo"></a> `Pistol_SMG_Ammo` | `number` | [mod/index.d.ts:217](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L217) |
+| <a id="shotgun_ammo"></a> `Shotgun_Ammo` | `number` | [mod/index.d.ts:218](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L218) |
+| <a id="sniper_dmr_ammo"></a> `Sniper_DMR_Ammo` | `number` | [mod/index.d.ts:219](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L219) |

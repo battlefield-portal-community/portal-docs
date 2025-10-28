@@ -17,7 +17,7 @@ type: typedoc_gen
 function DealDamage(player, damageAmount): void;
 ```
 
-Defined in: [mod/index.d.ts:12269](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L12269)
+Defined in: [mod/index.d.ts:13803](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L13803)
 
 Deals a provided amount of damage to a target player. Can optionally specify damage giver..
 
@@ -41,7 +41,7 @@ function DealDamage(
    damageGiver): void;
 ```
 
-Defined in: [mod/index.d.ts:12272](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L12272)
+Defined in: [mod/index.d.ts:13806](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L13806)
 
 Deals a provided amount of damage to a target player. Can optionally specify damage giver..
 
@@ -63,7 +63,7 @@ Deals a provided amount of damage to a target player. Can optionally specify dam
 function DealDamage(vehicle, damageAmount): void;
 ```
 
-Defined in: [mod/index.d.ts:12275](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L12275)
+Defined in: [mod/index.d.ts:13809](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L13809)
 
 Deals a provided amount of damage to a target player. Can optionally specify damage giver..
 

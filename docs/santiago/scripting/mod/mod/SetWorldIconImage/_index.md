@@ -15,7 +15,7 @@ type: typedoc_gen
 function SetWorldIconImage(worldIcon, newImage): void;
 ```
 
-Defined in: [mod/index.d.ts:12527](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L12527)
+Defined in: [mod/index.d.ts:14396](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L14396)
 
 Changes the image of a world icon.
 

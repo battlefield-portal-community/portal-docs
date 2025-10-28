@@ -15,7 +15,7 @@ type: typedoc_gen
 function LocalPositionOf(vector, player): Vector;
 ```
 
-Defined in: [mod/index.d.ts:13726](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L13726)
+Defined in: [mod/index.d.ts:15710](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L15710)
 
 Converts the provided world position to the corresponding position in local player space.
 

@@ -17,7 +17,7 @@ type: typedoc_gen
 function AIEnableShooting(player): void;
 ```
 
-Defined in: [mod/index.d.ts:11973](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L11973)
+Defined in: [mod/index.d.ts:13073](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L13073)
 
 Enables or disables shooting for AI. (Only works for AI players)
 
@@ -37,7 +37,7 @@ Enables or disables shooting for AI. (Only works for AI players)
 function AIEnableShooting(player, enable): void;
 ```
 
-Defined in: [mod/index.d.ts:11976](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L11976)
+Defined in: [mod/index.d.ts:13076](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L13076)
 
 Enables or disables shooting for AI. (Only works for AI players)
 

@@ -15,7 +15,7 @@ type: typedoc_gen
 function AIWaypointIdleBehavior(player, waypointPath): void;
 ```
 
-Defined in: [mod/index.d.ts:11937](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L11937)
+Defined in: [mod/index.d.ts:13037](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L13037)
 
 Sets a player to patrol a waypoint. (Only works for AI players)
 

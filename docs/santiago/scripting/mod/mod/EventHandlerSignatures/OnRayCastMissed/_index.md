@@ -15,7 +15,7 @@ type: typedoc_gen
 function OnRayCastMissed(eventPlayer): void;
 ```
 
-Defined in: [mod/index.d.ts:14089](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L14089)
+Defined in: [mod/index.d.ts:16077](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L16077)
 
 This will trigger when a Raycast is called and doesn't hit any target.
 

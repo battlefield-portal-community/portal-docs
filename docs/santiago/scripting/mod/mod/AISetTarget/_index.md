@@ -17,7 +17,7 @@ type: typedoc_gen
 function AISetTarget(aiPlayer, targetPlayer): void;
 ```
 
-Defined in: [mod/index.d.ts:12005](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L12005)
+Defined in: [mod/index.d.ts:13105](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L13105)
 
 Sets player's current target. (Only works for AI players)
 
@@ -38,7 +38,7 @@ Sets player's current target. (Only works for AI players)
 function AISetTarget(player): void;
 ```
 
-Defined in: [mod/index.d.ts:12008](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L12008)
+Defined in: [mod/index.d.ts:13108](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L13108)
 
 Sets player's current target. (Only works for AI players)
 

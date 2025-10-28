@@ -11,7 +11,7 @@ type: typedoc_gen
 
 # Class: ConditionState
 
-Defined in: [modlib/index.ts:112](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/modlib/index.ts#L112)
+Defined in: [modlib/index.ts:112](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/modlib/index.ts#L112)
 
 ## Constructors
 
@@ -21,7 +21,7 @@ Defined in: [modlib/index.ts:112](https://github.com/battlefield-portal-communit
 new ConditionState(): ConditionState;
 ```
 
-Defined in: [modlib/index.ts:115](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/modlib/index.ts#L115)
+Defined in: [modlib/index.ts:115](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/modlib/index.ts#L115)
 
 #### Returns
 
@@ -31,7 +31,7 @@ Defined in: [modlib/index.ts:115](https://github.com/battlefield-portal-communit
 
 | Property | Type | Defined in |
 | ------ | ------ | ------ |
-| <a id="laststate"></a> `lastState` | `boolean` | [modlib/index.ts:113](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/modlib/index.ts#L113) |
+| <a id="laststate"></a> `lastState` | `boolean` | [modlib/index.ts:113](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/modlib/index.ts#L113) |
 
 ## Methods
 
@@ -41,7 +41,7 @@ Defined in: [modlib/index.ts:115](https://github.com/battlefield-portal-communit
 update(newState): boolean;
 ```
 
-Defined in: [modlib/index.ts:119](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/modlib/index.ts#L119)
+Defined in: [modlib/index.ts:119](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/modlib/index.ts#L119)
 
 #### Parameters
 

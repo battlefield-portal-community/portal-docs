@@ -17,7 +17,7 @@ type: typedoc_gen
 function EnableUIInputMode(enabled): void;
 ```
 
-Defined in: [mod/index.d.ts:13144](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L13144)
+Defined in: [mod/index.d.ts:15013](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L15013)
 
 Determines if UI Buttons can be interacted with.
 
@@ -37,7 +37,7 @@ Determines if UI Buttons can be interacted with.
 function EnableUIInputMode(enabled, receiver): void;
 ```
 
-Defined in: [mod/index.d.ts:13147](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L13147)
+Defined in: [mod/index.d.ts:15016](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L15016)
 
 Determines if UI Buttons can be interacted with.
 

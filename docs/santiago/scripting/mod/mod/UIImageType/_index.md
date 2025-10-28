@@ -11,17 +11,17 @@ type: typedoc_gen
 
 # Enumeration: UIImageType
 
-Defined in: [mod/index.d.ts:11409](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L11409)
+Defined in: [mod/index.d.ts:12496](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L12496)
 
 ## Enumeration Members
 
 | Enumeration Member | Value | Defined in |
 | ------ | ------ | ------ |
-| <a id="crownoutline"></a> `CrownOutline` | `number` | [mod/index.d.ts:11410](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L11410) |
-| <a id="crownsolid"></a> `CrownSolid` | `number` | [mod/index.d.ts:11411](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L11411) |
-| <a id="none"></a> `None` | `number` | [mod/index.d.ts:11412](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L11412) |
-| <a id="questionmark"></a> `QuestionMark` | `number` | [mod/index.d.ts:11413](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L11413) |
-| <a id="rifleammo"></a> `RifleAmmo` | `number` | [mod/index.d.ts:11414](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L11414) |
-| <a id="selfheal"></a> `SelfHeal` | `number` | [mod/index.d.ts:11415](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L11415) |
-| <a id="spawnbeacon"></a> `SpawnBeacon` | `number` | [mod/index.d.ts:11416](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L11416) |
-| <a id="temp_portalicon"></a> `TEMP_PortalIcon` | `number` | [mod/index.d.ts:11417](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L11417) |
+| <a id="crownoutline"></a> `CrownOutline` | `number` | [mod/index.d.ts:12497](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L12497) |
+| <a id="crownsolid"></a> `CrownSolid` | `number` | [mod/index.d.ts:12498](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L12498) |
+| <a id="none"></a> `None` | `number` | [mod/index.d.ts:12499](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L12499) |
+| <a id="questionmark"></a> `QuestionMark` | `number` | [mod/index.d.ts:12500](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L12500) |
+| <a id="rifleammo"></a> `RifleAmmo` | `number` | [mod/index.d.ts:12501](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L12501) |
+| <a id="selfheal"></a> `SelfHeal` | `number` | [mod/index.d.ts:12502](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L12502) |
+| <a id="spawnbeacon"></a> `SpawnBeacon` | `number` | [mod/index.d.ts:12503](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L12503) |
+| <a id="temp_portalicon"></a> `TEMP_PortalIcon` | `number` | [mod/index.d.ts:12504](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L12504) |

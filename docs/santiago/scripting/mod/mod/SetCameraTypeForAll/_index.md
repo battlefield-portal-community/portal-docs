@@ -17,7 +17,7 @@ type: typedoc_gen
 function SetCameraTypeForAll(cameraType): void;
 ```
 
-Defined in: [mod/index.d.ts:12122](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L12122)
+Defined in: [mod/index.d.ts:13585](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L13585)
 
 Sets CameraType for all players. CameraIndex optional.
 
@@ -37,7 +37,7 @@ Sets CameraType for all players. CameraIndex optional.
 function SetCameraTypeForAll(cameraType, cameraIndex): void;
 ```
 
-Defined in: [mod/index.d.ts:12125](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L12125)
+Defined in: [mod/index.d.ts:13588](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L13588)
 
 Sets CameraType for all players. CameraIndex optional.
 

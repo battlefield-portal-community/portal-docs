@@ -17,7 +17,7 @@ type: typedoc_gen
 function Divide(number0, number1): number;
 ```
 
-Defined in: [mod/index.d.ts:13540](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L13540)
+Defined in: [mod/index.d.ts:15446](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L15446)
 
 Returns the ratio between two number values or a vector and number value. A vector divided by a number will yield a scaled vector.
 
@@ -38,7 +38,7 @@ Returns the ratio between two number values or a vector and number value. A vect
 function Divide(vector, number): Vector;
 ```
 
-Defined in: [mod/index.d.ts:13543](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L13543)
+Defined in: [mod/index.d.ts:15449](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L15449)
 
 Returns the ratio between two number values or a vector and number value. A vector divided by a number will yield a scaled vector.
 

@@ -17,7 +17,7 @@ type: typedoc_gen
 function GetTeam(player): Team;
 ```
 
-Defined in: [mod/index.d.ts:13663](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L13663)
+Defined in: [mod/index.d.ts:15566](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L15566)
 
 Returns the team value of the specified player OR the corresponding team of the provided number.
 
@@ -37,7 +37,7 @@ Returns the team value of the specified player OR the corresponding team of the 
 function GetTeam(teamId): Team;
 ```
 
-Defined in: [mod/index.d.ts:13666](https://github.com/battlefield-portal-community/portal-docs/blob/6d87e21c5922a3efb03c634dbe98e5fe6e797672/generators/santiago/mod/index.d.ts#L13666)
+Defined in: [mod/index.d.ts:15569](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L15569)
 
 Returns the team value of the specified player OR the corresponding team of the provided number.
 
