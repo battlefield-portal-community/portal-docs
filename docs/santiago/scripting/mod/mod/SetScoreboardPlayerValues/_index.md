@@ -23,7 +23,7 @@ function SetScoreboardPlayerValues(
    column5Value): void;
 ```
 
-Defined in: [mod/index.d.ts:14525](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L14525)
+Defined in: [mod/index.d.ts:20842](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L20842)
 
 Sets the score in up to five distinct scores for the player. Only works for custom scoreboards.
 
@@ -53,7 +53,7 @@ function SetScoreboardPlayerValues(
    column4Value): void;
 ```
 
-Defined in: [mod/index.d.ts:14535](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L14535)
+Defined in: [mod/index.d.ts:20852](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L20852)
 
 Sets the score in up to five distinct scores for the player. Only works for custom scoreboards.
 
@@ -81,7 +81,7 @@ function SetScoreboardPlayerValues(
    column3Value): void;
 ```
 
-Defined in: [mod/index.d.ts:14544](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L14544)
+Defined in: [mod/index.d.ts:20861](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L20861)
 
 Sets the score in up to five distinct scores for the player. Only works for custom scoreboards.
 
@@ -107,7 +107,7 @@ function SetScoreboardPlayerValues(
    column2Value): void;
 ```
 
-Defined in: [mod/index.d.ts:14552](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L14552)
+Defined in: [mod/index.d.ts:20869](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L20869)
 
 Sets the score in up to five distinct scores for the player. Only works for custom scoreboards.
 
@@ -129,7 +129,7 @@ Sets the score in up to five distinct scores for the player. Only works for cust
 function SetScoreboardPlayerValues(player, column1Value): void;
 ```
 
-Defined in: [mod/index.d.ts:14555](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L14555)
+Defined in: [mod/index.d.ts:20872](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L20872)
 
 Sets the score in up to five distinct scores for the player. Only works for custom scoreboards.
 

@@ -15,7 +15,7 @@ type: typedoc_gen
 function SetWorldIconColor(worldIcon, newColor): void;
 ```
 
-Defined in: [mod/index.d.ts:14393](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L14393)
+Defined in: [mod/index.d.ts:20710](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L20710)
 
 Changes the color of a world icon.
 

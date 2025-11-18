@@ -15,7 +15,7 @@ type: typedoc_gen
 function GetPlayerFromVehicleSeat(vehicle, number): Player;
 ```
 
-Defined in: [mod/index.d.ts:15893](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L15893)
+Defined in: [mod/index.d.ts:22127](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L22127)
 
 Returns the player currently occupying the provided seat index number of the provided vehicle. Note: If no players are in the vehicle seat when this block is called, the returned player will be invalid.
 

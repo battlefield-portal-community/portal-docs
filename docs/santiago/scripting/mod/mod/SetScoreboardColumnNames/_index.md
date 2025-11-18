@@ -22,7 +22,7 @@ function SetScoreboardColumnNames(
    column5Name): void;
 ```
 
-Defined in: [mod/index.d.ts:14467](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L14467)
+Defined in: [mod/index.d.ts:20784](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L20784)
 
 Sets the name displayed at the top of score of each column. Only works for custom scoreboards.
 
@@ -50,7 +50,7 @@ function SetScoreboardColumnNames(
    column4Name): void;
 ```
 
-Defined in: [mod/index.d.ts:14476](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L14476)
+Defined in: [mod/index.d.ts:20793](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L20793)
 
 Sets the name displayed at the top of score of each column. Only works for custom scoreboards.
 
@@ -76,7 +76,7 @@ function SetScoreboardColumnNames(
    column3Name): void;
 ```
 
-Defined in: [mod/index.d.ts:14484](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L14484)
+Defined in: [mod/index.d.ts:20801](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L20801)
 
 Sets the name displayed at the top of score of each column. Only works for custom scoreboards.
 
@@ -98,7 +98,7 @@ Sets the name displayed at the top of score of each column. Only works for custo
 function SetScoreboardColumnNames(column1Name, column2Name): void;
 ```
 
-Defined in: [mod/index.d.ts:14487](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L14487)
+Defined in: [mod/index.d.ts:20804](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L20804)
 
 Sets the name displayed at the top of score of each column. Only works for custom scoreboards.
 
@@ -119,7 +119,7 @@ Sets the name displayed at the top of score of each column. Only works for custo
 function SetScoreboardColumnNames(column1Name): void;
 ```
 
-Defined in: [mod/index.d.ts:14490](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L14490)
+Defined in: [mod/index.d.ts:20807](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L20807)
 
 Sets the name displayed at the top of score of each column. Only works for custom scoreboards.
 

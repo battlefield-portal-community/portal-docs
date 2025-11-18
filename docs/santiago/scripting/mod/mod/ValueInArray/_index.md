@@ -15,7 +15,7 @@ type: typedoc_gen
 function ValueInArray(array, index): any;
 ```
 
-Defined in: [mod/index.d.ts:15200](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L15200)
+Defined in: [mod/index.d.ts:21526](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L21526)
 
 Returns the value found at a provided index of an array.
 

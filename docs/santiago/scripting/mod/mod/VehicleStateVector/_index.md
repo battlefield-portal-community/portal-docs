@@ -11,12 +11,12 @@ type: typedoc_gen
 
 # Enumeration: VehicleStateVector
 
-Defined in: [mod/index.d.ts:12528](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L12528)
+Defined in: [mod/index.d.ts:19516](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L19516)
 
 ## Enumeration Members
 
 | Enumeration Member | Value | Defined in |
 | ------ | ------ | ------ |
-| <a id="facingdirection"></a> `FacingDirection` | `number` | [mod/index.d.ts:12529](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L12529) |
-| <a id="linearvelocity"></a> `LinearVelocity` | `number` | [mod/index.d.ts:12530](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L12530) |
-| <a id="vehicleposition"></a> `VehiclePosition` | `number` | [mod/index.d.ts:12531](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L12531) |
+| <a id="facingdirection"></a> `FacingDirection` | `number` | [mod/index.d.ts:19517](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L19517) |
+| <a id="linearvelocity"></a> `LinearVelocity` | `number` | [mod/index.d.ts:19518](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L19518) |
+| <a id="vehicleposition"></a> `VehiclePosition` | `number` | [mod/index.d.ts:19519](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L19519) |

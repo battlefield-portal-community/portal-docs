@@ -17,7 +17,7 @@ type: typedoc_gen
 function EndGameMode(player): void;
 ```
 
-Defined in: [mod/index.d.ts:13681](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L13681)
+Defined in: [mod/index.d.ts:20368](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L20368)
 
 Ends the current gamemode and designates the provided Player or Team as the winner. The gamemode ends in draw if Team is set to 0.
 
@@ -37,7 +37,7 @@ Ends the current gamemode and designates the provided Player or Team as the winn
 function EndGameMode(team): void;
 ```
 
-Defined in: [mod/index.d.ts:13684](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L13684)
+Defined in: [mod/index.d.ts:20371](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L20371)
 
 Ends the current gamemode and designates the provided Player or Team as the winner. The gamemode ends in draw if Team is set to 0.
 

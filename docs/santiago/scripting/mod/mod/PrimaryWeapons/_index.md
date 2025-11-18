@@ -11,4 +11,4 @@ type: typedoc_gen
 
 # Enumeration: PrimaryWeapons
 
-Defined in: [mod/index.d.ts:361](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L361)
+Defined in: [mod/index.d.ts:422](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L422)

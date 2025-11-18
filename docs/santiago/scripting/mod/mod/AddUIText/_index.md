@@ -22,7 +22,7 @@ function AddUIText(
    message): void;
 ```
 
-Defined in: [mod/index.d.ts:14867](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L14867)
+Defined in: [mod/index.d.ts:21184](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L21184)
 
 Creates a new UI Text Widget.
 
@@ -52,7 +52,7 @@ function AddUIText(
    receiver): void;
 ```
 
-Defined in: [mod/index.d.ts:14870](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L14870)
+Defined in: [mod/index.d.ts:21187](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L21187)
 
 Creates a new UI Text Widget.
 
@@ -92,7 +92,7 @@ function AddUIText(
    textAnchor): void;
 ```
 
-Defined in: [mod/index.d.ts:14880](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L14880)
+Defined in: [mod/index.d.ts:21197](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L21197)
 
 Creates a new UI Text Widget.
 
@@ -142,7 +142,7 @@ function AddUIText(
    receiver): void;
 ```
 
-Defined in: [mod/index.d.ts:14899](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L14899)
+Defined in: [mod/index.d.ts:21216](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L21216)
 
 Creates a new UI Text Widget.
 
@@ -193,7 +193,7 @@ function AddUIText(
    depth): void;
 ```
 
-Defined in: [mod/index.d.ts:14919](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L14919)
+Defined in: [mod/index.d.ts:21236](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L21236)
 
 Creates a new UI Text Widget.
 
@@ -245,7 +245,7 @@ function AddUIText(
    receiver): void;
 ```
 
-Defined in: [mod/index.d.ts:14939](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L14939)
+Defined in: [mod/index.d.ts:21256](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L21256)
 
 Creates a new UI Text Widget.
 

@@ -15,7 +15,7 @@ type: typedoc_gen
 const SFXSymbol: unique symbol;
 ```
 
-Defined in: [mod/index.d.ts:89](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L89)
+Defined in: [mod/index.d.ts:84](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L84)
 
 export type SFX = never;
 export type SFX = Any;

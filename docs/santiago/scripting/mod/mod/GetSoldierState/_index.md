@@ -17,7 +17,7 @@ type: typedoc_gen
 function GetSoldierState(player, soldierStateNumber): number;
 ```
 
-Defined in: [mod/index.d.ts:15590](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L15590)
+Defined in: [mod/index.d.ts:21902](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L21902)
 
 Returns the value of the target player state.
 
@@ -38,7 +38,7 @@ Returns the value of the target player state.
 function GetSoldierState(player, soldierStateBool): boolean;
 ```
 
-Defined in: [mod/index.d.ts:15593](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L15593)
+Defined in: [mod/index.d.ts:21905](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L21905)
 
 Returns the value of the target player state.
 
@@ -59,7 +59,7 @@ Returns the value of the target player state.
 function GetSoldierState(player, soldierStateVector): Vector;
 ```
 
-Defined in: [mod/index.d.ts:15596](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L15596)
+Defined in: [mod/index.d.ts:21908](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L21908)
 
 Returns the value of the target player state.
 

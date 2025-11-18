@@ -21,7 +21,7 @@ function Message(
    msgArg2): Message;
 ```
 
-Defined in: [mod/index.d.ts:15743](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L15743)
+Defined in: [mod/index.d.ts:21977](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L21977)
 
 Returns a constructed message object which can be used with event game mode message, notification message, highlighted game mode message, and custom notification message. The message object is created by providing a number, player, or format string (which can take up to 3 format items).
 
@@ -47,7 +47,7 @@ function Message(
    msgArg1): Message;
 ```
 
-Defined in: [mod/index.d.ts:15751](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L15751)
+Defined in: [mod/index.d.ts:21985](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L21985)
 
 Returns a constructed message object which can be used with event game mode message, notification message, highlighted game mode message, and custom notification message. The message object is created by providing a number, player, or format string (which can take up to 3 format items).
 
@@ -69,7 +69,7 @@ Returns a constructed message object which can be used with event game mode mess
 function Message(msg, msgArg0): Message;
 ```
 
-Defined in: [mod/index.d.ts:15758](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L15758)
+Defined in: [mod/index.d.ts:21992](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L21992)
 
 Returns a constructed message object which can be used with event game mode message, notification message, highlighted game mode message, and custom notification message. The message object is created by providing a number, player, or format string (which can take up to 3 format items).
 
@@ -90,7 +90,7 @@ Returns a constructed message object which can be used with event game mode mess
 function Message(msg): Message;
 ```
 
-Defined in: [mod/index.d.ts:15761](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L15761)
+Defined in: [mod/index.d.ts:21995](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L21995)
 
 Returns a constructed message object which can be used with event game mode message, notification message, highlighted game mode message, and custom notification message. The message object is created by providing a number, player, or format string (which can take up to 3 format items).
 

@@ -17,7 +17,7 @@ type: typedoc_gen
 function Multiply(number0, number1): number;
 ```
 
-Defined in: [mod/index.d.ts:15464](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L15464)
+Defined in: [mod/index.d.ts:21776](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L21776)
 
 Returns the product of two number values or the product of a vector and number value.
 
@@ -38,7 +38,7 @@ Returns the product of two number values or the product of a vector and number v
 function Multiply(vector, number): Vector;
 ```
 
-Defined in: [mod/index.d.ts:15467](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L15467)
+Defined in: [mod/index.d.ts:21779](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L21779)
 
 Returns the product of two number values or the product of a vector and number value.
 

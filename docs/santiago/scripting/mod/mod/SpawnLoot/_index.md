@@ -14,10 +14,10 @@ type: typedoc_gen
 ## Call Signature
 
 ```ts
-function SpawnLoot(lootSpawner, weapon): void;
+function SpawnLoot(lootSpawner, ammo): void;
 ```
 
-Defined in: [mod/index.d.ts:13741](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L13741)
+Defined in: [mod/index.d.ts:20428](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L20428)
 
 Spawns a weapon or gadget at a LootSpawner.
 
@@ -26,7 +26,7 @@ Spawns a weapon or gadget at a LootSpawner.
 | Parameter | Type |
 | ------ | ------ |
 | `lootSpawner` | [`LootSpawner`](../LootSpawner/_index.md) |
-| `weapon` | [`PrimaryWeapons`](../PrimaryWeapons/_index.md) |
+| `ammo` | [`AmmoTypes`](../AmmoTypes/_index.md) |
 
 ### Returns
 
@@ -38,112 +38,7 @@ Spawns a weapon or gadget at a LootSpawner.
 function SpawnLoot(lootSpawner, weapon): void;
 ```
 
-Defined in: [mod/index.d.ts:13744](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L13744)
-
-Spawns a weapon or gadget at a LootSpawner.
-
-### Parameters
-
-| Parameter | Type |
-| ------ | ------ |
-| `lootSpawner` | [`LootSpawner`](../LootSpawner/_index.md) |
-| `weapon` | [`SecondaryWeapons`](../SecondaryWeapons/_index.md) |
-
-### Returns
-
-`void`
-
-## Call Signature
-
-```ts
-function SpawnLoot(lootSpawner, weapon): void;
-```
-
-Defined in: [mod/index.d.ts:13747](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L13747)
-
-Spawns a weapon or gadget at a LootSpawner.
-
-### Parameters
-
-| Parameter | Type |
-| ------ | ------ |
-| `lootSpawner` | [`LootSpawner`](../LootSpawner/_index.md) |
-| `weapon` | [`UnguidedRocketLauncher`](../OpenGadgets/_index.md#unguidedrocketlauncher) |
-
-### Returns
-
-`void`
-
-## Call Signature
-
-```ts
-function SpawnLoot(lootSpawner, weapon): void;
-```
-
-Defined in: [mod/index.d.ts:13750](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L13750)
-
-Spawns a weapon or gadget at a LootSpawner.
-
-### Parameters
-
-| Parameter | Type |
-| ------ | ------ |
-| `lootSpawner` | [`LootSpawner`](../LootSpawner/_index.md) |
-| `weapon` | [`Throwables`](../Throwables/_index.md) |
-
-### Returns
-
-`void`
-
-## Call Signature
-
-```ts
-function SpawnLoot(lootSpawner, weapon): void;
-```
-
-Defined in: [mod/index.d.ts:13753](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L13753)
-
-Spawns a weapon or gadget at a LootSpawner.
-
-### Parameters
-
-| Parameter | Type |
-| ------ | ------ |
-| `lootSpawner` | [`LootSpawner`](../LootSpawner/_index.md) |
-| `weapon` | [`MeleeWeapons`](../MeleeWeapons/_index.md) |
-
-### Returns
-
-`void`
-
-## Call Signature
-
-```ts
-function SpawnLoot(lootSpawner, weapon): void;
-```
-
-Defined in: [mod/index.d.ts:13756](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L13756)
-
-Spawns a weapon or gadget at a LootSpawner.
-
-### Parameters
-
-| Parameter | Type |
-| ------ | ------ |
-| `lootSpawner` | [`LootSpawner`](../LootSpawner/_index.md) |
-| `weapon` | [`MiscGadgets`](../MiscGadgets/_index.md) |
-
-### Returns
-
-`void`
-
-## Call Signature
-
-```ts
-function SpawnLoot(lootSpawner, weapon): void;
-```
-
-Defined in: [mod/index.d.ts:13759](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L13759)
+Defined in: [mod/index.d.ts:20431](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L20431)
 
 Spawns a weapon or gadget at a LootSpawner.
 
@@ -164,7 +59,7 @@ Spawns a weapon or gadget at a LootSpawner.
 function SpawnLoot(lootSpawner, gadget): void;
 ```
 
-Defined in: [mod/index.d.ts:13762](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L13762)
+Defined in: [mod/index.d.ts:20434](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L20434)
 
 Spawns a weapon or gadget at a LootSpawner.
 
@@ -182,31 +77,10 @@ Spawns a weapon or gadget at a LootSpawner.
 ## Call Signature
 
 ```ts
-function SpawnLoot(lootSpawner, ammo): void;
-```
-
-Defined in: [mod/index.d.ts:13765](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L13765)
-
-Spawns a weapon or gadget at a LootSpawner.
-
-### Parameters
-
-| Parameter | Type |
-| ------ | ------ |
-| `lootSpawner` | [`LootSpawner`](../LootSpawner/_index.md) |
-| `ammo` | [`AmmoTypes`](../AmmoTypes/_index.md) |
-
-### Returns
-
-`void`
-
-## Call Signature
-
-```ts
 function SpawnLoot(lootSpawner, armor): void;
 ```
 
-Defined in: [mod/index.d.ts:13768](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L13768)
+Defined in: [mod/index.d.ts:20437](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L20437)
 
 Spawns a weapon or gadget at a LootSpawner.
 

@@ -11,12 +11,12 @@ type: typedoc_gen
 
 # Enumeration: Stance
 
-Defined in: [mod/index.d.ts:12353](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L12353)
+Defined in: [mod/index.d.ts:19332](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L19332)
 
 ## Enumeration Members
 
 | Enumeration Member | Value | Defined in |
 | ------ | ------ | ------ |
-| <a id="crouch"></a> `Crouch` | `number` | [mod/index.d.ts:12354](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L12354) |
-| <a id="prone"></a> `Prone` | `number` | [mod/index.d.ts:12355](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L12355) |
-| <a id="stand"></a> `Stand` | `number` | [mod/index.d.ts:12356](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L12356) |
+| <a id="crouch"></a> `Crouch` | `number` | [mod/index.d.ts:19333](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L19333) |
+| <a id="prone"></a> `Prone` | `number` | [mod/index.d.ts:19334](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L19334) |
+| <a id="stand"></a> `Stand` | `number` | [mod/index.d.ts:19335](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L19335) |

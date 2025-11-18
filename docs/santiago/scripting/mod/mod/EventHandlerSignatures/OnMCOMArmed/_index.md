@@ -15,7 +15,7 @@ type: typedoc_gen
 function OnMCOMArmed(eventMCOM): void;
 ```
 
-Defined in: [mod/index.d.ts:15981](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L15981)
+Defined in: [mod/index.d.ts:22213](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L22213)
 
 This will trigger when a MCOM is armed.
 

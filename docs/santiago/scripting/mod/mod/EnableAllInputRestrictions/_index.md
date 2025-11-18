@@ -15,7 +15,7 @@ type: typedoc_gen
 function EnableAllInputRestrictions(player, restrictInput): void;
 ```
 
-Defined in: [mod/index.d.ts:13901](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L13901)
+Defined in: [mod/index.d.ts:20550](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L20550)
 
 Enables or disables all keyboard and mouse inputs - such as movement, firing, and turning - for a target player.
 

@@ -17,7 +17,7 @@ type: typedoc_gen
 function GetGameModeScore(player): number;
 ```
 
-Defined in: [mod/index.d.ts:15230](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L15230)
+Defined in: [mod/index.d.ts:21556](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L21556)
 
 Returns the current gamemode score of the provided player or team.
 
@@ -37,7 +37,7 @@ Returns the current gamemode score of the provided player or team.
 function GetGameModeScore(team): number;
 ```
 
-Defined in: [mod/index.d.ts:15233](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L15233)
+Defined in: [mod/index.d.ts:21559](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L21559)
 
 Returns the current gamemode score of the provided player or team.
 

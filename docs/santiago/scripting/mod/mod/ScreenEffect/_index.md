@@ -15,10 +15,10 @@ type: typedoc_gen
 type ScreenEffect = object;
 ```
 
-Defined in: [mod/index.d.ts:95](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L95)
+Defined in: [mod/index.d.ts:90](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L90)
 
 ## Properties
 
 | Property | Type | Defined in |
 | ------ | ------ | ------ |
-| <a id="_opaque"></a> `_opaque` | *typeof* [`ScreenEffectSymbol`](../ScreenEffectSymbol/_index.md) | [mod/index.d.ts:95](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L95) |
+| <a id="_opaque"></a> `_opaque` | *typeof* [`ScreenEffectSymbol`](../ScreenEffectSymbol/_index.md) | [mod/index.d.ts:90](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L90) |

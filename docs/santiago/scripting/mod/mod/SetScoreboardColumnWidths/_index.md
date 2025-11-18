@@ -22,7 +22,7 @@ function SetScoreboardColumnWidths(
    column5Width): void;
 ```
 
-Defined in: [mod/index.d.ts:14493](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L14493)
+Defined in: [mod/index.d.ts:20810](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L20810)
 
 Sets the relative width of each column. Only works for custom scoreboards.
 
@@ -50,7 +50,7 @@ function SetScoreboardColumnWidths(
    column4Width): void;
 ```
 
-Defined in: [mod/index.d.ts:14502](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L14502)
+Defined in: [mod/index.d.ts:20819](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L20819)
 
 Sets the relative width of each column. Only works for custom scoreboards.
 
@@ -76,7 +76,7 @@ function SetScoreboardColumnWidths(
    column3Width): void;
 ```
 
-Defined in: [mod/index.d.ts:14510](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L14510)
+Defined in: [mod/index.d.ts:20827](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L20827)
 
 Sets the relative width of each column. Only works for custom scoreboards.
 
@@ -98,7 +98,7 @@ Sets the relative width of each column. Only works for custom scoreboards.
 function SetScoreboardColumnWidths(column1Width, column2Width): void;
 ```
 
-Defined in: [mod/index.d.ts:14513](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L14513)
+Defined in: [mod/index.d.ts:20830](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L20830)
 
 Sets the relative width of each column. Only works for custom scoreboards.
 
@@ -119,7 +119,7 @@ Sets the relative width of each column. Only works for custom scoreboards.
 function SetScoreboardColumnWidths(column1Width): void;
 ```
 
-Defined in: [mod/index.d.ts:14516](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L14516)
+Defined in: [mod/index.d.ts:20833](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L20833)
 
 Sets the relative width of each column. Only works for custom scoreboards.
 

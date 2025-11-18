@@ -15,7 +15,7 @@ type: typedoc_gen
 function AIMoveToBehavior(player, position): void;
 ```
 
-Defined in: [mod/index.d.ts:13028](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L13028)
+Defined in: [mod/index.d.ts:20042](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L20042)
 
 Sets a player a destination to move to. (Only works for AI players)
 

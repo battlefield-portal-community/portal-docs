@@ -17,7 +17,7 @@ type: typedoc_gen
 function MoveObject(object, positionDelta): void;
 ```
 
-Defined in: [mod/index.d.ts:13973](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L13973)
+Defined in: [mod/index.d.ts:20622](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L20622)
 
 Move the Object provided, Euler rotation optional
 
@@ -41,7 +41,7 @@ function MoveObject(
    rotationDelta): void;
 ```
 
-Defined in: [mod/index.d.ts:14003](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L14003)
+Defined in: [mod/index.d.ts:20625](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L20625)
 
 Move the Object provided, Euler rotation optional
 

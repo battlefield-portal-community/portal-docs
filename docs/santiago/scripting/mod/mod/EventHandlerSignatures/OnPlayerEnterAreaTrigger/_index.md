@@ -15,7 +15,7 @@ type: typedoc_gen
 function OnPlayerEnterAreaTrigger(eventPlayer, eventAreaTrigger): void;
 ```
 
-Defined in: [mod/index.d.ts:16020](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L16020)
+Defined in: [mod/index.d.ts:22252](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L22252)
 
 This will trigger when a Player enters an AreaTrigger.
 

@@ -17,7 +17,7 @@ type: typedoc_gen
 function HasEquipment(player, weapon): boolean;
 ```
 
-Defined in: [mod/index.d.ts:15599](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L15599)
+Defined in: [mod/index.d.ts:21911](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L21911)
 
 Returns a boolean indicating if the provided player has the specified ability.
 
@@ -38,7 +38,7 @@ Returns a boolean indicating if the provided player has the specified ability.
 function HasEquipment(player, gadget): boolean;
 ```
 
-Defined in: [mod/index.d.ts:15602](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L15602)
+Defined in: [mod/index.d.ts:21914](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L21914)
 
 Returns a boolean indicating if the provided player has the specified ability.
 

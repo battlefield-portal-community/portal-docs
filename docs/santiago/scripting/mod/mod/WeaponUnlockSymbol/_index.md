@@ -15,7 +15,7 @@ type: typedoc_gen
 const WeaponUnlockSymbol: unique symbol;
 ```
 
-Defined in: [mod/index.d.ts:178](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L178)
+Defined in: [mod/index.d.ts:174](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L174)
 
 export type WeaponUnlock = never;
 export type WeaponUnlock = Any;

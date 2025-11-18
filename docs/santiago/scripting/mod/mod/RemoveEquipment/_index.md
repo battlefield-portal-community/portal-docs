@@ -17,7 +17,7 @@ type: typedoc_gen
 function RemoveEquipment(player, inventorySlot): void;
 ```
 
-Defined in: [mod/index.d.ts:13943](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L13943)
+Defined in: [mod/index.d.ts:20592](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L20592)
 
 Removes a Weapon or Gadget from a Soldier's loadout.
 
@@ -38,7 +38,7 @@ Removes a Weapon or Gadget from a Soldier's loadout.
 function RemoveEquipment(arg0, weapon): void;
 ```
 
-Defined in: [mod/index.d.ts:13946](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L13946)
+Defined in: [mod/index.d.ts:20595](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L20595)
 
 Removes a Weapon or Gadget from a Soldier's loadout.
 
@@ -59,7 +59,7 @@ Removes a Weapon or Gadget from a Soldier's loadout.
 function RemoveEquipment(arg0, gadget): void;
 ```
 
-Defined in: [mod/index.d.ts:13949](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L13949)
+Defined in: [mod/index.d.ts:20598](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L20598)
 
 Removes a Weapon or Gadget from a Soldier's loadout.
 

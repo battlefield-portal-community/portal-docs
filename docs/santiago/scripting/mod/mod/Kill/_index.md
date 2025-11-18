@@ -17,7 +17,7 @@ type: typedoc_gen
 function Kill(player): void;
 ```
 
-Defined in: [mod/index.d.ts:13824](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L13824)
+Defined in: [mod/index.d.ts:20470](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L20470)
 
 Kills a target player (skips the Mandown state).
 
@@ -37,7 +37,7 @@ Kills a target player (skips the Mandown state).
 function Kill(vehicle): void;
 ```
 
-Defined in: [mod/index.d.ts:13827](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L13827)
+Defined in: [mod/index.d.ts:20473](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L20473)
 
 Kills a target player (skips the Mandown state).
 

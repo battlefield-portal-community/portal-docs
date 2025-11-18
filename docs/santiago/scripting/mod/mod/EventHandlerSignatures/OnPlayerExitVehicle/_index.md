@@ -15,7 +15,7 @@ type: typedoc_gen
 function OnPlayerExitVehicle(eventPlayer, eventVehicle): void;
 ```
 
-Defined in: [mod/index.d.ts:16042](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L16042)
+Defined in: [mod/index.d.ts:22274](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L22274)
 
 This will trigger when a Player exits a Vehicle.
 

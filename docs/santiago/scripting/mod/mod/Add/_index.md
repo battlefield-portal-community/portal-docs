@@ -17,7 +17,7 @@ type: typedoc_gen
 function Add(number0, number1): number;
 ```
 
-Defined in: [mod/index.d.ts:15386](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L15386)
+Defined in: [mod/index.d.ts:21698](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L21698)
 
 Returns the sum of two numbers or two vector values.
 
@@ -38,7 +38,7 @@ Returns the sum of two numbers or two vector values.
 function Add(vector0, vector1): Vector;
 ```
 
-Defined in: [mod/index.d.ts:15389](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L15389)
+Defined in: [mod/index.d.ts:21701](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L21701)
 
 Returns the sum of two numbers or two vector values.
 

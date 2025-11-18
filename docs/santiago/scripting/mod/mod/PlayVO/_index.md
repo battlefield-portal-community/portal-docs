@@ -20,7 +20,7 @@ function PlayVO(
    flag): void;
 ```
 
-Defined in: [mod/index.d.ts:13422](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L13422)
+Defined in: [mod/index.d.ts:20224](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L20224)
 
 Plays a voice-over event clip.
 
@@ -46,7 +46,7 @@ function PlayVO(
    player): void;
 ```
 
-Defined in: [mod/index.d.ts:13425](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L13425)
+Defined in: [mod/index.d.ts:20227](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L20227)
 
 Plays a voice-over event clip.
 
@@ -73,7 +73,7 @@ function PlayVO(
    squad): void;
 ```
 
-Defined in: [mod/index.d.ts:13428](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L13428)
+Defined in: [mod/index.d.ts:20230](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L20230)
 
 Plays a voice-over event clip.
 
@@ -100,7 +100,7 @@ function PlayVO(
    team): void;
 ```
 
-Defined in: [mod/index.d.ts:13431](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L13431)
+Defined in: [mod/index.d.ts:20233](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L20233)
 
 Plays a voice-over event clip.
 
@@ -126,7 +126,7 @@ function PlayVO(
    flag): void;
 ```
 
-Defined in: [mod/index.d.ts:13434](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L13434)
+Defined in: [mod/index.d.ts:20236](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L20236)
 
 Plays a voice-over event clip.
 
@@ -152,7 +152,7 @@ function PlayVO(
    player): void;
 ```
 
-Defined in: [mod/index.d.ts:13465](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L13465)
+Defined in: [mod/index.d.ts:20239](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L20239)
 
 Plays a voice-over event clip.
 
@@ -179,7 +179,7 @@ function PlayVO(
    squad): void;
 ```
 
-Defined in: [mod/index.d.ts:13497](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L13497)
+Defined in: [mod/index.d.ts:20242](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L20242)
 
 Plays a voice-over event clip.
 
@@ -206,7 +206,7 @@ function PlayVO(
    team): void;
 ```
 
-Defined in: [mod/index.d.ts:13529](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L13529)
+Defined in: [mod/index.d.ts:20245](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L20245)
 
 Plays a voice-over event clip.
 

@@ -15,7 +15,7 @@ type: typedoc_gen
 function GetUITextColor(widget): Vector;
 ```
 
-Defined in: [mod/index.d.ts:15821](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L15821)
+Defined in: [mod/index.d.ts:22055](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L22055)
 
 Returns a vector representing the text color of the specified UI Widget.
 

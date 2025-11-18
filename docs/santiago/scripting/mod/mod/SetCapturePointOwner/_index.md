@@ -15,7 +15,7 @@ type: typedoc_gen
 function SetCapturePointOwner(capturePoint, team): void;
 ```
 
-Defined in: [mod/index.d.ts:13868](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L13868)
+Defined in: [mod/index.d.ts:20514](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L20514)
 
 Change the team controling a capture point.
 

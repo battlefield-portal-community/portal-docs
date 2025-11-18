@@ -17,7 +17,7 @@ type: typedoc_gen
 function Subtract(number0, number1): number;
 ```
 
-Defined in: [mod/index.d.ts:15497](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L15497)
+Defined in: [mod/index.d.ts:21809](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L21809)
 
 Returns the difference between two number values or two vector values.
 
@@ -38,7 +38,7 @@ Returns the difference between two number values or two vector values.
 function Subtract(vector0, vector1): Vector;
 ```
 
-Defined in: [mod/index.d.ts:15500](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L15500)
+Defined in: [mod/index.d.ts:21812](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L21812)
 
 Returns the difference between two number values or two vector values.
 

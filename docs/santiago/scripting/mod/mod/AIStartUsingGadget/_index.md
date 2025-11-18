@@ -20,7 +20,7 @@ function AIStartUsingGadget(
    targetPos): void;
 ```
 
-Defined in: [mod/index.d.ts:13111](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L13111)
+Defined in: [mod/index.d.ts:20125](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L20125)
 
 Gives a player the instruction to use a specific gadget on a target location or player. (Only works for AI players)
 
@@ -45,7 +45,7 @@ function AIStartUsingGadget(
    targetPlayer): void;
 ```
 
-Defined in: [mod/index.d.ts:13114](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L13114)
+Defined in: [mod/index.d.ts:20128](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L20128)
 
 Gives a player the instruction to use a specific gadget on a target location or player. (Only works for AI players)
 

@@ -11,12 +11,12 @@ type: typedoc_gen
 
 # Enumeration: ArmorTypes
 
-Defined in: [mod/index.d.ts:221](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L221)
+Defined in: [mod/index.d.ts:216](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L216)
 
 ## Enumeration Members
 
 | Enumeration Member | Value | Defined in |
 | ------ | ------ | ------ |
-| <a id="ceramicarmor"></a> `CeramicArmor` | `number` | [mod/index.d.ts:222](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L222) |
-| <a id="noarmor"></a> `NoArmor` | `number` | [mod/index.d.ts:223](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L223) |
-| <a id="softarmor"></a> `SoftArmor` | `number` | [mod/index.d.ts:224](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L224) |
+| <a id="ceramicarmor"></a> `CeramicArmor` | `number` | [mod/index.d.ts:217](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L217) |
+| <a id="noarmor"></a> `NoArmor` | `number` | [mod/index.d.ts:218](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L218) |
+| <a id="softarmor"></a> `SoftArmor` | `number` | [mod/index.d.ts:219](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L219) |

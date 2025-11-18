@@ -15,7 +15,7 @@ type: typedoc_gen
 function SetUITextAlpha(widget, value): void;
 ```
 
-Defined in: [mod/index.d.ts:15061](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L15061)
+Defined in: [mod/index.d.ts:21378](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L21378)
 
 Changes the alpha (transparency) of the text of an UI Text Widget.
 

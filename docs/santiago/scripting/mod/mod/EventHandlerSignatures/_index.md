@@ -28,7 +28,6 @@ type: typedoc_gen
 - [OnCapturePointLost](OnCapturePointLost/_index.md)
 - [OnGameModeEnding](OnGameModeEnding/_index.md)
 - [OnGameModeStarted](OnGameModeStarted/_index.md)
-- [Ongoing](Ongoing/_index.md)
 - [OngoingAreaTrigger](OngoingAreaTrigger/_index.md)
 - [OngoingCapturePoint](OngoingCapturePoint/_index.md)
 - [OngoingEmplacementSpawner](OngoingEmplacementSpawner/_index.md)

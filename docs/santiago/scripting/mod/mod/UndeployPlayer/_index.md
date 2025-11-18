@@ -15,7 +15,7 @@ type: typedoc_gen
 function UndeployPlayer(player): void;
 ```
 
-Defined in: [mod/index.d.ts:13678](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L13678)
+Defined in: [mod/index.d.ts:20365](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L20365)
 
 Undeploys a target player that is alive on the battlefield back to the deploy screen.
 

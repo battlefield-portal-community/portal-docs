@@ -15,7 +15,7 @@ type: typedoc_gen
 function SetUIWidgetBgAlpha(widget, value): void;
 ```
 
-Defined in: [mod/index.d.ts:15079](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L15079)
+Defined in: [mod/index.d.ts:21396](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L21396)
 
 Changes the alpha (transparency) of an UI Widget.
 

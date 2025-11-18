@@ -15,10 +15,10 @@ type: typedoc_gen
 type HQ = object;
 ```
 
-Defined in: [mod/index.d.ts:50](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L50)
+Defined in: [mod/index.d.ts:45](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L45)
 
 ## Properties
 
 | Property | Type | Defined in |
 | ------ | ------ | ------ |
-| <a id="_opaque"></a> `_opaque` | *typeof* [`HQSymbol`](../HQSymbol/_index.md) | [mod/index.d.ts:50](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L50) |
+| <a id="_opaque"></a> `_opaque` | *typeof* [`HQSymbol`](../HQSymbol/_index.md) | [mod/index.d.ts:45](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L45) |
