@@ -11,14 +11,14 @@ type: typedoc_gen
 
 # Enumeration: ScoreboardType
 
-Defined in: [mod/index.d.ts:12287](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L12287)
+Defined in: [mod/index.d.ts:19266](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L19266)
 
 ## Enumeration Members
 
 | Enumeration Member | Value | Defined in |
 | ------ | ------ | ------ |
-| <a id="customffa"></a> `CustomFFA` | `number` | [mod/index.d.ts:12288](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L12288) |
-| <a id="customtwoteams"></a> `CustomTwoTeams` | `number` | [mod/index.d.ts:12289](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L12289) |
-| <a id="defaultffa"></a> `DefaultFFA` | `number` | [mod/index.d.ts:12290](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L12290) |
-| <a id="notset"></a> `NotSet` | `number` | [mod/index.d.ts:12291](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L12291) |
-| <a id="off"></a> `Off` | `number` | [mod/index.d.ts:12292](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L12292) |
+| <a id="customffa"></a> `CustomFFA` | `number` | [mod/index.d.ts:19267](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L19267) |
+| <a id="customtwoteams"></a> `CustomTwoTeams` | `number` | [mod/index.d.ts:19268](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L19268) |
+| <a id="defaultffa"></a> `DefaultFFA` | `number` | [mod/index.d.ts:19269](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L19269) |
+| <a id="notset"></a> `NotSet` | `number` | [mod/index.d.ts:19270](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L19270) |
+| <a id="off"></a> `Off` | `number` | [mod/index.d.ts:19271](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L19271) |

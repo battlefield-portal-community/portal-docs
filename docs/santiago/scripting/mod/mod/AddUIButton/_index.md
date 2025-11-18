@@ -21,7 +21,7 @@ function AddUIButton(
    anchor): void;
 ```
 
-Defined in: [mod/index.d.ts:14567](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L14567)
+Defined in: [mod/index.d.ts:20884](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L20884)
 
 Creates a UI Button Widget.
 
@@ -49,7 +49,7 @@ function AddUIButton(
    receiver): void;
 ```
 
-Defined in: [mod/index.d.ts:14570](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L14570)
+Defined in: [mod/index.d.ts:20887](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L20887)
 
 Creates a UI Button Widget.
 
@@ -94,7 +94,7 @@ function AddUIButton(
    focusedAlpha): void;
 ```
 
-Defined in: [mod/index.d.ts:14579](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L14579)
+Defined in: [mod/index.d.ts:20896](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L20896)
 
 Creates a UI Button Widget.
 
@@ -156,7 +156,7 @@ function AddUIButton(
    receiver): void;
 ```
 
-Defined in: [mod/index.d.ts:14604](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L14604)
+Defined in: [mod/index.d.ts:20921](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L20921)
 
 Creates a UI Button Widget.
 
@@ -219,7 +219,7 @@ function AddUIButton(
    depth): void;
 ```
 
-Defined in: [mod/index.d.ts:14630](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L14630)
+Defined in: [mod/index.d.ts:20947](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L20947)
 
 Creates a UI Button Widget.
 
@@ -283,7 +283,7 @@ function AddUIButton(
    receiver): void;
 ```
 
-Defined in: [mod/index.d.ts:14656](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L14656)
+Defined in: [mod/index.d.ts:20973](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L20973)
 
 Creates a UI Button Widget.
 

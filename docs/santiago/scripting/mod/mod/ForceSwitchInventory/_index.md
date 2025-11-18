@@ -15,7 +15,7 @@ type: typedoc_gen
 function ForceSwitchInventory(player, inventorySlot): void;
 ```
 
-Defined in: [mod/index.d.ts:13940](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L13940)
+Defined in: [mod/index.d.ts:20589](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L20589)
 
 Forces the target player to switch to the provided inventory slot.
 

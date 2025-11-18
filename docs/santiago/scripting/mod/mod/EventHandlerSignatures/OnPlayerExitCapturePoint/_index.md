@@ -15,7 +15,7 @@ type: typedoc_gen
 function OnPlayerExitCapturePoint(eventPlayer, eventCapturePoint): void;
 ```
 
-Defined in: [mod/index.d.ts:16039](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L16039)
+Defined in: [mod/index.d.ts:22271](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L22271)
 
 This will trigger when a Player exits a CapturePoint capturing area.
 

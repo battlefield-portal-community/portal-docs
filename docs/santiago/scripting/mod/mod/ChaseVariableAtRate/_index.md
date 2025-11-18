@@ -18,7 +18,7 @@ function ChaseVariableAtRate(
    deltaPerSecond): void;
 ```
 
-Defined in: [mod/index.d.ts:13850](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L13850)
+Defined in: [mod/index.d.ts:20496](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L20496)
 
 Gradually modifies the value of a Variable at a specified rate (value/second) until it reaches the provided limit.
 

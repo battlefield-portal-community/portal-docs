@@ -21,7 +21,7 @@ function AddUIContainer(
    anchor): void;
 ```
 
-Defined in: [mod/index.d.ts:14683](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L14683)
+Defined in: [mod/index.d.ts:21000](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L21000)
 
 Creates a new UI Container Widget.
 
@@ -49,7 +49,7 @@ function AddUIContainer(
    receiver): void;
 ```
 
-Defined in: [mod/index.d.ts:14686](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L14686)
+Defined in: [mod/index.d.ts:21003](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L21003)
 
 Creates a new UI Container Widget.
 
@@ -83,7 +83,7 @@ function AddUIContainer(
    bgFill): void;
 ```
 
-Defined in: [mod/index.d.ts:14695](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L14695)
+Defined in: [mod/index.d.ts:21012](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L21012)
 
 Creates a new UI Container Widget.
 
@@ -123,7 +123,7 @@ function AddUIContainer(
    receiver): void;
 ```
 
-Defined in: [mod/index.d.ts:14709](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L14709)
+Defined in: [mod/index.d.ts:21026](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L21026)
 
 Creates a new UI Container Widget.
 
@@ -164,7 +164,7 @@ function AddUIContainer(
    depth): void;
 ```
 
-Defined in: [mod/index.d.ts:14724](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L14724)
+Defined in: [mod/index.d.ts:21041](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L21041)
 
 Creates a new UI Container Widget.
 
@@ -206,7 +206,7 @@ function AddUIContainer(
    receiver): void;
 ```
 
-Defined in: [mod/index.d.ts:14739](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L14739)
+Defined in: [mod/index.d.ts:21056](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L21056)
 
 Creates a new UI Container Widget.
 

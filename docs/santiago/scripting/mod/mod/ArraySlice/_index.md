@@ -18,7 +18,7 @@ function ArraySlice(
    endIndex): Array;
 ```
 
-Defined in: [mod/index.d.ts:15176](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L15176)
+Defined in: [mod/index.d.ts:21502](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L21502)
 
 Returns a copy of the specified array containing only values from a specified index range.
 

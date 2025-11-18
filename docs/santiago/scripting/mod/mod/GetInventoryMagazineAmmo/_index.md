@@ -15,7 +15,7 @@ type: typedoc_gen
 function GetInventoryMagazineAmmo(player, inventorySlots): number;
 ```
 
-Defined in: [mod/index.d.ts:15587](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L15587)
+Defined in: [mod/index.d.ts:21899](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L21899)
 
 Returns the target player magazine ammo of the provided inventory slots.
 

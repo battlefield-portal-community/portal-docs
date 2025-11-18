@@ -11,13 +11,13 @@ type: typedoc_gen
 
 # Enumeration: SpotStatus
 
-Defined in: [mod/index.d.ts:12347](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L12347)
+Defined in: [mod/index.d.ts:19326](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L19326)
 
 ## Enumeration Members
 
 | Enumeration Member | Value | Defined in |
 | ------ | ------ | ------ |
-| <a id="spotinboth"></a> `SpotInBoth` | `number` | [mod/index.d.ts:12348](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L12348) |
-| <a id="spotinminimap"></a> `SpotInMinimap` | `number` | [mod/index.d.ts:12349](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L12349) |
-| <a id="spotinworld"></a> `SpotInWorld` | `number` | [mod/index.d.ts:12350](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L12350) |
-| <a id="unspot"></a> `Unspot` | `number` | [mod/index.d.ts:12351](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L12351) |
+| <a id="spotinboth"></a> `SpotInBoth` | `number` | [mod/index.d.ts:19327](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L19327) |
+| <a id="spotinminimap"></a> `SpotInMinimap` | `number` | [mod/index.d.ts:19328](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L19328) |
+| <a id="spotinworld"></a> `SpotInWorld` | `number` | [mod/index.d.ts:19329](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L19329) |
+| <a id="unspot"></a> `Unspot` | `number` | [mod/index.d.ts:19330](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L19330) |

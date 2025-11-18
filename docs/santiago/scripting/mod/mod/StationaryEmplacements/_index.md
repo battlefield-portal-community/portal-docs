@@ -11,12 +11,12 @@ type: typedoc_gen
 
 # Enumeration: StationaryEmplacements
 
-Defined in: [mod/index.d.ts:12358](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L12358)
+Defined in: [mod/index.d.ts:19337](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L19337)
 
 ## Enumeration Members
 
 | Enumeration Member | Value | Defined in |
 | ------ | ------ | ------ |
-| <a id="bgm71tow"></a> `BGM71TOW` | `number` | [mod/index.d.ts:12359](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L12359) |
-| <a id="gdf009"></a> `GDF009` | `number` | [mod/index.d.ts:12360](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L12360) |
-| <a id="m2mg"></a> `M2MG` | `number` | [mod/index.d.ts:12361](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L12361) |
+| <a id="bgm71tow"></a> `BGM71TOW` | `number` | [mod/index.d.ts:19338](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L19338) |
+| <a id="gdf009"></a> `GDF009` | `number` | [mod/index.d.ts:19339](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L19339) |
+| <a id="m2mg"></a> `M2MG` | `number` | [mod/index.d.ts:19340](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L19340) |

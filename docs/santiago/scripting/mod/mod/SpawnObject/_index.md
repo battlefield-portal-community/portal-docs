@@ -21,7 +21,7 @@ function SpawnObject(
    scale): any;
 ```
 
-Defined in: [mod/index.d.ts:15307](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L15307)
+Defined in: [mod/index.d.ts:21607](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L21607)
 
 Spawns an object at runtime. Returns an object id if the object supports it, otherwise -1
 
@@ -29,7 +29,7 @@ Spawns an object at runtime. Returns an object id if the object supports it, oth
 
 | Parameter | Type |
 | ------ | ------ |
-| `prefabEnum` | \| [`RuntimeSpawn_Common`](../RuntimeSpawn_Common/_index.md) \| [`RuntimeSpawn_Abbasid`](../RuntimeSpawn_Abbasid/_index.md) \| [`RuntimeSpawn_Aftermath`](../RuntimeSpawn_Aftermath/_index.md) \| [`RuntimeSpawn_Badlands`](../RuntimeSpawn_Badlands/_index.md) \| [`RuntimeSpawn_Battery`](../RuntimeSpawn_Battery/_index.md) \| [`RuntimeSpawn_Capstone`](../RuntimeSpawn_Capstone/_index.md) \| [`RuntimeSpawn_Dumbo`](../RuntimeSpawn_Dumbo/_index.md) \| [`RuntimeSpawn_FireStorm`](../RuntimeSpawn_FireStorm/_index.md) \| [`RuntimeSpawn_Limestone`](../RuntimeSpawn_Limestone/_index.md) \| [`RuntimeSpawn_Outskirts`](../RuntimeSpawn_Outskirts/_index.md) \| [`RuntimeSpawn_Tungsten`](../RuntimeSpawn_Tungsten/_index.md) |
+| `prefabEnum` | \| [`RuntimeSpawn_Common`](../RuntimeSpawn_Common/_index.md) \| [`RuntimeSpawn_Granite_ResidentialNorth`](../RuntimeSpawn_Granite_ResidentialNorth/_index.md) \| [`RuntimeSpawn_Abbasid`](../RuntimeSpawn_Abbasid/_index.md) \| [`RuntimeSpawn_Aftermath`](../RuntimeSpawn_Aftermath/_index.md) \| [`RuntimeSpawn_Badlands`](../RuntimeSpawn_Badlands/_index.md) \| [`RuntimeSpawn_Battery`](../RuntimeSpawn_Battery/_index.md) \| [`RuntimeSpawn_Capstone`](../RuntimeSpawn_Capstone/_index.md) \| [`RuntimeSpawn_Dumbo`](../RuntimeSpawn_Dumbo/_index.md) \| [`RuntimeSpawn_Eastwood`](../RuntimeSpawn_Eastwood/_index.md) \| [`RuntimeSpawn_FireStorm`](../RuntimeSpawn_FireStorm/_index.md) \| [`RuntimeSpawn_Limestone`](../RuntimeSpawn_Limestone/_index.md) \| [`RuntimeSpawn_Outskirts`](../RuntimeSpawn_Outskirts/_index.md) \| [`RuntimeSpawn_Tungsten`](../RuntimeSpawn_Tungsten/_index.md) \| [`RuntimeSpawn_Granite_Downtown`](../RuntimeSpawn_Granite_Downtown/_index.md) \| [`RuntimeSpawn_Granite_Marina`](../RuntimeSpawn_Granite_Marina/_index.md) \| [`RuntimeSpawn_Granite_TechCenter`](../RuntimeSpawn_Granite_TechCenter/_index.md) \| [`RuntimeSpawn_Sand`](../RuntimeSpawn_Sand/_index.md) |
 | `position` | [`Vector`](../Vector/_index.md) |
 | `rotation` | [`Vector`](../Vector/_index.md) |
 | `scale` | [`Vector`](../Vector/_index.md) |
@@ -47,7 +47,7 @@ function SpawnObject(
    rotation): any;
 ```
 
-Defined in: [mod/index.d.ts:15326](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L15326)
+Defined in: [mod/index.d.ts:21632](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L21632)
 
 Spawns an object at runtime. Returns an object id if the object supports it, otherwise -1
 
@@ -55,7 +55,7 @@ Spawns an object at runtime. Returns an object id if the object supports it, oth
 
 | Parameter | Type |
 | ------ | ------ |
-| `prefabEnum` | \| [`RuntimeSpawn_Common`](../RuntimeSpawn_Common/_index.md) \| [`RuntimeSpawn_Abbasid`](../RuntimeSpawn_Abbasid/_index.md) \| [`RuntimeSpawn_Aftermath`](../RuntimeSpawn_Aftermath/_index.md) \| [`RuntimeSpawn_Badlands`](../RuntimeSpawn_Badlands/_index.md) \| [`RuntimeSpawn_Battery`](../RuntimeSpawn_Battery/_index.md) \| [`RuntimeSpawn_Capstone`](../RuntimeSpawn_Capstone/_index.md) \| [`RuntimeSpawn_Dumbo`](../RuntimeSpawn_Dumbo/_index.md) \| [`RuntimeSpawn_FireStorm`](../RuntimeSpawn_FireStorm/_index.md) \| [`RuntimeSpawn_Limestone`](../RuntimeSpawn_Limestone/_index.md) \| [`RuntimeSpawn_Outskirts`](../RuntimeSpawn_Outskirts/_index.md) \| [`RuntimeSpawn_Tungsten`](../RuntimeSpawn_Tungsten/_index.md) |
+| `prefabEnum` | \| [`RuntimeSpawn_Common`](../RuntimeSpawn_Common/_index.md) \| [`RuntimeSpawn_Granite_ResidentialNorth`](../RuntimeSpawn_Granite_ResidentialNorth/_index.md) \| [`RuntimeSpawn_Abbasid`](../RuntimeSpawn_Abbasid/_index.md) \| [`RuntimeSpawn_Aftermath`](../RuntimeSpawn_Aftermath/_index.md) \| [`RuntimeSpawn_Badlands`](../RuntimeSpawn_Badlands/_index.md) \| [`RuntimeSpawn_Battery`](../RuntimeSpawn_Battery/_index.md) \| [`RuntimeSpawn_Capstone`](../RuntimeSpawn_Capstone/_index.md) \| [`RuntimeSpawn_Dumbo`](../RuntimeSpawn_Dumbo/_index.md) \| [`RuntimeSpawn_Eastwood`](../RuntimeSpawn_Eastwood/_index.md) \| [`RuntimeSpawn_FireStorm`](../RuntimeSpawn_FireStorm/_index.md) \| [`RuntimeSpawn_Limestone`](../RuntimeSpawn_Limestone/_index.md) \| [`RuntimeSpawn_Outskirts`](../RuntimeSpawn_Outskirts/_index.md) \| [`RuntimeSpawn_Tungsten`](../RuntimeSpawn_Tungsten/_index.md) \| [`RuntimeSpawn_Granite_Downtown`](../RuntimeSpawn_Granite_Downtown/_index.md) \| [`RuntimeSpawn_Granite_Marina`](../RuntimeSpawn_Granite_Marina/_index.md) \| [`RuntimeSpawn_Granite_TechCenter`](../RuntimeSpawn_Granite_TechCenter/_index.md) \| [`RuntimeSpawn_Sand`](../RuntimeSpawn_Sand/_index.md) |
 | `position` | [`Vector`](../Vector/_index.md) |
 | `rotation` | [`Vector`](../Vector/_index.md) |
 

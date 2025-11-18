@@ -20,7 +20,7 @@ function SpotTarget(
    spotStatus): void;
 ```
 
-Defined in: [mod/index.d.ts:13830](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L13830)
+Defined in: [mod/index.d.ts:20476](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L20476)
 
 Spots a target Player for all players for a specified duration of time (in seconds).
 
@@ -46,7 +46,7 @@ function SpotTarget(
    spotStatus): void;
 ```
 
-Defined in: [mod/index.d.ts:13833](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L13833)
+Defined in: [mod/index.d.ts:20479](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L20479)
 
 Spots a target Player for all players for a specified duration of time (in seconds).
 
@@ -69,7 +69,7 @@ Spots a target Player for all players for a specified duration of time (in secon
 function SpotTarget(targetplayer, spotStatus): void;
 ```
 
-Defined in: [mod/index.d.ts:13841](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L13841)
+Defined in: [mod/index.d.ts:20487](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L20487)
 
 Spots a target Player for all players for a specified duration of time (in seconds).
 
@@ -93,7 +93,7 @@ function SpotTarget(
    duration): void;
 ```
 
-Defined in: [mod/index.d.ts:13844](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L13844)
+Defined in: [mod/index.d.ts:20490](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L20490)
 
 Spots a target Player for all players for a specified duration of time (in seconds).
 
@@ -115,7 +115,7 @@ Spots a target Player for all players for a specified duration of time (in secon
 function SpotTarget(targetplayer, duration): void;
 ```
 
-Defined in: [mod/index.d.ts:13847](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L13847)
+Defined in: [mod/index.d.ts:20493](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L20493)
 
 Spots a target Player for all players for a specified duration of time (in seconds).
 

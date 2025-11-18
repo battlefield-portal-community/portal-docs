@@ -15,7 +15,7 @@ type: typedoc_gen
 function GetPlayersOnPoint(capturePoint): Array;
 ```
 
-Defined in: [mod/index.d.ts:15524](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L15524)
+Defined in: [mod/index.d.ts:21836](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L21836)
 
 Returns a array of all players within the boundaries of a provided capture point.
 

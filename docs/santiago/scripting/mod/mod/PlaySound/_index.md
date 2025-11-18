@@ -20,7 +20,7 @@ function PlaySound(
    team): void;
 ```
 
-Defined in: [mod/index.d.ts:13126](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L13126)
+Defined in: [mod/index.d.ts:20140](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L20140)
 
 Plays a sound using runtime spawner tech.
 
@@ -45,7 +45,7 @@ function PlaySound(
    squad): void;
 ```
 
-Defined in: [mod/index.d.ts:13129](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L13129)
+Defined in: [mod/index.d.ts:20143](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L20143)
 
 Plays a sound using runtime spawner tech.
 
@@ -70,7 +70,7 @@ function PlaySound(
    player): void;
 ```
 
-Defined in: [mod/index.d.ts:13132](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L13132)
+Defined in: [mod/index.d.ts:20146](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L20146)
 
 Plays a sound using runtime spawner tech.
 
@@ -92,7 +92,7 @@ Plays a sound using runtime spawner tech.
 function PlaySound(objectId, amplitude): void;
 ```
 
-Defined in: [mod/index.d.ts:13135](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L13135)
+Defined in: [mod/index.d.ts:20149](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L20149)
 
 Plays a sound using runtime spawner tech.
 
@@ -116,7 +116,7 @@ function PlaySound(
    team): void;
 ```
 
-Defined in: [mod/index.d.ts:13138](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L13138)
+Defined in: [mod/index.d.ts:20152](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L20152)
 
 Plays a sound using runtime spawner tech.
 
@@ -141,7 +141,7 @@ function PlaySound(
    squad): void;
 ```
 
-Defined in: [mod/index.d.ts:13169](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L13169)
+Defined in: [mod/index.d.ts:20155](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L20155)
 
 Plays a sound using runtime spawner tech.
 
@@ -166,7 +166,7 @@ function PlaySound(
    player): void;
 ```
 
-Defined in: [mod/index.d.ts:13200](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L13200)
+Defined in: [mod/index.d.ts:20158](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L20158)
 
 Plays a sound using runtime spawner tech.
 
@@ -188,7 +188,7 @@ Plays a sound using runtime spawner tech.
 function PlaySound(object, amplitude): void;
 ```
 
-Defined in: [mod/index.d.ts:13231](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L13231)
+Defined in: [mod/index.d.ts:20161](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L20161)
 
 Plays a sound using runtime spawner tech.
 
@@ -214,7 +214,7 @@ function PlaySound(
    team): void;
 ```
 
-Defined in: [mod/index.d.ts:13261](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L13261)
+Defined in: [mod/index.d.ts:20164](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L20164)
 
 Plays a sound using runtime spawner tech.
 
@@ -243,7 +243,7 @@ function PlaySound(
    squad): void;
 ```
 
-Defined in: [mod/index.d.ts:13294](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L13294)
+Defined in: [mod/index.d.ts:20173](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L20173)
 
 Plays a sound using runtime spawner tech.
 
@@ -272,7 +272,7 @@ function PlaySound(
    player): void;
 ```
 
-Defined in: [mod/index.d.ts:13327](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L13327)
+Defined in: [mod/index.d.ts:20182](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L20182)
 
 Plays a sound using runtime spawner tech.
 
@@ -300,7 +300,7 @@ function PlaySound(
    attenuationRange): void;
 ```
 
-Defined in: [mod/index.d.ts:13360](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L13360)
+Defined in: [mod/index.d.ts:20191](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L20191)
 
 Plays a sound using runtime spawner tech.
 
@@ -327,7 +327,7 @@ function PlaySound(
    attenuationRange): void;
 ```
 
-Defined in: [mod/index.d.ts:13392](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L13392)
+Defined in: [mod/index.d.ts:20194](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L20194)
 
 Plays a sound using runtime spawner tech.
 
@@ -355,7 +355,7 @@ function PlaySound(
    team): void;
 ```
 
-Defined in: [mod/index.d.ts:13395](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L13395)
+Defined in: [mod/index.d.ts:20197](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L20197)
 
 Plays a sound using runtime spawner tech.
 
@@ -384,7 +384,7 @@ function PlaySound(
    squad): void;
 ```
 
-Defined in: [mod/index.d.ts:13404](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L13404)
+Defined in: [mod/index.d.ts:20206](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L20206)
 
 Plays a sound using runtime spawner tech.
 
@@ -413,7 +413,7 @@ function PlaySound(
    player): void;
 ```
 
-Defined in: [mod/index.d.ts:13413](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L13413)
+Defined in: [mod/index.d.ts:20215](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L20215)
 
 Plays a sound using runtime spawner tech.
 

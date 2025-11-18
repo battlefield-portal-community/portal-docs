@@ -15,10 +15,10 @@ type: typedoc_gen
 type Spawner = object;
 ```
 
-Defined in: [mod/index.d.ts:115](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L115)
+Defined in: [mod/index.d.ts:110](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L110)
 
 ## Properties
 
 | Property | Type | Defined in |
 | ------ | ------ | ------ |
-| <a id="_opaque"></a> `_opaque` | *typeof* [`SpawnerSymbol`](../SpawnerSymbol/_index.md) | [mod/index.d.ts:115](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L115) |
+| <a id="_opaque"></a> `_opaque` | *typeof* [`SpawnerSymbol`](../SpawnerSymbol/_index.md) | [mod/index.d.ts:110](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L110) |

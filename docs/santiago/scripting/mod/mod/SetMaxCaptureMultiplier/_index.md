@@ -15,7 +15,7 @@ type: typedoc_gen
 function SetMaxCaptureMultiplier(capturePoint, multiplier): void;
 ```
 
-Defined in: [mod/index.d.ts:13871](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L13871)
+Defined in: [mod/index.d.ts:20517](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L20517)
 
 Sets the capture time multiplier for target capture point to the provided number.
 

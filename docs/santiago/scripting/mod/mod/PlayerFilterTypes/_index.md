@@ -11,13 +11,13 @@ type: typedoc_gen
 
 # Enumeration: PlayerFilterTypes
 
-Defined in: [mod/index.d.ts:355](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L355)
+Defined in: [mod/index.d.ts:416](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L416)
 
 ## Enumeration Members
 
 | Enumeration Member | Value | Defined in |
 | ------ | ------ | ------ |
-| <a id="none"></a> `None` | `number` | [mod/index.d.ts:356](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L356) |
-| <a id="player"></a> `Player` | `number` | [mod/index.d.ts:357](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L357) |
-| <a id="squad"></a> `Squad` | `number` | [mod/index.d.ts:358](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L358) |
-| <a id="teamid"></a> `TeamId` | `number` | [mod/index.d.ts:359](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L359) |
+| <a id="none"></a> `None` | `number` | [mod/index.d.ts:417](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L417) |
+| <a id="player"></a> `Player` | `number` | [mod/index.d.ts:418](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L418) |
+| <a id="squad"></a> `Squad` | `number` | [mod/index.d.ts:419](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L419) |
+| <a id="teamid"></a> `TeamId` | `number` | [mod/index.d.ts:420](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L420) |

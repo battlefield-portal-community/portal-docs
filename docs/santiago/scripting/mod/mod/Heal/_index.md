@@ -17,7 +17,7 @@ type: typedoc_gen
 function Heal(player, healAmount): void;
 ```
 
-Defined in: [mod/index.d.ts:13815](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L13815)
+Defined in: [mod/index.d.ts:20461](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L20461)
 
 Instantly adds a given amount of health to the target player. Can optionally specify healing player.
 
@@ -41,7 +41,7 @@ function Heal(
    giver): void;
 ```
 
-Defined in: [mod/index.d.ts:13818](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L13818)
+Defined in: [mod/index.d.ts:20464](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L20464)
 
 Instantly adds a given amount of health to the target player. Can optionally specify healing player.
 
@@ -63,7 +63,7 @@ Instantly adds a given amount of health to the target player. Can optionally spe
 function Heal(vehicle, repairAmount): void;
 ```
 
-Defined in: [mod/index.d.ts:13821](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L13821)
+Defined in: [mod/index.d.ts:20467](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L20467)
 
 Instantly adds a given amount of health to the target player. Can optionally specify healing player.
 

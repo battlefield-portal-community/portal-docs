@@ -11,14 +11,14 @@ type: typedoc_gen
 
 # Enumeration: CustomNotificationSlots
 
-Defined in: [mod/index.d.ts:231](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L231)
+Defined in: [mod/index.d.ts:226](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L226)
 
 ## Enumeration Members
 
 | Enumeration Member | Value | Defined in |
 | ------ | ------ | ------ |
-| <a id="headertext"></a> `HeaderText` | `number` | [mod/index.d.ts:232](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L232) |
-| <a id="messagetext1"></a> `MessageText1` | `number` | [mod/index.d.ts:233](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L233) |
-| <a id="messagetext2"></a> `MessageText2` | `number` | [mod/index.d.ts:234](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L234) |
-| <a id="messagetext3"></a> `MessageText3` | `number` | [mod/index.d.ts:235](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L235) |
-| <a id="messagetext4"></a> `MessageText4` | `number` | [mod/index.d.ts:236](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L236) |
+| <a id="headertext"></a> `HeaderText` | `number` | [mod/index.d.ts:227](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L227) |
+| <a id="messagetext1"></a> `MessageText1` | `number` | [mod/index.d.ts:228](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L228) |
+| <a id="messagetext2"></a> `MessageText2` | `number` | [mod/index.d.ts:229](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L229) |
+| <a id="messagetext3"></a> `MessageText3` | `number` | [mod/index.d.ts:230](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L230) |
+| <a id="messagetext4"></a> `MessageText4` | `number` | [mod/index.d.ts:231](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L231) |

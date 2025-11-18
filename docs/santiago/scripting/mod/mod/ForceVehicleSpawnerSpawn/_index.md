@@ -15,7 +15,7 @@ type: typedoc_gen
 function ForceVehicleSpawnerSpawn(vehicleSpawner): void;
 ```
 
-Defined in: [mod/index.d.ts:15109](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L15109)
+Defined in: [mod/index.d.ts:21426](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L21426)
 
 Cause a vehicle spawner to spawn one vehicle of the type it is currently set to.
 

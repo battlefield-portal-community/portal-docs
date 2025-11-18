@@ -17,7 +17,7 @@ type: typedoc_gen
 function GetScreenEffect(arg0): ScreenEffect;
 ```
 
-Defined in: [mod/index.d.ts:15215](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L15215)
+Defined in: [mod/index.d.ts:21541](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L21541)
 
 Returns the screen effect object corresponding to the provided id.
 **
@@ -44,7 +44,7 @@ The method should not be used
 function GetScreenEffect(number): ScreenEffect;
 ```
 
-Defined in: [mod/index.d.ts:15221](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L15221)
+Defined in: [mod/index.d.ts:21547](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L21547)
 
 Returns the screen effect object corresponding to the provided id.
 **

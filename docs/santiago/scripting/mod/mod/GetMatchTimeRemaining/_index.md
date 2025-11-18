@@ -15,7 +15,7 @@ type: typedoc_gen
 function GetMatchTimeRemaining(): number;
 ```
 
-Defined in: [mod/index.d.ts:15239](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L15239)
+Defined in: [mod/index.d.ts:21565](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L21565)
 
 Returns the amount of time left (in seconds) in the current gamemode.
 

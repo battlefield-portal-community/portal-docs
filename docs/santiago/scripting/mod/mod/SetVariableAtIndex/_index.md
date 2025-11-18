@@ -18,7 +18,7 @@ function SetVariableAtIndex(
    value): void;
 ```
 
-Defined in: [mod/index.d.ts:13123](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L13123)
+Defined in: [mod/index.d.ts:20137](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L20137)
 
 Finds or initializes an Array on a provided Variable, and stores a provided value in that Array at the specified index.
 

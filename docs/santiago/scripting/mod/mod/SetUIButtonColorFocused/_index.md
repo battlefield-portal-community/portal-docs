@@ -15,7 +15,7 @@ type: typedoc_gen
 function SetUIButtonColorFocused(widget, value): void;
 ```
 
-Defined in: [mod/index.d.ts:15040](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L15040)
+Defined in: [mod/index.d.ts:21357](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L21357)
 
 Changes the color of an UI Button Widget when it is focused.
 

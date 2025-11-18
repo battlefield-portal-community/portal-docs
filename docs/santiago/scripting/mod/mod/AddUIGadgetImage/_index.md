@@ -23,7 +23,7 @@ function AddUIGadgetImage(
    parent): void;
 ```
 
-Defined in: [mod/index.d.ts:14755](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L14755)
+Defined in: [mod/index.d.ts:21072](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L21072)
 
 Creates a new UI Image Widget based on a Gadget.
 
@@ -55,7 +55,7 @@ function AddUIGadgetImage(
    visibility): void;
 ```
 
-Defined in: [mod/index.d.ts:14765](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L14765)
+Defined in: [mod/index.d.ts:21082](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L21082)
 
 Creates a new UI Image Widget based on a Gadget.
 

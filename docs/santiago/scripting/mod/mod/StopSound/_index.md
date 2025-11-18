@@ -17,7 +17,7 @@ type: typedoc_gen
 function StopSound(objectId, team): void;
 ```
 
-Defined in: [mod/index.d.ts:13561](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L13561)
+Defined in: [mod/index.d.ts:20248](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L20248)
 
 Stops a given sound.
 
@@ -38,7 +38,7 @@ Stops a given sound.
 function StopSound(objectId, squad): void;
 ```
 
-Defined in: [mod/index.d.ts:13564](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L13564)
+Defined in: [mod/index.d.ts:20251](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L20251)
 
 Stops a given sound.
 
@@ -59,7 +59,7 @@ Stops a given sound.
 function StopSound(objectId, player): void;
 ```
 
-Defined in: [mod/index.d.ts:13567](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L13567)
+Defined in: [mod/index.d.ts:20254](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L20254)
 
 Stops a given sound.
 
@@ -80,7 +80,7 @@ Stops a given sound.
 function StopSound(objectId): void;
 ```
 
-Defined in: [mod/index.d.ts:13570](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L13570)
+Defined in: [mod/index.d.ts:20257](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L20257)
 
 Stops a given sound.
 
@@ -100,7 +100,7 @@ Stops a given sound.
 function StopSound(sound, team): void;
 ```
 
-Defined in: [mod/index.d.ts:13573](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L13573)
+Defined in: [mod/index.d.ts:20260](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L20260)
 
 Stops a given sound.
 
@@ -121,7 +121,7 @@ Stops a given sound.
 function StopSound(sound, squad): void;
 ```
 
-Defined in: [mod/index.d.ts:13576](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L13576)
+Defined in: [mod/index.d.ts:20263](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L20263)
 
 Stops a given sound.
 
@@ -142,7 +142,7 @@ Stops a given sound.
 function StopSound(sound, player): void;
 ```
 
-Defined in: [mod/index.d.ts:13579](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L13579)
+Defined in: [mod/index.d.ts:20266](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L20266)
 
 Stops a given sound.
 
@@ -163,7 +163,7 @@ Stops a given sound.
 function StopSound(sound): void;
 ```
 
-Defined in: [mod/index.d.ts:13582](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L13582)
+Defined in: [mod/index.d.ts:20269](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L20269)
 
 Stops a given sound.
 

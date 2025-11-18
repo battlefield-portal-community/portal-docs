@@ -17,7 +17,7 @@ type: typedoc_gen
 function SpawnAIFromAISpawner(spawner): void;
 ```
 
-Defined in: [mod/index.d.ts:13046](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L13046)
+Defined in: [mod/index.d.ts:20060](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L20060)
 
 Spawn one AI soldier from a specific AI Spawner.
 
@@ -40,7 +40,7 @@ function SpawnAIFromAISpawner(
    name): void;
 ```
 
-Defined in: [mod/index.d.ts:13049](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L13049)
+Defined in: [mod/index.d.ts:20063](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L20063)
 
 Spawn one AI soldier from a specific AI Spawner.
 
@@ -62,7 +62,7 @@ Spawn one AI soldier from a specific AI Spawner.
 function SpawnAIFromAISpawner(spawner, classToSpawn): void;
 ```
 
-Defined in: [mod/index.d.ts:13052](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L13052)
+Defined in: [mod/index.d.ts:20066](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L20066)
 
 Spawn one AI soldier from a specific AI Spawner.
 
@@ -83,7 +83,7 @@ Spawn one AI soldier from a specific AI Spawner.
 function SpawnAIFromAISpawner(spawner, name): void;
 ```
 
-Defined in: [mod/index.d.ts:13055](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L13055)
+Defined in: [mod/index.d.ts:20069](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L20069)
 
 Spawn one AI soldier from a specific AI Spawner.
 
@@ -104,7 +104,7 @@ Spawn one AI soldier from a specific AI Spawner.
 function SpawnAIFromAISpawner(spawner, team): void;
 ```
 
-Defined in: [mod/index.d.ts:13058](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L13058)
+Defined in: [mod/index.d.ts:20072](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L20072)
 
 Spawn one AI soldier from a specific AI Spawner.
 
@@ -129,7 +129,7 @@ function SpawnAIFromAISpawner(
    team): void;
 ```
 
-Defined in: [mod/index.d.ts:13061](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L13061)
+Defined in: [mod/index.d.ts:20075](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L20075)
 
 Spawn one AI soldier from a specific AI Spawner.
 
@@ -155,7 +155,7 @@ function SpawnAIFromAISpawner(
    team): void;
 ```
 
-Defined in: [mod/index.d.ts:13064](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L13064)
+Defined in: [mod/index.d.ts:20078](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L20078)
 
 Spawn one AI soldier from a specific AI Spawner.
 
@@ -180,7 +180,7 @@ function SpawnAIFromAISpawner(
    team): void;
 ```
 
-Defined in: [mod/index.d.ts:13067](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L13067)
+Defined in: [mod/index.d.ts:20081](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L20081)
 
 Spawn one AI soldier from a specific AI Spawner.
 

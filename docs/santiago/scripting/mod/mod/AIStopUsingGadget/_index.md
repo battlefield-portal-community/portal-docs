@@ -15,7 +15,7 @@ type: typedoc_gen
 function AIStopUsingGadget(player): void;
 ```
 
-Defined in: [mod/index.d.ts:13117](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L13117)
+Defined in: [mod/index.d.ts:20131](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L20131)
 
 Clears the player's gadget instructions. (Only works for AI players)
 

@@ -17,7 +17,7 @@ type: typedoc_gen
 function FarthestPlayerFrom(vector): Player;
 ```
 
-Defined in: [mod/index.d.ts:15548](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L15548)
+Defined in: [mod/index.d.ts:21860](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L21860)
 
 Returns the farthest alive player from a provided position. Can be filtered using a team. Note: If no players are alive when this block is called, the returned player will be invalid.
 
@@ -37,7 +37,7 @@ Returns the farthest alive player from a provided position. Can be filtered usin
 function FarthestPlayerFrom(vector, team): Player;
 ```
 
-Defined in: [mod/index.d.ts:15551](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L15551)
+Defined in: [mod/index.d.ts:21863](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L21863)
 
 Returns the farthest alive player from a provided position. Can be filtered using a team. Note: If no players are alive when this block is called, the returned player will be invalid.
 

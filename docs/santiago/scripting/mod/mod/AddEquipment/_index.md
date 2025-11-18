@@ -17,7 +17,7 @@ type: typedoc_gen
 function AddEquipment(player, weapon): void;
 ```
 
-Defined in: [mod/index.d.ts:13914](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L13914)
+Defined in: [mod/index.d.ts:20563](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L20563)
 
 Adds a Weapon or Gadget to a Soldier's loadout.
 
@@ -38,7 +38,7 @@ Adds a Weapon or Gadget to a Soldier's loadout.
 function AddEquipment(player, gadget): void;
 ```
 
-Defined in: [mod/index.d.ts:13917](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L13917)
+Defined in: [mod/index.d.ts:20566](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L20566)
 
 Adds a Weapon or Gadget to a Soldier's loadout.
 
@@ -62,7 +62,7 @@ function AddEquipment(
    weaponPackage): void;
 ```
 
-Defined in: [mod/index.d.ts:13920](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L13920)
+Defined in: [mod/index.d.ts:20569](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L20569)
 
 Adds a Weapon or Gadget to a Soldier's loadout.
 
@@ -87,7 +87,7 @@ function AddEquipment(
    desiredInventorySlot): void;
 ```
 
-Defined in: [mod/index.d.ts:13923](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L13923)
+Defined in: [mod/index.d.ts:20572](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L20572)
 
 Adds a Weapon or Gadget to a Soldier's loadout.
 
@@ -112,7 +112,7 @@ function AddEquipment(
    desiredInventorySlot): void;
 ```
 
-Defined in: [mod/index.d.ts:13926](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L13926)
+Defined in: [mod/index.d.ts:20575](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L20575)
 
 Adds a Weapon or Gadget to a Soldier's loadout.
 
@@ -138,7 +138,7 @@ function AddEquipment(
    desiredInventorySlots): void;
 ```
 
-Defined in: [mod/index.d.ts:13929](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L13929)
+Defined in: [mod/index.d.ts:20578](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L20578)
 
 Adds a Weapon or Gadget to a Soldier's loadout.
 
@@ -161,7 +161,7 @@ Adds a Weapon or Gadget to a Soldier's loadout.
 function AddEquipment(player, armor): void;
 ```
 
-Defined in: [mod/index.d.ts:13937](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L13937)
+Defined in: [mod/index.d.ts:20586](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L20586)
 
 Adds a Weapon or Gadget to a Soldier's loadout.
 

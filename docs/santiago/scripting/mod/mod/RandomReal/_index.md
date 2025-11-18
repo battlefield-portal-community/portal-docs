@@ -15,7 +15,7 @@ type: typedoc_gen
 function RandomReal(number0, number1): number;
 ```
 
-Defined in: [mod/index.d.ts:15482](https://github.com/battlefield-portal-community/portal-docs/blob/ff09b2690670f74de7e97198022e5a97ff1161ff/generators/santiago/mod/index.d.ts#L15482)
+Defined in: [mod/index.d.ts:21794](https://github.com/battlefield-portal-community/portal-docs/blob/e47049b63e51188248b798c13df021a40e9a89fc/generators/santiago/mod/index.d.ts#L21794)
 
 Returns a random number between a specified minimum and maximum value (inclusive).
 
