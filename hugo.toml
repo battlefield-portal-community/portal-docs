@@ -1,5 +1,5 @@
 baseURL = "https://docs.bfportal.gg/"
-languageCode = "en-us"
+locale = "en-US"
 themesDir = "hugo/themes"
 theme = "hugo-geekdoc"
 title = "Portal Documentation"
@@ -52,7 +52,7 @@ target = "static"
 [[module.mounts]]
 source = "docs/"
 target = "./content/"
-excludeFiles = ["portal_blocks/**"]
+files = ["! portal_blocks/**"]
 
 [[module.mounts]]
 source = "docs/portal_blocks"
