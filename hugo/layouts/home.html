@@ -46,16 +46,18 @@
           {{- if .ref }}{{ with site.GetPage .ref }}
             <li class="tile">
               <a class="tile__link" href="{{ .RelPermalink }}">
-                <span class="tile__plate" aria-hidden="true">
+                <span class="tile__plate">
                   {{- with $image }}
                     <img class="tile__img" src="{{ . | relURL }}" alt="" loading="lazy">
                   {{- end }}
+                  <span class="tile__name">
+                    {{ $name }}
+                    {{ partial "icon" (dict "name" "arrow-right") }}
+                  </span>
                 </span>
-                <span class="tile__caption">
-                  <span class="tile__title">{{ $name }}</span>
-                  {{- with $blurb }}<span class="tile__text">{{ . }}</span>{{ end }}
-                  <span class="tile__action">Open{{ partial "icon" (dict "name" "arrow-right") }}</span>
-                </span>
+                {{- with $blurb }}
+                  <span class="tile__text">{{ . }}</span>
+                {{- end }}
               </a>
             </li>
           {{ end }}{{ end }}

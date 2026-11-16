@@ -284,6 +284,14 @@ summary::-webkit-details-marker {
   color: var(--color-accent-hi);
 }
 
+/* On the root page the section list names the site, so the wordmark only
+   returns where that list has scrolled away. */
+@media (min-width: 1024px) {
+  .site-header--home .brand__name {
+    display: none;
+  }
+}
+
 .brand__name {
   font-family: var(--font-display);
   font-size: 18px;
@@ -1921,7 +1929,8 @@ summary::-webkit-details-marker {
 .tile__plate::after {
   content: "";
   position: absolute;
-  inset: -1px;
+  inset: 0;
+  z-index: 3;
   opacity: 0;
   pointer-events: none;
   transition: opacity 0.16s var(--ease);
@@ -1940,13 +1949,30 @@ summary::-webkit-details-marker {
   object-fit: cover;
 }
 
-.tile__caption {
-  display: block;
-  padding-top: 14px;
+/* The name rides on the artwork, so it is readable without scrolling. */
+.tile__plate::before {
+  content: "";
+  position: absolute;
+  inset: auto 0 0;
+  z-index: 1;
+  height: 52%;
+  background: linear-gradient(
+    to top,
+    rgb(9 10 11 / 0.86),
+    rgb(9 10 11 / 0.35) 55%,
+    rgb(9 10 11 / 0)
+  );
+  pointer-events: none;
 }
 
-.tile__title {
-  display: block;
+.tile__name {
+  position: absolute;
+  inset: auto 0 0;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  padding: 16px 18px;
   font-family: var(--font-display);
   font-size: 26px;
   font-weight: 800;
@@ -1957,31 +1983,23 @@ summary::-webkit-details-marker {
   overflow-wrap: anywhere;
 }
 
+.tile__name .icon {
+  width: 16px;
+  height: 16px;
+  flex: none;
+  color: var(--color-fg-3);
+  transition:
+    color 0.16s var(--ease),
+    transform 0.16s var(--ease);
+}
+
 .tile__text {
   display: block;
   max-width: 34ch;
-  margin-top: 7px;
+  margin-top: 14px;
   font-size: 14px;
   line-height: 1.5;
   color: var(--color-fg-2);
-}
-
-.tile__action {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  margin-top: 12px;
-  font-family: var(--font-mono);
-  font-size: 11px;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
-  color: var(--color-fg-3);
-  transition: color 0.16s var(--ease);
-}
-
-.tile__action .icon {
-  width: 14px;
-  height: 14px;
 }
 
 .tile__link:hover .tile__plate {
@@ -1994,12 +2012,13 @@ summary::-webkit-details-marker {
   opacity: 1;
 }
 
-.tile__link:hover .tile__title {
+.tile__link:hover .tile__name {
   color: var(--color-fg);
 }
 
-.tile__link:hover .tile__action {
+.tile__link:hover .tile__name .icon {
   color: var(--color-steel-hi);
+  transform: translateX(2px);
 }
 
 /* ---------------------------------------------------------------- footer */
