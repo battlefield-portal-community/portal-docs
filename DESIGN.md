@@ -123,11 +123,6 @@ components:
     textColor: "{colors.text-quiet}"
     rounded: "{rounded.none}"
     size: "36px"
-  topnav-link:
-    backgroundColor: "transparent"
-    textColor: "{colors.text-quiet}"
-    typography: "{typography.nav}"
-    padding: "0 10px"
   sidenav-link:
     backgroundColor: "transparent"
     textColor: "{colors.text-quiet}"
@@ -167,7 +162,7 @@ The palette is a near-black instrument panel with one heated accent and a cool s
 - **2042 Teal** (#2fe0c8): the same role, swapped wholesale under `[data-game="bf2042"]` — the teal is applied to entire 2042 doc pages at the body element. Light variant **2042 Teal High** (#7af2e1), ink **Teal Ink** (#021a17).
 
 ### Secondary
-- **Cold Steel** (#a9b9c9): the structural secondary — the default hint rail, hint titles, and the border a quiet button reaches for on hover. **Cold Steel High** (#c9d4de) is the display-type color: hero and page H1, the brand name, prose H4–H6, prose links, card titles, the footer wordmark, and the 404 numeral. **Steel Ink** (#0b0e11) is defined for text placed on a steel fill and is not used anywhere yet.
+- **Cold Steel** (#a9b9c9): the structural secondary — the default hint rail, hint titles, and the border a quiet button reaches for on hover. **Cold Steel High** (#c9d4de) is the display-type color: hero and page H1, prose H4–H6, prose links, card titles, the footer wordmark, and the 404 numeral. **Steel Ink** (#0b0e11) is defined for text placed on a steel fill and is not used anywhere yet.
 
 ### Tertiary
 - **Amber Warning** (#f2b233): important/warning/caution hints only — the left rail and the hint's mono title.
@@ -205,7 +200,7 @@ Five colors and no rainbow: **Code Body** (#c8d1da), **Code Keyword** (#ff8a65, 
 - **Title** (700, 22px / h1 28px, line-height 1.08, letter-spacing 0.02em): prose headings. Uppercase, full-strength `text`, so a page's structure is legible at a scan.
 - **Body** (400, 15.5px, line-height 1.65, max 54em): all prose. Quiet Text (#a4aeb9), never pure white — the contrast sits at a level that survives 40 minutes of reading on ink-base.
 - **Label** (500, 11px, letter-spacing 0.14em, uppercase, mono, Muted Text): eyebrows, section titles, hint titles, footer column heads, table headers, card metadata. The instrument layer.
-- **Nav** (600, 13px, letter-spacing 0.09em, uppercase, Barlow): top navigation and buttons. Slightly less tracked than the mono label so a nav bar does not read as caption.
+- **Nav** (600, 13px, letter-spacing 0.09em, uppercase, Barlow): buttons and the prev/next labels. Slightly less tracked than the mono label so a nav element does not read as caption.
 - **Code** (400, 13px, line-height 1.6, mono, Code Body): fenced blocks; inline code drops to 0.87em with a 1px rule and ink-2 fill.
 
 ### Named Rules
@@ -219,7 +214,7 @@ A three-column documentation grid inside a 1424px wrap: a 272px sticky sidebar, 
 
 Horizontal padding steps 16px → 24px (≥640px) → 32px (≥1024px) on the wrap and the grid, and the grid gap is 44px between sidebar and content, 40px before the rail. Vertical rhythm is set by the content, not a token scale: a 60px sticky header, 22px padding above the page head, 18px below it, and 0.9em between prose blocks — with 1.7em above headings, which is what makes a long reference page scannable.
 
-Responsive breaks: 639px (header sheds the community icons, brand name drops to 16px), 720px (footer grid goes three columns), 1024px (sidebar appears, grid becomes two columns), 1100px (the search button gains its label and `/` keycap), 1239px (top navigation collapses to the drawer button), 1360px (rail column appears, mobile TOC hides).
+Responsive breaks: 639px (header sheds the community icons), 720px (footer grid goes three columns), 1024px (sidebar appears, grid becomes two columns, the drawer button goes), 1100px (the search button gains its label and `/` keycap), 1360px (rail column appears, mobile TOC hides).
 
 ## Elevation & Depth
 
@@ -269,8 +264,8 @@ The form language is bracketed and angular. Cards grow accent corner ticks on ho
 - **Hidden radios** give keyboard and screen-reader behavior for free; a single-tab group renders its content with no labels at all.
 
 ### Navigation
-- **Top nav:** 13px Barlow 600 uppercase at 0.09em, stretch-height items on 10px inline padding, quiet text idle, full text on hover. The current section is marked by a 2px accent underline flush to the header's bottom border, plus a 4px accent caret pointing up from that line.
-- **Sidebar:** 13.5px items with a 1px left rail (rule), 6px/10px padding, hover fills ink-2. The current page turns the rail accent. Sections are `<details>` with a 90°-rotating chevron; nesting adds a 10px indent per level and a 2px-tighter padding at the block-reference level, where hundreds of short names must fit.
+- **Header:** the mark alone on the left, search and the two community links on the right, nothing between. The sections live in the sidebar and the site is named by the page itself, so neither is repeated here; below 1024px the sidebar is the drawer behind the menu button. The mark and the sidebar's number column sit on the same 16px inset from the wrap, so that edge never moves between pages.
+- **Sidebar:** the home page's section list and the document sidebar are one component, the rail (`rail__list` / `rail__item`): mono, 15px/600 steel, a `<n>` pointer in a 34px column and nothing drawn around the row. Only the eight sections are numbered — the number has to mean something. Everything under a section steps in 36px to sit under the section's name (16px for each level below), drops to 13px/500 quiet text, and loses the number. Hover fills ink-2 from 8px into the gutter so the label never moves; the current page is the only row that draws a line, a 2px accent tick at its edge. Sections are `<details>` with a 90°-rotating chevron, and rows fall back to 44px targets under `(pointer: coarse)`.
 - **Page nav (prev/next):** two equal cards above the footer, mono direction label over the page title, next aligned right and pinned to column 2 when alone.
 
 ### Search
