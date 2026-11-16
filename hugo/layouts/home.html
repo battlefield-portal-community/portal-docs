@@ -1,45 +1,72 @@
 {{ define "main" }}
+{{- /* The root page: the sections as a numbered vertical list on the left (the
+       header's horizontal nav is dropped here), then a masthead and one tile per
+       section — a mono preview plate, a hand-written line, and the way in. */ -}}
 <main id="content">
-  <section class="hero">
-    <div class="hero__dots" aria-hidden="true"></div>
-    <div class="wrap hero__inner">
-      <p class="label">Community documentation</p>
-      <h1>{{ .Title }}</h1>
-      <div class="hero__body prose">
-        {{ .Content }}
-      </div>
-      <div class="hero__actions">
-        <button type="button" class="btn" data-search-open>
-          {{ partial "icon" (dict "name" "search") }}
-          Search the docs
-        </button>
-      </div>
-    </div>
-  </section>
-
-  <div class="wrap home-body">
-    <h2 class="section-title">Browse the documentation</h2>
-    <ul class="cards">
-      {{- range hugo.Data.menu.main.main }}
-        {{- $name := or .short .name }}
-        {{- $this := false }}
-        {{- if .ref }}{{ $this = site.GetPage .ref }}{{ end }}
-        {{- with $this }}
-          {{- $names := slice }}
-          {{- range first 4 (where .Pages "Params.geekdocHidden" "ne" true) }}
-            {{- $names = $names | append (partial "utils/title" .) }}
+  <div class="wrap home-shell">
+    <aside class="home-rail">
+      <nav aria-label="Documentation">
+        <ol class="rail__list">
+          {{- range $i, $s := hugo.Data.menu.main.main }}
+            {{- $name := or $s.short $s.name }}
+            {{- if $s.ref }}{{ with site.GetPage $s.ref }}
+              <li>
+                <a class="rail__item" href="{{ .RelPermalink }}">
+                  <span class="rail__n">&lt;{{ add $i 1 }}&gt;</span>
+                  <span class="rail__name">{{ $name }}</span>
+                </a>
+              </li>
+            {{ end }}{{ end }}
           {{- end }}
-          <li>
-            <a class="card" href="{{ .RelPermalink }}">
-              <span class="card__title">{{ $name }}</span>
-              {{- with $names }}
-                <span class="card__text">{{ delimit . " · " }}</span>
-              {{- end }}
-            </a>
-          </li>
+        </ol>
+      </nav>
+    </aside>
+
+    <section class="home-hero">
+      <div class="home-hero__dots" aria-hidden="true"></div>
+      <h1 class="home-hero__title"><span>{{ .Title }}</span></h1>
+      <div class="home-hero__brief">
+        <div class="home-hero__lede">{{ .Content }}</div>
+        <div class="home-hero__actions">
+          <button type="button" class="btn" data-search-open>
+            {{ partial "icon" (dict "name" "search") }}
+            Search the docs
+          </button>
+          <span class="home-hero__key">or press <kbd>/</kbd></span>
+        </div>
+      </div>
+    </section>
+
+    <nav class="home-row__wrap" aria-label="Documentation sections">
+      <ul class="home-row">
+        {{- range first 3 hugo.Data.menu.main.main }}
+          {{- $name := or .short .name }}
+          {{- $blurb := .blurb }}
+          {{- $preview := .preview }}
+          {{- if .ref }}{{ with site.GetPage .ref }}
+            <li class="tile">
+              <a class="tile__link" href="{{ .RelPermalink }}">
+                <span class="tile__plate" aria-hidden="true">
+                  <span class="tile__path">{{ .RelPermalink }}</span>
+                  {{- with $preview }}
+                    <span class="tile__lines">
+                      {{- range . }}
+                        <span class="tile__line">{{ . }}</span>
+                      {{- end }}
+                    </span>
+                  {{- end }}
+                </span>
+                <span class="tile__caption">
+                  <span class="tile__title">{{ $name }}</span>
+                  {{- with $blurb }}<span class="tile__text">{{ . }}</span>{{ end }}
+                  <span class="tile__action">Open{{ partial "icon" (dict "name" "arrow-right") }}</span>
+                </span>
+              </a>
+            </li>
+          {{ end }}{{ end }}
         {{- end }}
-      {{- end }}
-    </ul>
+      </ul>
+    </nav>
   </div>
 </main>
 {{ end }}

@@ -1689,93 +1689,347 @@ summary::-webkit-details-marker {
 
 /* ------------------------------------------------------------------ home */
 
-.hero {
-  position: relative;
-  overflow: hidden;
-  border-bottom: 1px solid var(--color-line);
-  background: var(--color-surface-1);
+/* The section list sits in the margin, the way the docs sidebar does. */
+.home-shell {
+  display: grid;
+  gap: 22px 44px;
+  padding-block: 26px 34px;
 }
 
-.hero__dots {
+/* The tile shelf is a scroller, so it must not size the grid column. */
+.home-shell > * {
+  min-width: 0;
+}
+
+@media (min-width: 1024px) {
+  .home-shell {
+    grid-template-columns: var(--sidebar-w) minmax(0, 1fr);
+    align-items: start;
+  }
+
+  .home-rail {
+    position: sticky;
+    top: var(--header-h);
+  }
+
+  .home-rail {
+    grid-row: 1 / span 2;
+  }
+
+  .home-row__wrap {
+    grid-column: 2;
+  }
+}
+
+.rail__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.rail__item {
+  display: grid;
+  grid-template-columns: 34px minmax(0, 1fr);
+  align-items: baseline;
+  gap: 2px;
+  padding: 5px 0;
+  font-family: var(--font-mono);
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.4;
+  color: var(--color-steel);
+  text-decoration: none;
+  transition: color 0.12s var(--ease);
+}
+
+/* The first row starts level with the masthead, not a padding-step below it. */
+.rail__list > li:first-child .rail__item {
+  padding-top: 0;
+}
+
+.rail__n {
+  /* the number is the pointer, the label is the text */
+  font-weight: 500;
+  color: var(--color-fg-3);
+  transition: color 0.12s var(--ease);
+}
+
+.rail__name {
+  overflow-wrap: anywhere;
+}
+
+.rail__item:hover,
+.rail__item[aria-current="page"] {
+  color: var(--color-fg);
+}
+
+.rail__item:hover .rail__n,
+.rail__item[aria-current="page"] .rail__n {
+  color: var(--color-steel);
+}
+
+.home-hero {
+  position: relative;
+}
+
+.home-hero__dots {
   position: absolute;
-  inset: 0;
+  inset: -26px 0;
   background-image: radial-gradient(
     rgb(201 212 222 / 0.1) 1px,
     transparent 1.4px
   );
   background-size: 18px 18px;
   -webkit-mask-image: linear-gradient(
-    105deg,
-    rgb(0 0 0 / 0.9),
-    rgb(0 0 0 / 0.25) 45%,
-    transparent 72%
+    100deg,
+    transparent 8%,
+    rgb(0 0 0 / 0.5) 42%,
+    rgb(0 0 0 / 0.16) 70%,
+    transparent 90%
   );
   mask-image: linear-gradient(
-    105deg,
-    rgb(0 0 0 / 0.9),
-    rgb(0 0 0 / 0.25) 45%,
-    transparent 72%
+    100deg,
+    transparent 8%,
+    rgb(0 0 0 / 0.5) 42%,
+    rgb(0 0 0 / 0.16) 70%,
+    transparent 90%
   );
   pointer-events: none;
 }
 
-.hero__inner {
-  position: relative;
-  padding-block: 40px 44px;
+.home-hero__brief {
+  margin-top: 24px;
 }
 
-.hero h1 {
-  margin-top: 12px;
+@media (min-width: 1280px) {
+  .home-hero {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(300px, 340px);
+    gap: 20px 44px;
+    align-items: end;
+  }
+
+  .home-hero__brief {
+    margin-top: 0;
+  }
+}
+
+.home-hero__title {
   font-family: var(--font-display);
-  font-size: clamp(38px, 4.6vw, 60px);
+  font-size: clamp(40px, 5.4vw, 82px);
   font-weight: 800;
-  line-height: 0.93;
+  line-height: 1.3;
   letter-spacing: 0.005em;
+  text-transform: uppercase;
+  text-wrap: balance;
+  overflow-wrap: anywhere;
+}
+
+/* The masthead is the one place the accent fills instead of outlines. */
+.home-hero__title span {
+  padding: 0 0.12em;
+  background: var(--color-accent);
+  color: var(--color-accent-ink);
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+}
+
+.home-hero__lede {
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--color-fg-2);
+}
+
+.home-hero__lede p + p {
+  margin-top: 0.8em;
+}
+
+.home-hero__actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px 14px;
+  margin-top: 20px;
+}
+
+
+.home-hero__key {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--color-fg-3);
+}
+
+/* The shelf sits in the content column, so the rail's width stays empty. */
+.home-row__wrap {
+  padding-block: 34px 0;
+}
+
+.home-row {
+  display: flex;
+  gap: 12px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.tile {
+  flex: 1 1 0;
+  min-width: 0;
+}
+
+@media (max-width: 1023px) {
+  .home-row__wrap {
+    grid-column: 1 / -1;
+  }
+
+  .home-row {
+    overflow-x: auto;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+    scrollbar-width: thin;
+  }
+
+  .tile {
+    flex: 0 0 min(400px, 78vw);
+    scroll-snap-align: start;
+  }
+}
+
+.tile__link {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  color: inherit;
+  text-decoration: none;
+}
+
+.tile__plate {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 14px;
+  aspect-ratio: 16 / 10;
+  padding: 16px 18px 18px;
+  border: 1px solid var(--color-line);
+  background: var(--color-surface-1);
+  overflow: hidden;
+  transition:
+    border-color 0.16s var(--ease),
+    background-color 0.16s var(--ease);
+}
+
+.tile__plate::after {
+  content: "";
+  position: absolute;
+  inset: -1px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.16s var(--ease);
+  --tick: var(--color-accent);
+  background:
+    linear-gradient(var(--tick), var(--tick)) top left / 12px 1px,
+    linear-gradient(var(--tick), var(--tick)) top left / 1px 12px,
+    linear-gradient(var(--tick), var(--tick)) bottom right / 12px 1px,
+    linear-gradient(var(--tick), var(--tick)) bottom right / 1px 12px;
+  background-repeat: no-repeat;
+}
+
+.tile__path {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.06em;
+  color: var(--color-fg-3);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.tile__lines {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}
+
+.tile__line {
+  padding-bottom: 9px;
+  border-bottom: 1px solid var(--color-line);
+  font-family: var(--font-mono);
+  font-size: 11.5px;
+  color: var(--color-fg-3);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.tile__line:last-child {
+  padding-bottom: 0;
+  border-bottom: 0;
+}
+
+.tile__caption {
+  display: block;
+  padding-top: 14px;
+}
+
+.tile__title {
+  display: block;
+  font-family: var(--font-display);
+  font-size: 26px;
+  font-weight: 800;
+  line-height: 1;
+  letter-spacing: 0.01em;
   text-transform: uppercase;
   color: var(--color-steel-hi);
   overflow-wrap: anywhere;
 }
 
-.hero__body {
-  max-width: 46em;
-  margin-top: 16px;
-  font-size: 15.5px;
+.tile__text {
+  display: block;
+  max-width: 34ch;
+  margin-top: 7px;
+  font-size: 14px;
+  line-height: 1.5;
   color: var(--color-fg-2);
 }
 
-.hero__body > * + * {
-  margin-top: 1em;
+.tile__action {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 12px;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--color-fg-3);
+  transition: color 0.16s var(--ease);
 }
 
-.hero__body .hint {
-  margin-top: 18px;
+.tile__action .icon {
+  width: 14px;
+  height: 14px;
 }
 
-.hero__actions {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  margin-top: 22px;
+.tile__link:hover .tile__plate {
+  border-color: var(--color-line-strong);
+  background: var(--color-surface-2);
 }
 
-.hero__body .btn {
-  border-color: var(--color-accent);
-  background: var(--color-accent);
-  color: var(--color-accent-ink);
+.tile__link:hover .tile__plate::after,
+.tile__link:focus-visible .tile__plate::after {
+  opacity: 1;
 }
 
-.hero__body .btn:hover {
-  border-color: var(--color-accent-hi);
-  background: var(--color-accent-hi);
-  color: var(--color-accent-ink);
+.tile__link:hover .tile__title {
+  color: var(--color-fg);
 }
 
-.home-body {
-  padding-block: 34px 64px;
-}
-
-.home-body .section-title {
-  margin-bottom: 4px;
+.tile__link:hover .tile__action {
+  color: var(--color-steel-hi);
 }
 
 /* ---------------------------------------------------------------- footer */
