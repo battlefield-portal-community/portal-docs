@@ -1,0 +1,182 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-06-07T00:00:00Z",
+  "title": "Design System: Portal Documentation",
+  "extensions": {
+    "colorMeta": {
+      "signal-orange": { "role": "primary", "displayName": "Signal Orange", "canonical": "#ff4a1c", "tonalRamp": ["#38170f", "#6a2210", "#a52808", "#e02d00", "#ff481a", "#f77a5a", "#efaf9f", "#f3ded8"] },
+      "signal-orange-hi": { "role": "primary", "displayName": "Signal Orange Hot", "canonical": "#ff6a42", "tonalRamp": ["#3d1b12", "#752a18", "#ad391d", "#e54922", "#ff6a42", "#fb9171", "#f0bcab", "#f7e2dc"] },
+      "signal-orange-ink": { "role": "primary", "displayName": "Signal Ink", "canonical": "#140602" },
+      "teal-2042": { "role": "primary", "displayName": "2042 Teal", "canonical": "#2fe0c8", "tonalRamp": ["#14332f", "#1c5f56", "#1d9181", "#1dc3ad", "#37e1ca", "#6ee2d3", "#aae4dc", "#dcefed"] },
+      "teal-2042-hi": { "role": "primary", "displayName": "2042 Teal High", "canonical": "#7af2e1", "tonalRamp": ["#16302d", "#1d5a54", "#248b7f", "#2bbcac", "#4ce8d8", "#7af2e1", "#b3ece6", "#e0f4f1"] },
+      "teal-2042-ink": { "role": "primary", "displayName": "Teal Ink", "canonical": "#021a17" },
+      "cold-steel": { "role": "secondary", "displayName": "Cold Steel", "canonical": "#a9b9c9", "tonalRamp": ["#1f2428", "#333d48", "#455769", "#57708a", "#728ca6", "#96a8ba", "#bec7d0", "#e3e6e8"] },
+      "cold-steel-hi": { "role": "secondary", "displayName": "Cold Steel High", "canonical": "#c9d4de", "tonalRamp": ["#22282d", "#38434f", "#4c6073", "#607c99", "#8099b3", "#a4b6c7", "#c9d4de", "#e9eef2"] },
+      "cold-steel-ink": { "role": "secondary", "displayName": "Steel Ink", "canonical": "#0b0e11" },
+      "warn": { "role": "tertiary", "displayName": "Amber Warning", "canonical": "#f2b233", "tonalRamp": ["#362a12", "#654a15", "#9c6d12", "#d3910d", "#f1ae27", "#edbf63", "#ead2a4", "#f1e9da"] },
+      "danger": { "role": "tertiary", "displayName": "Alert Red", "canonical": "#f0524d", "tonalRamp": ["#351312", "#631917", "#991915", "#cf1711", "#ed312b", "#ea6a66", "#e8a7a5", "#f1dbda"] },
+      "ink-base": { "role": "neutral", "displayName": "Ink Base", "canonical": "#090a0b", "tonalRamp": ["#090a0b", "#101315", "#171b1f", "#1f2429", "#2a3138", "#3a434c", "#586472", "#8b98a5"] },
+      "ink-1": { "role": "neutral", "displayName": "Ink 1", "canonical": "#0f1113", "tonalRamp": ["#0f1113", "#15181b", "#1c2024", "#242a2f", "#2f363d", "#3e4850", "#5c6874", "#8e9aa6"] },
+      "ink-2": { "role": "neutral", "displayName": "Ink 2", "canonical": "#15181b", "tonalRamp": ["#15181b", "#1b1f23", "#23282d", "#2c3238", "#384046", "#48525a", "#67737f", "#98a3af"] },
+      "ink-3": { "role": "neutral", "displayName": "Ink 3", "canonical": "#1c2024", "tonalRamp": ["#1c2024", "#22272c", "#2a3036", "#343b41", "#414a51", "#525c65", "#6f7c88", "#9da8b3"] },
+      "rule": { "role": "neutral", "displayName": "Rule", "canonical": "#22272c" },
+      "rule-strong": { "role": "neutral", "displayName": "Rule Strong", "canonical": "#363d44" },
+      "text": { "role": "neutral", "displayName": "Body Ink", "canonical": "#e9edf0", "tonalRamp": ["#0b0d0e", "#22262a", "#40464b", "#5f676e", "#818a92", "#a9b1b8", "#cfd5da", "#e9edf0"] },
+      "text-quiet": { "role": "neutral", "displayName": "Quiet Text", "canonical": "#a4aeb9", "tonalRamp": ["#0c0e10", "#22262b", "#3b4148", "#555d66", "#727b85", "#8e98a3", "#a4aeb9", "#c8ced4"] },
+      "text-muted": { "role": "neutral", "displayName": "Muted Text", "canonical": "#7a8591", "tonalRamp": ["#0b0d0e", "#1f2429", "#343a41", "#4a525a", "#616973", "#7a8591", "#9ea6ae", "#c3c9ce"] },
+      "code-text": { "role": "neutral", "displayName": "Code Body", "canonical": "#c8d1da" },
+      "code-keyword": { "role": "primary", "displayName": "Code Keyword", "canonical": "#ff8a65" },
+      "code-string": { "role": "secondary", "displayName": "Code String", "canonical": "#9fd6a0" },
+      "code-comment": { "role": "neutral", "displayName": "Code Comment", "canonical": "#5d6873" },
+      "code-name": { "role": "secondary", "displayName": "Code Name", "canonical": "#8fc1ea" }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Display", "purpose": "Home hero only. Condensed uppercase at 0.93 line-height." },
+      "headline": { "displayName": "Headline", "purpose": "Page title in the page head." },
+      "title": { "displayName": "Title", "purpose": "Prose headings h1–h3, uppercase, full-strength text color." },
+      "body": { "displayName": "Body", "purpose": "All prose. 15.5px/1.65, capped at 54em." },
+      "label": { "displayName": "Label / Mono", "purpose": "Eyebrows, section titles, hint titles, table heads, tabs, card meta, keycaps." },
+      "nav": { "displayName": "Nav", "purpose": "Top navigation and buttons. Barlow uppercase at 0.09em." },
+      "code": { "displayName": "Code", "purpose": "Fenced code blocks; inline code at 0.87em." }
+    },
+    "shadows": [
+      { "name": "tab-active-underline", "value": "inset 0 -2px 0 #ff4a1c", "purpose": "The only box-shadow in the system: the active tab's accent underline. A rule, not a shadow. Uses var(--color-accent) in source." }
+    ],
+    "motion": [
+      { "name": "ease", "value": "cubic-bezier(0.2, 0, 0.2, 1)", "purpose": "The single easing curve. Sets as --ease." },
+      { "name": "duration-instant", "value": "0.12s", "purpose": "Hover color shifts on links, sidebar items, search rows." },
+      { "name": "duration-fast", "value": "0.15s", "purpose": "Buttons, icon buttons, code tools, focus transitions." },
+      { "name": "duration-base", "value": "0.16s", "purpose": "Cards: border, fill, 2px lift, and bracket fade." },
+      { "name": "duration-drawer", "value": "0.2s", "purpose": "Mobile sidebar drawer and scrim." }
+    ],
+    "breakpoints": [
+      { "name": "sm", "value": "640px", "purpose": "Wrap padding to 24px; doc grid padding; header brand shrinks below it." },
+      { "name": "footer-md", "value": "720px", "purpose": "Footer grid to three columns." },
+      { "name": "md", "value": "1024px", "purpose": "Sidebar appears, grid becomes sidebar + content, padding 32px; drawer hidden." },
+      { "name": "search-lg", "value": "1100px", "purpose": "Search button gains its label and `/` keycap." },
+      { "name": "nav-lg", "value": "1239px", "purpose": "Top navigation collapses into the drawer button below this." },
+      { "name": "xl", "value": "1360px", "purpose": "Third rail column for on-page headings appears; mobile TOC hides." }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-accent",
+      "description": "The single primary action on a view. Solid signal orange, square, uppercase nav type.",
+      "html": "<a class=\"ds-btn ds-btn--accent\" href=\"#\">Search the docs</a>",
+      "css": ".ds-btn { display: inline-flex; align-items: center; justify-content: center; gap: 8px; height: 40px; padding-inline: 18px; border: 1px solid var(--color-line-strong); background: transparent; font-family: var(--font-sans); font-size: 13px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; text-decoration: none; white-space: nowrap; color: var(--color-fg); border-radius: 0; transition: border-color 0.15s var(--ease), background-color 0.15s var(--ease), color 0.15s var(--ease); } .ds-btn--accent { border-color: var(--color-accent); background: var(--color-accent); color: var(--color-accent-ink); } .ds-btn--accent:hover { border-color: var(--color-accent-hi); background: var(--color-accent-hi); color: var(--color-accent-ink); } .ds-btn:focus-visible { outline: 2px solid var(--color-accent); outline-offset: 2px; }"
+    },
+    {
+      "name": "Quiet Button",
+      "kind": "button",
+      "refersTo": "button",
+      "description": "The default button: a 1px border that lights up on hover, no fill until reached for.",
+      "html": "<button class=\"ds-btn\" type=\"button\">Browse the docs</button>",
+      "css": ".ds-btn { display: inline-flex; align-items: center; justify-content: center; gap: 8px; height: 40px; padding-inline: 18px; border: 1px solid var(--color-line-strong); background: transparent; font-family: var(--font-sans); font-size: 13px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; white-space: nowrap; color: var(--color-fg); border-radius: 0; cursor: pointer; transition: border-color 0.15s var(--ease), background-color 0.15s var(--ease), color 0.15s var(--ease); } .ds-btn:hover { border-color: var(--color-steel); background: rgb(169 185 201 / 0.06); } .ds-btn:focus-visible { outline: 2px solid var(--color-accent); outline-offset: 2px; }"
+    },
+    {
+      "name": "Icon Button",
+      "kind": "button",
+      "refersTo": "icon-button",
+      "description": "A 36px square holding a 18px stroked icon. Community links, drawer trigger, header actions.",
+      "html": "<button class=\"ds-icon-btn\" type=\"button\" aria-label=\"Search the documentation\"><svg class=\"ds-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><circle cx=\"11\" cy=\"11\" r=\"7\"></circle><path d=\"m16.5 16.5 4 4\"></path></svg></button>",
+      "css": ".ds-icon-btn { display: grid; place-items: center; width: 36px; height: 36px; border: 1px solid var(--color-line); background: transparent; color: var(--color-fg-2); border-radius: 0; cursor: pointer; transition: border-color 0.15s var(--ease), background-color 0.15s var(--ease), color 0.15s var(--ease); } .ds-icon-btn:hover { border-color: var(--color-line-strong); background: var(--color-surface-2); color: var(--color-fg); } .ds-icon-btn:focus-visible { outline: 2px solid var(--color-accent); outline-offset: 2px; } .ds-icon { width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-width: 1.6; stroke-linecap: round; stroke-linejoin: round; }"
+    },
+    {
+      "name": "Section Card",
+      "kind": "card",
+      "refersTo": "card",
+      "description": "A bordered ink-1 container with a display-face title and mono meta. Lifts 2px and grows accent corner brackets on hover.",
+      "html": "<a class=\"ds-card\" href=\"#\"><span class=\"ds-card__title\">Portal Builder</span><span class=\"ds-card__meta\">18 pages</span><span class=\"ds-card__text\">Game modes, map layouts and the rules editor.</span></a>",
+      "css": ".ds-card { position: relative; display: block; padding: 13px 15px 14px; border: 1px solid var(--color-line); background: var(--color-surface-1); text-decoration: none; border-radius: 0; transition: border-color 0.16s var(--ease), background-color 0.16s var(--ease), transform 0.16s var(--ease); } .ds-card::after { content: \"\"; position: absolute; inset: -1px; opacity: 0; pointer-events: none; transition: opacity 0.16s var(--ease); --tick: var(--color-accent); background: linear-gradient(var(--tick), var(--tick)) top left / 12px 1px, linear-gradient(var(--tick), var(--tick)) top left / 1px 12px, linear-gradient(var(--tick), var(--tick)) bottom right / 12px 1px, linear-gradient(var(--tick), var(--tick)) bottom right / 1px 12px; background-repeat: no-repeat; } .ds-card:hover { border-color: var(--color-line-strong); background: var(--color-surface-2); transform: translateY(-2px); } .ds-card:hover::after { opacity: 1; } .ds-card:focus-visible { outline: 2px solid var(--color-accent); outline-offset: 2px; } .ds-card__title { display: block; font-family: var(--font-display); font-size: 17px; font-weight: 700; letter-spacing: 0.02em; text-transform: uppercase; color: var(--color-steel-hi); } .ds-card__meta { display: block; margin-top: 3px; font-family: var(--font-mono); font-size: 10.5px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--color-fg-3); } .ds-card__text { display: block; margin-top: 7px; font-family: var(--font-sans); font-size: 13.5px; line-height: 1.45; color: var(--color-fg-2); }"
+    },
+    {
+      "name": "Hint / Callout",
+      "kind": "custom",
+      "refersTo": "hint",
+      "description": "A 2px semantic rail on ink-1. Steel for note, orange for tip, amber for important, red for danger. Never tinted.",
+      "html": "<aside class=\"ds-hint ds-hint--tip\"><p class=\"ds-hint__title\"><svg class=\"ds-hint__icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M12 8v5\"></path><path d=\"M12 16.5v.5\"></path><circle cx=\"12\" cy=\"12\" r=\"9\"></circle></svg><span>Tip</span></p><div class=\"ds-hint__text\">Blocks run top to bottom. Put your condition above the action it guards.</div></aside>",
+      "css": ".ds-hint { padding: 12px 15px 13px; border: 1px solid var(--color-line); border-left: 2px solid var(--color-steel); background: var(--color-surface-1); border-radius: 0; } .ds-hint--tip { border-left-color: var(--color-accent); } .ds-hint--important { border-left-color: var(--color-warn); } .ds-hint--danger { border-left-color: var(--color-danger); } .ds-hint__title { display: flex; align-items: center; gap: 8px; margin: 0; font-family: var(--font-mono); font-size: 11px; font-weight: 500; letter-spacing: 0.14em; text-transform: uppercase; color: var(--color-steel); } .ds-hint--tip .ds-hint__title { color: var(--color-accent); } .ds-hint--important .ds-hint__title { color: var(--color-warn); } .ds-hint--danger .ds-hint__title { color: var(--color-danger); } .ds-hint__icon { width: 15px; height: 15px; fill: none; stroke: currentColor; stroke-width: 1.6; stroke-linecap: round; stroke-linejoin: round; } .ds-hint__text { margin-top: 7px; font-family: var(--font-sans); font-size: 14.5px; line-height: 1.55; color: var(--color-fg-2); }"
+    },
+    {
+      "name": "Tab Group",
+      "kind": "custom",
+      "refersTo": null,
+      "description": "Hidden radios driving mono uppercase labels. The active tab gets ink-2 fill and the system's only inset shadow — a 2px accent underline.",
+      "html": "<div class=\"ds-tabs\"><input class=\"ds-tabs__radio\" type=\"radio\" name=\"ds-tabs-demo\" id=\"ds-tab-1\" checked><label class=\"ds-tabs__label\" for=\"ds-tab-1\">Mod</label><div class=\"ds-tabs__panel\">The mod table: every script a mode declares.</div><input class=\"ds-tabs__radio\" type=\"radio\" name=\"ds-tabs-demo\" id=\"ds-tab-2\"><label class=\"ds-tabs__label\" for=\"ds-tab-2\">Modlib</label><div class=\"ds-tabs__panel\">The shared library the mod imports.</div></div>",
+      "css": ".ds-tabs { display: grid; grid-template-columns: repeat(auto-fit, minmax(0, max-content)); border: 1px solid var(--color-line); background: var(--color-surface-1); border-radius: 0; } .ds-tabs__radio { position: absolute; width: 1px; height: 1px; opacity: 0; pointer-events: none; } .ds-tabs__label { grid-row: 1; display: flex; align-items: center; padding: 9px 14px; border-right: 1px solid var(--color-line); border-bottom: 1px solid var(--color-line); font-family: var(--font-mono); font-size: 11px; font-weight: 500; letter-spacing: 0.12em; text-transform: uppercase; color: var(--color-fg-3); cursor: pointer; transition: color 0.15s var(--ease), background-color 0.15s var(--ease); } .ds-tabs__label:hover { color: var(--color-fg); background: var(--color-surface-2); } .ds-tabs__panel { display: none; grid-row: 2; grid-column: 1 / -1; padding: 15px 16px 16px; font-family: var(--font-sans); font-size: 14.5px; color: var(--color-fg-2); } .ds-tabs__radio:checked + .ds-tabs__label { color: var(--color-fg); background: var(--color-surface-2); box-shadow: inset 0 -2px 0 var(--color-accent); } .ds-tabs__radio:checked + .ds-tabs__label + .ds-tabs__panel { display: block; } .ds-tabs__radio:focus-visible + .ds-tabs__label { outline: 2px solid var(--color-accent); outline-offset: -2px; }"
+    },
+    {
+      "name": "Top Navigation",
+      "kind": "nav",
+      "refersTo": "topnav-link",
+      "description": "Stretch-height uppercase items. The current section gets a 2px accent underline plus an upward caret.",
+      "html": "<nav class=\"ds-topnav\" aria-label=\"Sections\"><a href=\"#\" aria-current=\"true\">Introduction</a><a href=\"#\">BF6 Portal</a><a href=\"#\">Portal Builder</a><a href=\"#\">Tutorials</a></nav>",
+      "css": ".ds-topnav { display: flex; align-self: stretch; gap: 1px; border-bottom: 1px solid var(--color-line); background: var(--color-base); } .ds-topnav a { position: relative; display: flex; align-items: center; padding: 0 10px; font-family: var(--font-sans); font-size: 13px; font-weight: 600; letter-spacing: 0.09em; text-transform: uppercase; white-space: nowrap; text-decoration: none; color: var(--color-fg-2); transition: color 0.15s var(--ease); } .ds-topnav a:hover { color: var(--color-fg); } .ds-topnav a[aria-current=\"true\"] { color: var(--color-fg); } .ds-topnav a[aria-current=\"true\"]::after { content: \"\"; position: absolute; inset-inline: 10px; bottom: -1px; height: 2px; background: var(--color-accent); } .ds-topnav a[aria-current=\"true\"]::before { content: \"\"; position: absolute; left: 50%; bottom: 1px; border: 4px solid transparent; border-bottom-color: var(--color-accent); transform: translateX(-50%); } .ds-topnav a:focus-visible { outline: 2px solid var(--color-accent); outline-offset: -2px; }"
+    },
+    {
+      "name": "Sidebar Navigation",
+      "kind": "nav",
+      "refersTo": "sidenav-link",
+      "description": "A left hairline rail per item; the current page turns the rail accent and fills ink-2. Nested levels indent 10px each.",
+      "html": "<nav class=\"ds-sidenav\" aria-label=\"Documentation\"><ul><li><a href=\"#\" aria-current=\"page\">Rules editor</a></li><li><a href=\"#\">Blocks</a><ul><li><a href=\"#\">Abort</a></li><li><a href=\"#\">Add</a></li><li><a href=\"#\">Condition</a></li></ul></li></ul></nav>",
+      "css": ".ds-sidenav ul { margin: 0; padding: 0; list-style: none; } .ds-sidenav ul ul { margin-left: 10px; } .ds-sidenav a { display: block; padding: 6px 10px; border-left: 1px solid var(--color-line); font-family: var(--font-sans); font-size: 13.5px; line-height: 1.35; text-decoration: none; color: var(--color-fg-2); transition: color 0.12s var(--ease), background-color 0.12s var(--ease), border-color 0.12s var(--ease); } .ds-sidenav a:hover { color: var(--color-fg); background: var(--color-surface-2); } .ds-sidenav a[aria-current=\"page\"] { color: var(--color-fg); border-left-color: var(--color-accent); background: var(--color-surface-2); } .ds-sidenav a:focus-visible { outline: 2px solid var(--color-accent); outline-offset: -2px; }"
+    },
+    {
+      "name": "Search Result Row",
+      "kind": "input",
+      "refersTo": "search-result",
+      "description": "A 2px left rail that turns accent on hover or selection, monospace section tag beside the title, two-line clamped excerpt, accent-colored matches.",
+      "html": "<ul class=\"ds-results\"><li><a class=\"ds-result\" href=\"#\" aria-selected=\"true\"><span class=\"ds-result__title\">DisplayCustomMessage <span>Rules editor</span></span><span class=\"ds-result__text\">Shows a message to one player for <mark>five seconds</mark>.</span></a></li></ul>",
+      "css": ".ds-results { margin: 0; padding: 6px; list-style: none; background: var(--color-base); } .ds-result { display: block; padding: 9px 11px; border-left: 2px solid transparent; text-decoration: none; border-radius: 0; transition: background-color 0.12s var(--ease), border-color 0.12s var(--ease); } .ds-result:hover, .ds-result[aria-selected=\"true\"] { background: var(--color-surface-2); border-left-color: var(--color-accent); } .ds-result:focus-visible { outline: 2px solid var(--color-accent); outline-offset: -2px; } .ds-result__title { display: flex; align-items: baseline; gap: 8px; font-family: var(--font-sans); font-size: 14.5px; font-weight: 600; color: var(--color-fg); } .ds-result__title span { font-family: var(--font-mono); font-size: 10.5px; font-weight: 400; letter-spacing: 0.1em; text-transform: uppercase; color: var(--color-fg-3); } .ds-result__text { display: -webkit-box; margin-top: 2px; overflow: hidden; font-family: var(--font-sans); font-size: 12.5px; line-height: 1.45; color: var(--color-fg-3); -webkit-box-orient: vertical; -webkit-line-clamp: 2; } .ds-result mark { background: none; color: var(--color-accent); font-weight: 600; }"
+    },
+    {
+      "name": "Code Block",
+      "kind": "custom",
+      "refersTo": null,
+      "description": "ink-1 surface, 1px rule, five syntax colors. Language label and copy button fade in on hover, stay visible on touch.",
+      "html": "<div class=\"ds-code\"><pre><code><span class=\"k\">if</span> <span class=\"nf\">PlayerCount</span>() <span class=\"s\">&gt; 0</span> {\n  <span class=\"nf\">DisplayCustomMessage</span>(<span class=\"s\">\"Go\"</span>)\n}</code></pre><div class=\"ds-code__tools\"><span class=\"ds-code__lang\">Mod</span><button class=\"ds-code__copy\" type=\"button\">Copy</button></div></div>",
+      "css": ".ds-code { position: relative; border: 1px solid var(--color-line); background: var(--color-surface-1); border-radius: 0; } .ds-code pre { margin: 0; padding: 16px; overflow-x: auto; } .ds-code code { font-family: var(--font-mono); font-size: 13px; line-height: 1.6; color: var(--color-code-text); } .ds-code .k { color: var(--color-code-keyword); } .ds-code .nf { color: var(--color-code-name); } .ds-code .s { color: var(--color-code-string); } .ds-code__tools { position: absolute; top: 6px; right: 6px; display: flex; align-items: center; gap: 6px; opacity: 0; transition: opacity 0.15s var(--ease); } .ds-code:hover .ds-code__tools, .ds-code__tools:focus-within { opacity: 1; } @media (hover: none) { .ds-code__tools { opacity: 1; } } .ds-code__lang { font-family: var(--font-mono); font-size: 10.5px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--color-fg-3); } .ds-code__copy { height: 26px; padding-inline: 8px; border: 1px solid var(--color-line); background: var(--color-surface-2); font-family: var(--font-mono); font-size: 10.5px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--color-fg-3); border-radius: 0; cursor: pointer; transition: color 0.15s var(--ease), border-color 0.15s var(--ease); } .ds-code__copy:hover { border-color: var(--color-line-strong); color: var(--color-fg); } .ds-code__copy[data-copied=\"true\"] { border-color: var(--color-accent); color: var(--color-accent); }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Mission Briefing",
+    "overview": "The site is a dark command deck that has already read the file and is telling you what matters. Steel headlines are set in condensed uppercase, the small print is mono, and the whole surface is square, hairline-ruled, and quiet — until something is actionable, at which point one signal orange appears and nothing else does. It is industrial and high-contrast without raising its voice: the palette is nearly black, the type carries the hierarchy, and every border is a single pixel.\n\nAtmosphere is built from three moves and no more. Tonal surfaces step from ink-base through ink-3 so that a card, a callout, or a search field sits on the page rather than floating above it. A hairline rule separates every region, doubling on hover. And a faint dotted grid appears behind the page head and the hero as the single textural flourish — a ruler under the title, never wallpaper.\n\nMotion is small and instrumental: 0.12–0.2s transitions on a single curve, buttons and cards shifting border color, cards lifting 2px on hover with corner ticks fading in. Nothing bounces, nothing glows, nothing scrolls itself.",
+    "keyCharacteristics": [
+      "Dark ink base (#090a0b) with four deliberate surface steps and no shadows at all.",
+      "Square everywhere: radius 0, 1px hairlines, corner brackets, no pills.",
+      "Condensed uppercase display type against 15.5px body copy capped at 54em.",
+      "Mono for every caption, label, table head, and tab — the instrument layer.",
+      "One accent per page: signal orange (#ff4a1c), or 2042 teal (#2fe0c8) inside the 2042 docs, never both."
+    ],
+    "rules": [
+      { "name": "The One Signal Rule", "body": "Accent appears on ≤10% of any viewport and only where the reader can act or is already standing: primary actions, the current item, the focused element, the matched search term. Its rarity is the whole point — a screen with two orange things has no signal.", "section": "colors" },
+      { "name": "The Teal Means 2042 Rule", "body": "Teal exists to mark Battlefield 2042 documentation and never appears as a second accent on a 2042 page. No page shows both orange and teal.", "section": "colors" },
+      { "name": "The Steel Is Type Rule", "body": "Cold steel is a typographic color, not a background or a border fill. Surfaces are ink; steel is what is written on them.", "section": "colors" },
+      { "name": "The Two-Face Rule", "body": "Uppercase belongs to Big Shoulders and mono labels. Body copy is never tracked, never uppercase, never condensed — Barlow at 15.5px/1.65 is the reading voice and it does not get a costume.", "section": "typography" },
+      { "name": "The 54em Rule", "body": "Prose never exceeds 54em (roughly 70 characters at this size); the hero body caps at 46em. Widening a text column is not a way to fill space — the third rail column exists for that.", "section": "typography" },
+      { "name": "The Flat-By-Decree Rule", "body": "No outer shadows, no glows, no blurs except the header's. If an element needs to come forward, it changes surface color or border color, or it moves 2px. A shadow is a bug.", "section": "elevation" },
+      { "name": "The Dot Grid Rule", "body": "The dotted texture belongs to the page head and the hero only, always masked so it fades before it reaches content. It is a ruler, not wallpaper — it never repeats mid-article.", "section": "elevation" },
+      { "name": "The Dead Square Rule", "body": "Radius 0. A new component that would look better rounded does not belong in this system; find the edge, the bracket, or the rule instead.", "section": "shapes" },
+      { "name": "The Bracket Rule", "body": "Corner ticks mark the element under the cursor, and they are the only chrome that ever appears on hover besides a border and a background step. They do not animate on entry beyond a 0.16s opacity fade, and they never appear at rest.", "section": "shapes" }
+    ],
+    "dos": [
+      "Do keep accent usage under 10% of the viewport and only on actionable or current-state elements (The One Signal Rule).",
+      "Do build depth from the ink ladder (base #090a0b → ink-1 #0f1113 → ink-2 #15181b → ink-3 #1c2024) and a 1px border that shifts to rule-strong (#363d44) on interaction.",
+      "Do set every caption, label, table head, tab name, and keycap in JetBrains Mono at 11px with 0.14em tracking.",
+      "Do keep prose at 54em max, 15.5px, 1.65 line-height, in quiet text (#a4aeb9) — the reading environment is the product.",
+      "Do use uppercase Big Shoulders for headings and square, bracket-marked containers for structure; both are load-bearing for the industrial read.",
+      "Do swap the whole accent to 2042 teal (#2fe0c8) via `[data-game=\"bf2042\"]` when the page documents Battlefield 2042."
+    ],
+    "donts": [
+      "Don't add shadows, glows, gradient text, or blurred glass anywhere except the header's 12px backdrop blur (The Flat-By-Decree Rule).",
+      "Don't round a corner. No 2px, no 4px, no pills, no circles — a rounded element is a foreign object in this system (The Dead Square Rule).",
+      "Don't show signal orange and 2042 teal on the same page, or use teal for anything outside Battlefield 2042 documentation.",
+      "Don't drift gamer-neon (glow, neon gradients, esports chrome), SaaS-marketing (gradient meshes, rounded soft cards, illustration blobs, social proof bars), or editorial-warm (serif body, cream paper, oversized italic pull quotes). All three are confirmed anti-references.",
+      "Don't adopt Material defaults: no ripple, no elevation ladder, no 4/12px radii, no Roboto.",
+      "Don't tint a hint's background with its semantic color, or use amber/red for emphasis — they mean warning and error, nothing else.",
+      "Don't put the dot grid mid-article or repeat it as a section background; it marks the top of a page only."
+    ]
+  }
+}
