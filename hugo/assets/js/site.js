@@ -5,6 +5,25 @@
 (() => {
   "use strict";
 
+  /* ------------------------------------------------------------- shelf */
+
+  /* The root page's shelf: a fade at either end is the only thing telling a
+     reader the row runs on, so the state lives on the element. */
+  const shelf = document.querySelector("[data-shelf]");
+
+  if (shelf) {
+    const sync = () => {
+      const max = shelf.scrollWidth - shelf.clientWidth;
+      shelf.dataset.atStart = shelf.scrollLeft <= 1 ? "true" : "false";
+      shelf.dataset.atEnd = shelf.scrollLeft >= max - 1 ? "true" : "false";
+    };
+
+    shelf.addEventListener("scroll", sync, { passive: true });
+    window.addEventListener("resize", sync);
+    window.addEventListener("load", sync);
+    sync();
+  }
+
   /* ------------------------------------------------------------ drawer */
 
   const drawer = document.querySelector("[data-drawer]");
