@@ -5,6 +5,10 @@
 {{- $article = replaceRE `(?s)(<table>.*?</table>)` `<div class="table-wrap">$1</div>` $article -}}
 {{- $inlineToc := strings.Contains $page.RawContent "{{< toc" -}}
 {{- $hasToc := and $page.TableOfContents (not $inlineToc) -}}
+{{- /* A block page's headings arrive with the generated article, after Hugo
+       has built .TableOfContents, so its list would hold the title alone.
+       Nothing to navigate: no rail, no folded box. */ -}}
+{{- if eq $page.Layout "block_documentation" }}{{ $hasToc = false }}{{ end -}}
 <div class="doc-layout{{ if $hasToc }} doc-layout--toc{{ end }}">
   <aside class="sidebar">
     {{ partial "sidenav" $page }}
@@ -21,6 +25,12 @@
     {{- end }}
 
     <article class="prose" id="main-content" tabindex="-1">{{ $article | safeHTML }}</article>
+
+    {{- if eq $page.Layout "block_documentation" }}
+      <div class="page-meta">
+        {{ partial "page-meta" $page }}
+      </div>
+    {{- end }}
 
     {{ partial "page-nav" $page }}
   </div>

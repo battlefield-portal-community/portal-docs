@@ -734,6 +734,32 @@ summary::-webkit-details-marker {
   color: var(--color-fg);
 }
 
+/* The row that follows the article on a block page. There the title is
+   generated, so the way to the source belongs after it, not above it. The
+   notes section above already closes with a border, so this one adds none. */
+.page-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 16px;
+  margin-top: 34px;
+  font-size: 13px;
+  color: var(--color-fg-3);
+}
+
+.page-meta a {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--color-fg-2);
+  text-decoration: none;
+  transition: color 0.12s var(--ease);
+}
+
+.page-meta a:hover {
+  color: var(--color-fg);
+}
+
 /* ----------------------------------------------------------------- prose */
 
 .prose {
@@ -1285,6 +1311,30 @@ summary::-webkit-details-marker {
 
 .hint--danger .hint__title {
   color: var(--color-danger);
+}
+
+/* ------------------------------------------------- community notes slot */
+
+/* A slot nobody has filled yet still has to look like a place, not an
+   apology: a bordered panel, the invitation, and the one action that fills
+   it. The heading above it is the page's own, in the prose scale. */
+.notes {
+  margin-top: 1.2em;
+  padding: 14px 16px 16px;
+  border: 1px solid var(--color-line);
+  background: var(--color-surface-1);
+}
+
+.notes__text {
+  max-width: 54em;
+  font-size: 14.5px;
+  line-height: 1.6;
+  color: var(--color-fg-2);
+}
+
+.notes__text strong {
+  font-weight: 600;
+  color: var(--color-fg);
 }
 
 /* ------------------------------------------------------------------ tabs */

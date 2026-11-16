@@ -27,6 +27,7 @@ The **docs** are also split into two parts:
     - Any changes to this file **will be overwritten** when the docs are regenerated
 
   - The **`docs/portal_blocks/<block_name>/docs/extra.md`** file is where you can add extra information about the block
+    - It becomes the page's **Community notes** section, and any block page shows an empty one until someone fills it
     - This file will **not be overwritten** when the docs are regenerated
 
 ## Contributing to the docs
@@ -64,7 +65,7 @@ hugo new content [guide|tutorial]/<name_of_tutorial_or_guide>
   - `index.md` which is the root of the block documentation
   - A folder called `docs` which contains the documentation for the block
     - In the `docs` folder find/create a file called `extra.md` and add the extra information there.
-    - All the new information will be added to the bottom of the block documentation page.
+    - All the new information will be added to the bottom of the block documentation page, under **Community notes**.
 - The code which generates the block documentation structure can be found at `/generators`
 
 ## TODOs (PRs welcome :D )

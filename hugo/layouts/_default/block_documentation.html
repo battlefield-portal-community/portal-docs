@@ -1,7 +1,9 @@
 {{ define "main" }}
   {{- /* A rule-editor block. The page itself holds almost nothing: its
-         description is written by the generator into docs/official.md and
-         docs/extra.md beside it. */ -}}
+         description is written by the generator into docs/official.md, and
+         whatever the community learned goes into docs/extra.md beside it. The
+         notes section renders even when that file is untouched — a slot nobody
+         has filled yet is still the page saying it can grow. */ -}}
   {{ $html := .Content }}
   {{ $indexFile := .File.Path }}
   {{ $dir := strings.TrimSuffix .File.LogicalName $indexFile }}
@@ -12,13 +14,20 @@
     {{ $html = printf "%s%s" $html (os.ReadFile $officialFile | markdownify) }}
   {{ end }}
 
-  {{ if os.FileExists $extraFile }}
-    {{ $extraContent := os.ReadFile $extraFile | .Page.RenderString }}
-    {{ $comment := printf "<!-- Add extra documentation for %s in this file -->" .Page.Title }}
-    {{ if ne $extraContent $comment }}
-      {{ $html = printf "%s\n\n%s\n\n%s" $html ("## Extra Documentation" | markdownify) $extraContent }}
-    {{ end }}
-  {{ end }}
+  {{- /* extra.md ships holding one comment and nothing else; that comment is
+         not a note, so it must not silence the empty state. */ -}}
+  {{- $raw := "" -}}
+  {{- if os.FileExists $extraFile }}{{ $raw = trim (os.ReadFile $extraFile) " \n\t" }}{{ end -}}
+  {{- $placeholder := trim (printf "<!-- Add extra documentation for %s in this file -->" .Page.Title) " \n\t" -}}
+  {{- $hasNotes := and $raw (ne $raw $placeholder) -}}
+
+  {{- $notes := slice ("## Community notes" | markdownify) -}}
+  {{- if $hasNotes -}}
+    {{- $notes = $notes | append ($raw | $.Page.RenderString) -}}
+  {{- else -}}
+    {{- $notes = $notes | append (partial "block-notes-empty" $.Page) -}}
+  {{- end -}}
+  {{ $html = printf "%s%s" $html (delimit $notes "\n\n") }}
 
   {{ partial "doc-shell" (dict "page" . "article" $html) }}
 {{ end }}

@@ -1,0 +1,13 @@
+{{- /* The state of a block page no one has written about yet. It says the slot
+       exists, says what belongs in it, and gives the one action that fills it.
+       `.Page.Title` is the block's own name, which the generated article also
+       uses as its heading — so this is the second mention, not the first. */ -}}
+{{- $page := . -}}
+<div class="notes">
+  <p class="notes__text">
+    Nobody has written notes for this block yet. If you have used
+    <strong>{{ $page.Title }}</strong> in a mode, what it actually did — the
+    trap, the workaround, the thing the type signature does not tell you — is
+    what belongs here.
+  </p>
+</div>
