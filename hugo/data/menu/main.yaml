@@ -1,6 +1,7 @@
 main:
   - name: Introduction
     blurb: What Portal is, where it came from, and what to expect from progression.
+    image: images/portal-intro.jpeg
     ref: "/introduction/"
     sub:
       - name: Battlefield Portal Documentation
@@ -15,7 +16,7 @@ main:
   - name: BF6 Portal
     short: BF6
     blurb: The Battlefield 6 scripting API — every mod and modlib class, hook and function.
-    image: images/bf6_tile_picture.jpg
+    image: images/bf6_tile_picture.jpeg
     ref: "/santiago/"
     sub:
       - name: "Scripting"
@@ -27,13 +28,13 @@ main:
           ref: "/santiago/scripting/modlib/"
   - name: Godot
     blurb: The community Godot tooling for Portal maps and scenes.
-    image: images/godot-bf6.png
+    image: images/godot-bf6.jpeg
     ref: "/godot/"
 
   - name: Portal Builder
     short: BF2042
     blurb: Game modes, map layouts, and the rules editor, block by block.
-    image: images/2042_tile_picture.jpg
+    image: images/2042_tile_picture.jpeg
     ref: "/portal-builder/"
     sub:
       - name: Game Modes
