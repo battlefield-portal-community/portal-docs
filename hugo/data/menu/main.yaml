@@ -25,6 +25,11 @@ main:
           ref: "/santiago/scripting/mod/"
         - name: modlib
           ref: "/santiago/scripting/modlib/"
+  - name: Godot
+    blurb: The community Godot tooling for Portal maps and scenes.
+    image: images/godot-bf6.png
+    ref: "/godot/"
+
   - name: Portal Builder
     short: BF2042
     blurb: Game modes, map layouts, and the rules editor, block by block.
