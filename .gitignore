@@ -293,3 +293,6 @@ vite.config.ts.timestamp-*
 # Tool payload and run artifacts
 .agents/
 .playwright-mcp/
+
+# macOS
+.DS_Store
