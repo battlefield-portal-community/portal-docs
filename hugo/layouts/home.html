@@ -42,18 +42,13 @@
         {{- range first 3 hugo.Data.menu.main.main }}
           {{- $name := or .short .name }}
           {{- $blurb := .blurb }}
-          {{- $preview := .preview }}
+          {{- $image := .image }}
           {{- if .ref }}{{ with site.GetPage .ref }}
             <li class="tile">
               <a class="tile__link" href="{{ .RelPermalink }}">
                 <span class="tile__plate" aria-hidden="true">
-                  <span class="tile__path">{{ .RelPermalink }}</span>
-                  {{- with $preview }}
-                    <span class="tile__lines">
-                      {{- range . }}
-                        <span class="tile__line">{{ . }}</span>
-                      {{- end }}
-                    </span>
+                  {{- with $image }}
+                    <img class="tile__img" src="{{ . | relURL }}" alt="" loading="lazy">
                   {{- end }}
                 </span>
                 <span class="tile__caption">

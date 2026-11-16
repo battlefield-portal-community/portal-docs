@@ -1,10 +1,6 @@
 main:
   - name: Introduction
     blurb: What Portal is, where it came from, and what to expect from progression.
-    preview:
-      - What is Battlefield Portal
-      - Battlefield Portal Community
-      - XP and progression limits
     ref: "/introduction/"
     sub:
       - name: Battlefield Portal Documentation
@@ -19,11 +15,7 @@ main:
   - name: BF6 Portal
     short: BF6
     blurb: The Battlefield 6 scripting API — every mod and modlib class, hook and function.
-    preview:
-      - mod.AddUIButton
-      - mod.AddAttachmentToWeaponPackage
-      - modlib.ShowNotificationMessage
-      - modlib.Concat
+    image: images/bf6_tile_picture.jpg
     ref: "/santiago/"
     sub:
       - name: "Scripting"
@@ -36,10 +28,7 @@ main:
   - name: Portal Builder
     short: BF2042
     blurb: Game modes, map layouts, and the rules editor, block by block.
-    preview:
-      - Game modes
-      - Map layouts
-      - Rules editor blocks
+    image: images/2042_tile_picture.jpg
     ref: "/portal-builder/"
     sub:
       - name: Game Modes
@@ -662,10 +651,6 @@ main:
               # - name: generated-block-reference-end-do-not-remove
   - name: Tutorials
     blurb: Step-by-step builds, from custom spawnpoints to a full game mode.
-    preview:
-      - Custom Spawnpoints
-      - Custom Time and Score
-      - Complete Game Modes
     ref: "/tutorial"
     sub:
       - name: Custom Spawnpoints
@@ -685,9 +670,6 @@ main:
             ref: "/tutorial/complete-game-modes/Custom-Rush"
   - name: Tools
     blurb: Community-made utilities that make building experiences less painful.
-    preview:
-      - Portal browser extension
-      - Coordinate finder
     ref: "/tools"
     sub:
       - name: Portal Browser Extension
@@ -696,17 +678,9 @@ main:
         ref: "/tools/coordinate-finder"
   - name: Bookmarks
     blurb: Links worth keeping — libraries, communities and reference sites.
-    preview:
-      - bfportal.gg library
-      - Discord server
-      - GitHub
     ref: "/bookmarks/"
     icon: gdoc_bookmark
   - name: Contributing
     blurb: How to add pages, fix mistakes and get your work merged.
-    preview:
-      - Fork and clone
-      - Add a page
-      - Open a pull request
     ref: "/contributing/how"
     icon: gdoc_git

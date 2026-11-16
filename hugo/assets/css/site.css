@@ -1907,12 +1907,9 @@ summary::-webkit-details-marker {
 
 .tile__plate {
   position: relative;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  gap: 14px;
-  aspect-ratio: 16 / 10;
-  padding: 16px 18px 18px;
+  display: block;
+  aspect-ratio: 3 / 4;
+  padding: 0;
   border: 1px solid var(--color-line);
   background: var(--color-surface-1);
   overflow: hidden;
@@ -1937,37 +1934,10 @@ summary::-webkit-details-marker {
   background-repeat: no-repeat;
 }
 
-.tile__path {
-  font-family: var(--font-mono);
-  font-size: 11px;
-  letter-spacing: 0.06em;
-  color: var(--color-fg-3);
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
-.tile__lines {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
+.tile__img {
   width: 100%;
-}
-
-.tile__line {
-  padding-bottom: 9px;
-  border-bottom: 1px solid var(--color-line);
-  font-family: var(--font-mono);
-  font-size: 11.5px;
-  color: var(--color-fg-3);
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
-.tile__line:last-child {
-  padding-bottom: 0;
-  border-bottom: 0;
+  height: 100%;
+  object-fit: cover;
 }
 
 .tile__caption {
