@@ -1,18 +1,12 @@
 baseURL = "https://docs.bfportal.gg/"
 locale = "en-US"
-themesDir = "hugo/themes"
-theme = "hugo-geekdoc"
 title = "Portal Documentation"
 
 titleCaseStyle = "Go"
-
-# Geekdoc required configuration
-pygmentsUseClasses = true
-pygmentsCodeFences = true
 disablePathToLower = true
 
 [outputs]
-    home = ["HTML", "RSS"]
+    home = ["HTML", "RSS", "JSON"]
 
 [markup]
   [markup.goldmark.renderer]
@@ -22,8 +16,8 @@ disablePathToLower = true
     startLevel = 1
     endLevel = 9
 
-[taxonomies]
-   tag = "tags"
+# No page is tagged, so the tag pages are not built.
+disableKinds = ["taxonomy", "term"]
 
 [[module.mounts]]
 source = "hugo/archetypes"
@@ -59,11 +53,7 @@ source = "docs/portal_blocks"
 target = "./content/portal-builder/rules-editor/block-reference"
 
 [params]
-    geekdocLogo= "/images/bf_portal_logo_bc.png"
-    geekdocFilePath= "content"
-    geekdocRepo = "https://github.com/battlefield-portal-community/portal-docs"
-    geekdocEditPath = "edit/main/docs"
-    geekdocNextPrev = true
-    geekdocSearchShowParent = true
-    geekdocMenuBundle = true
-    geekdocAnchor = true
+    description = "Community-written documentation for the Battlefield Portal editor: the rules editor, its blocks, maps, and the BF6 scripting API."
+    # "Edit this page" points here.
+    githubRepo = "https://github.com/battlefield-portal-community/portal-docs"
+    editPath = "edit/main/docs"
