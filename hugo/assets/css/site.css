@@ -291,9 +291,9 @@ summary::-webkit-details-marker {
     display: none;
   }
 
-  /* The mark lines up with the section list, which has no wrap padding. */
+  /* The mark lines up with the section list, both pulled to the same inset. */
   .site-header--home .site-header__inner {
-    padding-left: 0;
+    padding-left: 16px;
   }
 }
 
@@ -1723,7 +1723,7 @@ summary::-webkit-details-marker {
   .home-rail {
     position: sticky;
     top: var(--header-h);
-    margin-left: -32px;
+    margin-left: -16px;
   }
 
   .home-rail {
