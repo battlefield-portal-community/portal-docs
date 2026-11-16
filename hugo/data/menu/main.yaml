@@ -28,7 +28,7 @@ main:
           ref: "/santiago/scripting/modlib/"
   - name: Godot
     blurb: The community Godot tooling for Portal maps and scenes.
-    image: images/godot-bf6.jpeg
+    image: images/godot-bf6.png
     ref: "/godot/"
 
   - name: Portal Builder
