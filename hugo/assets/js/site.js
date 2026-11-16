@@ -341,9 +341,10 @@
     }
   }
 
-  /* Keep the current page visible in the sidebar when the page opens. */
+  /* Keep the current page visible in the sidebar when the page opens. A page
+     inside the block catalog is centred by the catalog itself, further down. */
   const active = document.querySelector(".sidenav [aria-current='page']");
-  if (active) {
+  if (active && !active.closest("[data-sidenav-scroll]")) {
     const sidebar = active.closest(".sidebar");
     if (sidebar) {
       const offset =
@@ -352,5 +353,69 @@
         sidebar.scrollTop += offset - sidebar.clientHeight / 3;
       }
     }
+  }
+
+  /* ------------------------------------------------------ block catalog */
+
+  /* The block reference is 271 names in a fixed box. Put the block you are
+     reading in the middle of that box, and let the filter cut the list down
+     to the handful you are actually looking for. */
+  for (const field of document.querySelectorAll("[data-sidenav-filter]")) {
+    const catalog = field.closest(".sidenav__catalog");
+    const scroller = catalog?.querySelector("[data-sidenav-scroll]");
+    const empty = catalog?.querySelector("[data-sidenav-empty]");
+    const list = scroller?.querySelector("ul");
+    if (!scroller || !list) continue;
+
+    const centre = () => {
+      const current = scroller.querySelector("[aria-current='page']");
+      if (!current || !scroller.clientHeight) return;
+
+      /* First bring the whole block into view in whatever contains it — the
+         section's own header, the filter and the window — aligning its top
+         with the container's top so no row is cut in half. */
+      const outer = scroller.closest(".sidebar, .sidebar-drawer");
+      const block = scroller.closest("details") || scroller;
+      if (outer) {
+        const delta =
+          block.getBoundingClientRect().top - outer.getBoundingClientRect().top;
+        if (
+          block.offsetHeight <= outer.clientHeight &&
+          (delta < 0 || block.offsetHeight > outer.clientHeight - delta)
+        ) {
+          outer.scrollTop = Math.max(0, outer.scrollTop + delta);
+        }
+      }
+
+      /* Measured, not offsetTop: the scroller is not the offset parent, so
+         offsetTop would be an absolute page coordinate. */
+      const offset =
+        current.getBoundingClientRect().top -
+        scroller.getBoundingClientRect().top +
+        scroller.scrollTop;
+      scroller.scrollTop =
+        offset - scroller.clientHeight / 2 + current.offsetHeight / 2;
+    };
+
+    centre();
+    /* Fonts land after first paint and change every row's height, so the
+       centring that matters is the one measured once they are in. */
+    window.addEventListener("load", centre);
+
+    const rows = [...list.children];
+    field.addEventListener("input", () => {
+      const needle = field.value.trim().toLowerCase();
+      let shown = 0;
+      for (const row of rows) {
+        const hit = !needle || row.textContent.toLowerCase().includes(needle);
+        row.hidden = !hit;
+        if (hit) shown += 1;
+      }
+      if (empty) empty.hidden = shown > 0;
+      if (needle) scroller.scrollTop = 0;
+    });
+
+    /* A filter that survives a reload is a filter nobody remembers setting. */
+    field.value = "";
   }
 })();

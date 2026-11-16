@@ -7,6 +7,7 @@
     {{- $external := or (hasPrefix $ref "http") (hasPrefix $ref "mailto:") }}
     {{- $active := and $this (eq $this $current) }}
     {{- $open := and $this (or $active ($this.IsAncestor $current)) }}
+    {{- $catalog := eq (default "" .ref) "/portal-builder/rules-editor/block-reference/" -}}
     <li>
       {{- if .sub }}
         <details{{ if $open }} open{{ end }}>
@@ -20,7 +21,28 @@
               {{ partial "icon" (dict "name" "chevron" "class" "chevron") }}
             </span>
           </summary>
-          {{- partial "sidenav-list" (dict "items" .sub "current" $current) }}
+          {{- if $catalog }}
+            {{- /* 271 short names: a catalog, so it scrolls inside a fixed
+                   box and can be filtered, instead of running the sidebar to
+                   the length of the index. */ -}}
+            <div class="sidenav__catalog">
+              <input
+                class="sidenav__filter"
+                data-sidenav-filter
+                type="search"
+                placeholder="Filter blocks"
+                aria-label="Filter the block reference"
+                autocomplete="off"
+                spellcheck="false"
+              >
+              <div class="sidenav__scroll" data-sidenav-scroll>
+                {{- partial "sidenav-list" (dict "items" .sub "current" $current) }}
+              </div>
+              <p class="sidenav__no-match" data-sidenav-empty hidden>No block matches that.</p>
+            </div>
+          {{- else }}
+            {{- partial "sidenav-list" (dict "items" .sub "current" $current) }}
+          {{- end }}
         </details>
       {{- else if $external }}
         <a href="{{ $ref }}" rel="noopener">{{ .name }} {{ partial "icon" (dict "name" "external" "class" "icon icon--sm") }}</a>
