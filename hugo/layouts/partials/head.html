@@ -1,0 +1,46 @@
+{{- $title := cond (eq .Kind "home") .Site.Title (printf "%s | %s" (partial "utils/title" .) .Site.Title) -}}
+{{- $description := "" -}}
+{{- with .Description -}}
+  {{- $description = . -}}
+{{- else -}}
+  {{- $description = partial "utils/text" . | truncate 160 "" -}}
+  {{- if not $description }}{{ $description = .Site.Params.description }}{{ end -}}
+{{- end -}}
+{{- $css := resources.Get "css/site.css" | minify | fingerprint "sha256" -}}
+{{- $js := resources.Get "js/site.js" | minify | fingerprint "sha256" -}}
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="dark">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<title>{{ $title }}</title>
+{{- with $description }}
+<meta name="description" content="{{ . }}">
+{{- end }}
+<link rel="canonical" href="{{ .Permalink }}">
+<meta property="og:site_name" content="{{ .Site.Title }}">
+<meta property="og:title" content="{{ partial "utils/title" . }}">
+<meta property="og:type" content="{{ cond .IsPage "article" "website" }}">
+<meta property="og:url" content="{{ .Permalink }}">
+{{- with $description }}
+<meta property="og:description" content="{{ . }}">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:description" content="{{ . }}">
+{{- end }}
+<meta name="twitter:title" content="{{ partial "utils/title" . }}">
+{{ hugo.Generator }}
+
+<link rel="icon" href="{{ "favicon/favicon.ico" | relURL }}" sizes="any">
+<link rel="icon" type="image/svg+xml" href="{{ "favicon/favicon.svg" | relURL }}">
+<link rel="icon" type="image/png" sizes="32x32" href="{{ "favicon/favicon-32x32.png" | relURL }}">
+<link rel="apple-touch-icon" href="{{ "favicon/apple-touch-icon.png" | relURL }}">
+<link rel="manifest" href="{{ "favicon/site.webmanifest" | relURL }}">
+
+<link rel="preload" as="font" type="font/woff2" crossorigin
+  href="{{ "fonts/barlow-400.woff2" | relURL }}">
+<link rel="preload" as="font" type="font/woff2" crossorigin
+  href="{{ "fonts/big-shoulders-display-500-900.woff2" | relURL }}">
+<link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
+<script defer src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}"></script>
+{{- range .AlternativeOutputFormats }}
+{{ printf `<link rel=%q type=%q href=%q title=%q>` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+{{- end }}

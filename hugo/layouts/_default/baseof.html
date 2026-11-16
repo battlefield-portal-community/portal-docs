@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Language.Lang }}">
+  <head>
+    {{ partial "head" . }}
+  </head>
+  {{- $game := "" }}
+  {{- if hasPrefix .RelPermalink "/portal-builder" }}{{ $game = "bf2042" }}{{ end }}
+  <body{{ with $game }} data-game="{{ . }}"{{ end }}>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+    {{ partial "header" . }}
+    {{ block "main" . }}{{ end }}
+    {{ partial "footer" . }}
+    {{ partial "search" . }}
+  </body>
+</html>

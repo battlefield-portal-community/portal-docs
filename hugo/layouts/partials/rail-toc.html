@@ -1,0 +1,9 @@
+{{- /* The headings of the page, beside it on a wide window and folded above it
+       on a narrow one. */ -}}
+{{- $page := . -}}
+{{- with $page.TableOfContents }}
+<nav class="toc" aria-label="On this page" data-toc>
+  <p class="toc__label">On this page</p>
+  {{ . }}
+</nav>
+{{- end }}

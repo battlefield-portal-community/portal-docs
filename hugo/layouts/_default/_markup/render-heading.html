@@ -1,0 +1,2 @@
+{{- /* A heading, with a link to itself that appears on hover. */ -}}
+<h{{ .Level }} id="{{ .Anchor | safeURL }}"{{ with .Attributes.class }} class="{{ . }}"{{ end }}>{{ .Text | safeHTML }}<a class="heading-anchor" href="#{{ .Anchor | safeURL }}" aria-label="Link to this section" tabindex="-1">{{ partial "icon" (dict "name" "link" "class" "icon icon--sm") }}</a></h{{ .Level }}>

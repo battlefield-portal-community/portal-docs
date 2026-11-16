@@ -1,0 +1,13 @@
+{{- /* A note beside the text. `type` is one of note, tip, important, warning,
+       caution or danger. */ -}}
+{{- $type := default "note" (.Get "type") | lower -}}
+{{- $title := default ($type | title) (.Get "title") -}}
+{{- $icon := "info" -}}
+{{- if ne $type "note" }}{{ $icon = "alert" }}{{ end -}}
+<aside class="hint hint--{{ $type }}">
+  <p class="hint__title">
+    {{ partial "icon" (dict "name" $icon "class" "icon icon--sm") }}
+    <span>{{ $title }}</span>
+  </p>
+  <div class="hint__text">{{ .Inner | $.Page.RenderString }}</div>
+</aside>

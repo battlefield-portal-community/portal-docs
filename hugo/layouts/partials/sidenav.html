@@ -1,0 +1,6 @@
+{{- /* The navigation tree, from data/menu/main.yaml. A section that holds the
+       page you are on is opened; the rest stay folded. */ -}}
+{{- $current := . -}}
+<nav class="sidenav" aria-label="Documentation">
+  {{- partial "sidenav-list" (dict "items" hugo.Data.menu.main.main "current" $current) }}
+</nav>

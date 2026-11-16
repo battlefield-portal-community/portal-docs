@@ -1,0 +1,9 @@
+{{- /* An image, loaded when it comes near. A title becomes its caption. */ -}}
+{{- if and .Title (not (findRE `^\s*\d+(%|px)?\s*$` .Title)) -}}
+<figure>
+  <img src="{{ .Destination | safeURL }}" alt="{{ .Text }}" loading="lazy" decoding="async">
+  <figcaption>{{ .Title }}</figcaption>
+</figure>
+{{- else -}}
+<img src="{{ .Destination | safeURL }}" alt="{{ .Text }}" loading="lazy" decoding="async">
+{{- end -}}

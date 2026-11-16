@@ -1,0 +1,34 @@
+{{- $current := .current -}}
+<ul>
+  {{- range .items }}
+    {{- $ref := default "" .ref }}
+    {{- $this := false }}
+    {{- if and $ref (not (hasPrefix $ref "http")) }}{{ $this = site.GetPage $ref }}{{ end }}
+    {{- $external := or (hasPrefix $ref "http") (hasPrefix $ref "mailto:") }}
+    {{- $active := and $this (eq $this $current) }}
+    {{- $open := and $this (or $active ($this.IsAncestor $current)) }}
+    <li>
+      {{- if .sub }}
+        <details{{ if $open }} open{{ end }}>
+          <summary>
+            {{- if $this }}
+              <a href="{{ $this.RelPermalink }}"{{ if $active }} aria-current="page"{{ end }}>{{ .name }}</a>
+            {{- else }}
+              <span>{{ .name }}</span>
+            {{- end }}
+            <span class="sidenav__chev" aria-hidden="true">
+              {{ partial "icon" (dict "name" "chevron" "class" "chevron") }}
+            </span>
+          </summary>
+          {{- partial "sidenav-list" (dict "items" .sub "current" $current) }}
+        </details>
+      {{- else if $external }}
+        <a href="{{ $ref }}" rel="noopener">{{ .name }} {{ partial "icon" (dict "name" "external" "class" "icon icon--sm") }}</a>
+      {{- else if $this }}
+        <a href="{{ $this.RelPermalink }}"{{ if $active }} aria-current="page"{{ end }}>{{ .name }}</a>
+      {{- else }}
+        <span class="sidenav__muted">{{ .name }}</span>
+      {{- end }}
+    </li>
+  {{- end }}
+</ul>

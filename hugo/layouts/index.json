@@ -1,0 +1,20 @@
+{{- /* The search index, built once per site into /index.json. Titles, sections
+       and a slice of each page's text: enough to find a page, small enough to
+       fetch in one go. */ -}}
+{{- $pages := where .Site.Pages "Kind" "in" (slice "page" "section") -}}
+[
+{{- $first := true -}}
+{{- range $pages -}}
+  {{- if and (not .Params.geekdocHidden) (not .Draft) -}}
+    {{- $section := "" -}}
+    {{- $ancestors := .Ancestors.Reverse -}}
+    {{- if ge (len $ancestors) 2 -}}
+      {{- $section = partial "utils/title" (index $ancestors 1) -}}
+    {{- end -}}
+    {{- $text := partial "utils/text" . | truncate 1200 "" -}}
+    {{- if not $first }},{{ end -}}
+    {{- $first = false -}}
+{"u":{{ .RelPermalink | jsonify }},"t":{{ partial "utils/title" . | jsonify }},"s":{{ $section | jsonify }},"c":{{ $text | jsonify }}}
+  {{- end -}}
+{{- end -}}
+]

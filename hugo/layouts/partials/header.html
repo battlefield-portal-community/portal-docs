@@ -1,0 +1,41 @@
+{{- /* The bar at the top of every page: the Portal mark, the sections, search
+       and the two community links. */ -}}
+{{- $current := . -}}
+<header class="site-header">
+  <div class="wrap site-header__inner">
+    <a class="brand" href="{{ .Site.Home.RelPermalink }}">
+      <img class="brand__mark" src="{{ "images/portal-mark.svg" | relURL }}" alt="" width="31" height="27">
+      <span class="brand__name">Portal <span>Documentation</span></span>
+    </a>
+
+    <nav class="topnav" aria-label="Sections">
+      {{- range hugo.Data.menu.main.main }}
+        {{- $this := false }}
+        {{- if .ref }}{{ $this = site.GetPage .ref }}{{ end }}
+        {{- if $this }}
+          {{- $active := or (eq $this $current) ($this.IsAncestor $current) }}
+          <a href="{{ $this.RelPermalink }}"{{ if $active }} aria-current="true"{{ end }}>{{ .name }}</a>
+        {{- end }}
+      {{- end }}
+    </nav>
+
+    <div class="header-actions">
+      <button type="button" class="icon-btn search-open" data-search-open aria-label="Search the documentation">
+        {{ partial "icon" (dict "name" "search") }}
+        <span>Search</span>
+        <kbd>/</kbd>
+      </button>
+      {{- with hugo.Data.menu.extra.header }}
+        {{- range . }}
+          {{- $icon := cond (eq .icon "discord") "discord" "github" }}
+          <a class="icon-btn" data-social href="{{ .ref }}" aria-label="{{ .name }}" rel="noopener">
+            {{ partial "icon" (dict "name" $icon) }}
+          </a>
+        {{- end }}
+      {{- end }}
+      <button type="button" class="icon-btn menu-btn" data-drawer-open aria-label="Open the navigation" aria-expanded="false" aria-controls="drawer">
+        {{ partial "icon" (dict "name" "menu") }}
+      </button>
+    </div>
+  </div>
+</header>

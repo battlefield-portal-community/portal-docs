@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Language.Lang }}">
+  <head>
+    {{ partial "head" . }}
+  </head>
+  <body>
+    {{ partial "header" . }}
+    <main class="wrap error-page" id="content">
+      <div>
+        <img class="error-page__mark" src="{{ "images/portal-mark.svg" | relURL }}" alt="" width="56" height="48">
+        <p class="error-page__code">404</p>
+        <p>This page was not found. It may have moved with a new game update.</p>
+        <a class="btn btn--accent" href="{{ .Site.Home.RelPermalink }}">Back to the documentation</a>
+      </div>
+    </main>
+    {{ partial "footer" . }}
+    {{ partial "search" . }}
+  </body>
+</html>

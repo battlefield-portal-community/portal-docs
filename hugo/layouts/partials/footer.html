@@ -1,0 +1,60 @@
+{{- /* The bar's siblings, at the foot of everything. */ -}}
+{{- $home := .Site.Home -}}
+<footer class="site-footer">
+  <div class="wrap site-footer__grid">
+    <div>
+      <a class="site-footer__brand" href="{{ $home.RelPermalink }}">
+        <img src="{{ "images/portal-mark.svg" | relURL }}" alt="" width="28" height="24">
+        <span>Portal Documentation</span>
+      </a>
+      <p class="site-footer__note">
+        Community documentation for the Battlefield Portal editor, written by the
+        Battlefield Portal Community. Not affiliated with or endorsed by EA or DICE.
+      </p>
+      <div class="site-footer__social">
+        {{- with hugo.Data.menu.extra.header }}
+          {{- range . }}
+            {{- $icon := cond (eq .icon "discord") "discord" "github" }}
+            <a class="icon-btn" href="{{ .ref }}" aria-label="{{ .name }}" rel="noopener">
+              {{ partial "icon" (dict "name" $icon) }}
+            </a>
+          {{- end }}
+        {{- end }}
+        <a class="icon-btn" href="https://bfportal.gg" aria-label="bfportal.gg" rel="noopener">
+          {{ partial "icon" (dict "name" "external") }}
+        </a>
+      </div>
+    </div>
+
+    <div>
+      <h2>Documentation</h2>
+      <ul>
+        {{- range hugo.Data.menu.main.main }}
+          {{- $name := .name }}
+          {{- $this := false }}
+          {{- if .ref }}{{ $this = site.GetPage .ref }}{{ end }}
+          {{- with $this }}
+            <li><a href="{{ .RelPermalink }}">{{ $name }}</a></li>
+          {{- end }}
+        {{- end }}
+      </ul>
+    </div>
+
+    <div>
+      <h2>Community</h2>
+      <ul>
+        <li><a href="https://discord.bfportal.gg" rel="noopener">Discord server</a></li>
+        <li><a href="https://github.com/battlefield-portal-community" rel="noopener">GitHub</a></li>
+        <li><a href="https://bfportal.gg" rel="noopener">bfportal.gg</a></li>
+        <li><a href="{{ "/contributing/how/" | relURL }}">Contribute</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="site-footer__legal">
+    <div class="wrap">
+      <p>© {{ now.Year }} bfportal.gg. A community project.</p>
+      <p>Battlefield and Battlefield Portal are trademarks of Electronic Arts.</p>
+    </div>
+  </div>
+</footer>

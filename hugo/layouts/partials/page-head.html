@@ -1,0 +1,46 @@
+{{- /* Crumbs, the page's name and the way to its source. A block's page has no
+       name here: its documentation starts with one of its own. */ -}}
+{{- $page := . -}}
+{{- $repo := $page.Site.Params.githubRepo -}}
+{{- $edit := "" -}}
+{{- with $page.Params.geekdocFilePath -}}
+  {{- $edit = printf "%s/%s/%s" $repo $page.Site.Params.editPath . -}}
+{{- else -}}
+  {{- with $page.File -}}
+    {{- $edit = printf "%s/%s/%s" $repo $page.Site.Params.editPath .Path -}}
+  {{- end -}}
+{{- end -}}
+<div class="page-head">
+  <nav class="crumbs" aria-label="Breadcrumb">
+    <a href="{{ $page.Site.Home.RelPermalink }}">Docs</a>
+    {{- $trail := $page.Ancestors.Reverse }}
+    {{- range $trail }}
+      {{- if not .IsHome }}
+        <span class="sep" aria-hidden="true">/</span>
+        <a href="{{ .RelPermalink }}">{{ partial "utils/title" . }}</a>
+      {{- end }}
+    {{- end }}
+    {{- if ne $page.Layout "block_documentation" }}
+      <span class="sep" aria-hidden="true">/</span>
+      <span aria-current="page">{{ partial "utils/title" $page }}</span>
+    {{- end }}
+  </nav>
+
+  {{- if ne $page.Layout "block_documentation" }}
+    <h1>{{ partial "utils/title" $page }}</h1>
+  {{- end }}
+
+  <div class="page-head__meta">
+    {{- with $edit }}
+      <a href="{{ . }}" rel="noopener">
+        {{ partial "icon" (dict "name" "edit" "class" "icon icon--sm") }}
+        Edit this page
+      </a>
+    {{- end }}
+    {{- with $page.Lastmod }}
+      {{- if gt $page.Lastmod.Unix 0 }}
+        <span>{{ $page.Lastmod.Format "Jan 2, 2006" }}</span>
+      {{- end }}
+    {{- end }}
+  </div>
+</div>

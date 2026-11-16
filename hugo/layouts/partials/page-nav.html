@@ -1,0 +1,27 @@
+{{- /* The pages on either side of this one, in menu order. */ -}}
+{{- $page := . -}}
+{{- $flat := partial "utils/flat-menu" hugo.Data.menu.main.main -}}
+{{- $index := -1 -}}
+{{- range $position, $item := $flat -}}
+  {{- if eq $item.url $page.RelPermalink }}{{ $index = $position }}{{ end -}}
+{{- end -}}
+{{- $prev := false -}}
+{{- $next := false -}}
+{{- if gt $index 0 }}{{ $prev = index $flat (sub $index 1) }}{{ end -}}
+{{- if and (ge $index 0) (lt (add $index 1) (len $flat)) }}{{ $next = index $flat (add $index 1) }}{{ end -}}
+{{- if or $prev $next }}
+<nav class="page-nav" aria-label="Previous and next page">
+  {{- with $prev }}
+    <a class="page-nav--prev" href="{{ .url }}">
+      <span class="page-nav__dir">Previous</span>
+      <span class="page-nav__title">{{ .name }}</span>
+    </a>
+  {{- end }}
+  {{- with $next }}
+    <a class="page-nav--next" href="{{ .url }}">
+      <span class="page-nav__dir">Next</span>
+      <span class="page-nav__title">{{ .name }}</span>
+    </a>
+  {{- end }}
+</nav>
+{{- end }}
