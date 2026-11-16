@@ -1874,17 +1874,23 @@ summary::-webkit-details-marker {
   padding-block: 34px 0;
 }
 
+/* Three tiles and half of the next one: the shelf is a scroller at every width. */
 .home-row {
   display: flex;
   gap: 12px;
   margin: 0;
-  padding: 0;
+  padding: 0 0 10px;
   list-style: none;
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x proximity;
+  scrollbar-width: thin;
 }
 
 .tile {
-  flex: 1 1 0;
+  flex: 0 0 calc((100% - 36px) / 3.5);
   min-width: 0;
+  scroll-snap-align: start;
 }
 
 @media (max-width: 1023px) {
@@ -1892,16 +1898,8 @@ summary::-webkit-details-marker {
     grid-column: 1 / -1;
   }
 
-  .home-row {
-    overflow-x: auto;
-    overscroll-behavior-x: contain;
-    scroll-snap-type: x proximity;
-    scrollbar-width: thin;
-  }
-
   .tile {
-    flex: 0 0 min(400px, 78vw);
-    scroll-snap-align: start;
+    flex: 0 0 min(340px, 76vw);
   }
 }
 
