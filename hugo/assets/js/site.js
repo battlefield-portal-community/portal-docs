@@ -10,15 +10,16 @@
   /* The root page's shelf: a fade at either end is the only thing telling a
      reader the row runs on, so the state lives on the element. */
   const shelf = document.querySelector("[data-shelf]");
+  const shelfRow = shelf?.querySelector(".home-row");
 
-  if (shelf) {
+  if (shelf && shelfRow) {
     const sync = () => {
-      const max = shelf.scrollWidth - shelf.clientWidth;
-      shelf.dataset.atStart = shelf.scrollLeft <= 1 ? "true" : "false";
-      shelf.dataset.atEnd = shelf.scrollLeft >= max - 1 ? "true" : "false";
+      const max = shelfRow.scrollWidth - shelfRow.clientWidth;
+      shelf.dataset.atStart = shelfRow.scrollLeft <= 1 ? "true" : "false";
+      shelf.dataset.atEnd = shelfRow.scrollLeft >= max - 1 ? "true" : "false";
     };
 
-    shelf.addEventListener("scroll", sync, { passive: true });
+    shelfRow.addEventListener("scroll", sync, { passive: true });
     window.addEventListener("resize", sync);
     window.addEventListener("load", sync);
     sync();

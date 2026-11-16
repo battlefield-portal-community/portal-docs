@@ -1888,40 +1888,38 @@ summary::-webkit-details-marker {
   scrollbar-color: var(--color-line-strong) var(--color-line);
 }
 
-/* A fade at the cut edge is what says the row runs on. */
-.home-row[data-at-end="false"] {
-  -webkit-mask-image: linear-gradient(
-    to right,
-    #000 calc(100% - 72px),
-    transparent
-  );
-  mask-image: linear-gradient(to right, #000 calc(100% - 72px), transparent);
+/* A fade at either cut edge is what says the row runs on. Overlays, not a
+   mask, so the edge can fade in rather than snap when the row is scrolled. */
+.home-row__wrap {
+  position: relative;
 }
 
-.home-row[data-at-start="false"] {
-  -webkit-mask-image: linear-gradient(
-    to right,
-    transparent,
-    #000 72px
-  );
-  mask-image: linear-gradient(to right, transparent, #000 72px);
+.home-row__wrap::before,
+.home-row__wrap::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  z-index: 4;
+  width: 40px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s var(--ease);
 }
 
-.home-row[data-at-start="false"][data-at-end="false"] {
-  -webkit-mask-image: linear-gradient(
-    to right,
-    transparent,
-    #000 72px,
-    #000 calc(100% - 72px),
-    transparent
-  );
-  mask-image: linear-gradient(
-    to right,
-    transparent,
-    #000 72px,
-    #000 calc(100% - 72px),
-    transparent
-  );
+.home-row__wrap::before {
+  left: 0;
+  background: linear-gradient(to right, var(--color-base), transparent);
+}
+
+.home-row__wrap::after {
+  right: 0;
+  background: linear-gradient(to left, var(--color-base), transparent);
+}
+
+.home-row__wrap[data-at-start="false"]::before,
+.home-row__wrap[data-at-end="false"]::after {
+  opacity: 1;
 }
 
 .home-row::-webkit-scrollbar {

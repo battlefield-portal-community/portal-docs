@@ -37,8 +37,8 @@
       </div>
     </section>
 
-    <nav class="home-row__wrap" aria-label="Documentation sections">
-      <ul class="home-row" data-shelf>
+    <nav class="home-row__wrap" aria-label="Documentation sections" data-shelf>
+      <ul class="home-row">
         {{- range first 4 hugo.Data.menu.main.main }}
           {{- $name := or .short .name }}
           {{- $blurb := .blurb }}
