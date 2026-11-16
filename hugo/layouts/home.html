@@ -30,14 +30,8 @@
             {{- $names = $names | append (partial "utils/title" .) }}
           {{- end }}
           <li>
-            <!--DEBUG {{ .RelPermalink }} pages={{ len .Pages }} sections={{ len .Sections }} reg={{ len .RegularPages }} rpr={{ len .RegularPagesRecursive }} count={{ partial "utils/page-count" . }} -->
             <a class="card" href="{{ .RelPermalink }}">
               <span class="card__title">{{ $name }}</span>
-              {{- $count := 1 }}
-              {{- if .IsSection }}{{ $count = partial "utils/page-count" . }}{{ end }}
-              {{- if gt $count 1 }}
-                <span class="card__meta">{{ $count }} pages</span>
-              {{- end }}
               {{- with $names }}
                 <span class="card__text">{{ delimit . " · " }}</span>
               {{- end }}
