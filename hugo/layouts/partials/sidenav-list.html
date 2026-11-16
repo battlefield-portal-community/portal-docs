@@ -1,21 +1,27 @@
 {{- $current := .current -}}
-<ul>
-  {{- range .items }}
-    {{- $ref := default "" .ref }}
+{{- $level := default 0 .level -}}
+{{- $top := eq $level 0 -}}
+<ul class="rail__list{{ if not $top }} rail__list--sub{{ end }}">
+  {{- range $i, $item := .items }}
+    {{- $ref := default "" $item.ref }}
     {{- $this := false }}
     {{- if and $ref (not (hasPrefix $ref "http")) }}{{ $this = site.GetPage $ref }}{{ end }}
     {{- $external := or (hasPrefix $ref "http") (hasPrefix $ref "mailto:") }}
     {{- $active := and $this (eq $this $current) }}
     {{- $open := and $this (or $active ($this.IsAncestor $current)) }}
-    {{- $catalog := eq (default "" .ref) "/portal-builder/rules-editor/block-reference/" -}}
+    {{- $catalog := eq $ref "/portal-builder/rules-editor/block-reference/" -}}
+    {{- /* The eight sections carry the short name the header and the home rail
+           use, so the same section reads the same way everywhere. */ -}}
+    {{- $label := cond $top (or $item.short $item.name) $item.name }}
     <li>
-      {{- if .sub }}
+      {{- if $item.sub }}
         <details{{ if $open }} open{{ end }}>
-          <summary>
+          <summary class="rail__item">
+            {{ partial "rail-n" (dict "index" $i "level" $level) }}
             {{- if $this }}
-              <a href="{{ $this.RelPermalink }}"{{ if $active }} aria-current="page"{{ end }}>{{ .name }}</a>
+              <a href="{{ $this.RelPermalink }}"{{ if $active }} aria-current="page"{{ end }}>{{ $label }}</a>
             {{- else }}
-              <span>{{ .name }}</span>
+              <span>{{ $label }}</span>
             {{- end }}
             <span class="sidenav__chev" aria-hidden="true">
               {{ partial "icon" (dict "name" "chevron" "class" "icon chevron") }}
@@ -36,20 +42,30 @@
                 spellcheck="false"
               >
               <div class="sidenav__scroll" data-sidenav-scroll>
-                {{- partial "sidenav-list" (dict "items" .sub "current" $current) }}
+                {{- partial "sidenav-list" (dict "items" $item.sub "current" $current "level" (add $level 1)) }}
               </div>
               <p class="sidenav__no-match" data-sidenav-empty hidden>No block matches that.</p>
             </div>
           {{- else }}
-            {{- partial "sidenav-list" (dict "items" .sub "current" $current) }}
+            {{- partial "sidenav-list" (dict "items" $item.sub "current" $current "level" (add $level 1)) }}
           {{- end }}
         </details>
       {{- else if $external }}
-        <a href="{{ $ref }}" rel="noopener">{{ .name }} {{ partial "icon" (dict "name" "external" "class" "icon icon--sm") }}</a>
+        <a class="rail__item" href="{{ $ref }}" rel="noopener">
+          {{ partial "rail-n" (dict "index" $i "level" $level) }}
+          <span class="rail__name">{{ $label }}</span>
+          {{ partial "icon" (dict "name" "external" "class" "icon icon--sm") }}
+        </a>
       {{- else if $this }}
-        <a href="{{ $this.RelPermalink }}"{{ if $active }} aria-current="page"{{ end }}>{{ .name }}</a>
+        <a class="rail__item" href="{{ $this.RelPermalink }}"{{ if $active }} aria-current="page"{{ end }}>
+          {{ partial "rail-n" (dict "index" $i "level" $level) }}
+          <span class="rail__name">{{ $label }}</span>
+        </a>
       {{- else }}
-        <span class="sidenav__muted">{{ .name }}</span>
+        <span class="rail__item sidenav__muted">
+          {{ partial "rail-n" (dict "index" $i "level" $level) }}
+          <span class="rail__name">{{ $label }}</span>
+        </span>
       {{- end }}
     </li>
   {{- end }}

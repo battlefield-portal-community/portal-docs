@@ -284,82 +284,12 @@ summary::-webkit-details-marker {
   color: var(--color-accent-hi);
 }
 
-/* On the root page the section list names the site, so the wordmark only
-   returns where that list has scrolled away. */
+/* The mark sits on the same left edge as the rail of every page, 16px in from
+   the wrap: the one inset the site's navigation columns share. */
 @media (min-width: 1024px) {
-  .site-header--home .brand__name {
-    display: none;
-  }
-
-  /* The mark lines up with the section list, both pulled to the same inset. */
-  .site-header--home .site-header__inner {
+  .site-header__inner {
     padding-left: 16px;
   }
-}
-
-.brand__name {
-  font-family: var(--font-display);
-  font-size: 18px;
-  font-weight: 800;
-  line-height: 1;
-  letter-spacing: 0.055em;
-  text-transform: uppercase;
-  white-space: nowrap;
-  color: var(--color-steel-hi);
-}
-
-.brand__name span {
-  color: var(--color-fg-3);
-  font-weight: 600;
-}
-
-.topnav {
-  display: flex;
-  align-self: stretch;
-  gap: 1px;
-  min-width: 0;
-}
-
-.topnav a {
-  position: relative;
-  display: flex;
-  align-items: center;
-  padding: 0 10px;
-  font-size: 13px;
-  font-weight: 600;
-  letter-spacing: 0.09em;
-  text-transform: uppercase;
-  white-space: nowrap;
-  text-decoration: none;
-  color: var(--color-fg-2);
-  transition: color 0.15s var(--ease);
-}
-
-.topnav a:hover {
-  color: var(--color-fg);
-}
-
-.topnav a[aria-current="true"] {
-  color: var(--color-fg);
-}
-
-.topnav a[aria-current="true"]::after {
-  content: "";
-  position: absolute;
-  inset-inline: 10px;
-  bottom: -1px;
-  height: 2px;
-  background: var(--color-accent);
-}
-
-.topnav a[aria-current="true"]::before {
-  content: "";
-  position: absolute;
-  left: 50%;
-  bottom: 1px;
-  border: 4px solid transparent;
-  border-bottom-color: var(--color-accent);
-  transform: translateX(-50%);
 }
 
 .header-actions {
@@ -429,26 +359,20 @@ summary::-webkit-details-marker {
     display: none;
   }
 
-  .brand__name {
-    font-size: 16px;
-  }
-
   .site-header__inner {
     gap: 12px;
   }
 }
 
+/* The navigation is the sidebar; below 1024 that is the drawer behind this
+   button, and above it the sidebar is already on the page. */
 .menu-btn {
-  display: none;
+  display: grid;
 }
 
-@media (max-width: 1239px) {
-  .topnav {
-    display: none;
-  }
-
+@media (min-width: 1024px) {
   .menu-btn {
-    display: grid;
+    display: none;
   }
 }
 
@@ -503,83 +427,134 @@ summary::-webkit-details-marker {
     top: var(--header-h);
     align-self: start;
     max-height: calc(100vh - var(--header-h));
-    padding: 22px 0 40px;
+    /* the rail starts on the header mark's inset, not the wrap's: the -24 takes
+       16 for the rail and holds the 8 the rows hang into on hover, so the
+       column never scrolls sideways */
+    margin-left: -24px;
+    padding: 22px 8px 40px;
     overflow-y: auto;
     scrollbar-width: thin;
     overscroll-behavior: contain;
   }
 }
 
-.sidenav ul {
+/* -------------------------------------------------------- the rail (nav) */
+
+/* One component for both navigations: the eight sections on the home page and
+   the tree in every document's sidebar. A mono line, numbered where a number
+   means something — the top level — and nothing drawn around it. */
+.rail__list {
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
-.sidenav a,
-.sidenav summary {
-  display: flex;
-  align-items: center;
-  min-height: 44px;
-  padding: 0 10px;
-  border-left: 1px solid var(--color-line);
-  font-size: 13.5px;
-  line-height: 1.35;
-  color: var(--color-fg-2);
+/* A step in starts under the section's name, not under its number. */
+.rail__list--sub {
+  margin-left: 36px;
+}
+
+/* Below that, a step only has to clear its parent. */
+.rail__list--sub .rail__list--sub {
+  margin-left: 16px;
+}
+
+.rail__item {
+  display: grid;
+  grid-template-columns: 34px minmax(0, 1fr) auto;
+  align-items: baseline;
+  gap: 2px;
+  padding: 5px 0;
+  font-family: var(--font-mono);
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.4;
+  color: var(--color-steel);
   text-decoration: none;
   transition:
     color 0.12s var(--ease),
-    background-color 0.12s var(--ease),
-    border-color 0.12s var(--ease);
+    background-color 0.12s var(--ease);
 }
 
-.sidenav a:hover,
-.sidenav summary:hover {
+/* The first row starts level with the masthead, not a padding-step below it. */
+.rail__list > li:first-child .rail__item {
+  padding-top: 0;
+}
+
+.rail__n {
+  /* the number is the pointer, the label is the text */
+  font-weight: 500;
+  color: var(--color-fg-3);
+  transition: color 0.12s var(--ease);
+}
+
+.rail__name {
+  overflow-wrap: anywhere;
+}
+
+.rail__item:hover,
+.rail__item[aria-current="page"] {
   color: var(--color-fg);
+}
+
+.rail__item:hover .rail__n,
+.rail__item[aria-current="page"] .rail__n {
+  color: var(--color-steel);
+}
+
+/* Anything under a section: no number, a step smaller, one tone quieter. */
+.rail__list--sub .rail__item {
+  grid-template-columns: minmax(0, 1fr) auto;
+  padding-block: 4px;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--color-fg-2);
+}
+
+.rail__list--sub .rail__item:hover,
+.rail__list--sub .rail__item[aria-current="page"] {
+  color: var(--color-fg);
+}
+
+/* ------------------------------------------------------ sidebar tree */
+
+/* The sidebar row fills the gutter on hover, so its label never moves. */
+.sidenav .rail__item {
+  margin-inline: -8px;
+  padding-inline: 8px;
+}
+
+.sidenav .rail__item:hover,
+.sidenav .rail__item[aria-current="page"],
+.sidenav summary.rail__item:has(a[aria-current="page"]) {
   background: var(--color-surface-2);
 }
 
-.sidenav a[aria-current="page"] {
-  color: var(--color-fg);
-  border-left-color: var(--color-accent);
-  background: var(--color-surface-2);
+/* The current page is the one place a line is drawn: the accent at the row's
+   edge, where the old rule sat on every row. */
+.sidenav .rail__item[aria-current="page"],
+.sidenav summary.rail__item:has(a[aria-current="page"]) {
+  box-shadow: inset 2px 0 var(--color-accent);
 }
 
 .sidenav summary {
-  display: flex;
-  align-items: center;
-  gap: 4px;
-  padding-right: 6px;
-  color: var(--color-fg);
-  font-weight: 500;
-}
-
-.sidenav summary > a,
-.sidenav summary > span:first-child {
-  flex: 1;
-  min-width: 0;
-  padding: 0;
-  border: 0;
-  background: none;
-  color: inherit;
-}
-
-.sidenav summary > a {
-  font-weight: 500;
-}
-
-.sidenav summary:has(a[aria-current="page"]) {
-  border-left-color: var(--color-accent);
-  background: var(--color-surface-2);
+  cursor: pointer;
 }
 
 .sidenav summary::-webkit-details-marker {
   display: none;
 }
 
+.sidenav summary > a {
+  min-width: 0;
+  color: inherit;
+  text-decoration: none;
+}
+
 .sidenav__chev {
   display: grid;
   place-items: center;
+  align-self: center;
   width: 20px;
   height: 20px;
   flex: none;
@@ -600,9 +575,10 @@ summary::-webkit-details-marker {
 /* The block reference: a catalog inside a fixed box, so the sidebar stays the
    height of the window instead of the length of the index. */
 .sidenav__filter {
-  width: 100%;
+  /* the field aligns with the names under it, not the gutter they sit in */
+  width: calc(100% - 16px);
   height: 34px;
-  margin-bottom: 6px;
+  margin: 0 8px 6px;
   padding-inline: 9px;
   border: 1px solid var(--color-line);
   background: var(--color-surface-1);
@@ -628,7 +604,7 @@ summary::-webkit-details-marker {
 }
 
 .sidenav__no-match {
-  padding: 8px 10px;
+  padding: 8px;
   font-size: 13px;
   color: var(--color-fg-3);
 }
@@ -641,19 +617,24 @@ summary::-webkit-details-marker {
   }
 }
 
-/* One step of indent, drawn as a rail, for everything under a section. */
-.sidenav ul ul {
-  margin-left: 10px;
+/* The block-reference catalog is indented as the list it stands in for. */
+.rail__list--sub .sidenav__catalog {
+  margin-left: 16px;
 }
 
-.sidenav > ul > li + li {
-  margin-top: 2px;
+/* Its list is flat, so it does not step in again. */
+.sidenav__catalog .rail__list--sub {
+  margin-left: 0;
 }
 
-/* The block reference: a long list of short names. */
-.sidenav ul ul ul a,
-.sidenav ul ul ul summary {
-  font-size: 13px;
+/* A thumb gets the full target height back. */
+@media (pointer: coarse) {
+  .rail__item,
+  .rail__list--sub .rail__item {
+    min-height: 44px;
+    padding-block: 0;
+    align-items: center;
+  }
 }
 
 @media (max-width: 1023px) {
@@ -663,6 +644,7 @@ summary::-webkit-details-marker {
     inset: var(--header-h) auto 0 0;
     z-index: 40;
     width: min(320px, 86vw);
+    /* the same 16px the rail's labels sit on in the flow */
     padding: 6px 16px 24px;
     overflow-y: auto;
     border-right: 1px solid var(--color-line);
@@ -706,11 +688,7 @@ summary::-webkit-details-marker {
   }
 }
 
-.sidenav__muted {
-  display: block;
-  padding: 6px 10px;
-  border-left: 1px solid var(--color-line);
-  font-size: 13.5px;
+.sidenav__muted.rail__item {
   color: var(--color-fg-3);
 }
 
@@ -1733,53 +1711,6 @@ summary::-webkit-details-marker {
   .home-row__wrap {
     grid-column: 2;
   }
-}
-
-.rail__list {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-.rail__item {
-  display: grid;
-  grid-template-columns: 34px minmax(0, 1fr);
-  align-items: baseline;
-  gap: 2px;
-  padding: 5px 0;
-  font-family: var(--font-mono);
-  font-size: 15px;
-  font-weight: 600;
-  line-height: 1.4;
-  color: var(--color-steel);
-  text-decoration: none;
-  transition: color 0.12s var(--ease);
-}
-
-/* The first row starts level with the masthead, not a padding-step below it. */
-.rail__list > li:first-child .rail__item {
-  padding-top: 0;
-}
-
-.rail__n {
-  /* the number is the pointer, the label is the text */
-  font-weight: 500;
-  color: var(--color-fg-3);
-  transition: color 0.12s var(--ease);
-}
-
-.rail__name {
-  overflow-wrap: anywhere;
-}
-
-.rail__item:hover,
-.rail__item[aria-current="page"] {
-  color: var(--color-fg);
-}
-
-.rail__item:hover .rail__n,
-.rail__item[aria-current="page"] .rail__n {
-  color: var(--color-steel);
 }
 
 .home-hero {

@@ -1,25 +1,11 @@
-{{- /* The bar at the top of every page: the Portal mark, the sections, search
-       and the two community links. */ -}}
-{{- $current := . -}}
-<header class="site-header{{ if .IsHome }} site-header--home{{ end }}">
+{{- /* The bar at the top of every page: the Portal mark, search and the two
+       community links. The sections and the site's name are not repeated here;
+       the sidebar and the page title carry them. */ -}}
+<header class="site-header">
   <div class="wrap site-header__inner">
-    <a class="brand" href="{{ .Site.Home.RelPermalink }}"{{ if .IsHome }} aria-label="{{ .Site.Title }}"{{ end }}>
+    <a class="brand" href="{{ .Site.Home.RelPermalink }}" aria-label="{{ .Site.Title }}">
       <span class="portal-mark brand__mark" aria-hidden="true"></span>
-      <span class="brand__name">Portal <span>Documentation</span></span>
     </a>
-
-    {{- if not .IsHome }}
-    <nav class="topnav" aria-label="Sections">
-      {{- range hugo.Data.menu.main.main }}
-        {{- $this := false }}
-        {{- if .ref }}{{ $this = site.GetPage .ref }}{{ end }}
-        {{- if $this }}
-          {{- $active := or (eq $this $current) ($this.IsAncestor $current) }}
-          <a href="{{ $this.RelPermalink }}"{{ if $active }} aria-current="true"{{ end }}>{{ or .short .name }}</a>
-        {{- end }}
-      {{- end }}
-    </nav>
-    {{- end }}
 
     <div class="header-actions">
       <button type="button" class="icon-btn search-open" data-search-open aria-label="Search the documentation">

@@ -12,7 +12,7 @@
             {{- if $s.ref }}{{ with site.GetPage $s.ref }}
               <li>
                 <a class="rail__item" href="{{ .RelPermalink }}">
-                  <span class="rail__n">&lt;{{ add $i 1 }}&gt;</span>
+                  {{ partial "rail-n" (dict "index" $i "level" 0) }}
                   <span class="rail__name">{{ $name }}</span>
                 </a>
               </li>

@@ -1,0 +1,3 @@
+{{- /* The pointer of a rail row: the section's position, in the top level only,
+       where a number actually says something. */ -}}
+{{- if eq .level 0 }}<span class="rail__n" aria-hidden="true">&lt;{{ add .index 1 }}&gt;</span>{{ end -}}
