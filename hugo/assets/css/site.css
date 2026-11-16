@@ -290,6 +290,11 @@ summary::-webkit-details-marker {
   .site-header--home .brand__name {
     display: none;
   }
+
+  /* The mark lines up with the section list, which has no wrap padding. */
+  .site-header--home .site-header__inner {
+    padding-left: 0;
+  }
 }
 
 .brand__name {
@@ -1718,6 +1723,7 @@ summary::-webkit-details-marker {
   .home-rail {
     position: sticky;
     top: var(--header-h);
+    margin-left: -32px;
   }
 
   .home-rail {
