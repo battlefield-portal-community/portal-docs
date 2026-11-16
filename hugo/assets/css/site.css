@@ -263,6 +263,16 @@ summary::-webkit-details-marker {
   text-decoration: none;
 }
 
+/* The mark is the SVG used as a mask, so it takes the element's text colour
+   instead of the black the raw file would ship. */
+.portal-mark {
+  display: block;
+  flex: none;
+  background-color: currentColor;
+  -webkit-mask: url("../images/portal-mark.svg") center / contain no-repeat;
+  mask: url("../images/portal-mark.svg") center / contain no-repeat;
+}
+
 .brand__mark {
   width: 31px;
   height: 27px;
@@ -1796,7 +1806,7 @@ summary::-webkit-details-marker {
   text-decoration: none;
 }
 
-.site-footer__brand img {
+.site-footer__brand .portal-mark {
   width: 28px;
   height: 24px;
   color: var(--color-accent);

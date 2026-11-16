@@ -3,11 +3,14 @@
 {{- $current := . -}}
 <header class="site-header">
   <div class="wrap site-header__inner">
-    <a class="brand" href="{{ .Site.Home.RelPermalink }}">
-      <img class="brand__mark" src="{{ "images/portal-mark.svg" | relURL }}" alt="" width="31" height="27">
+    <a class="brand" href="{{ .Site.Home.RelPermalink }}"{{ if .IsHome }} aria-label="{{ .Site.Title }}"{{ end }}>
+      <span class="portal-mark brand__mark" aria-hidden="true"></span>
+      {{- if not .IsHome }}
       <span class="brand__name">Portal <span>Documentation</span></span>
+      {{- end }}
     </a>
 
+    {{- if not .IsHome }}
     <nav class="topnav" aria-label="Sections">
       {{- range hugo.Data.menu.main.main }}
         {{- $this := false }}
