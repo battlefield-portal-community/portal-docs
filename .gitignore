@@ -290,3 +290,6 @@ dist
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 .vite/
+# Tool payload and run artifacts
+.agents/
+.playwright-mcp/
