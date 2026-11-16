@@ -1874,7 +1874,7 @@ summary::-webkit-details-marker {
   padding-block: 34px 0;
 }
 
-/* Three tiles and half of the next one: the shelf is a scroller at every width. */
+/* Two tiles and most of the third: the shelf is a scroller at every width. */
 .home-row {
   display: flex;
   gap: 12px;
@@ -1888,7 +1888,7 @@ summary::-webkit-details-marker {
 }
 
 .tile {
-  flex: 0 0 calc((100% - 36px) / 3.5);
+  flex: 0 0 calc((100% - 24px) / 2.6);
   min-width: 0;
   scroll-snap-align: start;
 }
@@ -1899,7 +1899,7 @@ summary::-webkit-details-marker {
   }
 
   .tile {
-    flex: 0 0 min(340px, 76vw);
+    flex: 0 0 min(380px, 82vw);
   }
 }
 
