@@ -56,10 +56,10 @@
   --color-steel-hi: #c9d4de;
   --color-steel-ink: #0b0e11;
 
-  /* Accent: the things to act on. Orange, or teal inside the 2042 docs. */
-  --color-accent: #ff4a1c;
-  --color-accent-hi: #ff6a42;
-  --color-accent-ink: #140602;
+  /* Accent: the things to act on. Violet, or teal inside the 2042 docs. */
+  --color-accent: #bd4ffd;
+  --color-accent-hi: #d18bfd;
+  --color-accent-ink: #150222;
 
   /* States */
   --color-warn: #f2b233;

@@ -3,9 +3,9 @@ name: Portal Documentation
 description: Community documentation for the Battlefield Portal editor — a dark, steel-and-signal system built for long reading.
 colors:
   # Primary — the one thing to act on
-  signal-orange: "#ff4a1c"
-  signal-orange-hi: "#ff6a42"
-  signal-orange-ink: "#140602"
+  signal-violet: "#bd4ffd"
+  signal-violet-hi: "#d18bfd"
+  signal-violet-ink: "#150222"
   # Teal replaces the accent inside the 2042 docs, and nowhere else
   teal-2042: "#2fe0c8"
   teal-2042-hi: "#7af2e1"
@@ -99,15 +99,15 @@ components:
     backgroundColor: "rgb(169 185 201 / 0.06)"
     textColor: "{colors.text}"
   button-accent:
-    backgroundColor: "{colors.signal-orange}"
-    textColor: "{colors.signal-orange-ink}"
+    backgroundColor: "{colors.signal-violet}"
+    textColor: "{colors.signal-violet-ink}"
     typography: "{typography.nav}"
     rounded: "{rounded.none}"
     padding: "0 18px"
     height: "40px"
   button-accent-hover:
-    backgroundColor: "{colors.signal-orange-hi}"
-    textColor: "{colors.signal-orange-ink}"
+    backgroundColor: "{colors.signal-violet-hi}"
+    textColor: "{colors.signal-violet-ink}"
   card:
     backgroundColor: "{colors.ink-1}"
     rounded: "{rounded.none}"
@@ -145,7 +145,7 @@ components:
 
 **Creative North Star: "The Mission Briefing"**
 
-The site is a dark command deck that has already read the file and is telling you what matters. Steel headlines are set in condensed uppercase, the small print is mono, and the whole surface is square, hairline-ruled, and quiet — until something is actionable, at which point one signal orange appears and nothing else does. It is industrial and high-contrast without raising its voice: the palette is nearly black, the type carries the hierarchy, and every border is a single pixel.
+The site is a dark command deck that has already read the file and is telling you what matters. Steel headlines are set in condensed uppercase, the small print is mono, and the whole surface is square, hairline-ruled, and quiet — until something is actionable, at which point one signal violet appears and nothing else does. It is industrial and high-contrast without raising its voice: the palette is nearly black, the type carries the hierarchy, and every border is a single pixel.
 
 Atmosphere is built from three moves and no more. Tonal surfaces step from ink-base through ink-3 so that a card, a callout, or a search field sits on the page rather than floating above it. A hairline rule (#22272c) separates every region, doubling on hover to rule-strong (#363d44). And a faint dotted grid (1px dots on an 18px lattice, masked to fade) appears behind the page head and the hero as the single textural flourish — a ruler under the title, never wallpaper.
 
@@ -156,14 +156,14 @@ Motion is small and instrumental: 0.12–0.2s transitions on a single curve, but
 - Square everywhere: radius 0, 1px hairlines, corner brackets, no pills.
 - Condensed uppercase display type against 15.5px body copy capped at 54em.
 - Mono for every caption, label, table head, and tab — the instrument layer.
-- One accent per page: signal orange (#ff4a1c), or 2042 teal (#2fe0c8) inside the 2042 docs, never both.
+- One accent per page: signal violet (#bd4ffd), or 2042 teal (#2fe0c8) inside the 2042 docs, never both.
 
 ## Colors
 
 The palette is a near-black instrument panel with one heated accent and a cool steel for type.
 
 ### Primary
-- **Signal Orange** (#ff4a1c): the accent for the things to act on — the primary button, the active section underline, the sidebar's current-page rail, search match highlights, focus rings. Accent-hover is **Signal Orange Hot** (#ff6a42); text placed on the accent is **Signal Ink** (#140602).
+- **Signal Violet** (#bd4ffd): the accent for the things to act on — the primary button, the active section underline, the sidebar's current-page rail, search match highlights, focus rings. Accent-hover is **Signal Violet Hot** (#d18bfd); text placed on the accent is **Signal Ink** (#150222).
 - **2042 Teal** (#2fe0c8): the same role, swapped wholesale under `[data-game="bf2042"]` — the teal is applied to entire 2042 doc pages at the body element. Light variant **2042 Teal High** (#7af2e1), ink **Teal Ink** (#021a17).
 
 ### Secondary
@@ -185,9 +185,9 @@ The palette is a near-black instrument panel with one heated accent and a cool s
 Five colors and no rainbow: **Code Body** (#c8d1da), **Code Keyword** (#ff8a65, also the operator family), **Code String** (#9fd6a0, also insertions), **Code Comment** (#5d6873, italic), **Code Name** (#8fc1ea, functions, types, headings). Syntax highlighting that needs a sixth color is using the wrong color.
 
 ### Named Rules
-**The One Signal Rule.** Accent appears on ≤10% of any viewport and only where the reader can act or is already standing: primary actions, the current item, the focused element, the matched search term. Its rarity is the whole point — a screen with two orange things has no signal.
+**The One Signal Rule.** Accent appears on ≤10% of any viewport and only where the reader can act or is already standing: primary actions, the current item, the focused element, the matched search term. Its rarity is the whole point — a screen with two violet things has no signal.
 
-**The Teal Means 2042 Rule.** Teal exists to mark Battlefield 2042 documentation and never appears as a second accent on a 2042 page. No page shows both orange and teal.
+**The Teal Means 2042 Rule.** Teal exists to mark Battlefield 2042 documentation and never appears as a second accent on a 2042 page. No page shows both violet and teal.
 
 **The Steel Is Type Rule.** Cold steel is a typographic color, not a background or a border fill. Surfaces are ink; steel is what is written on them.
 
@@ -249,7 +249,7 @@ The form language is bracketed and angular. Cards grow accent corner ticks on ho
 - **Shape:** square (0 radius), 1px border, 40px tall (`btn--large` 44px), 18px inline padding (`btn--large` 22px).
 - **Quiet (default):** transparent fill, rule-strong border, `text` color, uppercase Nav type at 13px/600/0.09em.
 - **Hover:** border to cold-steel (#a9b9c9), background to a 6% steel wash (`rgb(169 185 201 / 0.06)`) — a border lighting up, not a fill arriving.
-- **Primary (`btn--accent`):** solid signal orange, signal ink text, border same as fill; hover moves fill and border to signal-orange-hi. Used once per view, for the single primary action — on the home hero, that is the search button.
+- **Primary (`btn--accent`):** solid signal violet, signal ink text, border same as fill; hover moves fill and border to signal-violet-hi. Used once per view, for the single primary action — on the home hero, that is the search button.
 - **Focus:** a 2px accent outline at 2px offset, global, never a ring inside the button.
 
 ### Cards
@@ -258,7 +258,7 @@ The form language is bracketed and angular. Cards grow accent corner ticks on ho
 - **Hover:** border to rule-strong, fill to ink-2, 2px lift, corner brackets fade in (0.16s).
 
 ### Hints / Callouts
-- **Style:** ink-1 fill, 1px rule border on three sides and a 2px semantic rail on the left — steel for note, orange for tip, amber for important/warning/caution, red for danger.
+- **Style:** ink-1 fill, 1px rule border on three sides and a 2px semantic rail on the left — steel for note, violet for tip, amber for important/warning/caution, red for danger.
 - **Title:** mono 11px/0.14em uppercase, colored with the rail's color, preceded by a 15px icon (info for note, alert otherwise).
 - **Body:** 14.5px quiet text, not the 15.5px prose measure — a callout is a margin note, not a chapter.
 - Hints keep their rail color and never carry a background tint; a tinted callout would fight the tonal ladder.
@@ -312,7 +312,7 @@ A generated rule-editor block page (`layout: block_documentation`) has its own a
 ### Don't:
 - **Don't** add shadows, glows, gradient text, or blurred glass anywhere except the header's 12px backdrop blur (The Flat-By-Decree Rule).
 - **Don't** round a corner. No 2px, no 4px, no pills, no circles — a rounded element is a foreign object in this system (The Dead Square Rule).
-- **Don't** show signal orange and 2042 teal on the same page, or use teal for anything outside Battlefield 2042 documentation.
+- **Don't** show signal violet and 2042 teal on the same page, or use teal for anything outside Battlefield 2042 documentation.
 - **Don't** drift gamer-neon (glow, neon gradients, targeted "esports" chrome), SaaS-marketing (gradient meshes, rounded soft cards, illustration blobs, social proof bars), or editorial-warm (serif body, cream paper, oversized italic pull quotes). All three are confirmed anti-references.
 - **Don't** adopt Material defaults: no ripple, no elevation ladder, no 4/12px radii, no Roboto.
 - **Don't** tint a hint's background with its semantic color, or use amber/red for emphasis — they mean warning and error, nothing else.
