@@ -1888,7 +1888,7 @@ summary::-webkit-details-marker {
 }
 
 .tile {
-  flex: 0 0 calc((100% - 24px) / 2.6);
+  flex: 0 0 calc((100% - 24px) / 2.9);
   min-width: 0;
   scroll-snap-align: start;
 }
@@ -1899,7 +1899,7 @@ summary::-webkit-details-marker {
   }
 
   .tile {
-    flex: 0 0 min(380px, 82vw);
+    flex: 0 0 min(342px, 78vw);
   }
 }
 
