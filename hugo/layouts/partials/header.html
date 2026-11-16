@@ -14,7 +14,7 @@
         {{- if .ref }}{{ $this = site.GetPage .ref }}{{ end }}
         {{- if $this }}
           {{- $active := or (eq $this $current) ($this.IsAncestor $current) }}
-          <a href="{{ $this.RelPermalink }}"{{ if $active }} aria-current="true"{{ end }}>{{ .name }}</a>
+          <a href="{{ $this.RelPermalink }}"{{ if $active }} aria-current="true"{{ end }}>{{ or .short .name }}</a>
         {{- end }}
       {{- end }}
     </nav>

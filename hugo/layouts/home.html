@@ -21,7 +21,7 @@
     <h2 class="section-title">Browse the documentation</h2>
     <ul class="cards">
       {{- range hugo.Data.menu.main.main }}
-        {{- $name := .name }}
+        {{- $name := or .short .name }}
         {{- $this := false }}
         {{- if .ref }}{{ $this = site.GetPage .ref }}{{ end }}
         {{- with $this }}

@@ -12,6 +12,7 @@ main:
         ref: "/introduction/xp-limitation"
   
   - name: BF6 Portal
+    short: BF6
     ref: "/santiago/"
     sub:
       - name: "Scripting"
@@ -22,6 +23,7 @@ main:
         - name: modlib
           ref: "/santiago/scripting/modlib/"
   - name: Portal Builder
+    short: BF2042
     ref: "/portal-builder/"
     sub:
       - name: Game Modes
