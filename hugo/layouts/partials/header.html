@@ -1,13 +1,11 @@
 {{- /* The bar at the top of every page: the Portal mark, the sections, search
        and the two community links. */ -}}
 {{- $current := . -}}
-<header class="site-header">
+<header class="site-header{{ if .IsHome }} site-header--home{{ end }}">
   <div class="wrap site-header__inner">
     <a class="brand" href="{{ .Site.Home.RelPermalink }}"{{ if .IsHome }} aria-label="{{ .Site.Title }}"{{ end }}>
       <span class="portal-mark brand__mark" aria-hidden="true"></span>
-      {{- if not .IsHome }}
       <span class="brand__name">Portal <span>Documentation</span></span>
-      {{- end }}
     </a>
 
     {{- if not .IsHome }}
