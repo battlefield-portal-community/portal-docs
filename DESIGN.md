@@ -142,7 +142,7 @@ components:
 
 The site is a dark command deck that has already read the file and is telling you what matters. Steel headlines are set in condensed uppercase, the small print is mono, and the whole surface is square, hairline-ruled, and quiet — until something is actionable, at which point one signal violet appears and nothing else does. It is industrial and high-contrast without raising its voice: the palette is nearly black, the type carries the hierarchy, and every border is a single pixel.
 
-Atmosphere is built from three moves and no more. Tonal surfaces step from ink-base through ink-3 so that a card, a callout, or a search field sits on the page rather than floating above it. A hairline rule (#22272c) separates every region, doubling on hover to rule-strong (#363d44). And a faint dotted grid (1px dots on an 18px lattice, masked to fade) appears behind the page head and the hero as the single textural flourish — a ruler under the title, never wallpaper.
+Atmosphere is built from two moves and no more. Tonal surfaces step from ink-base through ink-3 so that a card, a callout, or a search field sits on the page rather than floating above it. And a hairline rule (#22272c) separates every region, doubling on hover to rule-strong (#363d44). The page itself is flat ink — no texture, no pattern, nothing behind the type.
 
 Motion is small and instrumental: 0.12–0.2s transitions on a single curve, buttons and cards shifting border color, cards lifting 2px on hover with corner ticks fading in. Nothing bounces, nothing glows, nothing scrolls itself. The system is for readers who arrive mid-task, so every choice above the fold earns its place by making the answer easier to find, and anything decorative that does not is absent.
 
@@ -169,7 +169,7 @@ The palette is a near-black instrument panel with one heated accent and a cool s
 - **Alert Red** (#f0524d): danger hints, deletions in diffs, and error lines. Never used for emphasis.
 
 ### Neutral
-- **Ink Base** (#090a0b): the page. It is the darkest surface and the one the sticky header's 88% translucent layer sits on.
+- **Ink Base** (#090a0b): the page, and the sticky header, which is the same flat ink with no rule under it.
 - **Ink 1** (#0f1113): resting containers — cards, code blocks, hints, tables, the preview of a tab panel.
 - **Ink 2** (#15181b): hover state for those containers, inline code, the code-copy button, the drawer's navigation.
 - **Ink 3** (#1c2024): the fourth surface step, defined but not yet used — reach for it only when ink-2 is not a sufficient step away from its surroundings.
@@ -220,12 +220,10 @@ Responsive breaks: 639px (header sheds the community icons), 720px (footer grid 
 
 There are no shadows in this system. Depth is tonal and it is delivered by exactly three mechanisms: a step up the ink ladder (base → ink-1 → ink-2 → ink-3), a hairline border that darkens from rule to rule-strong when the element is reached for, and a 2px upward translation on card hover. The only `box-shadow` in the entire stylesheet is an inset 2px accent underline on the active tab — a rule, not a shadow.
 
-Two exceptions, both atmosphere rather than depth: the sticky header carries a 12px backdrop blur over 88% ink-base so content passes beneath it, and the page head and hero carry a masked dot grid (radial-gradient dots of 1px at 18px spacing, faded by a linear mask) that gives the top of the page a measured surface without adding a plane.
+Two exceptions, both atmosphere rather than depth: the sticky header sits on ink-base with no border under it, so it reads as part of the page, and the page head keeps a hairline rule under the title to close the top of the article.
 
 ### Named Rules
-**The Flat-By-Decree Rule.** No outer shadows, no glows, no blurs except the header's. If an element needs to come forward, it changes surface color or border color, or it moves 2px. A shadow is a bug.
-
-**The Dot Grid Rule.** The dotted texture belongs to the page head and the hero only, always masked so it fades before it reaches content. It is a ruler, not wallpaper — it never repeats mid-article.
+**The Flat-By-Decree Rule.** No outer shadows, no glows, no blurs, no textures or patterns on the page. If an element needs to come forward, it changes surface color or border color, or it moves 2px. A shadow is a bug.
 
 ## Shapes
 
@@ -305,13 +303,14 @@ A generated rule-editor block page (`layout: block_documentation`) has its own a
 - **Do** keep generated block artwork at its shipped size and colour, with its caption, inside the standard prose image frame (The Artwork Is Data Rule).
 
 ### Don't:
-- **Don't** add shadows, glows, gradient text, or blurred glass anywhere except the header's 12px backdrop blur (The Flat-By-Decree Rule).
+- **Don't** add shadows, glows, gradient text, or blurred glass anywhere (The Flat-By-Decree Rule).
 - **Don't** round a corner. No 2px, no 4px, no pills, no circles — a rounded element is a foreign object in this system (The Dead Square Rule).
 - **Don't** show signal violet and 2042 teal on the same page, or use teal for anything outside Battlefield 2042 documentation.
 - **Don't** drift gamer-neon (glow, neon gradients, targeted "esports" chrome), SaaS-marketing (gradient meshes, rounded soft cards, illustration blobs, social proof bars), or editorial-warm (serif body, cream paper, oversized italic pull quotes). All three are confirmed anti-references.
 - **Don't** adopt Material defaults: no ripple, no elevation ladder, no 4/12px radii, no Roboto.
 - **Don't** tint a hint's background with its semantic color, or use amber/red for emphasis — they mean warning and error, nothing else.
-- **Don't** put the dot grid mid-article or repeat it as a section background; it marks the top of a page only.
+- **Don't** add a texture, dot grid, or pattern behind the page; the surface is flat ink.
+- **Don't** put a rule or a translucent layer under the header; it is the same ink as the page.
 - **Don't** recolour, tint, or restyle a generated block illustration to fit the palette — the colour is the block's category, not decoration.
 - **Don't** move a block page's generated `<h1>` into the page head, or put the source link above it (The Generated Title Rule).
 - **Don't** offer the same action twice on one page: the notes panel has no button because the source row below already is one.

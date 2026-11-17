@@ -142,7 +142,7 @@
   ],
   "narrative": {
     "northStar": "The Mission Briefing",
-    "overview": "The site is a dark command deck that has already read the file and is telling you what matters. Steel headlines are set in condensed uppercase, the small print is mono, and the whole surface is square, hairline-ruled, and quiet — until something is actionable, at which point one signal orange appears and nothing else does. It is industrial and high-contrast without raising its voice: the palette is nearly black, the type carries the hierarchy, and every border is a single pixel.\n\nAtmosphere is built from three moves and no more. Tonal surfaces step from ink-base through ink-3 so that a card, a callout, or a search field sits on the page rather than floating above it. A hairline rule separates every region, doubling on hover. And a faint dotted grid appears behind the page head and the hero as the single textural flourish — a ruler under the title, never wallpaper.\n\nMotion is small and instrumental: 0.12–0.2s transitions on a single curve, buttons and cards shifting border color, cards lifting 2px on hover with corner ticks fading in. Nothing bounces, nothing glows, nothing scrolls itself.",
+    "overview": "The site is a dark command deck that has already read the file and is telling you what matters. Steel headlines are set in condensed uppercase, the small print is mono, and the whole surface is square, hairline-ruled, and quiet — until something is actionable, at which point one signal orange appears and nothing else does. It is industrial and high-contrast without raising its voice: the palette is nearly black, the type carries the hierarchy, and every border is a single pixel.\n\nAtmosphere is built from two moves and no more. Tonal surfaces step from ink-base through ink-3 so that a card, a callout, or a search field sits on the page rather than floating above it. And a hairline rule separates every region, doubling on hover. The page itself is flat ink — no texture, no pattern, nothing behind the type.\n\nMotion is small and instrumental: 0.12–0.2s transitions on a single curve, buttons and cards shifting border color, cards lifting 2px on hover with corner ticks fading in. Nothing bounces, nothing glows, nothing scrolls itself.",
     "keyCharacteristics": [
       "Dark ink base (#090a0b) with four deliberate surface steps and no shadows at all.",
       "Square everywhere: radius 0, 1px hairlines, corner brackets, no pills.",
@@ -156,8 +156,8 @@
       { "name": "The Steel Is Type Rule", "body": "Cold steel is a typographic color, not a background or a border fill. Surfaces are ink; steel is what is written on them.", "section": "colors" },
       { "name": "The Two-Face Rule", "body": "Uppercase belongs to Big Shoulders and mono labels. Body copy is never tracked, never uppercase, never condensed — Barlow at 15.5px/1.65 is the reading voice and it does not get a costume.", "section": "typography" },
       { "name": "The 54em Rule", "body": "Prose never exceeds 54em (roughly 70 characters at this size); the hero body caps at 46em. Widening a text column is not a way to fill space — the third rail column exists for that.", "section": "typography" },
-      { "name": "The Flat-By-Decree Rule", "body": "No outer shadows, no glows, no blurs except the header's. If an element needs to come forward, it changes surface color or border color, or it moves 2px. A shadow is a bug.", "section": "elevation" },
-      { "name": "The Dot Grid Rule", "body": "The dotted texture belongs to the page head and the hero only, always masked so it fades before it reaches content. It is a ruler, not wallpaper — it never repeats mid-article.", "section": "elevation" },
+      { "name": "The Flat-By-Decree Rule", "body": "No outer shadows, no glows, no blurs, no textures or patterns on the page. If an element needs to come forward, it changes surface color or border color, or it moves 2px. A shadow is a bug.", "section": "elevation" },
+      { "name": "The Seamless Header Rule", "body": "The sticky header is the same ink as the page, with no rule under it and no translucent layer over it. It is the mark and the actions, not a strip across the top.", "section": "elevation" },
       { "name": "The Dead Square Rule", "body": "Radius 0. A new component that would look better rounded does not belong in this system; find the edge, the bracket, or the rule instead.", "section": "shapes" },
       { "name": "The Bracket Rule", "body": "Corner ticks mark the element under the cursor, and they are the only chrome that ever appears on hover besides a border and a background step. They do not animate on entry beyond a 0.16s opacity fade, and they never appear at rest.", "section": "shapes" }
     ],
@@ -170,13 +170,13 @@
       "Do swap the whole accent to 2042 teal (#2fe0c8) via `[data-game=\"bf2042\"]` when the page documents Battlefield 2042."
     ],
     "donts": [
-      "Don't add shadows, glows, gradient text, or blurred glass anywhere except the header's 12px backdrop blur (The Flat-By-Decree Rule).",
+      "Don't add shadows, glows, gradient text, or blurred glass anywhere (The Flat-By-Decree Rule).",
       "Don't round a corner. No 2px, no 4px, no pills, no circles — a rounded element is a foreign object in this system (The Dead Square Rule).",
       "Don't show signal orange and 2042 teal on the same page, or use teal for anything outside Battlefield 2042 documentation.",
       "Don't drift gamer-neon (glow, neon gradients, esports chrome), SaaS-marketing (gradient meshes, rounded soft cards, illustration blobs, social proof bars), or editorial-warm (serif body, cream paper, oversized italic pull quotes). All three are confirmed anti-references.",
       "Don't adopt Material defaults: no ripple, no elevation ladder, no 4/12px radii, no Roboto.",
       "Don't tint a hint's background with its semantic color, or use amber/red for emphasis — they mean warning and error, nothing else.",
-      "Don't put the dot grid mid-article or repeat it as a section background; it marks the top of a page only."
+      "Don't add a texture, dot grid, or pattern behind the page; the surface is flat ink."
     ]
   }
 }
