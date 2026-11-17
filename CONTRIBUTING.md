@@ -34,7 +34,7 @@ The **docs** are also split into two parts:
 
 ### Local environment setup
 
-- Setup `hugo` on your machine, you can follow the [official guide](https://gohugo.io/installation/)
+- Setup `hugo` on your machine, you can follow the [official guide](https://gohugo.io/installation/). Use the extended edition, **0.168.0 or newer** — the layouts read their menus through `hugo.Data`, which arrived in 0.156.0. Cloudflare Pages builds with it too, so `HUGO_VERSION` is set to the same version there.
 - Clone this repository (requires [git](https://git-scm.com/))
   
   ```shell
