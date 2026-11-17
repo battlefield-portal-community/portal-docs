@@ -210,11 +210,11 @@ Five colors and no rainbow: **Code Body** (#c8d1da), **Code Keyword** (#ff8a65, 
 
 ## Layout
 
-A three-column documentation grid inside a 1424px wrap: a 272px sticky sidebar, a fluid content column, and a 216px sticky rail for on-page headings — the rail appearing only at ≥1360px, where the content column still clears a readable measure beside it. Below 1024px the sidebar becomes a drawer (min(320px, 86vw), sliding from the left, ink-base, with a 60% black scrim) and the page headings fold into a single `details` block above the article.
+A three-column documentation grid inside a 1424px wrap: a 272px sticky nav column, a fluid content column, and a 216px sticky rail for on-page headings — the rail appearing only at ≥1360px, where the content column still clears a readable measure beside it. The nav pins under the header and scrolls up under it again at the end of a short page, once the footer takes the rest of main. Below 1024px the nav column becomes a drawer (min(320px, 86vw), sliding from the left, ink-base, with a 60% black scrim) and the page headings fold into a single `details` block above the article.
 
-Horizontal padding steps 16px → 24px (≥640px) → 32px (≥1024px) on the wrap and the grid, and the grid gap is 44px between sidebar and content, 40px before the rail. Vertical rhythm is set by the content, not a token scale: a 60px sticky header, 22px padding above the page head, 18px below it, and 0.9em between prose blocks — with 1.7em above headings, which is what makes a long reference page scannable.
+Horizontal padding steps 16px → 24px (≥640px) → 32px (≥1024px) on the wrap and the grid, and the grid gap is 44px between nav column and content, 40px before the rail. Vertical rhythm is set by the content, not a token scale: a 60px sticky header, 22px padding above the page head, 18px below it, and 0.9em between prose blocks — with 1.7em above headings, which is what makes a long reference page scannable.
 
-Responsive breaks: 639px (header sheds the community icons), 720px (footer grid goes three columns), 1024px (sidebar appears, grid becomes two columns, the drawer button goes), 1100px (the search button gains its label and `/` keycap), 1360px (rail column appears, mobile TOC hides).
+Responsive breaks: 639px (header sheds the community icons), 720px (footer grid goes three columns), 1024px (nav column appears, the drawer button goes), 1100px (the search button gains its label and `/` keycap), 1360px (rail column appears, mobile TOC hides).
 
 ## Elevation & Depth
 

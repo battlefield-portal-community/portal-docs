@@ -381,6 +381,8 @@ summary::-webkit-details-marker {
 .doc-layout {
   display: grid;
   grid-template-columns: minmax(0, 1fr);
+  /* A short page still fills the window, so the footer sits at its foot. */
+  min-height: calc(100vh - var(--header-h));
   max-width: var(--wrap);
   margin-inline: auto;
   padding-inline: 16px;
@@ -420,6 +422,8 @@ summary::-webkit-details-marker {
   display: none;
 }
 
+/* The nav scrolls up under the header at the end of a short page, once the
+   footer has taken the rest of main. */
 @media (min-width: 1024px) {
   .sidebar {
     display: block;
@@ -1682,6 +1686,10 @@ summary::-webkit-details-marker {
     position: sticky;
     top: var(--header-h);
     margin-left: -16px;
+    /* Pinned from the first pixel: the rail carries the shell's top padding
+       itself, so it is flush with the header instead of sliding 26px up. */
+    margin-top: -26px;
+    padding-top: 26px;
   }
 
   .home-rail {
