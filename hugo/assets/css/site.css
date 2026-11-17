@@ -274,8 +274,8 @@ summary::-webkit-details-marker {
 }
 
 .brand__mark {
-  width: 31px;
-  height: 27px;
+  width: 40px;
+  height: 35px;
   color: var(--color-accent);
   transition: color 0.15s var(--ease);
 }

@@ -229,7 +229,7 @@ Two exceptions, both atmosphere rather than depth: the sticky header sits on ink
 
 Radius is 0 everywhere: buttons, cards, hints, tabs, tables, code blocks, the search dialog, the drawer, icon buttons. Borders are 1px, and the only 2px line in the system is a semantic one (the left rail of a hint, the top of the active tab underline).
 
-The form language is bracketed and angular. Cards grow accent corner ticks on hover — four 12px L-brackets drawn with gradients at their corners, like a targeting reticle settling on the target. Chevrons are 14px, drawn at 1.6px stroke, and rotate 90° to open a section. The brand mark is the Portal chevron: an angular, two-segment arrow, fill-current, 31×27px in the header. Nothing in the system is a pill, a blob, or a circle; even the icon button is a 36px square.
+The form language is bracketed and angular. Cards grow accent corner ticks on hover — four 12px L-brackets drawn with gradients at their corners, like a targeting reticle settling on the target. Chevrons are 14px, drawn at 1.6px stroke, and rotate 90° to open a section. The brand mark is the Portal chevron: an angular, two-segment arrow, fill-current, 40×35px in the header. Nothing in the system is a pill, a blob, or a circle; even the icon button is a 36px square.
 
 ### Named Rules
 **The Dead Square Rule.** Radius 0. A new component that would look better rounded does not belong in this system; find the edge, the bracket, or the rule instead.
