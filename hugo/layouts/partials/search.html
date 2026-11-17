@@ -1,0 +1,24 @@
+{{- /* The search dialog. Its index is built once, by the home page's JSON
+       output. */ -}}
+<dialog class="search" data-search="{{ "index.json" | relURL }}" aria-label="Search the documentation">
+  <div class="search__field">
+    {{ partial "icon" (dict "name" "search") }}
+    <input
+      class="search__input"
+      data-search-input
+      type="search"
+      placeholder="Search the documentation…"
+      aria-label="Search the documentation"
+      autocomplete="off"
+      autocapitalize="off"
+      spellcheck="false"
+    >
+    <kbd class="search__esc">Esc</kbd>
+  </div>
+  <ul class="search__results" data-search-results></ul>
+  <p class="search__help">
+    <span><kbd>↑</kbd><kbd>↓</kbd> to move</span>
+    <span><kbd>Enter</kbd> to open</span>
+    <span><kbd>/</kbd> to search from anywhere</span>
+  </p>
+</dialog>

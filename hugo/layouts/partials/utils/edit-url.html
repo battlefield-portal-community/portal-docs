@@ -1,0 +1,12 @@
+{{- /* The GitHub edit URL for this page's source. A block page's source is its
+       extra.md, which is why the link is labelled differently there. */ -}}
+{{- $page := . -}}
+{{- $url := "" -}}
+{{- with $page.Params.geekdocFilePath -}}
+  {{- $url = printf "%s/%s/%s" $page.Site.Params.githubRepo $page.Site.Params.editPath . -}}
+{{- else -}}
+  {{- with $page.File -}}
+    {{- $url = printf "%s/%s/%s" $page.Site.Params.githubRepo $page.Site.Params.editPath .Path -}}
+  {{- end -}}
+{{- end -}}
+{{- return $url -}}

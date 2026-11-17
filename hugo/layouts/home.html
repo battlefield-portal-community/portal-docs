@@ -1,0 +1,68 @@
+{{ define "main" }}
+{{- /* The root page: the sections as a numbered vertical list on the left (the
+       header's horizontal nav is dropped here), then a masthead and one tile per
+       section — a mono preview plate, a hand-written line, and the way in. */ -}}
+<main id="content">
+  <div class="wrap home-shell">
+    <aside class="home-rail">
+      <nav aria-label="Documentation">
+        <ol class="rail__list">
+          {{- range $i, $s := hugo.Data.menu.main.main }}
+            {{- $name := or $s.short $s.name }}
+            {{- if $s.ref }}{{ with site.GetPage $s.ref }}
+              <li>
+                <a class="rail__item" href="{{ .RelPermalink }}">
+                  {{ partial "rail-n" (dict "index" $i "level" 0) }}
+                  <span class="rail__name">{{ $name }}</span>
+                </a>
+              </li>
+            {{ end }}{{ end }}
+          {{- end }}
+        </ol>
+      </nav>
+    </aside>
+
+    <section class="home-hero">
+      <h1 class="home-hero__title"><span>{{ .Title }}</span></h1>
+      <div class="home-hero__brief">
+        <div class="home-hero__lede">{{ .Content }}</div>
+        <div class="home-hero__actions">
+          <button type="button" class="btn" data-search-open>
+            {{ partial "icon" (dict "name" "search") }}
+            Search the docs
+          </button>
+          <span class="home-hero__key">or press <kbd>/</kbd></span>
+        </div>
+      </div>
+    </section>
+
+    <nav class="home-row__wrap" aria-label="Documentation sections" data-shelf>
+      <ul class="home-row">
+        {{- range first 4 hugo.Data.menu.main.main }}
+          {{- $name := or .short .name }}
+          {{- $blurb := .blurb }}
+          {{- $image := .image }}
+          {{- if .ref }}{{ with site.GetPage .ref }}
+            <li class="tile">
+              <a class="tile__link" href="{{ .RelPermalink }}">
+                <span class="tile__plate">
+                  {{- with $image }}
+                    <img class="tile__img" src="{{ . | relURL }}" alt="" loading="lazy">
+                  {{- end }}
+                  <span class="tile__name">
+                    {{ $name }}
+                    {{ partial "icon" (dict "name" "arrow-right") }}
+                  </span>
+                </span>
+                {{- with $blurb }}
+                  <span class="tile__text">{{ . }}</span>
+                {{- end }}
+              </a>
+            </li>
+          {{ end }}{{ end }}
+        {{- end }}
+      </ul>
+    </nav>
+  </div>
+</main>
+{{ end }}

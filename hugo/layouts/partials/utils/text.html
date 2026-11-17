@@ -1,0 +1,14 @@
+{{- /* A page as one line of plain text, for its description and for search.
+       The table of contents and the section's cards are not part of what
+       someone wrote, so they are removed first. */ -}}
+{{- $page := . -}}
+{{- $raw := printf "%s" $page.Content -}}
+{{- $raw = replaceRE `(?s)<nav[^>]*class="toc-inline".*?</nav>` "" $raw -}}
+{{- $raw = replaceRE `(?s)<section class="section-cards".*?</section>` "" $raw -}}
+{{- $raw = replaceRE `<a class="heading-anchor".*?</a>` "" $raw -}}
+{{- $text := $raw | plainify | replaceRE `\s+` " " | htmlUnescape | strings.TrimSpace -}}
+{{- if eq $page.Type "typedoc_gen" -}}
+  {{- /* The generated pages open with the same two lines of navigation. */ -}}
+  {{- $text = replaceRE `^.*?(Function:|Variable:|Type alias:|Interface:|Enumeration:|Class:)` "$1" $text -}}
+{{- end -}}
+{{- return $text -}}

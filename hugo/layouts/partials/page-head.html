@@ -1,0 +1,31 @@
+{{- /* Crumbs, the page's name and the way to its source. A block's page has no
+       name here: its documentation starts with one of its own, and the row
+       that holds the source link follows the article instead (see doc-shell). */ -}}
+{{- $page := . -}}
+{{- $blockPage := eq $page.Layout "block_documentation" -}}
+<div class="page-head">
+  <nav class="crumbs" aria-label="Breadcrumb">
+    <a href="{{ $page.Site.Home.RelPermalink }}">Docs</a>
+    {{- $trail := $page.Ancestors.Reverse }}
+    {{- range $trail }}
+      {{- if not .IsHome }}
+        <span class="sep" aria-hidden="true">/</span>
+        <a href="{{ .RelPermalink }}">{{ partial "utils/title" . }}</a>
+      {{- end }}
+    {{- end }}
+    {{- if ne $page.Layout "block_documentation" }}
+      <span class="sep" aria-hidden="true">/</span>
+      <span aria-current="page">{{ partial "utils/title" $page }}</span>
+    {{- end }}
+  </nav>
+
+  {{- if ne $page.Layout "block_documentation" }}
+    <h1>{{ partial "utils/title" $page }}</h1>
+  {{- end }}
+
+  {{- if not $blockPage }}
+    <div class="page-head__meta">
+      {{ partial "page-meta" $page }}
+    </div>
+  {{- end }}
+</div>

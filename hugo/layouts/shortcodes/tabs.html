@@ -1,0 +1,18 @@
+{{- /* A group of tabs. The `tab` shortcode inside fills it. */ -}}
+{{- if .Inner }}{{ end -}}
+{{- $id := .Get 0 | urlize -}}
+{{- $group := printf "tabs-%s" $id -}}
+{{- $tabs := .Scratch.Get $group -}}
+<div class="tabs" data-count="{{ len $tabs }}">
+  {{- range $index, $tab := $tabs }}
+    <input
+      type="radio"
+      class="tabs__radio"
+      name="{{ $group }}"
+      id="{{ printf "%s-%d" $group $index }}"
+      {{ if not $index }}checked{{ end }}
+    >
+    <label class="tabs__label" for="{{ printf "%s-%d" $group $index }}">{{ $tab.Name }}</label>
+    <div class="tabs__panel">{{ .Content | $.Page.RenderString }}</div>
+  {{- end }}
+</div>

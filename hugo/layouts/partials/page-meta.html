@@ -1,0 +1,14 @@
+{{- /* The way to the page's source, and when it last changed. Wrapped by the
+       page head on a normal page and by the doc shell on a block page, where
+       the title comes from the generated article instead. A block's source is
+       its extra.md, so the label says what the link actually does. */ -}}
+{{- $page := . -}}
+{{- with partial "utils/edit-url" $page }}
+  <a href="{{ . }}" rel="noopener">
+    {{ partial "icon" (dict "name" "edit" "class" "icon icon--sm") }}
+    {{- if hasSuffix . "/extra.md" }}Add a note{{ else }}Edit this page{{ end -}}
+  </a>
+{{- end }}
+{{- with $page.Lastmod }}
+  {{- if gt .Unix 0 }}<span>{{ .Format "Jan 2, 2006" }}</span>{{ end }}
+{{- end }}

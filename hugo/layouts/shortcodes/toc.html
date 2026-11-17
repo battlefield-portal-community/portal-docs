@@ -1,0 +1,13 @@
+{{- /* The page's own headings, where the text puts them. `format=raw` prints
+       Hugo's list without the box. */ -}}
+{{- $format := default "html" (.Get "format") | lower -}}
+{{- with .Page.TableOfContents -}}
+  {{- if eq $format "raw" -}}
+    {{ . }}
+  {{- else -}}
+    <nav class="toc-inline" aria-label="On this page">
+      <p class="toc__label">On this page</p>
+      {{ . }}
+    </nav>
+  {{- end -}}
+{{- end -}}

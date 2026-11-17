@@ -1,5 +1,7 @@
 main:
   - name: Introduction
+    blurb: What Portal is, where it came from, and what to expect from progression.
+    image: images/portal-intro.jpeg
     ref: "/introduction/"
     sub:
       - name: Battlefield Portal Documentation
@@ -12,6 +14,9 @@ main:
         ref: "/introduction/xp-limitation"
   
   - name: BF6 Portal
+    short: BF6
+    blurb: The Battlefield 6 scripting API — every mod and modlib class, hook and function.
+    image: images/bf6_tile_picture.jpeg
     ref: "/santiago/"
     sub:
       - name: "Scripting"
@@ -21,7 +26,15 @@ main:
           ref: "/santiago/scripting/mod/"
         - name: modlib
           ref: "/santiago/scripting/modlib/"
+  - name: Godot
+    blurb: The community Godot tooling for Portal maps and scenes.
+    image: images/godot-bf6.png
+    ref: "/godot/"
+
   - name: Portal Builder
+    short: BF2042
+    blurb: Game modes, map layouts, and the rules editor, block by block.
+    image: images/2042_tile_picture.jpeg
     ref: "/portal-builder/"
     sub:
       - name: Game Modes
@@ -643,6 +656,7 @@ main:
                 ref: "/portal-builder/rules-editor/block-reference/Xor"
               # - name: generated-block-reference-end-do-not-remove
   - name: Tutorials
+    blurb: Step-by-step builds, from custom spawnpoints to a full game mode.
     ref: "/tutorial"
     sub:
       - name: Custom Spawnpoints
@@ -661,6 +675,7 @@ main:
           - name: Custom Rush
             ref: "/tutorial/complete-game-modes/Custom-Rush"
   - name: Tools
+    blurb: Community-made utilities that make building experiences less painful.
     ref: "/tools"
     sub:
       - name: Portal Browser Extension
@@ -668,8 +683,10 @@ main:
       - name: Coordinate Finder
         ref: "/tools/coordinate-finder"
   - name: Bookmarks
+    blurb: Links worth keeping — libraries, communities and reference sites.
     ref: "/bookmarks/"
     icon: gdoc_bookmark
   - name: Contributing
+    blurb: How to add pages, fix mistakes and get your work merged.
     ref: "/contributing/how"
     icon: gdoc_git

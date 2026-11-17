@@ -1,0 +1,16 @@
+{{- /* The menu, flattened: every page it names, in the order it names them.
+       Prev/next walks this. */ -}}
+{{- $out := slice -}}
+{{- range . -}}
+  {{- $url := "" -}}
+  {{- if and .ref (not (hasPrefix .ref "http")) -}}
+    {{- with site.GetPage .ref }}{{ $url = .RelPermalink }}{{ end -}}
+  {{- end -}}
+  {{- if $url -}}
+    {{- $out = $out | append (dict "name" .name "url" $url) -}}
+  {{- end -}}
+  {{- with .sub -}}
+    {{- $out = $out | append (partial "utils/flat-menu" .) -}}
+  {{- end -}}
+{{- end -}}
+{{- return $out -}}

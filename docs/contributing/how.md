@@ -19,7 +19,7 @@ These are not rules but just some suggestion, so feel free to propose any change
 The project is split into two parts:
 
 - The docs themselves, written in markdown and located in the `docs` folder
-- The website, built with [Geekdocs](https://geekdocs.de/) and located in the `hugo` folder
+- The website, a [Hugo](https://gohugo.io/) site whose theme lives in the `hugo` folder (layouts, styles and scripts are our own)
 
 ---
 

@@ -1,0 +1,44 @@
+{{- /* A page of documentation: the navigation, its head and its text, and the
+       headings beside it. Takes the page and its rendered article. */ -}}
+{{- $page := .page -}}
+{{- $article := .article | printf "%s" -}}
+{{- $article = replaceRE `(?s)(<table>.*?</table>)` `<div class="table-wrap">$1</div>` $article -}}
+{{- $inlineToc := strings.Contains $page.RawContent "{{< toc" -}}
+{{- $hasToc := and $page.TableOfContents (not $inlineToc) -}}
+{{- /* A block page's headings arrive with the generated article, after Hugo
+       has built .TableOfContents, so its list would hold the title alone.
+       Nothing to navigate: no rail, no folded box. */ -}}
+{{- if eq $page.Layout "block_documentation" }}{{ $hasToc = false }}{{ end -}}
+<div class="doc-layout{{ if $hasToc }} doc-layout--toc{{ end }}">
+  <aside class="sidebar">
+    {{ partial "sidenav" $page }}
+  </aside>
+
+  <div class="content">
+    {{ partial "page-head" $page }}
+
+    {{- if $hasToc }}
+      <details class="toc-mobile">
+        <summary>On this page {{ partial "icon" (dict "name" "chevron-down" "class" "icon icon--sm") }}</summary>
+        {{ $page.TableOfContents }}
+      </details>
+    {{- end }}
+
+    <article class="prose" id="main-content" tabindex="-1">{{ $article | safeHTML }}</article>
+
+    {{- if eq $page.Layout "block_documentation" }}
+      <div class="page-meta">
+        {{ partial "page-meta" $page }}
+      </div>
+    {{- end }}
+
+    {{ partial "page-nav" $page }}
+  </div>
+
+  {{- if $hasToc }}{{ partial "rail-toc" $page }}{{ end }}
+</div>
+
+<aside class="sidebar-drawer" id="drawer" data-drawer>
+  {{ partial "sidenav" $page }}
+</aside>
+<div class="scrim" data-scrim aria-hidden="true"></div>

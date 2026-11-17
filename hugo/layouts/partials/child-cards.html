@@ -1,0 +1,23 @@
+{{- /* The pages below this one, as cards. Used by section pages and by the
+       toc-tree shortcode. */ -}}
+{{- $pages := where .pages "Params.geekdocHidden" "ne" true -}}
+{{- $heading := default false .heading -}}
+{{- if $pages }}
+<section class="section-cards"{{ if not $heading }} aria-label="Pages in this section"{{ end }}>
+  {{- if $heading }}
+    <h2 class="section-title">In this section</h2>
+  {{- end }}
+  <ul class="cards">
+    {{- range $pages }}
+      <li>
+        <a class="card" href="{{ .RelPermalink }}">
+          <span class="card__title">{{ partial "utils/title" . }}</span>
+          {{- with .Description }}
+            <span class="card__text">{{ . }}</span>
+          {{- end }}
+        </a>
+      </li>
+    {{- end }}
+  </ul>
+</section>
+{{- end }}

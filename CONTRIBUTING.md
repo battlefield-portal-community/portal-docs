@@ -11,7 +11,7 @@ These are not rules but just some suggestion, so feel free to propose any change
 The project is split into two parts:
 
 - The docs themselves, written in markdown and located in the `docs` folder
-- The website, built with [Geekdocs](https://geekdocs.de/) and located in the `hugo` folder
+- The website, a [Hugo](https://gohugo.io/) site whose theme lives in the `hugo` folder (layouts, styles and scripts are our own)
 
 ---
 
@@ -27,13 +27,14 @@ The **docs** are also split into two parts:
     - Any changes to this file **will be overwritten** when the docs are regenerated
 
   - The **`docs/portal_blocks/<block_name>/docs/extra.md`** file is where you can add extra information about the block
+    - It becomes the page's **Community notes** section, and any block page shows an empty one until someone fills it
     - This file will **not be overwritten** when the docs are regenerated
 
 ## Contributing to the docs
 
 ### Local environment setup
 
-- Setup `hugo` on your machine, you can follow the [official guide](https://gohugo.io/installation/)
+- Setup `hugo` on your machine, you can follow the [official guide](https://gohugo.io/installation/). Use the extended edition, **0.168.0 or newer** — the layouts read their menus through `hugo.Data`, which arrived in 0.156.0. Cloudflare Pages builds with it too, so `HUGO_VERSION` is set to the same version there.
 - Clone this repository (requires [git](https://git-scm.com/))
   
   ```shell
@@ -64,7 +65,7 @@ hugo new content [guide|tutorial]/<name_of_tutorial_or_guide>
   - `index.md` which is the root of the block documentation
   - A folder called `docs` which contains the documentation for the block
     - In the `docs` folder find/create a file called `extra.md` and add the extra information there.
-    - All the new information will be added to the bottom of the block documentation page.
+    - All the new information will be added to the bottom of the block documentation page, under **Community notes**.
 - The code which generates the block documentation structure can be found at `/generators`
 
 ## TODOs (PRs welcome :D )

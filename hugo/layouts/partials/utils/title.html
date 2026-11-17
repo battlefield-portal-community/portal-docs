@@ -1,0 +1,24 @@
+{{- /* A page's name: its title, then its name in the menu, then its file's. */ -}}
+{{- $page := . -}}
+{{- $title := "" -}}
+{{- with $page.Title -}}
+  {{- $title = . -}}
+{{- else -}}
+  {{- range hugo.Data.menu.main.main -}}
+    {{- $item := . -}}
+    {{- if and $item.ref (not (hasPrefix $item.ref "http")) -}}
+      {{- with site.GetPage $item.ref -}}
+        {{- if eq . $page }}{{ $title = $item.name }}{{ end -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+  {{- if not $title -}}
+    {{- with $page.File -}}
+      {{- $title = strings.TrimSuffix "/_index.md" (printf "/%s" .Path) | path.Base | humanize | title -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- if not $title -}}
+  {{- $title = $page.Site.Title -}}
+{{- end -}}
+{{- return $title -}}

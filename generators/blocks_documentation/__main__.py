@@ -84,17 +84,22 @@ def write_official_doc(doc_json_file: pathlib.Path, block_name: str):
     doc = [DISCLAIMER, f"{doc_json['summary']}"]
 
     if doc_json.get("inputs", False):
-        doc.extend(["### Inputs", "\n".join(doc_json["inputs"])])
+        doc.extend(["## Inputs", "\n".join(doc_json["inputs"])])
 
     if doc_json.get("output", False):
-        doc.extend(["### Output", "\n".join(doc_json["output"])])
+        doc.extend(["## Output", "\n".join(doc_json["output"])])
 
     block_image_url = (
         f"https://raw.githubusercontent.com/battlefield-portal-community/"
         f"Image-CDN/main/portal_blocks/{block_name}.png"
     )
 
-    doc.append(f"\n![{block_name}]({block_image_url})")
+    # The image is the block as the rules editor draws it, and its colour is
+    # the block's category, which readers navigate by. Keep the artwork as it
+    # ships; the title becomes the caption.
+    doc.append(
+        f'\n![{block_name}]({block_image_url} "As it appears in the rules editor")'
+    )
 
     doc.append(DISCLAIMER)
     doc_file = BUILD_DIR / block_name / "docs" / "official.md"

@@ -8,13 +8,6 @@ weight: 1
 geekdocFilePath: "_index.md"
 ---
 
-This documentation is intended to help you get started with creating your own Battlefield Portal game mode.
-It is a work in progress and will be updated as more information becomes available.
-
-{{< button relref="/introduction" size=large >}}Introduction{{< /button >}}
-
-<div style="text-align: left">
-{{< hint type=important >}}
-This documentation is hand-crafted by the community and is not affiliated with EA or DICE.
-{{< /hint >}}
-</div>
+Community-written documentation for Battlefield Portal: the BF6 scripting API,
+the 2042 rules editor and its blocks, every map layout, and the tools people
+build around them.

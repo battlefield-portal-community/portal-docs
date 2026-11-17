@@ -1,0 +1,9 @@
+{{ define "main" }}
+  {{ $article := .Content }}
+  {{- /* A section that lists its pages itself, with `toc-tree`, does not get
+         a second list under its text. */ -}}
+  {{ if not (strings.Contains .RawContent "toc-tree") }}
+    {{ $article = printf "%s%s" $article (partial "child-cards" (dict "pages" .Pages "heading" true)) }}
+  {{ end }}
+  {{ partial "doc-shell" (dict "page" . "article" $article) }}
+{{ end }}

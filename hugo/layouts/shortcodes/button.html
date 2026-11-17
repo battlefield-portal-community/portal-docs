@@ -1,0 +1,8 @@
+{{- /* A link drawn as a button. `href` or `relref`, and `size=large`. */ -}}
+{{- $href := "" -}}
+{{- with .Get "href" }}{{ $href = . }}{{ end -}}
+{{- with .Get "relref" }}{{ $href = relref $ . }}{{ end -}}
+{{- $size := default "regular" (.Get "size" | lower) -}}
+{{- if not (in (slice "regular" "large") $size) }}{{ $size = "regular" }}{{ end -}}
+{{- $class := default "" (.Get "class") -}}
+<a class="btn{{ if eq $size "large" }} btn--large{{ end }}{{ with $class }} {{ . }}{{ end }}"{{ with $href }} href="{{ . }}"{{ end }}>{{ $.Inner }}</a>

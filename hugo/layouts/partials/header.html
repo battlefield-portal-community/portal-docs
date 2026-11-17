@@ -1,0 +1,29 @@
+{{- /* The bar at the top of every page: the Portal mark, search and the two
+       community links. The sections and the site's name are not repeated here;
+       the sidebar and the page title carry them. */ -}}
+<header class="site-header">
+  <div class="wrap site-header__inner">
+    <a class="brand" href="{{ .Site.Home.RelPermalink }}" aria-label="{{ .Site.Title }}">
+      <span class="portal-mark brand__mark" aria-hidden="true"></span>
+    </a>
+
+    <div class="header-actions">
+      <button type="button" class="icon-btn search-open" data-search-open aria-label="Search the documentation">
+        {{ partial "icon" (dict "name" "search") }}
+        <span>Search</span>
+        <kbd>/</kbd>
+      </button>
+      {{- with hugo.Data.menu.extra.header }}
+        {{- range . }}
+          {{- $icon := cond (eq .icon "discord") "discord" "github" }}
+          <a class="icon-btn" data-social href="{{ .ref }}" aria-label="{{ .name }}" rel="noopener">
+            {{ partial "icon" (dict "name" $icon) }}
+          </a>
+        {{- end }}
+      {{- end }}
+      <button type="button" class="icon-btn menu-btn" data-drawer-open aria-label="Open the navigation" aria-expanded="false" aria-controls="drawer">
+        {{ partial "icon" (dict "name" "menu") }}
+      </button>
+    </div>
+  </div>
+</header>
